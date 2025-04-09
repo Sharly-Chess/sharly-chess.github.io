@@ -1,1 +1,1 @@
-# sharly-chess-doc
+# Documentation utilisateur de Sharly Chess
