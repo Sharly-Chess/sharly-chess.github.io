@@ -1,0 +1,5 @@
+<div class="language-switcher">
+  {% for lang in site.languages %}
+  <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if lang == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ lang }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ lang }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+  {% endfor %}
+</div>
