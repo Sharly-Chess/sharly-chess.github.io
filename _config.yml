@@ -36,6 +36,7 @@ plugins:
 
 color_scheme: dark
 
+url: "https://sharly-chess.github.io/sharly-chess-doc"
 languages: ["en","fr"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public", " sitemap"]
