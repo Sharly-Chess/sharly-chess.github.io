@@ -32,7 +32,7 @@ Des contrôles de navigation permettent de changer de tournoi ou de ronde. Vous 
 
 Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cliquez sur le bouton d’appariement à côté de son nom dans la liste à gauche.
 - S’il y a un·e joueur·euse déjà affecté·e à un bye, vous pouvez les appairer directement ensemble.
-- Sinon, le·la joueur·euse recevra temporairement un bye jusqu’à ce qu’un·e adversaire compatible soit ajouté·e.
+- Sinon, le·la joueur·euse recevra un bye jusqu’à ce qu’un·e adversaire compatible soit ajouté·e.
 
 {: .warning }
 > ⚠︎ Appariement manuel réattribue **tous les numéros de table** pour la ronde en cours.

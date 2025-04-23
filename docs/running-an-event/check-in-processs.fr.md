@@ -39,7 +39,7 @@ Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordi
 Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointage en cliquant à nouveau sur le bouton **Pointage**. Si des joueurs·euses ne sont pas pointé·e·s, il vous sera demandé comment les traiter :
 
 - Leur attribuer un **bye à 0 point** pour la prochaine ronde, ou
-- Leur attribuer **0 point pour toutes les rondes restantes** du tournoi.
+- Leur attribuer des **byes à zéro point pour toutes les rondes restantes** du tournoi.
 
 {: .note }
 > ⓘ Cette action met à jour directement la base de données _Papi_. Les joueur·euse·s concerné·e·s apparaîtront en grisé dans _Papi_ et ne seront plus apparié·e·s — un vrai gain de temps par rapport à une gestion manuelle dans _Papi_.

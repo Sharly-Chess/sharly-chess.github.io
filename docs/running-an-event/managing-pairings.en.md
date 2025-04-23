@@ -32,7 +32,7 @@ Navigation controls allow you to switch between tournaments and rounds. You can 
 
 To manually pair players (typically late arrivals), click the pairing button next to a player's name in the unpaired list (left side).
 - If there is already a player assigned a pairing-allocated bye and ready to play, you can pair the new player as black against them.
-- If not, the player will be temporarily assigned a pairing-allocated bye until a suitable opponent is manually paired.
+- If not, the player will be assigned a pairing-allocated bye until a suitable opponent is manually paired.
 
 {: .warning }
 > ⚠︎ Manually pairing players will reassign all the board numbers for the round.  It is **highly** recommended to wait for the end of the round before pairing players manually.

@@ -39,7 +39,7 @@ To manage check-ins from other devices (like tablets or secondary computers), se
 When you're ready to start the tournament, close the check-in process by clicking the **Check-in** button again. If any players haven’t checked in, you’ll be asked how to handle them:
 
 - Assign a **zero-point bye** for the upcoming round, or
-- Assign **zero points for all remaining rounds** in the tournament.
+- Assign **zero-point byes for all remaining rounds** in the tournament.
 
 {: .note }
 > ⓘ This action updates the _Papi_ database directly. Affected players will appear greyed out in _Papi_ and will no longer be paired — a major time-saver compared to managing this manually using _Papi_ directly.
