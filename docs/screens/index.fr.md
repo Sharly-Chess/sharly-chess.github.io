@@ -22,21 +22,21 @@ Un serveur web n’est qu’un programme capable d’envoyer des pages à un nav
 ### Accéder à _Sharly Chess_ – l’URL
 
 L’URL est l’adresse que vous devez saisir dans la barre d’adresse de votre navigateur pour accéder à l’interface de _Sharly Chess_.
-Au démarrage de l’application, **deux lignes** s’affichent dans la fenêtre du terminal, par exemple :
+Sur la machine où _Sharly Chess_ est en cours d’exécution, l’URL de la page d’accueil est :
 
 ```
-URL locale : http://127.0.0.1
-URL LAN/WAN : http://10.211.55.3
+http://127.0.0.1
 ```
 
-Si vous utilisez uniquement un seul ordinateur, il suffit d’ouvrir une nouvelle fenêtre de navigateur et d’entrer l’**URL locale** pour accéder à l’interface.
-En général, vous souhaiterez aller vers l’interface **publique**, où vous pourrez configurer et afficher les Écrans créés.
-Vous pouvez ensuite déplacer cette fenêtre vers l’écran ou le vidéoprojecteur pour que les joueurs·euses puissent voir les informations.
+Si vous utilisez un seul ordinateur, il vous suffit d’ouvrir une nouvelle fenêtre de navigateur et de saisir l’**URL locale** pour afficher l’interface de _Sharly Chess_.
+En général, vous souhaiterez accéder à l’**interface publique**, qui vous permet d’afficher les Écrans que vous avez configurés — vous pourrez alors déplacer cette fenêtre vers l’écran ou le vidéoprojecteur pour que les joueurs·euses puissent la consulter.
 
-Si vous souhaitez accéder à _Sharly Chess_ depuis d’autres appareils du réseau, ouvrez un navigateur sur cet appareil et entrez l’**URL LAN/WAN**.
+Si vous souhaitez accéder à _Sharly Chess_ depuis d’autres appareils sur le réseau, ouvrez un navigateur sur cet appareil et entrez l’**URL LAN/WAN**.
+
+Pour connaître l’URL LAN/WAN, il suffit de visiter la page d’accueil de _Sharly Chess_ sur votre machine.
 
 {: .note }
-> ⚠︎ L’interface d’administration n’est accessible **que via l’URL locale**.
+> ⓘ L’interface d’administration n’est accessible **que via l’URL locale**.
 
 ### Le réseau local
 

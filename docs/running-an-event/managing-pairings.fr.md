@@ -13,7 +13,7 @@ Il n’est pas encore possible de générer directement les appariements depuis 
 Cependant, une fois générés, ils peuvent être entièrement gérés depuis la page **Appariements** de l’interface d’administration.
 
 {: .note }
-> ⚠︎ Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
+> ⓘ Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
 > La prise en charge officielle de cette fonctionnalité est prévue très prochainement.
 
 ---
@@ -49,10 +49,10 @@ Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du j
 - Marquer le·la joueur·euse comme **retiré·e**, ce qui lui attribue 0 point pour toutes les rondes restantes.
 
 {: .note }
-> ⚠︎ Selon les paramètres du tournoi, il se peut que vous ne puissiez pas attribuer un bye à 0,5 point si le·la joueur·euse a déjà atteint la limite autorisée, ou si le tournoi est dans ses dernières rondes.
+> ⓘ Selon les paramètres du tournoi, il se peut que vous ne puissiez pas attribuer un bye à 0,5 point si le·la joueur·euse a déjà atteint la limite autorisée, ou si le tournoi est dans ses dernières rondes.
 
 {: .note }
-> ⚠︎ Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’interface d’appariement.
+> ⓘ Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’interface d’appariement.
 > Si nécessaire, vous pouvez encore les ajouter depuis la page **Joueurs·euses** via l'historique du·de la joueur·euse.
 
 ---

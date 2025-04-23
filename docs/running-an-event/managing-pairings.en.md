@@ -13,7 +13,7 @@ Currently, it’s not possible to generate pairings directly from _Sharly Chess_
 However, once the pairings have been generated, they can be fully managed from the **Pairings** page in the admin interface.
 
 {: .note }
-> ⚠︎ An experimental version of _Sharly Chess_ can generate pairings directly using an open-source library called [bbPairings](https://github.com/BieremaBoyzProgramming/bbpPairings) — the same library used by several FIDE-endorsed tournament managers.
+> ⓘ An experimental version of _Sharly Chess_ can generate pairings directly using an open-source library called [bbPairings](https://github.com/BieremaBoyzProgramming/bbpPairings) — the same library used by several FIDE-endorsed tournament managers.
 > Official support for integrated pairing generation is coming soon.
 
 ---
@@ -48,10 +48,10 @@ To assign a bye, click the bye button next to a player's name. You’ll be able 
 - Mark the player as **withdrawn** (which assigns a zero-point bye for all remaining rounds).
 
 {: .note }
-> ⚠︎ Depending on tournament settings, you may not be able to assign a half-point bye if the player has already used the maximum allowed, or if the tournament is in its final rounds.
+> ⓘ Depending on tournament settings, you may not be able to assign a half-point bye if the player has already used the maximum allowed, or if the tournament is in its final rounds.
 
 {: .note }
-> ⚠︎ Full-point byes are deprecated by FIDE and not available from the pairings interface. If needed, you can still assign one manually via the **Players** page by viewing the player's tournament _Record_.
+> ⓘ Full-point byes are deprecated by FIDE and not available from the pairings interface. If needed, you can still assign one manually via the **Players** page by viewing the player's tournament _Record_.
 
 ---
 

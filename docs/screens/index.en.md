@@ -19,11 +19,10 @@ Don’t be put off by the technical terms — you don’t need to know anything 
 
 ### Accessing _Sharly Chess_ – the URL
 
-The URL is the address you enter into your browser's address bar to access the _Sharly Chess_ interface. When you start _Sharly Chess_, it will display something like this in the terminal window:
+The URL is the address you enter into your browser's address bar to access the _Sharly Chess_ interface.  On the machine where _Sharly Chess_ is running, the URL for the home page is:
 
 ```
-Local URL: http://127.0.0.1
-LAN/WAN URL: http://10.211.55.3
+http://127.0.0.1
 ```
 
 If you’re only using one machine, you can simply open a new browser window and enter the **local URL** to view the _Sharly Chess_ interface.
@@ -31,8 +30,10 @@ Typically, you’ll want to navigate to the **public** interface where you can a
 
 If you'd like to access _Sharly Chess_ from other devices on the network, open a browser on that device and enter the **LAN/WAN URL**.
 
+To find the LAN/WAN URL, visit the home page of _Sharly Chess_ on your machine.
+
 {: .note }
-> ⚠︎ The admin interface is only accessible via the **local URL**.
+> ⓘ The admin interface is only accessible via the **local URL**.
 
 ### The Local Network
 

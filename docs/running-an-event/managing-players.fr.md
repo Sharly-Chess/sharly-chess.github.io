@@ -29,11 +29,3 @@ Vous pouvez modifier l’attribution de tournoi d’un·e joueur·euse directeme
 Pour garantir que les informations — notamment les classements ELO — soient à jour, _Sharly Chess_ vous permet de synchroniser votre liste avec les versions les plus récentes des bases de données installées.
 
 Cliquez sur le bouton **Mettre à jour les joueurs·euses** pour choisir les bases à utiliser. Si des différences sont détectées, _Sharly Chess_ vous demandera de valider ou refuser les modifications proposées avant de les appliquer.
-
-## Pointage des joueurs·euses
-
-TODO
-
-## Dispenses (Byes)
-
-TODO
