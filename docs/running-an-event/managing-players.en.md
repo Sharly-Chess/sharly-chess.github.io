@@ -28,7 +28,3 @@ At the start of an event, it's common for players to switch between tournaments 
 To ensure player information — especially ELO ratings — is up to date, _Sharly Chess_ allows you to sync your player list with the latest versions of your installed databases.
 
 Click the **Update Players** button to choose which databases to use. If differences are found between your list and the database entries, you will be prompted to review and confirm any updates before applying them.
-
-## Checking in players
-
-## Byes

@@ -47,6 +47,10 @@ search_enabled: false
 callouts:
   note:
     color: blue
+  tip:
+    color: yellow
+  warning:
+    color: red
 
 # Exclude from processing.
 # The following items will not be processed, by default.

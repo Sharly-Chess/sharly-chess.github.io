@@ -25,6 +25,6 @@ After each round, you can generate a ranking list or cross table for players to 
 At the end of the tournament, _Sharly Chess_ can generate a TRF file of the results — the standard format recognized by FIDE.
 
 {: .note }
-> _Sharly Chess_ is currently writes the tournament results directly to the _Papi_ file, so arbiters in France should continue to upload this file directly to the _Fédération Française des Échecs_ site.
+> ⚠︎  _Sharly Chess_ is currently writes the tournament results directly to the _Papi_ file, so arbiters in France should continue to upload this file directly to the _Fédération Française des Échecs_ site.
 >
 > Future versions of _Sharly Chess_ will be independent of _Papi_ and will instead write the results to a separate database file.  It will then be possible to export a tournament to _Papi_ format in order to upload the tournament results directly to the _Fédération Française des Échecs_ site until such time as this site accepts TRF files.
