@@ -6,7 +6,7 @@ nav_order: 200
 lang: en
 ---
 
-# Getting Started
+# Running an Event
 
 ## Overview
 

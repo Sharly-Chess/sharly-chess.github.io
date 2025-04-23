@@ -6,7 +6,7 @@ nav_order: 200
 lang: fr
 ---
 
-# Bien démarrer
+# Gérer un événement
 
 ## Vue d’ensemble
 

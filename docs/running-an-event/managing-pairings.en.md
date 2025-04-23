@@ -9,7 +9,7 @@ lang: en
 
 # Managing Pairings
 
-Currently, it’s not yet possible to generate pairings directly from _Sharly Chess_. For now, pairings should continue to be generated manually using _Papi_.
+Currently, it’s not possible to generate pairings directly from _Sharly Chess_. For now, pairings should continue to be generated manually using _Papi_.
 However, once the pairings have been generated, they can be fully managed from the **Pairings** page in the admin interface.
 
 {: .note }
