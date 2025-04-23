@@ -43,7 +43,7 @@ default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public", " sitemap"]
 lang_from_path: true
 langsep: "|"
-search_enabled: false
+search_enabled: true
 
 callouts:
   note:
