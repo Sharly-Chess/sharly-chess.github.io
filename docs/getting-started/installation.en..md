@@ -18,7 +18,7 @@ lang: en
 
 ### Linux and macOS
 
-Sharly Chess is not yet available on Linux or macOS. Support for these platforms is planned as soon as we [remove our dependency](/relation-to-papi) on the `.papi` file format (which relies on Microsoft Access, a Windows-only technology).
+Sharly Chess is not yet available on Linux or macOS. Support for these platforms is planned as soon as we [remove our dependency]({{ site.baseurl }}/relation-to-papi) on the `.papi` file format (which relies on Microsoft Access, a Windows-only technology).
 
 ## Running Sharly Chess
 
