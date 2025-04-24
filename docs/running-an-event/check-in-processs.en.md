@@ -29,7 +29,7 @@ Once active, each player's check-in status will be shown in the table — either
 {: .tip }
 > ☞ Use the filter option to display only players who haven't checked in yet. This helps quickly identify who’s missing.
 
-To manage check-ins from other devices (like tablets or secondary computers), see the [Screens]({{ site.baseurl }}/screens) section.
+To manage check-ins from other devices (like tablets or secondary computers), see the [Screens]({% link docs/screens/index.en.md %}) section.
 
 {: .tip }
 > ☞ You'll need to refresh your browser from time to time to see the changes from other devices.

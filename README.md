@@ -27,19 +27,27 @@ You should read the documentation for both of these projects to understand how t
 
 ### Markdown links
 
-When linking to other pages using Markdown, you'll need to add the `site.baseurl` prefix to the URL, for example:
+When linking to other pages using Markdown, you'll either need to add the `site.baseurl` prefix to the URL, for example:
 
 ```
 This is a link to the [Player Databases]({{ site.baseurl }}/databases) page.
 ```
 
-If you don't do this then the link will work locally, but it won't work when deployed to GitHub Pages since we have a base URL of `/sharly-chess-doc` when hosted.
-
-Also keep in mind that if the permalink has been localized, then the link will also need to be localized for each language file:
+or, _preferably_, use the link tag syntax to point to the file:
 
 ```
-This is a link to the [Screens]({{ site.baseurl }}/screens) page.
-Voici un lien vers la page [Écrans]({{ site.baseurl }}/ecrans).
+This is a link to the [Player Databases]({% link docs/player-databases/index.en.md %}) page.
+```
+
+If you don't do this then the link will work locally, but it won't work when deployed to GitHub Pages since we have a base URL of `/sharly-chess-doc` when hosted.
+
+The advantage of using the link tag is that the build will fail if the file doesn't exist, which helps catch errors early.
+
+Also keep in mind that you need to point to the correct language file for each link, for example:
+
+```
+This is a link to the [Screens]({% link docs/screens/index.en.md %}) page.
+Voici un lien vers la page [Écrans]({% link docs/screens/index.fr.md %}).
 ```
 
 ### Localization

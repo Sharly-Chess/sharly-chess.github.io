@@ -8,7 +8,7 @@ nav_order: 400
 
 # Player Databases
 
-When adding players to a tournament, you can search the **FIDE database** or any other player database provided by a federation via a [plugin]({{ site.baseurl }}/plugin-support).
+When adding players to a tournament, you can search the **FIDE database** or any other player database provided by a federation via a [plugin]({% link docs/plugins/index.en.md %}).
 
 The FIDE database must be downloaded and installed locally before it can be used. Plugins may also provide additional databases that behave the same way, or they may add support for online player databases.
 
