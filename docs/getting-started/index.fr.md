@@ -3,7 +3,6 @@ layout: page
 title: Bien démarrer
 permalink: /
 nav_order: 100
-lang: fr
 ---
 
 # Bien démarrer

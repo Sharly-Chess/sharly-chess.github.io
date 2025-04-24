@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Player databases
-permalink: player-databases/
-page_id: databases
+permalink: databases/
 nav_order: 400
 ---
 

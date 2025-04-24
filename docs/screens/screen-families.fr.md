@@ -2,9 +2,9 @@
 layout: page
 title: Familles d’écrans
 parent: Écrans
-permalink: screen-families/
+permalink: families-d-ecrans/
+page_id: screen-families
 nav_order: 200
-lang: fr
 ---
 
 # Familles d’écrans

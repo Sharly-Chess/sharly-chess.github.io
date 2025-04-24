@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Gérer les tournois
-permalink: managing-tournaments/
+permalink: gerer-les-tournois/
+page_id: managing-tournaments
 parent: Gérer un événement
 nav_order: 200
-lang: fr
 ---
 
 # Gérer les tournois

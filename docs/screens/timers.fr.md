@@ -2,9 +2,9 @@
 layout: page
 title: Chronomètres
 parent: Écrans
-permalink: timers/
+permalink: chronometres/
+page_id: timers
 nav_order: 500
-lang: fr
 ---
 
 # Chronomètres

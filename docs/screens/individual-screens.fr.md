@@ -2,9 +2,9 @@
 layout: page
 title: Écrans individuels
 parent: Écrans
-permalink: individual-screens/
+permalink: ecrans-individuels/
+page_id: individual-screens
 nav_order: 100
-lang: fr
 ---
 
 # Écrans individuels

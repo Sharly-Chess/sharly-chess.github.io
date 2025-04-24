@@ -4,7 +4,6 @@ title: Plugin FFE
 parent: Plugins
 permalink: ffe-plugin/
 nav_order: 400
-lang: fr
 ---
 
 # Le plugin FFE

@@ -2,9 +2,9 @@
 layout: page
 title: Managing Players
 permalink: managing-players/
+page_id: managing-players
 parent: Running an Event
 nav_order: 300
-lang: en
 ---
 
 # Managing Players

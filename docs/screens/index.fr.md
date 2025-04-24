@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Écrans
-permalink: screens/
+permalink: ecrans/
+page_id: screens
 nav_order: 300
-lang: fr
 ---
 
 # Écrans

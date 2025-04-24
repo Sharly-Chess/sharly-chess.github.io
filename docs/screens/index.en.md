@@ -2,8 +2,8 @@
 layout: page
 title: Screens
 permalink: screens/
+page_id: screens
 nav_order: 300
-lang: en
 ---
 
 # Screens

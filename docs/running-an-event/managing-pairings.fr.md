@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Gérer les appariements
-permalink: managing-pairings/
+permalink: gerer-les-appariements/
+page_id: managing-pairings
 parent: Gérer un événement
 nav_order: 500
-lang: fr
 ---
 
 # Gérer les appariements

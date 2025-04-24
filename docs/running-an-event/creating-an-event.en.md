@@ -2,9 +2,9 @@
 layout: page
 title: Creating an Event
 permalink: creating-an-event/
+page_id: creating-an-event
 parent: Running an Event
 nav_order: 100
-lang: en
 ---
 
 # Creating an Event

@@ -2,9 +2,9 @@
 layout: page
 title: Pilotes d’écrans
 parent: Écrans
-permalink: client-controllers/
+permalink: pilotes-d-ecrans/
+page_id: client-controllers
 nav_order: 400
-lang: fr
 ---
 
 # Pilotes d’écrans

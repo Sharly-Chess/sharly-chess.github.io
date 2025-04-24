@@ -2,9 +2,9 @@
 layout: page
 title: Managing Tournaments
 permalink: managing-tournaments/
+page_id: managing-tournaments
 parent: Running an Event
 nav_order: 200
-lang: en
 ---
 
 # Managing Tournaments

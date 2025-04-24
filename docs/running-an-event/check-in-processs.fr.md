@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Le processus de pointage
-permalink: check-ins/
+permalink: pointage/
+page_id: check-ins
 parent: Gérer un événement
 nav_order: 400
-lang: fr
 ---
 
 # Le processus de pointage

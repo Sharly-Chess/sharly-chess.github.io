@@ -2,9 +2,9 @@
 layout: page
 title: Check-in Process
 permalink: check-ins/
+page_id: check-ins
 parent: Running an Event
 nav_order: 400
-lang: en
 ---
 
 # The Check-in Process

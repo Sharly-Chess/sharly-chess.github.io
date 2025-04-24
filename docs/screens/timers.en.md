@@ -3,8 +3,8 @@ layout: page
 title: Timers
 parent: Screens
 permalink: timers/
+page_id: timers
 nav_order: 500
-lang: en
 ---
 
 # Timers

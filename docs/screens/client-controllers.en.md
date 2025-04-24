@@ -3,8 +3,8 @@ layout: page
 title: Client Controllers
 parent: Screens
 permalink: client-controllers/
+page_id: client-controllers
 nav_order: 400
-lang: en
 ---
 
 # Client Controllers

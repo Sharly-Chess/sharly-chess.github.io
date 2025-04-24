@@ -3,7 +3,6 @@ layout: page
 title: Getting Started
 permalink: /
 nav_order: 100
-lang: en
 ---
 
 # Getting Started

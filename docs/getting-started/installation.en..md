@@ -4,7 +4,6 @@ title: Installation
 permalink: installation/
 parent: Getting Started
 nav_order: 50
-lang: en
 ---
 
 # Installing Sharly Chess

@@ -2,7 +2,6 @@
 layout: page
 title: Bases de données joueurs·euses
 permalink: databases/
-page_id: databases
 nav_order: 400
 ---
 

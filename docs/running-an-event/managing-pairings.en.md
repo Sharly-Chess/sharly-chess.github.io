@@ -2,9 +2,9 @@
 layout: page
 title: Managing Pairings
 permalink: managing-pairings/
+page_id: managing-pairings
 parent: Running an Event
 nav_order: 500
-lang: en
 ---
 
 # Managing Pairings

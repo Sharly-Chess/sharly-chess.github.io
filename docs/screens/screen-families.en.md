@@ -3,8 +3,8 @@ layout: page
 title: Screen Families
 parent: Screens
 permalink: screen-families/
+page_id: screen-families
 nav_order: 200
-lang: en
 ---
 
 # Screen Families

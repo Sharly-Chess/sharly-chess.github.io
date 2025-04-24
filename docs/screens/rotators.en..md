@@ -3,8 +3,8 @@ layout: page
 title: Rotators
 parent: Screens
 permalink: rotators/
+page_id: rotators
 nav_order: 300
-lang: en
 ---
 
 # Rotators

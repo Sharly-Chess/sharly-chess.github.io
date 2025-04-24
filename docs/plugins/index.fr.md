@@ -3,7 +3,6 @@ layout: page
 title: Plugins
 permalink: plugin-support/
 nav_order: 500
-lang: fr
 ---
 
 # Plugins
