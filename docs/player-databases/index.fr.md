@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Bases de données joueurs·euses
-permalink: player-databases/
+permalink: databases/
+page_id: databases
 nav_order: 400
-lang: fr
 ---
 
 # Bases de données joueurs·euses

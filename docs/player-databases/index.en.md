@@ -2,8 +2,8 @@
 layout: page
 title: Player databases
 permalink: player-databases/
+page_id: databases
 nav_order: 400
-lang: en
 ---
 
 # Player Databases
