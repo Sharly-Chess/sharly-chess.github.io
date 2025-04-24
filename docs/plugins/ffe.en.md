@@ -3,6 +3,7 @@ layout: page
 title: FFE Plugin
 parent: Plugins
 permalink: ffe-plugin/
+page_id: ffe-plugin
 nav_order: 400
 ---
 
