@@ -26,16 +26,14 @@ _Sharly Chess_ offers six screen types to choose from when creating a new Screen
 {: .tip }
 > ☞ The pairings screens will display the check-in interface for a tournament when the check-in process is open.
 
-Most options when creating a screen are self-explanatory, but a few deserve additional detail:
-
 ---
+
+Most options when creating a screen are self-explanatory, but a few deserve additional detail:
 
 ### Layout
 
 For most screen types, you can customize the layout by specifying the number of columns and adjusting the font size.
 This is particularly helpful when you have just slightly too many players to fit comfortably on one screen — reducing the font size can help everything fit nicely.
-
----
 
 ### Alert Message
 
@@ -43,8 +41,6 @@ A scrolling alert message can be a powerful tool, especially when projecting on 
 For example: *“Would players X and Y please enter their results!”*
 
 This message can be set at the **event level**, which means it appears across all screens for that event, but you can also override it on a **per-screen** basis here.
-
----
 
 ### Menus
 
@@ -61,6 +57,8 @@ You can also use special values to include categories of Screens:
 - **@ranking** – All ranking Screens
 
 Note: You don’t need to add a menu to every screen. For example, if a screen is displayed via a projector (rather than on an interactive device), including a menu may not be appropriate.
+
+---
 
 ## Selecting the Boards to Display
 

@@ -98,7 +98,7 @@ If it doesn’t match, the row is highlighted in red and input is paused until y
 
 ## Self-entry by Players
 
-Instead of entering results yourself, you can provide a device (tablet or laptop) for players to enter their own.
+Instead of entering results yourself, you can provide a device (tablet or laptop) for players to enter the results themselves.
 This reduces workload and helps avoid errors. See the [Screens]({{ site.baseurl }}/screens) section for setup details.
 
 {: .tip }

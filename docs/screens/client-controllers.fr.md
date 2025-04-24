@@ -35,8 +35,8 @@ Une fois le pilote créé, vous pouvez lui attribuer un écran de deux manières
   Trouvez le pilote que vous souhaitez mettre à jour, cliquez sur **Attribuer un écran**, et choisissez l’écran ou l’écran rotatif à afficher.
 
 {: .note }
-> ⓘ Vous pouvez attribuer des **Écrans individuels** et des **Écrans rotatifs** à un pilote — mais pas des **Familles d’écrans** directement.
-> Pour afficher une Famille d’écrans, vous devez d’abord l’intégrer dans un écran rotatif.
+> ⓘ Vous pouvez attribuer des **Écrans individuels** et des **Écrans rotatifs** à un pilote — mais pas des **Familles d’écrans**, car celles-ci contiennent plusieurs écrans.
+> Pour afficher une Famille d’écrans, utilisez un **Écran rotatif**.
 
 ---
 

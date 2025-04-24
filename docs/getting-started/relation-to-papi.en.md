@@ -21,6 +21,6 @@ Although _Sharly Chess_ has evolved significantly since its early days, it still
 
 We’re now rapidly approaching the point where **_Sharly Chess_ can be used as a fully standalone tool**, with no need for _Papi_. _Sharly Chess_ already includes all the interface features required to run a Swiss-system tournament, and experimental versions can also generate pairings independently.
 
-Soon, we’ll eliminate the dependency on the _Papi_ file entirely. _Sharly Chess_ will be usable anywhere in the world, with federation-specific features provided through a plugin system.  Once we reach this stage we'll apply for FIDE endorsement.
+Soon, we’ll eliminate the dependency on the _Papi_ file entirely. _Sharly Chess_ will be usable anywhere, with federation-specific features provided through a plugin system.  Once we reach this stage we'll apply for FIDE endorsement.
 
 For arbiters in France — no worries: even once _Sharly Chess_ stops writing directly to `.papi` files, we’ll continue to support FFE workflows. _Sharly Chess_ now includes plugin support, and our **FFE plugin** will be able to generate a valid `.papi` file for submission to the federation.

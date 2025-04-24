@@ -24,7 +24,7 @@ Cette dépendance permet aux arbitres d’utiliser _Sharly Chess_ comme un compl
 Nous approchons rapidement du moment où **_Sharly Chess_ pourra être utilisé comme un outil totalement autonome**, sans aucun besoin de _Papi_.
 _Sharly Chess_ intègre déjà toutes les fonctionnalités d’interface nécessaires pour gérer un tournoi en système suisse, et des versions expérimentales peuvent déjà générer les appariements de manière indépendante.
 
-Bientôt, la dépendance au fichier `.papi` sera complètement supprimée. _Sharly Chess_ pourra alors être utilisé partout dans le monde, avec des fonctionnalités spécifiques à chaque fédération disponibles via un système de plugins.
+Bientôt, la dépendance au fichier `.papi` sera complètement supprimée. _Sharly Chess_ pourra alors être utilisé partout, avec des fonctionnalités spécifiques à chaque fédération disponibles via un système de plugins.
 Une fois ce cap franchi, nous pourrons demander à la FIDE d’officialiser _Sharly Chess_ comme logiciel reconnu pour les tournois FIDE.
 
 Et pour les arbitres en France — pas d’inquiétude : même lorsque _Sharly Chess_ ne générera plus directement de fichiers `.papi`, nous continuerons à prendre en charge les besoins spécifiques de la FFE. Grâce au système de plugins désormais intégré, notre **plugin FFE** pourra générer un fichier `.papi` parfaitement conforme pour l’envoi à la fédération.

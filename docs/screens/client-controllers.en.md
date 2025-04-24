@@ -38,8 +38,8 @@ Once your Client Controller is created, you can assign a screen to it in two way
   Find the controller you'd like to update, click the **Assign Screen** button, and choose the screen or rotator you want to display.
 
 {: .note }
-> ⓘ You can assign **Individual Screens** and **Rotators** to a controller — but not **Screen Families** directly.
-> To display a Screen Family, wrap it in a Rotator first.
+> ⓘ You can assign **Individual Screens** and **Rotators** to a controller — but not **Screen Families** since they have multiple screens associated with them.
+> To display a Screen Family, use a Rotator.
 
 ---
 

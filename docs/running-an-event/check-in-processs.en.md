@@ -13,7 +13,7 @@ Using _Sharly Chess_ to manage player check-ins helps ensure your tournament get
 
 You have several ways to handle check-ins:
 
-- You can check players in directly from the admin interface.
+- You can check-in players directly from the admin interface.
 - If you have tablets or computers available for player use, players can check themselves in via a dedicated input screen.
 - Alternatively, if you have multiple machines but prefer to restrict player access, staff or volunteers can use input screens on those devices to assist with check-ins and help distribute the workload.
 

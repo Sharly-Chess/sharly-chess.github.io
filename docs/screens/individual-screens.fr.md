@@ -26,16 +26,14 @@ _Sharly Chess_ propose six types d’écrans parmi lesquels choisir :
 {: .tip }
 > ☞ Lorsqu’un tournoi est en cours de pointage, les écrans d’appariement affichent l’interface de pointage.
 
-La plupart des options de création d’écran sont explicites, mais certaines méritent un peu plus d’explications :
-
 ---
+
+La plupart des options de création d’écran sont explicites, mais certaines méritent un peu plus d’explications :
 
 ### Mise en page
 
 Pour la plupart des types d’écrans, vous pouvez personnaliser la mise en page en indiquant le nombre de colonnes et en ajustant la taille de la police.
 C’est particulièrement utile si vous avez légèrement trop de joueurs·euses pour que tout tienne sur un seul écran — réduire la taille de la police permet souvent de tout faire rentrer.
-
----
 
 ### Message d’alerte
 
@@ -43,8 +41,6 @@ Un message d’alerte défilant peut s’avérer très utile, surtout lorsqu’i
 Par exemple : *« Les joueurs·euses X et Y sont prié·e·s de saisir leurs résultats. »*
 
 Ce message peut être défini au **niveau de l’événement**, ce qui signifie qu’il sera affiché sur tous les écrans liés à cet événement, mais vous pouvez aussi le personnaliser individuellement pour chaque écran.
-
----
 
 ### Menus
 

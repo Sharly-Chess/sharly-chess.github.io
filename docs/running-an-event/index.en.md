@@ -14,7 +14,7 @@ An **Event** in _Sharly Chess_ includes one or more individual **Tournaments** �
 
 You’ll probably want to create your Event well in advance and start adding players as they register. _Sharly Chess_ makes it easy to pull players from the FIDE database, as well as other sources depending on the plugins you’ve activated. Once added, players can be moved between tournaments with just a few clicks.
 
-On the day of the event, you can use _Sharly Chess_ to check in players as they arrive. If you'd like, you can also set up tablets or laptops to let players check themselves in.
+On the day of the event, you can use _Sharly Chess_ to check-in players as they arrive. If you'd like, you can also set up tablets or laptops to let players check themselves in.
 
 Once everyone is ready, you can generate pairings and start the tournaments. The pairings can be printed or displayed via a projector if you have one available.
 

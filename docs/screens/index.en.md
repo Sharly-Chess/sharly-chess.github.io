@@ -33,7 +33,7 @@ If you'd like to access _Sharly Chess_ from other devices on the network, open a
 To find the LAN/WAN URL, visit the home page of _Sharly Chess_ on your machine.
 
 {: .note }
-> ⓘ The admin interface is only accessible via the **local URL**.
+> ⓘ The _admin_ interface is only accessible via the **local URL**.
 
 ### The Local Network
 
@@ -43,5 +43,5 @@ If the venue has Wi-Fi, then simply connect all devices to that Wi-Fi network.
 If no Wi-Fi is available, here are a few options:
 
 - Share your mobile phone’s internet connection to create a temporary Wi-Fi network.
-- Bring your home router with you (the box that gives you your internet access). It doesn’t need to be connected to the internet at the venue — devices just need to connect to it's Wi-Fi network.
+- Bring your home router with you (the box that gives you your internet access). It doesn’t need to be connected to the internet at the venue — devices just need to connect to its Wi-Fi network.
 - If you’re technically inclined, you can configure your main computer to act as a Wi-Fi hotspot and let other devices connect directly to it.

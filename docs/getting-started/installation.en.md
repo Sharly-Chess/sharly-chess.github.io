@@ -30,6 +30,6 @@ On subsequent runs, _Sharly Chess_ will open the home page, where you can either
 
 ## Uninstalling _Sharly Chess_
 
-To uninstall _Sharly Chess_, simply delete the folder where you installed it.  _Sharly Chess_ doesn't install extra file elsewhere and doesn't create any registry entries, so it will be completely removed from your system.
+To uninstall _Sharly Chess_, simply delete the folder where you installed it.  _Sharly Chess_ doesn't install and extra files elsewhere and doesn't create any registry entries, so it will be completely removed from your system.
 
 ⚠️ Note however that your events will also be stored in this folder, so if you don't what to lose your event data, you'll need to move them to another location.
