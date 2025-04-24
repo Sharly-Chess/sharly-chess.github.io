@@ -15,12 +15,12 @@ Une fois un événement créé, vous pouvez y ajouter un ou plusieurs tournois.
 Dans le menu de navigation, cliquez sur **Tournois** pour accéder à la page correspondante, puis cliquez sur le bouton **Créer un tournoi**.
 
 | **ID** | Un identifiant unique pour le tournoi, utilisé dans les URL et en interne par _Sharly Chess_. |
-| **Nom** | Un nom lisible utilisé à des fins d’affichage (par exemple sur les [Écrans]({{ site.baseurl }}/screens)). |
+| **Nom** | Un nom lisible utilisé à des fins d’affichage (par exemple sur les [Écrans]({{ site.baseurl }}/ecrans)). |
 | **Rondes** | Le nombre de rondes du tournoi. |
 | **Cadence** | Le type de cadence du tournoi — Classique, Rapide ou Blitz. |
 | **Début / Fin** | Les dates de début et de fin du tournoi (écrasent les valeurs définies au niveau de l’événement). |
 | **Lieu** | Le lieu du tournoi (écrase la valeur définie au niveau de l’événement). |
-| **Dossier** | Dossier dans lequel le fichier _[Papi]({{ site.baseurl }}/relation-to-papi)_ sera stocké (écrase la valeur définie au niveau de l’événement). |
+| **Dossier** | Dossier dans lequel le fichier _[Papi]({{ site.baseurl }}/relation-avec-papi)_ sera stocké (écrase la valeur définie au niveau de l’événement). |
 | **Nom du fichier** | Le nom du fichier _Papi_. S’il n’existe pas encore, _Sharly Chess_ peut le créer pour vous automatiquement. |
 | **Cadence et incrément** | La cadence de jeu et l’incrément à la pendule pour chaque ronde. |
 | **Saisie des coups illégaux** | Permet de suivre les coups illégaux commis par joueur·euse. Un maximum peut être défini ici (écrase la valeur définie au niveau de l’événement). |

@@ -100,7 +100,7 @@ Si la saisie correspond, le tableau passe à la ligne suivante. En cas d’erreu
 ## Saisie par les joueur·euse·s
 
 Plutôt que d’entrer vous-même les résultats, vous pouvez fournir une tablette ou un ordinateur aux joueur·euse·s pour qu’ils·elles les saisissent directement.
-Cela réduit la charge de travail et les erreurs. Voir la section [Écrans]({{ site.baseurl }}/screens) pour les détails de configuration.
+Cela réduit la charge de travail et les erreurs. Voir la section [Écrans]({{ site.baseurl }}/ecrans) pour les détails de configuration.
 
 {: .tip }
 > ☞ Pensez à rafraîchir votre navigateur de temps en temps pour voir les résultats saisis depuis d’autres appareils.

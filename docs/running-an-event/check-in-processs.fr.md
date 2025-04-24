@@ -29,7 +29,7 @@ Une fois activé, le statut de pointage de chaque joueur·euse est affiché dans
 {: .tip }
 > ☞ Utilisez le filtre pour n’afficher que les joueurs·euses non pointé·e·s. Cela permet d’identifier rapidement les absences.
 
-Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordinateurs secondaires), voir la section [Écrans]({{ site.baseurl }}/screens).
+Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordinateurs secondaires), voir la section [Écrans]({{ site.baseurl }}/ecrans).
 
 {: .tip }
 > ☞ Vous devrez actualiser votre navigateur de temps en temps pour voir les changements effectués depuis d’autres appareils.

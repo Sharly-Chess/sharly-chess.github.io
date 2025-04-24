@@ -35,6 +35,13 @@ This is a link to the [Player Databases]({{ site.baseurl }}/databases) page.
 
 If you don't do this then the link will work locally, but it won't work when deployed to GitHub Pages since we have a base URL of `/sharly-chess-doc` when hosted.
 
+Also keep in mind that if the permalink has been localized, then the link will also need to be localized for each language file:
+
+```
+This is a link to the [Screens]({{ site.baseurl }}/screens) page.
+Voici un lien vers la page [Écrans]({{ site.baseurl }}/ecrans).
+```
+
 ### Localization
 
 The site is localized into French and English, are there are two separate files for each page.
