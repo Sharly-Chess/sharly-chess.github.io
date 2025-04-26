@@ -66,3 +66,22 @@
 .title-version {
   font-size: 0.7rem;
 }
+
+@media (min-width: 50rem) {
+  footer, hr:has(+ footer) {
+    display: none;
+  }
+}
+
+.side-footer {
+  display: none;
+}
+@media (min-width: 50rem) {
+  .side-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-end;
+    text-align: right
+  }
+}
