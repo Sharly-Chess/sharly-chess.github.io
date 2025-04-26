@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Bien démarrer
-permalink: /
+permalink: bien-demarrer/
+page_id: getting-started
 nav_order: 100
 ---
 

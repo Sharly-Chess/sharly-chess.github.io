@@ -5,3 +5,64 @@
   margin: 1rem;
   gap: 1rem;
 }
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+  flex: 1 0 auto;
+}
+
+.post-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  h3 {
+    margin-top: 0.2rem;
+  }
+
+  & + & {
+    margin-top: 2rem;
+  }
+}
+
+.post-link {
+  display: block;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  font-style: italic;
+
+  .bullet-divider { padding-inline: 15px }
+  .meta-label { font-weight: 600 }
+
+  .force-inline {
+    display: inline;
+    &::before {
+      content: "•";
+      padding-inline: 5px;
+    }
+  }
+  .post-authors { margin-top: 3px }
+}
+
+.read-more {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.title-version {
+  font-size: 0.7rem;
+}

@@ -1,3 +1,8 @@
-<div class="m-4 text-small">
-<i>Sharly Chess - <b>v{{ site.version }}</b></i>
+<div class="m-4 text-small" style="display: flex; flex-direction: column; gap: 0.2rem; align-items: flex-end; text-align: right;">
+  <i>
+    {% assign sorted = site.footer-links | sort: 'nav_order' %}
+    {% for link in sorted %}
+      <div><a class="nav-list-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></div>
+    {% endfor %}
+  </i>
 </div>
