@@ -30,7 +30,11 @@ layout: default
               {{ post.title | escape }}
             </a>
           </h3>
-          {{ post.excerpt }}
+          {% if post.summary %}
+            {{ post.summary | markdownify }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
           <a class="read-more" href="{{ post.url | relative_url }}">
             {{ site.data[site.active_lang].strings.read_more }}
           </a>
