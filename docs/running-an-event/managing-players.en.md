@@ -22,7 +22,7 @@ While you can enter a player's details manually, it’s often quicker and more r
 
 ## Changing Tournaments
 
-At the start of an event, it's common for players to switch between tournaments — for example, from an Open section to a U1600 section. You can update a player’s tournament assignment directly from the **Tournament** field in the Players table.
+At the start of an event, it's common for players to switch between tournaments — for example, from an Open section to an under 1600 Elo section. You can update a player’s tournament assignment directly from the **Tournament** field in the Players table.
 
 ## Updating Players from the Latest Databases
 

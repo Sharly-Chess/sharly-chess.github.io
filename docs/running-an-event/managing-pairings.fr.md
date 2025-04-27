@@ -13,7 +13,7 @@ Il n’est pas encore possible de générer directement les appariements depuis 
 Cependant, une fois générés, ils peuvent être entièrement gérés depuis la page **Appariements** de l’interface d’administration.
 
 {: .note }
-> ⓘ Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
+> ⓘ Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
 > La prise en charge officielle de cette fonctionnalité est prévue très prochainement.
 
 ---

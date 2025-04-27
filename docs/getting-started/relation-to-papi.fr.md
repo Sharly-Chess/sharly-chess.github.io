@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Relation to Papi
+title: Relation avec Papi
 parent: Bien démarrer
 permalink: relation-avec-papi/
 page_id: relation-to-papi

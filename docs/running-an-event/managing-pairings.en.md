@@ -13,7 +13,7 @@ Currently, it’s not possible to generate pairings directly from _Sharly Chess_
 However, once the pairings have been generated, they can be fully managed from the **Pairings** page in the admin interface.
 
 {: .note }
-> ⓘ An experimental version of _Sharly Chess_ can generate pairings directly using an open-source library called [bbPairings](https://github.com/BieremaBoyzProgramming/bbpPairings) — the same library used by several FIDE-endorsed tournament managers.
+> ⓘ An experimental version of _Sharly Chess_ can generate pairings directly using an open-source library called [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings) — the same library used by several FIDE-endorsed tournament managers.
 > Official support for integrated pairing generation is coming soon.
 
 ---
@@ -36,7 +36,7 @@ To manually pair players (typically late arrivals), click the pairing button nex
 
 {: .warning }
 > ⚠︎ Manually pairing players will reassign all the board numbers for the round.  It is **highly** recommended to wait for the end of the round before pairing players manually.
-> This is due to a restriction in _Papi_ and well be resolved in a future version once we move to a fully independent database.
+> This is due to a restriction in _Papi_ and will be resolved in a future version once we move to a fully independent database.
 
 ---
 
