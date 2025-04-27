@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.6 - 2025
+## Version 2.6.0 alpha 1 - April 27, 2025
 - Added the Pairings tab
 - Added manual pairing management
 - Added client controllers

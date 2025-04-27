@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.6 - 2025
+## Version 2.6.0 alpha 1 - 27 avril 2025
 - Ajout de l'onglet Appariements
 - Ajout de la gestion des appariements manuels
 - Ajout des contrôleurs de clients
