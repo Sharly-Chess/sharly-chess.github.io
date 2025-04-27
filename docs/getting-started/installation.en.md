@@ -9,18 +9,24 @@ nav_order: 50
 
 # Installing _Sharly Chess_
 
-### Windows
+## Windows
+
+### Requirements
+
+- Up to date Windows 10+
+- [The last release of Papi (3.3.8)](https://dna.ffechecs.fr/ressources/appariements/papi/)
+- [The Access driver](https://www.microsoft.com/en-us/download/details.aspx?id=54920), needed to open _Papi_ files
+
+> ℹ For 32/64bits compatibility of the Access driver, run `accessdatabaseengine_X64.exe /passive`
+
+### Installing _Sharly Chess_
 
 1. Download the latest version of _Sharly Chess_ from the [releases page](https://github.com/Sharly-Chess/sharly-chess/releases).
 2. Unzip the downloaded archive.
 3. Inside, you’ll find a folder named after the version number. Move this folder to a location of your choice.
-   We recommend placing it inside a parent folder named `SharlyChess` — this lets you keep multiple versions organized, and the automatic updater will install future versions into this same location.
+   We recommend placing it inside a parent folder named `sharly-chess` — this lets you keep multiple versions organized, and the automatic updater will install future versions into this same location.
 
-### Linux and macOS
-
-_Sharly Chess_ is not yet available on Linux or macOS. Support for these platforms is planned as soon as we [remove our dependency]({% link docs/getting-started/relation-to-papi.en.md %}) on the `.papi` file format (which relies on Microsoft Access, a Windows-only technology).
-
-## Running _Sharly Chess_
+### Running _Sharly Chess_
 
 To start the application, simply double-click the `.exe` file inside the version folder.
 
@@ -28,8 +34,18 @@ When run for the first time you'll be asked to choose your language and it will 
 
 On subsequent runs, _Sharly Chess_ will open the home page, where you can either access the admin interface or the client interface — which can be used by other devices on your network to display tournament information.
 
-## Uninstalling _Sharly Chess_
+### Updating _Sharly Chess_
+
+Each time you start the application, _Sharly Chess_ checks if a more recent release is available.
+
+When a new release is found, you are proposed to install it at the same level as the release you use.
+
+### Uninstalling _Sharly Chess_
 
 To uninstall _Sharly Chess_, simply delete the folder where you installed it.  _Sharly Chess_ doesn't install and extra files elsewhere and doesn't create any registry entries, so it will be completely removed from your system.
 
-⚠️ Note however that your events will also be stored in this folder, so if you don't what to lose your event data, you'll need to move them to another location.
+> ⚠️ Note however that your events will also be stored in this folder, so if you don't want to lose your event data, you'll need to move files `events/*.db` to another location before removing the folder.
+
+## Linux and macOS
+
+_Sharly Chess_ is not yet available on Linux or macOS. Support for these platforms is planned as soon as we [remove our dependency]({% link docs/getting-started/relation-to-papi.en.md %}) on the `.papi` file format (which relies on Microsoft Access, a Windows-only technology).

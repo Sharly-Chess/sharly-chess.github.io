@@ -8,10 +8,18 @@ nav_order: 100
 
 # Getting Started
 
-_Sharly Chess_ is a free, open-source, no-nonsense tool for managing individual chess tournaments. It takes care of everything from check-ins and pairings to FIDE exports. Built with practical tournament needs in mind, it also includes support for external displays and even allows players to enter their own results when appropriate.
+_Sharly Chess_ is a free, open-source, no-nonsense tool for managing individual chess tournaments. 
+It takes care of everything from check-ins and pairings to FIDE exports. 
+Built with practical tournament needs for arbiters in mind, it also includes functionalities for organizers and players (display of pairings, results, timer and results input).
 
-Unlike many other options, a core principle of _Sharly Chess_ is that it runs entirely on the arbiter’s machine — no internet connection required. The last thing an arbiter needs is an internet issue or server failure during a 200-player tournament!
+**_Sharly Chess_ runs completely autonomously** on the arbiter's computer:
+Unlike many other solutions, **no internet connection is required during tournaments**
+(you don't have to worry about network outages or the unavailability of an online server or hosting provider).
 
 ## France specific-ish, for now...
 
-The current version is designed as a complement to _[Papi](https://www.echecs.asso.fr/Actu.aspx?Ref=14287)_, the official software of the French Chess Federation, and is currently tailored to tournaments in France. That said, development is moving very quickly toward a fully independent version that can be used anywhere in the world.
+_Sharly Chess_ was designed as a complement to _[Papi](https://www.echecs.asso.fr/Actu.aspx?Ref=14287)_, the official software of the French Chess Federation.
+
+The current version is therefore a dedicated solution for tournaments organized in France.
+
+That said, a future version will be completely independent of Papi that can be used anywhere in the world.
