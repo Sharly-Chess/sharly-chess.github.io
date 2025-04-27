@@ -169,7 +169,7 @@ separator: true
 ## Version 2.3.0 - 8 avril 2024
 - Affichage des joueur·euses par ordre alphabétique avant appariement
 - Ajout du pointage sur les écrans de saisie
-- Ajout de la [Foire aux Questions](50-faq.md)
+- Ajout de la [Foire aux Questions](({% link dev/faq.en.md %}))
 - Correction d'un problème d'affichage du classement et de la grille américaine sur le site fédéral pour les fichiers Papi générés depuis ChessEvent
 - Correction d'un problème de couleurs sur les appariements par ordre alphabétique
 - Interdiction du caractère `/` dans les identifiants des écrans et des tournois
