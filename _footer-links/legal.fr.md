@@ -3,6 +3,7 @@ layout: page
 title: Mentions légales
 permalink: /mentions-legales/
 page_id: legal-notice
+nav_exclude: true
 nav_order: 200
 ---
 
