@@ -33,7 +33,7 @@ If you'd like to access _Sharly Chess_ from other devices on the network, open a
 To find the LAN/WAN URL, visit the home page of _Sharly Chess_ on your machine.
 
 {: .note }
-> ⓘ The _admin_ interface is only accessible via the **local URL**.
+> :information_source: The _admin_ interface is only accessible via the **local URL**.
 
 ### The Local Network
 

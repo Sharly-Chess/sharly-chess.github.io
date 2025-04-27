@@ -35,6 +35,7 @@ parallel_localization: false
 theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jemoji
 
 color_scheme: sc
 languages: ["en","fr"]

@@ -36,7 +36,7 @@ Si vous souhaitez accéder à _Sharly Chess_ depuis d’autres appareils sur le 
 Pour connaître l’URL LAN/WAN, il suffit de visiter la page d’accueil de _Sharly Chess_ sur votre machine.
 
 {: .note }
-> ⓘ L’interface d’administration n’est accessible **que via l’URL locale**.
+> :information_source: L’interface d’administration n’est accessible **que via l’URL locale**.
 
 ### Le réseau local
 

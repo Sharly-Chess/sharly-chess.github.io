@@ -18,7 +18,7 @@ You have several ways to handle check-ins:
 - Alternatively, if you have multiple machines but prefer to restrict player access, staff or volunteers can use input screens on those devices to assist with check-ins and help distribute the workload.
 
 {: .tip }
-> ☞ If you have a projector at the venue, consider displaying a live list of players and their check-in status. This gives participants immediate visual feedback.
+> :point_right: If you have a projector at the venue, consider displaying a live list of players and their check-in status. This gives participants immediate visual feedback.
 
 ## Opening the Check-in Process
 
@@ -27,12 +27,12 @@ To begin check-in, go to the **Players** page in the admin interface and click t
 Once active, each player's check-in status will be shown in the table — either as a green checkmark (checked in) or an orange dot (not yet checked in). Click the icon to toggle a player's status.
 
 {: .tip }
-> ☞ Use the filter option to display only players who haven't checked in yet. This helps quickly identify who’s missing.
+> :point_right: Use the filter option to display only players who haven't checked in yet. This helps quickly identify who’s missing.
 
 To manage check-ins from other devices (like tablets or secondary computers), see the [Screens]({% link docs/screens/index.en.md %}) section.
 
 {: .tip }
-> ☞ You'll need to refresh your browser from time to time to see the changes from other devices.
+> :point_right: You'll need to refresh your browser from time to time to see the changes from other devices.
 
 ## Closing the Check-in
 
@@ -42,7 +42,7 @@ When you're ready to start the tournament, close the check-in process by clickin
 - Assign **zero-point byes for all remaining rounds** in the tournament.
 
 {: .note }
-> ⓘ This action updates the _Papi_ database directly. Affected players will appear greyed out in _Papi_ and will no longer be paired — a major time-saver compared to managing this manually using _Papi_ directly.
+> :information_source: This action updates the _Papi_ database directly. Affected players will appear greyed out in _Papi_ and will no longer be paired — a major time-saver compared to managing this manually using _Papi_ directly.
 
 ## Reopening Check-in
 

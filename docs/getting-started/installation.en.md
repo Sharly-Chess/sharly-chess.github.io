@@ -18,7 +18,7 @@ nav_order: 50
 - [The Access driver](https://www.microsoft.com/en-us/download/details.aspx?id=54920), needed to open _Papi_ files
 
 {: .note }
-> ⓘ For 32/64bits compatibility of the Access driver, run `accessdatabaseengine_X64.exe /passive`
+> :information_source: For 32/64bits compatibility of the Access driver, run `accessdatabaseengine_X64.exe /passive`
 
 ### Installing _Sharly Chess_
 
@@ -46,7 +46,7 @@ When a new release is found, you are proposed to install it into the parent dire
 To uninstall _Sharly Chess_, simply delete the folder where you installed it.  _Sharly Chess_ doesn't install and extra files elsewhere and doesn't create any registry entries, so it will be completely removed from your system.
 
 {: .warning }
-> ⚠️ Note however that your events are also be stored in this folder, so if you don't want to lose your event data, you'll need to move files `events/*.db` to another location before removing the folder.
+> :warning: Note however that your events are also be stored in this folder, so if you don't want to lose your event data, you'll need to move files `events/*.db` to another location before removing the folder.
 
 ## Linux and macOS
 

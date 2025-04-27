@@ -24,7 +24,7 @@ _Sharly Chess_ propose six types d’écrans parmi lesquels choisir :
 - **Image** – Affiche une image issue d’un fichier de votre ordinateur.
 
 {: .tip }
-> ☞ Lorsqu’un tournoi est en cours de pointage, les écrans d’appariement affichent l’interface de pointage.
+> :point_right: Lorsqu’un tournoi est en cours de pointage, les écrans d’appariement affichent l’interface de pointage.
 
 ---
 

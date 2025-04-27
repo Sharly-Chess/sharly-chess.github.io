@@ -35,7 +35,7 @@ You can choose either:
 - The **number of boards per Screen** (in which case _Sharly Chess_ will automatically calculate how many Screens are needed)
 
 {: .note }
-> ⓘ It's not possible to add more than one tournament to a Screen Family.
+> :information_source: It's not possible to add more than one tournament to a Screen Family.
 
 ---
 
@@ -44,4 +44,4 @@ You can choose either:
 To access all Screens in a Family from a menu, use a special value like `@boards` in your menu configuration. This will automatically add a menu item for **each individual Screen** in the Family.
 
 {: .tip }
-> ☞ On the **Individual Screens** page, enable the **Families** toggle to view all Screens that have been auto-generated as part of a Family.
+> :point_right: On the **Individual Screens** page, enable the **Families** toggle to view all Screens that have been auto-generated as part of a Family.

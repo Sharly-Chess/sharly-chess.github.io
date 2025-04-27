@@ -12,7 +12,7 @@ nav_order: 400
 Le plugin **FFE** fournit des fonctionnalités utiles pour organiser des tournois rattachés à la **Fédération Française des Échecs**.
 
 {: .note }
-> ⓘ Dans la version actuelle de _Sharly Chess_, le plugin FFE ne peut pas encore être désactivé, car il est toujours lié au format de fichier _Papi_. Cela changera dans une prochaine version.
+> :information_source: Dans la version actuelle de _Sharly Chess_, le plugin FFE ne peut pas encore être désactivé, car il est toujours lié au format de fichier _Papi_. Cela changera dans une prochaine version.
 
 L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_ :
 

@@ -13,7 +13,7 @@ Il n’est pas encore possible de générer directement les appariements depuis 
 Cependant, une fois générés, ils peuvent être entièrement gérés depuis la page **Appariements** de l’interface d’administration.
 
 {: .note }
-> ⓘ Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
+> :information_source: Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
 > La prise en charge officielle de cette fonctionnalité est prévue très prochainement.
 
 ---
@@ -35,7 +35,7 @@ Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cl
 - Sinon, le·la joueur·euse recevra un bye jusqu’à ce qu’un·e adversaire compatible soit ajouté·e.
 
 {: .warning }
-> ⚠️ Appariement manuel réattribue **tous les numéros de table** pour la ronde en cours.
+> :warning: Appariement manuel réattribue **tous les numéros de table** pour la ronde en cours.
 > Il est **fortement recommandé** d’attendre la fin de la ronde avant d’utiliser cette fonction.
 > Cela est dû à une limitation de _Papi_ qui sera levée lorsque nous passerons à une base de données indépendante.
 
@@ -49,10 +49,10 @@ Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du j
 - Marquer le·la joueur·euse comme **retiré·e**, ce qui lui attribue 0 point pour toutes les rondes restantes.
 
 {: .note }
-> ⓘ Selon les paramètres du tournoi, il se peut que vous ne puissiez pas attribuer un bye à 0,5 point si le·la joueur·euse a déjà atteint la limite autorisée, ou si le tournoi est dans ses dernières rondes.
+> :information_source: Selon les paramètres du tournoi, il se peut que vous ne puissiez pas attribuer un bye à 0,5 point si le·la joueur·euse a déjà atteint la limite autorisée, ou si le tournoi est dans ses dernières rondes.
 
 {: .note }
-> ⓘ Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’interface d’appariement.
+> :information_source: Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’interface d’appariement.
 > Si nécessaire, vous pouvez encore les ajouter depuis la page **Joueur·euses** via l'historique du·de la joueur·euse.
 
 ---
@@ -65,7 +65,7 @@ Chaque ligne d’appariement comprend un bouton permettant de :
 - Supprimer un appariement en cas d’erreur d’adversaire.
 
 {: .tip }
-> ☞ Si vous avez un vidéoprojecteur, vous pouvez afficher les résultats en direct. Cela permet aux joueur·euses de vérifier que leur score a bien été pris en compte.
+> :point_right: Si vous avez un vidéoprojecteur, vous pouvez afficher les résultats en direct. Cela permet aux joueur·euses de vérifier que leur score a bien été pris en compte.
 
 ---
 
@@ -103,7 +103,7 @@ Plutôt que d’entrer vous-même les résultats, vous pouvez fournir une tablet
 Cela réduit la charge de travail et les erreurs. Voir la section [Écrans]({% link docs/screens/index.fr.md %}) pour les détails de configuration.
 
 {: .tip }
-> ☞ Pensez à rafraîchir votre navigateur de temps en temps pour voir les résultats saisis depuis d’autres appareils.
+> :point_right: Pensez à rafraîchir votre navigateur de temps en temps pour voir les résultats saisis depuis d’autres appareils.
 
 ---
 

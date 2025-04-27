@@ -24,7 +24,7 @@ _Sharly Chess_ offers six screen types to choose from when creating a new Screen
 - **Image** – Displays an image from a file on your computer.
 
 {: .tip }
-> ☞ The pairings screens will display the check-in interface for a tournament when the check-in process is open.
+> :point_right: The pairings screens will display the check-in interface for a tournament when the check-in process is open.
 
 ---
 

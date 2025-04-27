@@ -31,4 +31,4 @@ Soon, we’ll eliminate the dependency on the _Papi_ file entirely. _Sharly Ches
 We already prepare a request to FIDE for the endorsement of Sharly Chess for FIDE tournaments.
 
 {: .tip }
-> ☞ For arbiters in France: no worries! Even once _Sharly Chess_ stops writing directly to `.papi` files, we’ll continue to support FFE workflows. _Sharly Chess_ now includes plugin support, and our **FFE plugin** will be able to generate a valid `.papi` file for submission to the federation.
+> :point_right: For arbiters in France: no worries! Even once _Sharly Chess_ stops writing directly to `.papi` files, we’ll continue to support FFE workflows. _Sharly Chess_ now includes plugin support, and our **FFE plugin** will be able to generate a valid `.papi` file for submission to the federation.

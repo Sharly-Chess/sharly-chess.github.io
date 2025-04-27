@@ -13,7 +13,7 @@ Currently, it’s not possible to generate pairings directly from _Sharly Chess_
 However, once the pairings have been generated, they can be fully managed from the **Pairings** page in the admin interface.
 
 {: .note }
-> ⓘ An experimental version of _Sharly Chess_ can generate pairings directly using an open-source library called [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings) — the same library used by several FIDE-endorsed tournament managers.
+> :information_source: An experimental version of _Sharly Chess_ can generate pairings directly using an open-source library called [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings) — the same library used by several FIDE-endorsed tournament managers.
 > Official support for integrated pairing generation is coming soon.
 
 ---
@@ -35,7 +35,7 @@ To manually pair players (typically late arrivals), click the pairing button nex
 - If not, the player will be assigned a pairing-allocated bye until a suitable opponent is manually paired.
 
 {: .warning }
-> ⚠️ Manually pairing players will reassign all the board numbers for the round.  It is **highly** recommended to wait for the end of the round before pairing players manually.
+> :warning: Manually pairing players will reassign all the board numbers for the round.  It is **highly** recommended to wait for the end of the round before pairing players manually.
 > This is due to a restriction in _Papi_ and will be resolved in a future version once we move to a fully independent database.
 
 ---
@@ -48,10 +48,10 @@ To assign a bye, click the bye button next to a player's name. You’ll be able 
 - Mark the player as **withdrawn** (which assigns a zero-point bye for all remaining rounds).
 
 {: .note }
-> ⓘ Depending on tournament settings, you may not be able to assign a half-point bye if the player has already used the maximum allowed, or if the tournament is in its final rounds.
+> :information_source: Depending on tournament settings, you may not be able to assign a half-point bye if the player has already used the maximum allowed, or if the tournament is in its final rounds.
 
 {: .note }
-> ⓘ Full-point byes are deprecated by FIDE and not available from the pairings interface. If needed, you can still assign one manually via the **Players** page by viewing the player's tournament _Record_.
+> :information_source: Full-point byes are deprecated by FIDE and not available from the pairings interface. If needed, you can still assign one manually via the **Players** page by viewing the player's tournament _Record_.
 
 ---
 
@@ -63,7 +63,7 @@ Each pairing row includes a button to:
 - Unassign a pairing (if the player's played the wrong opponent by mistake!).
 
 {: .tip }
-> ☞ If you have a projector, you can display live results. This allows players to verify that their game was recorded correctly — reducing errors and questions.
+> :point_right: If you have a projector, you can display live results. This allows players to verify that their game was recorded correctly — reducing errors and questions.
 
 ---
 
@@ -102,7 +102,7 @@ Instead of entering results yourself, you can provide a device (tablet or laptop
 This reduces workload and helps avoid errors. See the [Screens]({% link docs/screens/index.en.md %}) section for setup details.
 
 {: .tip }
-> ☞ You’ll need to refresh your browser occasionally to see changes made from other devices.
+> :point_right: You’ll need to refresh your browser occasionally to see changes made from other devices.
 
 ---
 

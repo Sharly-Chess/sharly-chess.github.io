@@ -18,7 +18,7 @@ nav_order: 50
 - [Le pilote Access](https://www.microsoft.com/en-us/download/details.aspx?id=54920), nécessaire pour ouvrir les fichiers _Papi_
 
 {: .note }
-> ⓘ Pour une compatibilité 32/64bits compatibility du pilote Access driver, exécutez `accessdatabaseengine_X64.exe /passive`
+> :information_source: Pour une compatibilité 32/64bits compatibility du pilote Access driver, exécutez `accessdatabaseengine_X64.exe /passive`
 
 ### Installer _Sharly Chess_
 
@@ -47,7 +47,7 @@ Pour désinstaller _Sharly Chess_, il suffit de supprimer le dossier dans lequel
 _Sharly Chess_ ne crée aucun fichier ailleurs sur votre système, ni d’entrée dans le registre — il sera donc complètement supprimé.
 
 {: .warning }
-> ⚠️ Veuillez noter que vos événements sont stockés dans ce dossier. Si vous ne souhaitez pas perdre vos données, pensez à déplacer les fichiers `events/*.db` vers un autre emplacement avant suppression.
+> :warning: Veuillez noter que vos événements sont stockés dans ce dossier. Si vous ne souhaitez pas perdre vos données, pensez à déplacer les fichiers `events/*.db` vers un autre emplacement avant suppression.
 
 ## Linux et macOS
 

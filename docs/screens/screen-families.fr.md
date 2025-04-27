@@ -36,7 +36,7 @@ Vous pouvez choisir :
 - Le **nombre de tables par écran** (dans ce cas, _Sharly Chess_ calcule automatiquement le nombre d’écrans nécessaires)
 
 {: .note }
-> ⓘ Il n’est pas possible d’ajouter plusieurs tournois à une même Famille d’écrans.
+> :information_source: Il n’est pas possible d’ajouter plusieurs tournois à une même Famille d’écrans.
 
 ---
 
@@ -46,4 +46,4 @@ Pour accéder à tous les écrans générés par une famille depuis un menu, uti
 Cela ajoutera automatiquement un lien pour **chaque écran individuel** de la famille.
 
 {: .tip }
-> ☞ Sur la page **Écrans individuels**, activez l’option **Familles** pour afficher tous les écrans générés automatiquement par une famille.
+> :point_right: Sur la page **Écrans individuels**, activez l’option **Familles** pour afficher tous les écrans générés automatiquement par une famille.

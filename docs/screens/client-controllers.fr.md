@@ -35,7 +35,7 @@ Une fois le pilote créé, vous pouvez lui attribuer un écran de deux manières
   Trouvez le pilote que vous souhaitez mettre à jour, cliquez sur **Attribuer un écran**, et choisissez l’écran ou l’écran rotatif à afficher.
 
 {: .note }
-> ⓘ Vous pouvez attribuer des **Écrans individuels** et des **Écrans rotatifs** à un pilote — mais pas des **Familles d’écrans**, car celles-ci contiennent plusieurs écrans.
+> :information_source: Vous pouvez attribuer des **Écrans individuels** et des **Écrans rotatifs** à un pilote — mais pas des **Familles d’écrans**, car celles-ci contiennent plusieurs écrans.
 > Pour afficher une Famille d’écrans, utilisez un **Écran rotatif**.
 
 ---
@@ -51,5 +51,5 @@ Depuis le navigateur de l’appareil que vous souhaitez contrôler (cela peut ê
 Le navigateur affichera alors l’écran actuellement attribué à ce pilote, et il se mettra à jour automatiquement dès qu’un nouvel écran ou écran rotatif lui sera assigné depuis l’interface de l’arbitre.
 
 {: .tip }
-> ☞ Vous pouvez bien sûr avoir plusieurs appareils qui affichent le même **Pilote d’écrans**.
+> :point_right: Vous pouvez bien sûr avoir plusieurs appareils qui affichent le même **Pilote d’écrans**.
 > Lorsque vous modifiez l’écran assigné à ce pilote, tous les appareils afficheront automatiquement le nouvel écran.

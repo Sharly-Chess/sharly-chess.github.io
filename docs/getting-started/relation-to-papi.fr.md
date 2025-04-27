@@ -29,4 +29,4 @@ Bientôt, la dépendance au fichier `.papi` sera complètement supprimée. _Shar
 Une démarche est en cours pour demander à la FIDE d’officialiser _Sharly Chess_ comme logiciel reconnu pour les tournois FIDE.
 
 {: .tip }
-> ☞ Pour les arbitres en France : pas d’inquiétude ! Même lorsque _Sharly Chess_ ne générera plus directement de fichiers `.papi`, nous continuerons à prendre en charge les besoins spécifiques de la FFE. Grâce au système de plugins désormais intégré, notre **plugin FFE** pourra générer un fichier `.papi` parfaitement conforme pour l’envoi à la fédération.
+> :point_right: Pour les arbitres en France : pas d’inquiétude ! Même lorsque _Sharly Chess_ ne générera plus directement de fichiers `.papi`, nous continuerons à prendre en charge les besoins spécifiques de la FFE. Grâce au système de plugins désormais intégré, notre **plugin FFE** pourra générer un fichier `.papi` parfaitement conforme pour l’envoi à la fédération.

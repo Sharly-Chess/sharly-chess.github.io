@@ -16,7 +16,7 @@ However, in cases where a device is used solely for display purposes (e.g. a pro
 That’s exactly what **Client Controllers** are for.
 
 {: .note }
-> ⓘ A _client_, in this context, refers to the device or browser displaying the screen.
+> :information_source: A _client_, in this context, refers to the device or browser displaying the screen.
 
 ---
 
@@ -38,7 +38,7 @@ Once your Client Controller is created, you can assign a screen to it in two way
   Find the controller you'd like to update, click the **Assign Screen** button, and choose the screen or rotator you want to display.
 
 {: .note }
-> ⓘ You can assign **Individual Screens** and **Rotators** to a controller — but not **Screen Families** since they have multiple screens associated with them.
+> :information_source: You can assign **Individual Screens** and **Rotators** to a controller — but not **Screen Families** since they have multiple screens associated with them.
 > To display a Screen Family, use a Rotator.
 
 ---
@@ -54,4 +54,4 @@ From the device or browser you want to control (this could be a separate device 
 The browser will then display the screen currently assigned to that controller, and it will update automatically any time the arbiter changes the screen or rotator from the admin interface.
 
 {: .tip }
-> ☞ You can of course have multiple devices displaying the same Client Controller.  When you update the screen that's assigned to the Client Controller, all devices will display the new screen.
+> :point_right: You can of course have multiple devices displaying the same Client Controller.  When you update the screen that's assigned to the Client Controller, all devices will display the new screen.
