@@ -1,5 +1,6 @@
 {%- comment -%}
   TA: Modified to include a nav-list-separator class for pages with a separator: true
+  TA: Modified to allow external links
 {%- endcomment -%}
 
 {%- comment -%}
@@ -34,21 +35,34 @@
     {%- include components/nav/children.html node=node ancestors=include.ancestors all=include.all -%}
 
     {% if node.separator %}<div class="nav-list-separator"></div>{% endif %}
-    <li class="nav-list-item">
-      {%- if nav_children.size >= 1 -%}
-      <button class="nav-list-expander btn-reset" aria-label="toggle items in {{ node.title }} category" aria-pressed="false">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
-      </button>
-      {%- endif -%}
-      <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
-      {%- if nav_children.size >= 1 -%}
-        {%- if node.child_nav_order == 'desc' or node.child_nav_order == 'reversed' -%}
-          {%- assign nav_children = nav_children | reverse -%}
+    {% if node.external_url %}
+      <li class="nav-list-item external">
+        <a href="{{ node.external_url | absolute_url }}" class="nav-list-link external"
+          {% if node.opens_in_new_tab or node.opens_in_new_tab == nil and site.nav_external_links_new_tab %}
+            target="_blank" rel="noopener noreferrer"
+          {% endif %}
+        >
+          {{ node.title }}
+          {% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
+        </a>
+      </li>
+    {% else %}
+      <li class="nav-list-item">
+        {%- if nav_children.size >= 1 -%}
+        <button class="nav-list-expander btn-reset" aria-label="toggle items in {{ node.title }} category" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+        </button>
         {%- endif -%}
-        {%- assign nav_ancestors = include.ancestors | push: node.title -%}
-        {%- include components/nav/links.html pages=nav_children ancestors=nav_ancestors all=include.all -%}
-      {%- endif -%}
-    </li>
+        <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
+        {%- if nav_children.size >= 1 -%}
+          {%- if node.child_nav_order == 'desc' or node.child_nav_order == 'reversed' -%}
+            {%- assign nav_children = nav_children | reverse -%}
+          {%- endif -%}
+          {%- assign nav_ancestors = include.ancestors | push: node.title -%}
+          {%- include components/nav/links.html pages=nav_children ancestors=nav_ancestors all=include.all -%}
+        {%- endif -%}
+      </li>
+    {% endif %}
 
   {%- endif -%}
 

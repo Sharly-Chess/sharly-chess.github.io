@@ -44,11 +44,6 @@ lang_from_path: true
 langsep: "|"
 search_enabled: true
 excerpt_separator: <!--more-->
-nav_external_links:
-  - title: GitHub
-    url: https://github.com/Sharly-Chess/sharly-chess
-    hide_icon: false
-    opens_in_new_tab: true
 
 callouts:
   note:
