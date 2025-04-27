@@ -169,8 +169,8 @@ separator: true
 ## Version 2.3.0 - 8 avril 2024
 - Affichage des joueur·euses par ordre alphabétique avant appariement
 - Ajout du pointage sur les écrans de saisie
-- Ajout de la [Foire aux Questions](({% link dev/faq.en.md %}))
-- Correction d'un problème d'affichage du classement et de la grille américaine sur le site fédéral pour les fichiers Papi générés depuis ChessEvent
+- Ajout de la [Foire aux Questions]({% link dev/faq.fr.md %})
+- Correction d'un problème d'affichage du classement et de la grille américaine sur le site fédéral pour les fichiers _Papi_ générés depuis ChessEvent
 - Correction d'un problème de couleurs sur les appariements par ordre alphabétique
 - Interdiction du caractère `/` dans les identifiants des écrans et des tournois
 
@@ -178,7 +178,7 @@ separator: true
 - Correction d'un bug de configuration
 
 ## Version 2.2.0 - 27 mars 2024
-- Allègement du moteur web (remplacement de Django par Litestar) (#24)
+- Allègement du moteur web (remplacement de _Django_ par _Litestar_) (#24)
 - Affichage du pointage des joueur·euses
 - Enregistrement des coups illégaux (option `record_illegal_moves`)
 - Mise à jour de l'URL de ChessEvent suite à son déménagement
@@ -202,17 +202,17 @@ separator: true
 - Ajout de l'option `show_unpaired` pour limiter l'affichage des appariements par ordre alphabétique aux joueur·euses apparié·es
 
 ## Version 2.1.3 - 22 janvier 2024
-- Mise en forfait général des joueur·euses non pointé·es dans ChessEvent dans les fichiers Papi
+- Mise en forfait général des joueur·euses non pointé·es dans ChessEvent dans les fichiers _Papi_
 
 ## Version 2.1.2 - 21 janvier 2024
-- Ajout du numéro d'homologation ChessEvent dans les fichiers Papi
+- Ajout du numéro d'homologation ChessEvent dans les fichiers _Papi_
 
 ## Version 2.1.1 - 10 décembre 2023
 - Possibilité de fixer le nombre d'échiquiers ou de joueur·euses par écran
 - Possibilité de fonctionner en réseau local sans connexion Internet (intégration des bibliothèques CSS et JavaScript)
 
 ## Version 2.1.0 - 9 décembre 2023
-- Création des fichiers Papi des tournois depuis la plateforme d'inscription en ligne ChessEvent
+- Création des fichiers _Papi_ des tournois depuis la plateforme d'inscription en ligne ChessEvent
 - Suppression des données personnelles des joueur·euses avant téléchargement sur le site fédéral
 
 ## Version 2.0.3 - 19 novembre 2023
@@ -227,7 +227,7 @@ separator: true
 - Ajout d'écrans d'appariements par ordre alphabétique
 - Ajout des écrans rotatifs
 - Simplification de la configuration des écrans grâce aux modèles et familles d'écrans
-- Ajout d'une temporisation pour le transfert des fichiers Papi vers le site fédéral
+- Ajout d'une temporisation pour le transfert des fichiers _Papi_ vers le site fédéral
 - Publication des sources
 
 ## Version 1.19 - 22 janvier 2023
@@ -245,7 +245,7 @@ separator: true
 - Correction d'un bug d'affichage du chronomètre
 
 ## Version 1.15 - 31 août 2019
-- Compatibilité avec Papi 3.3.6
+- Compatibilité avec _Papi_ 3.3.6
 - Support du système de Haley dégressif
 - Support du "bye"
 - Ajout du chronomètre
