@@ -1,17 +1,13 @@
+a:hover {
+  color: #e9e1cf;
+}
+
 .language-switcher {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem;
   gap: 1rem;
-}
-
-/**
- * Page content
- */
-.page-content {
-  padding: $spacing-unit 0;
-  flex: 1 0 auto;
 }
 
 .post-item {
@@ -32,9 +28,6 @@
   display: block;
 }
 
-/**
- * Posts
- */
 .post-header {
   margin-bottom: $spacing-unit;
   padding-bottom: 18px;
