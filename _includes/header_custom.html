@@ -1,6 +1,6 @@
 <div class="language-switcher">
   {% for lang in site.languages %}
     {% capture lang_href %}{{site.baseurl}}{% if lang != site.default_lang %}/{{ lang }}{% endif %}{% if page.permalink_lang[lang] %}{{page.permalink_lang[lang]}}{% else %}/{% endif %}{% endcapture %}
-    <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{{ lang_href }}"{% endstatic_href %} >{{ lang }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+    <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{{ lang_href }}"{% endstatic_href %} ><img src="/assets/images/flags/{{ lang }}.svg" alt="{{ lang }}" /></a>
   {% endfor %}
 </div>
