@@ -9,7 +9,9 @@ nav_order: 200
 
 # Legal Notice
 
-This legal notice applies to all content available under the domain name sharly-chess.com, including all subdomains and subpages within the domain. Our web pages also offer links to other sites that are not owned by us. When you access such sites, you accept the risks they may entail.
+This legal notice applies to all content available under the domain name `sharly-chess.com`, including all subdomains and subpages within the domain. 
+Our web pages also offer links to other sites that are not owned by us. 
+When you access such sites, you accept the risks they may entail.
 
 ## Hosting
 
