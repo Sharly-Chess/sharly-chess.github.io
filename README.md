@@ -4,10 +4,9 @@
 
 In order to test the documentation locally, you'll need to install *Ruby*, *Jekyll* and *bundler*.  See steps 1 and 2 of the [Jekyll documentation](https://jekyllrb.com/docs/) for details.
 
-> [!NOTE]
-> - Ruby downloads: [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
-> - Bundler comes with Ruby if you use the common installer on Windows
-> - Install everything: ``bundle install``
+- Ruby downloads: [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
+- Bundler comes with Ruby if you use the common installer on Windows
+- Install everything: ``bundle install``
 
 Once installed, you should be able to generate the site locally by running:
 
