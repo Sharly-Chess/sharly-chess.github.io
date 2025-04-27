@@ -7,7 +7,9 @@ nav_order: 1000
 separator: true
 ---
 
-# Objet
+# L'association Sharly Chess
+
+## Objet
 
 Sharly Chess est une association « Loi 1901 » dont l'objet est de faciliter le développement et promouvoir le logiciel du même nom, ensemble d’outils informatiques permettant la gestion de tournois d’échecs à destination des organisateur·ices et des arbitres.
 
