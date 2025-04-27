@@ -18,8 +18,8 @@ Ce site internet est hébergé par OVH.
 
 ## Siège social
 
-8 rue de la fontaine
-35410 DOMLOUP
+8 rue de la fontaine<br/>
+35410 DOMLOUP<br/>
 France
 
 ## Contact
@@ -36,4 +36,4 @@ Sharly Chess est une association « Loi 1901 » immatriculée sous le numéro W3
 
 ## Informatique et libertés
 
-Voir la [Politique de confidentialité]({% link _footer-links/privacy.fr.md %}).
+Voir la [politique de confidentialité]({% link _footer-links/privacy.fr.md %}).

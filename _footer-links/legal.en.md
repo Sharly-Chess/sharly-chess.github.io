@@ -17,9 +17,10 @@ When you access such sites, you accept the risks they may entail.
 
 This website is hosted by OVH.
 
-Headquarters
-8 rue de la fontaine
-35410 DOMLOUP
+# Headquarters
+
+8 rue de la fontaine<br/>
+35410 DOMLOUP<br/>
 France
 
 ## Contact
