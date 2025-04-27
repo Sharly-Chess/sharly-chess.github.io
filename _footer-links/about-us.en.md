@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Sharly Chess Association
-permalink: about-us/
+permalink: /about-us/
 page_id: about-us
 nav_exclude: true
 nav_order: 100

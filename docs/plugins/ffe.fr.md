@@ -2,7 +2,7 @@
 layout: page
 title: Plugin FFE
 parent: Plugins
-permalink: ffe-plugin/
+permalink: /ffe-plugin/
 page_id: ffe-plugin
 nav_order: 400
 ---

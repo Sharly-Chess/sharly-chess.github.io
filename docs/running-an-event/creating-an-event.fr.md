@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Créer un événement
-permalink: creer-un-evenement/
+permalink: /creer-un-evenement/
 page_id: creating-an-event
 parent: Gérer un événement
 nav_order: 100

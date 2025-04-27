@@ -2,7 +2,7 @@
 layout: page
 title: Timers
 parent: Screens
-permalink: timers/
+permalink: /timers/
 page_id: timers
 nav_order: 500
 ---

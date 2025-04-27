@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gérer les tournois
-permalink: gerer-les-tournois/
+permalink: /gerer-les-tournois/
 page_id: managing-tournaments
 parent: Gérer un événement
 nav_order: 200
@@ -28,7 +28,7 @@ Dans le menu de navigation, cliquez sur **Tournois** pour accéder à la page co
 | **Nombre maximum de dispenses** | Nombre maximal de dispenses (byes) qu’un·e joueur·euse peut demander. |
 | **Dernières rondes sans dispenses** | Nombre de rondes finales pendant lesquelles les dispenses ne sont pas autorisées. |
 
-Des [plugins]({{ site.baseurl }}/plugin-support) peuvent ajouter des champs supplémentaires au formulaire de création selon leurs fonctionnalités.
+Des [plugins]({% link docs/plugins/index.fr.md %}) peuvent ajouter des champs supplémentaires au formulaire de création selon leurs fonctionnalités.
 
 ---
 

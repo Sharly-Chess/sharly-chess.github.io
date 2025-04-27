@@ -2,7 +2,7 @@
 layout: page
 title: Écrans rotatifs
 parent: Écrans
-permalink: ecrans-rotatifs/
+permalink: /ecrans-rotatifs/
 page_id: rotators
 nav_order: 300
 ---

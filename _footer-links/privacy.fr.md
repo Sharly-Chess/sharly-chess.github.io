@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Politique de confidentialité
-permalink: politique-de-confidentialite/
+permalink: /politique-de-confidentialite/
 page_id: privacy
 nav_exclude: true
 nav_order: 300

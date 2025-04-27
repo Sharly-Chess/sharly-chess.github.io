@@ -25,6 +25,28 @@ In order to provide multilingual support, the site uses the [Polyglot](https://p
 
 You should read the documentation for both of these projects to understand how they work.
 
+## Creating content
+
+### Localization
+
+The site is localized into French and English, are there are two separate files for each page.
+_Polyglot_ is configured to get the locale from filename, for example:
+
+```
+mypage.en.md
+mypage.fr.md
+```
+
+When browsing the site it's possible to switch between the two languages using the language switcher at the top of the page, while staying on the same page.
+To do this, _Polyglot_ will associate the different versions of a page using the `page_id` front matter option.
+
+```
+layout: page
+title: My Page
+permalink: /my-localized-url/
+page_id: my-page
+```
+
 ### Markdown links
 
 When linking to other pages using Markdown, you'll either need to add the `site.baseurl` prefix to the URL, for example:
@@ -50,19 +72,30 @@ This is a link to the [Screens]({% link docs/screens/index.en.md %}) page.
 Voici un lien vers la page [Écrans]({% link docs/screens/index.fr.md %}).
 ```
 
+### Posts
+
+Blog posts are stored in the `_posts` directory, and should be named `YYYY-MM-DD-title.md`.
+
+Due to a limitation of the Polyglot plugin, you'll need to manually add the `lang` and `slug` front matter to each post (this isn't necessary for other pages).
+If you forget this then you won't be able to switch languages while remaining on the same page.
+
+```
+---
+title: Version 2.5 disponible
+date: 2025-04-07 12:00:00 +0200
+categories: releases
+layout: post
+page_id: post-2025-04-07
+slug: v25
+lang: fr
+```
+
 ### Post summaries
 
 You can add a summary to a post by adding a `summary` field to the front matter:
 
 ```
----
-layout: post
-title:  "Version 2.5 released"
-date:   2025-04-07 12:00:00 +0200
-categories: releases
-layout: post
 summary: A few months after the release of version 2.4 (last November), we are pleased to announce version 2.5 of Papi-web.
----
 ```
 
 This will be used as the excerpt on the home page.  The summary can use Markdown formatting.  If you need multiple lines, you can use this Yaml syntax:
@@ -76,27 +109,7 @@ summary: |
 
 An alternative to using the `summary` field is to use the `<!--more-->` tag in the post content. The content before the tag will be used as the excerpt.
 
-### Localization
-
-The site is localized into French and English, are there are two separate files for each page.
-_Polyglot_ is configured to get the locale from filename, for example:
-
-```
-mypage.en.md
-mypage.fr.md
-```
-
-When browsing the site it's possible to switch between the two languages using the language switcher at the top of the page, while staying on the same page.
-To do this, _Polyglot_ will associate the different versions of a page using the `page_id` front matter option.
-
-```
-layout: page
-title: My Page
-permalink: my-localized-url/
-page_id: my-page
-```
-
-### Search
+## Search
 
 Getting the multilingual search to work correctly took a bit of work, since it's not supported out of the box by _Just the Docs_.
 Inspired by [this post](https://github.com/just-the-docs/just-the-docs/issues/59#issuecomment-1807080785), a few customizations were required to make it work with our configuration.

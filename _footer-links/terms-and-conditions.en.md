@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms and Conditions
-permalink: terms-and-conditions/
+permalink: /terms-and-conditions/
 page_id: terms-and-conditions
 nav_exclude: true
 nav_order: 400

@@ -2,7 +2,7 @@
 layout: page
 title: Relation avec Papi
 parent: Bien démarrer
-permalink: relation-avec-papi/
+permalink: /relation-avec-papi/
 page_id: relation-to-papi
 nav_order: 100
 ---

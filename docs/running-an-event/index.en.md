@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Running an Event
-permalink: running-an-event/
+permalink: /running-an-event/
 page_id: running-an-event
 nav_order: 200
 ---

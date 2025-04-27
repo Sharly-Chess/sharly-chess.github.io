@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Managing Tournaments
-permalink: managing-tournaments/
+permalink: /managing-tournaments/
 page_id: managing-tournaments
 parent: Running an Event
 nav_order: 200
@@ -28,7 +28,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **Max byes** | The maximum number of byes a player may request. |
 | **Nb. final rounds without byes** | Number of final rounds in which byes are not permitted. |
 
-[Plugins]({{ site.baseurl }}/plugin-support) may add extra fields to the tournament form depending on their functionality.
+[Plugins]({% link docs/plugins/index.en.md %}) may add extra fields to the tournament form depending on their functionality.
 
 ---
 
