@@ -17,7 +17,8 @@ nav_order: 50
 - [La dernière version de Papi (3.3.8)](https://dna.ffechecs.fr/ressources/appariements/papi/)
 - [Le pilote Access](https://www.microsoft.com/en-us/download/details.aspx?id=54920), nécessaire pour ouvrir les fichiers _Papi_
 
-> ℹ Pour une compatibilité 32/64bits compatibility du pilote Access driver, exécutez `accessdatabaseengine_X64.exe /passive`
+{: .note }
+> ⓘ Pour une compatibilité 32/64bits compatibility du pilote Access driver, exécutez `accessdatabaseengine_X64.exe /passive`
 
 ### Installer _Sharly Chess_
 
@@ -45,7 +46,8 @@ Lorsque c'est le cas, il vous est proposé d'installer cette version au même ni
 Pour désinstaller _Sharly Chess_, il suffit de supprimer le dossier dans lequel vous l’avez installé.
 _Sharly Chess_ ne crée aucun fichier ailleurs sur votre système, ni d’entrée dans le registre — il sera donc complètement supprimé.
 
-> ⚠️ Veuillez noter que vos événements sont stockés dans ce dossier. Si vous ne souhaitez pas perdre vos données, pensez à déplacer les fichiers `events/*.db` vers un autre emplacement avant suppression.
+{: .warning }
+> ⚠︎ Veuillez noter que vos événements sont stockés dans ce dossier. Si vous ne souhaitez pas perdre vos données, pensez à déplacer les fichiers `events/*.db` vers un autre emplacement avant suppression.
 
 ## Linux et macOS
 
