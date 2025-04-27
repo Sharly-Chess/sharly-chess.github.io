@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Legal Notice
-permalink: legal-notice/
+permalink: /legal-notice/
 page_id: legal-notice
 nav_exclude: true
 nav_exclude: true

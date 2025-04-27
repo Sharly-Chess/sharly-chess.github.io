@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gérer un événement
-permalink: gerer-un-evenement/
+permalink: /gerer-un-evenement/
 page_id: running-an-event
 nav_order: 200
 ---

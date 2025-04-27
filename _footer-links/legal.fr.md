@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mentions légales
-permalink: mentions-legales/
+permalink: /mentions-legales/
 page_id: legal-notice
 nav_order: 200
 ---

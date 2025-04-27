@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gérer les joueurs·euses
-permalink: gerer-les-joueurs-euses/
+permalink: /gerer-les-joueurs-euses/
 page_id: managing-players
 parent: Gérer un événement
 nav_order: 300

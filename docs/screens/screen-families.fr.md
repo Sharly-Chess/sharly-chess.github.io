@@ -2,7 +2,7 @@
 layout: page
 title: Familles d’écrans
 parent: Écrans
-permalink: families-d-ecrans/
+permalink: /families-d-ecrans/
 page_id: screen-families
 nav_order: 200
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Support
-permalink: support/
+permalink: /support/
 page_id: support
 parent: Bien démarrer
 nav_order: 200

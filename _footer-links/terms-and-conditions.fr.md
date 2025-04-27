@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conditions d'utilisation
-permalink: conditions-d-utilisation/
+permalink: /conditions-d-utilisation/
 page_id: terms-and-conditions
 nav_exclude: true
 nav_order: 400

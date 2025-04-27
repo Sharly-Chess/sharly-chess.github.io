@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Screens
-permalink: screens/
+permalink: /screens/
 page_id: screens
 nav_order: 300
 ---

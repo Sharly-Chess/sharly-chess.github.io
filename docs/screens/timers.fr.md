@@ -2,7 +2,7 @@
 layout: page
 title: Chronomètres
 parent: Écrans
-permalink: chronometres/
+permalink: /chronometres/
 page_id: timers
 nav_order: 500
 ---

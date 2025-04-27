@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Installation
-permalink: installation/
+permalink: /installation/
 page_id: installation
 parent: Bien démarrer
 nav_order: 50
@@ -18,7 +18,7 @@ nav_order: 50
 
 ### Linux et macOS
 
-_Sharly Chess_ n’est pas encore disponible sur Linux ou macOS. Le support de ces plateformes est prévu dès que nous [supprimerons notre dépendance]({{ site.baseurl }}/relation-avec-papi) au format de fichier `.papi` (qui repose sur Microsoft Access, une technologie uniquement disponible sous Windows).
+_Sharly Chess_ n’est pas encore disponible sur Linux ou macOS. Le support de ces plateformes est prévu dès que nous [supprimerons notre dépendance]({% link docs/getting-started/relation-to-papi.fr.md %}) au format de fichier `.papi` (qui repose sur Microsoft Access, une technologie uniquement disponible sous Windows).
 
 ## Lancer _Sharly Chess_
 
