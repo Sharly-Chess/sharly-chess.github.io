@@ -9,13 +9,13 @@ nav_order: 700
 
 # Copyright
 
-Sharly Chess - © Projet Sharly Chess 2013-2025 - [https://sharly-chess.com]
+Sharly Chess - © Projet Sharly Chess 2013-2025 - [https://sharly-chess.com](https://sharly-chess.com)
 
 ## Licence 
 
 Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE, sans même la garantie implicite de COMMERCIALISATION ou D'ADAPTATION A UN USAGE PARTICULIER.
 
-Consultez la Licence Publique Générale Affero (« GNU Affero General Public License ») pour plus de détails, vous pouvez aussi consulter les termes complets de la licence à l'adresse [https://www.gnu.org/licenses].
+Consultez la [Licence Publique Générale Affero (en anglais)](/license) pour plus de détails, vous pouvez aussi consulter les termes complets de la licence à l'adresse [https://www.gnu.org/licenses](https://www.gnu.org/licenses).
 
 ## Limites
 
