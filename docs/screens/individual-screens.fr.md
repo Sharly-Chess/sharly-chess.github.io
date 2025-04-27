@@ -38,7 +38,7 @@ C’est particulièrement utile si vous avez légèrement trop de joueur·euses 
 ### Message d’alerte
 
 Un message d’alerte défilant peut s’avérer très utile, surtout lorsqu’il est projeté sur grand écran.
-Par exemple : *« Les joueur·euses X et Y sont prié·e·s de saisir leurs résultats. »*
+Par exemple : *« Les joueur·euses X et Y sont prié·es de saisir leurs résultats. »*
 
 Ce message peut être défini au **niveau de l’événement**, ce qui signifie qu’il sera affiché sur tous les écrans liés à cet événement, mais vous pouvez aussi le personnaliser individuellement pour chaque écran.
 

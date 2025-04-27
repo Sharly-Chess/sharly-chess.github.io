@@ -11,17 +11,17 @@ nav_order: 300
 
 La liste des joueur·euses, accessible via l’élément **Joueur·euses** du menu de navigation, affiche toutes les personnes ajoutées à l’événement — tous tournois confondus.
 
-Vous pouvez trier et filtrer le tableau en utilisant les en-têtes de colonnes, ce qui facilite la gestion de listes de participant·e·s nombreuses.
+Vous pouvez trier et filtrer le tableau en utilisant les en-têtes de colonnes, ce qui facilite la gestion de listes de participant·es nombreuses.
 
 ## Ajouter des joueur·euses
 
-Les joueur·euses peuvent être ajouté·e·s en cliquant sur le bouton **Ajouter un·e joueur·euse**.
+Les joueur·euses peuvent être ajouté·es en cliquant sur le bouton **Ajouter un·e joueur·euse**.
 
 Vous pouvez saisir les informations d’un·e joueur·euse manuellement, mais il est souvent plus rapide et plus fiable d’utiliser la **base FIDE** ou une base fédérale locale (disponible via un [plugin]({% link docs/plugins/index.fr.md %})) pour rechercher et importer les fiches existantes. Consultez la section [Bases de données joueur·euses]({% link docs/player-databases/index.fr.md %}) pour plus de détails sur l’installation et l’utilisation de ces bases.
 
 ## Changer de tournoi
 
-Au début d’un événement, il est courant que certain·e·s joueur·euses souhaitent changer de tournoi — par exemple, passer de la section Open à celle des moins de 1600 Elo.
+Au début d’un événement, il est courant que certain·es joueur·euses souhaitent changer de tournoi — par exemple, passer de la section Open à celle des moins de 1600 Elo.
 Vous pouvez modifier l’attribution de tournoi d’un·e joueur·euse directement dans la colonne **Tournoi** du tableau des joueur·euses.
 
 ## Mettre à jour les joueur·euses depuis les bases récentes

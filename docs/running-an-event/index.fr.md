@@ -12,7 +12,7 @@ nav_order: 200
 
 Un **Événement** dans _Sharly Chess_ regroupe un ou plusieurs **Tournois** individuels — souvent organisés par tranches de classement, mais vous êtes libre d’organiser l’événement comme vous le souhaitez.
 
-Il est conseillé de créer l’événement bien en amont, et d’ajouter les joueur·euses au fur et à mesure des inscriptions. _Sharly Chess_ permet d’importer facilement des joueur·euses depuis la base FIDE, ou depuis d’autres sources selon les plugins activés. Une fois ajoutés, les joueur·euses peuvent être déplacé·e·s d’un tournoi à un autre en quelques clics.
+Il est conseillé de créer l’événement bien en amont, et d’ajouter les joueur·euses au fur et à mesure des inscriptions. _Sharly Chess_ permet d’importer facilement des joueur·euses depuis la base FIDE, ou depuis d’autres sources selon les plugins activés. Une fois ajoutés, les joueur·euses peuvent être déplacé·es d’un tournoi à un autre en quelques clics.
 
 Le jour de l’événement, vous pouvez utiliser _Sharly Chess_ pour pointer les joueur·euses à leur arrivée. Vous pouvez également installer des tablettes ou ordinateurs pour leur permettre de s’enregistrer eux-mêmes.
 
