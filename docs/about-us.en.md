@@ -3,8 +3,8 @@ layout: page
 title: The Sharly Chess Association
 permalink: /about-us/
 page_id: about-us
-nav_exclude: true
-nav_order: 100
+nav_order: 1000
+separator: true
 ---
 
 # The Sharly Chess Association

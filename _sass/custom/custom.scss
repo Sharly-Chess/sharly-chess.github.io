@@ -78,3 +78,13 @@ a:hover {
     text-align: right
   }
 }
+
+.main-content h1:first-of-type {
+  margin-top: 0;
+}
+
+.nav-list-separator {
+  border-top: 1px solid #44434d;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
