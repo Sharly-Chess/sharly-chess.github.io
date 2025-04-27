@@ -21,7 +21,7 @@ Cependant, une fois générés, ils peuvent être entièrement gérés depuis la
 ## L’interface d’appariement
 
 L’interface d’appariement est divisée en deux parties :
-- **À gauche** : les joueur·euses non apparié·e·s et ceux·celles ayant reçu un bye (si c’est le cas).
+- **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (si c’est le cas).
 - **À droite** : les appariements confirmés pour la ronde.
 
 Des contrôles de navigation permettent de changer de tournoi ou de ronde. Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
@@ -61,7 +61,7 @@ Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du j
 
 Chaque ligne d’appariement comprend un bouton permettant de :
 - Saisir ou modifier un résultat.
-- Permuter les couleurs si les joueur·euse·s ont joué du mauvais côté.
+- Permuter les couleurs si les joueur·euses ont joué du mauvais côté.
 - Supprimer un appariement en cas d’erreur d’adversaire.
 
 {: .tip }
@@ -97,9 +97,9 @@ Si la saisie correspond, le tableau passe à la ligne suivante. En cas d’erreu
 
 ---
 
-## Saisie par les joueur·euse·s
+## Saisie par les joueur·euses
 
-Plutôt que d’entrer vous-même les résultats, vous pouvez fournir une tablette ou un ordinateur aux joueur·euse·s pour qu’ils·elles les saisissent directement.
+Plutôt que d’entrer vous-même les résultats, vous pouvez fournir une tablette ou un ordinateur aux joueur·euses pour qu’ils·elles les saisissent directement.
 Cela réduit la charge de travail et les erreurs. Voir la section [Écrans]({% link docs/screens/index.fr.md %}) pour les détails de configuration.
 
 {: .tip }
