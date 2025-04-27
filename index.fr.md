@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Nouvelles
+title: Actualités
 permalink: /
 nav_order: 0
 ---
