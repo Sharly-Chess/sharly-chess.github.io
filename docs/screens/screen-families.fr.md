@@ -9,7 +9,7 @@ nav_order: 200
 
 # Familles d’écrans
 
-Si vous avez un grand nombre de joueurs·euses et que vous souhaitez répartir l’affichage sur plusieurs écrans, vous pourriez créer manuellement plusieurs écrans et assigner un sous-ensemble de tables à chacun.
+Si vous avez un grand nombre de joueur·euses et que vous souhaitez répartir l’affichage sur plusieurs écrans, vous pourriez créer manuellement plusieurs écrans et assigner un sous-ensemble de tables à chacun.
 
 Mais cette méthode peut être fastidieuse et source d’erreurs.
 
@@ -23,7 +23,7 @@ Pour créer une famille d’écrans, allez sur la page **Familles d’écrans** 
 
 Les types d’écrans suivants peuvent être utilisés dans une famille d’écrans :
 
-- **Saisie des résultats** – Permet aux joueurs·euses de se pointer et de saisir leurs résultats depuis un appareil partagé.
+- **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil partagé.
 - **Appariements par table** – Affiche les appariements triés par numéro de table.
 - **Appariements par joueur·euse** – Affiche les appariements triés alphabétiquement.
 - **Classement** – Affiche le classement actuel du tournoi.

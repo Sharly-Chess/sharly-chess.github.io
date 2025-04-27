@@ -20,7 +20,7 @@ Quelques informations de base sont nécessaires pour configurer un événement, 
 | **Début/Fin** | Les dates de début et de fin de l’événement. Utilisées pour trier les événements et incluses dans l’export TRF. |
 | **Lieu** | Le lieu de l’événement (par exemple : ville ou salle). |
 | **Dossier par défaut pour les fichiers Papi** | Actuellement, la plupart des données de tournoi sont stockées dans un fichier _[Papi]({% link docs/getting-started/relation-to-papi.fr.md %})_.
-| **Mot de passe pour la saisie des résultats** | Pertinent uniquement si les joueurs·euses saisissent leurs résultats via d’autres appareils. La première connexion depuis chaque appareil nécessitera ce mot de passe — utile en cas de réseau ouvert ou partagé. |
+| **Mot de passe pour la saisie des résultats** | Pertinent uniquement si les joueur·euses saisissent leurs résultats via d’autres appareils. La première connexion depuis chaque appareil nécessitera ce mot de passe — utile en cas de réseau ouvert ou partagé. |
 | **Saisie des coups illégaux** | Permet de suivre le nombre de coups illégaux commis par joueur·euse. Vous pouvez définir un nombre maximum ici, qui peut être ajusté pour chaque tournoi. |
 | **Lien vers le règlement** | Un lien vers le document contenant les règles du tournoi. Ce lien peut être personnalisé pour chaque tournoi. |
 | **Message d’alerte et couleur** | Si vous utilisez des [Écrans]({% link docs/screens/index.fr.md %}), vous pouvez définir un message défilant affiché en bas de l’écran.

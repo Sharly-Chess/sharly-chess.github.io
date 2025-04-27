@@ -29,7 +29,7 @@ http://127.0.0.1
 ```
 
 Si vous utilisez un seul ordinateur, il vous suffit d’ouvrir une nouvelle fenêtre de navigateur et de saisir l’**URL locale** pour afficher l’interface de _Sharly Chess_.
-En général, vous souhaiterez accéder à l’**interface publique**, qui vous permet d’afficher les Écrans que vous avez configurés — vous pourrez alors déplacer cette fenêtre vers l’écran ou le vidéoprojecteur pour que les joueurs·euses puissent la consulter.
+En général, vous souhaiterez accéder à l’**interface publique**, qui vous permet d’afficher les Écrans que vous avez configurés — vous pourrez alors déplacer cette fenêtre vers l’écran ou le vidéoprojecteur pour que les joueur·euses puissent la consulter.
 
 Si vous souhaitez accéder à _Sharly Chess_ depuis d’autres appareils sur le réseau, ouvrez un navigateur sur cet appareil et entrez l’**URL LAN/WAN**.
 

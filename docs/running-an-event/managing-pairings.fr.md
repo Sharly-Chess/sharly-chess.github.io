@@ -21,7 +21,7 @@ Cependant, une fois générés, ils peuvent être entièrement gérés depuis la
 ## L’interface d’appariement
 
 L’interface d’appariement est divisée en deux parties :
-- **À gauche** : les joueurs·euses non apparié·e·s et ceux·celles ayant reçu un bye (si c’est le cas).
+- **À gauche** : les joueur·euses non apparié·e·s et ceux·celles ayant reçu un bye (si c’est le cas).
 - **À droite** : les appariements confirmés pour la ronde.
 
 Des contrôles de navigation permettent de changer de tournoi ou de ronde. Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
@@ -53,7 +53,7 @@ Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du j
 
 {: .note }
 > ⓘ Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’interface d’appariement.
-> Si nécessaire, vous pouvez encore les ajouter depuis la page **Joueurs·euses** via l'historique du·de la joueur·euse.
+> Si nécessaire, vous pouvez encore les ajouter depuis la page **Joueur·euses** via l'historique du·de la joueur·euse.
 
 ---
 
@@ -65,7 +65,7 @@ Chaque ligne d’appariement comprend un bouton permettant de :
 - Supprimer un appariement en cas d’erreur d’adversaire.
 
 {: .tip }
-> ☞ Si vous avez un vidéoprojecteur, vous pouvez afficher les résultats en direct. Cela permet aux joueurs·euses de vérifier que leur score a bien été pris en compte.
+> ☞ Si vous avez un vidéoprojecteur, vous pouvez afficher les résultats en direct. Cela permet aux joueur·euses de vérifier que leur score a bien été pris en compte.
 
 ---
 

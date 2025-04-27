@@ -20,6 +20,6 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_ 
 - Téléversement automatique des résultats du tournoi sur le site de la _FFE_.
 - Téléversement manuel des résultats sur le site de la _FFE_.
 - Recherche de joueur·euses depuis la base de données en ligne fournie par la _FFE_.
-- Téléchargement et recherche locale dans la base de données joueurs·euses de la _FFE_.
+- Téléchargement et recherche locale dans la base de données joueur·euses de la _FFE_.
 - Informations supplémentaires sur les joueur·euses : numéro FFE, statut de licence, ligue d’appartenance.
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.

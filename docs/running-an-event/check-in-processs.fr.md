@@ -9,25 +9,25 @@ nav_order: 400
 
 # Le processus de pointage
 
-Utiliser _Sharly Chess_ pour gérer le pointage des joueurs·euses permet de démarrer votre tournoi de façon fluide et organisée.
+Utiliser _Sharly Chess_ pour gérer le pointage des joueur·euses permet de démarrer votre tournoi de façon fluide et organisée.
 
 Il existe plusieurs façons de gérer le pointage :
 
-- Vous pouvez pointer les joueurs·euses directement depuis l’interface d’administration.
-- Si vous avez des tablettes ou ordinateurs accessibles aux joueurs·euses, ils·elles peuvent se pointer eux·elles-mêmes via un écran dédié.
+- Vous pouvez pointer les joueur·euses directement depuis l’interface d’administration.
+- Si vous avez des tablettes ou ordinateurs accessibles aux joueur·euses, ils·elles peuvent se pointer eux·elles-mêmes via un écran dédié.
 - Alternativement, si vous avez plusieurs machines mais préférez limiter l’accès direct des joueur·euse·s, le staff ou des bénévoles peuvent utiliser ces écrans pour pointer les participant·e·s, ce qui permet de répartir la charge de travail.
 
 {: .tip }
-> ☞ Si vous disposez d’un vidéoprojecteur dans la salle, vous pouvez afficher la liste en direct des joueurs·euses et de leur statut de pointage. Cela leur permet de vérifier immédiatement s’ils·elles sont bien pointé·e·s.
+> ☞ Si vous disposez d’un vidéoprojecteur dans la salle, vous pouvez afficher la liste en direct des joueur·euses et de leur statut de pointage. Cela leur permet de vérifier immédiatement s’ils·elles sont bien pointé·e·s.
 
 ## Ouvrir le pointage
 
-Pour lancer le pointage, rendez-vous sur la page **Joueurs·euses** dans l’interface d’administration et cliquez sur le bouton **Pointage**. Vous pouvez choisir pour quels tournois activer le pointage.
+Pour lancer le pointage, rendez-vous sur la page **Joueur·euses** dans l’interface d’administration et cliquez sur le bouton **Pointage**. Vous pouvez choisir pour quels tournois activer le pointage.
 
 Une fois activé, le statut de pointage de chaque joueur·euse est affiché dans le tableau — soit sous forme d’une coche verte (pointé·e), soit d’un point orange (non pointé·e). Cliquez sur l’icône pour modifier le statut.
 
 {: .tip }
-> ☞ Utilisez le filtre pour n’afficher que les joueurs·euses non pointé·e·s. Cela permet d’identifier rapidement les absences.
+> ☞ Utilisez le filtre pour n’afficher que les joueur·euses non pointé·e·s. Cela permet d’identifier rapidement les absences.
 
 Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordinateurs secondaires), voir la section [Écrans]({% link docs/screens/index.fr.md %}).
 
@@ -36,7 +36,7 @@ Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordi
 
 ## Clôturer le pointage
 
-Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointage en cliquant à nouveau sur le bouton **Pointage**. Si des joueurs·euses ne sont pas pointé·e·s, il vous sera demandé comment les traiter :
+Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointage en cliquant à nouveau sur le bouton **Pointage**. Si des joueur·euses ne sont pas pointé·e·s, il vous sera demandé comment les traiter :
 
 - Leur attribuer un **bye à 0 point** pour la prochaine ronde, ou
 - Leur attribuer des **byes à zéro point pour toutes les rondes restantes** du tournoi.
@@ -46,4 +46,4 @@ Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointag
 
 ## Réouvrir le pointage
 
-Pour les tournois sur plusieurs jours, vous pouvez choisir de réactiver le pointage au début de chaque journée. Lorsque vous réouvrez le pointage, les statuts de tous les joueurs·euses sont réinitialisés : ils·elles devront se pointer à nouveau.
+Pour les tournois sur plusieurs jours, vous pouvez choisir de réactiver le pointage au début de chaque journée. Lorsque vous réouvrez le pointage, les statuts de tous les joueur·euses sont réinitialisés : ils·elles devront se pointer à nouveau.

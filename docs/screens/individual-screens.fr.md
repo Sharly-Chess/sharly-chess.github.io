@@ -16,7 +16,7 @@ Pour créer un écran, allez sur la page _Écrans individuels_ et cliquez sur le
 
 _Sharly Chess_ propose six types d’écrans parmi lesquels choisir :
 
-- **Saisie des résultats** – Permet aux joueurs·euses de se pointer et de saisir leurs résultats depuis un appareil mis à leur disposition.
+- **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil mis à leur disposition.
 - **Appariements par table** – Affiche les appariements d’un tournoi, triés par numéro de table.
 - **Appariements par joueur·euse** – Affiche les appariements d’un tournoi, triés par ordre alphabétique.
 - **Derniers résultats** – Affiche les derniers résultats enregistrés pour un tournoi.
@@ -33,12 +33,12 @@ La plupart des options de création d’écran sont explicites, mais certaines m
 ### Mise en page
 
 Pour la plupart des types d’écrans, vous pouvez personnaliser la mise en page en indiquant le nombre de colonnes et en ajustant la taille de la police.
-C’est particulièrement utile si vous avez légèrement trop de joueurs·euses pour que tout tienne sur un seul écran — réduire la taille de la police permet souvent de tout faire rentrer.
+C’est particulièrement utile si vous avez légèrement trop de joueur·euses pour que tout tienne sur un seul écran — réduire la taille de la police permet souvent de tout faire rentrer.
 
 ### Message d’alerte
 
 Un message d’alerte défilant peut s’avérer très utile, surtout lorsqu’il est projeté sur grand écran.
-Par exemple : *« Les joueurs·euses X et Y sont prié·e·s de saisir leurs résultats. »*
+Par exemple : *« Les joueur·euses X et Y sont prié·e·s de saisir leurs résultats. »*
 
 Ce message peut être défini au **niveau de l’événement**, ce qui signifie qu’il sera affiché sur tous les écrans liés à cet événement, mais vous pouvez aussi le personnaliser individuellement pour chaque écran.
 
@@ -71,7 +71,7 @@ Cela vous offre une grande souplesse pour organiser vos écrans selon vos besoin
 
 Par exemple, si votre événement comprend **deux tournois distincts** et que vous disposez de **deux tablettes** pour la saisie des résultats :
 
-- Vous pouvez configurer **chaque tablette** pour afficher les échiquiers des **deux tournois**, afin que les joueurs·euses puissent faire défiler jusqu’à leur section pour saisir leur résultat.
+- Vous pouvez configurer **chaque tablette** pour afficher les échiquiers des **deux tournois**, afin que les joueur·euses puissent faire défiler jusqu’à leur section pour saisir leur résultat.
 - Ou bien, vous pouvez attribuer **une tablette par tournoi**, pour que chacun·e utilise celle correspondant à sa section.
 
 Un autre cas fréquent : un événement avec **plusieurs petits tournois** (par exemple un championnat local avec des catégories d’âge distinctes).
