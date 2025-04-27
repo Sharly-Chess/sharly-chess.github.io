@@ -21,7 +21,7 @@ Vous pouvez saisir les informations d’un·e joueur·euse manuellement, mais il
 
 ## Changer de tournoi
 
-Au début d’un événement, il est courant que certain·e·s joueur·euses souhaitent changer de tournoi — par exemple, passer de l’Open à la section U1600.
+Au début d’un événement, il est courant que certain·e·s joueur·euses souhaitent changer de tournoi — par exemple, passer de la section Open à celle des moins de 1600 Elo.
 Vous pouvez modifier l’attribution de tournoi d’un·e joueur·euse directement dans la colonne **Tournoi** du tableau des joueurs·euses.
 
 ## Mettre à jour les joueurs·euses depuis les bases récentes

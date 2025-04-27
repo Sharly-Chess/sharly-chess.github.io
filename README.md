@@ -55,6 +55,32 @@ This is a link to the [Screens]({% link docs/screens/index.en.md %}) page.
 Voici un lien vers la page [Écrans]({% link docs/screens/index.fr.md %}).
 ```
 
+### Post summaries
+
+You can add a summary to a post by adding a `summary` field to the front matter:
+
+```
+---
+layout: post
+title:  "Version 2.5 released"
+date:   2025-04-07 12:00:00 +0200
+categories: releases
+layout: post
+summary: A few months after the release of version 2.4 (last November), we are pleased to announce version 2.5 of Papi-web.
+---
+```
+
+This will be used as the excerpt on the home page.  The summary can use Markdown formatting.  If you need multiple lines, you can use this Yaml syntax:
+
+```
+summary: |
+  A few months after the release of version 2.4 (last November), we are pleased to announce version 2.5 of Papi-web.
+
+  The version 2.5 brings the following new features...
+```
+
+An alternative to using the `summary` field is to use the `<!--more-->` tag in the post content. The content before the tag will be used as the excerpt.
+
 ### Localization
 
 The site is localized into French and English, are there are two separate files for each page.

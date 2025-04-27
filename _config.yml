@@ -34,7 +34,7 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
 
-color_scheme: dark
+color_scheme: sc
 
 languages: ["en","fr"]
 default_lang: "en"
@@ -42,6 +42,7 @@ exclude_from_localization: ["javascript", "images", "css", "public", " sitemap"]
 lang_from_path: true
 langsep: "|"
 search_enabled: true
+excerpt_separator: <!--more-->
 
 callouts:
   note:
