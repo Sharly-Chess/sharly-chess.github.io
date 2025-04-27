@@ -8,7 +8,7 @@ nav_order: 100
 
 # Bien démarrer
 
-**Sharly Chess** est un outil gratuit, open-source, et sans fioritures pour gérer des tournois d’échecs individuels. 
+_Sharly Chess_ est un outil gratuit, open-source, et sans fioritures pour gérer des tournois d’échecs individuels. 
 
 Il prend en charge tout, du pointage aux appariements, jusqu’à l’export FIDE. 
 
@@ -24,4 +24,4 @@ _Sharly Chess_ a été conçu comme un complément à [_Papi_](https://www.echec
 
 Dans la version actuelle, il s'agit donc d'une solution dédiée pour les tournois organisés en France.
 
-Cela dit, une prochaine version sera totalement indépendante de Papi, utilisable partout dans le monde.
+Cela dit, une prochaine version sera totalement indépendante de _Papi_, utilisable partout dans le monde.
