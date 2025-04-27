@@ -35,7 +35,7 @@ Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cl
 - Sinon, le·la joueur·euse recevra un bye jusqu’à ce qu’un·e adversaire compatible soit ajouté·e.
 
 {: .warning }
-> ⚠︎ Appariement manuel réattribue **tous les numéros de table** pour la ronde en cours.
+> ⚠️ Appariement manuel réattribue **tous les numéros de table** pour la ronde en cours.
 > Il est **fortement recommandé** d’attendre la fin de la ronde avant d’utiliser cette fonction.
 > Cela est dû à une limitation de _Papi_ qui sera levée lorsque nous passerons à une base de données indépendante.
 

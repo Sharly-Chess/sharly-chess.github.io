@@ -47,7 +47,7 @@ Pour désinstaller _Sharly Chess_, il suffit de supprimer le dossier dans lequel
 _Sharly Chess_ ne crée aucun fichier ailleurs sur votre système, ni d’entrée dans le registre — il sera donc complètement supprimé.
 
 {: .warning }
-> ⚠︎ Veuillez noter que vos événements sont stockés dans ce dossier. Si vous ne souhaitez pas perdre vos données, pensez à déplacer les fichiers `events/*.db` vers un autre emplacement avant suppression.
+> ⚠️ Veuillez noter que vos événements sont stockés dans ce dossier. Si vous ne souhaitez pas perdre vos données, pensez à déplacer les fichiers `events/*.db` vers un autre emplacement avant suppression.
 
 ## Linux et macOS
 

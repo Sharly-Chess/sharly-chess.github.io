@@ -35,7 +35,7 @@ To manually pair players (typically late arrivals), click the pairing button nex
 - If not, the player will be assigned a pairing-allocated bye until a suitable opponent is manually paired.
 
 {: .warning }
-> ⚠︎ Manually pairing players will reassign all the board numbers for the round.  It is **highly** recommended to wait for the end of the round before pairing players manually.
+> ⚠️ Manually pairing players will reassign all the board numbers for the round.  It is **highly** recommended to wait for the end of the round before pairing players manually.
 > This is due to a restriction in _Papi_ and will be resolved in a future version once we move to a fully independent database.
 
 ---
