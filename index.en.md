@@ -9,3 +9,5 @@ To be informed of the latest news from the _Sharly Chess_ project, subscribe to 
 
 {: .warning }
 > :warning: TODO Add a link
+
+---
