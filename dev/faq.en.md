@@ -10,85 +10,88 @@ nav_order: 800
 
 ## Application
 
-### ☞ Can access to the arbitration interface be restricted?
+{% details Can access to the arbitration interface be restricted? %}
+  The arbitration interface is accessible only from the server itself, on the local URL (`http://localhost` or `http://127.0.0.1`).
 
-The arbitration interface is accessible only from the server itself, on the local URL (`http://localhost` or `http://127.0.0.1`).
+  If result entry is performed on the web server, open the public interface (`http://192.168.x.x`) and the arbitration pages will not be accessible.
+{% enddetails %}
 
-If result entry is performed on the web server, open the public interface (`http://192.168.x.x`) and the arbitration pages will not be accessible.
+{% details Why are clients displaying different times? %}
+  The timer displayed on clients uses each client’s local system time (not the server’s).
+  You must synchronize all clients to the same time server.
+{% enddetails %}
 
-### ☞ Clients display different times
+## Windows issues
 
-The timer displayed on clients uses each client’s local system time (not the server’s).
-You must synchronize all clients to the same time server.
+{% details The `api-ms-win-core-path-l1-1-0.dll` library is missing %}
 
-## System
+  {: .text-center}
+  ![Error when launching on _Windows_ 7](/assets/faq/faq-system-windows-7.jpg)
 
-### ☞ The `api-ms-win-core-path-l1-1-0.dll` library is missing
+  This is due to an incompatibility between _Windows_ 7 and the version of _Python_ used (3.9+).
+  You must update _Windows_ to a supported version (_Windows_ 7 has been unsupported since January 2020).
+{% enddetails %}
 
-{: .text-center}
-![Error when launching on _Windows_ 7](/assets/faq/faq-system-windows-7.jpg)
+{% details What to do if _Microsoft Defender SmartScreen_ blocked the launch of an unrecognized application? %}
+  {: .text-center}
+  ![_Microsoft Defender SmartScreen_ error message](/assets/faq/faq-system-defender-smartscreen.jpg)
 
-This is due to an incompatibility between _Windows_ 7 and the version of _Python_ used (3.9+).
-You must update _Windows_ to a supported version (_Windows_ 7 has been unsupported since January 2020).
+  In the current version of _Papi-web_, _Microsoft Defender SmartScreen_ displays the error shown above.
 
-### ☞ _Microsoft Defender SmartScreen_ blocked the launch of an unrecognized application
+  The only way to bypass this is to click **More info** and then **Run anyway**.
+{% enddetails %}
 
-{: .text-center}
-![_Microsoft Defender SmartScreen_ error message](/assets/faq/faq-system-defender-smartscreen.jpg)
+{% details What to do if the web server is blocked by the server firewall? %}
 
-In the current version of _Papi-web_, _Microsoft Defender SmartScreen_ displays the error shown above.
+  By default, it is possible that the web server is not allowed through the server's firewall — for example with Microsoft Defender:
 
-The only way to bypass this is to click **More info** and then **Run anyway**.
+  {: .text-center}
+  ![_Microsoft Defender Firewall_ permission request](/assets/faq/faq-system-defender-firewall-1.jpg)
 
-### ☞ Web server blocked by server firewall
+  Depending on your firewall, the message may differ, and the method to open necessary ports may vary as well;
+  if needed, contact your network administrator to open inbound server traffic (by default, TCP/UDP port 80, shown below).
 
-By default, it is possible that the web server is not allowed through the server's firewall — for example with Microsoft Defender:
+  {: .text-center}
+  ![Example of _Microsoft Defender_ firewall permission for _Papi-web_](/assets/faq/faq-system-defender-firewall-2.jpg)
+{% enddetails %}
 
-{: .text-center}
-![_Microsoft Defender Firewall_ permission request](/assets/faq/faq-system-defender-firewall-1.jpg)
+{% details What to do if Avast refuses the installation of _Papi-web_? %}
+  When extracting the archive `papi-web-<x.y.z>.zip`, Avast may block the installation of the `papi-web-<x.y.z>.exe` executable in the `bin` directory with the following message:
 
-Depending on your firewall, the message may differ, and the method to open necessary ports may vary as well;
-if needed, contact your network administrator to open inbound server traffic (by default, TCP/UDP port 80, shown below).
+  {: .text-center}
+  ![_Avast_ message during extraction of `papi-web-<x.y.z>.zip`](/assets/faq/faq-system-avast-1.jpg)
 
-{: .text-center}
-![Example of _Microsoft Defender_ firewall permission for _Papi-web_](/assets/faq/faq-system-defender-firewall-2.jpg)
+  This is a false positive, which you can report to _Avast_ by clicking **Report as a false positive**.
 
-### ☞ Avast refuses the installation of _Papi-web_
+  By clicking **Open quarantine**, you should see the executable file:
 
-When extracting the archive `papi-web-<x.y.z>.zip`, Avast may block the installation of the `papi-web-<x.y.z>.exe` executable in the `bin` directory with the following message:
+  {: .text-center}
+  ![Executable file in quarantine](/assets/faq/faq-system-avast-2.jpg)
 
-{: .text-center}
-![_Avast_ message during extraction of `papi-web-<x.y.z>.zip`](/assets/faq/faq-system-avast-1.jpg)
+  Click the context menu (`···`) then **Restore and add exception**:
 
-This is a false positive, which you can report to _Avast_ by clicking **Report as a false positive**.
+  {: .text-center}
+  ![Restore and add an exception](/assets/faq/faq-system-avast-3.jpg)
 
-By clicking **Open quarantine**, you should see the executable file:
+  {: .text-center}
+  ![Confirmation request for restoring from quarantine](/assets/faq/faq-system-avast-4.jpg)
 
-{: .text-center}
-![Executable file in quarantine](/assets/faq/faq-system-avast-2.jpg)
+  {: .text-center}
+  ![Confirmation of quarantine release](/assets/faq/faq-system-avast-5.jpg)
 
-Click the context menu (`···`) then **Restore and add exception**:
+  Verify that the file has been properly restored at the root of the Papi-web directory.
+{% enddetails %}
 
-{: .text-center}
-![Restore and add an exception](/assets/faq/faq-system-avast-3.jpg)
+{% details What to so if all candidate ports [`80`, `81`, `8080`, `8081`] are already in use? %}
 
-{: .text-center}
-![Confirmation request for restoring from quarantine](/assets/faq/faq-system-avast-4.jpg)
+  Papi-web's server uses several predefined ports to respond to client requests (screen display, score entry, etc.).
 
-{: .text-center}
-![Confirmation of quarantine release](/assets/faq/faq-system-avast-5.jpg)
+  If _Papi-web_’s server tells you at startup that all ports are in use, you must find the applications already using these ports and stop them before restarting the _Papi-web_ server.
 
-Verify that the file has been properly restored at the root of the Papi-web directory.
+  To find which application is using a port, open a command prompt as administrator and run the command `netstat -ab`:
 
-### ☞ All candidate ports [`80`, `81`, `8080`, `8081`] are already in use, unable to start the web server
+  {: .text-center}
+  ![Checking used ports on the server](/assets/faq/faq-system-netstat.jpg)
 
-Papi-web's server uses several predefined ports to respond to client requests (screen display, score entry, etc.).
-
-If _Papi-web_’s server tells you at startup that all ports are in use, you must find the applications already using these ports and stop them before restarting the _Papi-web_ server.
-
-To find which application is using a port, open a command prompt as administrator and run the command `netstat -ab`:
-
-{: .text-center}
-![Checking used ports on the server](/assets/faq/faq-system-netstat.jpg)
-
-(here, port `80` is being used by another web server `httpd.exe`)
+  (here, port `80` is being used by another web server `httpd.exe`)
+{% enddetails %}
