@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ
+title: Foire Aux Questions
 permalink: /faq/
 page_id: faq
 nav_order: 800
