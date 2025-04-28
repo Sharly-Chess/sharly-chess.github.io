@@ -50,4 +50,4 @@ To uninstall _Sharly Chess_, simply delete the folder where you installed it.  _
 
 ## Linux and macOS
 
-_Sharly Chess_ is not yet available on Linux or macOS. Support for these platforms is planned as soon as we [remove our dependency]({% link docs/getting-started/relation-to-papi.en.md %}) on the `.papi` file format (which relies on Microsoft Access, a Windows-only technology).
+_Sharly Chess_ is not yet available on Linux or macOS. Support for these platforms is planned as soon as we [remove our dependency]({% link docs/getting-started/papi-and-sharly-chess.en.md %}) on the `.papi` file format (which relies on Microsoft Access, a Windows-only technology).

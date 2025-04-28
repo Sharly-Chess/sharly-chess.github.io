@@ -2,8 +2,8 @@
 layout: page
 title: Papi and Sharly Chess
 parent: Getting Started
-permalink: /relation-to-papi/
-page_id: relation-to-papi
+permalink: /papi-and-sharly-chess/
+page_id: papi-and-sharly-chess
 nav_order: 100
 ---
 

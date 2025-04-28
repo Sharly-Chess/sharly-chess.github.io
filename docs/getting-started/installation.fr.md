@@ -51,4 +51,4 @@ _Sharly Chess_ ne crée aucun fichier ailleurs sur votre système, ni d’entré
 
 ## Linux et macOS
 
-_Sharly Chess_ n’est pas encore disponible sur Linux ou macOS. Le support de ces plateformes est prévu dès que nous [supprimerons notre dépendance]({% link docs/getting-started/relation-to-papi.fr.md %}) au format de fichier `.papi` (qui repose sur Microsoft Access, une technologie uniquement disponible sous Windows).
+_Sharly Chess_ n’est pas encore disponible sur Linux ou macOS. Le support de ces plateformes est prévu dès que nous [supprimerons notre dépendance]({% link docs/getting-started/papi-and-sharly-chess.fr.md %}) au format de fichier `.papi` (qui repose sur Microsoft Access, une technologie uniquement disponible sous Windows).

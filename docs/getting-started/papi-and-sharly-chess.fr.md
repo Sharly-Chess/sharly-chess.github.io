@@ -3,7 +3,7 @@ layout: page
 title: Papi et Sharly Chess
 parent: Bien démarrer
 permalink: /relation-avec-papi/
-page_id: relation-to-papi
+page_id: papi-and-sharly-chess
 nav_order: 100
 ---
 

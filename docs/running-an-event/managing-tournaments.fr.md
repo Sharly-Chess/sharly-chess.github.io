@@ -20,7 +20,7 @@ Dans le menu de navigation, cliquez sur **Tournois** pour accéder à la page co
 | **Cadence** | Le type de cadence du tournoi — Classique, Rapide ou Blitz. |
 | **Début / Fin** | Les dates de début et de fin du tournoi (écrasent les valeurs définies au niveau de l’événement). |
 | **Lieu** | Le lieu du tournoi (écrase la valeur définie au niveau de l’événement). |
-| **Dossier** | Dossier dans lequel le fichier _[Papi]({% link docs/getting-started/relation-to-papi.fr.md %})_ sera stocké (écrase la valeur définie au niveau de l’événement).
+| **Dossier** | Dossier dans lequel le fichier _[Papi]({% link docs/getting-started/papi-and-sharly-chess.fr.md %})_ sera stocké (écrase la valeur définie au niveau de l’événement).
 | **Nom du fichier** | Le nom du fichier _Papi_. S’il n’existe pas encore, _Sharly Chess_ peut le créer pour vous automatiquement. |
 | **Cadence et incrément** | La cadence de jeu et l’incrément à la pendule pour chaque ronde. |
 | **Saisie des coups illégaux** | Permet de suivre les coups illégaux commis par joueur·euse. Un maximum peut être défini ici (écrase la valeur définie au niveau de l’événement). |
