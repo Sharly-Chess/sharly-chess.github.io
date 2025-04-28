@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Relation to Papi
+title: Papi and Sharly Chess
 parent: Getting Started
 permalink: /relation-to-papi/
 page_id: relation-to-papi
