@@ -7,7 +7,7 @@ nav_order: 600
 separator: true
 ---
 
-# Changelog
+# Historique
 
 ## Version 2.6.0 alpha 1 - 27 avril 2025
 - Ajout de l'onglet Appariements
