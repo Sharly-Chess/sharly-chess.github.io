@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ChangeLog
+title: Changelog
 permalink: /changelog/
 page_id: changelog
 nav_order: 600
