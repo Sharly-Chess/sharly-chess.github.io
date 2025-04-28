@@ -20,7 +20,7 @@ nav_order: 800
 L'heure des chronomètres affichée sur les clients est l'heure des clients (pas celle du serveur), il faut donc synchroniser tous les clients sur un même serveur de temps.
 {% enddetails %}
 
-## Système
+## Problèmes sous Windows
 
 {% details La bibliothèque `api-ms-win-core-path-l1-1.0.dll` est manquante %}
 {: .text-center}

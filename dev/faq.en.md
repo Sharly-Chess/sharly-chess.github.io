@@ -82,7 +82,7 @@ nav_order: 800
   Verify that the file has been properly restored at the root of the Papi-web directory.
 {% enddetails %}
 
-{% details What do to if All candidate ports [`80`, `81`, `8080`, `8081`] are already in use? %}
+{% details What to so if all candidate ports [`80`, `81`, `8080`, `8081`] are already in use? %}
 
   Papi-web's server uses several predefined ports to respond to client requests (screen display, score entry, etc.).
 
