@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Plugins
-permalink: /plugin-support/
-page_id: plugin-support
+title: Plugins (extensions)
+permalink: /plugins
+page_id: plugins
 nav_order: 500
 ---
 
-# Plugins
+# Plugins (extensions)
 
 _Sharly Chess_ est conçu pour être extensible : vous pouvez ajouter des fonctionnalités selon vos besoins et désactiver celles qui ne vous sont pas utiles.
 

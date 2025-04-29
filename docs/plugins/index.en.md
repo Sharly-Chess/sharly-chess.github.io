@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Plugins
-permalink: /plugin-support/
-page_id: plugin-support
+permalink: /plugins
+page_id: plugins
 nav_order: 500
 ---
 

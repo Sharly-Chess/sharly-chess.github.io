@@ -1,8 +1,8 @@
 ---
 layout: page
-title: FFE Plugin
+title: FFE
 parent: Plugins
-permalink: /ffe-plugin/
+permalink: /plugins/ffe
 page_id: ffe-plugin
 nav_order: 400
 ---
