@@ -24,6 +24,9 @@ To retrieve tournament registrations from the _ChessEvent_ platform, you must sp
 - the _ChessEvent_ event ID (on the _ChessEvent_ platform);
 - the tournament ID (on the _ChessEvent_ platform).
 
+{: .note }
+> The _ChessEvent_ ID and password, as well as the event name on the _ChessEvent_ platform, can be defined in _Sharly Chess_ at event-level and used by default by all tournaments in the event.
+
 ## Exemple
 
 ![How to retrieve the necessary information on the _ChessEvent_ platform](/assets/images/chessevent/chessevent-example.jpg)
