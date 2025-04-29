@@ -27,7 +27,7 @@ Pour récupérer les inscriptions d'un tournoi depuis la plateforme _ChessEvent_
 - l'identifiant du tournoi (sur la plateforme _ChessEvent_).
 
 {: .note }
-> :source_information: L'identifiant et le mot de passe de connexion à la plateforme _ChessEvent_, ainsi que le nom de l'évènement sur le plateforme _ChessEvent_ peuvent être définis au niveau de l'évènement _Sharly Chess_ et utilisés par défaut par tous les tournois de l'évènement.
+> :information_source: L'identifiant et le mot de passe de connexion à la plateforme _ChessEvent_, ainsi que le nom de l'évènement sur le plateforme _ChessEvent_ peuvent être définis au niveau de l'évènement _Sharly Chess_ et utilisés par défaut par tous les tournois de l'évènement.
 
 ## Exemple
 
