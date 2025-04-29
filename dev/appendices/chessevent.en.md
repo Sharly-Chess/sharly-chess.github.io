@@ -7,7 +7,7 @@ page_id: chessevent-appendix
 nav_order: 400
 ---
 
-# Technical Annexe - Interfacing with _ChessEvent_
+# Technical Appendix - Interfacing with _ChessEvent_
 
 _Sharly Chess_ can retrieve registrations made on the _ChessEvent_ platform by activating the _ChessEvent_ plugin:
 
