@@ -8,11 +8,11 @@ nav_order: 100
 
 # Bien démarrer
 
-_Sharly Chess_ est un outil gratuit, open-source, et sans fioritures pour gérer des tournois d’échecs individuels. 
+_Sharly Chess_ est un outil gratuit, open-source, et sans fioritures pour gérer des tournois d’échecs individuels.
 
-Il prend en charge tout, du pointage aux appariements, jusqu’à l’export FIDE. 
+Il prend en charge tout, du pointage aux appariements, jusqu’à l’export FIDE.
 
-Conçu pour répondre aux besoins concrets des arbitres, il intègre également des fonctionnalités à destination des organisateur·ices et des joueur·euses (affichage des appariements, des résultats, d'un chronomètre, saisie des résultats).
+Conçu en pensant aux besoins pratiques des arbitres en tournoi, il inclut également des fonctionnalités pour les organisateurs et les joueur·euses, avec l’affichage public des appariements, des résultats et des comptes à rebours, ainsi que la saisie des résultats.
 
 **_Sharly Chess_ fonctionne en autonomie complète** sur l’ordinateur de l’arbitre :
 contrairement à de nombreuses autres solutions, **aucune connexion à internet n'est nécessaire pendant les tournois**

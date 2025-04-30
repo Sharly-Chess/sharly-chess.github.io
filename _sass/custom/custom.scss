@@ -146,4 +146,5 @@ details {
 
 .btn {
   @include btn-color($body-background-color, #d7c9aa);
+  margin-top: 1rem;
 }

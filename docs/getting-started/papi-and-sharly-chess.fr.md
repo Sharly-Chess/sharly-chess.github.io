@@ -23,6 +23,7 @@ Nous approchons rapidement du moment où **_Sharly Chess_ pourra être utilisé 
 _Sharly Chess_ intègre déjà toutes les fonctionnalités d’interface nécessaires pour gérer un tournoi en système suisse, et des versions expérimentales peuvent déjà générer les appariements de manière indépendante (le moteur d'appariement utilisé est _bbpPairings_).
 
 Bientôt, la dépendance au fichier `.papi` sera complètement supprimée. _Sharly Chess_ pourra alors être utilisé partout, avec des fonctionnalités spécifiques à chaque fédération disponibles via un système de plugins.
+
 Une démarche est en cours pour demander à la FIDE d’officialiser _Sharly Chess_ comme logiciel reconnu pour les tournois FIDE.
 
 {: .tip }

@@ -9,4 +9,4 @@ nav_order: 500
 
 # Plugins French competitions
 
-These plugins are useful for arbitinng competitions in France.
+These plugins are useful for arbitrating competitions in France.

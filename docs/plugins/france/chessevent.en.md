@@ -29,8 +29,8 @@ To retrieve tournament registrations from the _ChessEvent_ platform, you must sp
 
 ## Exemple
 
-{% figure [caption: "How to retrieve the necessary information on the ChessEvent platform"] %}
-![How to retrieve the necessary information on the ChessEvent platform](/assets/images/chessevent/chessevent-example.jpg)
+{% figure [caption: "Example event on the ChessEvent platform"] %}
+![Example event on the ChessEvent platform](/assets/images/chessevent/chessevent-example.jpg)
 {% endfigure %}
 
 For this tournament:

@@ -10,7 +10,7 @@ nav_order: 100
 
 _Sharly Chess_ is a free, open-source, no-nonsense tool for managing individual chess tournaments.
 It takes care of everything from check-ins and pairings to FIDE exports.
-Built with practical tournament needs for arbiters in mind, it also includes functionalities for organizers and players (display of pairings, results, timer and results input).
+Built with practical tournament needs for arbiters in mind, it also includes functionalities for organizers and players, with public display of pairings, results and countdown timers, as well as results input.
 
 **_Sharly Chess_ runs completely autonomously** on the arbiter's computer:
 Unlike many other solutions, **no internet connection is required during tournaments**
