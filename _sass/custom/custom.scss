@@ -143,3 +143,7 @@ details {
     text-align: center;
   }
 }
+
+.btn {
+  @include btn-color($body-background-color, #d7c9aa);
+}
