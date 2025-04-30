@@ -1,8 +1,8 @@
 ---
 layout: page
 title: FFE
-parent: Plugins
-permalink: /plugins/ffe
+parent: For France
+permalink: /plugins/france/ffe
 page_id: ffe-plugin
 nav_order: 400
 ---

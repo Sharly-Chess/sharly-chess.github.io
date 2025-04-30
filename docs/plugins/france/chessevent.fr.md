@@ -1,8 +1,8 @@
 ---
 layout: page
 title: ChessEvent
-parent: Plugins (extensions)
-permalink: /chessevent-plugin
+parent: Pour la France
+permalink: /plugins/france/chessevent
 page_id: chessevent-plugin
 nav_order: 500
 ---
