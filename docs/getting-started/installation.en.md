@@ -23,7 +23,7 @@ nav_order: 50
 ### Installing _Sharly Chess_
 
 {: .text-center }
-[Download Sharly Chess v2.5.7](https://github.com/Sharly-Chess/sharly-chess/releases/download/2.5.7/papi-web-2.5.7.zip){: .btn }
+[Download Sharly Chess v{{ site.version }}]({{ site.download_url }}){: .btn }
 
 > Note that previous versions are also available from the [releases page](https://github.com/Sharly-Chess/sharly-chess/releases).
 
