@@ -15,6 +15,10 @@ Mais cette méthode peut être fastidieuse et source d’erreurs.
 
 Les **familles d’écrans** (_Screen Families_) permettent d’automatiser ce processus en générant automatiquement les écrans individuels nécessaires.
 
+{% figure [caption: "Exemple de la famille d’écrans « Appariements par joueur·euse » répartie sur 12 écrans."] %}
+![Exemple de la famille d’écrans « Appariements par joueur·euse » répartie sur 12 écrans.](/assets/images/players-screen.jpg)
+{% endfigure %}
+
 ---
 
 ## Créer une famille d’écrans

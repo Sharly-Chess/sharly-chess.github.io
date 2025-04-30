@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Historique
+title: Changelog
 permalink: /changelog/
 page_id: changelog
 nav_order: 600
 separator: true
 ---
 
-# Historique
+# Changelog
 
 ## Version 2.6 - mai 2025
 - Ajout de l'onglet Appariements

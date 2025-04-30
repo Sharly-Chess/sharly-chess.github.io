@@ -3,8 +3,7 @@ layout: page
 title: L'association Sharly Chess
 permalink: /association/
 page_id: about-us
-nav_order: 2000
-separator: true
+nav_order: 2100
 ---
 
 # L'association Sharly Chess

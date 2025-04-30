@@ -14,6 +14,10 @@ However, that approach can be tedious and error-prone.
 
 _Screen Families_ allow you to automate this process by automatically generating individual Screens for you.
 
+{% figure [caption: "Example of the 'Pairings by Player' scree family split across 12 screens"] %}
+![Example of the 'Pairings by Player' scree family split across 12 screens](/assets/images/players-screen.jpg)
+{% endfigure %}
+
 ---
 
 ## Creating a Screen Family

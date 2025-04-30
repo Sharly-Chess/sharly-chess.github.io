@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-polyglot"
   gem "jekyll-paginate"
+  gem "jekyll-figure"
 end
 # Emojis for Jekyll.
 gem "jemoji"

@@ -42,6 +42,7 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-figure
 
 color_scheme: sc
 languages: ["en","fr"]

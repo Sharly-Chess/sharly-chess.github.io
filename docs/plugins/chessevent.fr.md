@@ -31,7 +31,9 @@ Pour récupérer les inscriptions d'un tournoi depuis la plateforme _ChessEvent_
 
 ## Exemple
 
-![Comment récupérer les informations nécessaires sur la plateforme _ChessEvent_](/assets/images/chessevent/chessevent-example.jpg)
+{% figure [caption: "Comment récupérer les informations nécessaires sur la plateforme ChessEvent"] %}
+![Comment récupérer les informations nécessaires sur la plateforme ChessEvent](/assets/images/chessevent/chessevent-example.jpg)
+{% endfigure %}
 
 Pour ce tournoi :
 

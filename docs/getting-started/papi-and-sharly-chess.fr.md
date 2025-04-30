@@ -9,12 +9,9 @@ nav_order: 100
 
 # Relation avec Papi
 
-## Un peu d’histoire
+## La dépendance à _Papi_
 
-_Sharly Chess_ a vu le jour sous le nom de _Papi-web_, créé par Pascal Aubry en 2013 comme complément au logiciel de gestion de tournois **[Papi](https://www.echecs.asso.fr/Actu.aspx?Ref=142877)**, l’outil officiel de la _Fédération Française des Échecs_.
-Papi-web apportait deux fonctionnalités majeures que _Papi_ ne proposait pas : la possibilité d’afficher les appariements sur des écrans externes, et celle de permettre aux joueur·euses de saisir eux-mêmes leurs résultats.
-
-## La dépendance à Papi
+_Sharly Chess_ a été [conçu à l’origine]({% link docs/history.fr.md %}) comme un complément au logiciel de gestion de tournoi _[Papi](https://www.echecs.asso.fr/Actu.aspx?Ref=142877)_, l’outil officiel de la _Fédération Française des Échecs_.
 
 Bien que _Sharly Chess_ ait beaucoup évolué depuis ses débuts, il dépend encore actuellement de _Papi_ pour la génération des appariements, ainsi que pour le fichier de base de données qui stocke une partie des données du tournoi — notamment les joueur·euses, les appariements et les résultats.
 

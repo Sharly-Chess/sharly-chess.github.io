@@ -10,6 +10,10 @@ nav_order: 300
 
 One of _Sharly Chess_'s flagship features is the ability to display pairings and live results during a tournament. These can be shown on a projector or a screen attached directly to the arbiter’s machine, or even on other devices connected to the local network.
 
+{% figure [caption: "Display of results in a playing hall, 2023"] %}
+![Display of results in a playing hall, 2023](/assets/images/displays-2023.jpg)
+{% endfigure %}
+
 ## A Built-in Web Server
 
 To make this possible, _Sharly Chess_ includes a built-in web server that other devices can connect to.

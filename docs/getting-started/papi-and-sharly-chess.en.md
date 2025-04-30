@@ -9,13 +9,9 @@ nav_order: 100
 
 # _Papi_ and _Sharly Chess_
 
-## A Bit of History
+## The Dependency on _Papi_
 
-_Sharly Chess_ began life as _Papi-web_, created by Pascal Aubry in 2013 as a companion to the tournament management software _[Papi](https://www.echecs.asso.fr/Actu.aspx?Ref=142877)_, the official tool of the _French Chess Federation_.
-
-_Papi-web_ provided two major features that _Papi_ lacks: the ability to display pairings on external screens, and the option for players to enter their own results.
-
-## The Dependency on Papi
+_Sharly Chess_ was [originally designed]({% link docs/history.en.md %}) as a companion to the tournament management software _[Papi](https://www.echecs.asso.fr/Actu.aspx?Ref=142877)_, the official tool of the _French Chess Federation_.
 
 Although _Sharly Chess_ has evolved significantly since its early days, it still currently relies on _Papi_ for generating pairings, and for providing the database file for storing some of the tournament data — including players, pairings, and results.
 
