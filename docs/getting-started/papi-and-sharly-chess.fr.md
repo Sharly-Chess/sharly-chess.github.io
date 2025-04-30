@@ -2,12 +2,12 @@
 layout: page
 title: Papi et Sharly Chess
 parent: Bien démarrer
-permalink: /relation-avec-papi/
+permalink: /papi-et-sharly-chess/
 page_id: papi-and-sharly-chess
 nav_order: 100
 ---
 
-# Relation avec Papi
+# Papi et Sharly Chess
 
 ## La dépendance à _Papi_
 
@@ -27,3 +27,4 @@ Une démarche est en cours pour demander à la FIDE d’officialiser _Sharly Che
 
 {: .tip }
 > :point_right: Pour les arbitres en France : pas d’inquiétude ! Même lorsque _Sharly Chess_ ne générera plus directement de fichiers `.papi`, nous continuerons à prendre en charge les besoins spécifiques de la FFE. Grâce au système de plugins désormais intégré, notre **plugin FFE** pourra générer un fichier `.papi` parfaitement conforme pour l’envoi à la fédération.
+Ò
