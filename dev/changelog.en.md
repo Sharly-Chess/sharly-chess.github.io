@@ -15,7 +15,10 @@ separator: true
 - Added client controllers
 - Simplified the main menu
 - Moved utilities from ``bin/`` to ``tools/``
-- Added PGN and TRF16 exports
+- _Added classic and accelerated swiss pairing (experimental)_
+- _Added PGN and TRF16 exports (experimental)_
+- Documentation update
+- Launch of the website https://sharly-chess.com
 
 ## Version 2.5.7 - April 20, 2025
 - Fixed a printing bug

@@ -15,7 +15,10 @@ separator: true
 - Ajout des contrôleurs de clients
 - Simplification du menu principal
 - Déplacement des utilitaires de `bin/` vers `tools/`
-- Ajout des exports PGN et TRF16
+- _Ajout de l'appariement suisse classique et accéléré (expérimental)_
+- _Ajout des exports PGN et TRF16 (expérimental)_
+- Mise à jour de la documentation
+- Mise en ligne du site web https://sharly-chess.com
 
 ## Version 2.5.7 - 20 avril 2025
 - Correction d'un bug d'impression
