@@ -9,8 +9,9 @@ nav_order: 500
 
 # Gérer les appariements
 
-Il n’est pas encore possible de générer directement les appariements depuis _Sharly Chess_. Pour le moment, ils doivent encore être créés manuellement avec _Papi_.
-Cependant, une fois générés, ils peuvent être entièrement gérés depuis la page **Appariements** de l’interface d’administration.
+Il n’est pas encore possible de générer directement les appariements depuis _Sharly Chess_. 
+Pour le moment, les appariements doivent encore être créés dans _Papi_, en utilisant son moteur d'appariements.
+Cependant, une fois générés, ils peuvent être entièrement gérés depuis l'onglet' **Appariements** de l’interface d’administration.
 
 {: .note }
 > :information_source: Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
@@ -21,10 +22,11 @@ Cependant, une fois générés, ils peuvent être entièrement gérés depuis la
 ## L’interface d’appariement
 
 L’interface d’appariement est divisée en deux parties :
-- **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (si c’est le cas).
+- **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (demi-point joker).
 - **À droite** : les appariements confirmés pour la ronde.
 
-Des contrôles de navigation permettent de changer de tournoi ou de ronde. Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
+Des contrôles de navigation permettent de changer de tournoi ou de ronde. 
+Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
 
 ---
 
@@ -35,34 +37,34 @@ Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cl
 - Sinon, le·la joueur·euse recevra un bye jusqu’à ce qu’un·e adversaire compatible soit ajouté·e.
 
 {: .warning }
-> :warning: Appariement manuel réattribue **tous les numéros de table** pour la ronde en cours.
+> :warning: Apparier manuellement réattribue **tous les numéros de table** pour la ronde en cours.
 > Il est **fortement recommandé** d’attendre la fin de la ronde avant d’utiliser cette fonction.
 > Cela est dû à une limitation de _Papi_ qui sera levée lorsque nous passerons à une base de données indépendante.
 
 ---
 
-## Gérer les byes
+## Gérer les absences et les demi-points joker
 
-Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du joueur·euse. Vous pouvez choisir de :
-- Donner un **bye à 0 point** pour la ronde en cours.
-- Donner un **bye à 0,5 point** (si autorisé).
-- Marquer le·la joueur·euse comme **retiré·e**, ce qui lui attribue 0 point pour toutes les rondes restantes.
-
-{: .note }
-> :information_source: Selon les paramètres du tournoi, il se peut que vous ne puissiez pas attribuer un bye à 0,5 point si le·la joueur·euse a déjà atteint la limite autorisée, ou si le tournoi est dans ses dernières rondes.
+Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·de la joueur·euse. Vous pouvez :
+- marquer le·la joueur·euse **absent·e** pour la ronde en cours (bye à 0 point) ;
+- donner un **demi-point joker** (bye à 0,5 point, si autorisé) ;
+- marquer le·la joueur·euse comme ayant **abandonné** le tournoi, ce qui le·la marque absent·e pour toutes les rondes restantes.
 
 {: .note }
-> :information_source: Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’interface d’appariement.
-> Si nécessaire, vous pouvez encore les ajouter depuis la page **Joueur·euses** via l'historique du·de la joueur·euse.
+> :information_source: Selon les paramètres du tournoi, il se peut que vous ne puissiez pas attribuer un demi-point joker si le·la joueur·euse a déjà atteint la limite autorisée, ou si le tournoi est dans ses dernières rondes.
+
+{: .note }
+> :information_source: Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’onglet d’appariement.
+> Si nécessaire, vous pouvez encore les ajouter depuis l'onglet **Joueur·euses** via l'historique du·de la joueur·euse.
 
 ---
 
 ## Entrer les résultats
 
 Chaque ligne d’appariement comprend un bouton permettant de :
-- Saisir ou modifier un résultat.
-- Permuter les couleurs si les joueur·euses ont joué du mauvais côté.
-- Supprimer un appariement en cas d’erreur d’adversaire.
+- saisir ou modifier un résultat ;
+- permuter les couleurs si les joueur·euses ont joué du mauvais côté ;
+- supprimer un appariement en cas d’erreur d’adversaire.
 
 {: .tip }
 > :point_right: Si vous avez un vidéoprojecteur, vous pouvez afficher les résultats en direct. Cela permet aux joueur·euses de vérifier que leur score a bien été pris en compte.
@@ -91,7 +93,7 @@ Pour valider les résultats après les avoir saisis :
 
 1. Activez le mode **Surbrillance**.
 2. Cliquez sur une ligne d’appariement pour la sélectionner.
-3. Réentrez les résultats avec les mêmes raccourcis.
+3. Ré-entrez les résultats avec les mêmes raccourcis.
 
 Si la saisie correspond, le tableau passe à la ligne suivante. En cas d’erreur, la ligne est surlignée en rouge et la saisie est bloquée jusqu’à ce que vous cliquiez manuellement sur une nouvelle ligne.
 
