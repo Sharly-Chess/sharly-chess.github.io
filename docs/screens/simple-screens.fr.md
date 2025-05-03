@@ -1,38 +1,39 @@
 ---
 layout: page
-title: Écrans individuels
+title: Écrans simples
 parent: Écrans
-permalink: /ecrans-individuels/
-page_id: individual-screens
+permalink: /ecrans-simples/
+page_id: simple-screens
 nav_order: 100
 ---
 
-# Écrans individuels
+# Écrans simples
 
-Les écrans individuels sont des pages web autonomes que vous pouvez configurer pour afficher des types d’informations spécifiques.
-Pour créer un écran, allez sur la page _Écrans individuels_ et cliquez sur le bouton **Créer un écran**.
+Les écrans simples sont des pages web autonomes que vous pouvez configurer pour afficher des types d’informations spécifiques.
+Pour créer un écran, allez sur le menu **Écrans > Écrans simples** et cliquez sur le bouton **Créer un écran**.
 
 ## Créer un écran
 
 _Sharly Chess_ propose six types d’écrans parmi lesquels choisir :
 
-- **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil mis à leur disposition.
-- **Appariements par table** – Affiche les appariements d’un tournoi, triés par numéro de table.
-- **Appariements par joueur·euse** – Affiche les appariements d’un tournoi, triés par ordre alphabétique.
-- **Derniers résultats** – Affiche les derniers résultats enregistrés pour un tournoi.
-- **Classement** – Affiche le classement actuel d’un tournoi.
-- **Image** – Affiche une image issue d’un fichier de votre ordinateur.
+- <i class="bi-pencil"></i> **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil mis à leur disposition.
+- <i class="bi-card-list"></i> **Appariements par échiquier** – Affiche les appariements d’un tournoi, triés par numéro d'échiquier'.
+- <i class="bi-people"></i> **Appariements par joueur·euse** – Affiche les appariements d’un tournoi, triés par ordre alphabétique.
+- <i class="bi-1-square"></i> **Derniers résultats** – Affiche les derniers résultats enregistrés pour un tournoi.
+- <i class="bi-trophy"></i> **Classement** – Affiche le classement actuel d’un tournoi.
+- <i class="bi-image"></i> **Image** – Affiche une image issue d’un fichier de votre ordinateur.
 
 {: .tip }
 > :point_right: Lorsqu’un tournoi est en cours de pointage, les écrans d’appariement affichent l’interface de pointage.
 
 ---
 
-La plupart des options de création d’écran sont explicites, mais certaines méritent un peu plus d’explications :
+La plupart des options de création d’écran sont explicites, mais certaines méritent un peu plus d’explications.
 
 ### Mise en page
 
 Pour la plupart des types d’écrans, vous pouvez personnaliser la mise en page en indiquant le nombre de colonnes et en ajustant la taille de la police.
+
 C’est particulièrement utile si vous avez légèrement trop de joueur·euses pour que tout tienne sur un seul écran — réduire la taille de la police permet souvent de tout faire rentrer.
 
 ### Message d’alerte
@@ -45,7 +46,7 @@ Ce message peut être défini au **niveau de l’événement**, ce qui signifie 
 ### Menus
 
 La section **Menus** vous permet de configurer les menus de navigation visibles sur l’écran.
-Cela permet aux utilisateurs·trices de passer facilement d’un écran à l’autre via l’interface publique.
+Cela permet aux utilisateur·ices de passer facilement d’un écran à l’autre via l’interface publique.
 
 Pour définir les écrans à inclure dans le menu, indiquez leurs **identifiants** (définis lors de la création de chaque écran), séparés par des virgules.
 
@@ -69,7 +70,7 @@ Note : Vous n’êtes pas obligé·e d’ajouter un menu sur tous les écrans. P
 Une fois votre écran créé, vous pouvez choisir les échiquiers à afficher (pour les types d’écrans qui le permettent).
 
 Cliquez sur le bouton **Échiquiers** de l’écran concerné pour ouvrir la boîte de dialogue **Ensemble d'échiquiers**.
-Vous pouvez y ajouter un ou plusieurs ensembles de tables — provenant d’un seul tournoi ou de plusieurs différents.
+Vous pouvez y ajouter un ou plusieurs ensembles de tables — provenant d’un ou plusieurs tournois.
 
 Cela vous offre une grande souplesse pour organiser vos écrans selon vos besoins.
 
@@ -79,7 +80,7 @@ Par exemple, si votre événement comprend **deux tournois distincts** et que vo
 - Ou bien, vous pouvez attribuer **une tablette par tournoi**, pour que chacun·e utilise celle correspondant à sa section.
 
 Un autre cas fréquent : un événement avec **plusieurs petits tournois** (par exemple un championnat local avec des catégories d’âge distinctes).
-Dans ce cas, vous pouvez configurer un **écran unique d’appariement** affichant **toutes les échiquiers** de tous les tournois, parfait à projeter sur grand écran.
+Dans ce cas, vous pouvez configurer un **écran unique d’appariement** affichant **tous les échiquiers** de tous les tournois, parfait à projeter sur grand écran.
 
 Cette flexibilité vous permet d’adapter votre configuration à votre espace, à votre matériel et à la structure de votre événement.
 

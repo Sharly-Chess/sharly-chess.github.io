@@ -15,12 +15,12 @@ Si vous souhaitez afficher plusieurs écrans sur un seul appareil — comme un v
 
 ## Créer un écran rotatif
 
-Pour créer un écran rotatif, rendez-vous sur la page **Écrans rotatifs** et cliquez sur le bouton **Créer un écran rotatif**.
+Pour créer un écran rotatif, rendez-vous sur le menu **Écrans > Écrans rotatifs** et cliquez sur le bouton **Créer un écran rotatif**.
 
-Lors de la configuration, vous pouvez choisir d’inclure des **Écrans individuels** ainsi que des **Familles d’écrans**.
+Lors de la configuration, vous pouvez choisir d’inclure des **Écrans simples** ainsi que des **Familles d’écrans**.
 L’écran rotatif fera automatiquement défiler les écrans sélectionnés.
 
-Si vous ajoutez une Famille d’écrans, l’écran rotatif passera en revue tous les écrans individuels générés par cette famille.
+Si vous ajoutez une Famille d’écrans, l’écran rotatif passera en revue tous les écrans simples générés par cette famille.
 
 {: .warning }
 > :warning: Les écrans rotatifs sont conçus pour _afficher_ des écrans — et non pour _saisir des résultats_.

@@ -19,9 +19,11 @@ One of _Sharly Chess_'s flagship features is the ability to display pairings and
 To make this possible, _Sharly Chess_ includes a built-in web server that other devices can connect to.
 In fact, the entire interface is built using web pages — which is why you need a browser to access it, even on your local machine.
 
-Don’t be put off by the technical terms — you don’t need to know anything about web development to use _Sharly Chess_.  A web server is simply a program that sends web pages to browsers that connect to it.
+{: .tip }
+> :point-right: Don’t be put off by the technical terms — you don’t need to know anything about web development to use _Sharly Chess_.  
+> A web server is simply a program that sends web pages to browsers that connect to it.
 
-### Accessing _Sharly Chess_ – the URL
+### Accessing _Sharly Chess_ (URL)
 
 The URL is the address you enter into your browser's address bar to access the _Sharly Chess_ interface.  On the machine where _Sharly Chess_ is running, the URL for the home page is:
 

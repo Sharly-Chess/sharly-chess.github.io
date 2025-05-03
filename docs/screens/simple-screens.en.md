@@ -1,34 +1,34 @@
 ---
 layout: page
-title: Individual Screens
+title: Simple Screens
 parent: Screens
-permalink: /individual-screens/
-page_id: individual-screens
+permalink: /simple-screens/
+page_id: simple-screens
 nav_order: 100
 ---
 
 # Individual Screens
 
-Individual Screens are standalone web pages that can be configured to display specific types of information.
-To create a Screen, navigate to the _Individual Screens_ page and click the **Create Screen** button.
+Simple Screens are standalone web pages that can be configured to display specific types of information.
+To create a Screen, navigate to the **Screens > Simple Screens_ page and click the **Create Screen** button.
 
 ## Creating a Screen
 
 _Sharly Chess_ offers six screen types to choose from when creating a new Screen:
 
-- **Results Entry** – Allows players to check in and enter their results from a shared device.
-- **Pairings by Board** – Displays pairings for a tournament, ordered by board number.
-- **Pairings by Player** – Displays pairings for a tournament, ordered alphabetically by player.
-- **Last Results** – Shows the most recent results for a tournament.
-- **Rankings** – Displays the current standings for a tournament.
-- **Image** – Displays an image from a file on your computer.
+- <i class="bi-pencil"></i> **Results Entry** – Allows players to check in and enter their results from a shared device.
+- <i class="bi-card-list"></i> **Pairings by Board** – Displays pairings for a tournament, ordered by board number.
+- <i class="bi-people"></i> **Pairings by Player** – Displays pairings for a tournament, ordered alphabetically by player.
+- <i class="bi-1-square"></i> **Last Results** – Shows the most recent results for a tournament.
+- <i class="bi-trophy"></i> **Rankings** – Displays the current standings for a tournament.
+- <i class="bi-image"></i> **Image** – Displays an image from a file on your computer.
 
 {: .tip }
 > :point_right: The pairings screens will display the check-in interface for a tournament when the check-in process is open.
 
 ---
 
-Most options when creating a screen are self-explanatory, but a few deserve additional detail:
+Most options when creating a screen are self-explanatory, but a few deserve additional detail.
 
 ### Layout
 
