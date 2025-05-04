@@ -7,10 +7,10 @@ page_id: simple-screens
 nav_order: 100
 ---
 
-# Individual Screens
+# Simple Screens
 
 Simple Screens are standalone web pages that can be configured to display specific types of information.
-To create a Screen, navigate to the **Screens → Simple Screens_ page and click the **Create Screen** button.
+To create a Screen, navigate to the **Screens → Simple Screens** page and click the **Create Screen** button.
 
 ## Creating a Screen
 
