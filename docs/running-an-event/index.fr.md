@@ -23,10 +23,10 @@ Une fois tout le monde présent, vous pouvez générer les appariements et lance
 Les appariements peuvent être imprimés ou affichés via un vidéoprojecteur si vous en avez un à disposition.
 
 Au fur et à mesure de la ronde, vous pouvez entrer les résultats manuellement — ou laisser les joueur·euses saisir leurs résultats via une tablette ou un ordinateur. 
-Si les résultats sont projetés sur un écran, chacun·e peut facilement vérifier que son score a été correctement enregistré. 
+Si les résultats sont projetés sur un écran, chacun·e peut facilement vérifier que son résultat a été correctement enregistré. 
 Cela fait gagner du temps à l’arbitre et limite les erreurs de saisie.
 
-Après chaque ronde, vous pouvez générer une liste de classement ou une grille américaine à afficher — sur écran ou sur papier, selon votre configuration.
+Après chaque ronde, vous pouvez générer le classement ou la grille américaine, à afficher sur écran ou imprimer sur papier selon votre configuration.
 
 En fin de tournoi, _Sharly Chess_ permet de générer un fichier TRF des résultats — le format standard reconnu par la FIDE.
 

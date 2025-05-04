@@ -9,7 +9,7 @@ nav_order: 500
 
 # Timers
 
-Individual Screens and Screen Families support displaying a countdown timer — useful for things like showing how much time remains before check-in, when the next round begins, and more.
+Simple Screens and Screen Families support displaying a countdown timer — useful for things like showing how much time remains before check-in, when the next round begins, and more.
 
 ---
 

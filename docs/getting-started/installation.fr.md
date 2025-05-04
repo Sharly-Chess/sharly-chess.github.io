@@ -23,13 +23,17 @@ nav_order: 50
 ### Installer _Sharly Chess_
 
 {: .text-center }
-[Télécharger Sharly Chess v{{ site.version }}]({{ site.download_url }}){: .btn }
+[Télécharger la dernière version de _Sharly Chess_ (v{{ site.latest_version }})]({{ site.github_url }}/releases/download/{{ site.latest_version }}/papi-web-{{ site.latest_version }}.zip){: .btn }
 
-> Notez que les versions précédentes sont également disponibles sur la [la page des versions](https://github.com/Sharly-Chess/sharly-chess/releases).
+{: .note }
+> :information_source: [Voir les changements de la dernière version]({{ site.github_url }}/releases/latest)
 
 1. Décompressez l’archive téléchargée ;
 2. À l’intérieur, vous trouverez un dossier nommé selon le numéro de version. Déplacez ce dossier à l’emplacement de votre choix.
    Nous vous recommandons de le placer dans un dossier parent nommé `sharly-chess` — cela vous permet de garder plusieurs versions bien organisées, et le système de mise à jour automatique installera les futures versions dans ce même dossier.
+
+{: .note }
+> :information_source: [Voir les versions précédentes]({{ site.github_url }}/releases)
 
 ### Lancer _Sharly Chess_
 

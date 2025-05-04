@@ -9,7 +9,8 @@ nav_order: 500
 
 # Managing Pairings
 
-Currently, it’s not possible to generate pairings directly from _Sharly Chess_. For now, pairings should continue to be generated manually using _Papi_.
+Currently, it’s not possible to generate pairings directly from _Sharly Chess_. 
+For now, pairings should continue to be generated in _Papi_ using its pairing engine.
 However, once the pairings have been generated, they can be fully managed from the **Pairings** page in the admin interface.
 
 {: .note }
@@ -24,7 +25,8 @@ The pairing interface is split into two sections:
 - **Left side**: Unpaired players and those who have been assigned a bye (if there are any such players).
 - **Right side**: Confirmed pairings for the round.
 
-Navigation controls allow you to switch between tournaments and rounds. You can also toggle between showing all boards or only those still in play.
+Navigation controls allow you to switch between tournaments and rounds. 
+You can also toggle between showing all boards or only those still in play.
 
 ---
 

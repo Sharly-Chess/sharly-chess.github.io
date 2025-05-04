@@ -18,13 +18,19 @@ Il existe plusieurs façons de gérer le pointage :
 - Alternativement, si vous avez plusieurs machines mais préférez limiter l’accès direct des joueur·euses, le staff ou des bénévoles peuvent utiliser ces écrans pour pointer les participant·e·s, ce qui permet de répartir la charge de travail.
 
 {: .tip }
-> :point_right: Si vous disposez d’un vidéoprojecteur dans la salle, vous pouvez afficher la liste en direct des joueur·euses et de leur statut de pointage. Cela leur permet de vérifier immédiatement s’ils·elles sont bien pointé·es.
+> :point_right: Si vous disposez d’un vidéoprojecteur dans la salle, vous pouvez afficher la liste en direct des joueur·euses et leur statut de pointage. Cela leur permet de vérifier immédiatement s’ils·elles sont bien pointé·es.
 
 ## Ouvrir le pointage
 
-Pour lancer le pointage, rendez-vous sur la page **Joueur·euses** dans l’interface d’administration et cliquez sur le bouton **Pointage**. Vous pouvez choisir pour quels tournois activer le pointage.
+Pour lancer le pointage, rendez-vous sur l'onglet' **Joueur·euses** dans l’interface d’administration et cliquez sur le bouton **Pointage**.
+Vous pouvez choisir pour quels tournois ouvrir le pointage.
 
-Une fois activé, le statut de pointage de chaque joueur·euse est affiché dans le tableau — soit sous forme d’une coche verte (pointé·e), soit d’un point orange (non pointé·e). Cliquez sur l’icône pour modifier le statut.
+Une fois le pointage ouvert, le statut de pointage de chaque joueur·euse est affiché dans le tableau :
+> <i class="bi-circle-fill" style="color: #ffc107; padding-right: 0.3rem;"></i> joueur·euse non pointé·e<br />
+> <i class="bi-circle-fill" style="color: #198754; padding-right: 0.3rem;"></i> joueur·euse pointé·e<br />
+> <i class="bi-ban" style="color: #6c757d; padding-right: 0.3rem;"></i> joueur·euse absent·e
+
+Cliquez sur l’icône pour modifier le statut.
 
 {: .tip }
 > :point_right: Utilisez le filtre pour n’afficher que les joueur·euses non pointé·es. Cela permet d’identifier rapidement les absences.
@@ -38,12 +44,13 @@ Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordi
 
 Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointage en cliquant à nouveau sur le bouton **Pointage**. Si des joueur·euses ne sont pas pointé·es, il vous sera demandé comment les traiter :
 
-- Leur attribuer un **bye à 0 point** pour la prochaine ronde, ou
-- Leur attribuer des **byes à zéro point pour toutes les rondes restantes** du tournoi.
+- Les marquer comme absent·es (bye à 0 point) pour la prochaine ronde, ou
+- Les marquer comme absent·es (bye à 0 point) pour toutes les rondes restantes du tournoi.
 
 {: .note }
 > :information_source: Cette action met à jour directement la base de données _Papi_. Les joueur·euses concerné·es apparaîtront en grisé dans _Papi_ et ne seront plus apparié·es — un vrai gain de temps par rapport à une gestion manuelle dans _Papi_.
 
-## Réouvrir le pointage
+## Ré-ouvrir le pointage
 
-Pour les tournois sur plusieurs jours, vous pouvez choisir de réactiver le pointage au début de chaque journée. Lorsque vous réouvrez le pointage, les statuts de tous les joueur·euses sont réinitialisés : ils·elles devront se pointer à nouveau.
+Pour les tournois sur plusieurs jours pour lesquels seul·es les joueur·euses pointé·e sotn apparié·es à chaque ronde, vous pouvez choisir de ré-ouverir le pointage au début de chaque ronde.
+Lorsque vous ré-ouvrez le pointage, les statuts de tous les joueur·euses sont réinitialisés : ils·elles devront se pointer à nouveau.

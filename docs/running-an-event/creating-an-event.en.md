@@ -19,7 +19,7 @@ Some basic information is required to set up an event, but most fields can be le
 | **Name** | A more user-friendly name, used for display purposes (e.g. on [Screens]({% link docs/screens/index.en.md %})).
 | **Start/End** | The start and end dates of the event. Used for sorting events and included in the TRF export. |
 | **Location** | The location of the event (e.g. city or venue). |
-| **Default directory for Papi files** | Currently, most tournament data is stored in a _[Papi]({% link docs/getting-started/papi-and-sharly-chess.en.md %})_ file.
+| **Default directory for _Papi_ files** | Currently, most tournament data is stored in a _[Papi]({% link docs/getting-started/papi-and-sharly-chess.en.md %})_ file.
 | **Passwords for result entry** | Only relevant if players will enter their results via other devices. The first connection from each device will require this password — useful if you're on an open or shared network. |
 | **Illegal move recording** | Allows you to track the number of illegal moves per player. You can define a maximum number here, which can be overridden per tournament. |
 | **Rules file location** | A link to the tournament rules document. This can be customized for each tournament. |

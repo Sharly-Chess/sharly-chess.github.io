@@ -9,7 +9,7 @@ nav_order: 500
 
 # Chronomètres
 
-Les **Écrans individuels** et les **Familles d’écrans** prennent en charge l’affichage d’un chronomètre décomptant le temps — pratique pour indiquer, par exemple, combien de temps il reste avant la fin du pointage, ou quand la prochaine ronde commencera.
+Les **Écrans simples** et les **Familles d’écrans** prennent en charge l’affichage d’un chronomètre décomptant le temps — pratique pour indiquer, par exemple, combien de temps il reste avant la fin du pointage, ou quand la prochaine ronde commencera.
 
 ---
 
