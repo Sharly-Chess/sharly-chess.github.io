@@ -20,7 +20,7 @@ To make this possible, _Sharly Chess_ includes a built-in web server that other 
 In fact, the entire interface is built using web pages — which is why you need a browser to access it, even on your local machine.
 
 {: .tip }
-> :point-right: Don’t be put off by the technical terms — you don’t need to know anything about web development to use _Sharly Chess_.  
+> :point_right: Don’t be put off by the technical terms — you don’t need to know anything about web development to use _Sharly Chess_.  
 > A web server is simply a program that sends web pages to browsers that connect to it.
 
 ### Accessing _Sharly Chess_ (URL)

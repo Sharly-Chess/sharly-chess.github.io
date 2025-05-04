@@ -21,7 +21,7 @@ Pour rendre cela possible, _Sharly Chess_ intègre un serveur web auquel d’aut
 En réalité, toute l’interface de _Sharly Chess_ est construite comme une page web — c’est pourquoi vous avez besoin d’un navigateur pour l’utiliser, même depuis votre propre machine.
 
 {: .tip }
-> :point-right: Pas d’inquiétude : aucune connaissance en développement web n’est nécessaire pour utiliser _Sharly Chess_.
+> :point_right: Pas d’inquiétude : aucune connaissance en développement web n’est nécessaire pour utiliser _Sharly Chess_.
 Un serveur web n’est qu’un programme capable d’envoyer des pages à un navigateur connecté.
 
 ### Accéder à _Sharly Chess_ (URL)
