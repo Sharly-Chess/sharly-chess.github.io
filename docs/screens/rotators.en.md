@@ -15,7 +15,7 @@ If you want to display multiple Screens on a single device — such as a project
 
 ## Creating a Rotator
 
-To create a Rotator, go to the **Screens > Rotators** menu and click the **Create a Rotator** button.
+To create a Rotator, go to the **Screens → Rotators** menu and click the **Create a Rotator** button.
 
 When setting up your Rotator, you can select which **Simple Screens** and **Screen Families** to include.
 The Rotator will automatically rotate between the selected Screens.

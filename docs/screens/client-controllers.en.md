@@ -19,7 +19,7 @@ That’s exactly what **Display Controllers** are for.
 
 ## Creating a Display Controller
 
-To create a Display Controller, go to the **Screens > Display Controllers** menu and click the **Create a Display Controller** button.
+To create a Display Controller, go to the **Screens → Display Controllers** menu and click the **Create a Display Controller** button.
 You’ll be asked to choose a unique ID and a name for the controller — this name will help you identify the controller later.
 
 ---
@@ -36,7 +36,7 @@ Once your Display Controller is created, you can assign a screen to it in two wa
 
 {: .note }
 > :information_source: You can assign **Simple Screens** and **Rotators** to a controller — but not **Screen Families** since they have multiple screens associated with them.
-> To display a Screen Family, create a Rotator for the screens of this family and then create a controller on this rotator.
+> To display a Screen Family, create a Rotator for the screens of this family and then assign the rotator to the controller.
 
 ---
 

@@ -22,13 +22,13 @@ Il existe plusieurs façons de gérer le pointage :
 
 ## Ouvrir le pointage
 
-Pour lancer le pointage, rendez-vous sur l'onglet' **Joueur·euses** dans l’interface d’administration et cliquez sur le bouton **Pointage**. 
+Pour lancer le pointage, rendez-vous sur l'onglet' **Joueur·euses** dans l’interface d’administration et cliquez sur le bouton **Pointage**.
 Vous pouvez choisir pour quels tournois ouvrir le pointage.
 
 Une fois le pointage ouvert, le statut de pointage de chaque joueur·euse est affiché dans le tableau :
-- <i class="bi-circle-fill" style="color: #ffc107"></i> joueur·euse non pointé·e
-- <i class="bi-circle-fill" style="color: #198754"></i> joueur·euse pointé·e
-- <i class="bi-ban" style="color: #6c757d"></i> joueur·euse absent·e
+> <i class="bi-circle-fill" style="color: #ffc107; padding-right: 0.3rem;"></i> joueur·euse non pointé·e<br />
+> <i class="bi-circle-fill" style="color: #198754; padding-right: 0.3rem;"></i> joueur·euse pointé·e<br />
+> <i class="bi-ban" style="color: #6c757d; padding-right: 0.3rem;"></i> joueur·euse absent·e
 
 Cliquez sur l’icône pour modifier le statut.
 
@@ -52,5 +52,5 @@ Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointag
 
 ## Ré-ouvrir le pointage
 
-Pour les tournois sur plusieurs jours pour lesquels seul·es les joueur·euses pointé·e sotn apparié·es à chaque ronde, vous pouvez choisir de ré-ouverir le pointage au début de chaque ronde. 
+Pour les tournois sur plusieurs jours pour lesquels seul·es les joueur·euses pointé·e sotn apparié·es à chaque ronde, vous pouvez choisir de ré-ouverir le pointage au début de chaque ronde.
 Lorsque vous ré-ouvrez le pointage, les statuts de tous les joueur·euses sont réinitialisés : ils·elles devront se pointer à nouveau.

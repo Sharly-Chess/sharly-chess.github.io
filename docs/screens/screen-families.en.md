@@ -22,14 +22,14 @@ _Screen Families_ allow you to automate this process by automatically generating
 
 ## Creating a Screen Family
 
-To create a Screen Family, go to the **Screens > Screen Families** menu and click the **Create a Screen Family** button.
+To create a Screen Family, go to the **Screens → Screen Families** menu and click the **Create a Screen Family** button.
 
 The following screen types are available for use in a Screen Family:
 
-- **Results Entry** – Allows players to check in and enter their results from a shared device.
-- **Pairings by Board** – Displays pairings ordered by board number.
-- **Pairings by Player** – Displays pairings ordered alphabetically.
-- **Rankings** – Displays the current tournament standings.
+> <i class="bi-pencil" style="padding-right: 0.3rem"></i> **Results Entry** – Allows players to check in and enter their results from a shared device.<br />
+> <i class="bi-card-list" style="padding-right: 0.3rem"></i> **Pairings by Board** – Displays pairings ordered by board number.<br />
+> <i class="bi-people" style="padding-right: 0.3rem"></i> **Pairings by Player** – Displays pairings ordered alphabetically.<br />
+> <i class="bi-trophy" style="padding-right: 0.3rem"></i> **Rankings** – Displays the current tournament standings.<br />
 
 When creating a Screen Family, you’ll see the same options available when creating a standard Screen, but with an additional configuration:
 

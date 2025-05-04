@@ -23,14 +23,14 @@ Les **familles d’écrans** (_Screen Families_) permettent d’automatiser ce p
 
 ## Créer une famille d’écrans
 
-Pour créer une famille d’écrans, allez dans le menu **Écrans > Familles d’écrans** et cliquez sur le bouton **Créer une famille d’écrans**.
+Pour créer une famille d’écrans, allez dans le menu **Écrans → Familles d’écrans** et cliquez sur le bouton **Créer une famille d’écrans**.
 
 Les types d’écrans suivants peuvent être utilisés dans une famille d’écrans :
 
-- <i class="bi-pencil"></i> **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil partagé.
-- <i class="bi-card-list"></i> **Appariements par échiquier** – Affiche les appariements triés par numéro de table.
-- <i class="bi-people"></i> **Appariements par joueur·euse** – Affiche les appariements triés alphabétiquement.
-- <i class="bi-trophy"></i> **Classement** – Affiche le classement actuel du tournoi.
+> <i class="bi-pencil" style="padding-right: 0.3rem"></i> **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil partagé.<br />
+> <i class="bi-card-list" style="padding-right: 0.3rem"></i> **Appariements par échiquier** – Affiche les appariements triés par numéro de table.<br />
+> <i class="bi-people" style="padding-right: 0.3rem"></i> **Appariements par joueur·euse** – Affiche les appariements triés alphabétiquement.<br />
+> <i class="bi-trophy" style="padding-right: 0.3rem"></i> **Classement** – Affiche le classement actuel du tournoi.<br />
 
 Lors de la création d’une famille d’écrans, vous retrouverez les mêmes options que pour un écran simple, avec une option supplémentaire :
 

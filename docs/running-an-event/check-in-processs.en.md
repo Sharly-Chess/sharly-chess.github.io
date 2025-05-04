@@ -25,9 +25,9 @@ You have several ways to handle check-ins:
 To begin check-in, go to the **Players** page in the admin interface and click the **Check-in** button. You can choose which tournament(s) to open check-in for.
 
 Once active, each player's check-in status will be shown in the table:
-- <i class="bi-circle-fill" style="color: #ffc107"></i> not yet checked in
-- <i class="bi-circle-fill" style="color: #198754"></i> checked in
-- <i class="bi-ban" style="color: #6c757d"></i> absent
+> <i class="bi-circle-fill" style="color: #ffc107; padding-right: 0.3rem;"></i> Not yet checked in<br />
+> <i class="bi-circle-fill" style="color: #198754; padding-right: 0.3rem;"></i> Checked in<br />
+> <i class="bi-ban" style="color: #6c757d; padding-right: 0.3rem;"></i> Absent
 
 Click the icon to toggle a player's status.
 
@@ -51,5 +51,5 @@ When you're ready to start the tournament, close the check-in process by clickin
 
 ## Re-opening Check-in
 
-For multi-day events for which only checked-in players are paired at each round, you may want to re-open check-in at the start of each round. 
+For multi-day events for which only checked-in players are paired at each round, you may want to re-open check-in at the start of each round.
 When re-opened, all players’ statuses are reset — they’ll need to check in again.
