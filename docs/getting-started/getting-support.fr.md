@@ -12,5 +12,5 @@ nav_order: 200
 Pour signaler un problème, obtenir de l'aide ou faire un retour aux développeur·euses de Sharly Chess, vous pouvez :
 
 * envoyer un mél à [support@sharly-chess.com](mailto:support@sharly-chess.com)
-* créer une entrée sur [le dépôt GitHub](https://github.com/sharly-shess/sharly-chess/issues) du projet
+* créer une entrée sur [le dépôt GitHub](https://github.com/sharly-chess/sharly-chess/issues) du projet
 * rejoindre la communauté _Sharly Chess_ sur [le serveur Discord du projet](https://discord.gg/WGG87eJzQZ)
