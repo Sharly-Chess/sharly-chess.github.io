@@ -26,7 +26,7 @@ nav_order: 50
 [Télécharger la dernière version de _Sharly Chess_ (v{{ site.latest_version }})](https://github.com/sharly-chess/sharly-chess/releases/download/{{ site.latest_version }}/papi-web-{{ site.latest_version }}.zip){: .btn }
 
 {: .note }
-> :information_source: [Voir les changements de la dernière version]({{ site.download_url }})
+> :information_source: [Voir les changements de la dernière version](https://github.com/sharly-chess/sharly-chess/releases/latest)
 
 1. Décompressez l’archive téléchargée ;
 2. À l’intérieur, vous trouverez un dossier nommé selon le numéro de version. Déplacez ce dossier à l’emplacement de votre choix.
