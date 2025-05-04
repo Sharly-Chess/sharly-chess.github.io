@@ -9,6 +9,7 @@ layout: table_wrappers
 <body class="home">
   <header>
     <div class="container">
+      <img src="/assets/logo.svg" class="logo"">
       {% contentblock header %}
     </div>
   </header>
@@ -21,10 +22,7 @@ layout: table_wrappers
     <div class="testimonial-section">
       {% contentblock arbiters %}
 
-      <div class="carousel sepia">
-        <img src="/assets/images/domloup-fide-6.jpg">
-
-      </div>
+      <img class="screenshot sepia" src="/assets/images/domloup-fide-wide.jpg">
     </div>
   </section>
 
@@ -44,7 +42,7 @@ layout: table_wrappers
   {%- if posts.size > 0 -%}
     <section class="news">
       {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-      <h2>Latest News</h2>
+      <h1>{{ site.data[site.active_lang].strings.latest_news }}</h1>
       {% for post in posts limit:3 %}
         <div class="news-item">
           <span class="post-meta">{{ post.date | date: date_format }}</span>
