@@ -27,6 +27,6 @@ Les membres de l'association sont :
 
 Le bureau de l'association est :
 
-* **President**: Pascal AUBRY
-* **Treasurer**: Sammy PLAT
-* **Secretary**: Timothy ARMES
+* **Président**: Pascal AUBRY
+* **Trésorier**: Sammy PLAT
+* **Secrétaire**: Timothy ARMES
