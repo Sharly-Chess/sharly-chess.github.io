@@ -24,6 +24,7 @@ nav_order: 50
 
 {: .text-center }
 [Download Sharly Chess v{{ site.version }}]({{ site.download_url }}){: .btn }
+[Download the last release of _Sharly Chess_ (v{{ site.latest_version }})]({{ site.download_url }}){: .btn }
 
 > Note that previous versions are also available from the [releases page](https://github.com/Sharly-Chess/sharly-chess/releases).
 

@@ -23,7 +23,7 @@ nav_order: 50
 ### Installer _Sharly Chess_
 
 {: .text-center }
-[Télécharger Sharly Chess v{{ site.version }}]({{ site.download_url }}){: .btn }
+[Télécharger la dernière version de _Sharly Chess_ (v{{ site.latest_version }})]({{ site.download_url }}){: .btn }
 
 > Notez que les versions précédentes sont également disponibles sur la [la page des versions](https://github.com/Sharly-Chess/sharly-chess/releases).
 
