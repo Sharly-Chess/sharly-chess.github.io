@@ -28,10 +28,10 @@ You’ll be asked to choose a unique ID and a name for the controller — this n
 
 Once your Display Controller is created, you can assign a screen to it in two ways:
 
-- From the **Simple Screens** or **Rotators** pages:
+- From the **Screens → Simple Screens** or **Screens → Rotators** menus:
   Find the screen or rotator you want to display, click the **Assign to Controller** button, and select the controller you want to update.
 
-- From the **Display Controllers** page:
+- From the **Screens → Display Controllers** menu:
   Find the controller you'd like to update, click the **Assign Screen** button, and choose the screen or rotator you want to display.
 
 {: .note }
@@ -45,7 +45,7 @@ Once your Display Controller is created, you can assign a screen to it in two wa
 From the display you want to control (a browser on a client, or just another browser tab on your own machine):
 
 1. Navigate to the event’s public interface.
-2. Click **Display Controllers** in the navigation menu.
+2. Click the **Screens → Display Controllers** menu.
 3. Select the controller you want this display to follow.
 
 The browser will then display the screen currently assigned to that controller, and it will update automatically any time the arbiter changes the screen or rotator from the admin interface.

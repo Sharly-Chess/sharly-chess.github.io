@@ -44,8 +44,8 @@ Une fois le pilote créé, vous pouvez lui attribuer un écran de deux manières
 
 Depuis l'afficheur que vous souhaitez contrôler (un navigateur sur un client, ou un autre onglet de votre navigateur) :
 
-1. Accédez à l’interface publique de l’événement.
-2. Cliquez sur **Pilotes d’afficheurs** dans le menu de navigation.
+1. Accédez à l’interface publique de l’événement ;
+2. Cliquez sur le menu **Écrans → Pilotes d’afficheurs** ;
 3. Sélectionnez le pilote que vous souhaitez suivre sur l'afficheur.
 
 Le navigateur affichera alors l’écran actuellement attribué à ce pilote, et il se mettra à jour automatiquement dès qu’un nouvel écran ou écran rotatif lui sera assigné depuis l’interface de l’arbitre.
