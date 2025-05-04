@@ -10,18 +10,18 @@ nav_order: 100
 # Écrans simples
 
 Les écrans simples sont des pages web autonomes que vous pouvez configurer pour afficher des types d’informations spécifiques.
-Pour créer un écran, allez sur le menu **Écrans > Écrans simples** et cliquez sur le bouton **Créer un écran**.
+Pour créer un écran, allez sur le menu **Écrans → Écrans simples** et cliquez sur le bouton **Créer un écran**.
 
 ## Créer un écran
 
 _Sharly Chess_ propose six types d’écrans parmi lesquels choisir :
 
-- <i class="bi-pencil"></i> **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil mis à leur disposition.
-- <i class="bi-card-list"></i> **Appariements par échiquier** – Affiche les appariements d’un tournoi, triés par numéro d'échiquier'.
-- <i class="bi-people"></i> **Appariements par joueur·euse** – Affiche les appariements d’un tournoi, triés par ordre alphabétique.
-- <i class="bi-1-square"></i> **Derniers résultats** – Affiche les derniers résultats enregistrés pour un tournoi.
-- <i class="bi-trophy"></i> **Classement** – Affiche le classement actuel d’un tournoi.
-- <i class="bi-image"></i> **Image** – Affiche une image issue d’un fichier de votre ordinateur.
+> <i class="bi-pencil" style="padding-right: 0.3rem"></i> **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil mis à leur disposition.<br />
+> <i class="bi-card-list" style="padding-right: 0.3rem"></i> **Appariements par échiquier** – Affiche les appariements d’un tournoi, triés par numéro d'échiquier'.<br />
+> <i class="bi-people" style="padding-right: 0.3rem"></i> **Appariements par joueur·euse** – Affiche les appariements d’un tournoi, triés par ordre  alphabétique.<br />
+> <i class="bi-1-square" style="padding-right: 0.3rem"></i> **Derniers résultats** – Affiche les derniers résultats enregistrés pour un tournoi.<br />
+> <i class="bi-trophy" style="padding-right: 0.3rem"></i> **Classement** – Affiche le classement actuel d’un tournoi.<br />
+> <i class="bi-image" style="padding-right: 0.3rem"></i> **Image** – Affiche une image issue d’un fichier de votre ordinateur.
 
 {: .tip }
 > :point_right: Lorsqu’un tournoi est en cours de pointage, les écrans d’appariement affichent l’interface de pointage.

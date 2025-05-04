@@ -22,7 +22,7 @@ That’s exactly what **Client Controllers** are for.
 
 ## Creating a Client Controller
 
-To create a Client Controller, go to the **Screens > Client Controllers** menu and click the **Create a Client Controller** button.
+To create a Client Controller, go to the **Screens → Client Controllers** menu and click the **Create a Client Controller** button.
 You’ll be asked to choose a unique ID and a name for the controller — this name will help you identify the device later.
 
 ---
@@ -39,7 +39,7 @@ Once your Client Controller is created, you can assign a screen to it in two way
 
 {: .note }
 > :information_source: You can assign **Simple Screens** and **Rotators** to a controller — but not **Screen Families** since they have multiple screens associated with them.
-> To display a Screen Family, create a Rotator for the screens of this family and then create a controller on this rotator.
+> To display a Screen Family, create a Rotator for the screens of this family and then assign the rotator to the controller.
 
 ---
 

@@ -10,18 +10,18 @@ nav_order: 100
 # Individual Screens
 
 Simple Screens are standalone web pages that can be configured to display specific types of information.
-To create a Screen, navigate to the **Screens > Simple Screens_ page and click the **Create Screen** button.
+To create a Screen, navigate to the **Screens → Simple Screens_ page and click the **Create Screen** button.
 
 ## Creating a Screen
 
 _Sharly Chess_ offers six screen types to choose from when creating a new Screen:
 
-- <i class="bi-pencil"></i> **Results Entry** – Allows players to check in and enter their results from a shared device.
-- <i class="bi-card-list"></i> **Pairings by Board** – Displays pairings for a tournament, ordered by board number.
-- <i class="bi-people"></i> **Pairings by Player** – Displays pairings for a tournament, ordered alphabetically by player.
-- <i class="bi-1-square"></i> **Last Results** – Shows the most recent results for a tournament.
-- <i class="bi-trophy"></i> **Rankings** – Displays the current standings for a tournament.
-- <i class="bi-image"></i> **Image** – Displays an image from a file on your computer.
+><i class="bi-pencil" style="padding-right: 0.3rem"></i> **Results Entry** – Allows players to check in and enter their results from a shared device.<br />
+><i class="bi-card-list" style="padding-right: 0.3rem"></i> **Pairings by Board** – Displays pairings for a tournament, ordered by board number.<br />
+><i class="bi-people" style="padding-right: 0.3rem"></i> **Pairings by Player** – Displays pairings for a tournament, ordered alphabetically by player.<br />
+><i class="bi-1-square" style="padding-right: 0.3rem"></i> **Last Results** – Shows the most recent results for a tournament.<br />
+><i class="bi-trophy" style="padding-right: 0.3rem"></i> **Rankings** – Displays the current standings for a tournament.<br />
+><i class="bi-image" style="padding-right: 0.3rem"></i> **Image** – Displays an image from a file on your computer.
 
 {: .tip }
 > :point_right: The pairings screens will display the check-in interface for a tournament when the check-in process is open.

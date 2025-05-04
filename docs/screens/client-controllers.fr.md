@@ -19,7 +19,7 @@ C’est précisément le rôle des **pilotes d’écrans**.
 
 ## Créer un pilote d’écran
 
-Pour créer un pilote d’écran, allez sur le menu **Écrans > Pilotes d’écrans** et cliquez sur le bouton **Créer un pilote d’écran**.
+Pour créer un pilote d’écran, allez sur le menu **Écrans → Pilotes d’écrans** et cliquez sur le bouton **Créer un pilote d’écran**.
 Il vous sera demandé de choisir un identifiant unique ainsi qu’un nom — ce nom vous aidera à reconnaître facilement le pilote concerné.
 
 ---
@@ -28,7 +28,7 @@ Il vous sera demandé de choisir un identifiant unique ainsi qu’un nom — ce 
 
 Une fois le pilote créé, vous pouvez lui attribuer un écran de deux manières :
 
-- Depuis les menus **Écrans > Écrans simples** ou **Écrans > Écrans rotatifs** :
+- Depuis les menus **Écrans → Écrans simples** ou **Écrans → Écrans rotatifs** :
   Trouvez l’écran (ou l’écran rotatif) à afficher, cliquez sur **Attribuer à un pilote**, et sélectionnez le pilote que vous souhaitez mettre à jour.
 
 - Depuis la page **Pilotes d’écrans** :
