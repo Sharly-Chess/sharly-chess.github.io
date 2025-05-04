@@ -25,7 +25,7 @@ nav_order: 50
 {: .text-center }
 [Télécharger la dernière version de _Sharly Chess_ (v{{ site.latest_version }})]({{ site.download_url }}){: .btn }
 
-> Notez que les versions précédentes sont également disponibles sur la [la page des versions](https://github.com/Sharly-Chess/sharly-chess/releases).
+> Notez que les versions précédentes sont également disponibles sur la [la page de téléchargement](https://github.com/Sharly-Chess/sharly-chess/releases).
 
 1. Décompressez l’archive téléchargée ;
 2. À l’intérieur, vous trouverez un dossier nommé selon le numéro de version. Déplacez ce dossier à l’emplacement de votre choix.
