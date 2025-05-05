@@ -24,7 +24,7 @@ Free, open-source, intuitive and designed for real-world tournaments.
 
 {% contentfor arbiters %}
 # _Arbiters_ love it
-Sharly Chess is built around the needs of tournament arbiters, helping you stay organized and efficient even in high-pressure settings.
+_Sharly Chess_ is built around the needs of tournament arbiters, helping you stay organized and efficient even in high-pressure settings.
 
 <div class="features-inline">
   <div class="feature-box">
@@ -57,7 +57,7 @@ Sharly Chess is built around the needs of tournament arbiters, helping you stay 
 
 {% contentfor players %}
 # _Players_ love it
-Sharly Chess improves the tournament experience for everyone.
+_Sharly Chess_ improves the tournament experience for everyone.
 Players can find their pairings quickly and submit results with ease.
 
 <div class="features-inline">
@@ -81,5 +81,5 @@ Players can find their pairings quickly and submit results with ease.
 {% endcontentfor %}
 
 {% contentfor footer %}
-&copy; 2025 Sharly Chess. Built with passion by chess lovers.
+&copy; Sharly Chess Project 2013-2025. Built with passion by chess lovers.
 {% endcontentfor %}
