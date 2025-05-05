@@ -35,10 +35,12 @@ _Sharly Chess_ is built around the needs of tournament arbiters, helping you sta
     <strong>Check-ins</strong>
     Check players in yourself, or have players check themselves in.
   </div>
+  <!--
   <div class="feature-box">
     <strong>Pairings</strong>
     Automated, fide compliant, and easy to adjust on the fly.
   </div>
+  -->
   <div class="feature-box">
     <strong>Live standings</strong>
     Results are available instantly after each round.
@@ -66,8 +68,8 @@ Players can find their pairings quickly and submit results with ease.
     No waiting in line to report a result.
   </div>
   <div class="feature-box">
-    <strong>Less waiting</strong>
-    Less waiting between rounds since the arbiter doesn't need to enter the results manually.
+    <strong>Smoother tournaments</strong>
+    Less waiting between rounds since the arbiter doesn’t have to enter every result.
   </div>
     <div class="feature-box">
     <strong>On-screen pairings</strong>
