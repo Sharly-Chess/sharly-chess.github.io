@@ -8,12 +8,13 @@ layout: table_wrappers
 {% include head.html %}
 <body class="home">
   <header>
+    {% include header_custom.html %}
     <div class="container">
       <div class="logo">
         {% include logo.svg %}
       </div>
       {% contentblock header %}
-      {% include header_custom.html %}
+
     </div>
   </header>
 

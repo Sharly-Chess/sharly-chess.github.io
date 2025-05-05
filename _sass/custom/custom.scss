@@ -179,13 +179,20 @@ body.home {
   header {
     background-color: $sidebar-color;
     color: white;
-    padding: 4rem 2rem;
-    text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    .language-switcher {
+      text-align: right;
+      padding: 1.5rem 1.5rem 0 0;
+      margin: 0;
+      justify-content: flex-end;
+    }
 
     .container {
       max-width: 800px;
       margin: 0 auto;
+      text-align: center;
+      padding: 1.5rem 2rem 4rem 2rem;
     }
 
     h1 {
