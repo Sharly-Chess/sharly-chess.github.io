@@ -2,13 +2,30 @@ a:hover {
   color: #e9e1cf;
 }
 
+.site-title {
+  padding-right: 0.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .nav-logo {
+    color: $link-color;
+    line-height: 0;
+
+    svg {
+      height: 40px;
+      width: auto;
+    }
+  }
+}
+
 .language-switcher {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem;
   gap: 1rem;
-
 }
 
 .post-item {
@@ -119,26 +136,28 @@ details {
   }
 }
 
-.main-content h1 {
-  margin-bottom: 1.5rem;
-}
-
-.main-content img {
-  border: 1px solid $border-color;
-}
-
-.main-content figure {
-  & > p {
-    margin-bottom: 0;
+.main-content {
+  h1 {
+    margin-bottom: 1.5rem;
   }
+
   img {
     border: 1px solid $border-color;
   }
-  & > figcaption {
-    margin-top: 0rem;
-    font-size: 0.8rem;
-    font-style: italic;
-    text-align: center;
+
+  figure {
+    & > p {
+      margin-bottom: 0;
+    }
+    img {
+      border: 1px solid $border-color;
+    }
+    & > figcaption {
+      margin-top: 0rem;
+      font-size: 0.8rem;
+      font-style: italic;
+      text-align: center;
+    }
   }
 }
 
@@ -158,7 +177,7 @@ body.home {
   color: #f4f0e6;
 
   header {
-    background-color: #282828;
+    background-color: $sidebar-color;
     color: white;
     padding: 4rem 2rem;
     text-align: center;
@@ -179,13 +198,18 @@ body.home {
       margin-top: 2rem;
     }
 
-    p:last-of-type {
+    *:last-child {
       margin-bottom: 0;
     }
 
     .logo {
-      width: 280px;
-      max-width: 90vw;
+      color: $link-color;
+
+      svg {
+        width: 280px;
+        height: auto;
+        max-width: 90vw;
+      }
     }
   }
 
@@ -212,7 +236,7 @@ body.home {
     }
   }
 
-  .testimonial-section {
+  .features-section {
     padding: 4rem 2rem;
     max-width: 1036px;
     margin: 0 auto;
@@ -254,12 +278,12 @@ body.home {
     }
   }
 
-  .testimonial-arbiters {
+  .features-arbiters {
     background-color: #2a2a2a;
     color: #f4f0e6;
   }
 
-  .testimonial-players {
+  .features-players {
     background-color: #333333;
     color: #f4f0e6;
   }
@@ -281,7 +305,7 @@ body.home {
   }
 
   .sepia img, img.sepia {
-    filter: sepia(60%) contrast(.8);
+    filter: sepia(40%) contrast(.8);
   }
 
   .news {
@@ -311,6 +335,6 @@ body.home {
     color: white;
     text-align: center;
     padding: 2rem;
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
 }

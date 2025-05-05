@@ -23,7 +23,7 @@ Free, open-source, intuitive and designed for real-world tournaments.
 {% endcontentfor %}
 
 {% contentfor arbiters %}
-# Arbiters love it
+# _Arbiters_ love it
 Sharly Chess is built around the needs of tournament arbiters, helping you stay organized and efficient even in high-pressure settings.
 
 <div class="features-inline">
@@ -37,26 +37,26 @@ Sharly Chess is built around the needs of tournament arbiters, helping you stay 
   </div>
   <div class="feature-box">
     <strong>Pairings</strong>
-    Automated, fair, and easy to adjust on the fly.
+    Automated, fide compliant, and easy to adjust on the fly.
   </div>
   <div class="feature-box">
     <strong>Live standings</strong>
     Results are available instantly after each round.
   </div>
   <div class="feature-box">
-    <strong>Offline capability</strong>
+    <strong>Offline solution</strong>
     Run tournaments without an internet connection.
   </div>
   <div class="feature-box">
-    <strong>Spend more time arbitrating</strong>
-    Players can enter their own result, letting you concentrate on games.
+    <strong>Focus on arbitration</strong>
+    Players can enter their own results while you manage the tournament.
   </div>
 </div>
 
 {% endcontentfor %}
 
 {% contentfor players %}
-# Players love it
+# _Players_ love it
 Sharly Chess improves the tournament experience for everyone.
 Players can find their pairings quickly and submit results with ease.
 
@@ -74,6 +74,10 @@ Players can find their pairings quickly and submit results with ease.
     Players instantly see their board and opponent.
   </div>
 </div>
+{% endcontentfor %}
+
+{% contentfor more_news %}
+[See all posts]({% link news.en.md %}){: .btn }
 {% endcontentfor %}
 
 {% contentfor footer %}

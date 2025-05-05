@@ -3,8 +3,7 @@ layout: page
 title: History
 permalink: /history/
 page_id: history
-nav_order: 2000
-separator: true
+nav_order: 2050
 ---
 
 # How did Sharly Chess come about?

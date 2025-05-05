@@ -4,13 +4,16 @@ layout: table_wrappers
 
 <!DOCTYPE html>
 
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ site.active_lang | default: site.default_lang }}">
 {% include head.html %}
 <body class="home">
   <header>
     <div class="container">
-      <img src="/assets/logo.svg" class="logo"">
+      <div class="logo">
+        {% include logo.svg %}
+      </div>
       {% contentblock header %}
+      {% include header_custom.html %}
     </div>
   </header>
 
@@ -18,16 +21,16 @@ layout: table_wrappers
     {% contentblock main %}
   </section>
 
-  <section class="testimonial-arbiters">
-    <div class="testimonial-section">
+  <section class="features-arbiters">
+    <div class="features-section">
       {% contentblock arbiters %}
 
       <img class="screenshot sepia" src="/assets/images/domloup-fide-wide.jpg">
     </div>
   </section>
 
-  <section class="testimonial-players">
-    <div class="testimonial-section">
+  <section class="features-players">
+    <div class="features-section">
       {% contentblock players %}
 
       <div class="carousel sepia">
@@ -61,12 +64,13 @@ layout: table_wrappers
           </a>
         </div>
       {% endfor %}
+
+      {% contentblock more_news %}
     </section>
   {%- endif -%}
 
   <footer>
     {% contentblock footer %}
-    {% include header_custom.html %}
   </footer>
 </body>
 </html>

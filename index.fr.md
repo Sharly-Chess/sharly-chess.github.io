@@ -23,7 +23,7 @@ Gratuit, open-source, intuitif et pensé pour les tournois du monde réel.
 {% endcontentfor %}
 
 {% contentfor arbiters %}
-# Les arbitres l’adorent
+# Les _arbitres_ l’adorent
 Sharly Chess est conçu autour des besoins des arbitres de tournois, pour vous aider à rester organisé et efficace, même sous pression.
 
 <div class="features-inline">
@@ -56,7 +56,7 @@ Sharly Chess est conçu autour des besoins des arbitres de tournois, pour vous a
 {% endcontentfor %}
 
 {% contentfor players %}
-# Les joueur·euse·s l’adorent
+# Les _joueur·euse·s_ l’adorent
 Sharly Chess améliore l’expérience des tournois pour tout le monde.
 Les joueur·euse·s trouvent facilement leurs appariements et peuvent saisir leurs résultats en un clin d’œil.
 
@@ -74,6 +74,10 @@ Les joueur·euse·s trouvent facilement leurs appariements et peuvent saisir leu
     Les joueur·euse·s voient immédiatement leur table et leur adversaire.
   </div>
 </div>
+{% endcontentfor %}
+
+{% contentfor more_news %}
+[Voir tous les articles]({% link news.fr.md %}){: .btn }
 {% endcontentfor %}
 
 {% contentfor footer %}

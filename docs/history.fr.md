@@ -3,8 +3,7 @@ layout: page
 title: Historique
 permalink: /history/
 page_id: history
-nav_order: 2000
-separator: true
+nav_order: 2050
 ---
 
 # Comment Sharly Chess est-il né ?
