@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Sharly Chess
+title: Gestion de tournoi
 permalink: /
 ---
 

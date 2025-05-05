@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Sharly Chess
+title: Tournament Management
 permalink: /
 ---
 
