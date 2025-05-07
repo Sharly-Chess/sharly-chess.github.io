@@ -21,6 +21,9 @@ separator: true
 - Launch of the website https://sharly-chess.com
 - Added help links from the application to the website
 
+## Version 2.5.8 - April 30, 2025
+- Fixed a bug in retrieving registration fees 
+
 ## Version 2.5.7 - April 20, 2025
 - Fixed a printing bug
 

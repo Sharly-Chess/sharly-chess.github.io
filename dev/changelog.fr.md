@@ -21,6 +21,9 @@ separator: true
 - Mise en ligne du site web https://sharly-chess.com
 - Ajout de liens d'aide de l'application vers le site web
 
+## Version 2.5.8 - 30 avril 2025
+- Correction d'un bug de récupération des droits d'inscriptions
+
 ## Version 2.5.7 - 20 avril 2025
 - Correction d'un bug d'impression
 
