@@ -10,7 +10,7 @@ nav_order: 400
 
 Lors de l’ajout de joueur·euses à un tournoi, vous pouvez effectuer une recherche dans la **base des joueur·euses FIDE** ou dans toute autre base fournie par une fédération via un [plugin]({% link docs/plugins/index.fr.md %}).
 
-La base des joueur·euses FIDE doit être téléchargée et installée localement avant de pouvoir être utilisée. 
+La base des joueur·euses FIDE doit être téléchargée et installée localement avant de pouvoir être utilisée.
 Certains plugins peuvent également fournir des bases locales similaires, ou ajouter la prise en charge de bases de données en ligne.
 
 ## Gestion des bases de données

@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-figure"
   gem "jekyll-contentblocks"
+  gem 'jekyll-redirect-from'
 end
 # Emojis for Jekyll.
 gem "jemoji"

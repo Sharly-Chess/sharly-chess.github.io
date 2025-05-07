@@ -45,6 +45,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-figure
+  - jekyll-redirect-from
 
 color_scheme: sc
 languages: ["en","fr"]
@@ -70,6 +71,16 @@ sass:
 collections:
   footer-links:
     output: true
+  help:
+    output: true
+    permalink: /h/:path/
+
+defaults:
+  -
+    scope:
+      type: help
+    values:
+      layout: help-redirect
 
 # Exclude from processing.
 # The following items will not be processed, by default.
