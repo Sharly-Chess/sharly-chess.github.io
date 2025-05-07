@@ -19,6 +19,7 @@ separator: true
 - _Ajout des exports PGN et TRF16 (expérimental)_
 - Mise à jour de la documentation
 - Mise en ligne du site web https://sharly-chess.com
+- Ajout de liens d'aide de l'application vers le site web
 
 ## Version 2.5.7 - 20 avril 2025
 - Correction d'un bug d'impression
