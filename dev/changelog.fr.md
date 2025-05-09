@@ -21,8 +21,8 @@ separator: true
 - Mise en ligne du site web https://sharly-chess.com
 - Ajout de liens d'aide de l'application vers le site web
 
-## Version 2.5.9 - 8 mai 2025
-- Correction d'un bug sur les titres des joueur·euses importé·es de ChessEvent
+## Version 2.5.9 - 9 mai 2025
+- Correction d'un bug sur les titres et les types de classement des joueur·euses importé·es de ChessEvent
 
 ## Version 2.5.8 - 30 avril 2025
 - Correction d'un bug de récupération des droits d'inscriptions

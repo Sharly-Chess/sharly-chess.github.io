@@ -21,8 +21,8 @@ separator: true
 - Launch of the website https://sharly-chess.com
 - Added help links from the application to the website
 
-## Version 2.5.9 - May 8, 2025
-- Fixed a bug on the titles of the players imported from ChessEvent
+## Version 2.5.9 - May 9, 2025
+- Fixed a bug on the titles and rating types of the players imported from ChessEvent
 
 ## Version 2.5.8 - April 30, 2025
 - Fixed a bug in retrieving registration fees 
