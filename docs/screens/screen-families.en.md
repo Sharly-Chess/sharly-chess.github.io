@@ -12,7 +12,7 @@ nav_order: 200
 If you have a large number of players and want to spread the display across multiple Screens, you could manually create several Screens and assign a subset of boards to each one.
 However, that approach can be tedious and error-prone.
 
-_Screen Families_ allow you to automate this process by automatically generating simple Screens for you.
+_Screen Families_ allow you to automate this process by automatically generating single Screens for you.
 
 {% figure [caption: "Example of the 'Pairings by Player' screen family split across 12 screens"] %}
 ![Example of the 'Pairings by Player' screen family split across 12 screens](/assets/images/players-screen.jpg)
@@ -45,7 +45,7 @@ You can choose either:
 
 ## Accessing Screens in a Family
 
-To access all Screens in a Family from one screen of this family, use the special value `@family` in your menu configuration. This will automatically add a menu item for **each simple Screen** in the Family.
+To access all Screens in a Family from one screen of this family, use the special value `@family` in your menu configuration. This will automatically add a menu item for **each single Screen** in the Family.
 
 {: .tip }
-> :point_right: On the **Simple Screens** page, enable the **Families** toggle to view all Screens that have been auto-generated as part of a Family.
+> :point_right: On the **Single Screens** page, enable the **Families** toggle to view all Screens that have been auto-generated as part of a Family.

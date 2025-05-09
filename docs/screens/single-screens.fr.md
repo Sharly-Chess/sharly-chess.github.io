@@ -3,7 +3,7 @@ layout: page
 title: Écrans simples
 parent: Écrans
 permalink: /ecrans-simples/
-page_id: simple-screens
+page_id: single-screens
 nav_order: 100
 ---
 

@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Simple Screens
+title: Single Screens
 parent: Screens
-permalink: /simple-screens/
-page_id: simple-screens
+permalink: /single-screens/
+page_id: single-screens
 nav_order: 100
 ---
 
-# Simple Screens
+# Single Screens
 
-Simple Screens are standalone web pages that can be configured to display specific types of information.
-To create a Screen, navigate to the **Screens → Simple Screens** page and click the **Create Screen** button.
+Single Screens are standalone web pages that can be configured to display specific types of information.
+To create a Screen, navigate to the **Screens → Single Screens** page and click the **Create Screen** button.
 
 ## Creating a Screen
 
