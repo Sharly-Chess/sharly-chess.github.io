@@ -10,16 +10,23 @@ separator: true
 # Changelog
 
 ## Version 2.6 - May, 2025
+- Optimised the databases queries
 - Added the Pairings tab
 - Added manual pairing management
 - Added client controllers
 - Simplified the main menu
 - Moved utilities from ``bin/`` to ``tools/``
+- Added Berger pairing
 - _Added classic and accelerated swiss pairing (experimental)_
 - _Added PGN and TRF16 exports (experimental)_
 - Documentation update
 - Launch of the website https://sharly-chess.com
 - Added help links from the application to the website
+
+## Version 2.5.10 - May 10, 2025
+- Fixed a bug on the creation of tournaments defaults screens
+- Fixed a bug on results input screens refresh
+- Fixed a bug on the application settings
 
 ## Version 2.5.9 - May 9, 2025
 - Fixed a bug on the titles and rating types of the players imported from ChessEvent
