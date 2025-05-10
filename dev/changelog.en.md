@@ -22,6 +22,7 @@ separator: true
 - Documentation update
 - Launch of the website https://sharly-chess.com
 - Added help links from the application to the website
+- Improved logging
 
 ## Version 2.5.10 - May 10, 2025
 - Fixed a bug on the creation of tournaments defaults screens

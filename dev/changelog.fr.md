@@ -22,6 +22,7 @@ separator: true
 - Mise à jour de la documentation
 - Mise en ligne du site web https://sharly-chess.com
 - Ajout de liens d'aide de l'application vers le site web
+- Amélioration des logs
 
 ## Version 2.5.10 - 10 mai 2025
 - Correction d'un bug sur la création des écrans par défaut des tournois
