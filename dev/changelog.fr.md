@@ -11,13 +11,13 @@ separator: true
 
 ## Version 2.6.0 - 11 mai 2025
 - Amélioration significative des performances
-- Mise à jour de la documentation
+- Mise à jour de toute la documentation
 - Mise en ligne du site web https://sharly-chess.com
 - Ajout de l'onglet Appariements
 - Ajout de la gestion des appariements manuels
-- Ajout de l'appariement Berger, simple et aller-retour
+- Ajout de l'appariement toutes rondes par grilles de Berger, simple et aller-retour
 - _Ajout de l'appariement suisse classique et accéléré (expérimental)_
-- Ajout des contrôleurs de clients
+- Ajout des pilotes d'afficheurs
 - Simplification du menu principal
 - Déplacement des utilitaires de `bin/` vers `tools/`
 - _Ajout des exports PGN et TRF16 (expérimental)_

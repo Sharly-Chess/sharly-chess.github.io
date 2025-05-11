@@ -22,7 +22,7 @@ separator: true
 - Utilities which were in ``bin/`` are now in ``tools/``
 - _Added PGN and TRF16 export (experimental)_
 - Added help links from the app to our documentation website
-- Amélioration de la mise à jour de l'application
+- Improved the self-update system
 - Improved logging
 - Fixed a bug on the creation of tournaments defaults screens
 - Fixed a bug on results input screens refresh
