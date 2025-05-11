@@ -9,22 +9,21 @@ separator: true
 
 # Changelog
 
-## Version 2.6 - May, 2025
-- Optimised the databases queries
+## Version 2.6.0 - May 11, 2025
+- Significantly improved performance
+- Updated all documentation
+- Our website https://sharly-chess.com is now online
 - Added the Pairings tab
-- Added manual pairing management
-- Added client controllers
+- Added the possibility to manual pair players
+- Added Round-Robin and Double Round-Robin
+- _Added Swiss Dutch pairings (experimental)_
+- Added display controllers
 - Simplified the main menu
-- Moved utilities from ``bin/`` to ``tools/``
-- Added Berger pairing
-- _Added classic and accelerated swiss pairing (experimental)_
-- _Added PGN and TRF16 exports (experimental)_
-- Documentation update
-- Launch of the website https://sharly-chess.com
-- Added help links from the application to the website
+- Utilities which were in ``bin/`` are now in ``tools/``
+- _Added PGN and TRF16 export (experimental)_
+- Added help links from the app to our documentation website
+- Amélioration de la mise à jour de l'application
 - Improved logging
-
-## Version 2.5.10 - May 10, 2025
 - Fixed a bug on the creation of tournaments defaults screens
 - Fixed a bug on results input screens refresh
 - Fixed a bug on the application settings

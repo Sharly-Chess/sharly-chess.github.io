@@ -9,22 +9,21 @@ separator: true
 
 # Changelog
 
-## Version 2.6 - mai 2025
-- Optimisation des accès aux bases de données
+## Version 2.6.0 - 11 mai 2025
+- Amélioration significative des performances
+- Mise à jour de la documentation
+- Mise en ligne du site web https://sharly-chess.com
 - Ajout de l'onglet Appariements
 - Ajout de la gestion des appariements manuels
+- Ajout de l'appariement Berger, simple et aller-retour
+- _Ajout de l'appariement suisse classique et accéléré (expérimental)_
 - Ajout des contrôleurs de clients
 - Simplification du menu principal
 - Déplacement des utilitaires de `bin/` vers `tools/`
-- Ajout de l'appariement Berger
-- _Ajout de l'appariement suisse classique et accéléré (expérimental)_
 - _Ajout des exports PGN et TRF16 (expérimental)_
-- Mise à jour de la documentation
-- Mise en ligne du site web https://sharly-chess.com
 - Ajout de liens d'aide de l'application vers le site web
+- Amélioration de la mise à jour de l'application
 - Amélioration des logs
-
-## Version 2.5.10 - 10 mai 2025
 - Correction d'un bug sur la création des écrans par défaut des tournois
 - Correction d'un bug de rafraîchissement des écrans de saisie
 - Correction d'un bug de configuration de l'application
