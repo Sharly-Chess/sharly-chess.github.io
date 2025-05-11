@@ -33,7 +33,7 @@ L'heure des chronomètres affichée sur les clients est l'heure des clients (pas
   {: .text-center}
   ![Message d'erreur de _Microsoft Defender SmartScreen_](/assets/faq/faq-system-defender-smartscreen.jpg)
 
-  Dans la version actuelle de _Papi-web_, _Microsoft Defender SmartScreen_ affiche l'erreur ci-dessus.
+  Dans la version actuelle de _Sharly Chess_, _Microsoft Defender SmartScreen_ affiche l'erreur ci-dessus.
 
   Le seul moyen de contourner cette erreur est de cliquer sur **Informations complémentaires** puis **Exécuter quand même**.
 {% enddetails %}
@@ -48,14 +48,14 @@ L'heure des chronomètres affichée sur les clients est l'heure des clients (pas
   si nécessaire, contactez votre administrateur réseau pour ouvrir les flux entrants du serveur (par défaut le port `80` en `tcp/udp`, ci-dessous l'autorisation ).
 
   {: .text-center}
-  ![Exemple d'autorisation du pare-feu _Microsoft Defender_ pour Papi-web](/assets/faq/faq-system-defender-firewall-2.jpg)
+  ![Exemple d'autorisation du pare-feu _Microsoft Defender_ pour Sharly Chess](/assets/faq/faq-system-defender-firewall-2.jpg)
 {% enddetails %}
 
-{% details Avast refuse l'installation de _Papi-web_ %}
-  Lors de l'extraction de l'archive `papi-web-<x.y.z>.zip`, Avast refuse d'installer l'exécutable `papi-web-<x.y.z>.exe` dans le répertoire `bin` avec le message suivant :
+{% details Avast refuse l'installation de _Sharly Chess_ %}
+  Lors de l'extraction de l'archive `sharly-chess-<x.y.z>.zip`, Avast refuse d'installer l'exécutable `sharly-chess-<x.y.z>.exe` dans le répertoire `bin` avec le message suivant :
 
   {: .text-center}
-  ![Message de _Avast_ à l'extraction de `papi-web-<x.y.z>.zip`](/assets/faq/faq-system-avast-1.jpg)
+  ![Message de _Avast_ à l'extraction de `sharly-chess-<x.y.z>.zip`](/assets/faq/faq-system-avast-1.jpg)
 
   Il s'agit d'un faux positif, que vous pouvez signaler à la société _Avast_ en cliquant sur le lien **Signaler en tant que faux positif** .
 
@@ -75,13 +75,13 @@ L'heure des chronomètres affichée sur les clients est l'heure des clients (pas
   {: .text-center}
   ![Confirmation de la sortie de quarantaine](/assets/faq/faq-system-avast-5.jpg)
 
-  Vérifiez que le fichier a bien été restauré à la racine du répertoire de _Papi-web_.
+  Vérifiez que le fichier a bien été restauré à la racine du répertoire de _Sharly Chess_.
 {% enddetails %}
 
 {% details Tous les ports candidats [`80`, `81`, `8080`, `8081`] sont déjà utilisés, impossible de démarrer le serveur web %}
-  La serveur de _Papi-web_ utilise plusieurs ports prédéfinis pour répondre aux requêtes des clients (affichage des écrans, saisie des scores...).
+  La serveur de _Sharly Chess_ utilise plusieurs ports prédéfinis pour répondre aux requêtes des clients (affichage des écrans, saisie des scores...).
 
-  Si le serveur _Papi-web_ vous indique au démarrage que tous les ports sont utilisés, vous devez essayer de trouver les applications qui utilisent les ports sur votre serveur et les arrêter avant de relancer le serveur _Papi-web_.
+  Si le serveur _Sharly Chess_ vous indique au démarrage que tous les ports sont utilisés, vous devez essayer de trouver les applications qui utilisent les ports sur votre serveur et les arrêter avant de relancer le serveur _Sharly Chess_.
 
   Pour trouver l'application qui utilise déjà un port sur votre serveur, vous pouvez ouvrir un interpréteur de commande en mode administrateur et lancer la commande `netstat -ab` :
 

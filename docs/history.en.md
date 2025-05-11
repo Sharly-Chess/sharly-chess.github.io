@@ -13,7 +13,7 @@ _Sharly Chess_ began life as _Papi-web_, created by Pascal Aubry in 2013 as a co
 Its development started from a few simple observations:
 
 * During tournaments, many arbiters spend a significant amount of time at their keyboards entering and verifying players’ results. This takes away from supervising games — which is, after all, the core duty of arbiters!
-* When the arbiter enters the results, it’s often a source of mistakes — either in slow time controls due to errors on the scoresheets, or even more so in fast time controls when players write their scores on paper and the arbiter then enters the results into the arbitration software.
+* When the arbiter enters the results, it’s often a source of mistakes — either in slow time controls due to errors on the score sheets, or even more so in fast time controls when players write their scores on paper and the arbiter then enters the results into the arbitration software.
 * You have to wait until the end of the round to see the results, which makes it difficult to communicate about the sporting aspects of a chess event…
 * In fast-paced rapid opens (typically 9 rounds with 12 minutes + 3 seconds per move), delays pile up throughout the day due to result entry time, lunch breaks are shortened, and prize ceremonies are inevitably delayed…
 

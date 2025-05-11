@@ -23,7 +23,7 @@ nav_order: 50
 ### Installer _Sharly Chess_
 
 {: .text-center }
-[Télécharger la dernière version de _Sharly Chess_ (v{{ site.latest_version }})]({{ site.github_url }}/releases/download/{{ site.latest_version }}/papi-web-{{ site.latest_version }}.zip){: .btn }
+[Télécharger la dernière version de _Sharly Chess_ (v{{ site.latest_version }})]({{ site.github_url }}/releases/download/{{ site.latest_version }}/sharly-chess-{{ site.latest_version }}.zip){: .btn }
 
 {: .note }
 > :information_source: [Voir les changements de la dernière version]({{ site.github_url }}/releases/latest)

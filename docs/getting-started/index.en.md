@@ -18,7 +18,7 @@ Unlike many other solutions, **no internet connection is required during tournam
 
 ## France specific-ish, for now...
 
-_Sharly Chess_ was designed as a complement to [_Papi_](https://www.echecs.asso.fr/Actu.aspx?Ref=14287), the official software of the French Chess Federation.
+_Sharly Chess_, formerly known as _Papi-web_, was designed as a complement to [_Papi_](https://www.echecs.asso.fr/Actu.aspx?Ref=14287), the official software of the French Chess Federation.
 
 The current version is therefore a dedicated solution for tournaments organized in France.
 

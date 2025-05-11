@@ -99,14 +99,14 @@ lang: fr
 You can add a summary to a post by adding a `summary` field to the front matter:
 
 ```
-summary: A few months after the release of version 2.4 (last November), we are pleased to announce version 2.5 of Papi-web.
+summary: A few months after the release of version 2.4 (last November), we are pleased to announce version 2.5 of Sharly Chess.
 ```
 
 This will be used as the excerpt on the home page.  The summary can use Markdown formatting.  If you need multiple lines, you can use this Yaml syntax:
 
 ```
 summary: |
-  A few months after the release of version 2.4 (last November), we are pleased to announce version 2.5 of Papi-web.
+  A few months after the release of version 2.4 (last November), we are pleased to announce version 2.5 of Sharly Chess.
 
   The version 2.5 brings the following new features...
 ```

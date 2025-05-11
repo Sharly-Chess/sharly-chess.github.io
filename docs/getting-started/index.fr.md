@@ -20,7 +20,7 @@ contrairement à de nombreuses autres solutions, **aucune connexion à internet 
 
 ## Spécifique à la France… pour le moment !
 
-_Sharly Chess_ a été conçu comme un complément à [_Papi_](https://www.echecs.asso.fr/Actu.aspx?Ref=14287), le logiciel officiel de la Fédération Française des Échecs.
+_Sharly Chess_, connu précédemment sous le nom _Papi-web_, a été conçu comme un complément à [_Papi_](https://www.echecs.asso.fr/Actu.aspx?Ref=14287), le logiciel officiel de la Fédération Française des Échecs.
 
 Dans la version actuelle, il s'agit donc d'une solution dédiée pour les tournois organisés en France.
 

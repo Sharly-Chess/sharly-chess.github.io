@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.6.0 - 11 mai 2025
+## Version 2.6.0 - 13 mai 2025
 - Amélioration significative des performances
 - Mise à jour de toute la documentation
 - Mise en ligne du site web https://sharly-chess.com

@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.6.0 - May 11, 2025
+## Version 2.6.0 - May 13, 2025
 - Significantly improved performance
 - Updated all documentation
 - Our website https://sharly-chess.com is now online
@@ -22,7 +22,7 @@ separator: true
 - Utilities which were in ``bin/`` are now in ``tools/``
 - _Added PGN and TRF16 export (experimental)_
 - Added help links from the app to our documentation website
-- Improved the self-update system
+- Improved the auto-upgrade feature
 - Improved logging
 - Fixed a bug on the creation of tournaments defaults screens
 - Fixed a bug on results input screens refresh
@@ -32,7 +32,7 @@ separator: true
 - Fixed a bug on the titles and rating types of the players imported from ChessEvent
 
 ## Version 2.5.8 - April 30, 2025
-- Fixed a bug in retrieving registration fees 
+- Fixed a bug in retrieving registration fees
 
 ## Version 2.5.7 - April 20, 2025
 - Fixed a printing bug
