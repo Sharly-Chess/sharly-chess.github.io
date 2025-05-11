@@ -1,5 +1,5 @@
 {% assign title = page.title | default: site.title_tag[site.active_lang] %}
-{% assign description = page.description | default: site.description[site.active_lang] %}
+{% assign description = page.description | default: site.localized_description[site.active_lang] %}
 {% assign keywords = page.keywords | default: site.keywords[site.active_lang] %}
 
 <!-- Primary Meta Tags -->

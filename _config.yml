@@ -19,11 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Sharly Chess
+author: Sharly Chess
 email: contact@sharly-chess.com
 title_tag:
   en: Open Source Chess Tournament Management Software
   fr: Logiciel libre de gestion de tournois d’échecs
-description:
+localized_description:
   en: "Manage chess tournaments with ease. Sharly Chess is a free, open-source tool for arbiters and organizers: Swiss pairings, standings, results, multi-language support, web-based configuration, and multi-screen support."
   fr: "Gérez vos tournois d’échecs en toute simplicité. Sharly Chess est un outil gratuit, open source pour arbitres et organisateur·ices : appariements suisse, classements, résultats, support multilingue, configuration web et gestion multi-écrans."
 keywords:
@@ -81,6 +82,10 @@ defaults:
       type: help
     values:
       layout: help-redirect
+
+feed:
+  icon: "/assets/images/sharly-chess.ico"
+  logo: "/assets/images/sharly-chess-rss-logo-256x128.jpg"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
