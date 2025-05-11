@@ -5,7 +5,7 @@ permalink: /
 ---
 
 {% contentfor header %}
-{{ site.description.fr }}
+{{ site.localized_description.fr }}
 {% endcontentfor %}
 
 {% contentfor main %}
