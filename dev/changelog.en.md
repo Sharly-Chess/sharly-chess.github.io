@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.6.1 - May 14, 2025
+- Fixed a bug on the display of screen families
+- Fixed a bug on tournament import from ChessEvent
+
 ## Version 2.6.0 - May 13, 2025
 - Significantly improved performance
 - Updated all documentation
