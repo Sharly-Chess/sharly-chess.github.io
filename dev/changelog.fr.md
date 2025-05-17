@@ -13,6 +13,15 @@ separator: true
 - Correction d'un bug d'affichage des familles d'écrans
 - Correction d'un bug d'import des tournois depuis ChessEvent
 
+## Version 2.6.2 - 17 mai 2025
+- Ajout de l'impression des tables de Berger
+- Correction d'un bug de saisie sur le mot de passe FFE
+- Correction d'un bug d'import des tournois depuis ChessEvent
+
+## Version 2.6.1 - 14 mai 2025
+- Correction d'un bug d'affichage des familles d'écrans
+- Correction d'un bug d'import des tournois depuis ChessEvent
+
 ## Version 2.6.0 - 13 mai 2025
 - Amélioration significative des performances
 - Mise à jour de toute la documentation
