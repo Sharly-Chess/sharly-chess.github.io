@@ -9,10 +9,6 @@ separator: true
 
 # Changelog
 
-## Version 2.6.1 - May 14, 2025
-- Fixed a bug on the display of screen families
-- Fixed a bug on tournament import from ChessEvent
-
 ## Version 2.6.2 - May 17, 2025
 - Added the Berger grid print view
 - Fixed a bug on FFE password input
