@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.6.3 - May 19, 2025
+- Fixed a bug on the refresh of rotators and family screens
+- Improved exception handling
+
 ## Version 2.6.2 - May 17, 2025
 - Added the Berger grid print view
 - Fixed a bug on FFE password input
