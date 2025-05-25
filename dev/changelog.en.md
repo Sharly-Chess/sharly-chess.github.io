@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 2.7.0 - mai 2025
+- Integration of the FFE operations to the web UI
+- Removal of script ``ffe.bat``
+- Optimized the load time of the events page
+- Added the lottery
+
 ## Version 2.6.4 - May 25, 2025
 - Fixed a bug on updating the fixed tables of players
 - Added a missing translation on the display controller cards
