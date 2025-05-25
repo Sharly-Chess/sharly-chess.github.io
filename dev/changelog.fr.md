@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 2.7.0 - mai 2025
+- Intégration des opérations sur le site FFE sur l'interface web
+- Suppression du script ``ffe.bat``
+- Optimisation du temps de chargement de la page des évènements
+- Ajout de la tombola
+
 ## Version 2.6.4 - 25 mai 2025
 - Correction d'un bug sur la mise à jour des tables fixes des joueur·euses
 - Ajout d'une traduction manquante sur les cartes des pilotes d'afficheurs
@@ -16,12 +22,6 @@ separator: true
 ## Version 2.6.3 - 19 mai 2025
 - Correction d'un bug de mise à jour des écrans rotatifs et des écrans de familles
 - Amélioration de la gestion des exceptions
-
-## Version 2.7.0 - mai 2025
-- Intégration des opérations sur le site FFE sur l'interface web
-- Suppression du script ``ffe.bat``
-- Optimisation du temps de chargement de la page des évènements
-- Ajout de la tombola
 
 ## Version 2.6.2 - 17 mai 2025
 - Ajout de l'impression des tables de Berger
