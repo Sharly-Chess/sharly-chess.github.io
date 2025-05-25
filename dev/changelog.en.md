@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.6.4 - May 25, 2025
+- Fixed a bug on updating the fixed tables of players
+- Added a missing translation on the display controller cards
+
 ## Version 2.6.3 - May 19, 2025
 - Fixed a bug on the refresh of rotators and family screens
 - Improved exception handling
