@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.7.0 - mai 2025
+## :point_right: Version 2.7.0 - mai 2025
 - Intégration des opérations sur le site FFE sur l'interface web
 - Suppression du script ``ffe.bat``
 - Optimisation du temps de chargement de la page des évènements
@@ -32,7 +32,7 @@ separator: true
 - Correction d'un bug d'affichage des familles d'écrans
 - Correction d'un bug d'import des tournois depuis ChessEvent
 
-## Version 2.6.0 - 13 mai 2025
+## :point_right: Version 2.6.0 - 13 mai 2025
 - Amélioration significative des performances
 - Mise à jour de toute la documentation
 - Mise en ligne du site web https://sharly-chess.com
@@ -85,7 +85,7 @@ separator: true
 ## Version 2.5.1 - 8 avril 2025
 - Correction d'un bug au lancement de l'application
 
-## Version 2.5.0 - 7 avril 2025
+## :point_right: Version 2.5.0 - 7 avril 2025
 - Passage en multilingue français/anglais
 - Refonte complète de l'interface web
 - Ajout/suppression/modification des joueur·euses, changements de tournoi
@@ -182,7 +182,7 @@ separator: true
 ## Version 2.4.1 - 3 novembre 2024
 - Correction d'un bug sur l'affichage des écrans rotatifs (#41)
 
-## Version 2.4.0 - 30 octobre 2024
+## :point_right: Version 2.4.0 - 30 octobre 2024
 - Abandon du format INI, déclaration de tous les objets via l'interface web (#37)
 - Ajout de la création automatique de tournois d'exemple
 - Fluidification de la navigation (HTMX) (#31)
@@ -206,7 +206,7 @@ separator: true
 ## Version 2.3.1 - 14 avril 2024
 - Correction d'un problème d'encodage des fichiers de configuration
 
-## Version 2.3.0 - 8 avril 2024
+## :point_right: Version 2.3.0 - 8 avril 2024
 - Affichage des joueur·euses par ordre alphabétique avant appariement
 - Ajout du pointage sur les écrans de saisie
 - Ajout de la [Foire aux Questions]({% link dev/faq.fr.md %})
@@ -217,7 +217,7 @@ separator: true
 ## Version 2.2.1 - 28 mars 2024
 - Correction d'un bug de configuration
 
-## Version 2.2.0 - 27 mars 2024
+## :point_right: Version 2.2.0 - 27 mars 2024
 - Allègement du moteur web (remplacement de _Django_ par _Litestar_) (#24)
 - Affichage du pointage des joueur·euses
 - Enregistrement des coups illégaux (option `record_illegal_moves`)
@@ -251,7 +251,7 @@ separator: true
 - Possibilité de fixer le nombre d'échiquiers ou de joueur·euses par écran
 - Possibilité de fonctionner en réseau local sans connexion Internet (intégration des bibliothèques CSS et JavaScript)
 
-## Version 2.1.0 - 9 décembre 2023
+## :point_right: Version 2.1.0 - 9 décembre 2023
 - Création des fichiers _Papi_ des tournois depuis la plateforme d'inscription en ligne ChessEvent
 - Suppression des données personnelles des joueur·euses avant téléchargement sur le site fédéral
 
@@ -259,7 +259,7 @@ separator: true
 - Réduction minimale des téléchargements de tournois vers le site fédéral
 - Amélioration de la détection de l'encodage des fichiers de configuration
 
-## Version 2.0.0 - 10 novembre 2023
+## :point_right: Version 2.0.0 - 10 novembre 2023
 - Livraison sous forme d'un exécutable autonome (plus besoin de XAMPP)
 - Configuration des événements au format INI (plus simple que PHP)
 - Amélioration de la page d'accueil
