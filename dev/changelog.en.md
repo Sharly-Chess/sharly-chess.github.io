@@ -9,11 +9,12 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 2.7.0 - mai 2025
+## :point_right: Version 2.7.0 - May 27, 2025
 - Integration of the FFE operations to the web UI
 - Removal of script ``ffe.bat``
 - Optimized the load time of the events page
 - Added the lottery
+- Added PGN and TRF 16 exports
 
 ## Version 2.6.4 - May 25, 2025
 - Fixed a bug on updating the fixed tables of players

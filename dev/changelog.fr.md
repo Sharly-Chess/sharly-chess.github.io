@@ -14,6 +14,7 @@ separator: true
 - Suppression du script ``ffe.bat``
 - Optimisation du temps de chargement de la page des évènements
 - Ajout de la tombola
+- Ajout des exports PGN et TRF 16
 
 ## Version 2.6.4 - 25 mai 2025
 - Correction d'un bug sur la mise à jour des tables fixes des joueur·euses
