@@ -16,6 +16,7 @@ separator: true
 - Optimisation du temps de chargement de la page des évènements
 - Ajout de la tombola
 - Ajout des exports PGN et TRF 16
+- Alignement du calcul de performance avec celui de Papi en cas de joueur·euses avec demi-point joker
 
 ## Version 2.6.4 - 25 mai 2025
 - Correction d'un bug sur la mise à jour des tables fixes des joueur·euses

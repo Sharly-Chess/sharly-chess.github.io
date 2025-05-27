@@ -12,10 +12,11 @@ separator: true
 ## :point_right: Version 2.7.0 - May 27, 2025
 - Integration of the FFE operations to the web UI
 - Removal of script `ffe.bat`
-- Instant notifications on Players and Pairings tabs for new checkins or results from user screens.
+- Instant notifications on Players and Pairings tabs for new checkins or results from user screens
 - Optimized the load time of the events page
 - Added the lottery
 - Added PGN and TRF 16 exports
+- Alignment of performance calculation with Papi’s in the case of players with a full-point or half-point bye
 
 ## Version 2.6.4 - May 25, 2025
 - Fixed a bug on updating the fixed tables of players
