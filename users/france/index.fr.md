@@ -52,4 +52,5 @@ nav_order: 500
 | TRAVAILLOUX Dimitri | AFO1  |  ARA  | 74  | Cercle d'échecs de l'agglomération Annécienne |
 | VIEIRA Matthieu     | AFE1  |  ARA  | 69  | Centre Léo Lagrange Décines                   |
 | VIEVILLE Claude     |  AFC  |  HDF  | 85  | Cercle d'Échecs de Fournes en Weppes          |
+| VIGNELLES Jeremy    |  AFC  |  AFC  | 45  | CE St Pryve-Olivet - La Tour Prends Garde     |
 | VIOLEAU Jean-Luc    | AFE1  |  PDL  | 85  | Club Échecs La Roche sur Yon                  |
