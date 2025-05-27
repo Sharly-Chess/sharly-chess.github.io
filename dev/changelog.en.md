@@ -11,7 +11,8 @@ separator: true
 
 ## :point_right: Version 2.7.0 - May 27, 2025
 - Integration of the FFE operations to the web UI
-- Removal of script ``ffe.bat``
+- Removal of script `ffe.bat`
+- Added instant notifications on the Players and Pairings tab when new checkins or results are entered by players
 - Optimized the load time of the events page
 - Added the lottery
 - Added PGN and TRF 16 exports
@@ -43,7 +44,7 @@ separator: true
 - _Added Swiss Dutch pairings (experimental)_
 - Added display controllers
 - Simplified the main menu
-- Utilities which were in ``bin/`` are now in ``tools/``
+- Utilities which were in `bin/`` are now in ``tools/`
 - _Added PGN and TRF16 export (experimental)_
 - Added help links from the app to our documentation website
 - Improved the auto-upgrade feature
@@ -80,8 +81,8 @@ separator: true
 ## Version 2.5.2 - April 8, 2025
 - Fixed a bug recovering previous versions
 - Fixed a bug connecting to the FFE SQL Server
-- Fixed the ``bin/ffe.bat`` script
-- Fixed missing translations in ``bin/ffe.bat`` and ``bin/chessevent.bat`` scripts
+- Fixed the `bin/ffe.bat` script
+- Fixed missing translations in `bin/ffe.bat`` and ``bin/chessevent.bat` scripts
 
 ## Version 2.5.1 - April 8, 2025
 - Fixed a bug starting the application
@@ -96,7 +97,7 @@ separator: true
 - Removed the "ChessEvent" tab (connection configuration is now at the event and tournament level)
 - Added a federation to events
 - Support for the HEAD method for dynamic displays
-- Removed ``papi_web.ini`` and web-configured the application
+- Removed `papi_web.ini` and web-configured the application
 - Calculation of tiebreaks and player rankings
 - Printing and displaying rankings and cross tables
 - Printing pairings and results

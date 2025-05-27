@@ -11,7 +11,8 @@ separator: true
 
 ## :point_right: Version 2.7.0 - mai 2025
 - Intégration des opérations sur le site FFE sur l'interface web
-- Suppression du script ``ffe.bat``
+- Suppression du script `ffe.bat`
+- Ajout de notifications instantanées dans les onglets Joueurs et Appariements lors de nouveaux pointages ou de la saisie de résultats par les joueur·euses
 - Optimisation du temps de chargement de la page des évènements
 - Ajout de la tombola
 - Ajout des exports PGN et TRF 16
