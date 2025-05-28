@@ -18,7 +18,7 @@ nav_order: 50
 - [Le pilote Access](https://www.microsoft.com/en-us/download/details.aspx?id=54920), nécessaire pour ouvrir les fichiers _Papi_
 
 {: .note }
-> :information_source: Pour une compatibilité 32/64bits compatibility du pilote Access driver, exécutez `accessdatabaseengine_X64.exe /passive` ((détails)[https://learn.microsoft.com/en-us/archive/msdn-technet-forums/57aee87f-a2e0-4804-a452-7c69f1d32957]) ou `accessdatabaseengine_X64.exe /quiet` ((détails)[https://github.com/Sharly-Chess/sharly-chess/issues/614]).
+> :information_source: Pour une compatibilité 32/64bits compatibility du pilote Access driver, exécutez `accessdatabaseengine_X64.exe /passive` ([détails](https://learn.microsoft.com/en-us/archive/msdn-technet-forums/57aee87f-a2e0-4804-a452-7c69f1d32957)) ou `accessdatabaseengine_X64.exe /quiet` ([détails](https://github.com/Sharly-Chess/sharly-chess/issues/614)).
 
 ### Installer _Sharly Chess_
 
