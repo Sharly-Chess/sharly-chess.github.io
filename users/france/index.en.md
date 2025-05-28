@@ -15,7 +15,7 @@ nav_order: 500
 | AGUERO Pablo Daniel |       |  NAQ   | 40  | Dax Échiquier Dacquois                        |
 | ADELINE Bruno       | AFE1  |  NOR   | 27  | Aile Roi Louviers                             |
 | ARMES Timothy       | AFO1  |  ARA   | 26  | Échiquier Romanais-Péageois                   |
-| AUBRY Pascal        | AFO2  |  BRE   | 35  | Échiquier Domloupéen                          |
+| AUBRY Pascal        | AFE1  |  BRE   | 35  | Échiquier Domloupéen                          |
 | AVENIA Adrien       |       |  BFC   | 25  | Tour Prends Garde! Besançon                   |
 | BEC Alain           |  AFC  |  ARA   | 26  | Échiquier Romanais-Péageois                   |
 | BELEY Huong         | AFO1  |  IDF   | 77  | Tours et Detours Club d'Échecs Centre Brie    |
@@ -40,7 +40,8 @@ nav_order: 500
 | LECORNU Laurent     | AFE1  |  BRE   | 29  | Échiquier Gouesnousien                        |
 | LEFEBVRE Philippe   | AFO1  |  BRE   | 29  | Échiquier Gouesnousien                        |
 | LOUDIER Sarah       |  AFC  |  BRE   | 22  | Tregor Échecs                                 |
-| MORATA Jules        |       |  OCC   | 22  | L'Attaque d'Euphron - Pibrac Echecs           |
+| MONTELLA Laurent    | AFO1  |  PAC   | 83  | Echiquier Brignolais                          |
+| MORATA Jules        |  AFC  |  OCC   | 31  | L'Attaque d'Euphron - Pibrac Echecs           |
 | PERCHE Ludovic      | AFO2  |  NAQ   | 16  | Échiquier Couronnais                          |
 | PERNOT Damien       | AFO1  |  BRE   | 35  | Betton Échecs Club                            |
 | PLAT Sammy          | AFE1  |  BRE   | 35  | Rennes Paul Bert                              |
