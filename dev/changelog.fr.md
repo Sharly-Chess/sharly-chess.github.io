@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 2.7.0 - mai 2025
+## :point_right: Version 2.7.0 - 28 mai 2025
 - Intégration des opérations sur le site FFE sur l'interface web
 - Suppression du script `ffe.bat`
 - Ajout de notifications instantanées dans les onglets Joueur·euses et Appariements lors de nouveaux pointages ou résultats

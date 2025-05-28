@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 2.7.0 - May 27, 2025
+## :point_right: Version 2.7.0 - May 28, 2025
 - Integration of the FFE operations to the web UI
 - Removal of script `ffe.bat`
 - Instant notifications on Players and Pairings tabs for new checkins or results from user screens
