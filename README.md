@@ -6,7 +6,7 @@ In order to test the documentation locally, you'll need to install *Ruby*, *Jeky
 
 - Ruby downloads: [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
 - Bundler comes with Ruby if you use the common installer on Windows
-- Install everything: ``bundle install``
+- Install everything: `bundle install`
 
 Once installed, you should be able to generate the site locally by running:
 
