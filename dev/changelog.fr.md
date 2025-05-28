@@ -18,7 +18,6 @@ separator: true
 - Ajout des exports PGN et TRF 16
 - Alignement du calcul de performance avec celui de Papi en cas de joueur·euses avec demi-point joker
 - Correction des dates de naissance avant le 01/01/1970 importées depuis ChessEvent
-- Amélioration de l'arrêt du serveur
 
 ## Version 2.6.4 - 25 mai 2025
 - Correction d'un bug sur la mise à jour des tables fixes des joueur·euses

@@ -18,7 +18,6 @@ separator: true
 - Added PGN and TRF 16 exports
 - Alignment of performance calculation with Papi’s in the case of players with a full-point or half-point bye
 - Fixed ChessEvent birth dates prior to 1970-01-01 (2.7.0)
-- Improved the server shutdown
 
 ## Version 2.6.4 - May 25, 2025
 - Fixed a bug on updating the fixed tables of players
