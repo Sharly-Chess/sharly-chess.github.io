@@ -11,6 +11,7 @@ separator: true
 
 ## Version 2.7.1 - 29 mai 2025
 - Interdiction de l'accès aux pages d'arbitrage pour les clients non autorisés
+- Normalisation des noms des joueur·euses ChessEvent
 
 ## :point_right: Version 2.7.0 - 28 mai 2025
 - Intégration des opérations sur le site FFE sur l'interface web

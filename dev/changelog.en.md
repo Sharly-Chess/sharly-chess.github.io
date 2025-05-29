@@ -11,6 +11,7 @@ separator: true
 
 ## Version 2.7.1 - May 29, 2025
 - Forbid access to arbiters' pages for unauthorized clients
+- Normalized ChessEvent players' names
 
 ## :point_right: Version 2.7.0 - May 28, 2025
 - Integration of the FFE operations to the web UI
