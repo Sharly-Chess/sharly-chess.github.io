@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.7.1 - May 29, 2025
+- Forbid access to arbiters' pages for unauthorized clients
+
 ## :point_right: Version 2.7.0 - May 28, 2025
 - Integration of the FFE operations to the web UI
 - Removal of script `ffe.bat`
@@ -17,7 +20,7 @@ separator: true
 - Added the lottery
 - Added PGN and TRF 16 exports
 - Alignment of performance calculation with Papi’s in the case of players with a full-point or half-point bye
-- Fixed ChessEvent birth dates prior to 1970-01-01 (2.7.0)
+- Fixed ChessEvent birth dates prior to 1970-01-01
 
 ## Version 2.6.4 - May 25, 2025
 - Fixed a bug on updating the fixed tables of players
