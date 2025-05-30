@@ -14,7 +14,6 @@ separator: true
 - Normalized ChessEvent players' names
 - Fixed and added columns to the players ODS export
 - Reduced reaction times when entering results on the Pairings tab
-- Fixed image screen creation
 
 ## :point_right: Version 2.7.0 - May 28, 2025
 - Integration of the FFE operations to the web UI
