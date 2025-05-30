@@ -13,6 +13,7 @@ separator: true
 - Interdiction de l'accès aux pages d'arbitrage pour les clients non autorisés
 - Normalisation des noms des joueur·euses ChessEvent
 - Correction et ajout de champs dans l'export des joueur·euses au format ODS
+- Diminution des temps de réaction lors de la saisie des résultats sur l'onglet Appariements
 
 ## :point_right: Version 2.7.0 - 28 mai 2025
 - Intégration des opérations sur le site FFE sur l'interface web
