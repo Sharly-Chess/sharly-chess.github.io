@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.7.1 - 29 mai 2025
+## Version 2.7.1 - 31 mai 2025
 - Interdiction de l'accès aux pages d'arbitrage pour les clients non autorisés
 - Normalisation des noms des joueur·euses ChessEvent
 - Correction et ajout de champs dans l'export des joueur·euses au format ODS

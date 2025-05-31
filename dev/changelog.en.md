@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.7.1 - May 29, 2025
+## Version 2.7.1 - May 31, 2025
 - Forbid access to arbiters' pages for unauthorized clients
 - Normalized ChessEvent players' names
 - Fixed and added columns to the players ODS export
