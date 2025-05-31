@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 2.7.1 - May 31, 2025
+- Forbid access to arbiters' pages for unauthorized clients
+- Normalized ChessEvent players' names
+- Fixed and added columns to the players ODS export
+- Reduced reaction times when entering results on the Pairings tab
+- Fixed a bug caused by screen families with zero items
+
 ## :point_right: Version 2.7.0 - May 28, 2025
 - Integration of the FFE operations to the web UI
 - Removal of script `ffe.bat`
@@ -17,7 +24,7 @@ separator: true
 - Added the lottery
 - Added PGN and TRF 16 exports
 - Alignment of performance calculation with Papi’s in the case of players with a full-point or half-point bye
-- Fixed ChessEvent birth dates prior to 1970-01-01 (2.7.0)
+- Fixed ChessEvent birth dates prior to 1970-01-01
 
 ## Version 2.6.4 - May 25, 2025
 - Fixed a bug on updating the fixed tables of players
