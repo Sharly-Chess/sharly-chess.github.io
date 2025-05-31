@@ -50,6 +50,7 @@ nav_order: 500
 | REGAUD Denis        | AFE2  |  NAQ   | 33  | Salon Nostradamus                             |
 | RUHLMANN Dominique  | AFE1  |  BRE   | 35  | Échiquier du pays de Liffré                   |
 | SALLETTE Alain      | AFE1  |  NAQ   | 33  | Bordeaux Aspom Échecs                         |
+| SALLY Paul-Adrien   | AFE1  |  CVL   | 37  | Echiquier Corpopetrussien                     |
 | TRAVAILLOUX Dimitri | AFO1  |  ARA   | 74  | Cercle d'échecs de l'agglomération Annécienne |
 | VIEIRA Matthieu     | AFE1  |  ARA   | 69  | Centre Léo Lagrange Décines                   |
 | VIEVILLE Claude     |  AFC  |  HDF   | 85  | Cercle d'Échecs de Fournes en Weppes          |
