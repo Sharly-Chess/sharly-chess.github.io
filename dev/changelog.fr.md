@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.7.2 - 1er juin 2025
+- Suppression d'un avertissement au lancement du programme
+- Correction d'un bug à la création des écrans
+
 ## Version 2.7.1 - 31 mai 2025
 - Interdiction de l'accès aux pages d'arbitrage pour les clients non autorisés
 - Normalisation des noms des joueur·euses ChessEvent

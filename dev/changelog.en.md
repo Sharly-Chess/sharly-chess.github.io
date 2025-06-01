@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.7.2 - June 1st, 2025
+- Removed a warning at server startup
+- Fixed a bug on screen creation
+
 ## Version 2.7.1 - May 31, 2025
 - Forbid access to arbiters' pages for unauthorized clients
 - Normalized ChessEvent players' names
