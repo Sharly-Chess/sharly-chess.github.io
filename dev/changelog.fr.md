@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.7.3 - 3 juin 2025
+- Correction de l'affichage des joueur·euses non-FIDE lors de la mise à jour depuis les bases de données FIDE et FFE
+- Correction d'un bug de mise en ligne des résultats sur le site FFE
+
 ## Version 2.7.2 - 1er juin 2025
 - Suppression d'un avertissement au lancement du programme
 - Correction d'un bug à la création des écrans
