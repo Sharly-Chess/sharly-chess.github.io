@@ -11,6 +11,7 @@ separator: true
 
 ## Version 2.7.3 - June, 2025
 - Fixed the display of non-FIDE players when updating the players from FFE or FIDE databases
+- Fixed a bug on FFE results upload
 
 ## Version 2.7.2 - June 1st, 2025
 - Removed a warning at server startup
