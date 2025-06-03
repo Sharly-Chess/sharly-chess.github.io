@@ -11,6 +11,7 @@ separator: true
 
 ## Version 2.7.4 - juin 2025
 - Correction du test des identifiants FFE lors de l'édition des tournois
+- Correction du type de classement Estimé/National des joueur·euses importé·es depuis ChessEvent
 
 ## Version 2.7.3 - 3 juin 2025
 - Correction de l'affichage des joueur·euses non-FIDE lors de la mise à jour depuis les bases de données FIDE et FFE
