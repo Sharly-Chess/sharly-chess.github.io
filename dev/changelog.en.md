@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.7.3 - June, 2025
+## Version 2.7.4 - June, 2025
 - Fix FFE auth test on the tournament editing form
 
 ## Version 2.7.3 - June 3, 2025
