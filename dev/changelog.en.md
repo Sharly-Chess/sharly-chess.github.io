@@ -9,11 +9,11 @@ separator: true
 
 # Changelog
 
-## Version 2.7.4 - June, 2025
+## Version 2.7.4 - June 3, 2025
 - Fixed FFE auth test on the tournament editing form
 - Fixed the ChessEvent players' Estimated/National rating type
 
-## Version 2.7.3 - June 3, 2025
+## Version 2.7.3 - June 2, 2025
 - Fixed the display of non-FIDE players when updating the players from FFE or FIDE databases
 - Fixed a bug on FFE results upload
 
@@ -65,7 +65,7 @@ separator: true
 - _Added Swiss Dutch pairings (experimental)_
 - Added display controllers
 - Simplified the main menu
-- Utilities which were in `bin/`` are now in ``tools/`
+- Utilities which were in `bin/` are now in `tools/`
 - _Added PGN and TRF16 export (experimental)_
 - Added help links from the app to our documentation website
 - Improved the auto-upgrade feature
@@ -103,7 +103,7 @@ separator: true
 - Fixed a bug recovering previous versions
 - Fixed a bug connecting to the FFE SQL Server
 - Fixed the `bin/ffe.bat` script
-- Fixed missing translations in `bin/ffe.bat`` and ``bin/chessevent.bat` scripts
+- Fixed missing translations in `bin/ffe.bat` and `bin/chessevent.bat` scripts
 
 ## Version 2.5.1 - April 8, 2025
 - Fixed a bug starting the application
