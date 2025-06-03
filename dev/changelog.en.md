@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.7.4 - June, 2025
+- Fixed FFE auth test on the tournament editing form
+- Fixed the ChessEvent players' Estimated/National rating type
+
 ## Version 2.7.3 - June 3, 2025
 - Fixed the display of non-FIDE players when updating the players from FFE or FIDE databases
 - Fixed a bug on FFE results upload
