@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.7.3 - June, 2025
+- Fix FFE auth test on the tournament editing form
+
 ## Version 2.7.3 - June 3, 2025
 - Fixed the display of non-FIDE players when updating the players from FFE or FIDE databases
 - Fixed a bug on FFE results upload
