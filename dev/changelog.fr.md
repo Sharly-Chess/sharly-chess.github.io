@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.7.5 - 4 juin 2025
+- Update players when rating types differ in data sources
+
 ## Version 2.7.4 - 3 juin 2025
 - Correction du test des identifiants FFE lors de l'édition des tournois
 - Correction du type de classement Estimé/National des joueur·euses importé·es depuis ChessEvent

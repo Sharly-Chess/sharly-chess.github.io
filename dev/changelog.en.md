@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.7.5 - June 4, 2025
+- Update players when rating types differ in data sources
+
 ## Version 2.7.4 - June 3, 2025
 - Fixed FFE auth test on the tournament editing form
 - Fixed the ChessEvent players' Estimated/National rating type
