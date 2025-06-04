@@ -15,6 +15,11 @@ separator: true
 - Added the gender on the player views
 - Added check-in lists
 
+## Version 2.7.5 - June 5, 2025
+- Update players when rating types differ in data sources
+- Request the FFE SQL server when augmenting players created from the FIDE database
+- Fixed the colors of the players update modal
+
 ## Version 2.7.4 - June 3, 2025
 - Fixed FFE auth test on the tournament editing form
 - Fixed the ChessEvent players' Estimated/National rating type
