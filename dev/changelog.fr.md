@@ -10,6 +10,12 @@ separator: true
 # Changelog
 
 ## Version 2.7.4 - 3 juin 2025
+- Ajout de paramètres de log et mise à jour dynamique de la configuration (2.8.0)
+- Suppression de l'option ``--experimental`` et activation des fonctionnalités expérimentales depuis l'interface web (2.8.0)
+- Ajout du genre sur les impressions des joueur·euses (2.8.0)
+- Ajout des listes de pointage (2.8.0)
+
+## Version 2.7.4 - 3 juin 2025
 - Correction du test des identifiants FFE lors de l'édition des tournois
 - Correction du type de classement Estimé/National des joueur·euses importé·es depuis ChessEvent
 
