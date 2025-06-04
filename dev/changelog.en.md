@@ -10,10 +10,10 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - June, 2025
-- Added logging parameters and dynamically update the logging configuration (2.8.0)
-- Removed the ``--experimental`` option and activate the experimental features from the wen UI (2.8.0)
-- Added the gender on the players views (2.8.0)
-- Added check-in lists (2.8.0)
+- Added logging parameters and dynamically update the logging configuration
+- Removed the ``--experimental`` option and activate the experimental features from the web UI
+- Added the gender on the player views
+- Added check-in lists
 
 ## Version 2.7.4 - June 3, 2025
 - Fixed FFE auth test on the tournament editing form
