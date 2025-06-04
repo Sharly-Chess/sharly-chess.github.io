@@ -12,7 +12,7 @@ separator: true
 ## Version 2.7.5 - 5 juin 2025
 - Correction de la mise à jour des classements des joueur·euses depuis la base de joueur·euses FFE
 - Utilisation de la base de données du serveur fédéral lors de la création des joueur·euses à partir de la base FIDE
-- Fixed the colors of the players update modal
+- Correction des couleurs du modal de mise à jour des joueur·euses
 
 ## Version 2.7.4 - 3 juin 2025
 - Correction du test des identifiants FFE lors de l'édition des tournois
