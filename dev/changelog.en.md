@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.7.5 - June 4, 2025
+## Version 2.7.5 - June 5, 2025
 - Update players when rating types differ in data sources
 - Request the FFE SQL server when augmenting players created from the FIDE database
 - Fixed the colors of the players update modal
