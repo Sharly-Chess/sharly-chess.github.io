@@ -10,10 +10,11 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - June, 2025
+- Added the definition and calculation of prizes
+- Added check-in lists
 - Added logging parameters and dynamically update the logging configuration
 - Removed the ``--experimental`` option and activate the experimental features from the web UI
 - Added the gender on the player views
-- Added check-in lists
 
 ## Version 2.7.5 - June 5, 2025
 - Update players when rating types differ in data sources
