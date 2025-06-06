@@ -9,10 +9,12 @@ separator: true
 
 # Changelog
 
-## Version 2.7.5 - June 5, 2025
+## Version 2.7.5 - June 6, 2025
 - Update players when rating types differ in data sources
 - Request the FFE SQL server when augmenting players created from the FIDE database
 - Fixed the colors of the players update modal
+- Fixed entering results with keyboard shortcuts on fixed boards
+- Removed pairing settings modal when not accurate
 
 ## Version 2.7.4 - June 3, 2025
 - Fixed FFE auth test on the tournament editing form
