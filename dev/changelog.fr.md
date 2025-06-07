@@ -13,7 +13,7 @@ separator: true
 - Ajout de la définition et du calcul des prix
 - Ajout des listes de pointage
 - Ajout de paramètres de log et mise à jour dynamique de la configuration
-- Suppression de l'option ``--experimental`` et activation des fonctionnalités expérimentales depuis l'interface web
+- Suppression de l'option `--experimental` et activation des fonctionnalités expérimentales depuis l'interface web
 - Ajout du genre sur les impressions des joueur·euses
 
 ## Version 2.7.5 - 6 juin 2025
