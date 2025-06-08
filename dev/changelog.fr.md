@@ -11,7 +11,7 @@ separator: true
 
 ## Version 2.7.6 - 8 juin 2025
 - Amélioration de la gestion des exceptions
-- Correction d'un bug sur l'édition des évènements (2.7.6)
+- Correction d'un bug sur l'édition des évènements
 
 ## Version 2.7.5 - 6 juin 2025
 - Correction de la mise à jour des classements des joueur·euses depuis la base de joueur·euses FFE
