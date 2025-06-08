@@ -16,6 +16,10 @@ separator: true
 - Suppression de l'option `--experimental` et activation des fonctionnalités expérimentales depuis l'interface web
 - Ajout du genre sur les impressions des joueur·euses
 
+## Version 2.7.6 - 8 juin 2025
+- Amélioration de la gestion des exceptions
+- Correction d'un bug sur l'édition des évènements
+
 ## Version 2.7.5 - 6 juin 2025
 - Correction de la mise à jour des classements des joueur·euses depuis la base de joueur·euses FFE
 - Utilisation de la base de données du serveur fédéral lors de la création des joueur·euses à partir de la base FIDE
