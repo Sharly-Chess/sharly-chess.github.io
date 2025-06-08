@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.7.6 - June 8, 2025
+- Improved exception handling
+- Fixed a bug on event editing
+
 ## Version 2.7.5 - June 6, 2025
 - Update players when rating types differ in data sources
 - Request the FFE SQL server when augmenting players created from the FIDE database
