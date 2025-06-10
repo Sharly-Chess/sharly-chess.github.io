@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 2.7.7 - June, 2025
+- Fixed a bug on player creation
+- Fixed FFE online search
+- Improved exception handling
+
 ## Version 2.7.6 - June 8, 2025
 - Improved exception handling
 - Fixed a bug on event editing

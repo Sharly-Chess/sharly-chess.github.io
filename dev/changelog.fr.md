@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 2.7.7 - juin 2025
+- Correction d'un bug à la création des joueur·euses
+- Correction de la recherche FFE en ligne
+- Amélioration de la gestion des exceptions
+
 ## Version 2.7.6 - 8 juin 2025
 - Amélioration de la gestion des exceptions
 - Correction d'un bug sur l'édition des évènements
