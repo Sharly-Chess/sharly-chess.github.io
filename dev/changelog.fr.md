@@ -13,6 +13,10 @@ separator: true
 - Correction d'un bug à la création des joueur·euses
 - Correction de la recherche FFE en ligne
 - Amélioration de la gestion des exceptions
+- Correction d'un bug à la création des joueur·euses
+- Correction de la recherche FFE en ligne
+- Correction de la recherche des joueur·euses FFE par leur identifiant FIDE
+- Correction de l'ajout de joueur·euses FIDE non présent·es dans la base FFE
 
 ## Version 2.7.6 - 8 juin 2025
 - Amélioration de la gestion des exceptions
