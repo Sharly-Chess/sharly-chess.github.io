@@ -36,6 +36,8 @@ nav_order: 500
 | LABORDE Stéphane    | AFO1  |  OCC  | 66  | Perpignan - Les rois de la Tet                |
 | LAPEYRE Pierre      | AFE2  |  NAQ  | 33  | Échiquier Bordelais                           |
 | LAUER Alban         | AF01  |  IDF  | 95  | L'Échiquéenne de Survilliers                  |
+| LEBRET Jean-Michel  | AFE1  |  NOR  | 59  | Bondues Echecs                                |
+| LEBRET Loriane      | AFE2  |  PDL  | 44  | Echiquier de l'Erdre                          |
 | LECLERC Rodolphe    | AF01  |  ARA  | 73  | Albertville Savoie Echecs                     |
 | LECORNU Laurent     | AFE1  |  BRE  | 29  | Échiquier Gouesnousien                        |
 | LEFEBVRE Philippe   | AFO1  |  BRE  | 29  | Échiquier Gouesnousien                        |
