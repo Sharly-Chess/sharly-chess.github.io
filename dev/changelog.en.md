@@ -15,6 +15,7 @@ separator: true
 - Added logging parameters and dynamically update the logging configuration
 - Removed the `--experimental` option and activate the experimental features from the web UI
 - Added the gender on the player views
+- Updated federation flags
 
 ## Version 2.7.7 - June 10, 2025
 - Fixed a bug on player creation
