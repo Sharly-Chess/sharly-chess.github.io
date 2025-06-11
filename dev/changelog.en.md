@@ -16,6 +16,16 @@ separator: true
 - Removed the `--experimental` option and activate the experimental features from the web UI
 - Added the gender on the player views
 
+## Version 2.7.7 - June 10, 2025
+- Fixed a bug on player creation
+- Fixed FFE online search
+- Improved exception handling
+- Fixed a bug on player creation
+- Fixed FFE online search
+- Fixed searching FFE players by their FIDE ID
+- Fixed adding FIDE players when not present in the FFE database
+- Take into account the number of the first board of the tournaments
+
 ## Version 2.7.6 - June 8, 2025
 - Improved exception handling
 - Fixed a bug on event editing
