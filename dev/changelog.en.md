@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 2.7.8 - June, 2025
+- Fixed the indices of the players databases
+- Fixed the display of the Pairings tab when no tournament
+- Fixed the board numbering
+
 ## Version 2.7.7 - June 10, 2025
 - Fixed a bug on player creation
 - Fixed FFE online search

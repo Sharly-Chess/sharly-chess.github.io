@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 2.7.8 - juin 2025
+- Correction des index des bases de données des joueur·euses
+- Correction de l'affichage de l'onglet Appariements en l'absence de tournois
+- Correction de la numérotation des échiquiers
+
 ## Version 2.7.7 - 10 juin 2025
 - Correction d'un bug à la création des joueur·euses
 - Correction de la recherche FFE en ligne
