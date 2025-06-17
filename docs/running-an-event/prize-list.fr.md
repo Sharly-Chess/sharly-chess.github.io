@@ -15,7 +15,7 @@ Sharly Chess propose un système de gestion des prix puissant et flexible, capab
 
 ### Catégories de prix
 
-Les prix sont regroupés en _catégories de prix_ (par exemple : U12, meilleure féminine, flassement Elo 1000–1200, etc.). Chaque catégorie peut :
+Les prix sont regroupés en _catégories de prix_ (par exemple : U12, meilleure féminine, classement Elo 1000–1200, etc.). Chaque catégorie peut :
 
 * comporter une ou plusieurs places (1er, 2e, etc.) ;
 * inclure des critères permettant de filtrer les joueur·euses éligibles.
