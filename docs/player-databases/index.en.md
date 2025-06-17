@@ -1,24 +1,26 @@
 ---
 layout: page
-title: Player databases
-permalink: /player-databases
-page_id: player-databases
+title: Data sources
+permalink: /data-sources/
+page_id: data-sources
 nav_order: 400
 ---
 
-# Player Databases
+# Data sources
 
-When adding players to a tournament, you can search the **FIDE players database** or any other player database provided by a federation via a [plugin]({% link docs/plugins/index.en.md %}).
+Data sources are used to find players when adding them to a tournament.
 
-The FIDE players database must be downloaded and installed locally before it can be used. Plugins may also provide additional databases that behave the same way, or they may add support for online player databases.
+In order to add players from the **FIDE players database**, it must first be downloaded and installed locally on your machine using Sharly Chess.
 
-## Database Management
+[Plugins]({% link docs/plugins/index.en.md %}) may also provide additional databases that behave the same way, or they may add support for online player databases.
 
-You can manage all local player databases from the **Databases** page, accessible via the "Player Databases" option in the navigation menu.
+## Installing databases on your machine
 
-For each database, you can choose to:
-- **Update automatically** when _Sharly Chess_ starts
-- **Receive a warning** when the database is outdated (based on the number of days you define).  In this case the "Player Databases" option will display a warning sign.
-- **Update manually** at any time — especially handy on the morning of a tournament
+You can manage all local player databases from the **Data sources** page, accessible via the "Data sources" option in the navigation menu.
+
+For each data source that's downloaded tp your machine, you can choose to:
+- **Update automatically** when _Sharly Chess_ starts.
+- **Receive a warning** when the database is outdated (based on the number of days you define).  In this case the "Data sources" option will display a warning sign.
+- **Update manually** at any time — especially handy on the morning of a tournament.
 
 This system ensures you always have the latest player info at your fingertips, without relying on an internet connection during the event.

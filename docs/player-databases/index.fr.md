@@ -1,21 +1,22 @@
 ---
 layout: page
-title: Bases de données joueur·euses
-permalink: /bases-de-donnees-joueureuses
-page_id: player-databases
+title: Sources de données
+permalink: /sources-de-donnees
+page_id: data-sources
 nav_order: 400
 ---
 
-# Bases de données joueur·euses
+# Sources de données
 
-Lors de l’ajout de joueur·euses à un tournoi, vous pouvez effectuer une recherche dans la **base des joueur·euses FIDE** ou dans toute autre base fournie par une fédération via un [plugin]({% link docs/plugins/index.fr.md %}).
+Les sources de données sont utilisées pour rechercher des joueur·euses lors de leur ajout à un tournoi.
 
-La base des joueur·euses FIDE doit être téléchargée et installée localement avant de pouvoir être utilisée.
-Certains plugins peuvent également fournir des bases locales similaires, ou ajouter la prise en charge de bases de données en ligne.
+Pour pouvoir ajouter des joueur·euses depuis la **base de données FIDE**, celle-ci doit d’abord être téléchargée et installée localement sur votre machine via Sharly Chess.
 
-## Gestion des bases de données
+Des [plugins]({% link docs/plugins/index.fr.md %}) peuvent également fournir d’autres bases de données fonctionnant de la même manière, ou bien ajouter la prise en charge de bases en ligne.
 
-Vous pouvez gérer toutes les bases de données locales depuis la page **Bases de données**, accessible via l'option correspondante dans le menu de navigation.
+## Installer des bases de données sur votre machine
+
+Vous pouvez gérer toutes les bases locales de joueur·euses depuis la page **Sources de données**, accessible via l’option « Sources données » dans le menu de navigation.
 
 Pour chaque base, vous pouvez choisir :
 - de l’**actualiser automatiquement** au démarrage de _Sharly Chess_ ;
