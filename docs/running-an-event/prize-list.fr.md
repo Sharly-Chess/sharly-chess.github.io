@@ -58,7 +58,7 @@ Chaque prix peut être :
 Tous les prix (monétaires ou non) doivent avoir une **valeur attribuée** afin de permettre une comparaison équitable lors de l’attribution.
 
 {: .tip }
-> :point_right: Les prix monétaires **ne sont pas prioritaires** sur les prix non monétaires. Par exemple, un·e joueur·euse recevra un prix non monétaire avec une valeur de 60€ plutôt qu’un prix en argent de 50€, si les deux appartiennent au même _groupe de prix_. Cela vous donne un contrôle total sur la structure des récompenses.
+> :point_right: Les prix monétaires **ne sont pas prioritaires** sur les prix non monétaires. Par exemple, un·e joueur·euse recevra un prix non monétaire avec une valeur de 60 plutôt qu’un prix en argent de 50€, si les deux appartiennent au même _groupe de prix_. Cela vous donne un contrôle total sur la structure des récompenses.
 
 ## Consultation et impression des résultats
 
