@@ -15,18 +15,18 @@ Sharly Chess propose un système de gestion des prix puissant et flexible, capab
 
 ### Catégories de prix
 
-Les prix sont regroupés en _catégories de prix_ (par exemple : U12, Meilleure Féminine, Classement Elo 1000–1200, etc.). Chaque catégorie peut :
+Les prix sont regroupés en _catégories de prix_ (par exemple : U12, meilleure féminine, flassement Elo 1000–1200, etc.). Chaque catégorie peut :
 
-* Comporter une ou plusieurs places (1er, 2e, etc.)
-* Inclure des critères permettant de filtrer les joueur·euses éligibles
+* comporter une ou plusieurs places (1er, 2e, etc.) ;
+* inclure des critères permettant de filtrer les joueur·euses éligibles.
 
-En combinant plusieurs critères, vous pouvez créer des prix adaptés à vos besoins, comme « Meilleure Féminine U12 » ou « Meilleur·e joueur·euse non classé·e de la ligue ».
+En combinant plusieurs critères, vous pouvez créer des prix adaptés à vos besoins, comme « meilleure féminine U12 » ou « meilleur·e joueur·euse non classé·e de la ligue ».
 
-Une catégorie peut être désignée comme la _catégorie principale_. Elle ne comporte **aucun critère** et est utilisée pour le classement général du tournoi. En cas d’égalité de points, vous pouvez choisir la méthode d’attribution des prix :
+Une catégorie peut être désignée comme la _catégorie principale_. Elle ne comporte **aucun critère** et est utilisée pour le classement général du tournoi. En cas d’égalité de points, vous pouvez choisir la méthode d’attribution des prix :
 
-- Aucun partage
-- Partage égal
-- Système de Hort
+- Aucun partage (attribution à la place) ;
+- Partage égal ;
+- Système de Hort.
 
 ### Groupes de prix
 
@@ -38,12 +38,12 @@ Dans chaque groupe, le système attribue au joueur ou à la joueuse le **prix le
 
 Vous pouvez ajouter un ou plusieurs filtres à chaque catégorie pour limiter les joueur·euses éligibles :
 
-- **Sexe** : Homme ou Femme
-- **Classement Elo** : minimum et/ou maximum
-- **Catégorie d’âge** : spécifiez les catégories concernées (ex. : U12), avec possibilité d’inclure toutes les catégories inférieures ou supérieures
-- **Type de classement** : FIDE, national ou estimé
-- **Clubs** : restreindre la catégorie à un ou plusieurs clubs
-- **Fédérations** : restreindre la catégorie à certaines fédérations nationales
+- **genre** : Homme ou Femme ;
+- **classement Elo** : minimum et/ou maximum ;
+- **catégorie d’âge** : spécifiez les catégories concernées (ex. : U12), avec possibilité d’inclure toutes les catégories inférieures ou supérieures ;
+- **type de classement** : FIDE, national ou estimé ;
+- **clubs** : restreindre la catégorie à un ou plusieurs clubs ;
+- **fédérations** : restreindre la catégorie à certaines fédérations nationales.
 
 {: .note }
 > :information_source: Des plugins peuvent proposer d’autres critères.
@@ -52,13 +52,13 @@ Vous pouvez ajouter un ou plusieurs filtres à chaque catégorie pour limiter le
 
 Chaque prix peut être :
 
-- **Monétaire** : cochez cette option pour les prix en argent
-- **Non monétaire** : pour les trophées, livres, bons, etc.
+- **monétaire** : cochez cette option pour les prix en argent ;
+- **non monétaire** : pour les trophées, livres, bons, etc.
 
 Tous les prix (monétaires ou non) doivent avoir une **valeur attribuée** afin de permettre une comparaison équitable lors de l’attribution.
 
 {: .tip }
-> :point_right: Les prix monétaires **ne sont pas prioritaires** sur les prix non monétaires. Par exemple, un·e joueur·euse recevra un prix non monétaire avec une valeur de 60 plutôt qu’un prix en argent de 50 €, si les deux appartiennent au même _groupe de prix_. Cela vous donne un contrôle total sur la structure des récompenses.
+> :point_right: Les prix monétaires **ne sont pas prioritaires** sur les prix non monétaires. Par exemple, un·e joueur·euse recevra un prix non monétaire avec une valeur de 60€ plutôt qu’un prix en argent de 50€, si les deux appartiennent au même _groupe de prix_. Cela vous donne un contrôle total sur la structure des récompenses.
 
 ## Consultation et impression des résultats
 
