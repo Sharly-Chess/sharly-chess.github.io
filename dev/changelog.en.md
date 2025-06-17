@@ -17,6 +17,14 @@ separator: true
 - Added the gender on the player views
 - Updated federation flags
 
+## Version 2.7.8 - June 16, 2025
+- Fixed the indices of the players databases
+- Fixed the display of the Pairings tab when no tournament
+- Fixed the board numbering
+- Fixed the refresh of results screens
+- Restrained the characters that can be used in event IDs
+- Fixed the upload to the FFE website from the ChessEvent script
+
 ## Version 2.7.7 - June 10, 2025
 - Fixed a bug on player creation
 - Fixed FFE online search

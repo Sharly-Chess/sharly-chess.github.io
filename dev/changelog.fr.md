@@ -17,6 +17,14 @@ separator: true
 - Ajout du genre sur les impressions des joueur·euses
 - Mise à jour des drapeaux des fédérations
 
+## Version 2.7.8 - 16 juin 2025
+- Correction des index des bases de données des joueur·euses
+- Correction de l'affichage de l'onglet Appariements en l'absence de tournois
+- Correction de la numérotation des échiquiers
+- Correction du rafraichissement des écrans de résultats
+- Restriction des caractères utilisables dans les identifiants des évènements
+- Correction de la mise à jour sur le site FFE depuis le script ChessEvent
+
 ## Version 2.7.7 - 10 juin 2025
 - Correction d'un bug à la création des joueur·euses
 - Correction de la recherche FFE en ligne
