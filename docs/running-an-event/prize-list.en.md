@@ -62,4 +62,4 @@ All prizes (monetary or not) should have a value assigned for fair comparison du
 
 ## Viewing and Exporting Results
 
-Once prizes are configured, you can view and print the prize allocations from the Print dialog (via the print icon on the top right of the screen).
+Once prizes are configured, you can view and print the prize allocations from the Print dialog (via the print option in the side bar).

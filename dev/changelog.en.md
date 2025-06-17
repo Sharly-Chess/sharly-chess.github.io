@@ -11,7 +11,8 @@ separator: true
 
 ## Version 2.8.0 - June, 2025
 - Added the definition and calculation of prizes
-- Added check-in lists
+- Updated user interface with a sidebar for navigation
+- Added a "check-in list" print option
 - Added logging parameters and dynamically update the logging configuration
 - Removed the `--experimental` option and activate the experimental features from the web UI
 - Added the gender on the player views

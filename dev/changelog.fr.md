@@ -11,7 +11,8 @@ separator: true
 
 ## Version 2.8.0 - juin 2025
 - Ajout de la définition et du calcul des prix
-- Ajout des listes de pointage
+- Interface utilisateur mise à jour avec une barre latérale pour la navigation
+- Ajout d’une option d’impression de la liste de pointage
 - Ajout de paramètres de log et mise à jour dynamique de la configuration
 - Suppression de l'option `--experimental` et activation des fonctionnalités expérimentales depuis l'interface web
 - Ajout du genre sur les impressions des joueur·euses

@@ -62,4 +62,4 @@ Tous les prix (monétaires ou non) doivent avoir une **valeur attribuée** afin 
 
 ## Consultation et impression des résultats
 
-Une fois les prix configurés, vous pouvez consulter et imprimer les attributions via la fenêtre d’impression (icône d’imprimante en haut à droite de l’écran).
+Une fois les prix configurés, vous pouvez consulter et imprimer les attributions via la fenêtre d’impression (via l’option d’impression dans la barre latérale).
