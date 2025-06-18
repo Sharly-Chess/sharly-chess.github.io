@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.7.9 - juin 2025
+## Version 2.7.9 - 18 juin 2025
 - Correction de la duplication des tie-breaks des tournois (2.7.9)
 - Correction de l'allocation des points-joker (2.7.9)
 

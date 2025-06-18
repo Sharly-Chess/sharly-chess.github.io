@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.7.9 - June, 2025
+## Version 2.7.9 - June 18, 2025
 - Fixed the duplication of tournament tie-breaks (2.7.9)
 - Fixed the allocation of byes (2.7.9)
 
