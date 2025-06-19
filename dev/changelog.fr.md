@@ -10,6 +10,7 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - juin 2025
+- Support officiel de _bbpPairings_
 - Ajout de la définition et du calcul des prix
 - Interface utilisateur mise à jour avec une barre latérale pour la navigation
 - Ajout d’une option d’impression de la liste de pointage
@@ -17,6 +18,10 @@ separator: true
 - Suppression de l'option `--experimental` et activation des fonctionnalités expérimentales depuis l'interface web
 - Ajout du genre sur les impressions des joueur·euses
 - Mise à jour des drapeaux des fédérations
+
+## Version 2.7.9 - 18 juin 2025
+- Correction de la duplication des tie-breaks des tournois (2.7.9)
+- Correction de l'allocation des points-joker (2.7.9)
 
 ## Version 2.7.8 - 16 juin 2025
 - Correction des index des bases de données des joueur·euses

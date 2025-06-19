@@ -10,6 +10,7 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - June, 2025
+- Official support of _bbpPairings_
 - Added the definition and calculation of prizes
 - Updated user interface with a sidebar for navigation
 - Added a "check-in list" print option
@@ -17,6 +18,10 @@ separator: true
 - Removed the `--experimental` option and activate the experimental features from the web UI
 - Added the gender on the player views
 - Updated federation flags
+
+## Version 2.7.9 - June 18, 2025
+- Fixed the duplication of tournament tie-breaks (2.7.9)
+- Fixed the allocation of byes (2.7.9)
 
 ## Version 2.7.8 - June 16, 2025
 - Fixed the indices of the players databases
