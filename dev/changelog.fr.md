@@ -14,6 +14,7 @@ separator: true
 - Ajout de la définition et du calcul des prix
 - Interface utilisateur mise à jour avec une barre latérale pour la navigation
 - Ajout d’une option d’impression de la liste de pointage
+- Ajout d’une option d’impression pour la performance relative
 - Ajout de paramètres de log et mise à jour dynamique de la configuration
 - Suppression de l'option `--experimental` et activation des fonctionnalités expérimentales depuis l'interface web
 - Ajout du genre sur les impressions des joueur·euses

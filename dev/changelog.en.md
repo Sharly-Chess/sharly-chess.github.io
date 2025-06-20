@@ -14,6 +14,7 @@ separator: true
 - Added the definition and calculation of prizes
 - Updated user interface with a sidebar for navigation
 - Added a "check-in list" print option
+- Added a "relative performance" print option
 - Added logging parameters and dynamically update the logging configuration
 - Removed the `--experimental` option and activate the experimental features from the web UI
 - Added the gender on the player views
