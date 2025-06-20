@@ -10,7 +10,7 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - June, 2025
-- Official support of _bbpPairings_
+- Official support for the _bbpPairings_ pairing engine
 - Added the definition and calculation of prizes
 - Updated user interface with a sidebar for navigation
 - Added a "check-in list" print option
