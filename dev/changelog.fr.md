@@ -10,7 +10,7 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - juin 2025
-- Support officiel du moteur d'appariements _bbpPairings_
+- Support officiel du moteur interne d'appariements (_bbpPairings_)
 - Ajout de la définition et du calcul des prix
 - Interface utilisateur mise à jour avec une barre latérale pour la navigation
 - Ajout d’une option d’impression de la liste de pointage
