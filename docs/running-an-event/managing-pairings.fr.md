@@ -9,24 +9,20 @@ nav_order: 500
 
 # Gérer les appariements
 
-Il n’est pas encore possible de générer directement les appariements depuis _Sharly Chess_. 
-Pour le moment, les appariements doivent encore être créés dans _Papi_, en utilisant son moteur d'appariements.
-Cependant, une fois générés, ils peuvent être entièrement gérés depuis l'onglet' **Appariements** de l’interface d’administration.
-
-{: .note }
-> :information_source: Une version expérimentale de _Sharly Chess_ permet déjà de générer les appariements automatiquement grâce à une bibliothèque open source appelée [bbpPairings](https://github.com/BieremaBoyzProgramming/bbpPairings), également utilisée par plusieurs logiciels homologués par la FIDE.
-> La prise en charge officielle de cette fonctionnalité est prévue très prochainement.
-
----
-
 ## L’interface d’appariement
 
 L’interface d’appariement est divisée en deux parties :
 - **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (demi-point joker).
 - **À droite** : les appariements confirmés pour la ronde.
 
-Des contrôles de navigation permettent de changer de tournoi ou de ronde. 
+Des contrôles de navigation permettent de changer de tournoi ou de ronde.
 Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
+
+---
+
+## Appariement automatique
+
+Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
 
 ---
 
