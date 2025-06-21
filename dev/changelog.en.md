@@ -19,6 +19,7 @@ separator: true
 - Removed the `--experimental` option and activate the experimental features from the web UI
 - Added the gender on the player views
 - Updated federation flags
+- Simplified the first startup of the application
 
 ## Version 2.7.9 - June 18, 2025
 - Fixed the duplication of tournament tie-breaks (2.7.9)

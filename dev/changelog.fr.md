@@ -19,6 +19,7 @@ separator: true
 - Suppression de l'option `--experimental` et activation des fonctionnalités expérimentales depuis l'interface web
 - Ajout du genre sur les impressions des joueur·euses
 - Mise à jour des drapeaux des fédérations
+- Simplification du premier lancement de l'application
 
 ## Version 2.7.9 - 18 juin 2025
 - Correction de la duplication des tie-breaks des tournois (2.7.9)
