@@ -27,7 +27,7 @@ nav_order: 500
 | CHANTIER Pierre     | AFO1  |  EST  | 10  | Verrières Animation Loisirs                   |
 | CHELLILI Bachir     | AFO1  |  HDF  | 60  | Echiquier Beauvaisien                         |
 | CLEMENCEAU Cyril    |  AFC  |  BRE  | 29  | Échiquier du Léon                             |
-| DELMOTTE Eric       | AFE1  |  BFC  | 71  | L'Échiquier Châlonnais                        |
+| DELMOTTE Eric       | AFE1  |  EST  | 57  | Cercle d'Echecs de Creutzwald                 |
 | FRAYSSE Sébastien   | AFO2  |  BRE  | 29  | Échiquier Quimpérois                          |
 | GRANCHER Étienne    | AFO1  |  NOR  | 76  | Le Fou du Roi Montivilliers                   |
 | GUINET Kevin        |       |  PDL  | 72  | L'Échiquier Fertois                           |
