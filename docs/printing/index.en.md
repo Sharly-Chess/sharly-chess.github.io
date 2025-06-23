@@ -74,10 +74,17 @@ Provides a comprehensive overview of the current standings, including round-by-r
 
 ### Round Performance Listing
 
-This document ranks players based on their performance for a specific round (_not_ the full tournament).
-The performance is calculated as the difference between the player’s rating and their round performance (calculated similarly to the TPR — Tournament Performance Rating — tie-break).
+This document ranks players based on their performance in a **specific round** (_not_ the entire tournament).
 
-This can be useful for awarding per-round prizes or for any other creative ideas that the organisers may have.
+The score reflects how well a player performed **relative to their own rating**, using a version of the rating change formula with a fixed K-factor of 20. It represents the number of rating points a player would gain or lose based on the result of that single game.
+
+This system can be useful for awarding per-round prizes or for any other creative ideas that organisers may have.
+
+{: .note }
+> :information_source: This isn’t exactly the same as the official rating change a player would see in a FIDE-rated tournament.
+> FIDE caps the rating difference at 400 points, uses different K-factors for younger players and newcomers,
+> rounds results to whole numbers, and does not calculate rating changes for unrated players.
+> For this listing, we apply the same simplified system to all players in order to allow fair comparison across the board.
 
 ---
 

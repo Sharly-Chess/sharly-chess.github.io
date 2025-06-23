@@ -76,10 +76,16 @@ Offre une vue détaillée du classement, avec les résultats de chaque ronde pou
 
 ### Performance de la ronde
 
-Ce document classe les joueur·euses selon leur performance sur une ronde spécifique (_et non_ sur l’ensemble du tournoi).
-La performance est calculée comme la différence entre le classement du joueur·euse et sa performance sur la ronde (calculée comme pour le départage TPR — Tournament Performance Rating).
+Ce document classe les joueur·euses en fonction de leur performance lors d’une **ronde spécifique** (_et non sur l’ensemble du tournoi_).
 
-Cela peut être utile pour décerner des prix par ronde ou pour toute autre idée créative de l’équipe d’organisation.
+Le score indique à quel point un·e joueur·euse a bien (ou mal) joué **par rapport à son propre classement**, en utilisant une version de la formule de changement de classement, avec un facteur K fixe de 20. Il représente donc le nombre de points Elo qu’il ou elle aurait gagnés ou perdus sur cette partie.
+
+Ce système peut être utile pour récompenser les meilleures performances par ronde, ou pour toute autre idée originale des organisateur·ices.
+
+{: .note }
+> :information_source: Ce calcul ne correspond pas exactement au changement de classement officiel d’un tournoi homologué FIDE.
+> Le système FIDE plafonne la différence de classement à 400 points, utilise des facteurs K variables (plus élevés pour les jeunes et les débutant⋅es), arrondit les résultats à l’entier, et ne calcule aucun changement pour les joueur·euses non classé·es.
+> Ici, nous appliquons un même système simplifié à tous·tes les participant·es afin de permettre une comparaison équitable des performances.
 
 ---
 
