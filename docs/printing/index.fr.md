@@ -74,7 +74,7 @@ Offre une vue détaillée du classement, avec les résultats de chaque ronde pou
 
 ---
 
-### Performance de la ronde
+### Indicateur de performance pour la ronde
 
 Ce document classe les joueur·euses en fonction de leur performance lors d’une **ronde spécifique** (_et non sur l’ensemble du tournoi_).
 

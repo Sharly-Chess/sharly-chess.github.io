@@ -72,7 +72,7 @@ Provides a comprehensive overview of the current standings, including round-by-r
 
 ---
 
-### Round Performance Listing
+### Round Performance Indicators
 
 This document ranks players based on their performance in a **specific round** (_not_ the entire tournament).
 
