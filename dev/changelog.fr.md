@@ -13,6 +13,7 @@ separator: true
 - Support officiel du moteur interne d'appariements (_bbpPairings_)
 - Ajout de la définition et du calcul des prix
 - Interface utilisateur mise à jour avec une barre latérale pour la navigation
+- Ajout d'un QR code sur la page d'accueil pour faciliter la connexion des clients
 - Ajout d’une option d’impression de la liste de pointage
 - Ajout d’une option d’impression pour la performance relative
 - Ajout de paramètres de log et mise à jour dynamique de la configuration
