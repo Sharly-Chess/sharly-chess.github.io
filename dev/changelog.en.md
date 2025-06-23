@@ -13,6 +13,7 @@ separator: true
 - Official support for the internal pairing engine (_bbpPairings_)
 - Added the definition and calculation of prizes
 - Updated user interface with a sidebar for navigation
+- Added a QR code to ease the connection of devices
 - Added a "check-in list" print option
 - Added a "relative performance" print option
 - Added logging parameters and dynamically update the logging configuration
