@@ -14,6 +14,7 @@ separator: true
 - Ajout de la définition et du calcul des prix
 - Interface utilisateur mise à jour avec une barre latérale pour la navigation
 - Ajout d'un QR code sur la page d'accueil pour faciliter la connexion des clients
+- Simplification de l'usage des sources de données externes
 - Ajout d’une option d’impression de la liste de pointage
 - Ajout d’une option d’impression pour la performance relative
 - Ajout de paramètres de log et mise à jour dynamique de la configuration

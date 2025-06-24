@@ -14,6 +14,7 @@ separator: true
 - Added the definition and calculation of prizes
 - Updated user interface with a sidebar for navigation
 - Added a QR code to ease the connection of devices
+- Simplified the usage of externals data sources
 - Added a "check-in list" print option
 - Added a "relative performance" print option
 - Added logging parameters and dynamically update the logging configuration
