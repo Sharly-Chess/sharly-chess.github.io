@@ -10,9 +10,11 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - juin 2025
-- Support officiel du moteur interne d'appariements (_bbpPairings_)
+- Support officiel du moteur interne d'appariements
+- Génération d'appariements complémentaires
+- Exécution des opérations non-sécurisées lors du passage en mode non-sécurisé
 - Ajout de la définition et du calcul des prix
-- Interface utilisateur mise à jour avec une barre latérale pour la navigation
+- Amélioration de l'interface utilisateur avec une barre latérale de navigation
 - Ajout d'un QR code sur la page d'accueil pour faciliter la connexion des clients
 - Simplification de l'usage des sources de données externes
 - Ajout d’une option d’impression de la liste de pointage
@@ -22,10 +24,14 @@ separator: true
 - Ajout du genre sur les impressions des joueur·euses
 - Mise à jour des drapeaux des fédérations
 - Simplification du premier lancement de l'application
+- Récupération des bases de données des joueur·euses lors des mises à jour
+- Ajout de boutons « Créer et ajouter à nouveau » pour réduire le nombre de clics lors de la création d'objets
+- Calcul de la catégorie des joueur·euses relativement à la date du tournoi
+- Ajout de la possibilité de ne pas afficher les adversaires sur les écrans d'appariements par ordre alphabétique
 
 ## Version 2.7.9 - 18 juin 2025
-- Correction de la duplication des tie-breaks des tournois (2.7.9)
-- Correction de l'allocation des points-joker (2.7.9)
+- Correction de la duplication des tie-breaks des tournois
+- Correction de l'allocation des points-joker
 
 ## Version 2.7.8 - 16 juin 2025
 - Correction des index des bases de données des joueur·euses

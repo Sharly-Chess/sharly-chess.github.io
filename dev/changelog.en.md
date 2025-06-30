@@ -10,7 +10,9 @@ separator: true
 # Changelog
 
 ## Version 2.8.0 - June, 2025
-- Official support for the internal pairing engine (_bbpPairings_)
+- Official support for the internal pairing engine
+- Complementary pairings generation
+- Unsafe operations execution when switching to unsafe mode
 - Added the definition and calculation of prizes
 - Updated user interface with a sidebar for navigation
 - Added a QR code to ease the connection of devices
@@ -22,10 +24,14 @@ separator: true
 - Added the gender on the player views
 - Updated federation flags
 - Simplified the first startup of the application
+- Recover the players database files when upgrading
+- 'Create and add another' buttons added to reduce click count when creating objects
+- Calculation of the players' category relative to the date of the tournament
+- Added the possibility not to show the opponents on pairings screens by alphabetical order
 
 ## Version 2.7.9 - June 18, 2025
-- Fixed the duplication of tournament tie-breaks (2.7.9)
-- Fixed the allocation of byes (2.7.9)
+- Fixed the duplication of tournament tie-breaks
+- Fixed the allocation of byes
 
 ## Version 2.7.8 - June 16, 2025
 - Fixed the indices of the players databases
