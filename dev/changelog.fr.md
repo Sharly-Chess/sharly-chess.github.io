@@ -29,6 +29,10 @@ separator: true
 - Calcul de la catégorie des joueur·euses relativement à la date du tournoi
 - Ajout de la possibilité de ne pas afficher les adversaires sur les écrans d'appariements par ordre alphabétique
 
+## Version 2.7.10 - 1er juillet 2025
+
+- Correction de l'ajout de joueur·euses sans identifiant FFE
+
 ## Version 2.7.9 - 18 juin 2025
 - Correction de la duplication des tie-breaks des tournois
 - Correction de l'allocation des points-joker

@@ -29,6 +29,9 @@ separator: true
 - Calculation of the players' category relative to the date of the tournament
 - Added the possibility not to show the opponents on pairings screens by alphabetical order
 
+## Version 2.7.10 - July 1, 2025
+- Fixed the creation of players with no FFE ID
+
 ## Version 2.7.9 - June 18, 2025
 - Fixed the duplication of tournament tie-breaks
 - Fixed the allocation of byes
