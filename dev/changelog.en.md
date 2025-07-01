@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.8.0 - June, 2025
+## Version 2.8.0 - July, 2025
 - Official support for the internal pairing engine
 - Complementary pairings generation
 - Unsafe operations execution when switching to unsafe mode
