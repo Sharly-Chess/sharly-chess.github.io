@@ -9,9 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 2.7.10 - 1er juillet 2025
+
+- Correction de l'ajout de joueur·euses sans identifiant FFE
+
 ## Version 2.7.9 - 18 juin 2025
-- Correction de la duplication des tie-breaks des tournois (2.7.9)
-- Correction de l'allocation des points-joker (2.7.9)
+- Correction de la duplication des tie-breaks des tournois
+- Correction de l'allocation des points-joker
 
 ## Version 2.7.8 - 16 juin 2025
 - Correction des index des bases de données des joueur·euses

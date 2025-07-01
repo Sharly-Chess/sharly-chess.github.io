@@ -9,9 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 2.7.10 - July 1, 2025
+- Fixed the creation of players with no FFE ID
+
 ## Version 2.7.9 - June 18, 2025
-- Fixed the duplication of tournament tie-breaks (2.7.9)
-- Fixed the allocation of byes (2.7.9)
+- Fixed the duplication of tournament tie-breaks
+- Fixed the allocation of byes
 
 ## Version 2.7.8 - June 16, 2025
 - Fixed the indices of the players databases
