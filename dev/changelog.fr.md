@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.8.1 - 8 juillet 2025
+- Correction de la navigation entre les rondes
+- Rechargement des ressources statiques après les mises à jour
+
 ## Version 2.8.0 - 7 juillet 2025
 - Support officiel du moteur interne d'appariements
 - Génération d'appariements complémentaires
