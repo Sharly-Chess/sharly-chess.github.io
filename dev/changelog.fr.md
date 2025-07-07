@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 2.8.0 - juillet 2025
+## Version 2.8.0 - 7 juillet 2025
 - Support officiel du moteur interne d'appariements
 - Génération d'appariements complémentaires
 - Exécution des opérations non-sécurisées lors du passage en mode non-sécurisé
