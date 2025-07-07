@@ -9,6 +9,26 @@ separator: true
 
 # Changelog
 
+## Version 2.8.0 - July 7, 2025
+- Official support for the internal pairing engine
+- Complementary pairings generation
+- Unsafe operations execution when switching to unsafe mode
+- Added the definition and calculation of prizes
+- Updated user interface with a sidebar for navigation
+- Added a QR code to ease the connection of devices
+- Simplified the usage of externals data sources
+- Added a "check-in list" print option
+- Added a "relative performance" print option
+- Added logging parameters and dynamically update the logging configuration
+- Removed the `--experimental` option and activate the experimental features from the web UI
+- Added the gender on the player views
+- Updated federation flags
+- Simplified the first startup of the application
+- Recover the players database files when upgrading
+- 'Create and add another' buttons added to reduce click count when creating objects
+- Calculation of the players' category relative to the date of the tournament
+- Added the possibility not to show the opponents on pairings screens by alphabetical order
+
 ## Version 2.7.10 - July 1, 2025
 - Fixed the creation of players with no FFE ID
 

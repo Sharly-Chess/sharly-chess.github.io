@@ -9,6 +9,26 @@ separator: true
 
 # Changelog
 
+## Version 2.8.0 - 7 juillet 2025
+- Support officiel du moteur interne d'appariements
+- Génération d'appariements complémentaires
+- Exécution des opérations non-sécurisées lors du passage en mode non-sécurisé
+- Ajout de la définition et du calcul des prix
+- Amélioration de l'interface utilisateur avec une barre latérale de navigation
+- Ajout d'un QR code sur la page d'accueil pour faciliter la connexion des clients
+- Simplification de l'usage des sources de données externes
+- Ajout d’une option d’impression de la liste de pointage
+- Ajout d’une option d’impression pour la performance relative
+- Ajout de paramètres de log et mise à jour dynamique de la configuration
+- Suppression de l'option `--experimental` et activation des fonctionnalités expérimentales depuis l'interface web
+- Ajout du genre sur les impressions des joueur·euses
+- Mise à jour des drapeaux des fédérations
+- Simplification du premier lancement de l'application
+- Récupération des bases de données des joueur·euses lors des mises à jour
+- Ajout de boutons « Créer et ajouter à nouveau » pour réduire le nombre de clics lors de la création d'objets
+- Calcul de la catégorie des joueur·euses relativement à la date du tournoi
+- Ajout de la possibilité de ne pas afficher les adversaires sur les écrans d'appariements par ordre alphabétique
+
 ## Version 2.7.10 - 1er juillet 2025
 
 - Correction de l'ajout de joueur·euses sans identifiant FFE
