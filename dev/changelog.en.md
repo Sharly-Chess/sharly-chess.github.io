@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.8.1 - July 8, 2025
+- Fixed navigation between rounds on the Pairings tab
+- Reload static resources after upgrading
+
 ## Version 2.8.0 - July 7, 2025
 - Official support for the internal pairing engine
 - Complementary pairings generation
