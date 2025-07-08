@@ -35,12 +35,10 @@ _Sharly Chess_ est conçu autour des besoins des arbitres de tournois, pour vous
     <strong>Pointage</strong>
     Faites le pointage vous-même ou laissez les joueur·euses s’auto-enregistrer.
   </div>
-  <!--
   <div class="feature-box">
     <strong>Appariements</strong>
     Automatisés, respectant les règles de la FIDE, et faciles à ajuster à la volée.
   </div>
-  -->
   <div class="feature-box">
     <strong>Classements en direct</strong>
     Les résultats sont disponibles immédiatement après chaque ronde.
