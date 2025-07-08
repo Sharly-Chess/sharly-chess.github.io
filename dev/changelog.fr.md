@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.8.2 - 9 juillet 2025
+- Correction de l'envoi manuel des résultats vers le site FFE
+- Correction de la suppression des résultats
+
 ## Version 2.8.1 - 8 juillet 2025
 - Correction de la navigation entre les rondes
 - Rechargement des ressources statiques après les mises à jour

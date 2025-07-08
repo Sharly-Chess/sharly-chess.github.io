@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.8.2 - July 9, 2025
+- Fixed the manual results upload to the FFE website
+- Fixed deletion of results
+
 ## Version 2.8.1 - July 8, 2025
 - Fixed navigation between rounds on the Pairings tab
 - Reload static resources after upgrading
