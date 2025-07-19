@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.8.3 - 20 juillet 2025
+- Correction des titres FIDE des joueur·euses dans les exports PGN
+- Correction du formulaire d'édition des tournois
+
 ## Version 2.8.2 - 9 juillet 2025
 - Correction de l'envoi manuel des résultats vers le site FFE
 - Correction de la suppression des résultats

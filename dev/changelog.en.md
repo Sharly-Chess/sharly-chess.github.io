@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 2.8.3 - July 20, 2025
+- Fixed tournament editing form
+- Fixed PGN export players' title
+
 ## Version 2.8.2 - July 9, 2025
 - Fixed the manual results upload to the FFE website
 - Fixed deletion of results
