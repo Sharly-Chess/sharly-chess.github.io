@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 2.8.3 - July 24, 2025
+- Fixed tournament editing form
+- Fixed PGN export players' title
+- Papi compatibility for using tie-break Performance for round-robin tournaments
+- Omit FFE/ChessEvent credentials when duplicating tournaments
+- Improved player filtering on players' name and club
+
 ## Version 2.8.2 - July 9, 2025
 - Fixed the manual results upload to the FFE website
 - Fixed deletion of results
