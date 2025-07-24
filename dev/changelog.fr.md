@@ -12,6 +12,9 @@ separator: true
 ## Version 2.8.3 - 20 juillet 2025
 - Correction des titres FIDE des joueur·euses dans les exports PGN
 - Correction du formulaire d'édition des tournois
+- Compatibilité Papi pour l'utilisation de la performance en départage des tournois toutes-rondes
+- Non copie des informations FFE/ChessEvent lors de la duplication de tournois
+- Amélioration du filtrage sur le nom et le club
 
 ## Version 2.8.2 - 9 juillet 2025
 - Correction de l'envoi manuel des résultats vers le site FFE
