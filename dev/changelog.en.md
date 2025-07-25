@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.8.4 - July 25, 2025
+- Fixed the display of points on screens
+
 ## Version 2.8.3 - July 24, 2025
 - Fixed tournament editing form
 - Fixed PGN export players' title
