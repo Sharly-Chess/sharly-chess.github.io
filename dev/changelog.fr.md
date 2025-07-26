@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.8.4 - 25 juillet 2025
+- Correction de l'affichage des points sur les écrans
+
 ## Version 2.8.3 - 20 juillet 2025
 - Correction des titres FIDE des joueur·euses dans les exports PGN
 - Correction du formulaire d'édition des tournois
