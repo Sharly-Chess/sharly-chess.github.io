@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.8.5 - 2 août 2025
+- Correction d'un bug à la création des évènements
+
 ## Version 2.8.4 - 25 juillet 2025
 - Correction de l'affichage des points sur les écrans
 
