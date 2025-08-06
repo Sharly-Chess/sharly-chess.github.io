@@ -12,6 +12,7 @@ separator: true
 ## Version 2.8.6 - 6 août 2025
 - Correction des identifiants FIDE invalides dans les fichiers Papi
 - Correction de l'affichage des boutons de sortie sur les écrans de saisie
+- Correction du nom des écrans par défaut
 
 ## Version 2.8.5 - 2 août 2025
 - Correction d'un bug à la création des évènements
