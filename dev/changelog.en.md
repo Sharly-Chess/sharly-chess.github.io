@@ -13,6 +13,7 @@ separator: true
 - Fixed invalid FIDE IDs in Papi files
 - Fixed the display of exit button on input screens
 - Fixed the names of the default screens
+- Added a button to create events from the Archives page
 
 ## Version 2.8.5 - August 2, 2025
 - Fixed a bug on event creation
