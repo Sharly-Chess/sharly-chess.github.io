@@ -6,7 +6,7 @@ page_id: roadmap
 nav_order: 700
 ---
 
-# Roadmap
+# Version history
 
 |     Version      |    Date     | Features                                                                                                                                                     |
 |:----------------:|:-----------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,6 +20,20 @@ nav_order: 700
 | Sharly Chess 2.6 |  May 2025   | Round-robin and manual pairing                                                                                                                               |
 | Sharly Chess 2.7 |  May 2025   | Integration of FFE operations FFE into the web UI                                                                                                            |
 | Sharly Chess 2.8 |  July 2025  | Swiss pairings<br/>Prize calculation<br/>Check-in lists                                                                                                      |
-| Sharly Chess 2.9 | August 2025 | Roles<br/>Removal of Papi files<br/>TRF import/export                                                                                                        |
-| Sharly Chess 2.x |    2025     | **Functionality parity with Papi 3.3.8**<br/>draft/published round status<br/>Norm and certificate calculation<br/>Statistics, FIDE performances, name cards |
-| Sharly Chess 3.0 |    2025     | **Additional features not supported by Papi**<br/>Dropping Access format<br/>Results, tiebreaks                                                              |
+| Sharly Chess 3.0 | August 2025 | **Dropping of Papi format**<br/>**macOS support**.                                                                                                           |
+
+## Coming soon
+
+* Attribution of _roles_ to allow other arbiters access to parts of the admin interface from other devices.
+* Full support for all FIDE recognised tie breaks
+* TRF import
+* Support for draft/published round status
+* Norm and certificate calculation
+* FIDE performances
+* Various statistics displays
+* Printing of name cards
+
+## Longer term
+
+* Handling of team competitions
+* Support for federation plugins other than that of the French Chess Federation (developers interested in contributing are invited to [contact us]({% link docs/getting-started/getting-support.en.md %}))

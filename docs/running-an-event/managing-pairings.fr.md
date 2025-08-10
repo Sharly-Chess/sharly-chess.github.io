@@ -32,11 +32,6 @@ Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cl
 - S’il y a un·e joueur·euse déjà affecté·e à un bye, vous pouvez les appairer directement ensemble.
 - Sinon, le·la joueur·euse recevra un bye jusqu’à ce qu’un·e adversaire compatible soit ajouté·e.
 
-{: .warning }
-> :warning: Apparier manuellement réattribue **tous les numéros de table** pour la ronde en cours.
-> Il est **fortement recommandé** d’attendre la fin de la ronde avant d’utiliser cette fonction.
-> Cela est dû à une limitation de _Papi_ qui sera levée lorsque nous passerons à une base de données indépendante.
-
 ---
 
 ## Gérer les absences et les demi-points joker

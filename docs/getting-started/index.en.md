@@ -18,8 +18,9 @@ Unlike many other solutions, **no internet connection is required during tournam
 
 ## France specific-ish, for now...
 
-_Sharly Chess_, formerly known as _Papi-web_, was designed as a complement to [_Papi_](https://www.echecs.asso.fr/Actu.aspx?Ref=14287), the official software of the French Chess Federation.
+The current version of _Sharly Chess_ is **very** close to being suitable for chess tournaments organised anywhere in the world.
+However, there is still a small amount of work to do on tie-break handling — some of the current algorithms are not *entirely* FIDE-compliant,
+as they have been adapted to match the expectations of the French Chess Federation.
 
-The current version is therefore a dedicated solution for tournaments organized in France.
-
-That said, a future version will be completely independent of _Papi_ for use anywhere in the world.
+If you can accept a small discrepancy in these calculations, you can already use _Sharly Chess_ for tournaments outside France.
+A fully compliant implementation will be available in the very near future.

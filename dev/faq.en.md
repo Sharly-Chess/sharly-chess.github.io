@@ -23,15 +23,6 @@ nav_order: 800
 
 ## Windows issues
 
-{% details The `api-ms-win-core-path-l1-1-0.dll` library is missing %}
-
-  {: .text-center}
-  ![Error when launching on _Windows_ 7](/assets/faq/faq-system-windows-7.jpg)
-
-  This is due to an incompatibility between _Windows_ 7 and the version of _Python_ used (3.9+).
-  You must update _Windows_ to a supported version (_Windows_ 7 has been unsupported since January 2020).
-{% enddetails %}
-
 {% details What to do if _Microsoft Defender SmartScreen_ blocked the launch of an unrecognized application? %}
   {: .text-center}
   ![_Microsoft Defender SmartScreen_ error message](/assets/faq/faq-system-defender-smartscreen.jpg)

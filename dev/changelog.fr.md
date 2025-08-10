@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 3.0.0 - XX août 2025
+- Séparation complète du format de fichier `.papi` — _Sharly Chess_ utilise désormais exclusivement son propre format de base de données
+- Option d'export d'un tournoi vers un fichier `.papi` (pour envoi à la Fédération Française des Échecs)
+- Prise en charge de macOS
+- Les appariements manuels ne provoquent plus la réorganisation de toutes les autres tables
+- Suppression de la limite de 10 caractères pour les numéros de téléphone des joueur·euses
+
 ## Version 2.8.8 - 12 août 2025
 - Correction d'erreurs liées à l'activation du plugin ChessEvent
 

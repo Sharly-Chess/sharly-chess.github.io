@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 3.0.0 - August XX, 2025
+- Complete separation from the `.papi` file format — _Sharly Chess_ now uses its own database format exclusively
+- Option to export a tournament to a `.papi` file (for submission to the French Chess Federation)
+- Added macOS support
+- Manual pairings no longer cause all other boards to be re-ordered
+- Removed the 10-character limit on player phone numbers
+
 ## Version 2.8.8 - August 12, 2025
 - Fixed errors related to activating the ChessEvent plugin
 
@@ -16,6 +23,7 @@ separator: true
 - Fixed a previous pairings duplication error in case of a BbpPairings error
 
 ## Version 2.8.6 - August 6, 2025
+- Added alphabetical pairings print document
 - Fixed invalid FIDE IDs in Papi files
 - Fixed the display of exit button on input screens
 - Fixed the names of the default screens

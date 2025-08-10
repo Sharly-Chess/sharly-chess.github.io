@@ -6,7 +6,7 @@ page_id: roadmap
 nav_order: 700
 ---
 
-# Feuille de route
+# Historique des versions
 
 |     Version      |     Date     | Fonctionnalités                                                                                                                                                   |
 |:----------------:|:------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,5 +21,20 @@ nav_order: 700
 | Sharly Chess 2.7 |   Mai 2025   | Intégration des opérations FFE dans l'interface web                                                                                                               |
 | Sharly Chess 2.8 | Juillet 2025 | Appariement suisse<br/>Calcul des prix<br/>Listes de pointage                                                                                                     |
 | Sharly Chess 2.9 |  Août 2025   | Rôles<br/>Suppression des fichiers Papi<br/>Import/export TRF                                                                                                     |
-| Sharly Chess 2.x |     2025     | **Iso-fonctionnalité avec Papi 3.3.8**<br/>Statut brouillon/publié des rondes<br/>Calcul des normes et certificats<br/>Statistiques, performances FIDE, chevalets |
-| Sharly Chess 3.0 |     2025     | **Ajout des fonctionnalités non supportées par Papi**<br/>Abandon du format Access<br/>Résultats, départages                                                      |
+| Sharly Chess 3.0 |     2025     | **Abandon du format Papi**<br/>**Prise en charge de macOS**                                                      |
+
+# Bientôt disponible
+
+* Attribution de _rôles_ pour permettre à d’autres arbitres d’accéder à certaines parties de l’interface d’administration depuis d’autres appareils
+* Prise en charge complète de tous les départages reconnus par la FIDE
+* Import TRF
+* Gestion de l’état de ronde brouillon/publiée
+* Calcul des normes et certificats
+* Performances FIDE
+* Divers affichages statistiques
+* Impression de cartes nominatives
+
+## À plus long terme
+
+* Gestion des compétitions par équipes
+* Prise en charge de plugins fédéraux autres que celui de la Fédération Française des Échecs (les développeur·euse·s intéressé·e·s sont invité·e·s à [nous contacter]({% link docs/getting-started/getting-support.fr.md %}))

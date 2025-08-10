@@ -22,14 +22,8 @@ L'heure des chronomètres affichée sur les clients est l'heure des clients (pas
 
 ## Problèmes sous Windows
 
-{% details La bibliothèque `api-ms-win-core-path-l1-1.0.dll` est manquante %}
-{: .text-center}
-  ![Erreur au lancement sur _Window_s 7](/assets/faq/faq-system-windows-7.jpg)
 
-  Il s'agit d'une incompatibilité entre _Windows_ 7 et la version de _Python_ utilisée (3.9+), il faut mettre à jour la version de Windows utilisée (_Windows_ 7 n'est plus supporté depuis janvier 2020).
-{% enddetails %}
-
-  {% details _Microsoft Defender Smartscreen_ a empêché le démarrage d'une application non reconnue %}
+{% details _Microsoft Defender Smartscreen_ a empêché le démarrage d'une application non reconnue %}
   {: .text-center}
   ![Message d'erreur de _Microsoft Defender SmartScreen_](/assets/faq/faq-system-defender-smartscreen.jpg)
 

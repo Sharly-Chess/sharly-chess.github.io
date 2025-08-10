@@ -20,8 +20,8 @@ contrairement à de nombreuses autres solutions, **aucune connexion à internet 
 
 ## Spécifique à la France… pour le moment !
 
-_Sharly Chess_, connu précédemment sous le nom _Papi-web_, a été conçu comme un complément à [_Papi_](https://www.echecs.asso.fr/Actu.aspx?Ref=14287), le logiciel officiel de la Fédération Française des Échecs.
+La version actuelle de _Sharly Chess_ est **très** proche d’être adaptée à l’organisation de tournois d’échecs partout dans le monde.
+Toutefois, il reste encore un petit travail à effectuer sur la gestion des départages — certains des algorithmes actuels ne sont pas *entièrement* conformes aux règles FIDE, car ils ont été adaptés pour correspondre aux attentes de la Fédération Française des Échecs.
 
-Dans la version actuelle, il s'agit donc d'une solution dédiée pour les tournois organisés en France.
-
-Cela dit, une prochaine version sera totalement indépendante de _Papi_, utilisable partout dans le monde.
+Si vous pouvez accepter une légère différence dans ces calculs, vous pouvez déjà utiliser _Sharly Chess_ pour des tournois en dehors de la France.
+Une version pleinement conforme sera disponible très prochainement.

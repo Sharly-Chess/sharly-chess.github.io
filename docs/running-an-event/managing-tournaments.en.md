@@ -20,7 +20,6 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **Rating** | The rating type of the tournament — Standard, Rapid, or Blitz. |
 | **Start/End** | The tournament’s start and end dates (overrides the event-level values). |
 | **Location** | The location of the tournament (overrides the event-level value). |
-| **Directory** | Directory where the _[Papi]({% link docs/getting-started/papi-and-sharly-chess.en.md %})_ file will be stored (overrides the event-level value).
 | **Filename** | The name of the _Papi_ file. If it doesn't exist yet, you can have Sharly Chess create it for you by clicking the option to create the file. |
 | **Time control and increment** | The clock time control and increment for each round. |
 | **Illegal move recording** | Enables tracking of illegal moves per player. You can define a maximum here (overrides the event-level value). |
@@ -34,7 +33,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 
 ## Tournament options
 
-Once you've created a tournament it's displayed on the Tournaments page.  Each tournament has a number of options that can be accessed, such as:
+Once you've created a tournament it's displayed on the Tournaments page. Each tournament has a number of options that can be accessed, such as:
 
 - The ability to edit the fields set during creation
 - The ability to download it in various formats (including TRF)

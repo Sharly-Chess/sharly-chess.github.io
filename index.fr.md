@@ -2,6 +2,7 @@
 layout: home
 title: Gestion de tournoi
 permalink: /
+nav_exclude: true
 ---
 
 {% contentfor header %}

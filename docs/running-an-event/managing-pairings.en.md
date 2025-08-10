@@ -32,10 +32,6 @@ To manually pair players (typically late arrivals), click the pairing button nex
 - If there is already a player assigned a pairing-allocated bye and ready to play, you can pair the new player as black against them.
 - If not, the player will be assigned a pairing-allocated bye until a suitable opponent is manually paired.
 
-{: .warning }
-> :warning: Manually pairing players will reassign all the board numbers for the round.  It is **highly** recommended to wait for the end of the round before pairing players manually.
-> This is due to a restriction in _Papi_ and will be resolved in a future version once we move to a fully independent database.
-
 ---
 
 ## Managing Byes
