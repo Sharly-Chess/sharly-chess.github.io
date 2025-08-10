@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.8.7 - August 10, 2025
+- Fixed a previous pairings duplication error in case of a BbpPairings error
+
 ## Version 2.8.6 - August 6, 2025
 - Fixed invalid FIDE IDs in Papi files
 - Fixed the display of exit button on input screens

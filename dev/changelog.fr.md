@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.8.7 - 10 août 2025
+- Correction d'une erreur de duplication d'anciens appariements en cas d'erreurs de BbpPairings
+
 ## Version 2.8.6 - 6 août 2025
 - Correction des identifiants FIDE invalides dans les fichiers Papi
 - Correction de l'affichage des boutons de sortie sur les écrans de saisie
