@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.8.8 - 12 août 2025
+- Correction d'erreurs liées à l'activation du plugin ChessEvent
+
 ## Version 2.8.7 - 10 août 2025
 - Correction d'une erreur de duplication d'anciens appariements en cas d'erreurs de BbpPairings
 
