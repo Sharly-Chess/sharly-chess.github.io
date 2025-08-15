@@ -18,7 +18,7 @@ Sharly Chess is also available for [Windows]({% link docs/getting-started/instal
 ## Installing _Sharly Chess_
 
 {: .text-center }
-[Download the latest release of _Sharly Chess_ (v{{ site.latest_version }})]({{ site.github_url }}/releases/download/{{ site.latest_version }}/sharly-chess-{{ site.latest_version }}-mac.dmg){: .btn }
+[Download the latest release of _Sharly Chess_ (v{{ site.latest_version }})]({{ site.github_url }}/releases/download/{{ site.latest_version }}/sharly-chess-{{ site.latest_version }}-macos.dmg){: .btn }
 
 {: .note }
 
