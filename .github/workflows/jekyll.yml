@@ -3,13 +3,13 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# Workflow for building and deploying Jekyll site with optional beta docs to GitHub Pages
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes to main or beta branches
   push:
-    branches: ["main"]
+    branches: ["main", "beta"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,25 +31,75 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Ruby
-        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
-        with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build
+      
+      # Build main version (root)
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main-site
+      
+      - name: Setup Ruby for main
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.1'
+          working-directory: main-site
+          bundler-cache: true
+      
+      - name: Build main site
+        run: |
+          cd main-site
+          bundle exec jekyll build --destination ../_site/
         env:
           JEKYLL_ENV: production
+      
+      # Check if beta branch exists and build it
+      - name: Check if beta branch exists
+        id: check-beta
+        run: |
+          # Use GitHub API to check if beta branch exists
+          if curl -s -f "https://api.github.com/repos/${{ github.repository }}/branches/beta" > /dev/null 2>&1; then
+            echo "beta_exists=true" >> $GITHUB_OUTPUT
+            echo "Beta branch exists, will build beta docs"
+          else
+            echo "beta_exists=false" >> $GITHUB_OUTPUT
+            echo "Beta branch does not exist, skipping beta docs"
+          fi
+      
+      - name: Checkout beta branch
+        if: steps.check-beta.outputs.beta_exists == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: beta
+          path: beta-site
+      
+      - name: Setup Ruby for beta
+        if: steps.check-beta.outputs.beta_exists == 'true'
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.1'
+          working-directory: beta-site
+          bundler-cache: true
+      
+      - name: Configure beta for subdirectory
+        if: steps.check-beta.outputs.beta_exists == 'true'
+        run: |
+          cd beta-site
+          # Update baseurl for subdirectory deployment
+          sed -i 's|baseurl: ""|baseurl: "/beta"|' _config.yml
+      
+      - name: Build beta site
+        if: steps.check-beta.outputs.beta_exists == 'true'
+        run: |
+          cd beta-site
+          bundle exec jekyll build --destination ../_site/beta/
+        env:
+          JEKYLL_ENV: production
+      
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
