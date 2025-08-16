@@ -30,3 +30,9 @@ The association's officers are:
 * **President**: Pascal AUBRY
 * **Treasurer**: Sammy PLAT
 * **Secretary**: Timothy ARMES
+
+## Registration
+
+- D-U-N-S®: 285044204
+- RNA: W353025006 (French _Registre National des Associations_)
+- SIRET: request in progress (French _Système d'identification du répertoire des établissements_)
