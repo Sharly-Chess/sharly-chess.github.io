@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 2.8.9 - 17 août 2025
+- Correction de l'importation des joueur·euses avec titres FIDE de candidat·e depuis le serveur FFE en ligne
+
 ## Version 2.8.8 - 12 août 2025
 - Correction d'erreurs liées à l'activation du plugin ChessEvent
 
