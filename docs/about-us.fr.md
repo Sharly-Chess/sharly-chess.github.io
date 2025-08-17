@@ -35,4 +35,4 @@ Le bureau de l'association est :
 
 - D-U-N-S® : 285044204
 - RNA : W353025006 (Registre National des Associations)
-- SIRET : demande en cours (Système d'identification du répertoire des établissements)
+- SIRET : 990333148 00015 (Système d'identification du répertoire des établissements)

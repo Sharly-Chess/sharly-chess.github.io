@@ -35,4 +35,4 @@ The association's officers are:
 
 - D-U-N-S®: 285044204
 - RNA: W353025006 (French _Registre National des Associations_)
-- SIRET: request in progress (French _Système d'identification du répertoire des établissements_)
+- SIRET: 990333148 00015 (French _Système d'identification du répertoire des établissements_)
