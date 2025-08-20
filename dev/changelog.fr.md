@@ -11,20 +11,20 @@ separator: true
 
 ## Version 3.0.0 - XX août 2025
 - Suppression du format de stockage Access de Papi
-- Support de macOS (Apple Silicon Macs seulement)
-- Amélioration des temps de réponses de l'interface utilisateur
-- Restauration des évènements archivés
-- Masquage des identifiants uniques des évènements
 - Création des tournois par import d'un fichier Papi
 - Export des tournois au format Papi
-- Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
-- Affichage des informations d'appariement : groupes, flotteurs, historiques et préférences couleurs
+- Support de macOS (Apple Silicon Macs seulement)
 - Suppression de la renumérotation automatique des échiquiers en cas d'appariement manuel
-- Ajout du numéro dans le cas des échiquiers fixes sur les écrans
+- Permettre le remplacement des classements estimés rapide/blitz par les classements standards
+- Affichage des informations d'appariement : groupes, flotteurs, historiques et préférences couleurs
+- Amélioration des temps de réponses de l'interface utilisateur
 - Amélioration de l'impression des appariements par ordre alphabétique
-- Ajout des titres FIDE dans l'impression des attributions de prix
+- Ajout du numéro dans le cas des échiquiers fixes sur les écrans
 - Ajout des départages dans les grilles Berger
-- Remplacement des classements estimés rapide/blitz par les classements standards
+- Ajout des titres FIDE dans l'impression des attributions de prix
+- Restauration des évènements archivés
+- Masquage des identifiants uniques des évènements
+- Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
 - Ajout de départages non compatibles avec Papi (expérimental)
 
 ## Version 2.8.9 - 17 août 2025

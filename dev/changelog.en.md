@@ -11,20 +11,20 @@ separator: true
 
 ## Version 3.0.0 - August XX, 2025
 - Remove Papi Access storage
-- Native macOS support (Apple Silicon Macs only)
-- Improved UI response times
-- Restore archived events
-- Hide unique IDS of events
 - Create tournaments from Papi files
 - Export tournaments to Papi format
-- Removed the 10-character limit on players' phone numbers
-- Display pairing information: groups, floaters, history and colour preferences
+- Native macOS support (Apple Silicon Macs only)
 - Removed automatic renumbering of boards when manually pairing
-- Added board IDs in case of fixed boards on screens
-- Improved alphabétical pairings printing
-- Added FIDE titles on prize assignments printing
-- Added tie-breaks to Berger grids
 - Allow overriding of unrated rapid/blitz ratings by standard ratings
+- Display pairing information: groups, floaters, history and colour preferences
+- Improved UI response times
+- Improved alphabetical pairings printing
+- Added board IDs in case of fixed boards on screens
+- Added tie-breaks to Berger grids
+- Added FIDE titles on prize assignments printing
+- Restoring of archived events
+- Hide unique IDs of events
+- Removed the 10-character limit on players' phone numbers
 - Added tie-breaks not compatible with Papi (experimental)
 
 ## Version 2.8.9 - August 17, 2025
