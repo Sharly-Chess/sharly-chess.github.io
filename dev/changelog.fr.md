@@ -16,6 +16,9 @@ separator: true
 - Les appariements manuels ne provoquent plus la réorganisation de toutes les autres tables
 - Suppression de la limite de 10 caractères pour les numéros de téléphone des joueur·euses
 
+## Version 2.8.9 - 17 août 2025
+- Correction de l'importation des joueur·euses avec titres FIDE de candidat·e depuis le serveur FFE en ligne
+
 ## Version 2.8.8 - 12 août 2025
 - Correction d'erreurs liées à l'activation du plugin ChessEvent
 
