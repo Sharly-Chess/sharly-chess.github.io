@@ -18,7 +18,7 @@ nav_order: 800
 
 {% details id:standard-rating caption:"Pourquoi existe-t-il une option permettant d’utiliser le classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz ?"  %}
 
-Les [Règlements de classement FIDE pour les tournois rapides et blitz](https://handbook.fide.com/chapter/B02RBRegulations2024) indiquent, à l’Article 7.2.1 :
+Les [Règlements du classement FIDE pour les tournois rapides et blitz](https://handbook.fide.com/chapter/B02RBRegulations2024) indiquent, à l’Article 7.2.1 :
 
 <div class="quote">
   Si un·e joueur·euse non classé·e possède un classement standard au début d’un tournoi rapide ou blitz, son classement standard est utilisé pour le calcul du classement. Ce·tte joueur·euse est considéré·e comme classé·e, et les articles 7.2.2 à 7.2.5 ci-dessous ne s’appliquent pas.
@@ -32,14 +32,14 @@ Cette règle concerne **uniquement** le calcul des classements, et non pas les a
   Si aucun classement fiable n’est connue pour un·e joueur·euse, les arbitres doivent en faire une estimation aussi précise que possible.
 </div>
 
-Ainsi, l’arbitre est libre d’attribuer une estimation valable pour les joueur·euses non classé·es.
+Ainsi, l’arbitre est libre d’attribuer une estimation valable pour le classement des joueur·euses non classé·es.
 
-Il est donc judicieux d’utiliser la classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz, car cela permet d’éviter des surprises désagréables.
+Il est donc judicieux d’utiliser le classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz, car cela permet d’éviter des surprises désagréables.
 
 Nous recommandons d’ajouter cette précision dans vos règlements. Un exemple se trouve dans les [Règlements des Championnats du Monde FIDE de parties rapides et blitz 2025](https://handbook.fide.com/files/handbook/wrbc_regulations_2025_open.pdf), qui le mentionnent explicitement à l’Article 4.2.4.1 :
 
 <div class="quote">
-  Si un·e joueur·euse n’a pas de classement rapide, sa classement standard sera utilisée pour la liste de départ, les appariements (voir Article 4.2.5) et le calcul des départages.
+  Si un·e joueur·euse n’a pas de classement rapide, son classement standard sera utilisée pour la liste de départ, les appariements (voir Article 4.2.5) et le calcul des départages.
 </div>
 
 Ceci est encore plus important si vous utilisez un départage basé sur les classements, puisque les [Règlements FIDE sur les départages](https://handbook.fide.com/chapter/TieBreakRegulations082024) précisent (section 10) :

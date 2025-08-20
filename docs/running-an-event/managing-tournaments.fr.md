@@ -20,7 +20,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 | **Cadence** | Le type de cadence du tournoi — Classique, Rapide ou Blitz. |
 | **Début / Fin** | Les dates de début et de fin du tournoi (optionnelles, par défaut les dates de l’événement). |
 | **Lieu** | Le lieu du tournoi (optionnel, par défaut le lieu de l’événement). |
-| **Handling of estimated rapid/blitz players** | Voir [l’entrée de la FAQ]({% link dev/faq.fr.md %}#standard-rating) pour plus de détails.
+| **Prise en charge des joueur·euses estimées en rapide/blitz** | Voir [l’entrée de la FAQ]({% link dev/faq.fr.md %}#standard-rating) pour plus de détails.
 | **Cadence et incrément** | La cadence de jeu et l’incrément à la pendule (optionnels). |
 | **Saisie des coups illégaux** | Permet de suivre les coups illégaux commis par joueur·euse. Un maximum peut être défini ici (optionnel, par défaut la valeur définie au niveau de l’événement). |
 | **Lien vers le règlement** | Lien vers le document des règles du tournoi (optionnel, par défaut le règlement de l’événement). |
