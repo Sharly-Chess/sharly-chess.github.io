@@ -22,7 +22,6 @@ nav_order: 700
 | Sharly Chess 2.8 | Jul 2025  | Appariement suisse<br/>Calcul des prix<br/>Listes de pointage                                                 |
 | Sharly Chess 3.0 | Aoû 2025  | Abandon du format Papi<br/>Prise en charge de macOS                                                           |
 | Sharly Chess 3.1 | Sep 2025  | Rôles et permissions<br/>Import/export TRF                                                                    |
-| Sharly Chess 3.x |   2025    | **Ajout des fonctionnalités non supportées par Papi**<br/>Résultats, départages                               |
 
 # Bientôt disponible
 
