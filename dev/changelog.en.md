@@ -10,11 +10,25 @@ separator: true
 # Changelog
 
 ## Version 3.0.0 - August XX, 2025
-- Complete separation from the `.papi` file format — _Sharly Chess_ now uses its own database format exclusively
-- Option to export a tournament to a `.papi` file (for submission to the French Chess Federation)
-- Added macOS support
-- Manual pairings no longer cause all other boards to be re-ordered
-- Removed the 10-character limit on player phone numbers
+- Remove Papi Access storage
+- Native macOS support (Apple Silicon Macs only)
+- Improved UI response times
+- Restore archived events
+- Hide unique IDS of events
+- Create tournaments from Papi files
+- Export tournaments to Papi format
+- Removed the 10-character limit on players' phone numbers
+- Display pairing information: groups, floaters, history and colour preferences
+- Removed automatic renumbering of boards when manually pairing
+- Added board IDs in case of fixed boards on screens
+- Improved alphabétical pairings printing
+- Added FIDE titles on prize assignments printing
+- Added tie-breaks to Berger grids
+- Allow overriding of unrated rapid/blitz ratings by standard ratings
+- Added tie-breaks not compatible with Papi (experimental)
+
+## Version 2.8.9 - August 17, 2025
+- Fixed import of players with FIDE Candidate titles from the FFE online server
 
 ## Version 2.8.9 - August 17, 2025
 - Fixed import of players with FIDE Candidate titles from the FFE online server
