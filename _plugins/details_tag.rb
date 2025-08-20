@@ -6,7 +6,20 @@ module Jekyll
 
       def initialize(tag_name, markup, tokens)
         super
-        @caption = markup
+        # parse key:value pairs
+        @id = nil
+        @caption = nil
+
+        # Simple regex for id:xxx and caption:"..."
+        if markup =~ /id:(\S+)/
+          @id = $1
+        end
+
+        if markup =~ /caption:"(.+?)"/
+          @caption = $1
+        else
+          @caption = markup.strip
+        end
       end
 
       def render(context)
@@ -14,7 +27,8 @@ module Jekyll
         converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
         caption = converter.convert(@caption).gsub(/<\/?p[^>]*>/, '').chomp
         body = converter.convert(super(context))
-        "<details name='opened'><summary>#{caption}</summary><div>#{body}</div></details>"
+        id_attr = @id ? " id='#{@id}'" : ""
+        "<details#{id_attr}><summary>#{caption}</summary><div>#{body}</div></details>"
       end
 
     end

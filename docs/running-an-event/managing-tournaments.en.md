@@ -20,7 +20,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **Rating** | The rating type of the tournament — Standard, Rapid, or Blitz. |
 | **Start/End** | The tournament’s start and end dates (overrides the event-level values). |
 | **Location** | The location of the tournament (overrides the event-level value). |
-| **Filename** | The name of the _Papi_ file. If it doesn't exist yet, you can have Sharly Chess create it for you by clicking the option to create the file. |
+| **Handling of estimated rapid/blitz players** | See [the FAQ entry]({% link dev/faq.en.md %}#standard-rating) for details.
 | **Time control and increment** | The clock time control and increment for each round. |
 | **Illegal move recording** | Enables tracking of illegal moves per player. You can define a maximum here (overrides the event-level value). |
 | **Rules file location** | A link to the tournament rules document (overrides the event-level value). |
