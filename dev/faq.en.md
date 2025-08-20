@@ -16,6 +16,39 @@ nav_order: 800
   If result entry is performed on the web server, open the public interface (`http://192.168.x.x`) and the arbitration pages will not be accessible.
 {% enddetails %}
 
+{% details id:standard-rating caption:"Why is there an option to use the standard rating for unrated players in rapid and blitz games?" %}
+  The [FIDE Rapide and Blitz Rating Regulations](https://handbook.fide.com/chapter/B02RBRegulations2024) state, in article 7.2.1, that:
+
+  <div class="quote">
+    If an unrated player has a standard rating at the beginning of a rapid or blitz tournament, their standard rating is used for rating calculation. Such a player is <b>considered to be rated</b>, and 7.2.2 to 7.2.5 below do not apply.
+  </div>
+
+  A player who believes that their opponent is unrated may be surprised when they discover that their game has affected their rating!
+
+  This rule concerns **only** the rating calculation, not the pairings.  However, the [FIDE arbiters manual](https://arbiters.fide.com/wp-content/uploads/Publications/Manual/Arbiters_Manual_2025.pdf) states:
+
+  <div class="quote">
+    If no reliable rating is known for a player the arbiters should make an estimation of it as accurately as possible.
+  </div>
+
+  Thus, the arbiter has the freedom to assign a valid estimated rating for unrated players.
+
+  It is therefore a sensible choice to use the standard rating for unrated players in rapid and blitz tournaments, since this avoids unpleasant surprises.
+
+  We recommend adding this clarification to your tournament regulations. An example is provided in the [Regulations for the Fide World Rapid & Blitz Championships 2025](https://handbook.fide.com/files/handbook/wrbc_regulations_2025_open.pdf) which specifically mentions this in article 4.2.4.1:
+
+  <div class="quote">
+    If a player has no rapid rating, the player's standard rating shall be used for the starting list, pairings (see Article 4.2.5) and tie-break calculation.
+  </div>
+
+  This is especially important if you're using a ratings-based tie-break, since the [FIDE Tie-break specifications](https://handbook.fide.com/chapter/TieBreakRegulations082024) state (in section 10):
+
+  <div class="quote">
+    These tie-breaks must be dropped from the tournament tie-break list when unrated players are present, unless detailed rules on the handling of unrated players are included in the tournament regulations or established and published by the Chief Arbiter before the start of the tournament.
+  </div>
+
+{% enddetails %}
+
 {% details Why are clients displaying different times? %}
   The timer displayed on clients uses each client’s local system time (not the server’s).
   You must synchronize all clients to the same time server.
@@ -86,3 +119,9 @@ nav_order: 800
 
   (here, port `80` is being used by another web server `httpd.exe`)
 {% enddetails %}
+
+<script>
+  if (location.hash) {
+    document.querySelector(location.hash)?.setAttribute("open", "");
+  }
+</script>

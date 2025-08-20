@@ -149,7 +149,7 @@ details {
       margin-top: 0;
     }
 
-    p:last-of-type {
+    p:last-child {
       margin-bottom: 0;
     }
   }
@@ -187,6 +187,12 @@ details {
 
 .btn.big {
   font-size: 1.4rem;
+}
+
+.quote {
+  border-left: solid 2px $border-color;
+  padding-left: 1rem;
+  font-style: italic;
 }
 
 body.home {

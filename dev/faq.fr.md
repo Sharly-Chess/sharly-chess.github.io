@@ -16,6 +16,40 @@ nav_order: 800
   Si la saisie des résultats est effectuée sur le serveur web, ouvrez l'interface publique (`http://192.168.x.x`) et les pages d'arbitrage ne seront pas accessibles.
 {% enddetails %}
 
+{% details id:standard-rating caption:"Pourquoi existe-t-il une option permettant d’utiliser le classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz ?"  %}
+
+Les [Règlements de classement FIDE pour les tournois rapides et blitz](https://handbook.fide.com/chapter/B02RBRegulations2024) indiquent, à l’Article 7.2.1 :
+
+<div class="quote">
+  Si un·e joueur·euse non classé·e possède un classement standard au début d’un tournoi rapide ou blitz, son classement standard est utilisé pour le calcul du classement. Ce·tte joueur·euse est considéré·e comme classé·e, et les articles 7.2.2 à 7.2.5 ci-dessous ne s’appliquent pas.
+</div>
+
+Un·e joueur·euse qui pense que son adversaire est non classé·e peut donc être surpris·e de découvrir que sa partie a influencé son propre classement !
+
+Cette règle concerne **uniquement** le calcul des classements, et non pas les appariements. Cependant, le Manuel de l’arbitre FIDE précise :
+
+<div class="quote">
+  Si aucun classement fiable n’est connue pour un·e joueur·euse, les arbitres doivent en faire une estimation aussi précise que possible.
+</div>
+
+Ainsi, l’arbitre est libre d’attribuer une estimation valable pour les joueur·euses non classé·es.
+
+Il est donc judicieux d’utiliser la classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz, car cela permet d’éviter des surprises désagréables.
+
+Nous recommandons d’ajouter cette précision dans vos règlements. Un exemple se trouve dans les [Règlements des Championnats du Monde FIDE de parties rapides et blitz 2025](https://handbook.fide.com/files/handbook/wrbc_regulations_2025_open.pdf), qui le mentionnent explicitement à l’Article 4.2.4.1 :
+
+<div class="quote">
+  Si un·e joueur·euse n’a pas de classement rapide, sa classement standard sera utilisée pour la liste de départ, les appariements (voir Article 4.2.5) et le calcul des départages.
+</div>
+
+Ceci est encore plus important si vous utilisez un départage basé sur les classements, puisque les [Règlements FIDE sur les départages](https://handbook.fide.com/chapter/TieBreakRegulations082024) précisent (section 10) :
+
+<div class="quote">
+  Ces départages doivent être retirés de la liste des départages d’un tournoi lorsqu’il y a des joueur·euses non classé·es, sauf si des règles détaillées concernant la gestion de ces joueur·euses sont incluses dans les règlements du tournoi ou établies et publiées par l’arbitre principal avant le début du tournoi.
+</div>
+
+{% enddetails %}
+
 {% details Les clients affichent des horaires différents %}
 L'heure des chronomètres affichée sur les clients est l'heure des clients (pas celle du serveur), il faut donc synchroniser tous les clients sur un même serveur de temps.
 {% enddetails %}
@@ -84,3 +118,9 @@ L'heure des chronomètres affichée sur les clients est l'heure des clients (pas
 
   (ici le port `80` est utilisé par un autre serveur web `httpd.exe`)
 {% enddetails %}
+
+<script>
+  if (location.hash) {
+    document.querySelector(location.hash)?.setAttribute("open", "");
+  }
+</script>
