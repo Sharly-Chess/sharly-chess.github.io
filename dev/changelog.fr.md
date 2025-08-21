@@ -25,6 +25,7 @@ separator: true
 - Restauration des évènements archivés
 - Masquage des identifiants uniques des évènements
 - Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
+- Saisie des résultats non comptabilisés et des pénalités
 - Ajout de départages non compatibles avec Papi (expérimental)
 
 ## Version 2.8.9 - 17 août 2025

@@ -25,6 +25,7 @@ separator: true
 - Restoring of archived events
 - Hide unique IDs of events
 - Removed the 10-character limit on players' phone numbers
+- Entry of unrated and penalty results
 - Added tie-breaks not compatible with Papi (experimental)
 
 ## Version 2.8.9 - August 17, 2025
