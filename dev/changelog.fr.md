@@ -27,6 +27,9 @@ separator: true
 - Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
 - Saisie des résultats non comptabilisés et des pénalités
 - Ajout de départages non compatibles avec Papi (expérimental)
+- Ajout d’une option de départage manuel
+- Ajout de la recherche de joueur·euse sur l'onglet Appariements
+- Ajout d’une vue du classement dans l’onglet Appariements après la dernière ronde du tournoi
 
 ## Version 2.8.9 - 17 août 2025
 - Correction de l'importation des joueur·euses avec titres FIDE de candidat·e depuis le serveur FFE en ligne

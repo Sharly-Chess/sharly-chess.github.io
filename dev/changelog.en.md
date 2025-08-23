@@ -27,6 +27,9 @@ separator: true
 - Removed the 10-character limit on players' phone numbers
 - Entry of unrated and penalty results
 - Added tie-breaks not compatible with Papi (experimental)
+- Added a manual tie-break option
+- Added player search on the Pairings tab
+- Added a ranking view on the Pairings tab after the last round of the tournament
 
 ## Version 2.8.9 - August 17, 2025
 - Fixed import of players with FIDE Candidate titles from the FFE online server
