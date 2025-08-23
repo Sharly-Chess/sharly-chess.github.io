@@ -17,19 +17,19 @@ separator: true
 - Removed automatic renumbering of boards when manually pairing
 - Allow overriding of unrated rapid/blitz ratings by standard ratings
 - Display pairing information: groups, floaters, history and colour preferences
+- Added a ranking view on the Pairings tab after the last round of the tournament
+- Added player search on the Pairings tab
 - Improved UI response times
 - Improved alphabetical pairings printing
 - Added board IDs in case of fixed boards on screens
 - Added tie-breaks to Berger grids
+- Added a manual tie-break option
+- Added tie-breaks not compatible with Papi (experimental)
 - Added FIDE titles on prize assignments printing
 - Restoring of archived events
-- Hide unique IDs of events
-- Removed the 10-character limit on players' phone numbers
 - Entry of unrated and penalty results
-- Added tie-breaks not compatible with Papi (experimental)
-- Added a manual tie-break option
-- Added player search on the Pairings tab
-- Added a ranking view on the Pairings tab after the last round of the tournament
+- Removed the 10-character limit on players' phone numbers
+- Hide unique IDs of events
 
 ## Version 2.8.9 - August 17, 2025
 - Fixed import of players with FIDE Candidate titles from the FFE online server

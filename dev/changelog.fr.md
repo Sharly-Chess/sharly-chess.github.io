@@ -17,19 +17,20 @@ separator: true
 - Suppression de la renumérotation automatique des échiquiers en cas d'appariement manuel
 - Permettre le remplacement des classements estimés rapide/blitz par les classements standards
 - Affichage des informations d'appariement : groupes, flotteurs, historiques et préférences couleurs
+- Ajout d’une vue du classement dans l’onglet Appariements après la dernière ronde du tournoi
+- Ajout de la recherche de joueur·euse sur l'onglet Appariements
 - Amélioration des temps de réponses de l'interface utilisateur
 - Amélioration de l'impression des appariements par ordre alphabétique
 - Ajout du numéro dans le cas des échiquiers fixes sur les écrans
 - Ajout des départages dans les grilles Berger
+- Ajout d’une option de départage manuel
+- Ajout de départages non compatibles avec Papi (expérimental)
 - Ajout des titres FIDE dans l'impression des attributions de prix
 - Restauration des évènements archivés
 - Masquage des identifiants uniques des évènements
-- Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
 - Saisie des résultats non comptabilisés et des pénalités
-- Ajout de départages non compatibles avec Papi (expérimental)
-- Ajout d’une option de départage manuel
-- Ajout de la recherche de joueur·euse sur l'onglet Appariements
-- Ajout d’une vue du classement dans l’onglet Appariements après la dernière ronde du tournoi
+- Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
+- Cacher les identifiants uniques des événements
 
 ## Version 2.8.9 - 17 août 2025
 - Correction de l'importation des joueur·euses avec titres FIDE de candidat·e depuis le serveur FFE en ligne
