@@ -24,6 +24,6 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - Download and local search of the player database provided by the _FFE_.
 - Extra player information including the player's FFE number and license status, and their league.
 - Rating estimation for unrated players based on the FFE rules.
-- Actions on the FFE website: submitting regulations, managing tournament visibility, and downloading fees.
+- Easy access to actions on the FFE website: submitting regulations, managing tournament visibility, and downloading fees.
 - FFE specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
