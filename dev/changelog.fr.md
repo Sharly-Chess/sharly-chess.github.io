@@ -25,6 +25,7 @@ separator: true
 - Ajout des départages dans les grilles Berger
 - Ajout d’une option de départage manuel
 - Ajout de départages non compatibles avec Papi (expérimental)
+- Éditeur interactif de cadence de jeu
 - Ajout des titres FIDE dans l'impression des attributions de prix
 - Restauration des évènements archivés
 - Masquage des identifiants uniques des évènements

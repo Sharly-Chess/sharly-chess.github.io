@@ -25,6 +25,7 @@ separator: true
 - Added tie-breaks to Berger grids
 - Added a manual tie-break option
 - Added tie-breaks not compatible with Papi (experimental)
+- Interactive time control editor
 - Added FIDE titles on prize assignments printing
 - Restoring of archived events
 - Entry of unrated and penalty results
