@@ -25,6 +25,7 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_ 
 - Téléchargement et recherche locale dans la base de données joueur·euses de la _FFE_.
 - Informations supplémentaires sur les joueur·euses : numéro de licence _FFE_, statut de licence, ligue d’appartenance.
 - Estimation du classement des joueurs non classés selon les règles de la FFE.
+- Les catégories d’âge sont mises à jour le 1er septembre (au lieu du 1er janvier). Le calcul reste basé sur l’âge du·de la joueur·euse au 1er janvier de l’année en cours.
 - Accès facile aux actions sur le site de la FFE : dépôt du règlement, gestion de la visibilité du tournoi et téléchargement des droits.
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.
 - Critères de prix supplémentaires pour les ligues.
