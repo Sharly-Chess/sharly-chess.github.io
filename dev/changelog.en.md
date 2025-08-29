@@ -14,7 +14,7 @@ separator: true
 - Create tournaments from Papi files
 - Export tournaments to Papi format
 - Native macOS support (Apple Silicon Macs only)
-- Windows version is now recognised as signed be Microsoft Defender
+- Windows version is now recognised as signed by Microsoft Defender
 - Removed automatic renumbering of boards when manually pairing
 - Allow overriding of unrated rapid/blitz ratings by standard ratings
 - Display pairing information: groups, floaters, history and colour preferences
@@ -32,9 +32,6 @@ separator: true
 - Entry of unrated and penalty results
 - Removed the 10-character limit on players' phone numbers
 - Hide unique IDs of events
-
-## Version 2.8.9 - August 17, 2025
-- Fixed import of players with FIDE Candidate titles from the FFE online server
 
 ## Version 2.8.9 - August 17, 2025
 - Fixed import of players with FIDE Candidate titles from the FFE online server
