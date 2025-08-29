@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.0.0 - August XX, 2025
+## Version 3.0.0 - September XX, 2025
 - Remove Papi Access storage
 - Create tournaments from Papi files
 - Export tournaments to Papi format

@@ -20,7 +20,7 @@ nav_order: 700
 | Sharly Chess 2.6 | May 2025  | Round-robin and manual pairing                                                              |
 | Sharly Chess 2.7 | May 2025  | Integration of FFE operations FFE into the web UI                                           |
 | Sharly Chess 2.8 | Jul 2025  | Swiss pairings<br/>Prize calculation<br/>Check-in lists                                     |
-| Sharly Chess 3.0 | Aug 2025  | Dropping of Papi format<br/>macOS support                                                   |
+| Sharly Chess 3.0 | Sep 2025  | Dropping of Papi format<br/>macOS support                                                   |
 | Sharly Chess 3.1 | Sep 2025  | Roles and permissions<br/>TRF import/export                                                 |
 
 ## Coming soon

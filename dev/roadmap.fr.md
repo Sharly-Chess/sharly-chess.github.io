@@ -20,7 +20,7 @@ nav_order: 700
 | Sharly Chess 2.6 | Mai 2025  | Appariement toutes rondes et appariements manuels                                                             |
 | Sharly Chess 2.7 | Mai 2025  | Intégration des opérations FFE dans l'interface web                                                           |
 | Sharly Chess 2.8 | Jul 2025  | Appariement suisse<br/>Calcul des prix<br/>Listes de pointage                                                 |
-| Sharly Chess 3.0 | Aoû 2025  | Abandon du format Papi<br/>Prise en charge de macOS                                                           |
+| Sharly Chess 3.0 | Sep 2025  | Abandon du format Papi<br/>Prise en charge de macOS                                                           |
 | Sharly Chess 3.1 | Sep 2025  | Rôles et permissions<br/>Import/export TRF                                                                    |
 
 # Bientôt disponible

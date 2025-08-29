@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.0.0 - XX août 2025
+## Version 3.0.0 - XX septembre 2025
 - Suppression du format de stockage Access de Papi
 - Création des tournois par import d'un fichier Papi
 - Export des tournois au format Papi
