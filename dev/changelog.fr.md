@@ -14,6 +14,7 @@ separator: true
 - Création des tournois par import d'un fichier Papi
 - Export des tournois au format Papi
 - Support de macOS (Apple Silicon Macs seulement)
+- La version Windows est désormais reconnue comme signée par Microsoft Defender
 - Suppression de la renumérotation automatique des échiquiers en cas d'appariement manuel
 - Permettre le remplacement des classements estimés rapide/blitz par les classements standards
 - Affichage des informations d'appariement : groupes, flotteurs, historiques et préférences couleurs
