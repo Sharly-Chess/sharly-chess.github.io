@@ -29,10 +29,9 @@ separator: true
 - Éditeur interactif de cadence de jeu
 - Ajout des titres FIDE dans l'impression des attributions de prix
 - Restauration des évènements archivés
-- Masquage des identifiants uniques des évènements
+- Masquage des identifiants uniques
 - Saisie des résultats non comptabilisés et des pénalités
 - Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
-- Cacher les identifiants uniques des événements
 
 ## Version 2.8.9 - 17 août 2025
 - Correction de l'importation des joueur·euses avec titres FIDE de candidat·e depuis le serveur FFE en ligne

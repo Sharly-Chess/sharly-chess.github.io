@@ -31,7 +31,7 @@ separator: true
 - Restoring of archived events
 - Entry of unrated and penalty results
 - Removed the 10-character limit on players' phone numbers
-- Hide unique IDs of events
+- Hide unique IDs
 
 ## Version 2.8.9 - August 17, 2025
 - Fixed import of players with FIDE Candidate titles from the FFE online server
