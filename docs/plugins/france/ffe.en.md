@@ -21,10 +21,10 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - Uploading of the tournament results to the _FFE_ site.
 - Import and export of PAPI files.
 - Player search from the online database provided by the _FFE_.
-- Download and local search of the player database provided by the _FFE_.
+- Downloading and local search of the player database provided by the _FFE_.
 - Extra player information including the player's FFE number and license status, and their league.
 - Rating estimation for unrated players based on the FFE rules.
-- Age categories update on 1 September (instead of 1 January). Calculation is still based on the player’s age as of 1 January of the current year.
+- Age categories are updated on 1 September (instead of 1 January). Calculation is still based on the player’s age as of 1 January of the current year.
 - Easy access to actions on the FFE website: submitting regulations, managing tournament visibility, and downloading fees.
 - FFE specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
