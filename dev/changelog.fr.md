@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+#1 Version 3.0.1 - 2 septembre 2025
+- Correction d’une duplication d’événements lors de la récupération depuis une version précédente
+- Correction d’un problème lié à l’outil d’importation ChessEvent
+
 ## Version 3.0.0 - 1er septembre 2025
 - Suppression du format de stockage Access de Papi
 - Création des tournois par import d'un fichier Papi

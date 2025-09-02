@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.0.1 - September 2nd, 2025
+- Fixed a duplication of events when recovering from a previous version
+- Fixed an issue related to the ChessEvent import tool
+
 ## Version 3.0.0 - September 1st, 2025
 - Remove Papi Access storage
 - Create tournaments from Papi files
