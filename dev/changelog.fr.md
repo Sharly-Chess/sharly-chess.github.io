@@ -10,7 +10,9 @@ separator: true
 # Changelog
 
 ## Version 3.0.2 - 3 septembre 2025
-- Correction de la recherche des joueur·euses sur l'onglet Appariements
+- Correction de la recherche des joueur·euses et amélioration de la navigation sur l'onglet Appariements
+- Prise en compte des accents dans la recherche dans la base locale FFE
+- Correction de l'import de tournois Papi
 
 ## Version 3.0.1 - 2 septembre 2025
 - Correction de la récupération des versions précédentes
