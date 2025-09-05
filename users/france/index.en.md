@@ -27,6 +27,7 @@ nav_order: 500
 | BLOT Philippe       | AFE1  |  NOR   | 59  | Le Coin de L'echiquier Grande Synthe          |
 | CHANTIER Pierre     | AFO1  |  EST   | 10  | Verrières Animation Loisirs                   |
 | CHELLILI Bachir     | AFO1  |  HDF   | 60  | Echiquier Beauvaisien                         |
+| CLAREBOUT Julien    | AFE2  |  HDF   | 62  | Le Cavalier Noir d'Arras                      |
 | CLEMENCEAU Cyril    |  AFC  |  BRE   | 29  | Échiquier du Léon                             |
 | DELMOTTE Eric       | AFE1  |  EST   | 57  | Cercle d'Echecs de Creutzwald                 |
 | FRAYSSE Sébastien   | AFO2  |  BRE   | 29  | Échiquier Quimpérois                          |
