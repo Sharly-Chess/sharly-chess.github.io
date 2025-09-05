@@ -12,8 +12,9 @@ nav_order: 500
 | Arbitre             | Titre | Ligue | Dép | Club                                          |
 |---------------------|:-----:|:-----:|:---:|-----------------------------------------------|
 | ADELINE Bruno       | AFE1  |  NOR  | 27  | Aile Roi Louviers                             |
-| ADRAN Claude        | AF02  |  EST  | 57  | Vandoeuvre-Échecs                             |
+| ADRIAN Claude       | AF02  |  EST  | 57  | Vandoeuvre-Échecs                             |
 | AGUERO Pablo Daniel |       |  NAQ  | 40  | Dax Échiquier Dacquois                        |
+| ALLORY Pierre-Jean  | AFE1  |  BRE  | 22  | Émeraude Echecs                               |
 | ARMES Timothy       | AFO1  |  ARA  | 26  | Échiquier Romanais-Péageois                   |
 | AUBRY Pascal        | AFE1  |  BRE  | 35  | Échiquier Domloupéen                          |
 | AVENIA Adrien       |       |  BFC  | 25  | Tour Prends Garde! Besançon                   |
