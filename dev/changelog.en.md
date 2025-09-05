@@ -9,9 +9,17 @@ separator: true
 
 # Changelog
 
+## Version 3.0.2 - September 5, 2025
+- Fixed player search on the Pairings tab
+- Accents handling for local FFE database search
+- Fixed Papi tournament import
+- Fixed export buttons exporting the wrong tournament
+- Fixed printing of pairings in alphabetical order
+
 ## Version 3.0.1 - September 2nd, 2025
-- Fixed a duplication of events when recovering from a previous version
-- Fixed an issue related to the ChessEvent import tool
+- Fixed previous versions recovering
+- Fixed FFE upload after ChessEvent update
+- Fixed the display of timers on rotators and display controllers
 
 ## Version 3.0.0 - September 1st, 2025
 - Remove Papi Access storage

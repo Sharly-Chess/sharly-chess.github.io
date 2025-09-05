@@ -9,9 +9,16 @@ separator: true
 
 # Changelog
 
-#1 Version 3.0.1 - 2 septembre 2025
-- Correction d’une duplication d’événements lors de la récupération depuis une version précédente
-- Correction d’un problème lié à l’outil d’importation ChessEvent
+## Version 3.0.2 - 3 septembre 2025
+- Correction de la recherche des joueur·euses sur l'onglet Appariements
+- Prise en compte des accents dans la recherche dans la base locale FFE
+- Correction de l'import de tournois Papi
+- Correction des boutons d'export exportant le mauvais tournoi
+
+## Version 3.0.1 - 2 septembre 2025
+- Correction de la récupération des versions précédentes
+- Correction du téléversement FFE après mise à jour ChessEvent
+- Correction de l'affichage des chronomètres sur les écrans rotatifs et les pilotes d'afficheurs
 
 ## Version 3.0.0 - 1er septembre 2025
 - Suppression du format de stockage Access de Papi
