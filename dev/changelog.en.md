@@ -10,9 +10,11 @@ separator: true
 # Changelog
 
 ## Version 3.0.2 - September 5, 2025
-- Fixed player search and improved navigation on the Pairings tab
+- Fixed player search on the Pairings tab
 - Accents handling for local FFE database search
+- Improved navigation on the Pairings tab
 - Fixed Papi tournament import
+- Fixed export buttons exporting the wrong tournament
 
 ## Version 3.0.1 - September 2nd, 2025
 - Fixed previous versions recovering
