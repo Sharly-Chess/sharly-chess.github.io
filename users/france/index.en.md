@@ -52,6 +52,7 @@ nav_order: 500
 | PORTE Pierre        |       |  ARA   | 73  | Académie d'Échecs d'Aix les bains             |
 | PRIGENT jérôme      | AFO1  |  BRE   | 29  | Échiquier du Léon                             |
 | REGAUD Denis        | AFE2  |  NAQ   | 33  | Salon Nostradamus                             |
+| RINGOT Françoise    | AFE1  |  ARA   | 38  | La Tour de Chartreuse                         |
 | RUHLMANN Dominique  | AFE1  |  BRE   | 35  | Échiquier du pays de Liffré                   |
 | SALLETTE Alain      | AFE1  |  NAQ   | 33  | Bordeaux Aspom Échecs                         |
 | SALLY Paul-Adrien   | AFE1  |  CVL   | 37  | Echiquier Corpopetrussien                     |

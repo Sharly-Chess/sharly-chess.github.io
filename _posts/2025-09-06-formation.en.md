@@ -9,7 +9,7 @@ lang: en
 excerpt: "This Saturday, September 6th, a Sharly Chess training session was held in Romans-sur-Isère, led by Timothy Armes, one of the developers of the project."
 ---
 
-This Saturday, September 6th, a Sharly Chess training session was held in Romans-sur-Isère, led by Timothy Armes, one of the developers of the project.
+This Saturday, September 6th, a _Sharly Chess_ training session was held in Romans-sur-Isère, led by Timothy ARMES, one of the developers of the project.
 
 Several well-known figures from the regional chess community were in attendance:
 - Claire PERNOUD, Elite Arbiter 2
@@ -27,7 +27,7 @@ The training covered all the essential aspects of running a tournament with Shar
 
 The end of the session was dedicated to more technical topics, including network configuration and the use of external screens to display results and pairings.
 
-Many thanks to all participants for their interest and constructive feedback. These exchanges help move forward the development of Sharly Chess as a tool made by and for arbiters.
+Many thanks to all participants for their interest and constructive feedback. These exchanges help move forward the development of _Sharly Chess_ as a tool made by and for arbiters.
 
 {: .text-center}
-![Confirmation request for restoring from quarantine](/assets/images/2025097-training/training.jpg)
+![Timothy ARMES and the attendees](/assets/images/2025097-training/training.jpg)
