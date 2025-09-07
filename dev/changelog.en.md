@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.0.3 - September 7, 2025
+- Fixed players sort with no firstname
+- Fixed the display of rotators when no screen is selected
+
 ## Version 3.0.2 - September 5, 2025
 - Fixed player search on the Pairings tab
 - Accents handling for local FFE database search

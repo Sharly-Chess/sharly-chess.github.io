@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.0.3 - 7 septembre 2025
+- Correction du tri des joueur·euses sans prénom
+- Correction de l'affichage des écrans rotatifs lorsqu'aucun écran n'est sélectionné
+
 ## Version 3.0.2 - 5 septembre 2025
 - Correction de la recherche des joueur·euses sur l'onglet Appariements
 - Prise en compte des accents dans la recherche dans la base locale FFE
