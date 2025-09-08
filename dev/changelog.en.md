@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.0.4 - September 8, 2025
+- Fixed tie-break calculation with estimated players
+
 ## Version 3.0.3 - September 7, 2025
 - Fixed players sort with no firstname
 - Fixed the display of rotators when no screen is selected
