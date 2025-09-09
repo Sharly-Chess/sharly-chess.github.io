@@ -9,8 +9,8 @@ separator: true
 
 # Changelog
 
-## Version 3.0.4 - 8 septembre 2025
-- Correction du calcul des départages avec des joueur·euses estimé·es
+## Version 3.0.4 - 9 septembre 2025
+- Correction des données de classement utilisées lors de l'export Papi
 
 ## Version 3.0.3 - 7 septembre 2025
 - Correction du tri des joueur·euses sans prénom
