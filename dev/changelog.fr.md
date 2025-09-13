@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 3.0.6 - 13 septembre 2025
+- Correction du téléversement des résultats sur le site fédéral
+
+## Version 3.0.5 - 13 septembre 2025
+- Optimisation des requêtes d'écriture dans la base de données
+- Correction de l'import du numéro d'homologation depuis Papi
+
 ## Version 3.0.4 - 9 septembre 2025
 - Correction des données de classement utilisées lors de l'export Papi
 
