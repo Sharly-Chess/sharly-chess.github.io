@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 3.0.6 - September 13, 2025
+- Fixed a bug preventing results upload
+
+## Version 3.0.5 - September 13, 2025
+- Fixed the import of the Papi homologation number
+- Optimized the write queries in the database
+
 ## Version 3.0.4 - September 9, 2025
 - Fixed a data difference on rankings in the Papi export
 
