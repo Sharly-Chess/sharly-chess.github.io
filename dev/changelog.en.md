@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.0.7 - September 16, 2025
+- Fixed the tombola
+- Increased the timeout of FFE online searches
+
 ## Version 3.0.6 - September 13, 2025
 - Fixed a bug preventing results upload
 

@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.0.7 - 16 septembre 2025
+- Correction de la tombola
+- Augmentation du temps d'attente des recherches FFE en ligne
+
 ## Version 3.0.6 - 13 septembre 2025
 - Correction du téléversement des résultats sur le site fédéral
 
