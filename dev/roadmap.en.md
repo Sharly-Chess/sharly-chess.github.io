@@ -21,7 +21,8 @@ nav_order: 700
 | Sharly Chess 2.7 | May 2025  | Integration of FFE operations FFE into the web UI                                           |
 | Sharly Chess 2.8 | Jul 2025  | Swiss pairings<br/>Prize calculation<br/>Check-in lists                                     |
 | Sharly Chess 3.0 | Sep 2025  | Dropping of Papi format<br/>macOS support                                                   |
-| Sharly Chess 3.1 | Sep 2025  | Roles and permissions<br/>TRF import/export                                                 |
+| Sharly Chess 3.1 | Sep 2025  | Délégation par niveau d'accès<br/>TRF import/export                                         |
+| Sharly Chess 3.2 | Oct 2025  | Baku acceleration<br/>Player norms                                                          |
 
 ## Coming soon
 
@@ -29,7 +30,6 @@ nav_order: 700
 * Support for draft/published round status
 * Norm and certificate calculation
 * FIDE performances
-* Various statistics displays
 * Printing of name cards
 
 ## Longer term

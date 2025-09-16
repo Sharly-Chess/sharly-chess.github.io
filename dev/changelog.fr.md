@@ -9,6 +9,20 @@ separator: true
 
 # Changelog
 
+## Version 3.1.0 - 22 septembre 2025
+
+- Délégation par niveau d'accès pour les clients connectés au serveur (3.1.0)
+- Amélioration de la console du serveur (3.1.0)
+- Import de tournois ChessEvent depuis l'interface web (remplace le script `tools/chessevent.bat`) (3.1.0)
+- Réorganisation des écrans composant les écrans rotatifs (3.1.0)
+- Prise en charge des serveurs avec plusieurs adresses IP (3.1.0)
+- Import de tournois au format TRF (3.1.0)
+- Les tournois peuvent désormais avoir des critères de joueur·euses associés (3.1.0)
+- Amélioration de la recherche de joueur·euses (3.1.0)
+- Amélioration de la navigation de l'onglet Appariements (3.1.0)
+- Vue imprimable des statistiques des joueur·euses (3.1.0)
+– Il est désormais possible de sélectionner plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix, ainsi que les statistiques (3.1.0)
+
 ## Version 3.0.7 - 16 septembre 2025
 - Correction de la tombola
 - Augmentation du temps d'attente des recherches FFE en ligne
