@@ -370,3 +370,30 @@ body.home {
     margin-top: 0rem;
   }
 }
+
+.before-img-no-border ~ * {
+  img {
+    border: 0;
+  }
+}
+
+.before-permissions ~ * {
+  overflow-x: initial;
+  table {
+    position: relative;
+    border-collapse: collapse;
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      font-weight: bold;
+    }
+    th, td {
+      background-color: #212529;
+      padding: 0rem .2rem;
+    }
+    th:nth-child(n+2), td:nth-child(n+2) {
+      min-width: auto;
+    }
+  }
+}

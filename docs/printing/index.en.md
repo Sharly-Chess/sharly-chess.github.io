@@ -6,7 +6,7 @@ page_id: printing
 nav_order: 350
 ---
 
-## Printing
+# Printing
 
 The print dialog can be accessed in two ways:
 
@@ -20,13 +20,13 @@ Here’s a brief overview of the available document types:
 
 ---
 
-### List of Players
+## List of Players
 
 In FIDE tournaments, it is mandatory to display a full list of players. This document includes each player’s name, rating, age category, gender, federation, and club.
 
 ---
 
-### Check-in List
+## Check-in List
 
 Sharly Chess offers several ways to check players in before the start of a tournament. Arbiters can:
 
@@ -42,37 +42,37 @@ Alternatively, you can opt for a more traditional approach with a printed check-
 
 ---
 
-### Pairings
+## Pairings
 
 Once the tournament is running, you’ll likely want to display the pairings for each round. This listing includes all pairings for the selected round, showing board numbers and current points.
 
 ---
 
-### Berger Grid
+## Berger Grid
 
 Used in round-robin tournaments, this grid displays all pairings for every round.
 
 ---
 
-### Results
+## Results
 
 This listing is identical to the pairings list but includes the results of each game.
 
 ---
 
-### Ranking
+## Ranking
 
 Displays the current tournament standings, including player scores and tie-break values.
 
 ---
 
-### Crosstable
+## Crosstable
 
 Provides a comprehensive overview of the current standings, including round-by-round results for each player.
 
 ---
 
-### Round Performance Indicators
+## Round Performance Indicators
 
 This document ranks players based on their performance in a **specific round** (_not_ the entire tournament).
 
@@ -88,12 +88,12 @@ This system can be useful for awarding per-round prizes or for any other creativ
 
 ---
 
-### Prize List
+## Prize List
 
 Prints the list of prizes defined for the tournament. According to FIDE regulations, this list must be displayed no later than halfway through the event.
 
 ---
 
-### Prize Assignment
+## Prize Assignment
 
 Once the tournament is complete, you can generate the list of prize winners based on final standings.

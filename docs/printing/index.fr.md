@@ -6,7 +6,7 @@ page_id: printing
 nav_order: 350
 ---
 
-## Impression
+# Impression
 
 La fenêtre d’impression est accessible de deux manières :
 
@@ -20,14 +20,14 @@ Voici un aperçu des différents types de documents disponibles :
 
 ---
 
-### Liste des joueur·euses
+## Liste des joueur·euses
 
 Dans les tournois FIDE, il est obligatoire d’afficher la liste complète des joueur·euses.
 Ce document inclut le nom, le classement, la catégorie d’âge, le genre, la fédération et le club de chaque joueur·euse.
 
 ---
 
-### Liste de pointage
+## Liste de pointage
 
 Sharly Chess propose plusieurs façons de pointer les joueur·euses avant le début du tournoi. L’arbitre·e peut :
 
@@ -43,38 +43,38 @@ Vous pouvez également utiliser une méthode plus traditionnelle avec une liste 
 
 ---
 
-### Appariements
+## Appariements
 
 Une fois le tournoi lancé, vous voudrez probablement afficher les appariements de chaque ronde.
 Cette liste affiche tous les appariements de la ronde sélectionnée, avec les numéros de table et les points des joueur·euses.
 
 ---
 
-### Grille Berger
+## Grille Berger
 
 Utilisée pour les tournois toutes rondes, cette grille affiche les appariements pour l’ensemble des rondes.
 
 ---
 
-### Résultats
+## Résultats
 
 Cette liste est identique à celle des appariements, mais inclut les résultats des parties.
 
 ---
 
-### Classement
+## Classement
 
 Affiche le classement actuel du tournoi, avec les points et les départages des joueur·euses.
 
 ---
 
-### Table de résultats croisés
+## Table de résultats croisés
 
 Offre une vue détaillée du classement, avec les résultats de chaque ronde pour chaque joueur·euse.
 
 ---
 
-### Indicateur de performance pour la ronde
+## Indicateur de performance pour la ronde
 
 Ce document classe les joueur·euses en fonction de leur performance lors d’une **ronde spécifique** (_et non sur l’ensemble du tournoi_).
 
@@ -89,13 +89,13 @@ Ce système peut être utile pour récompenser les meilleures performances par r
 
 ---
 
-### Liste des prix
+## Liste des prix
 
 Affiche la liste des prix définis pour le tournoi.
 Selon le règlement FIDE, cette liste doit être affichée au plus tard à mi-parcours du tournoi.
 
 ---
 
-### Attribution des prix
+## Attribution des prix
 
 Une fois le tournoi terminé, vous pouvez générer la liste des gagnant·e·s pour chaque prix, selon le classement final.
