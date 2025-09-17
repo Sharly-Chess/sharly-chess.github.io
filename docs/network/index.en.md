@@ -32,9 +32,9 @@ _Sharly Chess_ access levels are organized hierarchically:
 
 ![Inheritance of access levels](../../assets/images/access-levels/access-levels-inheritance-en.jpg)
 
-- ![no-account](../../assets/images/access-levels/lock-no-account-small.png) “Basic” access levels are granted by default to all connected devices (they can be revoked).
-- ![account](../../assets/images/access-levels/lock-account-small.png) To gain higher access levels, devices must be authenticated by logging in with an account.
-- ![admin](../../assets/images/access-levels/lock-admin-small.png) The application's _Administration_ access level is reserved for the _Sharly Chess_ server.
+- 🟢 “Basic” access levels are granted by default to all connected devices (they can be revoked).
+- 🟡 To gain higher access levels, devices must be authenticated by logging in with an account.
+- 🔴 The application's _Administration_ access level is reserved for the _Sharly Chess_ server.
 
 ---
 
@@ -46,10 +46,7 @@ Accounts are declared on the _Sharly Chess_ server:
 
 They allow connected devices to be granted all access levels, except for the application's _Administration_ (reserved for the _Sharly Chess_ server).
 
-{: .note }
-> :information_source: It is possible to deactivate an account and reactivate it later.
-
-Account passwords are encrypted on the _Sharly Chess_ server (if forgotten, they cannot be recovered and must be changed).
+It is possible to deactivate an account and reactivate it later.
 
 {: .warning }
 > :warning: Account passwords should be shared with trusted individuals only!

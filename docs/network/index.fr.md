@@ -31,9 +31,9 @@ Les niveaux d'accès de _Sharly Chess_ sont organisés de manière hiérarchique
 
 ![Héritage des niveaux d'accès](../../assets/images/access-levels/access-levels-inheritance-fr.jpg)
 
-- ![no-account](../../assets/images/access-levels/lock-no-account-small.png) Les niveaux d'accès « basiques » sont accordés par défaut à tous les appareils connectés (ils peuvent leur être retirés).
-- ![account](../../assets/images/access-levels/lock-account-small.png) Pour bénéficier de niveaux d'accès plus élevés, les appareils du réseau doivent être authentifiés en se connectant avec un compte.
-- ![admin](../../assets/images/access-levels/lock-admin-small.png) Le niveau d'accès _Administration_ (de l'application) est réservé au serveur _Sharly Chess_.
+- 🟢 Les niveaux d'accès « basiques » sont accordés par défaut à tous les appareils connectés (ils peuvent leur être retirés).
+- 🟡 Pour bénéficier de niveaux d'accès plus élevés, les appareils du réseau doivent être authentifiés en se connectant avec un compte.
+- 🔴 Le niveau d'accès _Administration_ (de l'application) est réservé au serveur _Sharly Chess_.
 
 ---
 
@@ -45,10 +45,7 @@ Les comptes sont déclarés sur le serveur _Sharly Chess_ :
 
 Ils permettent d'accorder aux appareils connectés tous les niveaux d'accès, à l'exception de l'_Administration_ de l'application (réservé au serveur _Sharly Chess_).
 
-{: .note }
-> :information_source: Il est possible de désactiver un compte et de le réactiver ultérieurement. 
-
-Les mots de passe des comptes sont chiffrés sur le serveur _Sharly Chess_ (en cas d'oubli, ils ne peuvent être récupérés et doivent être modifiés).
+Il est possible de désactiver un compte et de le réactiver ultérieurement. 
 
 {: .warning }
 > :warning: Les mots de passe des comptes ne doivent être communiqués qu'à des personnes de confiance !

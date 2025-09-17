@@ -1,133 +1,33 @@
 <!-- Do not edit this table manually, use script generate_access_levels_doc.py instead. -->
 
-{% details ![admin](../../assets/images/access-levels/lock-admin-small.png) ADM Administration %}
-**Includes all other access levels and grants full access to the application. This access level is granted only when accessing Sharly Chess from the device it is running on (not from another device on the network).**
-{% enddetails %}
+### 🔴 ADM Administration
+Includes all other access levels and grants full access to the application. This access level is granted only when accessing Sharly Chess from the device it is running on (not from another device on the network).
 
-{% details ![account](../../assets/images/access-levels/lock-account-small.png) ORG Organization %}
-**Allows granting or revoking the Chief Arbitration access level and editing the event. Also includes the permissions of the Screen Management access level.**
-- EVENTS
-  - Update events
-  - View event configuration
-- ACCESS CONTROL _(all the permissions)_
-- TOURNAMENTS
-  - Download tournament fees
-- SCREENS _(all the permissions)_
-{% enddetails %}
+### 🟡 ORG Organization
+Allows granting or revoking the Chief Arbitration access level and editing the event. Also includes the permissions of the Screen Management access level.
 
-{% details ![account](../../assets/images/access-levels/lock-account-small.png) SCR Screen Management %}
-**Allows management of Screens and the accounts that can access them.**
-- ACCESS CONTROL _(all the permissions)_
-- SCREENS _(all the permissions)_
-{% enddetails %}
+### 🟡 SCR Screen Management
+Allows management of Screens and the accounts that can access them.
 
-{% details ![account](../../assets/images/access-levels/lock-account-small.png) CA Chief Arbitration %}
-**Allows granting or revoking the Deputy Chief Arbitration access level, editing the event, and managing tournaments; Also includes the permissions of the Deputy Chief Arbitration access level.**
-- EVENTS
-  - Update events
-  - View event configuration
-- ACCESS CONTROL _(all the permissions)_
-- TOURNAMENTS _(all the permissions)_
-- PLAYERS _(all the permissions)_
-- CHECK-IN _(all the permissions)_
-- PAIRINGS _(all the permissions)_
-- RANKINGS _(all the permissions)_
-- RESULTS _(all the permissions)_
-- SCREENS _(all the permissions)_
-- PRIZES _(all the permissions)_
-- PRINTING _(all the permissions)_
-{% enddetails %}
+### 🟡 CA Chief Arbitration
+Allows granting or revoking the Deputy Chief Arbitration access level, editing the event, and managing tournaments; Also includes the permissions of the Deputy Chief Arbitration access level.
 
-{% details ![account](../../assets/images/access-levels/lock-account-small.png) DCA Deputy Chief Arbitration %}
-**Allows managing players, entering results (including special results and their modification), handling check-ins, pairings, and displays.**
-- EVENTS
-  - View event configuration
-- TOURNAMENTS
-  - View the Tournaments tab
-  - Update tournaments
-  - Publish tournament results
-  - Publish tournament rules
-  - Download tournament fees
-- PLAYERS _(all the permissions)_
-- CHECK-IN _(all the permissions)_
-- PAIRINGS _(all the permissions)_
-- RANKINGS _(all the permissions)_
-- RESULTS _(all the permissions)_
-- SCREENS _(all the permissions)_
-- PRIZES _(all the permissions)_
-- PRINTING _(all the permissions)_
-{% enddetails %}
+### 🟡 DCA Deputy Chief Arbitration
+Allows managing players, entering results (including special results and their modification), handling check-ins, pairings, and displays.
 
-{% details ![account](../../assets/images/access-levels/lock-account-small.png) PAI Pairing %}
-**Allows pairing of the players, either using a pairing engine or manually.**
-- EVENTS
-  - View event configuration
-- PLAYERS
-  - View Players tab
-  - Update players' history
-- CHECK-IN _(all the permissions)_
-- PAIRINGS
-  - View Pairings tab
-  - Use pairing engines
-  - Manually pair players
-  - Unpair all the boards of a round
-  - Unpair one board
-  - Permute boards
-  - Set the current round
-  - Set Zero-Points Byes
-  - Set Half-Points Byes
-  - View draft pairings
-  - Publish pairings
-- RANKINGS _(all the permissions)_
-- RESULTS
-  - Enter results
-  - Update results
-  - Set illegal moves
-- SCREENS
-  - View public screens
-{% enddetails %}
+### 🟡 PAI Pairing
+Allows pairing of the players, either using a pairing engine or manually.
 
-{% details ![account](../../assets/images/access-levels/lock-account-small.png) SEC Sector arbitration %}
-**Allows access to the Players and Pairings tabs, results and illegal moves update.**
-- EVENTS
-  - View event configuration
-- PLAYERS
-  - View Players tab
-  - Update players' history
-- CHECK-IN
-  - Check-in players
-- PAIRINGS
-  - View Pairings tab
-- RESULTS
-  - Enter results
-  - Update results
-  - Set illegal moves
-- SCREENS
-  - View public screens
-{% enddetails %}
+### 🟡 SEC Sector arbitration
+Allows access to the Players and Pairings tabs, results and illegal moves update.
 
-{% details ![no-account](../../assets/images/access-levels/lock-no-account-small.png) CHE Check-in via public screens %}
-**Allows check-in via any input Screens that have been marked as public.**
-- PLAYERS
-  - Update players' history
-- CHECK-IN
-  - Check-in players
-- SCREENS
-  - View public screens
-{% enddetails %}
+### 🟢 CHE Check-in via public screens
+Allows check-in via any input Screens that have been marked as public.
 
-{% details ![no-account](../../assets/images/access-levels/lock-no-account-small.png) RES Results entry via public screens %}
-**Allows entry of results via any input Screens that have been marked as public.**
-- RESULTS
-  - Enter results
-- SCREENS
-  - View public screens
-{% enddetails %}
+### 🟢 RES Results entry via public screens
+Allows entry of results via any input Screens that have been marked as public.
 
-{% details ![no-account](../../assets/images/access-levels/lock-no-account-small.png) SPE Spectator %}
-**Allows access to Screens marked as public.**
-- SCREENS
-  - View public screens
-{% enddetails %}
+### 🟢 SPE Spectator
+Allows access to Screens marked as public.
 
-<!-- Generated by script generate_access_levels_doc.py on 2025-09-17 16:20 -->
+<!-- Generated by script generate_access_levels_doc.py on 2025-09-17 17:51 -->
