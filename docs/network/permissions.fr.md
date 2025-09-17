@@ -11,7 +11,7 @@ nav_order: 371
 
 Chaque niveau d'accès correspond à un ensemble fixe et prédéfini de permissions.
 
-## Description of the access levels
+## Description des niveaux d'accès
 
 {% include_relative access-levels-details-fr.md  %}
 
