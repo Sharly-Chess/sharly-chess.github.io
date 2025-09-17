@@ -76,4 +76,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2025-09-17 15:56) -->
+<!-- Généré par le script generate_access_levels_doc.py (2025-09-17 16:20) -->

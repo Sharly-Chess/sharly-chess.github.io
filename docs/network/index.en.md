@@ -30,11 +30,11 @@ _Sharly Chess_ access levels are organized hierarchically:
 
 <div class="before-img-no-border"></div>
 
-![Inheritance of access levels](../../assets/images/access-levels/access-levels-inheritance-en.jpg)
+![Inheritance of access levels](/assets/images/access-levels/access-levels-inheritance-en.jpg)
 
-- ![no-account](../../assets/images/access-levels/lock-no-account-small.png) “Basic” access levels are granted by default to all connected devices (they can be revoked).
-- ![account](../../assets/images/access-levels/lock-account-small.png) To gain higher access levels, devices must be authenticated by logging in with an account.
-- ![admin](../../assets/images/access-levels/lock-admin-small.png) The application's _Administration_ access level is reserved for the _Sharly Chess_ server.
+- ![no-account](/assets/images/access-levels/lock-no-account-small.png) “Basic” access levels are granted by default to all connected devices (they can be revoked).
+- ![account](/assets/images/access-levels/lock-account-small.png) To gain higher access levels, devices must be authenticated by logging in with an account.
+- ![admin](/assets/images/access-levels/lock-admin-small.png) The application's _Administration_ access level is reserved for the _Sharly Chess_ server.
 
 ---
 

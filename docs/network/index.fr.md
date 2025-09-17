@@ -29,11 +29,11 @@ Les niveaux d'accès de _Sharly Chess_ sont organisés de manière hiérarchique
 
 <div class="before-img-no-border"></div>
 
-![Héritage des niveaux d'accès](../../assets/images/access-levels/access-levels-inheritance-fr.jpg)
+![Héritage des niveaux d'accès](/assets/images/access-levels/access-levels-inheritance-fr.jpg)
 
-- ![no-account](../../assets/images/access-levels/lock-no-account-small.png) Les niveaux d'accès « basiques » sont accordés par défaut à tous les appareils connectés (ils peuvent leur être retirés).
-- ![account](../../assets/images/access-levels/lock-account-small.png) Pour bénéficier de niveaux d'accès plus élevés, les appareils du réseau doivent être authentifiés en se connectant avec un compte.
-- ![admin](../../assets/images/access-levels/lock-admin-small.png) Le niveau d'accès _Administration_ (de l'application) est réservé au serveur _Sharly Chess_.
+- ![no-account](/assets/images/access-levels/lock-no-account-small.png) Les niveaux d'accès « basiques » sont accordés par défaut à tous les appareils connectés (ils peuvent leur être retirés).
+- ![account](/assets/images/access-levels/lock-account-small.png) Pour bénéficier de niveaux d'accès plus élevés, les appareils du réseau doivent être authentifiés en se connectant avec un compte.
+- ![admin](/assets/images/access-levels/lock-admin-small.png) Le niveau d'accès _Administration_ (de l'application) est réservé au serveur _Sharly Chess_.
 
 ---
 
