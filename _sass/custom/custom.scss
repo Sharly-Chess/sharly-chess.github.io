@@ -371,10 +371,8 @@ body.home {
   }
 }
 
-.before-img-no-border ~ * {
-  img {
-    border: 0;
-  }
+img.no-border, img.emoji {
+  border: 0;
 }
 
 .before-permissions ~ * {
