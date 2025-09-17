@@ -24,7 +24,7 @@ _Sharly Chess_ was originally designed to connect devices (computers, tablets, s
 
 Access levels allow you to configure in a very flexible and intuitive way the operations that can be performed on devices connected to the network.
 
-- [See the permissions of each access level](permissions.en.md)
+- [See the permissions of each access level]({% link docs/network/permissions.en.md %})
 
 _Sharly Chess_ access levels are organized hierarchically:
 

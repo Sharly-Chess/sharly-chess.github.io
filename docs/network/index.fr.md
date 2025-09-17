@@ -23,7 +23,7 @@ _Sharly Chess_, dès son origine, a été conçu pour connecter des appareils (o
 
 Les niveaux d'accès permettent de configurer de manière très souple et intuitive les opérations qui peuvent être réalisées sur les appareils connectés au réseau.
 
-- [Voir les permissions de chaque niveau d'accès](permissions.fr.md)
+- [Voir les permissions de chaque niveau d'accès]({% link docs/network/permissions.fr.md %})
 
 Les niveaux d'accès de _Sharly Chess_ sont organisés de manière hiérarchique :
 
