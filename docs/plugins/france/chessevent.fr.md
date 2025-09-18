@@ -9,25 +9,16 @@ nav_order: 500
 
 # Le plugin ChessEvent
 
-Le plugin **ChessEvent** permet de s'interfacer avec la plateforme d'inscription _ChessEvent_ opérée par la Ligue de Bretagne des Échecs.
-
-- [Accéder à la plateforme _ChessEvent_](https://chessevent.echecs-bretagne.fr)
-
-L’activation de ce plugin ajoute la fonctionnalité suivante à _Sharly Chess_ :
-
-- récupération des inscriptions aux tournois depuis la plateforme _ChessEvent_.
+Le plugin **ChessEvent** permet d’interfacer _Sharly Chess_ avec la plateforme d’inscription _ChessEvent_ opérée par la Ligue de Bretagne des Échecs.
+En activant ce plugin, vous pouvez importer les inscriptions de tournois depuis la plateforme _ChessEvent_.
 
 ## Utilisation du plugin
 
-Pour récupérer les inscriptions d'un tournoi depuis la plateforme _ChessEvent_, il faut dans la configuration du tournoi indiquer les informations suivantes :
+Pour récupérer les inscriptions d’un tournoi depuis la plateforme _ChessEvent_, vous devez renseigner les informations suivantes dans la configuration de l’_Événement_ :
 
-- l'identifiant utilisé pour la connexion à la plateforme _ChessEvent_ ;
-- le mot de passe utilisé pour la connexion à la plateforme _ChessEvent_ ;
-- l'identifiant de l'évènement _ChessEvent_ (sur la plateforme _ChessEvent_) ;
-- l'identifiant du tournoi (sur la plateforme _ChessEvent_).
-
-{: .note }
-> :information_source: L'identifiant et le mot de passe de connexion à la plateforme _ChessEvent_, ainsi que le nom de l'évènement sur le plateforme _ChessEvent_ peuvent être définis au niveau de l'évènement _Sharly Chess_ et utilisés par défaut par tous les tournois de l'évènement.
+- le nom d’utilisateur utilisé pour se connecter à la plateforme _ChessEvent_ ;
+- le mot de passe utilisé pour se connecter à la plateforme _ChessEvent_ ;
+- l’ID de l’événement _ChessEvent_ (sur la plateforme _ChessEvent_).
 
 ## Exemple
 
@@ -35,7 +26,15 @@ Pour récupérer les inscriptions d'un tournoi depuis la plateforme _ChessEvent_
 ![Exemple d’événement sur la plateforme ChessEvent](/assets/images/chessevent/chessevent-example.jpg)
 {% endfigure %}
 
-Pour ce tournoi :
+Pour ce tournoi, l’ID _ChessEvent_ se trouve dans l’URL de la page (ici `BRE_35_Bretagnejeunes2025`).
 
-- l'identifiant de l'évènement _ChessEvent_ est dans l'URL de la page (ici `BRE_35_Bretagnejeunes2025`) ;
-- l'identifiant du tournoi est le texte du bouton correspondant (ici `Tournoi U12`).
+Une fois la configuration effectuée, vous pouvez importer un tournoi via le bouton **Importer un tournoi** sur la page _Tournois_.
+Par défaut, le nom d’utilisateur, le mot de passe et l’événement _ChessEvent_ seront ceux que vous avez définis au niveau de l’_Événement_, mais vous pouvez les modifier si nécessaire.
+Il vous sera également demandé l’ID du tournoi (`Tournoi U12` dans l’exemple ci-dessus).
+
+Cela créera un nouveau tournoi avec les joueur·euses de la plateforme _ChessEvent_.
+
+Pour récupérer la liste la plus récente des joueur·euses d’un tournoi que vous avez déjà importé, utilisez l’option **Importer** depuis le menu _Actions_ sur la carte du tournoi.
+
+{: .warning }
+> :warning: Réimporter un tournoi supprimera tous les joueur·euses existant·es et les remplacera par la nouvelle liste.
