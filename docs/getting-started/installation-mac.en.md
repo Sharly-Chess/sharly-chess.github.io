@@ -38,8 +38,8 @@ Sharly Chess is also available for [Windows]({% link docs/getting-started/instal
 
 ## Running _Sharly Chess_
 
-To start the application, simply double-click the `Launch Sharly Chess.app` file inside the version folder.
+To start the application, simply double-click the _Sharly Chess_ applications inside the version folder.
 
-When run for the first time you'll be asked to choose your language and it will open your default web browser to display the _Sharly Chess_ interface with the opportunity to configure your preferences.
+When run for the first time it will open your default web browser to display the _Sharly Chess_ interface with the opportunity to configure your preferences.
 
 On subsequent runs, _Sharly Chess_ will open the home page, where you can either access the admin interface or the client interface — which can be used by other devices on your network to display tournament information.

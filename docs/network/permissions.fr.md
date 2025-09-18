@@ -4,7 +4,7 @@ title: Permissions
 parent: Réseau
 permalink: /permissions/
 page_id: permissions
-nav_order: 371
+nav_order: 372
 ---
 
 # Permissions par niveaux d'accès

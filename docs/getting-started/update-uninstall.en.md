@@ -4,7 +4,7 @@ title: Updates and Uninstallation
 permalink: /update-uninstall/
 page_id: update-uninstall
 parent: Getting Started
-nav_order: 55
+nav_order: 65
 ---
 
 ## Updating _Sharly Chess_

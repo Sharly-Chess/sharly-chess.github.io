@@ -13,7 +13,7 @@ Events are created from the arbiter’s home page by clicking the **Create Event
 
 Some basic information is required to set up an event, but most fields can be left with their default values and filled in later.
 
-| **Visibility** | Relevant only if you're using other devices on your network to display [Screens]({% link docs/screens/index.en.md %}). Only events marked as _public_ will be accessible from those devices. |
+| **Visibility** | Relevant only if you're using other devices on your [network]({% link docs/network/index.en.md %}) to display [Screens]({% link docs/screens/index.en.md %}). Only events marked as _public_ will be accessible from those devices. |
 | **Federation** | The chess federation responsible for the event. This information will be included in the TRF export. Note that you can set a default federation for all Events in your _Sharly Chess_ settings. |
 | **Name** | A user-friendly name, used for display purposes (e.g. on [Screens]({% link docs/screens/index.en.md %})).
 | **Start/End** | The start and end dates of the event. Used for sorting events and included in the TRF export. |

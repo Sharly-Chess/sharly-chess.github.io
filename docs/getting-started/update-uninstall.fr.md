@@ -4,7 +4,7 @@ title: Mises à jour et désinstallation
 permalink: /mise-a-jour-desinstallation/
 page_id: update-uninstall
 parent: Bien démarrer
-nav_order: 55
+nav_order: 65
 ---
 
 ## Mettre à jour _Sharly Chess_
