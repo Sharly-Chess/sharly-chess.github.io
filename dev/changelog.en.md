@@ -12,16 +12,17 @@ separator: true
 ## :point_right: Version 3.1.0 - September 29, 2025
 
 - Delegation by access level for clients connected to the server
-- Improved the server console
-- Import _ChessEvent_ tournament from the web interface
-- Rotator screens reordering
-- Support for servers with multiple IP addresses
-- Import tournaments from TRF
+- Dedicated console window
 - Tournaments may now have player criteria associated with them
 - Improved player search results
 - Improved navigation on the Pairings tab
+- Rotator screens can be reordered
+- Import tournaments from TRF
 - Statistics print view
+- Support for servers with multiple IP addresses
 - Multiple tournaments can now be selected for several print views: Players List, Check-in List, Prize List and Assignment, and Statistics
+- Import _ChessEvent_ tournament from the web interface
+- Support for servers with multiple IP addresses
 
 ## Version 3.0.7 - September 16, 2025
 - Fixed the tombola

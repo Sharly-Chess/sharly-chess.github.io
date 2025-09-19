@@ -12,16 +12,16 @@ separator: true
 ## :point_right: Version 3.1.0 - 29 septembre 2025
 
 - Délégation par niveau d'accès pour les clients connectés au serveur
-- Amélioration de la console du serveur
-- Import de tournois _ChessEvent_ depuis l'interface web (remplace le script `tools/chessevent.bat`)
-- Réorganisation des écrans composant les écrans rotatifs
-- Prise en charge des serveurs avec plusieurs adresses IP
-- Import de tournois au format TRF
-- Les tournois peuvent désormais avoir des critères de joueur·euses associés
+- Critères sur les joueur·euses pour l'inscription aux tournois
+- Fenêtre de console dédiée
 - Amélioration de la recherche de joueur·euses
 - Amélioration de la navigation de l'onglet Appariements
+- Réorganisation des écrans composant les écrans rotatifs
+- Import de tournois au format TRF
 - Vue imprimable des statistiques des joueur·euses
-- Il est désormais possible de sélectionner plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix, ainsi que les statistiques
+– Prise en charge des serveurs avec plusieurs adresses IP
+– Sélection de plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix et les statistiques
+- Import de tournois _ChessEvent_ depuis l'interface web (remplace le script `tools/chessevent.bat`)
 
 ## Version 3.0.7 - 16 septembre 2025
 - Correction de la tombola
