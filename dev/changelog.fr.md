@@ -21,7 +21,7 @@ separator: true
 - Amélioration de la recherche de joueur·euses
 - Amélioration de la navigation de l'onglet Appariements
 - Vue imprimable des statistiques des joueur·euses
-– Il est désormais possible de sélectionner plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix, ainsi que les statistiques
+- Il est désormais possible de sélectionner plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix, ainsi que les statistiques
 
 ## Version 3.0.7 - 16 septembre 2025
 - Correction de la tombola
