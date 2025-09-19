@@ -42,4 +42,4 @@ Pour démarrer l’application, il suffit de double-cliquer sur le fichier `Laun
 
 Lors du premier lancement, vous serez invité·e à choisir votre langue. Votre navigateur web par défaut s’ouvrira pour afficher l’interface de _Sharly Chess_ et vous permettre de configurer vos préférences.
 
-Lors des lancements suivants, _Sharly Chess_ ouvrira la page d’accueil, depuis laquelle vous pourrez accéder soit à l’interface administrateur, soit à l’interface client — utilisable par d’autres appareils de votre réseau pour afficher les informations du tournoi.
+Lors des exécutions suivantes, Sharly Chess ouvrira l’interface d’administration dans votre navigateur web par défaut.

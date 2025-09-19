@@ -43,7 +43,7 @@ Il existe plusieurs façons de créer ou de rejoindre un réseau :
 
 ## L’adresse IP du serveur
 
-Lorsque _Sharly Chess_ démarre, la page d’accueil affiche une liste d’une ou plusieurs adresses réseau (_adresses IP_) accompagnées d’un QR code.
+Depuis la fenêtre principale de _Sharly Chess_, cliquez sur **Afficher les réseaux** pour afficher la liste des adresses du serveur sur chacun des différents réseaux détectés (Wi-Fi, Ethernet, etc.).
 
 {: .note }
 > :information_source: Une adresse IP est simplement un numéro qui identifie votre serveur sur le réseau, par exemple :
