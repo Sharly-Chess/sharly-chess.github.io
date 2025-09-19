@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.1.0 - 22 septembre 2025
+## :point_right: Version 3.1.0 - 29 septembre 2025
 
 - Délégation par niveau d'accès pour les clients connectés au serveur
 - Amélioration de la console du serveur
