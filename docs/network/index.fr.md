@@ -6,14 +6,14 @@ page_id: network
 nav_order: 370
 ---
 
-# Utiliser Sharly Chess sur un réseau
+# Utiliser _Sharly Chess_ sur un réseau
 
 _Sharly Chess_ peut être utilisé comme un logiciel traditionnel de gestion de compétitions d’échecs : l’arbitre gère la compétition seul·e, sur son ordinateur.
 
 Cependant, _Sharly Chess_ ne se limite pas à l’ordinateur de l’arbitre. D’autres appareils — ordinateurs portables, tablettes, smartphones — peuvent également se connecter au serveur pour :
 
-* Afficher des écrans (appairages, classements, résultats, etc.)
-* Permettre aux joueur·euses de saisir leurs propres résultats
+* Afficher des écrans (appariements, classements, résultats, etc.)
+* Permettre aux joueur·euses de pointer ou saisir leurs propres résultats
 * Donner un accès aux arbitres adjoints ou aux membres du staff
 
 ## Qu’est-ce qu’un réseau ?
@@ -39,7 +39,7 @@ Il existe plusieurs façons de créer ou de rejoindre un réseau :
 
 * **Utiliser un Wi-Fi existant**
 
-  Parfois, le lieu dispose déjà d’un Wi-Fi. Vous pouvez y connecter tous vos appareils, mais vous devez alors considérer qui d’autre y a accès (voir les considérations de sécurité).
+  Parfois, le lieu dispose déjà d’un Wi-Fi. Vous pouvez y connecter tous vos appareils, mais vous devez alors considérer qui d’autre y a accès (voir les [considérations de sécurité]({% link docs/network/security.fr.md %})).
 
 ## L’adresse IP du serveur
 
@@ -76,17 +76,17 @@ Si vous n’arrivez pas à vous connecter à _Sharly Chess_, voici quelques poin
 * **Êtes-vous sur le même réseau ?**
   L’appareil utilisé doit être connecté au même réseau Wi-Fi ou filaire que le serveur.
 
-* **Paramètres du pare-feu ou de l’antivirus.**
+* **Paramètres du pare-feu ou de l’antivirus**
 
   Un pare-feu sur l’ordinateur du serveur peut bloquer les connexions.
   Vérifiez les paramètres de votre système et autorisez _Sharly Chess_.
 
-* **Restrictions du point d’accès mobile.**
+* **Restrictions du point d’accès mobile**
 
   Certains téléphones Android, par défaut, ne permettent qu’à **un seul appareil à la fois** de se connecter au partage de connexion.
   Si vous avez besoin de plus, cherchez une option dans les paramètres du point d’accès du téléphone.
 
-* **Limites du routeur ou du point d’accès.**
+* **Limites du routeur ou du point d’accès**
 
   Certains routeurs Wi-Fi limitent le nombre d’appareils connectés, ou les isolent afin qu’ils ne puissent pas communiquer entre eux (paramètre dit « isolation AP »).
   Assurez-vous que l’isolation des appareils est désactivée si vous souhaitez qu’ils puissent communiquer.
