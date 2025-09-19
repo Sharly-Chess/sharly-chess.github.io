@@ -10,7 +10,7 @@ nav_order: 400
 
 Les sources de données sont utilisées pour rechercher des joueur·euses lors de leur ajout à un tournoi.
 
-Pour pouvoir ajouter des joueur·euses depuis la **base de données FIDE**, celle-ci doit d’abord être téléchargée et installée localement sur votre machine via Sharly Chess.
+Pour pouvoir ajouter des joueur·euses depuis la **base de données _FIDE_**, celle-ci doit d’abord être téléchargée et installée localement sur votre machine via _Sharly Chess_.
 
 Des [plugins]({% link docs/plugins/index.fr.md %}) peuvent également fournir d’autres bases de données fonctionnant de la même manière, ou bien ajouter la prise en charge de bases en ligne.
 

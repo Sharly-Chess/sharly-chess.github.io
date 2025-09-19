@@ -34,4 +34,4 @@ _Sharly Chess_ access levels are organized hierarchically:
 - 🟡 To gain higher access levels, devices must be authenticated by logging in with an account.
 - 🔴 The application's _Administration_ access level is reserved for the _Sharly Chess_ server.
 
-:point_right: [See the permissions of each access level]({% link docs/network/permissions.en.md %})
+:point_right: [See the authorized actions of each access level]({% link docs/network/access-levels.en.md %})

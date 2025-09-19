@@ -8,7 +8,7 @@ nav_order: 350
 
 # Impression
 
-La fenêtre d’impression est accessible de deux manières :
+La fenêtre d’impression est accessible de deux manières :
 
 - Via l’option **« Impression »** dans le menu de navigation latéral
 - Depuis le **menu d’actions** d’un tournoi (sur la page des tournois). Dans ce cas, le tournoi sera déjà sélectionné dans la fenêtre d’impression.
@@ -22,19 +22,19 @@ Voici un aperçu des différents types de documents disponibles :
 
 ## Liste des joueur·euses
 
-Dans les tournois FIDE, il est obligatoire d’afficher la liste complète des joueur·euses.
+Dans les tournois _FIDE_, il est obligatoire d’afficher la liste complète des joueur·euses.
 Ce document inclut le nom, le classement, la catégorie d’âge, le genre, la fédération et le club de chaque joueur·euse.
 
 ---
 
 ## Liste de pointage
 
-Sharly Chess propose plusieurs façons de pointer les joueur·euses avant le début du tournoi. L’arbitre·e peut :
+Sharly Chess propose plusieurs façons de pointer les joueur·euses avant le début du tournoi. L’arbitre·e peut :
 
-- Pointer les joueur·euses manuellement dans l’interface de Sharly Chess
+- Pointer les joueur·euses manuellement dans l’interface de _Sharly Chess_
 - Permettre aux joueur·euses de s’auto-pointer via un [Écran]({% link docs/screens/single-screens.fr.md %}) sur tablette ou ordinateur
 
-Vous pouvez également utiliser une méthode plus traditionnelle avec une liste de pointage imprimée. Celle-ci inclut :
+Vous pouvez également utiliser une méthode plus traditionnelle avec une liste de pointage imprimée. Celle-ci inclut :
 
 - Une case à cocher pour chaque joueur·euse
 - Le nom, le classement, la catégorie d’âge, le genre, etc.
@@ -83,8 +83,8 @@ Le score indique à quel point un·e joueur·euse a bien (ou mal) joué **par ra
 Ce système peut être utile pour récompenser les meilleures performances par ronde, ou pour toute autre idée originale des organisateur·ices.
 
 {: .note }
-> :information_source: Ce calcul ne correspond pas exactement au changement de classement officiel d’un tournoi homologué FIDE.
-> Le système FIDE plafonne la différence de classement à 400 points, utilise des facteurs K variables (plus élevés pour les jeunes et les débutant⋅es), arrondit les résultats à l’entier, et ne calcule aucun changement pour les joueur·euses non classé·es.
+> :information_source: Ce calcul ne correspond pas exactement au changement de classement officiel d’un tournoi homologué _FIDE_.
+> Le système _FIDE_ plafonne la différence de classement à 400 points, utilise des facteurs K variables (plus élevés pour les jeunes et les débutant⋅es), arrondit les résultats à l’entier, et ne calcule aucun changement pour les joueur·euses non classé·es.
 > Ici, nous appliquons un même système simplifié à tous·tes les participant·es afin de permettre une comparaison équitable des performances.
 
 ---
@@ -92,7 +92,7 @@ Ce système peut être utile pour récompenser les meilleures performances par r
 ## Liste des prix
 
 Affiche la liste des prix définis pour le tournoi.
-Selon le règlement FIDE, cette liste doit être affichée au plus tard à mi-parcours du tournoi.
+Selon le règlement _FIDE_, cette liste doit être affichée au plus tard à mi-parcours du tournoi.
 
 ---
 

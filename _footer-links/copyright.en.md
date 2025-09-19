@@ -9,7 +9,7 @@ nav_order: 700
 
 # Copyright
 
-Sharly Chess - &copy; Sharly Chess Project 2013-2025 - [https://sharly-chess.com](https://sharly-chess.com)
+_Sharly Chess_ - &copy; _Sharly Chess Project_ 2013-2025 - [https://sharly-chess.com](https://sharly-chess.com)
 
 ## License 
 

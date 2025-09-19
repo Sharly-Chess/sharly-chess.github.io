@@ -10,7 +10,7 @@ nav_order: 400
 
 Data sources are used to find players when adding them to a tournament.
 
-In order to add players from the **FIDE players database**, it must first be downloaded and installed locally on your machine using Sharly Chess.
+In order to add players from the **_FIDE_ players database**, it must first be downloaded and installed locally on your machine using _Sharly Chess_.
 
 [Plugins]({% link docs/plugins/index.en.md %}) may also provide additional databases that behave the same way, or they may add support for online player databases.
 

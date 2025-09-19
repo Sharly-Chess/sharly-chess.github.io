@@ -6,10 +6,10 @@ layout: post
 page_id: post-2025-09-06
 slug: formation-romans
 lang: fr
-excerpt: "Ce samedi 6 septembre, une session de formation Sharly Chess s’est tenue à Romans-sur-Isère, animée par Timothy Armes, l’un des développeurs du projet."
+excerpt: "Ce samedi 6 septembre, une session de formation Sharly Chess s’est tenue à Romans-sur-Isère, animée par Timothy ARMES, l’un des développeurs du projet."
 ---
 
-Ce samedi 6 septembre, une session de formation Sharly Chess s’est tenue à Romans-sur-Isère, animée par Timothy Armes, l’un des développeurs du projet.
+Ce samedi 6 septembre, une session de formation _Sharly Chess_ s’est tenue à Romans-sur-Isère, animée par Timothy ARMES, l’un des développeurs du projet.
 
 Plusieurs personnalités reconnues de la sphère échiquéenne régionale étaient présentes :
 * Claire PERNOUD, Arbitre Élite 2
@@ -27,7 +27,7 @@ Au cours de la formation, tous les aspects essentiels à la gestion d’un tourn
 
 La fin de la séance a permis d’évoquer quelques sujets plus techniques, notamment la configuration réseau et l’utilisation des écrans externes pour l’affichage des résultats et des appariements.
 
-Merci à tous les participants pour leur intérêt et leurs retours constructifs. Ces échanges permettent de faire avancer ensemble le développement de Sharly Chess.
+Merci à tous les participants pour leur intérêt et leurs retours constructifs. Ces échanges permettent de faire avancer ensemble le développement de _Sharly Chess_.
 
 {: .text-center}
 ![Confirmation request for restoring from quarantine](/assets/images/2025097-training/training.jpg)

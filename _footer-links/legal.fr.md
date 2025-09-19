@@ -32,7 +32,7 @@ Pascal AUBRY, président
 
 ## Immatriculation
 
-Sharly Chess est une association « Loi 1901 » immatriculée sous le numéro W353025006.
+Sharly Chess est une association « Loi 1901 » immatriculée sous le numéro W353025006.
 
 ## Informatique et libertés
 

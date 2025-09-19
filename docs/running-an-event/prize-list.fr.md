@@ -41,7 +41,7 @@ Vous pouvez ajouter un ou plusieurs filtres à chaque catégorie pour limiter le
 - **genre** : Homme ou Femme ;
 - **classement Elo** : minimum et/ou maximum ;
 - **catégorie d’âge** : spécifiez les catégories concernées (ex. : U12), avec possibilité d’inclure toutes les catégories inférieures ou supérieures ;
-- **type de classement** : FIDE, national ou estimé ;
+- **type de classement** : _FIDE_, national ou estimé ;
 - **clubs** : restreindre la catégorie à un ou plusieurs clubs ;
 - **fédérations** : restreindre la catégorie à certaines fédérations nationales.
 

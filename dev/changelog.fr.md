@@ -9,11 +9,11 @@ separator: true
 
 # Changelog
 
-## Version 3.1.0 - 22 septembre 2025
+## :point_right: Version 3.1.0 - 22 septembre 2025
 
 - Délégation par niveau d'accès pour les clients connectés au serveur
 - Amélioration de la console du serveur
-- Import de tournois ChessEvent depuis l'interface web (remplace le script `tools/chessevent.bat`)
+- Import de tournois _ChessEvent_ depuis l'interface web (remplace le script `tools/chessevent.bat`)
 - Réorganisation des écrans composant les écrans rotatifs
 - Prise en charge des serveurs avec plusieurs adresses IP
 - Import de tournois au format TRF
@@ -21,11 +21,11 @@ separator: true
 - Amélioration de la recherche de joueur·euses
 - Amélioration de la navigation de l'onglet Appariements
 - Vue imprimable des statistiques des joueur·euses
-– Il est désormais possible de sélectionner plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix, ainsi que les statistiques
+– Il est désormais possible de sélectionner plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix, ainsi que les statistiques
 
 ## Version 3.0.7 - 16 septembre 2025
 - Correction de la tombola
-- Augmentation du temps d'attente des recherches FFE en ligne
+- Augmentation du temps d'attente des recherches _FFE_ en ligne
 
 ## Version 3.0.6 - 13 septembre 2025
 - Correction du téléversement des résultats sur le site fédéral
@@ -45,16 +45,16 @@ separator: true
 
 ## Version 3.0.2 - 5 septembre 2025
 - Correction de la recherche des joueur·euses sur l'onglet Appariements
-- Prise en compte des accents dans la recherche dans la base locale FFE
+- Prise en compte des accents dans la recherche dans la base locale _FFE_
 - Correction de l'import de tournois Papi
 - Correction des boutons d'export exportant le mauvais tournoi
 
 ## Version 3.0.1 - 2 septembre 2025
 - Correction de la récupération des versions précédentes
-- Correction du téléversement FFE après mise à jour ChessEvent
+- Correction du téléversement _FFE_ après mise à jour _ChessEvent_
 - Correction de l'affichage des chronomètres sur les écrans rotatifs et les pilotes d'afficheurs
 
-## Version 3.0.0 - 1er septembre 2025
+## :point_right: Version 3.0.0 - 1er septembre 2025
 - Suppression du format de stockage Access de Papi
 - Création des tournois par import d'un fichier Papi
 - Export des tournois au format Papi
@@ -62,7 +62,7 @@ separator: true
 - La version Windows est désormais reconnue comme signée par Microsoft Defender
 - Suppression de la renumérotation automatique des échiquiers en cas d'appariement manuel
 - Permettre le remplacement des classements estimés rapide/blitz par les classements standards
-- Affichage des informations d'appariement : groupes, flotteurs, historiques et préférences couleurs
+- Affichage des informations d'appariement : groupes, flotteurs, historiques et préférences couleurs
 - Ajout d’une vue du classement dans l’onglet Appariements après la dernière ronde du tournoi
 - Ajout de la recherche de joueur·euse sur l'onglet Appariements
 - Amélioration des temps de réponses de l'interface utilisateur
@@ -72,23 +72,23 @@ separator: true
 - Ajout d’une option de départage manuel
 - Ajout de départages non compatibles avec Papi (expérimental)
 - Éditeur interactif de cadence de jeu
-- Ajout des titres FIDE dans l'impression des attributions de prix
+- Ajout des titres _FIDE_ dans l'impression des attributions de prix
 - Restauration des évènements archivés
 - Masquage des identifiants uniques
 - Saisie des résultats non comptabilisés et des pénalités
 - Suppression de la limite à 10 caractères des numéros de téléphone des joueur·euses
 
 ## Version 2.8.9 - 17 août 2025
-- Correction de l'importation des joueur·euses avec titres FIDE de candidat·e depuis le serveur FFE en ligne
+- Correction de l'importation des joueur·euses avec titres _FIDE_ de candidat·e depuis le serveur _FFE_ en ligne
 
 ## Version 2.8.8 - 12 août 2025
-- Correction d'erreurs liées à l'activation du plugin ChessEvent
+- Correction d'erreurs liées à l'activation du plugin _ChessEvent_
 
 ## Version 2.8.7 - 10 août 2025
 - Correction d'une erreur de duplication d'anciens appariements en cas d'erreurs de BbpPairings
 
 ## Version 2.8.6 - 6 août 2025
-- Correction des identifiants FIDE invalides dans les fichiers Papi
+- Correction des identifiants _FIDE_ invalides dans les fichiers Papi
 - Correction de l'affichage des boutons de sortie sur les écrans de saisie
 - Correction du nom des écrans par défaut
 - Ajout d'un bouton pour créer les évènements depuis la page des archives
@@ -100,21 +100,21 @@ separator: true
 - Correction de l'affichage des points sur les écrans
 
 ## Version 2.8.3 - 20 juillet 2025
-- Correction des titres FIDE des joueur·euses dans les exports PGN
+- Correction des titres _FIDE_ des joueur·euses dans les exports PGN
 - Correction du formulaire d'édition des tournois
 - Compatibilité Papi pour l'utilisation de la performance en départage des tournois toutes-rondes
-- Non copie des informations FFE/ChessEvent lors de la duplication de tournois
+- Non copie des informations _FFE_/_ChessEvent_ lors de la duplication de tournois
 - Amélioration du filtrage sur le nom et le club
 
 ## Version 2.8.2 - 9 juillet 2025
-- Correction de l'envoi manuel des résultats vers le site FFE
+- Correction de l'envoi manuel des résultats vers le site _FFE_
 - Correction de la suppression des résultats
 
 ## Version 2.8.1 - 8 juillet 2025
 - Correction de la navigation entre les rondes
 - Rechargement des ressources statiques après les mises à jour
 
-## Version 2.8.0 - 7 juillet 2025
+## :point_right: Version 2.8.0 - 7 juillet 2025
 - Support officiel du moteur interne d'appariements
 - Génération d'appariements complémentaires
 - Exécution des opérations non-sécurisées lors du passage en mode non-sécurisé
@@ -130,13 +130,13 @@ separator: true
 - Mise à jour des drapeaux des fédérations
 - Simplification du premier lancement de l'application
 - Récupération des bases de données des joueur·euses lors des mises à jour
-- Ajout de boutons « Créer et ajouter à nouveau » pour réduire le nombre de clics lors de la création d'objets
+- Ajout de boutons « Créer et ajouter à nouveau » pour réduire le nombre de clics lors de la création d'objets
 - Calcul de la catégorie des joueur·euses relativement à la date du tournoi
 - Ajout de la possibilité de ne pas afficher les adversaires sur les écrans d'appariements par ordre alphabétique
 
 ## Version 2.7.10 - 1er juillet 2025
 
-- Correction de l'ajout de joueur·euses sans identifiant FFE
+- Correction de l'ajout de joueur·euses sans identifiant _FFE_
 
 ## Version 2.7.9 - 18 juin 2025
 - Correction de la duplication des tie-breaks des tournois
@@ -148,16 +148,16 @@ separator: true
 - Correction de la numérotation des échiquiers
 - Correction du rafraichissement des écrans de résultats
 - Restriction des caractères utilisables dans les identifiants des évènements
-- Correction de la mise à jour sur le site FFE depuis le script ChessEvent
+- Correction de la mise à jour sur le site _FFE_ depuis le script _ChessEvent_
 
 ## Version 2.7.7 - 10 juin 2025
 - Correction d'un bug à la création des joueur·euses
-- Correction de la recherche FFE en ligne
+- Correction de la recherche _FFE_ en ligne
 - Amélioration de la gestion des exceptions
 - Correction d'un bug à la création des joueur·euses
-- Correction de la recherche FFE en ligne
-- Correction de la recherche des joueur·euses FFE par leur identifiant FIDE
-- Correction de l'ajout de joueur·euses FIDE non présent·es dans la base FFE
+- Correction de la recherche _FFE_ en ligne
+- Correction de la recherche des joueur·euses _FFE_ par leur identifiant _FIDE_
+- Correction de l'ajout de joueur·euses _FIDE_ non présent·es dans la base _FFE_
 - Prise en compte du numéro du premier échiquier des tournois
 
 ## Version 2.7.6 - 8 juin 2025
@@ -165,19 +165,19 @@ separator: true
 - Correction d'un bug sur l'édition des évènements
 
 ## Version 2.7.5 - 6 juin 2025
-- Correction de la mise à jour des classements des joueur·euses depuis la base de joueur·euses FFE
-- Utilisation de la base de données du serveur fédéral lors de la création des joueur·euses à partir de la base FIDE
+- Correction de la mise à jour des classements des joueur·euses depuis la base de joueur·euses _FFE_
+- Utilisation de la base de données du serveur fédéral lors de la création des joueur·euses à partir de la base _FIDE_
 - Correction des couleurs du modal de mise à jour des joueur·euses
 - Correction de l'entrée de résultats au clavier sur des échiquiers fixes
 - Suppression du modal de configuration de l'appariement lorsque non opportun
 
 ## Version 2.7.4 - 3 juin 2025
-- Correction du test des identifiants FFE lors de l'édition des tournois
-- Correction du type de classement Estimé/National des joueur·euses importé·es depuis ChessEvent
+- Correction du test des identifiants _FFE_ lors de l'édition des tournois
+- Correction du type de classement Estimé/National des joueur·euses importé·es depuis _ChessEvent_
 
 ## Version 2.7.3 - 2 juin 2025
-- Correction de l'affichage des joueur·euses non-FIDE lors de la mise à jour depuis les bases de données FIDE et FFE
-- Correction d'un bug de mise en ligne des résultats sur le site FFE
+- Correction de l'affichage des joueur·euses non-_FIDE_ lors de la mise à jour depuis les bases de données _FIDE_ et _FFE_
+- Correction d'un bug de mise en ligne des résultats sur le site _FFE_
 
 ## Version 2.7.2 - 1er juin 2025
 - Suppression d'un avertissement au lancement du programme
@@ -185,20 +185,20 @@ separator: true
 
 ## Version 2.7.1 - 31 mai 2025
 - Interdiction de l'accès aux pages d'arbitrage pour les clients non autorisés
-- Normalisation des noms des joueur·euses ChessEvent
+- Normalisation des noms des joueur·euses _ChessEvent_
 - Correction et ajout de champs dans l'export des joueur·euses au format ODS
 - Diminution des temps de réaction lors de la saisie des résultats sur l'onglet Appariements
 - Correction d'un bug sur les familles d'écran sans joueur·euse
 
 ## :point_right: Version 2.7.0 - 28 mai 2025
-- Intégration des opérations sur le site FFE sur l'interface web
+- Intégration des opérations sur le site _FFE_ sur l'interface web
 - Suppression du script `ffe.bat`
 - Ajout de notifications instantanées dans les onglets Joueur·euses et Appariements lors de nouveaux pointages ou résultats
 - Optimisation du temps de chargement de la page des évènements
 - Ajout de la tombola
 - Ajout des exports PGN et TRF 16
 - Alignement du calcul de performance avec celui de Papi en cas de joueur·euses avec demi-point joker
-- Correction des dates de naissance ChessEvent antérieures au 01/01/1970
+- Correction des dates de naissance _ChessEvent_ antérieures au 01/01/1970
 
 ## Version 2.6.4 - 25 mai 2025
 - Correction d'un bug sur la mise à jour des tables fixes des joueur·euses
@@ -210,12 +210,12 @@ separator: true
 
 ## Version 2.6.2 - 17 mai 2025
 - Ajout de l'impression des tables de Berger
-- Correction d'un bug de saisie sur le mot de passe FFE
-- Correction de bugs d'import des tournois depuis ChessEvent
+- Correction d'un bug de saisie sur le mot de passe _FFE_
+- Correction de bugs d'import des tournois depuis _ChessEvent_
 
 ## Version 2.6.1 - 14 mai 2025
 - Correction d'un bug d'affichage des familles d'écrans
-- Correction d'un bug d'import des tournois depuis ChessEvent
+- Correction d'un bug d'import des tournois depuis _ChessEvent_
 
 ## :point_right: Version 2.6.0 - 13 mai 2025
 - Amélioration significative des performances
@@ -237,7 +237,7 @@ separator: true
 - Correction d'un bug de configuration de l'application
 
 ## Version 2.5.9 - 9 mai 2025
-- Correction d'un bug sur les titres et les types de classement des joueur·euses importé·es de ChessEvent
+- Correction d'un bug sur les titres et les types de classement des joueur·euses importé·es de _ChessEvent_
 
 ## Version 2.5.8 - 30 avril 2025
 - Correction d'un bug de récupération des droits d'inscriptions
@@ -259,11 +259,11 @@ separator: true
 - Récupération de la configuration de l'application depuis une version antérieure
 - Modification de l'encodage des fichiers de log
 - Correction d'un bug d'affichage des rondes sur les écrans d'appariements
-- Correction d'un bug d'initialisation des joueur·euses depuis ChessEvent
+- Correction d'un bug d'initialisation des joueur·euses depuis _ChessEvent_
 
 ## Version 2.5.2 - 8 avril 2025
 - Correction d'un bug à la récupération des versions antérieures
-- Correction d'un bug de connexion au serveur SQL de la FFE
+- Correction d'un bug de connexion au serveur SQL de la _FFE_
 - Correction du script `bin/ffe.bat`
 - Correction de l'absence de traductions dans les scripts `bin/ffe.bat` et `bin/chessevent.bat`
 
@@ -274,10 +274,10 @@ separator: true
 - Passage en multilingue français/anglais
 - Refonte complète de l'interface web
 - Ajout/suppression/modification des joueur·euses, changements de tournoi
-- Import et mise à jour des joueur·euses depuis les bases FIDE et FFE
+- Import et mise à jour des joueur·euses depuis les bases _FIDE_ et _FFE_
 - Gestion des présences/absences et des points joker
 - Gestion complète du pointage (ouverture, pointage, fermeture)
-- Suppression de l'onglet « ChessEvent » (configuration des connexions désormais au niveau des événements et tournois)
+- Suppression de l'onglet « _ChessEvent_ » (configuration des connexions désormais au niveau des événements et tournois)
 - Ajout d'une fédération sur les événements
 - Support de la méthode HEAD pour les afficheurs dynamiques
 - Suppression du fichier `papi_web.ini` et configuration de l'application via l'interface web
@@ -287,14 +287,14 @@ separator: true
 - Réduction du temps de démarrage de l'application
 - Ajout de la possibilité de modifier la taille des polices sur les écrans d'affichage
 - Correction du calcul des points virtuels en Système Accéléré Dégressif
-- Correction d'un bug de mise en ligne des tournois sur le site FFE
+- Correction d'un bug de mise en ligne des tournois sur le site _FFE_
 - Correction d'un bug sur la duplication des écrans, familles et tournois
 - Correction d'un bug empêchant l'affichage et la modification des écrans lorsque le numéro du premier échiquier est supérieur au nombre d'échiquiers
 - Amélioration des logs et archivage sur disque
 
 ## Version 2.4.18 - 23 décembre 2024
 - Ajout des écrans par défaut à la création d'un tournoi
-- Correction d'un bug dans la gestion des connexions à ChessEvent
+- Correction d'un bug dans la gestion des connexions à _ChessEvent_
 - Amélioration de l'ergonomie des écrans d'arbitrage
 
 ## Version 2.4.17 - 15 décembre 2024
@@ -395,7 +395,7 @@ separator: true
 - Affichage des joueur·euses par ordre alphabétique avant appariement
 - Ajout du pointage sur les écrans de saisie
 - Ajout de la [Foire aux Questions]({% link dev/faq.fr.md %})
-- Correction d'un problème d'affichage du classement et de la grille américaine sur le site fédéral pour les fichiers _Papi_ générés depuis ChessEvent
+- Correction d'un problème d'affichage du classement et de la grille américaine sur le site fédéral pour les fichiers _Papi_ générés depuis _ChessEvent_
 - Correction d'un problème de couleurs sur les appariements par ordre alphabétique
 - Interdiction du caractère `/` dans les identifiants des écrans et des tournois
 
@@ -406,7 +406,7 @@ separator: true
 - Allègement du moteur web (remplacement de _Django_ par _Litestar_) (#24)
 - Affichage du pointage des joueur·euses
 - Enregistrement des coups illégaux (option `record_illegal_moves`)
-- Mise à jour de l'URL de ChessEvent suite à son déménagement
+- Mise à jour de l'URL de _ChessEvent_ suite à son déménagement
 
 ## Version 2.1.8 - 16 février 2024
 - Suppression du pooling ODBC
@@ -418,26 +418,26 @@ separator: true
 - Affichage des pilotes ODBC sur la page d'accueil
 
 ## Version 2.1.5 - 24 janvier 2024
-- Simplification de la configuration des événements :
-  - Pour un modèle : suppression de l'obligation de préciser la rubrique `[template.<template_id>.boards]`/`[template.<template_id>.players]` quand l'événement n'a qu'un seul tournoi
-  - Pour une famille : utilisation par défaut du modèle portant le même nom
-  - Pour un écran rotatif : utilisation par défaut de la famille portant le même nom
+- Simplification de la configuration des événements :
+  - Pour un modèle : suppression de l'obligation de préciser la rubrique `[template.<template_id>.boards]`/`[template.<template_id>.players]` quand l'événement n'a qu'un seul tournoi
+  - Pour une famille : utilisation par défaut du modèle portant le même nom
+  - Pour un écran rotatif : utilisation par défaut de la famille portant le même nom
 
 ## Version 2.1.4 - 23 janvier 2024
 - Ajout de l'option `show_unpaired` pour limiter l'affichage des appariements par ordre alphabétique aux joueur·euses apparié·es
 
 ## Version 2.1.3 - 22 janvier 2024
-- Mise en forfait général des joueur·euses non pointé·es dans ChessEvent dans les fichiers _Papi_
+- Mise en forfait général des joueur·euses non pointé·es dans _ChessEvent_ dans les fichiers _Papi_
 
 ## Version 2.1.2 - 21 janvier 2024
-- Ajout du numéro d'homologation ChessEvent dans les fichiers _Papi_
+- Ajout du numéro d'homologation _ChessEvent_ dans les fichiers _Papi_
 
 ## Version 2.1.1 - 10 décembre 2023
 - Possibilité de fixer le nombre d'échiquiers ou de joueur·euses par écran
 - Possibilité de fonctionner en réseau local sans connexion Internet (intégration des bibliothèques CSS et JavaScript)
 
 ## :point_right: Version 2.1.0 - 9 décembre 2023
-- Création des fichiers _Papi_ des tournois depuis la plateforme d'inscription en ligne ChessEvent
+- Création des fichiers _Papi_ des tournois depuis la plateforme d'inscription en ligne _ChessEvent_
 - Suppression des données personnelles des joueur·euses avant téléchargement sur le site fédéral
 
 ## Version 2.0.3 - 19 novembre 2023
@@ -483,7 +483,7 @@ separator: true
 - Ajout du rafraîchissement automatique des écrans de saisie
 - Amélioration des temps de réponse
 - Simplification des URL des écrans
-- Téléchargement systématique des fichiers avant affichage sur le site FFE
+- Téléchargement systématique des fichiers avant affichage sur le site _FFE_
 
 ## Version 1.13 - 10 novembre 2018
 - Affichage des numéros d'échiquiers
@@ -496,9 +496,9 @@ separator: true
 - Support de l'accélération de Haley
 
 ## Version 1.10 - 26 octobre 2018
-- Possibilité de tester les codes d'accès au site FFE
-- Possibilité de rendre les données visibles sur le site FFE
-- Possibilité de télécharger les factures d'homologation depuis le site FFE
+- Possibilité de tester les codes d'accès au site _FFE_
+- Possibilité de rendre les données visibles sur le site _FFE_
+- Possibilité de télécharger les factures d'homologation depuis le site _FFE_
 - Renommage du script `upload.bat` en `ffe.bat`
 
 ## Version 1.9 - 23 octobre 2018
@@ -526,6 +526,6 @@ separator: true
 
 # Politique de numérotation des versions (`x.y.z`)
 
-- `x` : numéro majeur (changements complets du logiciel)
-- `y` : numéro mineur (modifications de configuration et évolutions fonctionnelles)
-- `z` : numéro de correctif (modifications du code)
+- `x` : numéro majeur (changements complets du logiciel)
+- `y` : numéro mineur (modifications de configuration et évolutions fonctionnelles)
+- `z` : numéro de correctif (modifications du code)

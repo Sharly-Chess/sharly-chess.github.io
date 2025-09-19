@@ -9,11 +9,11 @@ separator: true
 
 # Changelog
 
-## Version 3.1.0 - September 22, 2025
+## :point_right: Version 3.1.0 - September 22, 2025
 
 - Delegation by access level for clients connected to the server
 - Improved the server console
-- Import ChessEvent tournament from the web interface
+- Import _ChessEvent_ tournament from the web interface
 - Rotator screens reordering
 - Support for servers with multiple IP addresses
 - Import tournaments from TRF
@@ -25,7 +25,7 @@ separator: true
 
 ## Version 3.0.7 - September 16, 2025
 - Fixed the tombola
-- Increased the timeout of FFE online searches
+- Increased the timeout of _FFE_ online searches
 
 ## Version 3.0.6 - September 13, 2025
 - Fixed a bug preventing results upload
@@ -45,17 +45,17 @@ separator: true
 
 ## Version 3.0.2 - September 5, 2025
 - Fixed player search on the Pairings tab
-- Accents handling for local FFE database search
+- Accents handling for local _FFE_ database search
 - Fixed Papi tournament import
 - Fixed export buttons exporting the wrong tournament
 - Fixed printing of pairings in alphabetical order
 
 ## Version 3.0.1 - September 2nd, 2025
 - Fixed previous versions recovering
-- Fixed FFE upload after ChessEvent update
+- Fixed _FFE_ upload after _ChessEvent_ update
 - Fixed the display of timers on rotators and display controllers
 
-## Version 3.0.0 - September 1st, 2025
+## :point_right: Version 3.0.0 - September 1st, 2025
 - Remove Papi Access storage
 - Create tournaments from Papi files
 - Export tournaments to Papi format
@@ -73,24 +73,24 @@ separator: true
 - Added a manual tie-break option
 - Added tie-breaks not compatible with Papi (experimental)
 - Interactive time control editor
-- Added FIDE titles on prize assignments printing
+- Added _FIDE_ titles on prize assignments printing
 - Restoring of archived events
 - Entry of unrated and penalty results
 - Removed the 10-character limit on players' phone numbers
 - Hide unique IDs
 
 ## Version 2.8.9 - August 17, 2025
-- Fixed import of players with FIDE Candidate titles from the FFE online server
+- Fixed import of players with _FIDE_ Candidate titles from the _FFE_ online server
 
 ## Version 2.8.8 - August 12, 2025
-- Fixed errors related to activating the ChessEvent plugin
+- Fixed errors related to activating the _ChessEvent_ plugin
 
 ## Version 2.8.7 - August 10, 2025
 - Fixed a previous pairings duplication error in case of a BbpPairings error
 
 ## Version 2.8.6 - August 6, 2025
 - Added alphabetical pairings print document
-- Fixed invalid FIDE IDs in Papi files
+- Fixed invalid _FIDE_ IDs in Papi files
 - Fixed the display of exit button on input screens
 - Fixed the names of the default screens
 - Added a button to create events from the Archives page
@@ -105,18 +105,18 @@ separator: true
 - Fixed tournament editing form
 - Fixed PGN export players' title
 - Papi compatibility for using tie-break Performance for round-robin tournaments
-- Omit FFE/ChessEvent credentials when duplicating tournaments
+- Omit _FFE_/_ChessEvent_ credentials when duplicating tournaments
 - Improved player filtering on players' name and club
 
 ## Version 2.8.2 - July 9, 2025
-- Fixed the manual results upload to the FFE website
+- Fixed the manual results upload to the _FFE_ website
 - Fixed deletion of results
 
 ## Version 2.8.1 - July 8, 2025
 - Fixed navigation between rounds on the Pairings tab
 - Reload static resources after upgrading
 
-## Version 2.8.0 - July 7, 2025
+## :point_right: Version 2.8.0 - July 7, 2025
 - Official support for the internal pairing engine
 - Complementary pairings generation
 - Unsafe operations execution when switching to unsafe mode
@@ -137,7 +137,7 @@ separator: true
 - Added the possibility not to show the opponents on pairings screens by alphabetical order
 
 ## Version 2.7.10 - July 1, 2025
-- Fixed the creation of players with no FFE ID
+- Fixed the creation of players with no _FFE_ ID
 
 ## Version 2.7.9 - June 18, 2025
 - Fixed the duplication of tournament tie-breaks
@@ -149,16 +149,16 @@ separator: true
 - Fixed the board numbering
 - Fixed the refresh of results screens
 - Restrained the characters that can be used in event IDs
-- Fixed the upload to the FFE website from the ChessEvent script
+- Fixed the upload to the _FFE_ website from the _ChessEvent_ script
 
 ## Version 2.7.7 - June 10, 2025
 - Fixed a bug on player creation
-- Fixed FFE online search
+- Fixed _FFE_ online search
 - Improved exception handling
 - Fixed a bug on player creation
-- Fixed FFE online search
-- Fixed searching FFE players by their FIDE ID
-- Fixed adding FIDE players when not present in the FFE database
+- Fixed _FFE_ online search
+- Fixed searching _FFE_ players by their _FIDE_ ID
+- Fixed adding _FIDE_ players when not present in the _FFE_ database
 - Take into account the number of the first board of the tournaments
 
 ## Version 2.7.6 - June 8, 2025
@@ -167,18 +167,18 @@ separator: true
 
 ## Version 2.7.5 - June 6, 2025
 - Update players when rating types differ in data sources
-- Request the FFE SQL server when augmenting players created from the FIDE database
+- Request the _FFE_ SQL server when augmenting players created from the _FIDE_ database
 - Fixed the colors of the players update modal
 - Fixed entering results with keyboard shortcuts on fixed boards
 - Removed pairing settings modal when not accurate
 
 ## Version 2.7.4 - June 3, 2025
-- Fixed FFE auth test on the tournament editing form
-- Fixed the ChessEvent players' Estimated/National rating type
+- Fixed _FFE_ auth test on the tournament editing form
+- Fixed the _ChessEvent_ players' Estimated/National rating type
 
 ## Version 2.7.3 - June 2, 2025
-- Fixed the display of non-FIDE players when updating the players from FFE or FIDE databases
-- Fixed a bug on FFE results upload
+- Fixed the display of non-_FIDE_ players when updating the players from _FFE_ or _FIDE_ databases
+- Fixed a bug on _FFE_ results upload
 
 ## Version 2.7.2 - June 1st, 2025
 - Removed a warning at server startup
@@ -186,20 +186,20 @@ separator: true
 
 ## Version 2.7.1 - May 31, 2025
 - Forbid access to arbiters' pages for unauthorized clients
-- Normalized ChessEvent players' names
+- Normalized _ChessEvent_ players' names
 - Fixed and added columns to the players ODS export
 - Reduced reaction times when entering results on the Pairings tab
 - Fixed a bug caused by screen families with zero items
 
 ## :point_right: Version 2.7.0 - May 28, 2025
-- Integration of the FFE operations to the web UI
+- Integration of the _FFE_ operations to the web UI
 - Removal of script `ffe.bat`
 - Instant notifications on Players and Pairings tabs for new checkins or results from user screens
 - Optimized the load time of the events page
 - Added the lottery
 - Added PGN and TRF 16 exports
 - Alignment of performance calculation with Papi’s in the case of players with a full-point or half-point bye
-- Fixed ChessEvent birth dates prior to 1970-01-01
+- Fixed _ChessEvent_ birth dates prior to 1970-01-01
 
 ## Version 2.6.4 - May 25, 2025
 - Fixed a bug on updating the fixed tables of players
@@ -211,12 +211,12 @@ separator: true
 
 ## Version 2.6.2 - May 17, 2025
 - Added the Berger grid print view
-- Fixed a bug on FFE password input
-- Fixed a bug on tournament import from ChessEvent
+- Fixed a bug on _FFE_ password input
+- Fixed a bug on tournament import from _ChessEvent_
 
 ## Version 2.6.1 - May 14, 2025
 - Fixed a bug on the display of screen families
-- Fixed a bug on tournament import from ChessEvent
+- Fixed a bug on tournament import from _ChessEvent_
 
 ## :point_right: Version 2.6.0 - May 13, 2025
 - Significantly improved performance
@@ -238,7 +238,7 @@ separator: true
 - Fixed a bug on the application settings
 
 ## Version 2.5.9 - May 9, 2025
-- Fixed a bug on the titles and rating types of the players imported from ChessEvent
+- Fixed a bug on the titles and rating types of the players imported from _ChessEvent_
 
 ## Version 2.5.8 - April 30, 2025
 - Fixed a bug in retrieving registration fees
@@ -260,11 +260,11 @@ separator: true
 - Recovered the application configuration from a previous version
 - Changed the encoding of log files
 - Fixed a bug displaying rounds on pairing screens
-- Fixed a bug initializing players from ChessEvent
+- Fixed a bug initializing players from _ChessEvent_
 
 ## Version 2.5.2 - April 8, 2025
 - Fixed a bug recovering previous versions
-- Fixed a bug connecting to the FFE SQL Server
+- Fixed a bug connecting to the _FFE_ SQL Server
 - Fixed the `bin/ffe.bat` script
 - Fixed missing translations in `bin/ffe.bat` and `bin/chessevent.bat` scripts
 
@@ -275,10 +275,10 @@ separator: true
 - Switched to multilingual (English and French)
 - Complete redesign of the web interface
 - Add/edit/remove players, tournament changes
-- Import and update players from the FIDE and FFE databases
+- Import and update players from the _FIDE_ and _FFE_ databases
 - Manage attendances/absences and joker points
 - Full check-in management (open, check-in, close)
-- Removed the "ChessEvent" tab (connection configuration is now at the event and tournament level)
+- Removed the "_ChessEvent_" tab (connection configuration is now at the event and tournament level)
 - Added a federation to events
 - Support for the HEAD method for dynamic displays
 - Removed `papi_web.ini` and web-configured the application
@@ -288,14 +288,14 @@ separator: true
 - Reduced application startup time
 - Added the ability to change font sizes on display screens
 - Fixed the calculation of virtual points in the Accelerated Swiss System
-- Fixed a bug uploading tournaments to the FFE website
+- Fixed a bug uploading tournaments to the _FFE_ website
 - Fixed a bug duplicating screens, families, and tournaments
 - Fixed a bug preventing screen display and editing when the first board number exceeds the number of boards
 - Improved logging and archiving to disk
 
 ## Version 2.4.18 - December 23, 2024
 - Added default screens when creating a tournament
-- Fixed a bug managing ChessEvent connections
+- Fixed a bug managing _ChessEvent_ connections
 - Improved ergonomics of arbitration screens
 
 ## Version 2.4.17 - December 15, 2024
@@ -392,7 +392,7 @@ separator: true
 - Displayed players alphabetically before pairing
 - Added check-in on entry screens
 - Added the [Frequently Asked Questions]({% link dev/faq.en.md %})
-- Fixed a bug displaying rankings and cross tables on the federal site for _Papi_ files generated by ChessEvent
+- Fixed a bug displaying rankings and cross tables on the federal site for _Papi_ files generated by _ChessEvent_
 - Fixed color display issues on alphabetical pairings
 - Disallowed the `/` character in screen and tournament IDs
 
@@ -403,7 +403,7 @@ separator: true
 - Lightened the web engine (replaced _Django_ with _Litestar_) (#24)
 - Displayed player check-in statuses
 - Recorded illegal moves (option `record_illegal_moves`)
-- Updated the ChessEvent URL following the platform move
+- Updated the _ChessEvent_ URL following the platform move
 
 ## Version 2.1.8 - February 16, 2024
 - Removed ODBC pooling
@@ -424,17 +424,17 @@ separator: true
 - Added the `show_unpaired` option to limit alphabetical pairing displays to paired players only
 
 ## Version 2.1.3 - January 22, 2024
-- Automatically forfeited players who were not checked-in on ChessEvent in _Papi_ files
+- Automatically forfeited players who were not checked-in on _ChessEvent_ in _Papi_ files
 
 ## Version 2.1.2 - January 21, 2024
-- Added ChessEvent approval number to _Papi_ files
+- Added _ChessEvent_ approval number to _Papi_ files
 
 ## Version 2.1.1 - December 10, 2023
 - Ability to set the number of boards or players per screen
 - Ability to work fully offline on a local network (embedded CSS and JavaScript libraries)
 
 ## :point_right: Version 2.1.0 - December 9, 2023
-- Created _Papi_ files for tournaments based on ChessEvent online registrations
+- Created _Papi_ files for tournaments based on _ChessEvent_ online registrations
 - Removed players’ personal data before uploading to the federal site
 
 ## Version 2.0.3 - November 19, 2023
@@ -480,7 +480,7 @@ separator: true
 - Added automatic refresh to entry screens
 - Improved response times
 - Simplified screen URLs
-- Always downloaded files before displaying them on the FFE website
+- Always downloaded files before displaying them on the _FFE_ website
 
 ## Version 1.13 - November 10, 2018
 - Displayed board numbers
@@ -493,9 +493,9 @@ separator: true
 - Support for Haley acceleration
 
 ## Version 1.10 - October 26, 2018
-- Ability to test access codes for the FFE website
-- Ability to make data visible on the FFE website
-- Ability to download tournament approval invoices from the FFE website
+- Ability to test access codes for the _FFE_ website
+- Ability to make data visible on the _FFE_ website
+- Ability to download tournament approval invoices from the _FFE_ website
 - Renamed script `upload.bat` to `ffe.bat`
 
 ## Version 1.9 - October 23, 2018

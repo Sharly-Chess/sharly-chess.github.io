@@ -11,7 +11,7 @@ nav_order: 371
 
 Vous pouvez créer des comptes pour d’autres arbitres ou membres du staff afin qu’ils puissent accéder au serveur _Sharly Chess_ depuis un autre appareil.
 
-Les comptes sont gérés via l’onglet **Staff**. Pour créer un compte, vous devez préciser :
+Les comptes sont gérés via l’onglet **Staff**. Pour créer un compte, vous devez préciser :
 
 - un nom de famille (obligatoire) et un prénom (facultatif)
 - un mot de passe
@@ -32,4 +32,4 @@ Les niveaux d'accès de _Sharly Chess_ sont organisés de manière hiérarchique
 - 🟡 Pour bénéficier de niveaux d'accès plus élevés, les appareils du réseau doivent être authentifiés en se connectant avec un compte.
 - 🔴 Le niveau d'accès _Administration_ (de l'application) est réservé au serveur _Sharly Chess_.
 
-:point_right: [Voir les permissions de chaque niveau d'accès]({% link docs/network/permissions.fr.md %})
+:point_right: [Voir les actions autorisées de chaque niveau d'accès]({% link docs/network/access-levels.fr.md %})

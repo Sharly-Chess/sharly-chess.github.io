@@ -1,6 +1,6 @@
 <!-- Ne pas éditer ce tableau manuellement, utiliser plutôt le script generate_access_levels_doc.py. -->
 
-| Permissions / Niveaux d'accès                      | 🔴<br/>ADM | 🟡<br/>ORG | 🟡<br/>ÉCR | 🟡<br/>ARB | 🟡<br/>ADJ | 🟡<br/>APP | 🟡<br/>SEC | 🟢<br/>POI | 🟢<br/>RÉS | 🟢<br/>SPE | - |
+| Actions / Niveaux d'accès                          | 🔴<br/>ADM | 🟡<br/>ORG | 🟡<br/>ÉCR | 🟡<br/>ARB | 🟡<br/>ADJ | 🟡<br/>APP | 🟡<br/>SEC | 🟢<br/>POI | 🟢<br/>RÉS | 🟢<br/>SPE | - |
 |:---------------------------------------------------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:-:|
 | **Application**                                    |           |           |           |           |           |           |           |           |           |           |   |
 | Gestion des paramètres de l'application            |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
@@ -76,4 +76,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2025-09-17 21:28) -->
+<!-- Généré par le script generate_access_levels_doc.py (2025-09-19 15:51) -->

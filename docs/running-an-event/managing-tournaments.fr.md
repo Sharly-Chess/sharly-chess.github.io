@@ -37,5 +37,5 @@ Une fois un tournoi créé, il s’affiche dans l'onglet **Tournois**. Chaque to
 
 - Modifier les champs définis lors de la création
 - Télécharger les données du tournoi dans différents formats (y compris TRF)
-- Mettre à jour les données des joueur·euses à partir des dernières bases FIDE ou fédérales locales
+- Mettre à jour les données des joueur·euses à partir des dernières bases _FIDE_ ou fédérales locales
 - Dupliquer ou supprimer le tournoi

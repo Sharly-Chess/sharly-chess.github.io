@@ -6,33 +6,33 @@ page_id: about-us
 nav_order: 2200
 ---
 
-# L'association Sharly Chess
+# L'association _Sharly Chess_
 
 ## Objet
 
-Sharly Chess est une association « Loi 1901 » dont l'objet est de faciliter le développement et promouvoir le logiciel du même nom, ensemble d’outils informatiques permettant la gestion de tournois d’échecs à destination des organisateur·ices et des arbitres.
+Sharly Chess est une association « Loi 1901 » dont l'objet est de faciliter le développement et promouvoir le logiciel du même nom, ensemble d’outils informatiques permettant la gestion de tournois d’échecs à destination des organisateur·ices et des arbitres.
 
-La gouvernance du projet Sharly Chess (stratégie, orientation, priorisation, politique de diffusion, …) est collégiale et réalisée par l'association Sharly Chess.
+La gouvernance du projet _Sharly Chess_ (stratégie, orientation, priorisation, politique de diffusion, …) est collégiale et réalisée par l'association _Sharly Chess_.
 
 Voir les [statuts de l'association](/assets/docs/sharly-chess-statuts-20250317-s.pdf).
 
 ## Composition
 
-Les membres de l'association sont :
+Les membres de l'association sont :
 
 * Timothy ARMES
 * Pascal AUBRY
 * Youri AUBRY
 * Sammy PLAT
 
-Le bureau de l'association est :
+Le bureau de l'association est :
 
-* **Président** : Pascal AUBRY
-* **Trésorier** : Sammy PLAT
-* **Secrétaire** : Timothy ARMES
+* **Président** : Pascal AUBRY
+* **Trésorier** : Sammy PLAT
+* **Secrétaire** : Timothy ARMES
 
 ## Immatriculation
 
-- D-U-N-S® : 285044204
-- RNA : W353025006 (Registre National des Associations)
-- SIRET : 990333148 00015 (Système d'identification du répertoire des établissements)
+- D-U-N-S® : 285044204
+- RNA : W353025006 (Registre National des Associations)
+- SIRET : 990333148 00015 (Système d'identification du répertoire des établissements)

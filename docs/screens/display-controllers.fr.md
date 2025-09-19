@@ -26,12 +26,12 @@ Il vous sera demandé de choisir un identifiant unique ainsi qu’un nom — ce 
 
 ## Choisir un écran à afficher
 
-Une fois le pilote créé, vous pouvez lui attribuer un écran de deux manières :
+Une fois le pilote créé, vous pouvez lui attribuer un écran de deux manières :
 
-- Depuis les menus **Écrans → Écrans simples** ou **Écrans → Écrans rotatifs** :
+- Depuis les menus **Écrans → Écrans simples** ou **Écrans → Écrans rotatifs** :
   Trouvez l’écran (ou l’écran rotatif) à afficher, cliquez sur **Attribuer à un pilote**, et sélectionnez le pilote que vous souhaitez mettre à jour.
 
-- Depuis la page **Pilotes d’afficheurs** :
+- Depuis la page **Pilotes d’afficheurs** :
   Trouvez le pilote que vous souhaitez mettre à jour, cliquez sur **Attribuer un écran**, et choisissez l’écran ou l’écran rotatif à afficher.
 
 {: .note }
@@ -42,7 +42,7 @@ Une fois le pilote créé, vous pouvez lui attribuer un écran de deux manières
 
 ## Configuration de l’afficheur
 
-Depuis l'afficheur que vous souhaitez contrôler (un navigateur sur un client, ou un autre onglet de votre navigateur) :
+Depuis l'afficheur que vous souhaitez contrôler (un navigateur sur un client, ou un autre onglet de votre navigateur) :
 
 1. Accédez à l’interface publique de l’événement ;
 2. Cliquez sur le menu **Écrans → Pilotes d’afficheurs** ;

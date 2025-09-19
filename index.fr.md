@@ -38,7 +38,7 @@ _Sharly Chess_ est conçu autour des besoins des arbitres de tournois, pour vous
   </div>
   <div class="feature-box">
     <strong>Appariements</strong>
-    Automatisés, respectant les règles de la FIDE, et faciles à ajuster à la volée.
+    Automatisés, respectant les règles de la _FIDE_, et faciles à ajuster à la volée.
   </div>
   <div class="feature-box">
     <strong>Classements en direct</strong>
@@ -82,5 +82,5 @@ Les joueur·euses trouvent facilement leurs appariements et peuvent saisir leurs
 {% endcontentfor %}
 
 {% contentfor footer %}
-&copy; Projet Sharly Chess 2013-2025. Développé avec passion par des passionnés d’échecs.
+&copy; Projet _Sharly Chess_ 2013-2025. Développé avec passion par des passionnés d’échecs.
 {% endcontentfor %}

@@ -22,7 +22,7 @@ Here’s a brief overview of the available document types:
 
 ## List of Players
 
-In FIDE tournaments, it is mandatory to display a full list of players. This document includes each player’s name, rating, age category, gender, federation, and club.
+In _FIDE_ tournaments, it is mandatory to display a full list of players. This document includes each player’s name, rating, age category, gender, federation, and club.
 
 ---
 
@@ -30,7 +30,7 @@ In FIDE tournaments, it is mandatory to display a full list of players. This doc
 
 Sharly Chess offers several ways to check players in before the start of a tournament. Arbiters can:
 
-- Manually check players in using the Sharly Chess interface
+- Manually check players in using the _Sharly Chess_ interface
 - Allow players to check themselves in via a [Screen]({% link docs/screens/single-screens.en.md %}) using a tablet or computer
 
 Alternatively, you can opt for a more traditional approach with a printed check-in list. It includes:
@@ -81,8 +81,8 @@ The score reflects how well a player performed **relative to their own rating**,
 This system can be useful for awarding per-round prizes or for any other creative ideas that organisers may have.
 
 {: .note }
-> :information_source: This isn’t exactly the same as the official rating change a player would see in a FIDE-rated tournament.
-> FIDE caps the rating difference at 400 points, uses different K-factors for younger players and newcomers,
+> :information_source: This isn’t exactly the same as the official rating change a player would see in a _FIDE_-rated tournament.
+> _FIDE_ caps the rating difference at 400 points, uses different K-factors for younger players and newcomers,
 > rounds results to whole numbers, and does not calculate rating changes for unrated players.
 > For this listing, we apply the same simplified system to all players in order to allow fair comparison across the board.
 
@@ -90,7 +90,7 @@ This system can be useful for awarding per-round prizes or for any other creativ
 
 ## Prize List
 
-Prints the list of prizes defined for the tournament. According to FIDE regulations, this list must be displayed no later than halfway through the event.
+Prints the list of prizes defined for the tournament. According to _FIDE_ regulations, this list must be displayed no later than halfway through the event.
 
 ---
 

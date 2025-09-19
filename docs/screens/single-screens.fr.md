@@ -14,7 +14,7 @@ Pour créer un écran, allez sur le menu **Écrans → Écrans simples** et cliq
 
 ## Créer un écran
 
-_Sharly Chess_ propose six types d’écrans parmi lesquels choisir :
+_Sharly Chess_ propose six types d’écrans parmi lesquels choisir :
 
 > <i class="bi-pencil" style="padding-right: 0.3rem"></i> **Saisie des résultats** – Permet aux joueur·euses de se pointer et de saisir leurs résultats depuis un appareil mis à leur disposition.<br />
 > <i class="bi-card-list" style="padding-right: 0.3rem"></i> **Appariements par échiquier** – Affiche les appariements d’un tournoi, triés par numéro d'échiquier'.<br />
@@ -39,7 +39,7 @@ C’est particulièrement utile si vous avez légèrement trop de joueur·euses 
 ### Message d’alerte
 
 Un message d’alerte défilant peut s’avérer très utile, surtout lorsqu’il est projeté sur grand écran.
-Par exemple : *« Les joueur·euses X et Y sont prié·es de saisir leurs résultats. »*
+Par exemple : *« Les joueur·euses X et Y sont prié·es de saisir leurs résultats. »*
 
 Ce message peut être défini au **niveau de l’événement**, ce qui signifie qu’il sera affiché sur tous les écrans liés à cet événement, mais vous pouvez aussi le personnaliser individuellement pour chaque écran.
 
@@ -50,17 +50,17 @@ Cela permet aux utilisateur·ices de passer facilement d’un écran à l’autr
 
 Pour définir les écrans à inclure dans le menu, indiquez leurs **identifiants** (définis lors de la création de chaque écran), séparés par des virgules.
 
-Vous pouvez également utiliser des valeurs spéciales pour inclure automatiquement certains types d’écrans :
+Vous pouvez également utiliser des valeurs spéciales pour inclure automatiquement certains types d’écrans :
 
 - **@boards** – Tous les écrans d’appariement par table
 - **@input** – Tous les écrans de saisie de résultats
 - **@players** – Tous les écrans d’appariement par joueur·euse
 - **@ranking** – Tous les écrans de classement
 
-Note : Vous n’êtes pas obligé·e d’ajouter un menu sur tous les écrans. Par exemple, cela n’a généralement pas de sens sur un écran projeté destiné uniquement à l’affichage.
+Note : Vous n’êtes pas obligé·e d’ajouter un menu sur tous les écrans. Par exemple, cela n’a généralement pas de sens sur un écran projeté destiné uniquement à l’affichage.
 
-{% figure [caption: "Exemple de l’écran « Appariements par échiquier » avec 4 éléments de menu"] %}
-![Exemple de l’écran « Appariements par échiquier » avec 4 éléments de menu](/assets/images/menus-3.jpg)
+{% figure [caption: "Exemple de l’écran « Appariements par échiquier » avec 4 éléments de menu"] %}
+![Exemple de l’écran « Appariements par échiquier » avec 4 éléments de menu](/assets/images/menus-3.jpg)
 {% endfigure %}
 
 ---
@@ -74,16 +74,16 @@ Vous pouvez y ajouter un ou plusieurs ensembles de tables — provenant d’un o
 
 Cela vous offre une grande souplesse pour organiser vos écrans selon vos besoins.
 
-Par exemple, si votre événement comprend **deux tournois distincts** et que vous disposez de **deux tablettes** pour la saisie des résultats :
+Par exemple, si votre événement comprend **deux tournois distincts** et que vous disposez de **deux tablettes** pour la saisie des résultats :
 
 - Vous pouvez configurer **chaque tablette** pour afficher les échiquiers des **deux tournois**, afin que les joueur·euses puissent faire défiler jusqu’à leur section pour saisir leur résultat.
 - Ou bien, vous pouvez attribuer **une tablette par tournoi**, pour que chacun·e utilise celle correspondant à sa section.
 
-Un autre cas fréquent : un événement avec **plusieurs petits tournois** (par exemple un championnat local avec des catégories d’âge distinctes).
+Un autre cas fréquent : un événement avec **plusieurs petits tournois** (par exemple un championnat local avec des catégories d’âge distinctes).
 Dans ce cas, vous pouvez configurer un **écran unique d’appariement** affichant **tous les échiquiers** de tous les tournois, parfait à projeter sur grand écran.
 
 Cette flexibilité vous permet d’adapter votre configuration à votre espace, à votre matériel et à la structure de votre événement.
 
-{% figure [caption: "Exemple de l’écran « Appariements par joueur·euse » avec 2 tournois et 2 colonnes"] %}
-![Exemple de l’écran « Appariements par joueur·euse » avec 2 tournois et 2 colonnes](/assets/images/players-screen-multi.jpg)
+{% figure [caption: "Exemple de l’écran « Appariements par joueur·euse » avec 2 tournois et 2 colonnes"] %}
+![Exemple de l’écran « Appariements par joueur·euse » avec 2 tournois et 2 colonnes](/assets/images/players-screen-multi.jpg)
 {% endfigure %}

@@ -6,7 +6,7 @@ page_id: history
 nav_order: 2050
 ---
 
-# How did Sharly Chess come about?
+# How did _Sharly Chess_ come about?
 
 _Sharly Chess_ began life as _Papi-web_, created by Pascal Aubry in 2013 as a companion to the tournament management software _[Papi](https://www.echecs.asso.fr/Actu.aspx?Ref=142877)_, the official arbitration tool of the _French Chess Federation_.
 

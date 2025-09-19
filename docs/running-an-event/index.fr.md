@@ -13,7 +13,7 @@ nav_order: 200
 Un **Événement** dans _Sharly Chess_ regroupe un ou plusieurs **Tournois** individuels — souvent organisés par tranches de classement, mais vous êtes libre d’organiser l’événement comme vous le souhaitez.
 
 Il est conseillé de créer l’événement bien en amont, et d’ajouter les joueur·euses au fur et à mesure des inscriptions.
-_Sharly Chess_ permet d’importer facilement des joueur·euses depuis la base FIDE, ou depuis d’autres sources selon les plugins activés.
+_Sharly Chess_ permet d’importer facilement des joueur·euses depuis la base _FIDE_, ou depuis d’autres sources selon les plugins activés.
 Une fois ajouté·es, les joueur·euses peuvent être déplacé·es d’un tournoi à un autre en quelques clics.
 
 Le jour de l’événement, vous pouvez utiliser _Sharly Chess_ pour pointer les joueur·euses à leur arrivée.
@@ -28,9 +28,9 @@ Cela fait gagner du temps à l’arbitre et limite les erreurs de saisie.
 
 Après chaque ronde, vous pouvez générer le classement ou la grille américaine, à afficher sur écran ou imprimer sur papier selon votre configuration.
 
-En fin de tournoi, _Sharly Chess_ permet de générer un fichier TRF des résultats — le format standard reconnu par la FIDE.
+En fin de tournoi, _Sharly Chess_ permet de générer un fichier TRF des résultats — le format standard reconnu par la _FIDE_.
 
 {: .note }
 
 > :information_source: Les plugins fédération peuvent offrir la possibilité de mettre à jour directement vers un site web approprié.
-> Par exemple, pour les tournois français, le plugin FFE peut automatiquement convertir votre tournoi en fichier Papi et et l’envoyer sur le site de la Fédération Française des Échecs.
+> Par exemple, pour les tournois français, le plugin _FFE_ peut automatiquement convertir votre tournoi en fichier Papi et et l’envoyer sur le site de la Fédération Française des Échecs.

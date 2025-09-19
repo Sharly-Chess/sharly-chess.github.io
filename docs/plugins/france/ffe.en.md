@@ -7,12 +7,12 @@ page_id: ffe-plugin
 nav_order: 400
 ---
 
-# The FFE Plugin
+# The _FFE_ Plugin
 
 The **FFE** plugin provides functionality that's useful for running tournaments associated with the **French Chess Federation** (the _**F**édération **F**rançaise des **É**checs_).
 
 {: .note }
-> :information_source: In the current version of _Sharly Chess_, the FFE plugin can't be deactivated. A more advanced method for handling federation plugins will be added in a future version.
+> :information_source: In the current version of _Sharly Chess_, the _FFE_ plugin can't be deactivated. A more advanced method for handling federation plugins will be added in a future version.
 
 Enabling the plugin adds a number of a features to _Sharly Chess_:
 
@@ -22,9 +22,9 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - Import and export of PAPI files.
 - Player search from the online database provided by the _FFE_.
 - Downloading and local search of the player database provided by the _FFE_.
-- Extra player information including the player's FFE number and license status, and their league.
-- Rating estimation for unrated players based on the FFE rules.
+- Extra player information including the player's _FFE_ number and license status, and their league.
+- Rating estimation for unrated players based on the _FFE_ rules.
 - Age categories are updated on 1 September (instead of 1 January). Calculation is still based on the player’s age as of 1 January of the current year.
-- Easy access to actions on the FFE website: submitting regulations, managing tournament visibility, and downloading fees.
-- FFE specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
+- Easy access to actions on the _FFE_ website: submitting regulations, managing tournament visibility, and downloading fees.
+- _FFE_ specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.

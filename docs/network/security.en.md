@@ -20,7 +20,7 @@ The more important the competition, the greater the risk.  It's very important t
 
 ## Secure your accounts
 
-* Give staff accounts only the permissions they need.
+* Give staff accounts only the access levels they need.
 * Use strong, unique passwords.
 
 ---
@@ -39,7 +39,7 @@ A **VPN** (Virtual Private Network) is a tool that makes your network connection
 It creates a private, encrypted “tunnel” between your devices so that nobody else on the same Wi-Fi can see or interfere with your data.
 By using a VPN, only devices you choose can connect securely to the server.
 
-Although our main reason for suggesting a VPN is **security on public networks**, it also has another advantage: devices will be able connect to Sharly Chess even when they are on **different networks** (for example, a phone on mobile data and a laptop on home Wi-Fi).
+Although our main reason for suggesting a VPN is **security on public networks**, it also has another advantage: devices will be able connect to _Sharly Chess_ even when they are on **different networks** (for example, a phone on mobile data and a laptop on home Wi-Fi).
 
 If you're interested in this, we highly recommend using _[Tailscale](https://tailscale.com/)_.
 _Tailscale_ makes creating a VPN as simple as possible. With a free account, you can connect up to 100 devices to the same private network.

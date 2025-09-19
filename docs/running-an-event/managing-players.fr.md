@@ -17,7 +17,7 @@ Vous pouvez trier et filtrer le tableau en utilisant les en-têtes de colonnes, 
 
 Les joueur·euses peuvent être ajouté·es en cliquant sur le bouton **Ajouter un·e joueur·euse**.
 
-Vous pouvez saisir les informations d’un·e joueur·euse manuellement, mais il est souvent plus rapide et plus fiable d’utiliser la **base FIDE** ou une base fédérale locale (disponible via un [plugin]({% link docs/plugins/index.fr.md %})) pour rechercher et importer les fiches existantes. 
+Vous pouvez saisir les informations d’un·e joueur·euse manuellement, mais il est souvent plus rapide et plus fiable d’utiliser la **base _FIDE_** ou une base fédérale locale (disponible via un [plugin]({% link docs/plugins/index.fr.md %})) pour rechercher et importer les fiches existantes. 
 Consultez la section [Bases de données joueur·euses]({% link docs/player-databases/index.fr.md %}) pour plus de détails sur l’installation et l’utilisation de ces bases.
 
 ## Changer de tournoi

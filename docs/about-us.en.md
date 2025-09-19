@@ -6,13 +6,13 @@ page_id: about-us
 nav_order: 2200
 ---
 
-# The Sharly Chess Association
+# The _Sharly Chess_ Association
 
 ## Purpose
 
 Sharly Chess is a non-profit organization under the French "Loi 1901", whose purpose is to facilitate the development and promotion of the software of the same name—a set of digital tools designed to help tournament organizers and arbiters manage chess tournaments.
 
-The governance of the Sharly Chess project (strategy, direction, prioritization, distribution policy, etc.) is collective and carried out by the Sharly Chess association.
+The governance of the _Sharly Chess_ project (strategy, direction, prioritization, distribution policy, etc.) is collective and carried out by the _Sharly Chess_ association.
 
 See the [association's bylaws](/assets/docs/sharly-chess-statuts-20250317-s.pdf) (in French)
 

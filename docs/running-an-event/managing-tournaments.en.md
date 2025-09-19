@@ -37,5 +37,5 @@ Once you've created a tournament it's displayed on the Tournaments page. Each to
 
 - The ability to edit the fields set during creation
 - The ability to download it in various formats (including TRF)
-- Updating the player information from the latest database versions provided by the FIDE or local federation
+- Updating the player information from the latest database versions provided by the _FIDE_ or local federation
 - Duplication and deletion

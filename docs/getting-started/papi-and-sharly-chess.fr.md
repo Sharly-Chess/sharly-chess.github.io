@@ -7,7 +7,7 @@ page_id: papi-and-sharly-chess
 nav_order: 100
 ---
 
-# Papi et Sharly Chess
+# _Papi_ et _Sharly Chess_
 
 ## La dépendance à _Papi_
 
@@ -24,8 +24,8 @@ _Sharly Chess_ intègre déjà toutes les fonctionnalités d’interface nécess
 
 Bientôt, la dépendance au fichier `.papi` sera complètement supprimée. _Sharly Chess_ pourra alors être utilisé partout, avec des fonctionnalités spécifiques à chaque fédération disponibles via un système de plugins.
 
-Une démarche est en cours pour demander à la FIDE d’officialiser _Sharly Chess_ comme logiciel reconnu pour les tournois FIDE.
+Une démarche est en cours pour demander à la _FIDE_ d’officialiser _Sharly Chess_ comme logiciel reconnu pour les tournois _FIDE_.
 
 {: .tip }
-> :point_right: Pour les arbitres en France : pas d’inquiétude ! Même lorsque _Sharly Chess_ ne générera plus directement de fichiers `.papi`, nous continuerons à prendre en charge les besoins spécifiques de la FFE. Grâce au système de plugins désormais intégré, notre **plugin FFE** pourra générer un fichier `.papi` parfaitement conforme pour l’envoi à la fédération.
+> :point_right: Pour les arbitres en France : pas d’inquiétude ! Même lorsque _Sharly Chess_ ne générera plus directement de fichiers `.papi`, nous continuerons à prendre en charge les besoins spécifiques de la _FFE_. Grâce au système de plugins désormais intégré, notre **plugin FFE** pourra générer un fichier `.papi` parfaitement conforme pour l’envoi à la fédération.
 Ò

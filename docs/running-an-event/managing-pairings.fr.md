@@ -22,7 +22,7 @@ Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
 
 ## Appariement automatique
 
-Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
+Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
 
 ---
 
@@ -45,7 +45,7 @@ Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·
 > :information_source: Selon les paramètres du tournoi, il se peut que vous ne puissiez pas attribuer un demi-point joker si le·la joueur·euse a déjà atteint la limite autorisée, ou si le tournoi est dans ses dernières rondes.
 
 {: .note }
-> :information_source: Les byes à 1 point sont déconseillés par la FIDE et ne peuvent pas être attribués depuis l’onglet d’appariement.
+> :information_source: Les byes à 1 point sont déconseillés par la _FIDE_ et ne peuvent pas être attribués depuis l’onglet d’appariement.
 > Si nécessaire, vous pouvez encore les ajouter depuis l'onglet **Joueur·euses** via l'historique du·de la joueur·euse.
 
 ---

@@ -7,7 +7,7 @@ page_id: chessevent-plugin
 nav_order: 500
 ---
 
-# The ChessEvent Plugin
+# The _ChessEvent_ Plugin
 
 The **ChessEvent** plugin allows you to interface with the _ChessEvent_ registration platform operated by the Brittany Chess League.
 Activating this plugin allows you to import tournament registrations from the _ChessEvent_ platform.
@@ -22,8 +22,8 @@ To retrieve tournament registrations from the _ChessEvent_ platform, you must sp
 
 ## Exemple
 
-{% figure [caption: "Example event on the ChessEvent platform"] %}
-![Example event on the ChessEvent platform](/assets/images/chessevent/chessevent-example.jpg)
+{% figure [caption: "Example event on the _ChessEvent_ platform"] %}
+![Example event on the _ChessEvent_ platform](/assets/images/chessevent/chessevent-example.jpg)
 {% endfigure %}
 
 For this tournament the _ChessEvent_ ID is in the page URL (here `BRE_35_Bretagnejeunes2025`);
@@ -36,4 +36,4 @@ This will create a new tournament with the players from the _ChessEvent_ platfor
 To fetch the latest players for a tournament that you've already imported, you can use the _Import_ option from the _Actions_ menu on the tournament's card.
 
 {: .warning }
-> :warning: Reimporting a tournament will delete all existing players and replace them with the new list.
+> :warning: Reimporting a tournament will delete all existing players and replace them with the new list.

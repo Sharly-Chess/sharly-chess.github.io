@@ -17,7 +17,7 @@ Les **Écrans simples** et les **Familles d’écrans** prennent en charge l’a
 
 Pour créer un nouveau chronomètre, rendez-vous sur la page **Chronomètres** et cliquez sur le bouton **Créer un chronomètre**.
 
-Chaque chronomètre comporte **trois phases**, chacune associée à une durée et à une couleur :
+Chaque chronomètre comporte **trois phases**, chacune associée à une durée et à une couleur :
 
 - **Couleur #1** (verte par défaut) est affichée jusqu’à atteindre le premier seuil — par défaut _15 minutes_ avant l’heure prévue. À partir de ce moment, le chronomètre passe progressivement vers la **Couleur #2**.
 - **Couleur #2** (orange par défaut) est utilisée pendant la seconde phase — à partir de _5 minutes_ avant l’heure cible — et passe progressivement vers la **Couleur #3**.
@@ -30,7 +30,7 @@ Une fois les paramètres du chronomètre validés, vous pourrez définir un plan
 
 ## Afficher un chronomètre
 
-Pour afficher un chronomètre sur un écran ou une famille d’écrans :
+Pour afficher un chronomètre sur un écran ou une famille d’écrans :
 
 1. Éditez l’écran (ou la famille) sur lequel vous souhaitez afficher le chronomètre.
 2. Sélectionnez le chronomètre souhaité dans le menu déroulant **Chronomètre**.

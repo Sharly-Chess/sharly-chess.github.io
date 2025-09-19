@@ -45,7 +45,7 @@ To assign a bye, click the bye button next to a player's name. You’ll be able 
 > :information_source: Depending on tournament settings, you may not be able to assign a half-point bye if the player has already used the maximum allowed, or if the tournament is in its final rounds.
 
 {: .note }
-> :information_source: Full-point byes are deprecated by FIDE and not available from the pairings interface. If needed, you can still assign one manually via the **Players** page by viewing the player's tournament _Record_.
+> :information_source: Full-point byes are deprecated by _FIDE_ and not available from the pairings interface. If needed, you can still assign one manually via the **Players** page by viewing the player's tournament _Record_.
 
 ---
 

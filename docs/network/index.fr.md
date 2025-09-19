@@ -8,9 +8,9 @@ nav_order: 370
 
 # Utiliser _Sharly Chess_ sur un réseau
 
-_Sharly Chess_ peut être utilisé comme un logiciel traditionnel de gestion de compétitions d’échecs : l’arbitre gère la compétition seul·e, sur son ordinateur.
+_Sharly Chess_ peut être utilisé comme un logiciel traditionnel de gestion de compétitions d’échecs : l’arbitre gère la compétition seul·e, sur son ordinateur.
 
-Cependant, _Sharly Chess_ ne se limite pas à l’ordinateur de l’arbitre. D’autres appareils — ordinateurs portables, tablettes, smartphones — peuvent également se connecter au serveur pour :
+Cependant, _Sharly Chess_ ne se limite pas à l’ordinateur de l’arbitre. D’autres appareils — ordinateurs portables, tablettes, smartphones — peuvent également se connecter au serveur pour :
 
 * Afficher des écrans (appariements, classements, résultats, etc.)
 * Permettre aux joueur·euses de pointer ou saisir leurs propres résultats
@@ -23,15 +23,15 @@ Un **réseau** est simplement un groupe d’appareils capables de communiquer en
 * À la maison, votre routeur Wi-Fi crée un réseau afin que votre ordinateur, votre téléphone et votre imprimante puissent tous se connecter.
 * Dans un club ou lors d’un tournoi, vous pouvez utiliser le Wi-Fi du lieu.
 
-Une fois connectés au même réseau, les appareils peuvent « se voir » et échanger des informations — ce dont _Sharly Chess_ a précisément besoin.
+Une fois connectés au même réseau, les appareils peuvent « se voir » et échanger des informations — ce dont _Sharly Chess_ a précisément besoin.
 
 ## Comment obtenir un réseau
 
-Il existe plusieurs façons de créer ou de rejoindre un réseau :
+Il existe plusieurs façons de créer ou de rejoindre un réseau :
 
 * **Utiliser le partage de connexion de votre téléphone**
 
-  La plupart des smartphones peuvent créer un réseau Wi-Fi temporaire (« point d’accès »). Les autres appareils s’y connectent comme s’il s’agissait d’un routeur.
+  La plupart des smartphones peuvent créer un réseau Wi-Fi temporaire (« point d’accès »). Les autres appareils s’y connectent comme s’il s’agissait d’un routeur.
 
 * **Utiliser une clé Wi-Fi ou un routeur de voyage**
 
@@ -46,11 +46,11 @@ Il existe plusieurs façons de créer ou de rejoindre un réseau :
 Lorsque _Sharly Chess_ démarre, la page d’accueil affiche une liste d’une ou plusieurs adresses réseau (_adresses IP_) accompagnées d’un QR code.
 
 {: .note }
-> :information_source: Une adresse IP est simplement un numéro qui identifie votre serveur sur le réseau, par exemple :
+> :information_source: Une adresse IP est simplement un numéro qui identifie votre serveur sur le réseau, par exemple :
 > http://192.168.1.42
 
 Tout autre appareil sur le **même** réseau peut taper cette adresse dans un navigateur pour se connecter à _Sharly Chess_.
-Le QR code est un raccourci : en le scannant, l’adresse s’ouvre directement sur l’appareil.
+Le QR code est un raccourci : en le scannant, l’adresse s’ouvre directement sur l’appareil.
 
 ## Que peuvent faire les appareils connectés ?
 
@@ -67,7 +67,7 @@ Un accès supplémentaire peut être donné aux membres du staff via des [Compte
 
 ## Dépannage
 
-Si vous n’arrivez pas à vous connecter à _Sharly Chess_, voici quelques points à vérifier :
+Si vous n’arrivez pas à vous connecter à _Sharly Chess_, voici quelques points à vérifier :
 
 * **L’adresse du serveur est-elle correcte ?**
 
@@ -88,7 +88,7 @@ Si vous n’arrivez pas à vous connecter à _Sharly Chess_, voici quelques poin
 
 * **Limites du routeur ou du point d’accès**
 
-  Certains routeurs Wi-Fi limitent le nombre d’appareils connectés, ou les isolent afin qu’ils ne puissent pas communiquer entre eux (paramètre dit « isolation AP »).
+  Certains routeurs Wi-Fi limitent le nombre d’appareils connectés, ou les isolent afin qu’ils ne puissent pas communiquer entre eux (paramètre dit « isolation AP »).
   Assurez-vous que l’isolation des appareils est désactivée si vous souhaitez qu’ils puissent communiquer.
 
 Malheureusement, nous ne pouvons pas couvrir toutes les configurations possibles ici.

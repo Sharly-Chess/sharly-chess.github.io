@@ -17,7 +17,7 @@ You can sort and filter the table using the column headers, making it easy to ma
 
 Players can be added using the **Add Player** button.
 
-While you can enter a player's details manually, it’s often quicker and more reliable to use the **FIDE database** or a local federation database (provided via a
+While you can enter a player's details manually, it’s often quicker and more reliable to use the **_FIDE_ database** or a local federation database (provided via a
 [plugin]({% link docs/plugins/index.en.md %})) to search and import existing player records. See the [Player Databases]({% link docs/player-databases/index.en.md %}) section for more details on installing and using these databases.
 
 ## Changing Tournaments

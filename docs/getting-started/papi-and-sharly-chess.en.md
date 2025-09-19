@@ -24,7 +24,7 @@ _Sharly Chess_ already includes all the interface features required to run a Swi
 
 Soon, we’ll eliminate the dependency on the _Papi_ file entirely. _Sharly Chess_ will be usable anywhere, with federation-specific features provided through a plugin system.
 
-A process is underway to request that Sharly Chess be officially recognized by FIDE as approved software for FIDE-rated tournaments.
+A process is underway to request that _Sharly Chess_ be officially recognized by _FIDE_ as approved software for _FIDE_-rated tournaments.
 
 {: .tip }
-> :point_right: For arbiters in France: no worries! Even once _Sharly Chess_ stops writing directly to `.papi` files, we’ll continue to support FFE workflows. _Sharly Chess_ now includes plugin support, and our **FFE plugin** will be able to generate a valid `.papi` file for submission to the federation.
+> :point_right: For arbiters in France: no worries! Even once _Sharly Chess_ stops writing directly to `.papi` files, we’ll continue to support _FFE_ workflows. _Sharly Chess_ now includes plugin support, and our **FFE plugin** will be able to generate a valid `.papi` file for submission to the federation.

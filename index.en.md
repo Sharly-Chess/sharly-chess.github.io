@@ -82,5 +82,5 @@ Players can find their pairings quickly and submit results with ease.
 {% endcontentfor %}
 
 {% contentfor footer %}
-&copy; Sharly Chess Project 2013-2025. Built with passion by chess lovers.
+&copy; _Sharly Chess Project_ 2013-2025. Built with passion by chess lovers.
 {% endcontentfor %}

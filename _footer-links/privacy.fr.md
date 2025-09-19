@@ -222,7 +222,7 @@ Par ailleurs, nous pourrons choisir, en lieu et place de la suppression des donn
 
 ### 6\. Droit à la limitation du traitement
 
-À défaut par exemple d'exercer votre droit à l'effacement, vous pouvez aussi demander à _Sharly Chess_ de « mettre de côté » ou « geler » certaines données vous concernant, c'est-à-dire de conserver ces données de façon séparée, sans plus les utiliser (sauf obligations légales).
+À défaut par exemple d'exercer votre droit à l'effacement, vous pouvez aussi demander à _Sharly Chess_ de « mettre de côté » ou « geler » certaines données vous concernant, c'est-à-dire de conserver ces données de façon séparée, sans plus les utiliser (sauf obligations légales).
 
 Vous pouvez formuler une telle demande lorsque l'une au moins des conditions suivantes est remplie :
 
@@ -231,13 +231,13 @@ Vous pouvez formuler une telle demande lorsque l'une au moins des conditions sui
 *   Les données concernées ne sont plus nécessaires pour aucune des finalités exposées ci-dessus, mais vous souhaitez que _Sharly Chess_ les conserve malgré tout pour les besoins de la défense de vos intérêts en justice ;
     Vous avez exercé votre droit d'opposition conformément au point 4. ci-dessus, et vous préférez que _Sharly Chess_ cesse d'utiliser les données concernées le temps de vérifier le bienfondé de votre opposition.
 
-Dans ces hypothèses, nous « gèlerons » les données pour la durée nécessaire, au moyen par exemple d'un marquage « Ne pas utiliser -- Droit à la limitation exercé ».
+Dans ces hypothèses, nous « gèlerons » les données pour la durée nécessaire, au moyen par exemple d'un marquage « Ne pas utiliser -- Droit à la limitation exercé ».
 
 ### 7\. Droit à la portabilité des données
 
 Vous pouvez nous demander de vous adresser une copie des données collectées sur la base de votre consentement, permettant leur réutilisation par vous-même ou un autre prestataire de service.
 
-Ce « droit à la portabilité » se distingue du droit d'accès évoqué au point 1. ci-dessus en ce que son but n'est pas d'obtenir une copie nécessairement lisible par vous-même, mais bien une copie réutilisable des données, en vue notamment d'un changement de prestataire de service.
+Ce « droit à la portabilité » se distingue du droit d'accès évoqué au point 1. ci-dessus en ce que son but n'est pas d'obtenir une copie nécessairement lisible par vous-même, mais bien une copie réutilisable des données, en vue notamment d'un changement de prestataire de service.
 
 ### 8\. Droit de définir des directives relatives au sort de vos données après votre mort
 
@@ -245,7 +245,7 @@ Enfin, vous disposez du droit de nous indiquer la manière dont vous souhaitez q
 
 Vous pouvez notamment nous demander de procéder à la destruction de l'ensemble de vos données (sous réserve des besoins impérieux de conservation que nous pourrions en avoir, par exemple à des fins de défense des droits de _Sharly Chess_ en justice), ou encore de transmettre une copie de toutes ces données à la personne de votre choix.
 
-Vous pouvez également désigner toute personne de votre choix comme responsable de l'exécution de ces « dernières volontés » ; cette personne n'a pas nécessairement à être l'un·e de vos héritier·es ni même l'exécuteur·ice testamentaire chargé·e de votre succession.
+Vous pouvez également désigner toute personne de votre choix comme responsable de l'exécution de ces « dernières volontés » ; cette personne n'a pas nécessairement à être l'un·e de vos héritier·es ni même l'exécuteur·ice testamentaire chargé·e de votre succession.
 
 ### Tableau récapitulatif
 
@@ -258,7 +258,7 @@ Vous pouvez également désigner toute personne de votre choix comme responsable
 | Droit à l'effacement | La suppression de vos données, ou leur anonymisation complète et irréversible | Toutes | Limites : liberté d'expression et d'information ; obligation légale ; fins statistiques ; constatation, exercice ou défense de droits en justice |
 | Droit à la limitation du traitement | La conservation de vos données sans poursuite de leur utilisation | Toutes | Limites : utilisation des données seulement dans les cas suivants : accord ; constatation, exercice ou défense de droits en justice ; protection des droits d'une autre personne ; motifs importants d'intérêt public |
 | Droit à la portabilité des données | Une copie de vos données dans un format informatique réutilisable | Données collectées sur la base de votre consentement | Indiquer clairement, le cas échéant, l'identité de la personne ou de l'organisation à qui vous souhaitez que _Sharly Chess_ adresse la copie des données |
-| Droit de définir des directives relatives au sort de vos données après votre mort | Le respect de vos « dernières volontés » s'agissant de vos données à caractère personnel (par exemple : leur suppression ou leur transmission à toute personne de votre choix) | &nbsp;Toutes | Indiquer clairement les personnes responsables du suivi de la bonne exécution de vos directives, qui seront nos interlocuteurs après votre décès |
+| Droit de définir des directives relatives au sort de vos données après votre mort | Le respect de vos « dernières volontés » s'agissant de vos données à caractère personnel (par exemple : leur suppression ou leur transmission à toute personne de votre choix) | &nbsp;Toutes | Indiquer clairement les personnes responsables du suivi de la bonne exécution de vos directives, qui seront nos interlocuteurs après votre décès |
 
 Pour toute question relative à la protection de vos données à caractère personnel merci de nous écrire à l'adresse [gdpr@sharly-chess.com](mailto:gdpr@sharly-chess.com).
 

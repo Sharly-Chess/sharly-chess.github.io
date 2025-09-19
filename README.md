@@ -1,4 +1,4 @@
-# Sharly Chess Documentation
+# _Sharly Chess_ Documentation
 
 ## Development setup
 

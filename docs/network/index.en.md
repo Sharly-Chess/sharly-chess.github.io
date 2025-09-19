@@ -6,7 +6,7 @@ page_id: network
 nav_order: 370
 ---
 
-# Using Sharly Chess on a Network
+# Using _Sharly Chess_ on a Network
 
 _Sharly Chess_ can be used like traditional chess competition management software: the arbiter manages the competition alone, on their computer.
 
@@ -23,7 +23,7 @@ A network is simply a group of devices that can talk to each other.
 * At home, your Wi-Fi _router_ creates a network so your computer, phone, and printer can all connect.
 * At a club or tournament, you might use the venue’s Wi-Fi.
 
-Once devices are on the same network, they can “see” each other and exchange information — which is exactly what Sharly Chess needs.
+Once devices are on the same network, they can “see” each other and exchange information — which is exactly what _Sharly Chess_ needs.
 
 ## How to get a network
 
@@ -43,7 +43,7 @@ There are several ways to create or join a network:
 
 ## The server’s IP address
 
-When Sharly Chess starts, the home page shows a list of one or more network addresses (_IP addresses_) with a QR code.
+When _Sharly Chess_ starts, the home page shows a list of one or more network addresses (_IP addresses_) with a QR code.
 
 {: .note }
 > :information_source: An IP address is just a number that identifies your server on the network, for example:
