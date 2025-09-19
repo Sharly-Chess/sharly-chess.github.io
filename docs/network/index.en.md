@@ -43,7 +43,7 @@ There are several ways to create or join a network:
 
 ## The server’s IP address
 
-When _Sharly Chess_ starts, the home page shows a list of one or more network addresses (_IP addresses_) with a QR code.
+From the _Sharly Chess_ main window, click **See Networks** to display the list of the server's address on each of the different networks detected (Wifi, Ethernet, etc).
 
 {: .note }
 > :information_source: An IP address is just a number that identifies your server on the network, for example:

@@ -38,4 +38,4 @@ To start the application, simply double-click the `.exe` file inside the version
 
 When run for the first time it will open your default web browser to display the _Sharly Chess_ interface with the opportunity to configure your preferences.
 
-On subsequent runs, _Sharly Chess_ will open the home page, where you can either access the admin interface or the client interface — which can be used by other devices on your network to display tournament information.
+On subsequent runs, _Sharly Chess_ will open the admin interface in your default web browser.
