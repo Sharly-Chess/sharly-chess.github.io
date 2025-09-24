@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.0.9 - 24 septembre 2025
+- Correction de la renumérotation des objets dupliqués
+
 ## Version 3.0.8 - 23 septembre 2025
 - Éviter de télécharger continuellement les bases locales plus valides lorsqu'il n'y a pas de connexion
 - Correction du bouton « Tous / En jeu »
