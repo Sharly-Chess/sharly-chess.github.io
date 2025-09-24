@@ -23,6 +23,11 @@ separator: true
 – Sélection de plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix et les statistiques
 - Import de tournois _ChessEvent_ depuis l'interface web (remplace le script `tools/chessevent.bat`)
 
+## Version 3.0.8 - 23 septembre 2025
+- Éviter de télécharger continuellement les bases locales plus valides lorsqu'il n'y a pas de connexion
+- Correction du bouton « Tous / En jeu »
+- Correction de la récupération de l'état du plugin depuis une version précédente
+
 ## Version 3.0.7 - 16 septembre 2025
 - Correction de la tombola
 - Augmentation du temps d'attente des recherches _FFE_ en ligne

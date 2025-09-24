@@ -23,6 +23,11 @@ separator: true
 - Multiple tournaments can now be selected for several print views: Players List, Check-in List, Prize List and Assignment, and Statistics
 - Import _ChessEvent_ tournament from the web interface (remplaces script `tools/chessevent.bat`)
 
+## Version 3.0.8 - September 23, 2025
+- Prevent downloading outdated local databases continuously when there is no connexion
+- Fixed the "All" / "In play" button of the Pairings tab
+- Fixed recovery of the plugin state from a previous version
+
 ## Version 3.0.7 - September 16, 2025
 - Fixed the tombola
 - Increased the timeout of _FFE_ online searches
