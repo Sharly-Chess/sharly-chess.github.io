@@ -11,7 +11,7 @@ separator: true
 
 ## :point_right: Version 3.1.0 - September 29, 2025
 
-- Delegation by access level for clients connected to the server
+- Delegation by access level for clients connected to the server (experimental)
 - Tournaments may now have player criteria associated with them
 - Dedicated console window
 - Improved player search results
@@ -22,6 +22,9 @@ separator: true
 - Support for servers with multiple IP addresses
 - Multiple tournaments can now be selected for several print views: Players List, Check-in List, Prize List and Assignment, and Statistics
 - Import _ChessEvent_ tournament from the web interface (remplaces script `tools/chessevent.bat`)
+
+## Version 3.0.9 - September 24, 2025
+- Fixed the renumbering of duplicated objects
 
 ## Version 3.0.8 - September 23, 2025
 - Prevent downloading outdated local databases continuously when there is no connexion
