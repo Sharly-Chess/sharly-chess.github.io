@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.0.10 - 26 septembre 2025
+Correction du classement estimé des joueur·euses créé·es manuellement
+
 ## Version 3.0.9 - 24 septembre 2025
 - Correction de la renumérotation des objets dupliqués
 

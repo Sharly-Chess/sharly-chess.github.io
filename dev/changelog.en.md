@@ -10,6 +10,9 @@ separator: true
 # Changelog
 
 ## Version 3.0.9 - September 24, 2025
+- Fixed estimated ratings for manually created players
+
+## Version 3.0.9 - September 24, 2025
 - Fixed the renumbering of duplicated objects
 
 ## Version 3.0.8 - September 23, 2025
