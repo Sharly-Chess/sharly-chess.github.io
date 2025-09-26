@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.0.9 - September 24, 2025
+## Version 3.0.10 - September 26, 2025
 - Fixed estimated ratings for manually created players
 
 ## Version 3.0.9 - September 24, 2025
