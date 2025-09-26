@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.0.11 - September 26, 2025
+- Fix Papi export and FFE upload
+
 ## Version 3.0.10 - September 26, 2025
 - Fixed estimated ratings for manually created players
 
