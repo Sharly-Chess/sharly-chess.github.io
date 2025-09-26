@@ -23,6 +23,9 @@ separator: true
 - Multiple tournaments can now be selected for several print views: Players List, Check-in List, Prize List and Assignment, and Statistics
 - Import _ChessEvent_ tournament from the web interface (remplaces script `tools/chessevent.bat`)
 
+## Version 3.0.11 - September 26, 2025
+- Fix Papi export and FFE upload
+
 ## Version 3.0.10 - September 26, 2025
 - Fixed estimated ratings for manually created players
 
