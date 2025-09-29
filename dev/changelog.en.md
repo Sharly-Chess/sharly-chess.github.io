@@ -11,7 +11,7 @@ separator: true
 
 ## :point_right: Version 3.1.0 - September 29, 2025
 
-- Delegation by access level for clients connected to the server (experimental)
+- Delegation by access level for clients connected to the server
 - Tournaments may now have player criteria associated with them
 - Dedicated console window
 - Improved player search UI and results
