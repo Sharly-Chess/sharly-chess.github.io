@@ -11,14 +11,16 @@ separator: true
 
 ## :point_right: Version 3.1.0 - September 29, 2025
 
-- Delegation by access level for clients connected to the server (experimental)
+- Delegation by access level for clients connected to the server
 - Tournaments may now have player criteria associated with them
 - Dedicated console window
-- Improved player search results
+- Improved player search UI and results
+- Option to replace an incorrect player with another one
 - Improved navigation on the Pairings tab
-- Rotator screens can be reordered
-- Import tournaments from TRF
+- Rotator screens can now be reordered
+- Importing of tournaments from a TRF file
 - Statistics print view
+- QR code print view
 - Support for servers with multiple IP addresses
 - Multiple tournaments can now be selected for several print views: Players List, Check-in List, Prize List and Assignment, and Statistics
 - Import _ChessEvent_ tournament from the web interface (remplaces script `tools/chessevent.bat`)
