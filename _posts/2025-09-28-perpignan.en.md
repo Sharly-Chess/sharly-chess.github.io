@@ -6,7 +6,7 @@ layout: post
 page_id: post-2025-09-28-2
 slug: perpignan
 lang: en
-excerpt: "For the very first time, a FIDE Arbiter norm has been awarded at a tournament fully managed with _Sharly Chess_."
+excerpt: "For the very first time, a FIDE Arbiter norm has been awarded at a tournament fully managed with Sharly Chess."
 ---
 
 On Sunday, September 28, an open rapid tournament took place in Perpignan, as part of the 2026 Roussillon Circuit, bringing together 84 players.
@@ -26,4 +26,6 @@ The setup was as follows:
 
 The Wi-Fi relay router allowed:
 - avoiding overloading the smartphone (its simultaneous connections are limited),
-- and offloading its power usage as well, since it only had to handle one Wi-Fi connection (the router). Everything ran extremely fast and smoothly.
+- and offloading its power usage as well, since it only had to handle one Wi-Fi connection (the router).
+
+Everything ran extremely fast and smoothly.
