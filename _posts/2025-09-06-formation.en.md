@@ -30,4 +30,4 @@ The end of the session was dedicated to more technical topics, including network
 Many thanks to all participants for their interest and constructive feedback. These exchanges help move forward the development of _Sharly Chess_ as a tool made by and for arbiters.
 
 {: .text-center}
-![Confirmation request for restoring from quarantine](/assets/images/2025097-training/training.jpg)
+![Sharly Chess Training in Romans-sur-Isère, Sept. 6th, 2025](/assets/images/2025097-training/training.jpg)
