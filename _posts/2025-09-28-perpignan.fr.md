@@ -20,8 +20,8 @@ Merci à Stéphane (un des tout premiers utilisateurs de _Papi-web_) pour sa con
 
 La configuration utilisée était la suivante :
 - le serveur _Sharly Chess_, connecté à internet ;
-- Au niveau réseau, mon téléphone portable sert de connexion internet, 
-- un routeur simple de type étendeur wifi (pas plus gros qu'un chargeur USB) s'y connecte, 
+- Au niveau réseau, un téléphone portable sert de connexion internet,
+- un routeur simple de type étendeur wifi (pas plus gros qu'un chargeur USB) s'y connecte,
 - et ensuite 3 tablettes de saisie + 2 PC se connectent au routeur,
 
 Le routeur relais Wi-Fi permet :
