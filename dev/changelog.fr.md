@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.1.0 - 29 septembre 2025
+## :point_right: Version 3.1.0 - 1er octobre 2025
 
 - Délégation par niveau d'accès pour les clients connectés au serveur
 - Critères sur les joueur·euses pour l'inscription aux tournois
@@ -19,11 +19,13 @@ separator: true
 - Amélioration de la navigation de l'onglet Appariements
 - Réorganisation des écrans composant les écrans rotatifs
 - Import de tournois au format TRF
+- Export des tournois au format TRF
 - Vue imprimable des statistiques des joueur·euses
 - Vue imprimable des QR codes
 – Prise en charge des serveurs avec plusieurs adresses IP
 – Sélection de plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix et les statistiques
 - Import de tournois _ChessEvent_ depuis l'interface web (remplace le script `tools/chessevent.bat`)
+- Affichage du statut pointé/non-pointé des joueur·euses sur les listes de pointage
 
 ## Version 3.0.11 - 26 septembre 2025
 - Correction des classements estimés dans l'export Papi et pour le téléversement FFE

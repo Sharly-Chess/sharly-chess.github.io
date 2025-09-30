@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.1.0 - September 29, 2025
+## :point_right: Version 3.1.0 - October 1, 2025
 
 - Delegation by access level for clients connected to the server
 - Tournaments may now have player criteria associated with them
@@ -19,11 +19,13 @@ separator: true
 - Improved navigation on the Pairings tab
 - Rotator screens can now be reordered
 - Importing of tournaments from a TRF file
+- Exporting of tournaments to TRF format
 - Statistics print view
 - QR code print view
 - Support for servers with multiple IP addresses
 - Multiple tournaments can now be selected for several print views: Players List, Check-in List, Prize List and Assignment, and Statistics
 - Import _ChessEvent_ tournament from the web interface (remplaces script `tools/chessevent.bat`)
+- Display the check-in status on check-in lists
 
 ## Version 3.0.11 - September 26, 2025
 - Fix Papi export and FFE upload
