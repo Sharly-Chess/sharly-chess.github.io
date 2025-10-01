@@ -9,7 +9,14 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.1.0 - 1er octobre 2025
+## Version 3.1.1 - 1er octobre 2025
+- Correction de la recherche sans tournoi
+- Ajout de l’année de naissance aux résultats de recherche
+- Correction de l'apparition d'un terminal lors de l'upload FFE
+- Restauration de la signature de l'application
+- Correction de l'import TRF sans partie
+
+## :point_right: Version 3.1.0 - 30 septembre 2025
 
 - Délégation par niveau d'accès pour les clients connectés au serveur
 - Critères sur les joueur·euses pour l'inscription aux tournois
