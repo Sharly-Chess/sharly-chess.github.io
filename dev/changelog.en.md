@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.1.2 - October X, 2025
+- Fixed ChessEvent re-import issue
+
 ## Version 3.1.1 - October 1, 2025
 - Fixed the player search without tournament
 - Added year of birth to search results
