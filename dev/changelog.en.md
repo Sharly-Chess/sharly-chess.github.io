@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.1.2 - October 3, 2025
+- Fixed ChessEvent and TRF re-import issue
+- Improved player search
+- Fixed screen uniq ID update
+
 ## Version 3.1.1 - October 1, 2025
 - Fixed the player search without tournament
 - Added year of birth to search results

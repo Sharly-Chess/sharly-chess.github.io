@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.1.2 - 3 octobre 2025
+- Correction du problème de réimportation ChessEvent et TRF
+- Amélioration de la recherche des joueur·euses
+- Correction de la mise à jour de l'identifiant unique des écrans
+
 ## Version 3.1.1 - 1er octobre 2025
 - Correction de la recherche sans tournoi
 - Ajout de l’année de naissance aux résultats de recherche
