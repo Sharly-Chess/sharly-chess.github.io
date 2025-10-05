@@ -5,15 +5,15 @@
 | **Application**                                    |           |           |           |           |           |           |           |           |           |           |   |
 | Gestion des paramètres de l'application            |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Gestion des bases de données sources               |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
+| Gestion des archives                               |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | **Évènements**                                     |           |           |           |           |           |           |           |           |           |           |   |
 | Voir les évènements publics en cours et à venir(*) |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     | ✔ |
 | Voir les évènement privés                          |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Voir les évènement passés                          |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Voir les détails des cartes d'évènement            |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
-| Ajouter des évènements                             |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
-| Supprimer des évènements                           |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
-| Renommer les évènements                            |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
-| Update events                                      |     ✔     |     ✔     |     -     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
+| Gestion des évènements                             |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
+| Renommer l'évènement                               |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
+| Mettre à jour l'évènement                          |     ✔     |     ✔     |     -     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Voir la configuration de l'évènement               |     ✔     |     ✔     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     | - |
 | **Contrôle d'accès**                               |           |           |           |           |           |           |           |           |           |           |   |
 | Gestion des comptes                                |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
@@ -76,4 +76,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2025-09-19 15:51) -->
+<!-- Généré par le script generate_access_levels_doc.py (2025-10-05 11:26) -->
