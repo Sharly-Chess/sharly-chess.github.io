@@ -19,7 +19,7 @@ Autorise la gestion des joueur·euses, la saisie de résultats spéciaux, la mod
 Autorise l'appariement des joueur·euses, en utilisant un moteur d'appariement ou manuellement (héritage : Arbitrage de secteur).
 
 ### 🟡 SEC Arbitrage de secteur
-Autorise l'accès à l'interface des joueur·euses et des appariements, la modification des coups illégaux et des résultats (héritage : Pointage sur écrans publics, Saisie des résultats sur écrans publics).
+Autorise l'accès à l'interface des joueur·euses et des appariements, la modification des coups illégaux et des résultats (héritage : Saisie des résultats sur écrans publics, Pointage sur écrans publics).
 
 ### 🟢 POI Pointage sur écrans publics
 Autorise le pointage des joueur·euses sur des écrans de saisie publics (héritage : Visualisation).
@@ -30,4 +30,4 @@ Autorise la saisie des résultats sur des écrans de saisie publics (héritage 
 ### 🟢 SPE Visualisation
 Autorise l'accès aux écrans publics.
 
-<!-- Généré par le script generate_access_levels_doc.py (2025-09-19 15:51) -->
+<!-- Généré par le script generate_access_levels_doc.py (2025-10-05 11:26) -->
