@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.1.3 - 5 octobre 2025
+- Synchronisation des tournois avec ChessEvent
+
 ## Version 3.1.2 - 3 octobre 2025
 - Correction du problème de réimportation ChessEvent et TRF
 - Amélioration de la recherche des joueur·euses
