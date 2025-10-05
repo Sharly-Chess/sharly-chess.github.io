@@ -33,7 +33,7 @@ But default the username, password and _ChessEvent_ event will be those that you
 
 This will create a new tournament with the players from the _ChessEvent_ platform.
 
-To fetch the latest players for a tournament that you've already imported, you can use the _Import_ option from the _Actions_ menu on the tournament's card.
+Once all the tournaments have been imported, the option **Synchronize with ChessEvent** of the _Actions_ menu on the tournaments page allows you to update your tournaments with the latest data from _ChessEvent_.
 
 {: .warning }
-> :warning: Reimporting a tournament will delete all existing players and replace them with the new list.
+> :warning: Synchronizing a tournament will delete all existing players and replace them with the new list.
