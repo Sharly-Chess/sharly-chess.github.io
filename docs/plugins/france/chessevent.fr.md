@@ -34,7 +34,7 @@ Il vous sera également demandé l’ID du tournoi (`Tournoi U12` dans l’exemp
 
 Cela créera un nouveau tournoi avec les joueur·euses de la plateforme _ChessEvent_.
 
-Pour récupérer la liste la plus récente des joueur·euses d’un tournoi que vous avez déjà importé, utilisez l’option **Importer** depuis le menu _Actions_ sur la carte du tournoi.
+Une fois tous les tournois importés, l'option **Synchroniser avec ChessEvent** du menu _Actions_ de la page des tournois vous permet de mettre à jour vos tournois avec les dernières données de _ChessEvent_.
 
 {: .warning }
-> :warning: Réimporter un tournoi supprimera tous les joueur·euses existant·es et les remplacera par la nouvelle liste.
+> :warning: Synchroniser un tournoi supprimera tous les joueur·euses existant·es et les remplacera par la nouvelle liste.
