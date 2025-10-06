@@ -10,13 +10,14 @@ separator: true
 # Changelog
 
 ## Version 3.1.4 - October 6, 2025
-- Fixed database migration
+- Fixed events import from versions ≤ 2.4.18
+- Fixed _PAPI_ export of Round-Robin double Berger tournaments
 
 ## Version 3.1.3 - October 5, 2025
-- Tournament synchronization with ChessEvent
+- Tournament synchronization with _ChessEvent_
 
 ## Version 3.1.2 - October 3, 2025
-- Fixed ChessEvent and TRF re-import issue
+- Fixed _ChessEvent_ and TRF re-import issue
 - Improved player search
 - Fixed screen uniq ID update
 

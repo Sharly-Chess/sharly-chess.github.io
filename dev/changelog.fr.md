@@ -10,13 +10,14 @@ separator: true
 # Changelog
 
 ## Version 3.1.4 - 6 octobre 2025
-- Correction de la migration des bases de données
+- Correction de l'import d'évènements depuis une version ≤ 2.4.18
+- Correction de l'export _PAPI_ des tournois toutes rondes en Berger aller-retour
 
 ## Version 3.1.3 - 5 octobre 2025
-- Synchronisation des tournois avec ChessEvent
+- Synchronisation des tournois avec _ChessEvent_
 
 ## Version 3.1.2 - 3 octobre 2025
-- Correction du problème de réimportation ChessEvent et TRF
+- Correction du problème de réimportation _ChessEvent_ et TRF
 - Amélioration de la recherche des joueur·euses
 - Correction de la mise à jour de l'identifiant unique des écrans
 
