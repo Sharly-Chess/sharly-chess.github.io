@@ -9,7 +9,22 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.1.0 - October 1, 2025
+## Version 3.1.3 - October 5, 2025
+- Tournament synchronization with ChessEvent
+
+## Version 3.1.2 - October 3, 2025
+- Fixed ChessEvent and TRF re-import issue
+- Improved player search
+- Fixed screen uniq ID update
+
+## Version 3.1.1 - October 1, 2025
+- Fixed the player search without tournament
+- Added year of birth to search results
+- Fixed terminal flashing during the FFE upload
+- Restore the app signature
+- Fixed TRF import with no games
+
+## :point_right: Version 3.1.0 - September 30, 2025
 
 - Delegation by access level for clients connected to the server
 - Tournaments may now have player criteria associated with them
