@@ -9,9 +9,6 @@ separator: true
 
 # Changelog
 
-## Version 3.1.4 - October 6, 2025
-- Fixed database migration
-
 ## Version 3.1.3 - October 5, 2025
 - Tournament synchronization with ChessEvent
 
