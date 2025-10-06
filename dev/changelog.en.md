@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 3.2.0 - October, 2025
+- Definition of the value of the Pairing Allocated Bye
+
 ## Version 3.1.3 - October 5, 2025
 - Tournament synchronization with ChessEvent
 

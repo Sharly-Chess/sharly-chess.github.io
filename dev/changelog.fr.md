@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 3.2.0 - octobre 2025
+- Définition de la valeur des points attribués en cas d’exemption
+
 ## Version 3.1.3 - 5 octobre 2025
 - Synchronisation des tournois avec ChessEvent
 
