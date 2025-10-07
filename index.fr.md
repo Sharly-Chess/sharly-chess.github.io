@@ -38,7 +38,7 @@ _Sharly Chess_ est conçu autour des besoins des arbitres de tournois, pour vous
   </div>
   <div class="feature-box">
     <strong>Appariements</strong>
-    Automatisés, respectant les règles de la _FIDE_, et faciles à ajuster à la volée.
+    Automatisés, respectant les règles de la <em>FIDE</em>, et faciles à ajuster à la volée.
   </div>
   <div class="feature-box">
     <strong>Classements en direct</strong>

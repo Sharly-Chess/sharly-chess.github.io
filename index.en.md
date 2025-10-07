@@ -38,7 +38,7 @@ _Sharly Chess_ is built around the needs of tournament arbiters, helping you sta
   </div>
   <div class="feature-box">
     <strong>Pairings</strong>
-    Automated, fide compliant, and easy to adjust on the fly.
+    Automated, <em>FIDE</em> compliant, and easy to adjust on the fly.
   </div>
   <div class="feature-box">
     <strong>Live standings</strong>
