@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.1.5 - 8 octobre 2025
+- Correction de l'affichage des joueur·euses sans prénom
+- Correction de l'activation du plugin ChessEvent
+
 ## Version 3.1.4 - 6 octobre 2025
 - Correction de l'import d'évènements depuis une version ≤ 2.4.18
 - Correction de l'export _PAPI_ des tournois toutes rondes en Berger aller-retour

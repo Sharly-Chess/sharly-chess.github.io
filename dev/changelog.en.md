@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.1.5 - October 8, 2025
+- Fixed the display of players with no first name
+- Fixed the ChessEvent plugin activation
+
 ## Version 3.1.4 - October 6, 2025
 - Fixed events import from versions ≤ 2.4.18
 - Fixed _PAPI_ export of Round-Robin double Berger tournaments
