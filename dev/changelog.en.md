@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.1.6 - October 12, 2025
+- Define the rating type of when importing tournaments from TRF files
+- Fixed the PAPI export of players without FFE ID
+
 ## Version 3.1.5 - October 8, 2025
 - Fixed the display of players with no first name
 - Fixed the ChessEvent plugin activation
