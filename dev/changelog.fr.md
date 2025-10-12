@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.1.6 - 12 octobre 2025
+- Correction de l'export PAPI des joueur·euses sans identifiant FFE
+- Définition du type de classement des tournois importés depuis le format TRF
+
 ## Version 3.1.5 - 8 octobre 2025
 - Correction de l'affichage des joueur·euses sans prénom
 - Correction de l'activation du plugin ChessEvent
