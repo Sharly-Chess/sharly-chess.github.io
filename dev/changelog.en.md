@@ -10,15 +10,15 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.2.0 - October, 2025
-- The plug-in providing features specific to the French Chess Federation is now active only for tournaments hosted in France (i.e., where the federation is set to “FRA”).
-- FIDE and national ratings are now handled separately (tournament settings specify which rating type to use).
-- All standard FIDE tie-breaks are now available.
-- The Baku acceleration system has been implemented.
-- Definition of the acceleration pairing groups via pairing numbers replacing rating thresholds (3.2.0)
-- Uploading to **Chess-Results.com** (many thanks to Heinz Herzog for making this possible)
-- The ability to print **player norm certificates**, complete with automatic verification of all norm criteria.
-- The value of the Pairing Allocated Bye can now be adjusted.
+## :point_right: Version 3.2.0 - October 16, 2025
+- Activation of the _FFE_ module, providing features specific to the French Chess Federation only for tournaments held in France (i.e., when the event federation is "FRA")
+- Separate management of _FIDE_ and national ratings (tournament settings specify the rating type to use)
+- Availability of all standard _FIDE_ tie-breaks
+- Availability of the Baku acceleration system
+- Definition of the acceleration pairing groups via pairing numbers replacing rating thresholds
+- Publication of results to _Chess-Results.com_ (many thanks to Heinz Herzog for making this possible)
+- Printing of player norm certificates, complete with automatic verification of all norm criteria
+- Definition of the value of the Pairing Allocated Bye
 
 ## Version 3.1.3 - October 5, 2025
 - Tournament synchronization with ChessEvent
