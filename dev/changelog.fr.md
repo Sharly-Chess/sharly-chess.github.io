@@ -10,6 +10,13 @@ separator: true
 # Changelog
 
 ## :point_right: Version 3.2.0 - octobre 2025
+- Le module offrant les fonctionnalités spécifiques à la Fédération Française des Échecs est désormais actif uniquement pour les tournois organisés en France (c’est-à-dire lorsque la fédération est définie sur « FRA »).
+- Les classements FIDE et nationaux sont désormais gérés séparément (les paramètres du tournoi précisent quel type de classement utiliser).
+- Tous les départages FIDE standards sont désormais disponibles.
+- Le système d’accélération de Bakou a été implémenté.
+- Définition des groupes d’accélération à partir des numéros d’appariement plutôt que des seuils de classement (3.2.0).
+- Envoi vers **Chess-Results.com** (un grand merci à Heinz Herzog pour avoir rendu cela possible).
+- Possibilité d’imprimer des **certificats de norme**, avec vérification automatique de tous les critères de norme.
 - Définition de la valeur des points attribués en cas d’exemption
 
 ## Version 3.1.3 - 5 octobre 2025
