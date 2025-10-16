@@ -10,7 +10,7 @@ separator: true
 # Changelog
 
 ## :point_right: Version 3.2.0 - 16 octobre 2025
-- Activation du module _FFE_ offrant les fonctionnalités spécifiques à la Fédération Française des Échecs uniquement pour les tournois organisés en France (c’est-à-dire lorsque la fédération de l'évènement est « FRA »)
+- Activation du module _FFE_ uniquement pour les tournois organisés en France (c’est-à-dire lorsque la fédération de l'évènement est « FRA »)
 - Gestion séparée des classements _FIDE_ et nationaux (les paramètres du tournoi précisent le type de classement à utiliser)
 - Disponibilité des tous les départages _FIDE_ standards
 - Disponibilité du système d’accélération de Bakou
@@ -19,11 +19,23 @@ separator: true
 - Impression des certificats de norme, avec vérification automatique de tous les critères de norme
 - Définition de la valeur des points attribués en cas d’exemption
 
+## Version 3.1.6 - 12 octobre 2025
+- Correction de l'export _PAPI_ des joueur·euses sans identifiant _FFE_
+- Définition du type de classement des tournois importés depuis le format TRF
+
+## Version 3.1.5 - 8 octobre 2025
+- Correction de l'affichage des joueur·euses sans prénom
+- Correction de l'activation du plugin ChessEvent
+
+## Version 3.1.4 - 6 octobre 2025
+- Correction de l'import d'évènements depuis une version ≤ 2.4.18
+- Correction de l'export _PAPI_ des tournois toutes rondes en Berger aller-retour
+
 ## Version 3.1.3 - 5 octobre 2025
-- Synchronisation des tournois avec ChessEvent
+- Synchronisation des tournois avec _ChessEvent_
 
 ## Version 3.1.2 - 3 octobre 2025
-- Correction du problème de réimportation ChessEvent et TRF
+- Correction du problème de réimportation _ChessEvent_ et TRF
 - Amélioration de la recherche des joueur·euses
 - Correction de la mise à jour de l'identifiant unique des écrans
 

@@ -4,14 +4,13 @@ title: Changelog
 permalink: /changelog/
 page_id: changelog
 nav_order: 600
-
 separator: true
 ---
 
 # Changelog
 
 ## :point_right: Version 3.2.0 - October 16, 2025
-- Activation of the _FFE_ module, providing features specific to the French Chess Federation only for tournaments held in France (i.e., when the event federation is "FRA")
+- Activation of the _FFE_ module only for tournaments held in France (i.e., when the event federation is "FRA")
 - Separate management of _FIDE_ and national ratings (tournament settings specify the rating type to use)
 - Availability of all standard _FIDE_ tie-breaks
 - Availability of the Baku acceleration system
@@ -20,11 +19,23 @@ separator: true
 - Printing of player norm certificates, complete with automatic verification of all norm criteria
 - Definition of the value of the Pairing Allocated Bye
 
+## Version 3.1.6 - October 12, 2025
+- Define the rating type of when importing tournaments from TRF files
+- Fixed the _PAPI_ export of players without _FFE_ ID
+
+## Version 3.1.5 - October 8, 2025
+- Fixed the display of players with no first name
+- Fixed the ChessEvent plugin activation
+
+## Version 3.1.4 - October 6, 2025
+- Fixed events import from versions ≤ 2.4.18
+- Fixed _PAPI_ export of Round-Robin double Berger tournaments
+
 ## Version 3.1.3 - October 5, 2025
-- Tournament synchronization with ChessEvent
+- Tournament synchronization with _ChessEvent_
 
 ## Version 3.1.2 - October 3, 2025
-- Fixed ChessEvent and TRF re-import issue
+- Fixed _ChessEvent_ and TRF re-import issue
 - Improved player search
 - Fixed screen uniq ID update
 
