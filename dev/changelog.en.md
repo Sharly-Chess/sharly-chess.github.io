@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.1.7 - October 20, 2025
+- Fixed custom image picker
+- Fixed the display of board numbers on screen cards
+- Fixed the display of fixed board numbers
+- Fixed the display of player long names on boards/input screens
+
 ## Version 3.1.6 - October 12, 2025
 - Define the rating type of when importing tournaments from TRF files
 - Fixed the PAPI export of players without FFE ID
