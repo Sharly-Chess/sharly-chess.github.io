@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.2.0 - 16 octobre 2025
+## :point_right: Version 3.2.0 - 27 octobre 2025
 - Activation du module _FFE_ uniquement pour les tournois organisés en France (c’est-à-dire lorsque la fédération de l'évènement est « FRA »)
 - Gestion séparée des classements _FIDE_ et nationaux (les paramètres du tournoi précisent le type de classement à utiliser)
 - Disponibilité des tous les départages _FIDE_ standards
@@ -18,6 +18,7 @@ separator: true
 - Publication des résultats vers _Chess-Results.com_ (un grand merci à Heinz Herzog pour avoir rendu cela possible)
 - Impression des certificats de norme, avec vérification automatique de tous les critères de norme
 - Définition de la valeur des points attribués en cas d’exemption
+- Accès à la fiche du joueur depuis l’onglet Appariements
 
 ## Version 3.1.6 - 12 octobre 2025
 - Correction de l'export _PAPI_ des joueur·euses sans identifiant _FFE_

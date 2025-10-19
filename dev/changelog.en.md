@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.2.0 - October 16, 2025
+## :point_right: Version 3.2.0 - October 27, 2025
 - Activation of the _FFE_ module only for tournaments held in France (i.e., when the event federation is "FRA")
 - Separate management of _FIDE_ and national ratings (tournament settings specify the rating type to use)
 - Availability of all standard _FIDE_ tie-breaks
@@ -18,6 +18,7 @@ separator: true
 - Publication of results to _Chess-Results.com_ (many thanks to Heinz Herzog for making this possible)
 - Printing of player norm certificates, complete with automatic verification of all norm criteria
 - Definition of the value of the Pairing Allocated Bye
+- Access to the player record from the Pairings tab
 
 ## Version 3.1.6 - October 12, 2025
 - Define the rating type of when importing tournaments from TRF files
