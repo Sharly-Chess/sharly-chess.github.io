@@ -16,7 +16,7 @@ separator: true
 - Correction de l'affichage des noms longs sur les écrans de saisie et d'affichage par échiquier
 
 ## Version 3.1.6 - 12 octobre 2025
-- Correction de l'export PAPI des joueur·euses sans identifiant FFE
+- Correction de l'export PAPI des joueur·euses sans identifiant _FFE_
 - Définition du type de classement des tournois importés depuis le format TRF
 
 ## Version 3.1.5 - 8 octobre 2025
@@ -38,7 +38,7 @@ separator: true
 ## Version 3.1.1 - 1er octobre 2025
 - Correction de la recherche sans tournoi
 - Ajout de l’année de naissance aux résultats de recherche
-- Correction de l'apparition d'un terminal lors de l'upload FFE
+- Correction de l'apparition d'un terminal lors du téléversement _FFE_
 - Restauration de la signature de l'application
 - Correction de l'import TRF sans partie
 

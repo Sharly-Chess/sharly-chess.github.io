@@ -17,7 +17,7 @@ separator: true
 
 ## Version 3.1.6 - October 12, 2025
 - Define the rating type of when importing tournaments from TRF files
-- Fixed the PAPI export of players without FFE ID
+- Fixed the PAPI export of players without _FFE_ ID
 
 ## Version 3.1.5 - October 8, 2025
 - Fixed the display of players with no first name
@@ -38,7 +38,7 @@ separator: true
 ## Version 3.1.1 - October 1, 2025
 - Fixed the player search without tournament
 - Added year of birth to search results
-- Fixed terminal flashing during the FFE upload
+- Fixed terminal flashing during the _FFE_ upload
 - Restore the app signature
 - Fixed TRF import with no games
 
