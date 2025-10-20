@@ -20,6 +20,13 @@ separator: true
 - Définition de la valeur des points attribués en cas d’exemption
 - Accès à la fiche du joueur depuis l’onglet Appariements
 
+## Version 3.1.7 - 20 octobre 2025
+- Correction de la selection des images de fond personnalisées
+- Correction de l'affichage numéros des échiquiers sur les cartes des écrans
+- Correction de l'affichage des numéros des échiquiers fixes
+- Amélioration de l'affichage des noms longs sur les écrans
+- Autorisation de la recherche des joueur·euses avec des tabulations
+
 ## Version 3.1.6 - 12 octobre 2025
 - Correction de l'export _PAPI_ des joueur·euses sans identifiant _FFE_
 - Définition du type de classement des tournois importés depuis le format TRF
@@ -43,7 +50,7 @@ separator: true
 ## Version 3.1.1 - 1er octobre 2025
 - Correction de la recherche sans tournoi
 - Ajout de l’année de naissance aux résultats de recherche
-- Correction de l'apparition d'un terminal lors de l'upload FFE
+- Correction de l'apparition d'un terminal lors du téléversement _FFE_
 - Restauration de la signature de l'application
 - Correction de l'import TRF sans partie
 
@@ -66,7 +73,7 @@ separator: true
 - Affichage du statut pointé/non-pointé des joueur·euses sur les listes de pointage
 
 ## Version 3.0.11 - 26 septembre 2025
-- Correction des classements estimés dans l'export Papi et pour le téléversement FFE
+- Correction des classements estimés dans l'export _Papi_ et pour le téléversement FFE
 
 ## Version 3.0.10 - 26 septembre 2025
 - Correction du classement estimé des joueur·euses créé·es manuellement
@@ -88,10 +95,10 @@ separator: true
 
 ## Version 3.0.5 - 13 septembre 2025
 - Optimisation des requêtes d'écriture dans la base de données
-- Correction de l'import du numéro d'homologation depuis Papi
+- Correction de l'import du numéro d'homologation depuis _Papi_
 
 ## Version 3.0.4 - 9 septembre 2025
-- Correction des données de classement utilisées lors de l'export Papi
+- Correction des données de classement utilisées lors de l'export _Papi_
 
 ## Version 3.0.3 - 7 septembre 2025
 - Correction du tri des joueur·euses sans prénom
@@ -102,7 +109,7 @@ separator: true
 ## Version 3.0.2 - 5 septembre 2025
 - Correction de la recherche des joueur·euses sur l'onglet Appariements
 - Prise en compte des accents dans la recherche dans la base locale _FFE_
-- Correction de l'import de tournois Papi
+- Correction de l'import de tournois _Papi_
 - Correction des boutons d'export exportant le mauvais tournoi
 
 ## Version 3.0.1 - 2 septembre 2025
@@ -111,9 +118,9 @@ separator: true
 - Correction de l'affichage des chronomètres sur les écrans rotatifs et les pilotes d'afficheurs
 
 ## :point_right: Version 3.0.0 - 1er septembre 2025
-- Suppression du format de stockage Access de Papi
-- Création des tournois par import d'un fichier Papi
-- Export des tournois au format Papi
+- Suppression du format de stockage Access de _Papi_
+- Création des tournois par import d'un fichier _Papi_
+- Export des tournois au format _Papi_
 - Support de macOS (Apple Silicon Macs seulement)
 - La version Windows est désormais reconnue comme signée par Microsoft Defender
 - Suppression de la renumérotation automatique des échiquiers en cas d'appariement manuel
@@ -126,7 +133,7 @@ separator: true
 - Ajout du numéro dans le cas des échiquiers fixes sur les écrans
 - Ajout des départages dans les grilles Berger
 - Ajout d’une option de départage manuel
-- Ajout de départages non compatibles avec Papi (expérimental)
+- Ajout de départages non compatibles avec _Papi_ (expérimental)
 - Éditeur interactif de cadence de jeu
 - Ajout des titres _FIDE_ dans l'impression des attributions de prix
 - Restauration des évènements archivés
@@ -144,7 +151,7 @@ separator: true
 - Correction d'une erreur de duplication d'anciens appariements en cas d'erreurs de BbpPairings
 
 ## Version 2.8.6 - 6 août 2025
-- Correction des identifiants _FIDE_ invalides dans les fichiers Papi
+- Correction des identifiants _FIDE_ invalides dans les fichiers _Papi_
 - Correction de l'affichage des boutons de sortie sur les écrans de saisie
 - Correction du nom des écrans par défaut
 - Ajout d'un bouton pour créer les évènements depuis la page des archives
@@ -158,7 +165,7 @@ separator: true
 ## Version 2.8.3 - 20 juillet 2025
 - Correction des titres _FIDE_ des joueur·euses dans les exports PGN
 - Correction du formulaire d'édition des tournois
-- Compatibilité Papi pour l'utilisation de la performance en départage des tournois toutes-rondes
+- Compatibilité _Papi_ pour l'utilisation de la performance en départage des tournois toutes-rondes
 - Non copie des informations _FFE_/_ChessEvent_ lors de la duplication de tournois
 - Amélioration du filtrage sur le nom et le club
 
@@ -253,7 +260,7 @@ separator: true
 - Optimisation du temps de chargement de la page des évènements
 - Ajout de la tombola
 - Ajout des exports PGN et TRF 16
-- Alignement du calcul de performance avec celui de Papi en cas de joueur·euses avec demi-point joker
+- Alignement du calcul de performance avec celui de _Papi_ en cas de joueur·euses avec demi-point joker
 - Correction des dates de naissance _ChessEvent_ antérieures au 01/01/1970
 
 ## Version 2.6.4 - 25 mai 2025

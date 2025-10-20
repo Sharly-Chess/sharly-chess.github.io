@@ -20,6 +20,13 @@ separator: true
 - Definition of the value of the Pairing Allocated Bye
 - Access to the player record from the Pairings tab
 
+## Version 3.1.7 - October 20, 2025
+- Fixed custom image picker
+- Fixed the display of board numbers on screen cards
+- Fixed the display of fixed board numbers
+- Improved the display of player long names on screens
+- Allow player search with any whitespace
+
 ## Version 3.1.6 - October 12, 2025
 - Define the rating type of when importing tournaments from TRF files
 - Fixed the _PAPI_ export of players without _FFE_ ID
@@ -43,7 +50,7 @@ separator: true
 ## Version 3.1.1 - October 1, 2025
 - Fixed the player search without tournament
 - Added year of birth to search results
-- Fixed terminal flashing during the FFE upload
+- Fixed terminal flashing during the _FFE_ upload
 - Restore the app signature
 - Fixed TRF import with no games
 
@@ -66,7 +73,7 @@ separator: true
 - Display the check-in status on check-in lists
 
 ## Version 3.0.11 - September 26, 2025
-- Fix Papi export and FFE upload
+- Fix _Papi_ export and _FFE_ upload
 
 ## Version 3.0.10 - September 26, 2025
 - Fixed estimated ratings for manually created players
@@ -87,11 +94,11 @@ separator: true
 - Fixed a bug preventing results upload
 
 ## Version 3.0.5 - September 13, 2025
-- Fixed the import of the Papi homologation number
+- Fixed the import of the _Papi_ homologation number
 - Optimized the write queries in the database
 
 ## Version 3.0.4 - September 9, 2025
-- Fixed a data difference on rankings in the Papi export
+- Fixed a data difference on rankings in the _Papi_ export
 
 ## Version 3.0.3 - September 7, 2025
 - Fixed players sort with no firstname
@@ -102,7 +109,7 @@ separator: true
 ## Version 3.0.2 - September 5, 2025
 - Fixed player search on the Pairings tab
 - Accents handling for local _FFE_ database search
-- Fixed Papi tournament import
+- Fixed _Papi_ tournament import
 - Fixed export buttons exporting the wrong tournament
 - Fixed printing of pairings in alphabetical order
 
@@ -112,9 +119,9 @@ separator: true
 - Fixed the display of timers on rotators and display controllers
 
 ## :point_right: Version 3.0.0 - September 1st, 2025
-- Remove Papi Access storage
-- Create tournaments from Papi files
-- Export tournaments to Papi format
+- Remove _Papi_ Access storage
+- Create tournaments from _Papi_ files
+- Export tournaments to _Papi_ format
 - Native macOS support (Apple Silicon Macs only)
 - Windows version is now recognised as signed by Microsoft Defender
 - Removed automatic renumbering of boards when manually pairing
@@ -127,7 +134,7 @@ separator: true
 - Added board IDs in case of fixed boards on screens
 - Added tie-breaks to Berger grids
 - Added a manual tie-break option
-- Added tie-breaks not compatible with Papi (experimental)
+- Added tie-breaks not compatible with _Papi_ (experimental)
 - Interactive time control editor
 - Added _FIDE_ titles on prize assignments printing
 - Restoring of archived events
@@ -146,7 +153,7 @@ separator: true
 
 ## Version 2.8.6 - August 6, 2025
 - Added alphabetical pairings print document
-- Fixed invalid _FIDE_ IDs in Papi files
+- Fixed invalid _FIDE_ IDs in _Papi_ files
 - Fixed the display of exit button on input screens
 - Fixed the names of the default screens
 - Added a button to create events from the Archives page
@@ -160,7 +167,7 @@ separator: true
 ## Version 2.8.3 - July 24, 2025
 - Fixed tournament editing form
 - Fixed PGN export players' title
-- Papi compatibility for using tie-break Performance for round-robin tournaments
+- _Papi_ compatibility for using tie-break Performance for round-robin tournaments
 - Omit _FFE_/_ChessEvent_ credentials when duplicating tournaments
 - Improved player filtering on players' name and club
 
@@ -254,7 +261,7 @@ separator: true
 - Optimized the load time of the events page
 - Added the lottery
 - Added PGN and TRF 16 exports
-- Alignment of performance calculation with Papi’s in the case of players with a full-point or half-point bye
+- Alignment of performance calculation with _Papi_’s in the case of players with a full-point or half-point bye
 - Fixed _ChessEvent_ birth dates prior to 1970-01-01
 
 ## Version 2.6.4 - May 25, 2025
