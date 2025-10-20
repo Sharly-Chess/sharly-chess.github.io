@@ -13,7 +13,7 @@ separator: true
 - Correction de la selection des images de fond personnalisées
 - Correction de l'affichage numéros des échiquiers sur les cartes des écrans
 - Correction de l'affichage des numéros des échiquiers fixes
-- Correction de l'affichage des noms longs sur les écrans
+- Amélioration de l'affichage des noms longs sur les écrans
 - Autorisation de la recherche des joueur·euses avec des tabulations
 
 ## Version 3.1.6 - 12 octobre 2025

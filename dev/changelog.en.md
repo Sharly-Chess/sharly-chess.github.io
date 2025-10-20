@@ -13,7 +13,7 @@ separator: true
 - Fixed custom image picker
 - Fixed the display of board numbers on screen cards
 - Fixed the display of fixed board numbers
-- Fixed the display of player long names on screens
+- Improved the display of player long names on screens
 - Allow player search with any whitespace
 
 ## Version 3.1.6 - October 12, 2025
