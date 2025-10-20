@@ -13,7 +13,8 @@ separator: true
 - Fixed custom image picker
 - Fixed the display of board numbers on screen cards
 - Fixed the display of fixed board numbers
-- Fixed the display of player long names on boards/input screens
+- Fixed the display of player long names on screens
+- Allow player search with any whitespace
 
 ## Version 3.1.6 - October 12, 2025
 - Define the rating type of when importing tournaments from TRF files

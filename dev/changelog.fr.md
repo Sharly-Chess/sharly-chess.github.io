@@ -13,7 +13,8 @@ separator: true
 - Correction de la selection des images de fond personnalisées
 - Correction de l'affichage numéros des échiquiers sur les cartes des écrans
 - Correction de l'affichage des numéros des échiquiers fixes
-- Correction de l'affichage des noms longs sur les écrans de saisie et d'affichage par échiquier
+- Correction de l'affichage des noms longs sur les écrans
+- Autorisation de la recherche des joueur·euses avec des tabulations
 
 ## Version 3.1.6 - 12 octobre 2025
 - Correction de l'export PAPI des joueur·euses sans identifiant _FFE_
