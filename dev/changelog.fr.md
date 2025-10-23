@@ -24,6 +24,7 @@ separator: true
 - Correction d’un problème de validation qui permettait d’ajouter deux joueurs avec le même numéro de licence FFE dans un même tournoi
 - Possibilité de noter l'abandon/le retour d'un·e joueur·euse depuis la modale d'historique des joueur·eses
 - Suppression de l’option d’image de fond des écrans
+- Clarification du message d'erreur en cas de fédération inconnue dans _ChessEvent_
 
 ## Version 3.1.7 - 20 octobre 2025
 - Correction de la selection des images de fond personnalisées
