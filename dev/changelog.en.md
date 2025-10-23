@@ -23,6 +23,7 @@ separator: true
 - Support for _Papi_ incompatible tie-breaks in the _Papi_ export and the _FFE_ upload
 - Fixed a validation issue which allowed to players with the same FFE licence number to be added to the same tournament
 - Ability to note a player's withdraw/re-entry from the player record modal
+- Removed the background image option for Screens
 
 ## Version 3.1.7 - October 20, 2025
 - Fixed custom image picker
