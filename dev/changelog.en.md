@@ -19,6 +19,10 @@ separator: true
 - Printing of player norm certificates, complete with automatic verification of all norm criteria
 - Definition of the value of the Pairing Allocated Bye
 - Access to the player record from the Pairings tab
+- Fixed the display of the score of the current round on the player's history modal
+- Support for _Papi_ incompatible tie-breaks in the _Papi_ export and the _FFE_ upload
+- Fixed a validation issue which allowed to players with the same FFE licence number to be added to the same tournament
+- Ability to note a player's withdraw/re-entry from the player record modal
 
 ## Version 3.1.7 - October 20, 2025
 - Fixed custom image picker

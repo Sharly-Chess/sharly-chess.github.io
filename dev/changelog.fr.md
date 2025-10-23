@@ -19,6 +19,10 @@ separator: true
 - Impression des certificats de norme, avec vérification automatique de tous les critères de norme
 - Définition de la valeur des points attribués en cas d’exemption
 - Accès à la fiche du joueur depuis l’onglet Appariements
+- Correction de l'affichage du score de la ronde courante sur l'historique des joueur·euses
+- Support des départages non-compatibles avec _Papi_ lors de l'export _Papi_ et du téléversement _FFE_
+- Correction d’un problème de validation qui permettait d’ajouter deux joueurs avec le même numéro de licence FFE dans un même tournoi
+- Possibilité de noter l'abandon/le retour d'un·e joueur·euse depuis la modale d'historique des joueur·eses
 
 ## Version 3.1.7 - 20 octobre 2025
 - Correction de la selection des images de fond personnalisées
