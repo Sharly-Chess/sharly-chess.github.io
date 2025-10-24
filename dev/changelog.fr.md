@@ -11,6 +11,7 @@ separator: true
 
 ## :point_right: Version 3.2.0 - 27 octobre 2025
 - Activation du module _FFE_ uniquement pour les tournois organisés en France (c’est-à-dire lorsque la fédération de l'évènement est « FRA »)
+- Activation des modules par évènement
 - Gestion séparée des classements _FIDE_ et nationaux (les paramètres du tournoi précisent le type de classement à utiliser)
 - Disponibilité des tous les départages _FIDE_ standards
 - Disponibilité du système d’accélération de Bakou

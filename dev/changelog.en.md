@@ -11,6 +11,7 @@ separator: true
 
 ## :point_right: Version 3.2.0 - October 27, 2025
 - Activation of the _FFE_ module only for tournaments held in France (i.e., when the event federation is "FRA")
+- Activation of the modules per event
 - Separate management of _FIDE_ and national ratings (tournament settings specify the rating type to use)
 - Availability of all standard _FIDE_ tie-breaks
 - Availability of the Baku acceleration system
