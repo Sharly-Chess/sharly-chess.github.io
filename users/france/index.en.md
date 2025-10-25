@@ -13,7 +13,7 @@ nav_order: 500
 |---------------------|:-----:|:------:|:---:|-----------------------------------------------|
 | ADELINE Bruno       | AFE1  |  NOR   | 27  | Aile Roi Louviers                             |
 | ADRIAN Claude       | AF02  |  EST   | 57  | Vandoeuvre-Échecs                             |
-| AIDAOUI Brice       | AF02  |  PAC   | 06  | Echiquier d'Azur Frejus St Raphael            |
+| AIDAOUI Brice       | AF02  |  PAC   | 83  | Echiquier d'Azur Frejus St Raphael            |
 | AGUERO Pablo Daniel |       |  NAQ   | 40  | Dax Échiquier Dacquois                        |
 | ALLORY Pierre-Jean  | AFE1  |  BRE   | 22  | Émeraude Echecs                               |
 | ARMES Timothy       | AFO1  |  ARA   | 26  | Échiquier Romanais-Péageois                   |
