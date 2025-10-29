@@ -9,9 +9,9 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.2.0 - October 27, 2025
+## :point_right: Version 3.2.0 - October 29, 2025
 - Activation of the _FFE_ module only for tournaments held in France (i.e., when the event federation is "FRA")
-- Activation of the modules per event
+- Enable/disable plugins per event
 - Separate management of _FIDE_ and national ratings (tournament settings specify the rating type to use)
 - Availability of all standard _FIDE_ tie-breaks
 - Availability of the Baku acceleration system
@@ -19,6 +19,7 @@ separator: true
 - Publication of results to _Chess-Results.com_ (many thanks to Heinz Herzog for making this possible)
 - Printing of player norm certificates, complete with automatic verification of all norm criteria
 - Definition of the value of the Pairing Allocated Bye
+- Simplified application/event management UI
 - Access to the player record from the Pairings tab
 - Fixed the display of the score of the current round on the player's history modal
 - Support for _Papi_ incompatible tie-breaks in the _Papi_ export and the _FFE_ upload
@@ -26,6 +27,8 @@ separator: true
 - Ability to note a player's withdraw/re-entry from the player record modal
 - Removed the background image option for Screens
 - Clarify the error message in case of unknown federation in _ChessEvent_
+- Fixed Result entry Screens with illegal moves recording
+- Moved the log options to the console
 
 ## Version 3.1.7 - October 20, 2025
 - Fixed custom image picker

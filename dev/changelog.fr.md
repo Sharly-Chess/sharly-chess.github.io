@@ -9,9 +9,9 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.2.0 - 27 octobre 2025
+## :point_right: Version 3.2.0 - 29 octobre 2025
 - Activation du module _FFE_ uniquement pour les tournois organisés en France (c’est-à-dire lorsque la fédération de l'évènement est « FRA »)
-- Activation des modules par évènement
+- Activation/désactivation des modules par évènement
 - Gestion séparée des classements _FIDE_ et nationaux (les paramètres du tournoi précisent le type de classement à utiliser)
 - Disponibilité des tous les départages _FIDE_ standards
 - Disponibilité du système d’accélération de Bakou
@@ -19,6 +19,7 @@ separator: true
 - Publication des résultats vers _Chess-Results.com_ (un grand merci à Heinz Herzog pour avoir rendu cela possible)
 - Impression des certificats de norme, avec vérification automatique de tous les critères de norme
 - Définition de la valeur des points attribués en cas d’exemption
+- Simplification des interface de gestion de l'application et des évènements
 - Accès à la fiche du joueur depuis l’onglet Appariements
 - Correction de l'affichage du score de la ronde courante sur l'historique des joueur·euses
 - Support des départages non-compatibles avec _Papi_ lors de l'export _Papi_ et du téléversement _FFE_
@@ -26,6 +27,8 @@ separator: true
 - Possibilité de noter l'abandon/le retour d'un·e joueur·euse depuis la modale d'historique des joueur·eses
 - Suppression de l’option d’image de fond des écrans
 - Clarification du message d'erreur en cas de fédération inconnue dans _ChessEvent_
+- Correction des écrans de saisie avec enregistrement de coups illégaux
+- Déplacement des options de log vers la console
 
 ## Version 3.1.7 - 20 octobre 2025
 - Correction de la selection des images de fond personnalisées
