@@ -9,6 +9,27 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 3.2.0 - October 29, 2025
+- Activation of the _FFE_ module only for tournaments held in France (i.e., when the event federation is "FRA")
+- Enable/disable plugins per event
+- Separate management of _FIDE_ and national ratings (tournament settings specify the rating type to use)
+- Availability of all standard _FIDE_ tie-breaks
+- Availability of the Baku acceleration system
+- Definition of the acceleration pairing groups via pairing numbers replacing rating thresholds
+- Publication of results to _Chess-Results.com_ (many thanks to Heinz Herzog for making this possible)
+- Printing of player norm certificates, complete with automatic verification of all norm criteria
+- Definition of the value of the Pairing Allocated Bye
+- Simplified application/event management UI
+- Access to the player record from the Pairings tab
+- Fixed the display of the score of the current round on the player's history modal
+- Support for _Papi_ incompatible tie-breaks in the _Papi_ export and the _FFE_ upload
+- Fixed a validation issue which allowed to players with the same FFE licence number to be added to the same tournament
+- Ability to note a player's withdraw/re-entry from the player record modal
+- Removed the background image option for Screens
+- Clarify the error message in case of unknown federation in _ChessEvent_
+- Fixed Result entry Screens with illegal moves recording
+- Moved the log options to the console
+
 ## Version 3.1.7 - October 20, 2025
 - Fixed custom image picker
 - Fixed the display of board numbers on screen cards
@@ -18,7 +39,7 @@ separator: true
 
 ## Version 3.1.6 - October 12, 2025
 - Define the rating type of when importing tournaments from TRF files
-- Fixed the PAPI export of players without _FFE_ ID
+- Fixed the _PAPI_ export of players without _FFE_ ID
 
 ## Version 3.1.5 - October 8, 2025
 - Fixed the display of players with no first name
@@ -62,7 +83,7 @@ separator: true
 - Display the check-in status on check-in lists
 
 ## Version 3.0.11 - September 26, 2025
-- Fix Papi export and FFE upload
+- Fix _Papi_ export and _FFE_ upload
 
 ## Version 3.0.10 - September 26, 2025
 - Fixed estimated ratings for manually created players
@@ -83,11 +104,11 @@ separator: true
 - Fixed a bug preventing results upload
 
 ## Version 3.0.5 - September 13, 2025
-- Fixed the import of the Papi homologation number
+- Fixed the import of the _Papi_ homologation number
 - Optimized the write queries in the database
 
 ## Version 3.0.4 - September 9, 2025
-- Fixed a data difference on rankings in the Papi export
+- Fixed a data difference on rankings in the _Papi_ export
 
 ## Version 3.0.3 - September 7, 2025
 - Fixed players sort with no firstname
@@ -98,7 +119,7 @@ separator: true
 ## Version 3.0.2 - September 5, 2025
 - Fixed player search on the Pairings tab
 - Accents handling for local _FFE_ database search
-- Fixed Papi tournament import
+- Fixed _Papi_ tournament import
 - Fixed export buttons exporting the wrong tournament
 - Fixed printing of pairings in alphabetical order
 
@@ -108,9 +129,9 @@ separator: true
 - Fixed the display of timers on rotators and display controllers
 
 ## :point_right: Version 3.0.0 - September 1st, 2025
-- Remove Papi Access storage
-- Create tournaments from Papi files
-- Export tournaments to Papi format
+- Remove _Papi_ Access storage
+- Create tournaments from _Papi_ files
+- Export tournaments to _Papi_ format
 - Native macOS support (Apple Silicon Macs only)
 - Windows version is now recognised as signed by Microsoft Defender
 - Removed automatic renumbering of boards when manually pairing
@@ -123,7 +144,7 @@ separator: true
 - Added board IDs in case of fixed boards on screens
 - Added tie-breaks to Berger grids
 - Added a manual tie-break option
-- Added tie-breaks not compatible with Papi (experimental)
+- Added tie-breaks not compatible with _Papi_ (experimental)
 - Interactive time control editor
 - Added _FIDE_ titles on prize assignments printing
 - Restoring of archived events
@@ -142,7 +163,7 @@ separator: true
 
 ## Version 2.8.6 - August 6, 2025
 - Added alphabetical pairings print document
-- Fixed invalid _FIDE_ IDs in Papi files
+- Fixed invalid _FIDE_ IDs in _Papi_ files
 - Fixed the display of exit button on input screens
 - Fixed the names of the default screens
 - Added a button to create events from the Archives page
@@ -156,7 +177,7 @@ separator: true
 ## Version 2.8.3 - July 24, 2025
 - Fixed tournament editing form
 - Fixed PGN export players' title
-- Papi compatibility for using tie-break Performance for round-robin tournaments
+- _Papi_ compatibility for using tie-break Performance for round-robin tournaments
 - Omit _FFE_/_ChessEvent_ credentials when duplicating tournaments
 - Improved player filtering on players' name and club
 
@@ -250,7 +271,7 @@ separator: true
 - Optimized the load time of the events page
 - Added the lottery
 - Added PGN and TRF 16 exports
-- Alignment of performance calculation with Papi’s in the case of players with a full-point or half-point bye
+- Alignment of performance calculation with _Papi_’s in the case of players with a full-point or half-point bye
 - Fixed _ChessEvent_ birth dates prior to 1970-01-01
 
 ## Version 2.6.4 - May 25, 2025
