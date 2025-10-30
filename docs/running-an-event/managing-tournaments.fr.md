@@ -27,7 +27,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 | **Nombre maximum de demi-points joker** | Nombre maximal de demi-points joker (byes) qu’un·e joueur·euse peut demander. |
 | **Dernières rondes sans demi-points joker** | Nombre de rondes finales pendant lesquelles les demi-points joker ne sont pas autorisées. |
 
-Des [plugins]({% link docs/plugins/index.fr.md %}) peuvent ajouter des champs supplémentaires au formulaire de création selon leurs fonctionnalités.
+Des [plug-ins]({% link docs/plugins/index.fr.md %}) peuvent ajouter des champs supplémentaires au formulaire de création selon leurs fonctionnalités.
 
 ---
 

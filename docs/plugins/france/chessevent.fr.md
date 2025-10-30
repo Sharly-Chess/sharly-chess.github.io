@@ -9,10 +9,10 @@ nav_order: 500
 
 # Le plugin _ChessEvent_
 
-Le plugin **ChessEvent** permet d’interfacer _Sharly Chess_ avec la plateforme d’inscription _ChessEvent_ opérée par la Ligue de Bretagne des Échecs.
-En activant ce plugin, vous pouvez importer les inscriptions de tournois depuis la plateforme _ChessEvent_.
+Le plug-in **ChessEvent** permet d’interfacer _Sharly Chess_ avec la plateforme d’inscription _ChessEvent_ opérée par la Ligue de Bretagne des Échecs.
+En activant ce plug-in, vous pouvez importer les inscriptions de tournois depuis la plateforme _ChessEvent_.
 
-## Utilisation du plugin
+## Utilisation
 
 Pour récupérer les inscriptions d’un tournoi depuis la plateforme _ChessEvent_, vous devez renseigner les informations suivantes dans la configuration de l’_Événement_ :
 

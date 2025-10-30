@@ -7,9 +7,9 @@ page_id: ffe-plugin
 nav_order: 400
 ---
 
-# Le plugin _FFE_
+# Le plug-in _FFE_
 
-Le plugin _FFE_ fournit des fonctionnalités utiles pour organiser des tournois rattachés à la _**F**édération **F**rançaise des **É**checs_.
+Le plug-in _FFE_ fournit des fonctionnalités utiles pour organiser des tournois rattachés à la _**F**édération **F**rançaise des **É**checs_.
 
 {: .note }
 > :information_source: Le plug-in _FFE_ est automatiquement activé pour les tournois de la fédération « FRA ».

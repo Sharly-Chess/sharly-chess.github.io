@@ -7,6 +7,6 @@ page_id: plugins-france
 nav_order: 500
 ---
 
-# Plugins pour les compétitions françaises
+# Plug-ins pour les compétitions françaises
 
-Ces plugins sont utiles pour arbitrer des compétitions en France.
+Ces plug-ins sont utiles pour arbitrer des compétitions en France.
