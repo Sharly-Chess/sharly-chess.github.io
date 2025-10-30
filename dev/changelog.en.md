@@ -9,10 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.2.2 - October 30, 2025
+- Fix _Chess-Results_ upload
+
 ## Version 3.2.1 - October 30, 2025
 - Fix the player history modal before round 1 
 - Fix rounding issues in norm calculations 
-- Fix _Chess-Results_ upload
 
 ## :point_right: Version 3.2.0 - October 29, 2025
 - Activation of the _FFE_ module only for tournaments held in France (i.e., when the event federation is "FRA")
