@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.2.2 - 30 octobre 2025
+- Correction du téléversement sur _Chess-Results_
+
 ## Version 3.2.1 - 30 octobre 2025
 - Correction de la modale d'historique des joueur·euses avant la ronde 1
 - Correction des problèmes d'arrondi dans le calcul des normes
