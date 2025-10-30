@@ -16,11 +16,3 @@ Built with practical tournament needs for arbiters in mind, it also includes fun
 Unlike many other solutions, **no internet connection is required during tournaments**
 (you don't have to worry about network outages or the availability of an online server or hosting provider).
 
-## France specific-ish, for now...
-
-The current version of _Sharly Chess_ is **very** close to being suitable for chess tournaments organised anywhere in the world.
-However, there is still a small amount of work to do on tie-break handling — some of the current algorithms are not *entirely* _FIDE_-compliant,
-as they have been adapted to match the expectations of the French Chess Federation.
-
-If you can accept a small discrepancy in these calculations, you can already use _Sharly Chess_ for tournaments outside France.
-A fully compliant implementation will be available in the very near future.
