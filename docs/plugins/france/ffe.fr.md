@@ -9,16 +9,15 @@ nav_order: 400
 
 # Le plugin _FFE_
 
-Le plugin **FFE** fournit des fonctionnalités utiles pour organiser des tournois rattachés à la _**F**édération **F**rançaise des **É**checs_.
+Le plugin _FFE_ fournit des fonctionnalités utiles pour organiser des tournois rattachés à la _**F**édération **F**rançaise des **É**checs_.
 
 {: .note }
-> :information_source: Dans la version actuelle de _Sharly Chess_, le plugin _FFE_ ne peut pas être désactivé.
-Une méthode plus avancée pour gérer les plugins de fédération sera ajoutée dans une version future.
+> :information_source: Le plug-in _FFE_ est automatiquement activé pour les tournois de la fédération « FRA ».
 
 L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_ :
 
 - Possibilité de définir le numéro d’homologation _FFE_ du tournoi et le mot de passe associé.
-- Envoi automatique automatique des résultats du tournoi sur le site de la _FFE_.
+- Envoi automatique des résultats du tournoi sur le site de la _FFE_.
 - Envoi manuel des résultats sur le site de la _FFE_.
 - Import et export de fichiers PAPI.
 - Recherche de joueur·euses depuis la base de données en ligne fournie par la _FFE_.
@@ -29,3 +28,48 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 - Accès facile aux actions sur le site de la _FFE_ : dépôt du règlement, gestion de la visibilité du tournoi et téléchargement des droits.
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.
 - Critères de prix supplémentaires pour les ligues.
+
+## Foire Aux Questions
+
+{% details Pourquoi les classements des joueur·euses ne correspondent-ils pas entre la base _FFE_ en ligne et la base _FFE_ locale ? %}
+
+  Il y a effectivement un différentiel entre les types des classements (_FIDE_, nationaux et estimés) dans les deux bases fédérales, comme on le voit sur les images ci-dessous.
+
+  {: .text-center}
+  ![Différences de classements entre la base _FFE_ en ligne et la base _FFE_ locale](/assets/faq/faq-ffe-rankings.fr.jpg)
+
+  Ce problème existe depuis plusieurs années (il a été signalé plusieurs fois à la _FFE_ mais n'a jamais été corrigé). Contrairement à _Papi_, _Sharly Chess_ affiche les différences constatées avant de les appliquer et c'est pour cela que les arbitres ne découvrent ce problème qu'aujourd'hui.
+
+  Pratiquement, **il est conseillé de se référer à la base _FFE_ en ligne et n'utiliser la base _FFE_ locale qu'en secours** (lorsque la base _FFE_ n'est pas accessible ou sans connexion à internet).
+{% enddetails %}
+
+{% details Comment met-on en ligne les résultats sur le site _FFE_ ? %}
+
+  Une fois le plug-in activé, la mise en ligne des résultats se fait dans l'onglet Mettre en ligne (cartouche de gauche) :
+
+  {: .text-center}
+  ![Onglet Mettre en ligne](/assets/faq/faq-ffe-upload-1.fr.jpg)
+
+  {: .text-center}
+  ![Mise en ligne des tournois sur le site _FFE_](/assets/faq/faq-ffe-upload-2.fr.jpg)
+
+  La mise en ligne automatique peut-être activée pour chaque tournoi dont on a renseigné les identifiants _FFE_ :
+
+  {: .text-center}
+  ![Activation de la mise en ligne automatique pour un tournoi](/assets/faq/faq-ffe-upload-3.fr.jpg)
+
+  {: .text-center}
+  ![Mise en ligne automatiques activée](/assets/faq/faq-ffe-upload-4.fr.jpg)
+
+  La configuration par défaut des tournois se fait au niveau de l'évènement :
+
+  {: .text-center}
+  ![Configuration de la mise en ligne automatique par défaut](/assets/faq/faq-ffe-upload-5.fr.jpg)
+
+{% enddetails %}
+
+<script>
+  if (location.hash) {
+    document.querySelector(location.hash)?.setAttribute("open", "");
+  }
+</script>

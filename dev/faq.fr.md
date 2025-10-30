@@ -11,9 +11,11 @@ nav_order: 800
 ## L'application
 
 {% details Peut-on restreindre l'accès à l'interface d'arbitrage ? %}
-  L'interface d'arbitrage est accessible depuis le serveur seulement, sur l'URL locale (`http://localhost` ou `http://127.0.0.1`).
+  L'interface d'administration, qui permet toutes les opérations sur le serveur, est accessible depuis le serveur seulement, sur l'URL locale (`http://localhost` ou `http://127.0.0.1`).
 
-  Si la saisie des résultats est effectuée sur le serveur web, ouvrez l'interface publique (`http://192.168.x.x`) et les pages d'arbitrage ne seront pas accessibles.
+  Pour accéder depuis le serveur aux pages publiques comme depuis un client (pour le pointage et la saisie des résultats), connectez-vous à l'interface publique (`http://192.168.x.x`) et les pages d'arbitrage ne seront par défaut pas accessibles.
+
+  Vous pouvez enfin déléguer certaines opérations d'arbitrage à des clients dans l'[onglet Staff]({% link docs/network/staff.fr.md %}).
 {% enddetails %}
 
 {% details id:standard-rating caption:"Pourquoi existe-t-il une option permettant d’utiliser le classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz ?"  %}
@@ -118,9 +120,3 @@ L'heure des chronomètres affichée sur les clients est l'heure des clients (pas
 
   (ici le port `80` est utilisé par un autre serveur web `httpd.exe`)
 {% enddetails %}
-
-<script>
-  if (location.hash) {
-    document.querySelector(location.hash)?.setAttribute("open", "");
-  }
-</script>
