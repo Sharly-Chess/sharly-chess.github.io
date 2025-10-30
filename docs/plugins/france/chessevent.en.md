@@ -12,7 +12,7 @@ nav_order: 500
 The **ChessEvent** plugin allows you to interface with the _ChessEvent_ registration platform operated by the Brittany Chess League.
 Activating this plugin allows you to import tournament registrations from the _ChessEvent_ platform.
 
-## Using the Plugin
+## Usage
 
 To retrieve tournament registrations from the _ChessEvent_ platform, you must specify the following information in the _Event_ configuration:
 
@@ -20,7 +20,7 @@ To retrieve tournament registrations from the _ChessEvent_ platform, you must sp
 - the password used to log in to the _ChessEvent_ platform
 - the _ChessEvent_ event ID (on the _ChessEvent_ platform)
 
-## Exemple
+## Example
 
 {% figure [caption: "Example event on the _ChessEvent_ platform"] %}
 ![Example event on the _ChessEvent_ platform](/assets/images/chessevent/chessevent-example.jpg)

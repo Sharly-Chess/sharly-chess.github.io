@@ -12,7 +12,7 @@ nav_order: 400
 The **FFE** plugin provides functionality that's useful for running tournaments associated with the **French Chess Federation** (the _**F**édération **F**rançaise des **É**checs_).
 
 {: .note }
-> :information_source: In the current version of _Sharly Chess_, the _FFE_ plugin can't be deactivated. A more advanced method for handling federation plugins will be added in a future version.
+> :information_source: The _FFE_ plugin is automatically actived for tournaments of federation "FRA".
 
 Enabling the plugin adds a number of a features to _Sharly Chess_:
 
@@ -28,3 +28,48 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - Easy access to actions on the _FFE_ website: submitting regulations, managing tournament visibility, and downloading fees.
 - _FFE_ specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
+
+## Frequently Asked Questions
+
+{% details Why do the player rankings not match between the online and the local _FFE_ databases? %}
+
+  There is indeed a difference between the types of rankings (_FIDE_, national and estimated) in the two federal databases (see below).
+
+  {: .text-center}
+  ![Ranking differences between the online and local _FFE_ databases](/assets/faq/faq-ffe-rankings.en.jpg)
+
+  This problem has existed for several years (it has been reported to the _FFE_ several times but has never been fixed). Unlike _Papi_, _Sharly Chess_ displays the observed differences before applying them, which is why arbiters are only now discovering this problem.
+
+  In practice, **it is advisable to refer to the online _FFE_ database and only use the local _FFE_ database as a backup** (when the _FFE_ database is not available or there is no internet connection). 
+{% enddetails %}
+
+{% details How do we upload results to the _FFE_ website? %}
+
+  Once the plugin is activated, results can be uploaded thanks to the Upload tab (left panel):
+
+  {: .text-center}
+  ![Upload tab](/assets/faq/faq-ffe-upload-1.en.jpg)
+
+  {: .text-center}
+  ![Uploading tournaments to the _FFE_ website](/assets/faq/faq-ffe-upload-2.en.jpg)
+
+  Automatic upload can be enabled for each tournament for which _FFE_ credentials have been entered:
+
+  {: .text-center}
+  ![Enabling automatic upload for a tournament](/assets/faq/faq-ffe-upload-3.en.jpg)
+
+  {: .text-center}
+  ![Automatic upload enabled](/assets/faq/faq-ffe-upload-4.en.jpg)
+
+  The default tournament configuration is done at the event level:
+
+  {: .text-center}
+  ![Configuring the default automatic upload](/assets/faq/faq-ffe-upload-5.en.jpg)
+
+{% enddetails %}
+
+<script>
+  if (location.hash) {
+    document.querySelector(location.hash)?.setAttribute("open", "");
+  }
+</script>

@@ -12,7 +12,7 @@ Les sources de données sont utilisées pour rechercher des joueur·euses lors d
 
 Pour pouvoir ajouter des joueur·euses depuis la **base de données _FIDE_**, celle-ci doit d’abord être téléchargée et installée localement sur votre machine via _Sharly Chess_.
 
-Des [plugins]({% link docs/plugins/index.fr.md %}) peuvent également fournir d’autres bases de données fonctionnant de la même manière, ou bien ajouter la prise en charge de bases en ligne.
+Des [plug-ins]({% link docs/plugins/index.fr.md %}) peuvent également fournir d’autres bases de données fonctionnant de la même manière, ou bien ajouter la prise en charge de bases en ligne.
 
 ## Installer des bases de données sur votre machine
 

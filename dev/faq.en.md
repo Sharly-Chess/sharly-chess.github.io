@@ -11,9 +11,13 @@ nav_order: 800
 ## Application
 
 {% details Can access to the arbitration interface be restricted? %}
-  The arbitration interface is accessible only from the server itself, on the local URL (`http://localhost` or `http://127.0.0.1`).
+  The administration interface, which allows any operation, is accessible only from the server itself, via the local URL (`http://localhost` or `http://127.0.0.1`).
 
-  If result entry is performed on the web server, open the public interface (`http://192.168.x.x`) and the arbitration pages will not be accessible.
+  To access the public pages from the server as if you were on a client (for check-in and results entry), connect to the public interface (`http://192.168.x.x`).
+  The arbitration pages will be inaccessible by default on this interface.
+
+  Finally, you can delegate some arbitration tasks to clients in the [Staff tab]({% link docs/network/staff.en.md %}).
+
 {% enddetails %}
 
 {% details id:standard-rating caption:"Why is there an option to use the standard rating for unrated players in rapid and blitz games?" %}
@@ -106,7 +110,7 @@ nav_order: 800
   Verify that the file has been properly restored at the root of the _Sharly Chess_ directory.
 {% enddetails %}
 
-{% details What to so if all candidate ports [`80`, `81`, `8080`, `8081`] are already in use? %}
+{% details What to do if all candidate ports [`80`, `81`, `8080`, `8081`] are already in use? %}
 
   _Sharly Chess_'s server uses several predefined ports to respond to client requests (screen display, score entry, etc.).
 

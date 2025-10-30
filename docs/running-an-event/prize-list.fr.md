@@ -46,7 +46,7 @@ Vous pouvez ajouter un ou plusieurs filtres à chaque catégorie pour limiter le
 - **fédérations** : restreindre la catégorie à certaines fédérations nationales.
 
 {: .note }
-> :information_source: Des plugins peuvent proposer d’autres critères.
+> :information_source: Des plug-ins peuvent proposer d’autres critères.
 
 ## Types et valeurs des prix
 

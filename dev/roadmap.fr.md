@@ -33,4 +33,4 @@ nav_order: 700
 ## À plus long terme
 
 * Gestion des compétitions par équipes
-* Prise en charge de plugins fédéraux autres que celui de la Fédération Française des Échecs (les développeur·euse·s intéressé·e·s sont invité·e·s à [nous contacter]({% link docs/getting-started/getting-support.fr.md %}))
+* Prise en charge de plug-ins fédéraux autres que celui de la Fédération Française des Échecs (les développeur·euse·s intéressé·e·s sont invité·e·s à [nous contacter]({% link docs/getting-started/getting-support.fr.md %}))

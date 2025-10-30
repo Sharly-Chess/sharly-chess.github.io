@@ -43,7 +43,7 @@ separator: true
 
 ## Version 3.1.5 - 8 octobre 2025
 - Correction de l'affichage des joueur·euses sans prénom
-- Correction de l'activation du plugin ChessEvent
+- Correction de l'activation du plug-in ChessEvent
 
 ## Version 3.1.4 - 6 octobre 2025
 - Correction de l'import d'évènements depuis une version ≤ 2.4.18
@@ -155,7 +155,7 @@ separator: true
 - Correction de l'importation des joueur·euses avec titres _FIDE_ de candidat·e depuis le serveur _FFE_ en ligne
 
 ## Version 2.8.8 - 12 août 2025
-- Correction d'erreurs liées à l'activation du plugin _ChessEvent_
+- Correction d'erreurs liées à l'activation du plug-in _ChessEvent_
 
 ## Version 2.8.7 - 10 août 2025
 - Correction d'une erreur de duplication d'anciens appariements en cas d'erreurs de BbpPairings
