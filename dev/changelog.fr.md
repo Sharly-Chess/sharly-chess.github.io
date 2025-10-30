@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.2.1 - 30 octobre 2025
+- Correction de la modale d'historique des joueur·euses avant la ronde 1
+- Correction des problèmes d'arrondi dans le calcul des normes
+- Correction du téléversement sur _Chess-Results_
+
 ## :point_right: Version 3.2.0 - 29 octobre 2025
 - Activation du module _FFE_ uniquement pour les tournois organisés en France (c’est-à-dire lorsque la fédération de l'évènement est « FRA »)
 - Activation/désactivation des modules par évènement
