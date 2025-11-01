@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.2.3 - 1er novembre 2025
+- Correction de l'affichage des appariements par ordre alphabétique
+- Utilisation des classement _FIDE_ pour les évènements _FFE_
+- Lors de l'ajout de rondes supplémentaires, ajout de forfaits aux joueur·euses ayant quitté le tournoi pour ces nouvelles rondes
+- Correction de l'historique des joueur·euses à la dernière ronde
+
 ## Version 3.2.2 - 30 octobre 2025
 - Correction du téléversement sur _Chess-Results_
 
