@@ -1,0 +1,12 @@
+{% assign pages = include.pages | default: site.html_pages %}
+{% assign sorted_pages = pages | sort: 'nav_order' %}
+<ul>
+  {% for page in sorted_pages %}
+    {% if page.parent == include.parent %}
+      <li>
+        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        {% include recursive_nav.html pages=pages parent=page.title %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

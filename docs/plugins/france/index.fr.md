@@ -9,4 +9,4 @@ nav_order: 500
 
 # Plug-ins pour les compétitions françaises
 
-Ces plug-ins sont utiles pour arbitrer des compétitions en France.
+Ces plug-ins sont utiles pour arbitrer des compétitions en France. Ils ne sont disponibles que lorsque la fédération de l'évènement est « FRA ».

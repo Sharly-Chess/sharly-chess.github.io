@@ -9,6 +9,9 @@ nav_order: 400
 
 # The _FFE_ Plugin
 
+{: .note }
+> :information_source: Dependencies: Accelerated pairings
+
 The **FFE** plugin provides functionality that's useful for running tournaments associated with the **French Chess Federation** (the _**F**édération **F**rançaise des **É**checs_).
 
 {: .note }
