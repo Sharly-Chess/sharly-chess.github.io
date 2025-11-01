@@ -23,12 +23,12 @@ nav_order: 700
 | _Sharly Chess_ 3.0 |  Sep 1st, 2025 | Dropping of Papi format<br/>macOS support                                                                  |          ✅           | Oct 27th, 2025 |
 | _Sharly Chess_ 3.1 |  Oct 1st, 2025 | Délégation par niveau d'accès<br/>TRF import/export                                                        |          ✅           |                |
 | _Sharly Chess_ 3.2 | Oct 27th, 2025 | Baku acceleration<br/>Player norms<br/>Support for all _FIDE_ tie-breaks<br/>Upload to _Chess-Results.com_ |          ✅           |                |
+| _Sharly Chess_ 3.3 |      Nov, 2025 | UI improvements<br/>Management of _FFE_ scolastic tournaments<br/>Place Cards                              |          ✅           |              - |
 
 ## Coming soon
 
 * Support for draft/published round status
 * _FIDE_ performances
-* Printing of name cards
 
 ## Longer term
 

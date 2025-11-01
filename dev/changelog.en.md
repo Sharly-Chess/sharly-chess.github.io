@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.2.3 - November 1, 2025
+- Fixed alphabetical screens display
+- Force _FIDE_ rating for _FFE_ events
+- When adding rounds, Add ZPBs to withdraw players for these new rounds
+
 ## Version 3.2.2 - October 30, 2025
 - Fix _Chess-Results_ upload
 
