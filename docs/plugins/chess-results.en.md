@@ -7,9 +7,9 @@ page_id: plugins-chess-results
 nav_order: 200
 ---
 
-This plugin allows uploading the tournaments to the [_Chess-Results.com_](https://chess-results.com/Default.aspx?lan=1) website.  
+This plug-in allows you to publish tournaments on the [_Chess-Results.com_](https://chess-results.com/Default.aspx?lan=1) website.
 
-You can do it manually from the left navigation bar (`Upload` > `Chess-Results.com`). 
-Once a tournament has been uploaded, you can enable the auto-upload such that any modification of the tournament would be updated in real time.  
+Manual uploading can be accessed from the side bar (`Upload` > `Chess-Results.com`).
+You can also enable automatic uploads (via the tournament settings) so that any changes to the tournament are updated in real time on Chess-Results.com.
 
-You will find on the tournaments tab the links to access the management interface of the tournaments on the website.
+On the Tournaments tab, the tournament cards will provide links to access the tournament management interface on the Chess-Results.com website.
