@@ -9,7 +9,10 @@ nav_order: 400
 
 # The _FFE_ Plugin
 
-The **FFE** plugin provides functionality that's useful for running tournaments associated with the **French Chess Federation** (the _**F**édération **F**rançaise des **É**checs_).
+{: .note }
+> :information_source: Dependencies: Accelerated pairings
+
+The _FFE_ plugin provides functionality that's useful for running tournaments associated with the **French Chess Federation** (the _**F**édération **F**rançaise des **É**checs_).
 
 {: .note }
 > :information_source: The _FFE_ plugin is automatically actived for tournaments of federation "FRA".

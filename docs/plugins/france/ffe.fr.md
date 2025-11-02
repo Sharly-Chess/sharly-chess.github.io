@@ -9,6 +9,9 @@ nav_order: 400
 
 # Le plug-in _FFE_
 
+{: .note }
+> :information_source: Dépendances : Appariements accélérés
+
 Le plug-in _FFE_ fournit des fonctionnalités utiles pour organiser des tournois rattachés à la _**F**édération **F**rançaise des **É**checs_.
 
 {: .note }
