@@ -10,7 +10,7 @@ nav_order: 500
 # The _ChessEvent_ Plugin
 
 {: .note }
-> :information_source: Dependencies: FFE
+> :information_source: Dependencies: _FFE_
 
 The **ChessEvent** plugin allows you to interface with the _ChessEvent_ registration platform operated by the Brittany Chess League.
 Activating this plugin allows you to import tournament registrations from the _ChessEvent_ platform.

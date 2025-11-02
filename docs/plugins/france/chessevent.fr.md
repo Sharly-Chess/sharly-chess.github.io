@@ -10,7 +10,7 @@ nav_order: 500
 # Le plugin _ChessEvent_
 
 {: .note }
-> :information_source: Dépendances : FFE
+> :information_source: Dépendances : _FFE_
 
 Le plug-in **ChessEvent** permet d’interfacer _Sharly Chess_ avec la plateforme d’inscription _ChessEvent_ opérée par la Ligue de Bretagne des Échecs.
 En activant ce plug-in, vous pouvez importer les inscriptions de tournois depuis la plateforme _ChessEvent_.
