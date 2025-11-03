@@ -97,3 +97,15 @@ Prints the list of prizes defined for the tournament. According to _FIDE_ regula
 ## Prize Assignment
 
 Once the tournament is complete, you can generate the list of prize winners based on final standings.
+
+---
+
+## Place cards
+
+_Sharly Chess_ offers three printing options for creating place cards:
+
+- **Player cards** add a touch of class to your event and make it easier for players to fill in their scoresheets.
+- **Board cards** display the board numbers, helping players quickly locate their seats.
+- **Pairing cards** combine both board numbers and player information for complete round visibility
+
+- [Place Cards Customization Guide]({% link docs/printing/place-cards.en.md %})

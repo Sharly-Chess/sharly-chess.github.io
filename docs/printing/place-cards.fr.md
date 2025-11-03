@@ -7,46 +7,38 @@ page_id: place-cards
 nav_order: 352
 ---
 
-# Personalisation des chevalets
+# Guide de personnalisation des chevalets
 
-Par défaut, _Sharly Chess_ offre trois impressions spécifiques pour réaliser des chevalets de table :
+_Sharly Chess_ offre la possibilité d'imprimer des chevalets de table standards :
 
 - **chevalets d'échiquier**, avec simplement les numéros de table, qui permettent aux joueur·euses de se repérer facilement dans la salle ;
 - **chevalets des joueur·euses**, qui donne un standing aux évènements et facilitent la saisie des feuilles de partie ;
 - **chevalets d'appariement**, qui permettent d'afficher sur les tables à la fois les numéros de table et les informations des joueur·euses. 
 
-Pour chaque type de chevalet, un modèle par défaut est proposé.
-
-Il est également possible de personnaliser les chevalets, au niveau du texte et des images.
+Cette page explique comment personnaliser les chevalets.
 
 ## Par où commencer ?
 
 Pour imprimer un jeu de chevalets personnalisés, il faut :
 - créer le dossier `place_cards/` dans le dossier `custom`
 - créer un dossier dans `custom/place_cards`, par exemple `custom/place_cards/essai`
-- créer un fichier avec l'extension `.template` dans ce dossier, par exemple `custom/place_cards/essai/echiquiers.template`.
+- créer un modèle (fichier avec l'extension `.template`) dans ce dossier, par exemple `custom/place_cards/essai/echiquiers.template`.
 
 Ce fichier au format TOML va vous permettre une personnalisation complète à l'aide de directives très simples.
 
-Il est enfin possible de s'inspirer des modèles proposés par défaut par _Sharly Chess_ :
-
-- [chevalets de joueur·euse (`type = "player"`)](https://raw.githubusercontent.com/Sharly-Chess/sharly-chess/refs/heads/dev/src/web/templates/admin/print/place_cards/player.template)
-- [chevalets d'échiquier (`type = "board"`)](https://raw.githubusercontent.com/Sharly-Chess/sharly-chess/refs/heads/dev/src/web/templates/admin/print/place_cards/board.template)
-- [chevalets d'appariement (`type = "pairing"`)](https://raw.githubusercontent.com/Sharly-Chess/sharly-chess/refs/heads/dev/src/web/templates/admin/print/place_cards/pairing.template)
+N'hésitez pas à vous inspirer des modèles déjà existants de _Sharly Chess_, que vous pouvez télécharger et adapter à vos besoins (voir la bibliothèque de chevalets en bas de cette page).
 
 ## Propriétés générales des chevalets
 
-| Nom             | Signification                                                                                                                                                           |
-|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `type`          | Le type de chevalet :<ul><li>`player` (chevalet de joueur·euse, par défaut)</li><li>`board` (chevalet d'échiquier)</li><li>`pairing` (chevalet d'appariement)</li></ul> |
-| `name`          | Le nom du modèle, utilisé pour choisir par mi les modèles existants (par défaut le nom du fichier de modèle).                                                           |
-| `creator`       | Le créateur du modèle, visible dans la description du modèle.                                                                                                           |
-| `unit`          | L'unité de mesure : `mm` (millimètre, par défaut) ou `in` (pouce).                                                                                                      |
-| `padding`       | L'espace intérieur des chevalets (pour faciliter la découpe), par ex. `2.5`.                                                                                            |
-| `cutting_marks` | Les marques de coupe : `corners` (par défaut), `border` ou `none`.                                                                                                      |
-| `font`          | Un fichier de police TrueType (ce fichier doit être présent dans le dossier `custom/place_cards/fonts`.                                                                 |
-| `css`           | Do code CSS additionnel.                                                                                                                                                |
-| `js`            | Do code JavaScript additionnel.                                                                                                                                         |
+| Name         | Meaning                                                                                                                                                                 |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `type`       | Le type de chevalet :<ul><li>`player` (chevalet de joueur·euse, par défaut)</li><li>`board` (chevalet d'échiquier)</li><li>`pairing` (chevalet d'appariement)</li></ul> |
+| `name`       | Le nom du modèle, utilisé pour choisir parmi les modèles existants (par défaut le nom du fichier de modèle).                                                            |
+| `unit`       | L'unité de mesure utilisée pour dimensionner la carte et positionner les éléments : `mm` (millimètre, par défaut) ou `in` (pouce).                                      |
+| `padding`    | L'espace intérieur des chevalets (pour faciliter la découpe), par ex. `2.5`.                                                                                            |
+| `crop_marks` | Les marques de coupe : `corners` (par défaut), `border` ou `none`.                                                                                                      |
+| `font`       | Un fichier de police TrueType (ce fichier doit être présent dans le dossier `custom/place_cards/fonts`.                                                                 |
+| `css`        | Du code CSS additionnel.                                                                                                                                                |
 
 Toutes les propriétés sont optionnelles, on utilisera par exemple :
 
@@ -56,10 +48,9 @@ name = "Chevalets de joueur·euses"
 creator = "Moi <moi@home.org>"
 unit = "mm"
 padding = 2.5
-cutting_marks = "corners"
+crop_marks = "corners"
 font = "my_font.ttf"
 css = "body { background-color: #ddd }"
-js = "alert('Vive Sharly Chess !')"
 ```
 
 Ou plus simplement :
@@ -70,7 +61,7 @@ name = "Chevalets nominatifs"
 ```
 
 {: .warning }
-> :warning: L'utilisation des propriétés `css` et `javascript` est réservée aux utilisateur·ices avancé·es.
+> :warning: L'utilisation de la propriété `css` est réservée aux utilisateur·ices avancé·es.
 
 ## Éléments des chevalets
 
@@ -92,32 +83,32 @@ h_align = "right"
 
 Les élements textuels peuvent afficher les informations des joueur·euses, ainsi que d'autres informations sur l'échiquier (pour les chevalets d'échiquier et d'appariement), le tournoi et l'évènement :
 
-| Information              | Signification                                                                      |     Disponibilité      |
-|--------------------------|------------------------------------------------------------------------------------|:----------------------:|
-| `event.name`             | Le nom de l'évènement                                                              |        toujours        |
-| `event.start`            | La date de début de l'évènement (utiliser `event.start.year\|month\|day`)          |        toujours        |
-| `event.stop`             | La date de fin de l'évènement (utiliser `event.stop.year\|month\|day`)             |        toujours        |
-| `tournament.name`        | Le nom du tournoi                                                                  |        toujours        |
-| `tournament.start`       | La date de début du tournoi (utiliser `tournament.start.year\|month\|day`)         |        toujours        |
-| `tournament.stop`        | La date de fin du tournoi (utiliser `tournament.stop.year\|month\|day`)            |        toujours        |
-| `board.number`           | Le numéro de l'échiquier                                                           |   `board`, `pairing`   |
-| `board.white_player`     | Le joueur avec les Blancs                                                          |       `pairing`        |
-| `board.black_player`     | Le joueur avec les Noirs                                                           |       `pairing`        |
-| `player.fullname`        | Le nom complet du·de la joueur·euse (dépendant de la langue)                       |        `player`        |
-| `player.firstname`       | Le prénom du·de la joueur·euse                                                     |        `player`        |
-| `player.lastname`        | Le nom de famille du·de la joueur·euse                                             |        `player`        |
-| `player.rating`          | Le classement du·de la joueur·euse, utilisé pour les appariements du tournoi       |        `player`        |
-| `player.rating_type`     | Le type de classement du·de la joueur·euse (`F`=FIDE, `N`=National, `E`=Estimated) |        `player`        |
-| `player.year_of_birth`   | L'année de naissance du·de la joueur·euse (chaine de caractères)                   |        `player`        |
-| `player.gender`          | Le genre du·de la joueur·euse, sur une lettre                                      |        `player`        |
-| `player.title`           | Le titre FIDE du·de la joueur·euse, le cas échéant                                 |        `player`        |
-| `player.federation`      | : La fédération du·de la joueur·euse, sur trois lettres                            |        `player`        |
-| `player.federation_flag` | Le drapeau de la fédération du·de la joueur·euse (balise `<img>`)                  |        `player`        |
-| `player.club`            | Le club du·de la joueur·euse, le cas échéant                                       |        `player`        |
-| `player.category`        | La catégorie du·de la joueur·euse (chaine de caractères)                           |        `player`        |
+| Information              | Signification                                                                   |     Disponibilité      |
+|--------------------------|---------------------------------------------------------------------------------|:----------------------:|
+| `event.name`             | Le nom de l'évènement                                                           |        toujours        |
+| `event.start`            | La date de début de l'évènement (utiliser `event.start.year\|month\|day`)       |        toujours        |
+| `event.stop`             | La date de fin de l'évènement (utiliser `event.stop.year\|month\|day`)          |        toujours        |
+| `tournament.name`        | Le nom du tournoi                                                               |        toujours        |
+| `tournament.start`       | La date de début du tournoi (utiliser `tournament.start.year\|month\|day`)      |        toujours        |
+| `tournament.stop`        | La date de fin du tournoi (utiliser `tournament.stop.year\|month\|day`)         |        toujours        |
+| `board.number`           | Le numéro de l'échiquier                                                        |   `board`, `pairing`   |
+| `board.white_player`     | Le joueur avec les Blancs                                                       |       `pairing`        |
+| `board.black_player`     | Le joueur avec les Noirs                                                        |       `pairing`        |
+| `player.full_name`       | Le nom complet du·de la joueur·euse (dépendant de la langue)                    |        `player`        |
+| `player.first_name`      | Le prénom du·de la joueur·euse                                                  |        `player`        |
+| `player.last_name`       | Le nom de famille du·de la joueur·euse                                          |        `player`        |
+| `player.rating`          | Le classement du·de la joueur·euse, utilisé pour les appariements du tournoi    |        `player`        |
+| `player.rating_type`     | Le type de classement du·de la joueur·euse (`F`=FIDE, `N`=National, `E`=Estimé) |        `player`        |
+| `player.year_of_birth`   | L'année de naissance du·de la joueur·euse                                       |        `player`        |
+| `player.gender`          | Le genre du·de la joueur·euse, sur une lettre                                   |        `player`        |
+| `player.title`           | Le titre _FIDE_ du·de la joueur·euse, le cas échéant                            |        `player`        |
+| `player.federation`      | La fédération du·de la joueur·euse, sur trois lettres                           |        `player`        |
+| `player.federation_flag` | Le drapeau de la fédération du·de la joueur·euse                                |        `player`        |
+| `player.club`            | Le club du·de la joueur·euse, le cas échéant                                    |        `player`        |
+| `player.category`        | La catégorie du·de la joueur·euse                                               |        `player`        |
 
 {: .note }
-> :information_source: Il est possible d'accéder aux informations des joueur·euses `board.white_player` et `board.black_player` pour les chevalets d'appariement, par exemple `board.white_player.fullname`.  
+> :information_source: Il est possible d'accéder aux informations des joueur·euses `board.white_player` et `board.black_player` pour les chevalets d'appariement, par exemple `board.white_player.full_name`.  
 
 {: .note }
 > :information_source: Les plug-ins peuvent ajouter des informations supplémentaires à celles proposées ci-dessus.  
@@ -139,12 +130,13 @@ v_align = "bottom"
 
 ## Formatage des chevalets
 
-### Styles par défaut (`[default]`)
+### Styles
 
-Des styles par défaut peuvent être appliqués à tous les éléments des chevalets à l'aide de la section `[default]` :
+Des styles peuvent être appliqués :
+- à tous les éléments (déclaration dans l'entête du fichier TOML) ;
+- individuellement à chacun des éléments (dans la section de l'élément).
 
 ```
-[default]
 font_size = 14.0
 bold = false
 italic = false
@@ -164,7 +156,7 @@ Pour des chevalets recto-verso différenciés, il suffit d'indiquer pour les él
 
 ## Référence des propriétés des éléments
 
-### Référence (styles par défaut et élements)
+### Styles (modèles et élements)
 
 | Nom                | Signification                                                               |
 |--------------------|-----------------------------------------------------------------------------|
@@ -178,21 +170,28 @@ Pour des chevalets recto-verso différenciés, il suffit d'indiquer pour les él
 | `v_pos`            | Le positionnement vertical (par rapport à la marge ou au milieu).           |
 | `opacity`          | L'opacité, de `0.0` (transparent) à `1.0` (totalement opaque).              |
 | `background_color` | La couleur de fond (`#nnn`, `#nnnnnn`, `color`, `rbg(nnn, nnn, nnn)`, ...). |
-| `color`            | La couleur (texte seulement)).                                              |
+| `color`            | La couleur (texte seulement).                                               |
+| `width`            | La largeur du chevalet ou de l'élément.                                     |
+| `height`           | La hauteur du chevalet ou de l'élément.                                     |
 
-### Référence (élements seulement)
+### Élements seulement
 
-| Nom         | Signification                                                                         |
-|-------------|---------------------------------------------------------------------------------------|
-| `display`   | `true` pour afficher l'élément, `false` pour la cacher.                               |
-| `width`     | La largeur de l'élément.                                                              |
-| `height`    | La hauteur de l'élément.                                                              |
-| `max_width` | La largeur maximale.                                                                  |
-| `rotate`    | La rotation de l'élément (en degrés).                                                 |
-| `text`      | Le texte de l'élément.                                                                |
-| `image`     | Le nom du fichier d'image (doit être dans le sous-dossier `images`).                  |
-| `side`      | `front` pour faire figurer l'élément sur le recto (par défaut), `back` pour le verso. |
+| Nom            | Signification                                                                         |
+|----------------|---------------------------------------------------------------------------------------|
+| `display`      | `true` pour afficher l'élément, `false` pour la cacher.                               |
+| `max_width`    | La largeur maximale.                                                                  |
+| `rotate`       | La rotation de l'élément (en degrés).                                                 |
+| `text`         | Le texte de l'élément.                                                                |
+| `preview_text` | Le texte utilisé en prévisualisation.                                                 |
+| `image`        | Le nom du fichier d'image (doit être dans le sous-dossier `images`).                  |
+| `side`         | `front` pour faire figurer l'élément sur le recto (par défaut), `back` pour le verso. |
 
 ## Export des chevalets
 
 Si vous souhaitez envoyer les chevalets que vous avez générés (par exemple pour les confier à quelqu'un pour l'impression), il suffit d'enregistrer le fichier HTML produit (tous les éléments y compris les images et les polices sont contenues dans un seul fichier HTML). 
+
+## Bibliothèque de chevalets
+
+la bibliothèque ci-dessous comprend les chevalets standards de _Sharly Chess_ et quelques exemples. N'hésitez pas à contribuer en nous envoyant vos plus beaux chevalets !
+
+{% include_relative place-cards-library-fr.md  %}
