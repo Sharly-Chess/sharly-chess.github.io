@@ -28,10 +28,6 @@ Pour imprimer un jeu de chevalets personnalisés, il faut :
 
 Ce fichier au format TOML va vous permettre une personnalisation complète à l'aide de directives très simples.
 
-Pour plus de facilité, vous pouvez également télécharger quelques fichiers d'exemple :
-
-- **À COMPLÉTER**
-
 Il est enfin possible de s'inspirer des modèles proposés par défaut par _Sharly Chess_ :
 
 - [chevalets de joueur·euse (`type = "player"`)](https://raw.githubusercontent.com/Sharly-Chess/sharly-chess/refs/heads/dev/src/web/templates/admin/print/place_cards/player.template)
@@ -158,6 +154,16 @@ h_pos = 0.0
 v_pos = 0.0
 ```
 
+### Impression recto-verso en miroir
+
+Pour des chevalets symétriques recto-verso, il suffit de cocher la case correspondante dans le dialogue d'impression et les éléments entrés seront automatiquement dupliqués et imprimés de chaque côté du chevalet.
+
+### Impression recto-verso différenciée
+
+Pour des chevalets recto-verso différenciés, il suffit d'indiquer pour les éléments à imprimer sur le verso la propriété `side = back` (par défaut, la valeur est `side = front`).
+
+## Référence des propriétés des éléments
+
 ### Référence (styles par défaut et élements)
 
 | Nom                | Signification                                                               |
@@ -176,14 +182,15 @@ v_pos = 0.0
 
 ### Référence (élements seulement)
 
-| Nom         | Signification                                                        |
-|-------------|----------------------------------------------------------------------|
-| `display`   | `true` pour afficher l'élément, `false` pour la cacher.              |
-| `width`     | La largeur de l'élément.                                             |
-| `height`    | La hauteur de l'élément.                                             |
-| `max_width` | La largeur maximale.                                                 |
-| `text`      | Le texte de l'élément.                                               |
-| `image`     | Le nom du fichier d'image (doit être dans le sous-dossier `images`). |
+| Nom         | Signification                                                                         |
+|-------------|---------------------------------------------------------------------------------------|
+| `display`   | `true` pour afficher l'élément, `false` pour la cacher.                               |
+| `width`     | La largeur de l'élément.                                                              |
+| `height`    | La hauteur de l'élément.                                                              |
+| `max_width` | La largeur maximale.                                                                  |
+| `text`      | Le texte de l'élément.                                                                |
+| `image`     | Le nom du fichier d'image (doit être dans le sous-dossier `images`).                  |
+| `side`      | `front` pour faire figurer l'élément sur le recto (par défaut), `back` pour le verso. |
 
 ## Export des chevalets
 
