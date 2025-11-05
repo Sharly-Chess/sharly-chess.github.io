@@ -21,11 +21,18 @@ Il est également possible de personnaliser les chevalets, au niveau du texte et
 
 ## Par où commencer ?
 
-Pour imprimer un jeu de chevalets personnalisés, il faut créer un fichier avec l'extension `.template` dans le répertoire `custom/place_cards`.
+Pour imprimer un jeu de chevalets personnalisés, il faut :
+- créer le dossier `place_cards/` dans le dossier `custom`
+- créer un dossier dans `custom/place_cards`, par exemple `custom/place_cards/essai`
+- créer un fichier avec l'extension `.template` dans ce dossier, par exemple `custom/place_cards/essai/echiquiers.template`.
 
-Ce fichier au format TOML permet une personnalisation complète à l'aide de directives simples.
+Ce fichier au format TOML va vous permettre une personnalisation complète à l'aide de directives très simples.
 
-Il est également possible de partir d'un fichier existant, par exemple les modèles proposés par défaut par _Sharly Chess_ :
+Pour plus de facilité, vous pouvez également télécharger quelques fichiers d'exemple :
+
+- **À COMPLÉTER**
+
+Il est enfin possible de s'inspirer des modèles proposés par défaut par _Sharly Chess_ :
 
 - [chevalets de joueur·euse (`type = "player"`)](https://raw.githubusercontent.com/Sharly-Chess/sharly-chess/refs/heads/dev/src/web/templates/admin/print/place_cards/player.template)
 - [chevalets d'échiquier (`type = "board"`)](https://raw.githubusercontent.com/Sharly-Chess/sharly-chess/refs/heads/dev/src/web/templates/admin/print/place_cards/board.template)
@@ -41,7 +48,7 @@ Il est également possible de partir d'un fichier existant, par exemple les mod�
 | `unit`          | L'unité de mesure : `mm` (millimètre, par défaut) ou `in` (pouce).                                                                                                      |
 | `padding`       | L'espace intérieur des chevalets (pour faciliter la découpe), par ex. `2.5`.                                                                                            |
 | `cutting_marks` | Les marques de coupe : `corners` (par défaut), `border` ou `none`.                                                                                                      |
-| `font`          | Un fichier de police TrueType (ce fichier doit être présent dans le répertoire `custom/place_cards/fonts`.                                                              |
+| `font`          | Un fichier de police TrueType (ce fichier doit être présent dans le dossier `custom/place_cards/fonts`.                                                                 |
 | `css`           | Do code CSS additionnel.                                                                                                                                                |
 | `js`            | Do code JavaScript additionnel.                                                                                                                                         |
 
@@ -132,7 +139,7 @@ v_align = "bottom"
 ```
 
 {: .note }
-> :information_source: Les images doivent être stockées dans le répertoire `custom/place_cards/images` pour être intégrées dans les chevalets.
+> :information_source: Les images doivent être stockées dans un dossier `images` au même niveau que le fichier de modèle.
 
 ## Formatage des chevalets
 
@@ -153,26 +160,30 @@ v_pos = 0.0
 
 ### Référence (styles par défaut et élements)
 
-| Nom         | Signification                                                       |
-|-------------|---------------------------------------------------------------------|
-| `font_size` | La taille de la police (unité : `pt`).                              |
-| `bold`      | `true` pour une police grasse, `false` sinon.                       |
-| `italic`    | `true` pour une police penchée, `false` sinon.                      |
-| `h_align`   | L'alignement horizontal : `left` (par défaut), `center` ou `right`. |
-| `v_align`   | L'alignement vertical : `top` (par défaut), `middle` ou `bottom`.   |
-| `h_pos`     | Le positionnement horizontal (par rapport à la marge ou au center). |
-| `v_pos`     | Le positionnement vertical (par rapport à la marge ou au milieu).   |
-| `v_pos`     | Le positionnement vertical (par rapport à la marge ou au milieu).   |
-| `opacity`   | L'opacité, de `0.0` (transparent) à `1.0` (totalement opaque).      |
+| Nom                | Signification                                                               |
+|--------------------|-----------------------------------------------------------------------------|
+| `font_size`        | La taille de la police (unité : `pt`).                                      |
+| `bold`             | `true` pour une police grasse, `false` sinon.                               |
+| `italic`           | `true` pour une police penchée, `false` sinon.                              |
+| `h_align`          | L'alignement horizontal : `left` (par défaut), `center` ou `right`.         |
+| `v_align`          | L'alignement vertical : `top` (par défaut), `middle` ou `bottom`.           |
+| `h_pos`            | Le positionnement horizontal (par rapport à la marge ou au center).         |
+| `v_pos`            | Le positionnement vertical (par rapport à la marge ou au milieu).           |
+| `v_pos`            | Le positionnement vertical (par rapport à la marge ou au milieu).           |
+| `opacity`          | L'opacité, de `0.0` (transparent) à `1.0` (totalement opaque).              |
+| `background_color` | La couleur de fond (`#nnn`, `#nnnnnn`, `color`, `rbg(nnn, nnn, nnn)`, ...). |
+| `color`            | La couleur (texte seulement)).                                              |
 
 ### Référence (élements seulement)
 
-| Nom         | Signification                                                       |
-|-------------|---------------------------------------------------------------------|
-| `display`   | `true` pour afficher l'élément, `false` pour la cacher.             |
-| `width`     | La largeur de l'élément.                                            |
-| `height`    | La hauteur de l'élément.                                            |
-| `max_width` | La largeur maximale.                                                |
+| Nom         | Signification                                                        |
+|-------------|----------------------------------------------------------------------|
+| `display`   | `true` pour afficher l'élément, `false` pour la cacher.              |
+| `width`     | La largeur de l'élément.                                             |
+| `height`    | La hauteur de l'élément.                                             |
+| `max_width` | La largeur maximale.                                                 |
+| `text`      | Le texte de l'élément.                                               |
+| `image`     | Le nom du fichier d'image (doit être dans le sous-dossier `images`). |
 
 ## Export des chevalets
 
