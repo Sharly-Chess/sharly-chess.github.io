@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.2.4 - November 6, 2025
+- Fixed various issues regarding the Round-Robin tournaments
+- Fixed the display of the unsafe mode
+- Add _Round_ option for the results print view
+- Fixed the Berger grid print view
+
 ## Version 3.2.3 - November 1, 2025
 - Fixed alphabetical screens display
 - Force _FIDE_ rating for _FFE_ events

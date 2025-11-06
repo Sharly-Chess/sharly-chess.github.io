@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.2.4 - 6 novembre 2025
+- Correction de problèmes divers sur les tournois Toutes-Rondes
+- Correction de l'affichage du mode non-sécurisé
+- Ajout de l'option _Ronde_ pour l'impression des résultats
+- Correction de l'impression des grilles _Berger_
+
 ## Version 3.2.3 - 1er novembre 2025
 - Correction de l'affichage des appariements par ordre alphabétique
 - Utilisation des classement _FIDE_ pour les évènements _FFE_
