@@ -188,6 +188,7 @@ Pour des chevalets recto-verso différenciés, il suffit d'indiquer pour les él
 | `width`     | La largeur de l'élément.                                                              |
 | `height`    | La hauteur de l'élément.                                                              |
 | `max_width` | La largeur maximale.                                                                  |
+| `rotate`    | La rotation de l'élément (en degrés).                                                 |
 | `text`      | Le texte de l'élément.                                                                |
 | `image`     | Le nom du fichier d'image (doit être dans le sous-dossier `images`).                  |
 | `side`      | `front` pour faire figurer l'élément sur le recto (par défaut), `back` pour le verso. |
