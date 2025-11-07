@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.3.0 - November
+- Streamlined the user interface
+- Printable place cards
+- Plugin for French school competitions
+- Upload via the tournament card action menu
+
 ## Version 3.2.6 - November 9, 2025
 - Correction de l'export PGN pour les joueur·euses non classé·es FIDE
 
@@ -27,14 +33,14 @@ separator: true
 - Fixed alphabetical screens display
 - Force _FIDE_ rating for _FFE_ events
 - When adding rounds, Add ZPBs to withdraw players for these new rounds
-- Fixed the player history modal at last round 
+- Fixed the player history modal at last round
 
 ## Version 3.2.2 - October 30, 2025
 - Fixed _Chess-Results_ upload
 
 ## Version 3.2.1 - October 30, 2025
-- Fixed the player history modal before round 1 
-- Fixed rounding issues in norm calculations 
+- Fixed the player history modal before round 1
+- Fixed rounding issues in norm calculations
 
 ## :point_right: Version 3.2.0 - October 29, 2025
 - Activation of the _FFE_ module only for tournaments held in France (i.e., when the event federation is "FRA")

@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.3.0 – Novembre
+- Interface utilisateur simplifiée
+- Impression de chevalets personnalisables
+- Module pour les compétitions scolaires françaises
+- Envoi des résultats via le menu d’action de la fiche tournoi
+
 ## Version 3.2.6 - 9 novembre 2025
 - Fixed PGN export for players with no FIDE rating
 
