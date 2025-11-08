@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.2.5 - 8 novembre 2025
+- Fixed the modification of the PAB player's result when withdrawing a player
+- Restore player contact data deletion on the _FFE_ upload
+- Fixed the league player filter
+
 ## Version 3.2.4 - 6 novembre 2025
 - Correction de problèmes divers sur les tournois Toutes-Rondes
 - Correction de l'affichage du mode non-sécurisé
