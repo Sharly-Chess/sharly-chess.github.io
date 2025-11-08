@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.2.5 - November 8, 2025
+- Correction de la modification du résultat de l'exempt lors de l'attribution du forfait définitif
+- Restauration de la suppression des données de contact des joueur·euses lors du téléversement _FFE_
+- Correction du filtre de ligue des joueur·euses
+
 ## Version 3.2.4 - November 6, 2025
 - Fixed various issues regarding the Round-Robin tournaments
 - Fixed the display of the unsafe mode
