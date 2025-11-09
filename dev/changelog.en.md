@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.2.6 - November 9, 2025
+- Correction de l'export PGN pour les joueur·euses non classé·es FIDE
+
 ## Version 3.2.5 - November 8, 2025
 - Correction de la modification du résultat de l'exempt lors de l'attribution du forfait définitif
 - Restauration de la suppression des données de contact des joueur·euses lors du téléversement _FFE_
