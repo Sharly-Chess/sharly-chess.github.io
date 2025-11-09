@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.2.6 - 9 novembre 2025
+- Fixed PGN export for players with no FIDE rating
+
 ## Version 3.2.5 - 8 novembre 2025
 - Fixed the modification of the PAB player's result when withdrawing a player
 - Restore player contact data deletion on the _FFE_ upload
