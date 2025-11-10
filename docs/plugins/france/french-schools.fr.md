@@ -21,6 +21,7 @@ Lorsqu’il est activé pour un évènement, il :
 * Remplace les colonnes _Fédération_, _Ligue_ et _Club_ par l’établissement scolaire dans les vues d’écran et d’impression
 * Ajoute une colonne **École** à l’onglet _Joueurs·euses_ de l’interface d’administration
 * Propose une option d’impression **« Par établissement »**
+* Fournit des **critères de prix** par établissement scolaire et par département
 * Exporte l’établissement comme club lors de la génération des fichiers Papi
 * Inclut l’établissement dans les exports de fiches de données
 
