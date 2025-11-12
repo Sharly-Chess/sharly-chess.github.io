@@ -22,6 +22,7 @@ When enabled for an event, it:
 * Adds a **School** column to the _Players_ tab in the admin interface
 * Provides a **“Split by school”** option when printing
 * Provides **prize criteria** by school and department
+* Provides **Schools by rank** print document to list the school teams by rank
 * Exports the school as the club when generating Papi files
 * Includes the school in data sheet exports
 

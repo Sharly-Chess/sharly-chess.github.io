@@ -22,6 +22,7 @@ Lorsqu’il est activé pour un évènement, il :
 * Ajoute une colonne **École** à l’onglet _Joueurs·euses_ de l’interface d’administration
 * Propose une option d’impression **« Par établissement »**
 * Fournit des **critères de prix** par établissement scolaire et par département
+* Ajoute un document d’impression **Écoles par classement** pour lister les équipes d’établissement par ordre de classement
 * Exporte l’établissement comme club lors de la génération des fichiers Papi
 * Inclut l’établissement dans les exports de fiches de données
 
