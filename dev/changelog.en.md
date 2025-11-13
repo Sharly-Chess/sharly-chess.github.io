@@ -13,7 +13,8 @@ separator: true
 - Streamlined the user interface
 - Printable place cards
 - Plugin for French school competitions
-- Upload via the tournament card action menu
+- Arbiter declaration (via the stff tab)
+- The handicap games features has been moved to a plugin
 
 ## Version 3.2.6 - November 9, 2025
 - Correction de l'export PGN pour les joueur·euses non classé·es FIDE
