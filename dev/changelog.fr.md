@@ -9,20 +9,22 @@ separator: true
 
 # Changelog
 
-## Version 3.3.0 – Novembre
+## :point_right: Version 3.3.0 – 17 novembre 2025
 - Interface utilisateur simplifiée
 - Impression de chevalets personnalisables
 - Module pour les compétitions scolaires françaises
 - Déclaration des arbitres (via l’onglet staff)
-- La fonctionnalité des parties avec handicap a été déplacée dans un plug-in
+- Envoi des résultats via le menu d’action de la fiche tournoi
+- Déplacement des fonctionnalités de handicap dans un plug-in
+- QR-codes vers les tournois en ligne
 
 ## Version 3.2.6 - 9 novembre 2025
-- Fixed PGN export for players with no FIDE rating
+- Correction de l'export PGN pour les joueur·euses non classé·es _FIDE_
 
 ## Version 3.2.5 - 8 novembre 2025
-- Fixed the modification of the PAB player's result when withdrawing a player
-- Restore player contact data deletion on the _FFE_ upload
-- Fixed the league player filter
+- Correction de la modification du résultat de l'exempt lors de l'attribution du forfait définitif
+- Restauration de la suppression des données de contact des joueur·euses lors du téléversement _FFE_
+- Correction du filtre de ligue des joueur·euses
 
 ## Version 3.2.4 - 6 novembre 2025
 - Correction de problèmes divers sur les tournois Toutes-Rondes
