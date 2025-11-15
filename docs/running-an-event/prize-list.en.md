@@ -28,11 +28,11 @@ One category may be marked as the _Main Prize Category_. It has no criteria and 
 - Equal sharing
 - Hort system
 
-### Prize Groups
+### Prize Brackets
 
-_Prize Categories_ are organized into _Prize Groups_. Players can only win **one prize per group**, but may win prizes in multiple groups.
+_Prize Categories_ are organized into _Prize Brackets. Players can only win **one prize per bracket**, but may win prizes in multiple bracket.
 
-Players are awarded the **most valuable** prize they qualify for within each group. If two prizes have the same value, the system uses the category order to determine priority.
+Players are awarded the **most valuable** prize they qualify for within each bracket. If two prizes have the same value, the system uses the category order to determine priority.
 
 ## Criteria Options for Categories
 
@@ -58,7 +58,7 @@ Each prize can be:
 All prizes (monetary or not) should have a value assigned for fair comparison during prize resolution.
 
 {: .tip }
-> :point_right: Monetary prizes do not take precedence over non-monetary ones. For example, a player will receive a non-monetary prize valued at 60 instead of a monetary prize of €50, if both are in the same _Prize Group_.  This gives you complete control over the prize structure.
+> :point_right: Monetary prizes do not take precedence over non-monetary ones. For example, a player will receive a non-monetary prize valued at 60 instead of a monetary prize of €50, if both are in the same _Prize Bracket_.  This gives you complete control over the prize structure.
 
 ## Viewing and Exporting Results
 

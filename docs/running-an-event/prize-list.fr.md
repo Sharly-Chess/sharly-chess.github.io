@@ -28,9 +28,9 @@ Une catégorie peut être désignée comme la _catégorie principale_. Elle ne c
 - Partage égal ;
 - Système de Hort.
 
-### Groupes de prix
+### Groupes de prix non cumulables
 
-Les _catégories de prix_ sont organisées en _groupes de prix_. Un·e joueur·euse ne peut recevoir **qu’un seul prix par groupe**, mais peut recevoir des prix dans plusieurs groupes.
+Les _catégories de prix_ sont organisées en _groupes de prix non cumulables_. Un·e joueur·euse ne peut recevoir **qu’un seul prix par groupe**, mais peut recevoir des prix dans plusieurs groupes.
 
 Dans chaque groupe, le système attribue au joueur ou à la joueuse le **prix le plus intéressant** auquel il ou elle est éligible. En cas d’égalité de valeur entre deux prix, l’ordre des catégories détermine la priorité.
 
