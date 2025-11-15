@@ -8,13 +8,12 @@ separator: true
 ---
 
 # Changelog
- 
+
 ## :point_right: Version 3.3.0 - November 17, 2025
 - Streamlined the user interface
 - Printable place cards
 - Plugin for French school competitions
 - Arbiter declaration (via the Staff tab)
-- Upload via the tournament card action menu
 - Moved the handicap feature to a plugin
 - QR-codes to the tournaments online
 

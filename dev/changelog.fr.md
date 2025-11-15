@@ -14,7 +14,6 @@ separator: true
 - Impression de chevalets personnalisables
 - Module pour les compétitions scolaires françaises
 - Déclaration des arbitres (via l’onglet staff)
-- Envoi des résultats via le menu d’action de la fiche tournoi
 - Déplacement des fonctionnalités de handicap dans un plug-in
 - QR-codes vers les tournois en ligne
 
