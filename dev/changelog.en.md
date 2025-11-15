@@ -10,12 +10,12 @@ separator: true
 # Changelog
 
 ## Version 3.2.6 - November 9, 2025
-- Correction de l'export PGN pour les joueur·euses non classé·es FIDE
+- Fixed PGN export for players with no _FIDE_ rating
 
 ## Version 3.2.5 - November 8, 2025
-- Correction de la modification du résultat de l'exempt lors de l'attribution du forfait définitif
-- Restauration de la suppression des données de contact des joueur·euses lors du téléversement _FFE_
-- Correction du filtre de ligue des joueur·euses
+- Fixed the modification of the PAB player's result when withdrawing a player
+- Restore player contact data deletion on the _FFE_ upload
+- Fixed the league player filter
 
 ## Version 3.2.4 - November 6, 2025
 - Fixed various issues regarding the Round-Robin tournaments
