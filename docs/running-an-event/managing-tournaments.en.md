@@ -20,7 +20,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **Rounds** | The number of rounds in the tournament. |
 | **Rating** | The rating type of the tournament — Standard, Rapid, or Blitz. |
 | **Rating to use** | Specifies if tournaments will use FIDE or national ratings. |
-| **Start/End** | The tournament’s start and end dates (overrides the event-level values). |
+| **Dates** | The tournament’s start and end dates (overrides the event-level values). |
 | **Location** | The location of the tournament (overrides the event-level value). |
 
 ### Unrated Players

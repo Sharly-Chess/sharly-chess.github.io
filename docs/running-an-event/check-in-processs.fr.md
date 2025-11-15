@@ -46,6 +46,7 @@ Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointag
 
 - Les marquer comme absent·es (bye à 0 point) pour la prochaine ronde, ou
 - Les marquer comme absent·es (bye à 0 point) pour toutes les rondes restantes du tournoi.
+– Ne rien faire — dans ce cas, tous les joueur·euses seront apparié·es au début du tournoi.
 
 {: .note }
 > :information_source: Cette action met à jour directement la base de données _Papi_. Les joueur·euses concerné·es apparaîtront en grisé dans _Papi_ et ne seront plus apparié·es — un vrai gain de temps par rapport à une gestion manuelle dans _Papi_.
