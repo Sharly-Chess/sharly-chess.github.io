@@ -15,7 +15,7 @@ separator: true
 - Module pour les compétitions scolaires françaises
 - Déclaration des arbitres (via l’onglet staff)
 - Déplacement des fonctionnalités de handicap dans un plug-in
-- QR-codes vers les tournois en ligne
+- Ajout d’une option d’impression de QR-code pour accéder à un tournoi sur Chess-Results.com
 
 ## Version 3.2.6 - 9 novembre 2025
 - Correction de l'export PGN pour les joueur·euses non classé·es _FIDE_
