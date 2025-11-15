@@ -20,7 +20,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 | **Rondes** | Le nombre de rondes du tournoi. |
 | **Cadence** | Le type de cadence du tournoi — Classique, Rapide ou Blitz. |
 | **Classement utilisé** | Indique si le tournoi utilise le classement FIDE ou national. |
-| **Début / Fin** | Les dates de début et de fin du tournoi (remplacent celles de l’événement). |
+| **Dates** | Les dates de début et de fin du tournoi (remplacent celles de l’événement). |
 | **Lieu** | Le lieu du tournoi (remplace celui défini au niveau de l’événement). |
 
 ### Joueurs non classés
