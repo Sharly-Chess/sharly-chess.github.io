@@ -15,7 +15,7 @@ separator: true
 - Plugin for French school competitions
 - Arbiter declaration (via the Staff tab)
 - Moved the handicap feature to a plugin
-- Added a QR-code print option to access a tournament on Chess-Results.com
+- Added a QR-code print option to access a tournament on _Chess-Results.com_
 
 ## Version 3.2.6 - November 9, 2025
 - Fixed PGN export for players with no _FIDE_ rating

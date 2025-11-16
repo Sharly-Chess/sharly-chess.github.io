@@ -13,9 +13,9 @@ separator: true
 - Interface utilisateur simplifiée
 - Impression de chevalets personnalisables
 - Module pour les compétitions scolaires françaises
-- Déclaration des arbitres (via l’onglet staff)
+- Déclaration des arbitres (via l’onglet Staff)
 - Déplacement des fonctionnalités de handicap dans un plug-in
-- Ajout d’une option d’impression de QR-code pour accéder à un tournoi sur Chess-Results.com
+- Ajout d’une option d’impression de QR-code pour accéder à un tournoi sur _Chess-Results.com_
 
 ## Version 3.2.6 - 9 novembre 2025
 - Correction de l'export PGN pour les joueur·euses non classé·es _FIDE_
