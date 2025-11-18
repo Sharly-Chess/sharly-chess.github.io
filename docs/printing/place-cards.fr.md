@@ -2,7 +2,7 @@
 layout: page
 title: Chevalets
 parent: Impression
-permalink: /place-cards/
+permalink: /chevalets/
 page_id: place-cards
 nav_order: 352
 ---
