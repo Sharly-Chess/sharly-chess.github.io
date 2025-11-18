@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chess-Results.com
-parent: Plugins (extensions)
+parent: Plug-ins (extensions)
 permalink: /plugins/chess-results
 page_id: plugins-chess-results
 nav_order: 200

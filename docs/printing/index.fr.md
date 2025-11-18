@@ -85,7 +85,7 @@ Ce système peut être utile pour récompenser les meilleures performances par r
 {: .note }
 > :information_source: Ce calcul ne correspond pas exactement au changement de classement officiel d’un tournoi homologué _FIDE_.
 > Le système _FIDE_ plafonne la différence de classement à 400 points, utilise des facteurs K variables (plus élevés pour les jeunes et les débutant⋅es), arrondit les résultats à l’entier, et ne calcule aucun changement pour les joueur·euses non classé·es.
-> Ici, nous appliquons un même système simplifié à tous·tes les participant·es afin de permettre une comparaison équitable des performances.
+> Ici, nous appliquons un même système simplifié à tou·tes les participant·es afin de permettre une comparaison équitable des performances.
 
 ---
 
@@ -98,4 +98,18 @@ Selon le règlement _FIDE_, cette liste doit être affichée au plus tard à mi-
 
 ## Attribution des prix
 
-Une fois le tournoi terminé, vous pouvez générer la liste des gagnant·e·s pour chaque prix, selon le classement final.
+Une fois le tournoi terminé, vous pouvez générer la liste des gagnant·es pour chaque prix, selon le classement final.
+
+---
+
+## Chevalets
+
+_Sharly Chess_ offre trois impressions spécifiques pour réaliser des chevalets de table :
+
+- **chevalets des joueur·euses**, qui donne un standing aux évènements et facilitent le remplissage des feuilles de partie ;
+- **chevalets d'échiquier**, avec simplement les numéros de table, qui permettent aux joueur·euses de se repérer facilement dans la salle ;
+- **chevalets d'appariement**, qui permettent d'afficher sur les tables à la fois les numéros de table et les informations des joueur·euses. 
+
+Il est également possible de personnaliser les chevalets, au niveau du texte et des images.
+
+- [Guide de personnalisation des chevalets]({% link docs/printing/place-cards.fr.md %}) 

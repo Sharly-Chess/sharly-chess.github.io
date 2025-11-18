@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Niveau d'accès
+title: Niveaux d'accès
 parent: Réseau
 permalink: /access-levels/
 page_id: access-levels

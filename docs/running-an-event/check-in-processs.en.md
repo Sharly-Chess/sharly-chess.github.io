@@ -45,6 +45,7 @@ When you're ready to start the tournament, close the check-in process by clickin
 
 - Assign a **zero-point bye** for the upcoming round, or
 - Assign **zero-point byes for all remaining rounds** in the tournament.
+- **Do nothing** - in this case all player will paired at the start of the tournament.
 
 {: .note }
 > :information_source: This action updates the _Papi_ database directly. Affected players will appear greyed out in _Papi_ and will no longer be paired — a major time-saver compared to managing this manually using _Papi_ directly.
