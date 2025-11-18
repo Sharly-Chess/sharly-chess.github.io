@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Parties à handicap
-parent: Plugins
+parent: Plug-ins (extensions)
 permalink: /plugins/handicap-games
 page_id: plugins-handicap-games
 nav_order: 200

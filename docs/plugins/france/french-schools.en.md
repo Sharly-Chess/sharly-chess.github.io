@@ -21,9 +21,10 @@ When enabled for an event, it:
 * Replaces the _Federation_, _League_, and _Club_ columns with the player's school in both screen and print views
 * Adds a **School** column to the _Players_ tab in the admin interface
 * Provides a **“Split by school”** option when printing
-* Provides **prize criteria** by school and department
+* Provides a **prize criterion** by school
 * Provides **Schools by rank** print document to list the school teams by rank
 * Exports the school as the club when generating Papi files
+* Creates the schools when importing from ChessEvent and Papi
 * Includes the school in data sheet exports
 
 ## Usage
