@@ -21,9 +21,10 @@ Lorsqu’il est activé pour un évènement, il :
 * Remplace les colonnes _Fédération_, _Ligue_ et _Club_ par l’établissement scolaire dans les vues d’écran et d’impression
 * Ajoute une colonne **École** à l’onglet _Joueurs·euses_ de l’interface d’administration
 * Propose une option d’impression **« Par établissement »**
-* Fournit des **critères de prix** par établissement scolaire et par département
+* Fournit un **critère de prix** par établissement scolaire
 * Ajoute un document d’impression **Écoles par classement** pour lister les équipes d’établissement par ordre de classement
 * Exporte l’établissement comme club lors de la génération des fichiers Papi
+* Crée les établissements lors de l'import depuis ChessEvent et Papi
 * Inclut l’établissement dans les exports de fiches de données
 
 ## Utilisation

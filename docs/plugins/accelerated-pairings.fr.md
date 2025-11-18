@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Appariements accélérés
-parent: Plugins (extensions)
+parent: Plug-ins (extensions)
 permalink: /plugins/accelerated-pairings
 page_id: plugins-accelerated-pairings
 nav_order: 100
