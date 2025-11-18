@@ -7,7 +7,7 @@ page_id: place-cards
 nav_order: 352
 ---
 
-## Place Cards Customization Guide
+# Place Cards Customization Guide
 
 _Sharly Chess_ allows you to print standard **place cards** that help organize and enhance your tournament setup:
 
