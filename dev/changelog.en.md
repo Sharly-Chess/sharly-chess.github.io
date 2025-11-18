@@ -14,6 +14,7 @@ separator: true
 - Printable place cards
 - Plugin for French school competitions
 - Arbiter declaration (via the Staff tab)
+- Organiser information can be added to the Events (and uploaded to _Chess-Results.com_)
 - FIDE rating change estimation (via the player's record)
 - Moved the handicap feature to a plugin
 - Added a QR-code print option to access a tournament on _Chess-Results.com_
