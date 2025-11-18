@@ -14,8 +14,8 @@ separator: true
 - Impression de chevalets personnalisables
 - Module pour les compétitions scolaires françaises
 - Déclaration des arbitres (via l’onglet Staff)
-– Les informations sur l’organisateur peuvent être ajoutées aux événements (et envoyées à Chess-Results.com)
-– Estimation de la variation Elo FIDE (via l’historique du·de la joueur·euse)
+– Les informations sur l’organisateur·ice peuvent être ajoutées aux événements (et envoyées à Chess-Results.com)
+– Estimation de la variation Elo _FIDE_ (sur l’historique du·de la joueur·euse)
 - Déplacement des fonctionnalités de handicap dans un plug-in
 - Ajout d’une option d’impression de QR-code pour accéder à un tournoi sur _Chess-Results.com_
 
