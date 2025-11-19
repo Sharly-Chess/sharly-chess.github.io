@@ -9,7 +9,11 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.3.0 – 17 novembre 2025
+## Version 3.3.1 - 19 novembre 2025
+- Ordonnancement manuel des tournois
+- Ajout des lycées dans la liste des établissements scolaires
+
+## :point_right: Version 3.3.0 – 18 novembre 2025
 - Interface utilisateur simplifiée
 - Impression de chevalets personnalisables
 - Module pour les compétitions scolaires françaises

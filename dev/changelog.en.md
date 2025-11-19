@@ -9,7 +9,11 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.3.0 - November 17, 2025
+## Version 3.3.1 - November 19, 2025
+- manual ordering of tournaments
+- Added colleges (in French: `Lycée`) to the list schools
+
+## :point_right: Version 3.3.0 - November 18, 2025
 - Streamlined the user interface
 - Printable place cards
 - Plugin for French school competitions
