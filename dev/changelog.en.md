@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.3.2 - November 21, 2025
+- Fixed printing of the player table with multiple tournaments
+- Fixed clipping of tables when printed
+- Fixed timer translation
+
 ## Version 3.3.1 - November 19, 2025
 - manual ordering of tournaments
 - Added colleges (in French: `Lycée`) to the list schools
