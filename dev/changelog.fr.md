@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.3.3 - ? novembre 2025
+- Correction de la duplication des membres du staff
+
 ## Version 3.3.2 - 21 novembre 2025
 - Correction de l'impression des joueur·euses avec plusieurs tournois
 - Correction du rognage des tableaux à l'impression
