@@ -10,7 +10,7 @@ separator: true
 # Changelog
 
 ## Version 3.3.3 - November ?, 2025
-- Fixed duplication oif staff members
+- Fixed duplication of staff members
 
 ## Version 3.3.2 - November 21, 2025
 - Fixed printing of the player table with multiple tournaments
