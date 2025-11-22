@@ -9,13 +9,17 @@ separator: true
 
 # Changelog
 
+## Version 3.3.3 - November ?, 2025
+- Fixed duplication oif staff members
+
 ## Version 3.3.2 - November 21, 2025
 - Fixed printing of the player table with multiple tournaments
 - Fixed clipping of tables when printed
 - Fixed timer translation
+- Tag tournaments with the time control type (Standard, Rapid, Blitz) on _Chess-Results.com_
 
 ## Version 3.3.1 - November 19, 2025
-- manual ordering of tournaments
+- Manual ordering of tournaments
 - Added colleges (in French: `Lycée`) to the list schools
 
 ## :point_right: Version 3.3.0 - November 18, 2025

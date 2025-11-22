@@ -9,10 +9,14 @@ separator: true
 
 # Changelog
 
+## Version 3.3.3 - ? novembre 2025
+- Correction de la duplication des membres du staff
+
 ## Version 3.3.2 - 21 novembre 2025
 - Correction de l'impression des joueur·euses avec plusieurs tournois
 - Correction du rognage des tableaux à l'impression
 - Correction de la traduction des chronomètres
+- Marquage des tournois avec la cadence (standard, rapide, blitz) sur _Chess-Results.com_
 
 ## Version 3.3.1 - 19 novembre 2025
 - Ordonnancement manuel des tournois
