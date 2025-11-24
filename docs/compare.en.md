@@ -22,7 +22,9 @@ nav_order: 2050
 | SaaS (\*)                          |           ∅            |           ∅            |           ?           |   ?    |     ?     |
 | **System**                         |         _Papi_         |  _Sharly_<br/>_Chess_  | _Swiss_<br/>_Manager_ | _Vega_ | _Tornelo_ |
 | Windows                            |           ✔            |           ✔            |           ?           |   ?    |     ?     |
+| Windows signing                    |           ∅            |           ✔            |           ?           |   ?    |     ?     |
 | MacOS                              |           ∅            |           ✔            |           ?           |   ?    |     ?     |
+| MacOS signing                      |           ∅            |           ✔            |           ?           |   ?    |     ?     |
 | Linux                              |           ∅            |           ∅            |           ?           |   ?    |     ?     |
 | **Internationalization**           |         _Papi_         |  _Sharly_<br/>_Chess_  | _Swiss_<br/>_Manager_ | _Vega_ | _Tornelo_ |
 | Multilingual                       |           ∅            |           ✔            |           ?           |   ?    |     ?     |
@@ -92,6 +94,7 @@ nav_order: 2050
 | Arbiter norm certificate           |           ∅            |           ∅            |           ?           |   ?    |     ?     |
 | Chess-Results.com upload           |           ∅            |           ✔            |           ?           |   ?    |     ?     |
 | Lottery                            |           ✔            |           ✔            |           ?           |   ?    |     ?     |
+| Illegal moves recording            |           ∅            |           ✔            |           ?           |   ?    |     ?     |
 | **France**                         |         _Papi_         |  _Sharly_<br/>_Chess_  | _Swiss_<br/>_Manager_ | _Vega_ | _Tornelo_ |
 | FFE tournament upload              |           ∅            |           ✔            |           ?           |   ?    |     ?     |
 | FFE fees download                  |           ∅            |           ✔            |           ?           |   ?    |     ?     |
