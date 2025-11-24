@@ -9,8 +9,11 @@ separator: true
 
 # Changelog
 
-## Version 3.3.3 - November ?, 2025
+## Version 3.3.3 - November 24, 2025
 - Fixed duplication of staff members
+- Prevent double-click on results modal
+- Fixed `Display exit button`, `Display unpaired players` and `Display opponents` options always activated
+- Fixed `Display unpaired players` option hiding all the players
 
 ## Version 3.3.2 - November 21, 2025
 - Fixed printing of the player table with multiple tournaments

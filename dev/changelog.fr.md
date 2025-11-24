@@ -9,8 +9,11 @@ separator: true
 
 # Changelog
 
-## Version 3.3.3 - ? novembre 2025
+## Version 3.3.3 - 24 novembre 2025
 - Correction de la duplication des membres du staff
+- Protection contre le double clic sur la saisie des résultats
+- Correction des options `Afficher un bouton de sortie`, `Afficher les joueur·euses non-apparié·es` et `Afficher les adversaires` toujours activées
+- Correction de l'option `Afficher les joueur·euses non-apparié·es` qui cachait tou·tes les joueur·euses
 
 ## Version 3.3.2 - 21 novembre 2025
 - Correction de l'impression des joueur·euses avec plusieurs tournois
