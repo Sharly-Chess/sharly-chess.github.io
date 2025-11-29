@@ -9,6 +9,14 @@ separator: true
 
 # Changelog
 
+## Version 3.3.4 - November 29, 2025
+- Possibilité de configurer le format des dates
+- Augmentation du délai de connexion lors du téléchargement des bases de données
+- Suppression du classement manuel des tournois lorsqu'un évènement n'en comprend qu'un seul
+- Correction de la navigation vers la ronde en cours dans l'onglet Appariements
+- Correction de la non-prise en compte des licences expirées lors de l'importation de fichiers _Papi_
+- Correction de l'envoi du départage `REP` vers _Chess_Results.com_
+
 ## Version 3.3.3 - 24 novembre 2025
 - Correction de la duplication des membres du staff
 - Protection contre le double clic sur la saisie des résultats
