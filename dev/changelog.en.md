@@ -15,6 +15,20 @@ separator: true
 - Fixed `Display exit button`, `Display unpaired players` and `Display opponents` options always activated
 - Fixed `Display unpaired players` option hiding all the players
 
+## Version 3.3.4 - November 29, 2025
+- Make the date format configurable
+- Increase the timeout of database download requests
+- Prevent manual reordering of 1 tournament
+- Fixed the navigation to the current round on the Pairings tab
+- Fixed no licence considered as expired licences on _Papi_ import
+- Fixed the upload of the `REP` tie-break to _Chess_Results.com_
+
+## Version 3.3.3 - November 24, 2025
+- Fixed duplication of staff members
+- Prevent double-click on results modal
+- Fixed `Display exit button`, `Display unpaired players` and `Display opponents` options always activated
+- Fixed `Display unpaired players` option hiding all the players
+
 ## Version 3.3.2 - November 21, 2025
 - Fixed printing of the player table with multiple tournaments
 - Fixed clipping of tables when printed
