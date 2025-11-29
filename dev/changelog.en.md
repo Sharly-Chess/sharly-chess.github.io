@@ -9,12 +9,6 @@ separator: true
 
 # Changelog
 
-## Version 3.3.3 - November 24, 2025
-- Fixed duplication of staff members
-- Prevent double-click on results modal
-- Fixed `Display exit button`, `Display unpaired players` and `Display opponents` options always activated
-- Fixed `Display unpaired players` option hiding all the players
-
 ## Version 3.3.4 - November 29, 2025
 - Make the date format configurable
 - Increase the timeout of database download requests

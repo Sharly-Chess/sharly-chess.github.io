@@ -9,12 +9,6 @@ separator: true
 
 # Changelog
 
-## Version 3.3.3 - 24 novembre 2025
-- Correction de la duplication des membres du staff
-- Protection contre le double clic sur la saisie des résultats
-- Correction des options `Afficher un bouton de sortie`, `Afficher les joueur·euses non-apparié·es` et `Afficher les adversaires` toujours activées
-- Correction de l'option `Afficher les joueur·euses non-apparié·es` qui cachait tou·tes les joueur·euses
-
 ## Version 3.3.4 - November 29, 2025
 - Possibilité de configurer le format des dates
 - Augmentation du délai de connexion lors du téléchargement des bases de données
