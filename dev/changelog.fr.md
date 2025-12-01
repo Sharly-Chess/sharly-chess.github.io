@@ -11,7 +11,7 @@ separator: true
 
 ## Version 3.3.5 - 1er décembre 2025
 - Correction dans l'utilisation du plug-in `Compétition scolaires françaises`
-- Correction du téléversement FFE des tournois toutes-rondes avec un nombre impair de joueur·euses
+- Correction du téléversement _FFE_ des tournois toutes-rondes avec un nombre impair de joueur·euses
 
 ## Version 3.3.4 - 29 novembre 2025
 - Possibilité de configurer le format des dates

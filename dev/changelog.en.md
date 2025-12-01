@@ -11,7 +11,7 @@ separator: true
 
 ## Version 3.3.5 - December 1, 2025
 - Fixed the usage of the `School Competitions` plugin
-- Fixed FFE upload of Berger tournament with odd players
+- Fixed _FFE_ upload of Berger tournament with odd players
 
 ## Version 3.3.4 - November 29, 2025
 - Make the date format configurable
