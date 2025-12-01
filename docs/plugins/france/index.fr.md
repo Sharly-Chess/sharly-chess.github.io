@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pour la France
-parent: Plugins (extensions)
+parent: Plug-ins (extensions)
 permalink: /plugins/france
 page_id: plugins-france
 nav_order: 500
