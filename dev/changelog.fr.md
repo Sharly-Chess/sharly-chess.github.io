@@ -9,7 +9,11 @@ separator: true
 
 # Changelog
 
-## Version 3.3.4 - November 29, 2025
+## Version 3.3.5 - 1er décembre 2025
+- Correction dans l'utilisation du plug-in `Compétition scolaires françaises`
+- Correction du téléversement FFE des tournois toutes-rondes avec un nombre impair de joueur·euses
+
+## Version 3.3.4 - 29 novembre 2025
 - Possibilité de configurer le format des dates
 - Augmentation du délai de connexion lors du téléchargement des bases de données
 - Suppression du classement manuel des tournois lorsqu'un évènement n'en comprend qu'un seul
