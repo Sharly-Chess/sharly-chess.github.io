@@ -36,7 +36,7 @@ url: "https://sharly-chess.com" # the base hostname & protocol for your site, e.
 favicon_ico: "/assets/images/sharly-chess.ico"
 
 doc_version: 3.3
-latest_version: 3.3.4
+latest_version: 3.3.5
 github_url: "https://github.com/sharly-chess/sharly-chess"
 
 # Build settings
