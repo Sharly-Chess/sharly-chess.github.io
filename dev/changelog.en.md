@@ -10,7 +10,8 @@ separator: true
 # Changelog
 
 ## Version 3.3.6 - December X, 2025
-- Fixed _Papi_ export of unpaired rounds (3.3.6)
+- Fixed _Papi_ export of unpaired rounds
+- Fixed unauthorized error on logout
 
 ## Version 3.3.5 - December 1, 2025
 - Fixed the usage of the `School Competitions` plugin

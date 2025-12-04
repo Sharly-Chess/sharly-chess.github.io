@@ -10,7 +10,8 @@ separator: true
 # Changelog
 
 ## Version 3.3.6 - X décembre 2025
-- Correction de l'export _Papi_ avec des rondes non appariées (3.3.6)
+- Correction de l'export _Papi_ avec des rondes non appariées
+- Correction d'une erreur d'autorisation à la déconnexion
 
 ## Version 3.3.5 - 1er décembre 2025
 - Correction dans l'utilisation du plug-in `Compétition scolaires françaises`
