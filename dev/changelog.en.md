@@ -9,9 +9,12 @@ separator: true
 
 # Changelog
 
-## Version 3.3.6 - December X, 2025
+## Version 3.3.6 - December 5, 2025
 - Fixed _Papi_ export of unpaired rounds
 - Fixed unauthorized error on logout
+- Fixed the tie-break search
+- Removed `Background image` Screen option default checkbox
+- Fixed data sources update
 
 ## Version 3.3.5 - December 1, 2025
 - Fixed the usage of the `School Competitions` plugin
