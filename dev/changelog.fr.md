@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 3.3.6 - 5 décembre 2025
+- Correction de l'export _Papi_ avec des rondes non appariées
+- Correction d'une erreur d'autorisation à la déconnexion
+- Correction de la recherche des départages
+- Suppression de la case `Image de fond` par défaut des écrans
+- Correction de la mise à jour des sources de données
+
 ## Version 3.3.5 - 1er décembre 2025
 - Correction dans l'utilisation du plug-in `Compétition scolaires françaises`
 - Correction du téléversement _FFE_ des tournois toutes-rondes avec un nombre impair de joueur·euses
