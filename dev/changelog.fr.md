@@ -9,6 +9,15 @@ separator: true
 
 # Changelog
 
+## Version 3.4.0 - X décembre 2025
+- Export des évènements pour partage
+- Reçus financiers
+- Demande aux navigateurs de ne pas traduire l'interface
+- Amélioration de l'interface des chronomètres
+- Ajout des chronomètres sur les écrans rotatifs
+- Ajout d'une option pour spécifier la date de base pour les catégories d'âge
+- Ajout du champs _Chess-Results_ « État » pour certaines fédérations
+
 ## Version 3.3.6 - 5 décembre 2025
 - Correction de l'export _Papi_ avec des rondes non appariées
 - Correction d'une erreur d'autorisation à la déconnexion
