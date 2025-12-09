@@ -24,7 +24,7 @@ nav_order: 700
 | _Sharly Chess_ 3.1 |  1 Oct 2025 | Délégation par niveau d'accès<br/>Import/export TRF                                                                               |        ✅         |    21 nov 2025 |
 | _Sharly Chess_ 3.2 | 29 Oct 2025 | Accélération de Bakou<br/>Normes de joueur·euse<br/>Support de tous les départages _FIDE_<br/>Publication sur _Chess-Results.com_ |        ✅         |              - |
 | _Sharly Chess_ 3.3 | 21 Nov 2025 | Amélioration de l'interface web<br/>Gestion des tournois scolaires _FFE_<br/>Chevalets<br/>Performances _FIDE_                    |        ✅         |              - |
-| _Sharly Chess_ 3.4 |    Déc 2025 | Reçus financiers                                                                                                                  |        ✅         |              - |
+| _Sharly Chess_ 3.4 |    Déc 2025 | Partage des évènements, reçus financiers                                                                                          |        ✅         |              - |
 
 # Bientôt disponible
 
