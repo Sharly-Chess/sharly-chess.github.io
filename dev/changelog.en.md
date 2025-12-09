@@ -11,12 +11,12 @@ separator: true
 
 ## Version 3.4.0 - December X, 2025
 - Export of events for sharing purposes
-- Prize receipts
-- Ask the browser not to translate the interface
 - Improved the timer UI
 - Added timers to rotators
 - Added an option to specify the base date for the age categories
+- Prize receipts
 - Added "State" field to the _Chess-Results_ export for certain federations
+- Try to avoid browsers automatically translating the UI
 
 ## Version 3.3.6 - December 5, 2025
 - Fixed _Papi_ export of unpaired rounds
