@@ -16,7 +16,9 @@ separator: true
 - Ajout d'une option pour spécifier la date de base pour les catégories d'âge
 - Reçus financiers
 - Ajout du champs _Chess-Results_ « État » pour certaines fédérations
-- Essayer d’éviter que les navigateurs traduisent automatiquement l’interface.
+- Demande aux navigateurs de ne pas traduire automatiquement l’interface
+- Correction des forfaits des entrées tardives
+- Correction de l'affichage des identifiants FIDE sur la mise à jour des joueur·euses
 
 ## Version 3.3.6 - 5 décembre 2025
 - Correction de l'export _Papi_ avec des rondes non appariées

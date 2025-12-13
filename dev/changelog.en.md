@@ -17,6 +17,8 @@ separator: true
 - Prize receipts
 - Added "State" field to the _Chess-Results_ export for certain federations
 - Try to avoid browsers automatically translating the UI
+- Fixed late entries ZPBs
+- Fixed FIDE ID display on player update
 
 ## Version 3.3.6 - December 5, 2025
 - Fixed _Papi_ export of unpaired rounds
