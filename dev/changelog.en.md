@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.3.7 - December 13, 2025
+- Fixed late entries ZPBs
+- Fixed FIDE ID display on player update
+
 ## Version 3.3.6 - December 5, 2025
 - Fixed _Papi_ export of unpaired rounds
 - Fixed unauthorized error on logout
