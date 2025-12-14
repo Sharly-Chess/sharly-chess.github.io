@@ -10,12 +10,14 @@ separator: true
 # Changelog
 
 ## Version 3.4.0 - December X, 2025
+- Configurable age categories
 - Export of events for sharing purposes
 - Improved the timer UI
 - Added timers to rotators
 - Added an option to specify the base date for the age categories
 - Prize receipts
 - Added "State" field to the _Chess-Results_ export for certain federations
+- Both a player's year of birth or the full date of birth and now accepted
 - Try to avoid browsers automatically translating the UI
 - Fixed late entries ZPBs
 - Fixed FIDE ID display on player update
