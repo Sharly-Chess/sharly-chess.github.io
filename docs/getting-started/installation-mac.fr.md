@@ -9,7 +9,7 @@ nav_order: 51
 
 # Installer _Sharly Chess_ sur Mac
 
-_Sharly Chess_ est également disponible pour [Windows]({% link docs/getting-started/installation-windows.fr.md %}).
+_Sharly Chess_ est également disponible pour [Windows]({% link docs/getting-started/installation-windows.fr.md %}) et [Linux]({% link docs/getting-started/installation-linux.fr.md %}).
 
 ## Prérequis
 

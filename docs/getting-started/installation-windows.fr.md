@@ -7,15 +7,15 @@ parent: Bien démarrer
 nav_order: 50
 ---
 
-# Installation de _Sharly Chess_
+# Installation de _Sharly Chess_ sur Windows
 
-## Windows
+_Sharly Chess_ est également disponible pour [MacOS]({% link docs/getting-started/installation-mac.fr.md %}) et [Linux]({% link docs/getting-started/installation-linux.fr.md %}).
 
-### Requirements
+## Pré-requis
 
 - Windows 10+ à jour
 
-### Installer _Sharly Chess_
+## Installation de _Sharly Chess_
 
 {: .text-center }
 [Télécharger la dernière version de _Sharly Chess_ (v{{ site.latest_version }})]({{ site.github_url }}/releases/download/{{ site.latest_version }}/sharly-chess-{{ site.latest_version }}-windows.zip){: .btn }
