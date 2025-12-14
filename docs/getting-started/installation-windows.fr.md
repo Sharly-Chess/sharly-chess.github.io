@@ -24,9 +24,9 @@ nav_order: 50
 
 > :information_source: [Voir les changements de la dernière version]({{ site.github_url }}/releases/latest)
 
-1. Décompressez l’archive téléchargée ;
+1. Décompressez l’archive téléchargée ;
 2. À l’intérieur, vous trouverez un dossier nommé selon le numéro de version. Déplacez ce dossier à l’emplacement de votre choix.
-   Nous vous recommandons de le placer dans un dossier parent nommé `sharly-chess` — cela vous permet de garder plusieurs versions bien organisées, et le système de mise à jour automatique installera les futures versions dans ce même dossier.
+   Nous vous recommandons de le placer dans un dossier parent nommé `sharly-chess` — cela vous permet de garder plusieurs versions bien organisées, et le système de mise à jour automatique installera les futures versions dans ce même dossier.
 
 {: .note }
 
