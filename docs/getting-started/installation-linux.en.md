@@ -12,7 +12,7 @@ nav_order: 52
 {: .warning }
 
 > :warning: **EXPERIMENTAL FEATURE!**<br/>
-> Beta testers have reported successful installations on Ubuntu, Mint, and Fedora, but we are still far from a stable and fully supported distribution for all Linux platforms.
+> Beta testers have reported successful installations on Ubuntu and Mint, but we are still far from a stable and fully supported distribution for all Linux platforms.
 > Furthermore, the _Sharly Chess_ developers are unable to provide support for this aspect and are looking for Linux experts. Get in touch!
 
 Sharly Chess is also available for [Windows]({% link docs/getting-started/installation-windows.en.md %}) and [MacOS]({% link docs/getting-started/installation-mac.en.md %}).
