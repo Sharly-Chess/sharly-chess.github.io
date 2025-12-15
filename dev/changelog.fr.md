@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.4.0 - X décembre 2025
+## Version 3.4.0 - 15 décembre 2025
 - Catégories d’âge configurables
 - Export des évènements pour partage
 - Amélioration de l'interface des chronomètres
@@ -23,6 +23,7 @@ separator: true
 - Correction de l'affichage des identifiants FIDE sur la mise à jour des joueur·euses
 - Support expérimental de Linux
 - Récupération des évènements archivés lors des mises à jour
+- Amélioration du processus de mise à jour de l'application
 
 ## Version 3.3.6 - 5 décembre 2025
 - Correction de l'export _Papi_ avec des rondes non appariées

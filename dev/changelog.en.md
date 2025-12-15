@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.4.0 - December X, 2025
+## Version 3.4.0 - December 15, 2025
 - Configurable age categories
 - Export of events for sharing purposes
 - Improved the timer UI
@@ -23,6 +23,7 @@ separator: true
 - Fixed FIDE ID display on player update
 - Linux experimental support
 - Recover archived events on upgrade
+- Improved upgrade experience
 
 ## Version 3.3.6 - December 5, 2025
 - Fixed _Papi_ export of unpaired rounds
