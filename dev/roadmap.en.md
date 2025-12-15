@@ -22,12 +22,13 @@ nav_order: 700
 | _Sharly Chess_ 2.8 |  Jul 7th, 2025 | Swiss pairings<br/>Prize calculation<br/>Check-in lists                                                    |          ✅           |  Oct 1st, 2025 |
 | _Sharly Chess_ 3.0 |  Sep 1st, 2025 | Dropping of Papi format<br/>macOS support                                                                  |          ✅           | Oct 27th, 2025 |
 | _Sharly Chess_ 3.1 |  Oct 1st, 2025 | Délégation par niveau d'accès<br/>TRF import/export                                                        |          ✅           | Nov 21th, 2025 |
-| _Sharly Chess_ 3.2 | Oct 27th, 2025 | Baku acceleration<br/>Player norms<br/>Support for all _FIDE_ tie-breaks<br/>Upload to _Chess-Results.com_ |          ✅           |              - |
+| _Sharly Chess_ 3.2 | Oct 27th, 2025 | Baku acceleration<br/>Player norms<br/>Support for all _FIDE_ tie-breaks<br/>Upload to _Chess-Results.com_ |          ✅           | Dec 15th, 2025 |
 | _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances     |          ✅           |              - |
-| _Sharly Chess_ 3.4 |       Déc 2025 | Draft/Published round status                                                                               |          ✅           |              - |
+| _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                 |          ✅           |              - |
 
 ## Coming next
 
+- Draft/Published round status
 - Support for federation plugins other than that of the French Chess Federation (developers interested in contributing are invited to [contact us]({% link docs/getting-started/getting-support.en.md %}))
 
 ## Longer term

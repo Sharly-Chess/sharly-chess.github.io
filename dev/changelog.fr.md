@@ -9,6 +9,22 @@ separator: true
 
 # Changelog
 
+## Version 3.4.0 - 15 décembre 2025
+- Catégories d’âge configurables
+- Export des évènements pour partage
+- Amélioration de l'interface des chronomètres
+- Amélioration de l'interface des chronomètres
+- Ajout d'une option pour spécifier la date de base pour les catégories d'âge
+- Reçus financiers
+- Ajout du champs _Chess-Results_ « État » pour certaines fédérations
+- L’année de naissance ou la date de naissance complète d’un·e joueur·euse sont désormais acceptées
+- Demande aux navigateurs de ne pas traduire automatiquement l’interface
+- Correction des forfaits des entrées tardives
+- Correction de l'affichage des identifiants FIDE sur la mise à jour des joueur·euses
+- Support expérimental de Linux
+- Récupération des évènements archivés lors des mises à jour
+- Amélioration du processus de mise à jour de l'application
+
 ## Version 3.3.6 - 5 décembre 2025
 - Correction de l'export _Papi_ avec des rondes non appariées
 - Correction d'une erreur d'autorisation à la déconnexion
