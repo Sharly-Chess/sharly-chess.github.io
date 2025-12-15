@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.4.1 - December 15, 2025
+- Fixed application startup
+- Fixed Linux bundles
+
 ## Version 3.4.0 - December 15, 2025
 - Configurable age categories
 - Export of events for sharing purposes

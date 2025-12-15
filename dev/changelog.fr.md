@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.4.1 - 15 décembre 2025
+- Correction du lancement de l'application
+- Correction des paquets Linux
+
 ## Version 3.4.0 - 15 décembre 2025
 - Catégories d’âge configurables
 - Export des évènements pour partage
