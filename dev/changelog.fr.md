@@ -22,6 +22,7 @@ separator: true
 - Correction des forfaits des entrées tardives
 - Correction de l'affichage des identifiants FIDE sur la mise à jour des joueur·euses
 - Support expérimental de Linux
+- Récupération des évènements archivés lors des mises à jour
 
 ## Version 3.3.6 - 5 décembre 2025
 - Correction de l'export _Papi_ avec des rondes non appariées

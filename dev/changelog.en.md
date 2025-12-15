@@ -22,6 +22,7 @@ separator: true
 - Fixed late entries ZPBs
 - Fixed FIDE ID display on player update
 - Linux experimental support
+- Recover archived events on upgrade
 
 ## Version 3.3.6 - December 5, 2025
 - Fixed _Papi_ export of unpaired rounds
