@@ -9,11 +9,16 @@ separator: true
 
 # Changelog
 
+## Version 3.4.2 - December 17, 2025
+- Fixed ordering of events with the same start and stop dates
+- Fixed the default age category change month for FFE events
+- Fixed `U0` category displayed in default category set
+
 ## Version 3.4.1 - December 15, 2025
 - Fixed application startup
 - Fixed Linux bundles
 
-## Version 3.4.0 - December 15, 2025
+## :point_right: Version 3.4.0 - December 15, 2025
 - Configurable age categories
 - Export of events for sharing purposes
 - Improved the timer UI

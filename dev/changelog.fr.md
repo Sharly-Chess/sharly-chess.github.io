@@ -9,11 +9,16 @@ separator: true
 
 # Changelog
 
+## Version 3.4.2 - 17 décembre 2025
+- Correction de l'ordre d'affichage des évènements avec les mêmes dates de début et fin
+- Correction du mois de changement de catégorie pour les évènements FFE
+- Correction de l'affichage de la catégorie `U0` dans les ensembles de catégories par défaut
+
 ## Version 3.4.1 - 15 décembre 2025
 - Correction du lancement de l'application
 - Correction des paquets Linux
 
-## Version 3.4.0 - 15 décembre 2025
+## :point_right: Version 3.4.0 - 15 décembre 2025
 - Catégories d’âge configurables
 - Export des évènements pour partage
 - Amélioration de l'interface des chronomètres
