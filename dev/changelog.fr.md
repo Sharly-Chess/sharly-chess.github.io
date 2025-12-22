@@ -14,6 +14,7 @@ separator: true
 - Correction de l'impression des statistiques
 - Correction de la recherche des joueur·euses sur la base locale FFE
 - Correction de l'affichage des appariements sur le site FFE pour les tournois accélérés
+- Édition des groupes d'appariement pour les systèmes autres que Bakou
 
 ## Version 3.4.2 - 17 décembre 2025
 - Correction de l'ordre d'affichage des évènements avec les mêmes dates de début et fin
