@@ -32,6 +32,15 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - _FFE_ specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
 
+## Tournament Display on the _FFE_ Website
+
+Tournament displays in Sharly Chess and on the _FFE_ website may differ:
+- _Sharly Chess_ saves board numbers during round pairing and subsequent manual pairings, while the _FFE_ website calculates board numbers each time the tournament is displayed; therefore, the board numbers and order may differ.
+- _Sharly Chess_ uses player pairing numbers to create acceleration groups, while the _FFE_ website uses Elo rating thresholds; therefore, the board numbers, order, and the players' virtual points displayed may differ.
+- _Sharly Chess_ allows the use of all tiebreaks authorized by _FIDE_ (in addition to those of the _FFE_), but some of these tiebreaks cannot be displayed on the _FFE_ website.
+
+In all cases, the ranking displayed by _Sharly Chess_ and on the _FFE_ website are exactly the same.
+
 ## Frequently Asked Questions
 
 {% details Why do the player rankings not match between the online and the local _FFE_ databases? %}

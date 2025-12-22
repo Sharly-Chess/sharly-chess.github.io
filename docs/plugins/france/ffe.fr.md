@@ -32,6 +32,15 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.
 - Critères de prix supplémentaires pour les ligues.
 
+## Affichage des tournois sur le site de la _FFE_
+
+Les affichages des tournois dans _Sharly Chess_ et sur le site de la _FFE_ peuvent différer :
+- _Sharly Chess_ enregistre les numéros des échiquiers lors de l'appariement des rondes et les appariements manuels ultérieurs, alors que le site de la _FFE_ calcule les numéros des échiquiers à chaque affichage ; de ce fait, les numéros et l'ordre des échiquiers peuvent être différents.
+- _Sharly Chess_ utilise les numéros d'appariement des joueur·euses pour constituer les groupes d'accélération, alors que le site de la _FFE_ utilise des seuils Elo ; de ce fait, les numéros et l'ordre des échiquiers et les points virtuels affichés peuvent être différents.
+- _Sharly Chess_ permet l'utilisation de tous les départages autorisés par la _FIDE_ (en plus de ceux de la _FFE_), mais certains de ces départages ne peuvent être affichés sur le site web de la _FFE_.
+
+Dans tous les cas, le classement affiché par _Sharly Chess_ et celui du site web de la _FFE_ sont strictement les mêmes. 
+
 ## Foire Aux Questions
 
 {% details Pourquoi les classements des joueur·euses ne correspondent-ils pas entre la base _FFE_ en ligne et la base _FFE_ locale ? %}
