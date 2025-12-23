@@ -11,6 +11,7 @@ separator: true
 
 ## Version 3.4.4 - December X, 2025
 - Fixed login/logout permission error
+- Grant the anonymous account's permissions to new accounts
 
 ## Version 3.4.3 - December 21, 2025
 - Improve error display on upgrade failures
