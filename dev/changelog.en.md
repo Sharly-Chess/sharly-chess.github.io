@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.4.4 - December X, 2025
+- Fixed login/logout permission error
+
 ## Version 3.4.3 - December 21, 2025
 - Improve error display on upgrade failures
 - Fixed the statistics document
