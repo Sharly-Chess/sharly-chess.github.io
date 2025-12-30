@@ -15,7 +15,7 @@ separator: true
 - Add a warning tooltip on the ranking table when no games played on the board
 - Update the players with new _FFE_ licences during the player update
 - Fixed the update of account roles
-- Apply tournament-based permissions to all tabs
+- Fixed tournament based permissions applied on all tournaments
 
 ## Version 3.4.3 - December 21, 2025
 - Improve error display on upgrade failures

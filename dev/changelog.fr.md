@@ -15,7 +15,7 @@ separator: true
 - Ajout d'un avertissement sur le classement pour les joueur·euses n'ayant joué aucune partie sur l'échiquier
 - Mise à jour des joueur·euses avec de nouvelles licences _FFE_
 - Correction de la mise à jour des rôles des comptes
-- Application des permissions basées sur des tournois sur tous les onglets
+- Application des permissions par tournoi sur tous les tournois
 
 ## Version 3.4.3 - 21 décembre 2025
 - Affichage plus clair des erreurs lors des mises à jour
