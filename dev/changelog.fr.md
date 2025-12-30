@@ -9,12 +9,13 @@ separator: true
 
 # Changelog
 
-## Version 3.4.4 - X décembre 2025
+## Version 3.4.4 - 30 décembre 2025
 - Correction d'une erreur de permission à la connexion/déconnexion
 - Permissions du compte anonyme pour les nouveaux comptes
 - Ajout d'un avertissement sur le classement pour les joueur·euses n'ayant joué aucune partie sur l'échiquier
 - Mise à jour des joueur·euses avec de nouvelles licences _FFE_
 - Correction de la mise à jour des rôles des comptes
+- Application des permissions basées sur des tournois sur tous les onglets
 
 ## Version 3.4.3 - 21 décembre 2025
 - Affichage plus clair des erreurs lors des mises à jour
