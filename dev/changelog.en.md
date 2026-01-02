@@ -16,6 +16,8 @@ separator: true
 - Update the players with new _FFE_ licences during the player update
 - Fixed the update of account roles
 - Fixed tournament based permissions applied on all tournaments
+- Change the session language when updated from the config
+- Use rotator messages prior to screen messages
 
 ## Version 3.4.3 - December 21, 2025
 - Improve error display on upgrade failures

@@ -16,6 +16,8 @@ separator: true
 - Mise à jour des joueur·euses avec de nouvelles licences _FFE_
 - Correction de la mise à jour des rôles des comptes
 - Application des permissions par tournoi sur tous les tournois
+- Modification de la langue de la session après changement dans la configuration de l'application
+- Utilisation des messages d'alerte des écrans rotatifs prioritairement à ceux des écrans
 
 ## Version 3.4.3 - 21 décembre 2025
 - Affichage plus clair des erreurs lors des mises à jour
