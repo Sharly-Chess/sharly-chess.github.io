@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.4.5 - X janvier 2026
+- Mise à jour de la console après récupération d'une configuration d'une version précédente
+
 ## Version 3.4.4 - 3 janvier 2026
 - Correction d'une erreur de permission à la connexion/déconnexion
 - Permissions du compte anonyme pour les nouveaux comptes
