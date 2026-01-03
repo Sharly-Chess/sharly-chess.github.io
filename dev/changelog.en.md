@@ -25,12 +25,12 @@ separator: true
 - Improve error display on upgrade failures
 - Fixed the statistics document
 - Fixed player search on the local FFE database
-- Fixed the display of pairings on the FFE website for accelerated tournaments
+- Fixed the display of pairings on the _FFE_ website for accelerated tournaments
 - Allow pairing groups to be edited for acceleration systems other than Baku
 
 ## Version 3.4.2 - December 17, 2025
 - Fixed ordering of events with the same start and stop dates
-- Fixed the default age category change month for FFE events
+- Fixed the default age category change month for _FFE_ events
 - Fixed `U0` category displayed in default category set
 
 ## Version 3.4.1 - December 15, 2025
