@@ -18,6 +18,8 @@ separator: true
 - Application des permissions par tournoi sur tous les tournois
 - Modification de la langue de la session après changement dans la configuration de l'application
 - Utilisation des messages d'alerte des écrans rotatifs prioritairement à ceux des écrans
+- Ajout des plugins sur les cartes des évènements
+- Affichage des cartes des évènements avec des plug-ins désactivés
 
 ## Version 3.4.3 - 21 décembre 2025
 - Affichage plus clair des erreurs lors des mises à jour
