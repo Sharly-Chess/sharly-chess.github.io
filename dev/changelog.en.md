@@ -9,16 +9,28 @@ separator: true
 
 # Changelog
 
+## Version 3.4.4 - January 3, 2026
+- Fixed login/logout permission error
+- Grant the anonymous account's permissions to new accounts
+- Add a warning tooltip on the ranking table when no games played on the board
+- Update the players with new _FFE_ licences during the player update
+- Fixed the update of account roles
+- Fixed tournament based permissions applied on all tournaments
+- Change the session language when updated from the config
+- Use rotator messages prior to screen messages
+- Add plugins to the events card
+- Display the card of events with disabled plugins
+
 ## Version 3.4.3 - December 21, 2025
 - Improve error display on upgrade failures
 - Fixed the statistics document
 - Fixed player search on the local FFE database
-- Fixed the display of pairings on the FFE website for accelerated tournaments
+- Fixed the display of pairings on the _FFE_ website for accelerated tournaments
 - Allow pairing groups to be edited for acceleration systems other than Baku
 
 ## Version 3.4.2 - December 17, 2025
 - Fixed ordering of events with the same start and stop dates
-- Fixed the default age category change month for FFE events
+- Fixed the default age category change month for _FFE_ events
 - Fixed `U0` category displayed in default category set
 
 ## Version 3.4.1 - December 15, 2025

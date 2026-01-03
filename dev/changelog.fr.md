@@ -9,16 +9,28 @@ separator: true
 
 # Changelog
 
+## Version 3.4.4 - 3 janvier 2026
+- Correction d'une erreur de permission à la connexion/déconnexion
+- Permissions du compte anonyme pour les nouveaux comptes
+- Ajout d'un avertissement sur le classement pour les joueur·euses n'ayant joué aucune partie sur l'échiquier
+- Mise à jour des joueur·euses avec de nouvelles licences _FFE_
+- Correction de la mise à jour des rôles des comptes
+- Application des permissions par tournoi sur tous les tournois
+- Modification de la langue de la session après changement dans la configuration de l'application
+- Utilisation des messages d'alerte des écrans rotatifs prioritairement à ceux des écrans
+- Ajout des plugins sur les cartes des évènements
+- Affichage des cartes des évènements avec des plug-ins désactivés
+
 ## Version 3.4.3 - 21 décembre 2025
 - Affichage plus clair des erreurs lors des mises à jour
 - Correction de l'impression des statistiques
-- Correction de la recherche des joueur·euses sur la base locale FFE
+- Correction de la recherche des joueur·euses sur la base locale _FFE_
 - Correction de l'affichage des appariements sur le site FFE pour les tournois accélérés
 - Édition des groupes d'appariement pour les systèmes autres que Bakou
 
 ## Version 3.4.2 - 17 décembre 2025
 - Correction de l'ordre d'affichage des évènements avec les mêmes dates de début et fin
-- Correction du mois de changement de catégorie pour les évènements FFE
+- Correction du mois de changement de catégorie pour les évènements _FFE_
 - Correction de l'affichage de la catégorie `U0` dans les ensembles de catégories par défaut
 
 ## Version 3.4.1 - 15 décembre 2025
