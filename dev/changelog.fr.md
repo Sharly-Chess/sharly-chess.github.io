@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.4.4 - 30 décembre 2025
+## Version 3.4.4 - 3 janvier 2026
 - Correction d'une erreur de permission à la connexion/déconnexion
 - Permissions du compte anonyme pour les nouveaux comptes
 - Ajout d'un avertissement sur le classement pour les joueur·euses n'ayant joué aucune partie sur l'échiquier

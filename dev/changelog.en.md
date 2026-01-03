@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.4.4 - December 30, 2025
+## Version 3.4.4 - January 3, 2026
 - Fixed login/logout permission error
 - Grant the anonymous account's permissions to new accounts
 - Add a warning tooltip on the ranking table when no games played on the board
