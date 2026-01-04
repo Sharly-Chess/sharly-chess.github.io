@@ -11,6 +11,7 @@ separator: true
 
 ## Version 3.4.5 - January X, 2026
 - Update the console after recovering the configuration of a previous version
+- Allow batch updating the dates of timer hours
 
 ## Version 3.4.4 - January 3, 2026
 - Fixed login/logout permission error

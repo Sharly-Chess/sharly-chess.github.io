@@ -11,6 +11,7 @@ separator: true
 
 ## Version 3.4.5 - X janvier 2026
 - Mise à jour de la console après récupération d'une configuration d'une version précédente
+- Modification des dates des chronomètres par lot
 
 ## Version 3.4.4 - 3 janvier 2026
 - Correction d'une erreur de permission à la connexion/déconnexion
