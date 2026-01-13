@@ -31,6 +31,7 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 - Accès facile aux actions sur le site de la _FFE_ : dépôt du règlement, gestion de la visibilité du tournoi et téléchargement des droits.
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.
 - Critères de prix supplémentaires pour les ligues.
+- Impression des formulaires de la _FFE_ nécessaires à la gestion des tournois en France.
 
 ## Affichage des tournois sur le site de la _FFE_
 
