@@ -30,8 +30,8 @@ nav_order: 700
 # Bientôt disponible
 
 - Statut brouillon/publié des rondes
-- Prise en charge de plug-ins fédéraux autres que celui de la Fédération Française des Échecs (les développeur·euses intéressé·es sont invité·es à [nous contacter]({% link docs/getting-started/getting-support.fr.md %}))
 
 ## À plus long terme
 
 - Gestion des compétitions par équipes (4.x)
+- Prise en charge de plug-ins fédéraux autres que celui de la Fédération Française des Échecs (les développeur·euses intéressé·es sont invité·es à [nous contacter]({% link docs/getting-started/getting-support.fr.md %}))

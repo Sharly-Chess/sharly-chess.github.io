@@ -30,8 +30,8 @@ nav_order: 700
 ## Coming next
 
 - Draft/Published round status
-- Support for federation plugins other than that of the French Chess Federation (developers interested in contributing are invited to [contact us]({% link docs/getting-started/getting-support.en.md %}))
 
 ## Longer term
 
 - Handling of team competitions (4.x)
+- Support for federation plugins other than that of the French Chess Federation (developers interested in contributing are invited to [contact us]({% link docs/getting-started/getting-support.en.md %}))
