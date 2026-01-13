@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.4.6 - X janvier 2026
+## Version 3.4.6 - 13 janvier 2026
 - Correction de l'affichage des chronomètres des écrans rotatifs depuis les contrôleurs d'affichage
 - Activation automatique du plug-in _FFE_ lors du choix de la fédération FRA
 - Actualisation de la liste des réseaux sur la console

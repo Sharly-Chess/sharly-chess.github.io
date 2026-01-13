@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.4.6 - January X, 2026
+## Version 3.4.6 - January 13, 2026
 - Fixed rotator timers display from display controllers
 - Enable the _FFE_ plugin by default when switching event federation
 - Refresh the networks on the console
