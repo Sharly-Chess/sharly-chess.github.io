@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.4.7 - January 14, 2026
+- Utilisation par défaut de menus sur les familles d'écrans
+- Suppression des timeouts lors des mises à jour d'un grand nombre de joueur·euses sans licence _FFE_ depuis la base en ligne
+
 ## Version 3.4.6 - 13 janvier 2026
 - Correction de l'affichage des chronomètres des écrans rotatifs depuis les contrôleurs d'affichage
 - Activation automatique du plug-in _FFE_ lors du choix de la fédération FRA
