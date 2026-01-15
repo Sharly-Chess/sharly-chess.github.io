@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.4.7 - January 14, 2026
+- Use menu links by default for new screen families
+- Prevent timeout when updating many players with no licence from the _FFE_ online database
+
 ## Version 3.4.6 - January 13, 2026
 - Fixed rotator timers display from display controllers
 - Enable the _FFE_ plugin by default when switching event federation
