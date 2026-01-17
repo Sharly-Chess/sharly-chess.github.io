@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.4.8 - January X, 2026
+- Added schools to the statistics
+- Improve error message when executing from a directory without write permissions
+- Fixed the creation of player category sets
+
 ## Version 3.4.7 - January 14, 2026
 - Use menu links by default for new screen families
 - Prevent timeout when updating many players with no licence from the _FFE_ online database

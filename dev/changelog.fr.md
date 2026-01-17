@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.4.8 - January X, 2026
+- Ajout des établissements dans les statistiques (plug-in `fra_schools`)
+- Amélioration du message d'erreur à l'exécution dans un dossier sans droit d'écriture
+- Correction de la création d'ensembles de catégories de joueur·euses
+
 ## Version 3.4.7 - January 14, 2026
 - Utilisation par défaut de menus sur les familles d'écrans
 - Suppression des timeouts lors des mises à jour d'un grand nombre de joueur·euses sans licence _FFE_ depuis la base en ligne
