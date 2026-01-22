@@ -9,10 +9,25 @@ separator: true
 
 # Changelog
 
-## Version 3.4.8 - January X, 2026
-- Added schools to the statistics
+## :point_right: Version 3.5.0 - January X, 2026
+- Improved plugin _FFE_
+  - Added print views for FFE forms
+  - Update FFE players by FFE licence number, FIDE ID (new), then name/DOB
+- Improved plugin _FRA Schools_
+  - Allow updating the schools data after creation
+  - Added schools to the statistics
+  - Added team options to the schools ranking document
+  - Added an overall ranking to the schools ranking document
+  - Added option to hide the schools UAI codes on the FFE upload
+  - Save the school data for batch player creation
+- New type of prizes _Hybrid_
+- Deletion of archived events
 - Improve error message when executing from a directory without write permissions
+- Display the unpaired players by default on screens and families
 - Fixed the creation of player category sets
+- Fixed deleted ratings not taken into account during player update
+- Fixed the text of player norm tooltips
+- Fixed the display of first and last players on family card
 
 ## Version 3.4.7 - January 14, 2026
 - Use menu links by default for new screen families

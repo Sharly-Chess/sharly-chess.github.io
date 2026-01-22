@@ -25,7 +25,7 @@ nav_order: 700
 | _Sharly Chess_ 3.2 | Oct 27th, 2025 | Baku acceleration<br/>Player norms<br/>Support for all _FIDE_ tie-breaks<br/>Upload to _Chess-Results.com_ |          ✅           | Dec 15th, 2025 |
 | _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances     |          ✅           |      Jan, 2025 |
 | _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                 |          ✅           |              - |
-| _Sharly Chess_ 3.5 |      Jan, 2025 | _FFE_ forms, _SCF_ plugin, PT language                                                                     |          ✅           |              - |
+| _Sharly Chess_ 3.5 |      Jan, 2025 | _FFE_ forms, Hybrid prizes                                                                                 |          ✅           |              - |
 
 ## Coming next
 

@@ -9,12 +9,27 @@ separator: true
 
 # Changelog
 
-## Version 3.4.8 - January X, 2026
-- Ajout des établissements dans les statistiques (plug-in `fra_schools`)
+## :point_right: Version 3.5.0 - X janvier 2026
+- Amélioration du plug-in _FFE_
+  - Mise à jour des joueur·euses par numéro de licence _FFE_, ID _FIDE_ (nouveau), puis nom/DdN
+  - Ajout des impressions des formulaires FFE
+- Amélioration du plug-in _Compétitions scolaires françaises_
+  - Mise à jour des données des écoles après leur création
+  - Ajout des établissements dans les statistiques
+  - Added team options to the schools ranking document
+  - Added an overall ranking to the schools ranking document
+  - Added option to hide the schools UAI codes on the FFE upload
+  - Save the school data for batch player creation
+- Nouveau type de prix _Hybride_
+- Suppression des événements archivés
 - Amélioration du message d'erreur à l'exécution dans un dossier sans droit d'écriture
+- Affichage des joueur·euses non apparié·es sur les écrans et les familles d'écrans
 - Correction de la création d'ensembles de catégories de joueur·euses
+- Correction du problème des classements supprimés non pris en compte lors de la mise à jour des joueur·euses
+- Correction du texte des infobulles des normes des joueurs.
+- Correction de l'affichage du·de la premier·e/dernier·e joueur·euse sur les cartes des familles
 
-## Version 3.4.7 - January 14, 2026
+## Version 3.4.7 - 14 janvier 2026
 - Utilisation par défaut de menus sur les familles d'écrans
 - Suppression des timeouts lors des mises à jour d'un grand nombre de joueur·euses sans licence _FFE_ depuis la base en ligne
 
