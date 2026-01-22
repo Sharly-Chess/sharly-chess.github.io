@@ -9,6 +9,20 @@ separator: true
 
 # Changelog
 
+## Version 3.4.8 - January X, 2026
+- Added schools to the statistics
+- Improve error message when executing from a directory without write permissions
+- Fixed the creation of player category sets
+
+## Version 3.4.7 - January 14, 2026
+- Use menu links by default for new screen families
+- Prevent timeout when updating many players with no licence from the _FFE_ online database
+
+## Version 3.4.6 - January 13, 2026
+- Fixed rotator timers display from display controllers
+- Enable the _FFE_ plugin by default when switching event federation
+- Refresh the networks on the console
+
 ## Version 3.4.5 - January 8, 2026
 - Update the console after recovering the configuration of a previous version
 - Allow batch updating the dates of timer hours

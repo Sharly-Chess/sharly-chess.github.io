@@ -9,6 +9,20 @@ separator: true
 
 # Changelog
 
+## Version 3.4.8 - January X, 2026
+- Ajout des établissements dans les statistiques (plug-in `fra_schools`)
+- Amélioration du message d'erreur à l'exécution dans un dossier sans droit d'écriture
+- Correction de la création d'ensembles de catégories de joueur·euses
+
+## Version 3.4.7 - January 14, 2026
+- Utilisation par défaut de menus sur les familles d'écrans
+- Suppression des timeouts lors des mises à jour d'un grand nombre de joueur·euses sans licence _FFE_ depuis la base en ligne
+
+## Version 3.4.6 - 13 janvier 2026
+- Correction de l'affichage des chronomètres des écrans rotatifs depuis les contrôleurs d'affichage
+- Activation automatique du plug-in _FFE_ lors du choix de la fédération FRA
+- Actualisation de la liste des réseaux sur la console
+
 ## Version 3.4.5 - 8 janvier 2026
 - Mise à jour de la console après récupération d'une configuration d'une version précédente
 - Modification des dates des chronomètres par lot
