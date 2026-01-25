@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.5.0 - January X, 2026
+## :point_right: Version 3.5.0 - January 26, 2026
 - Improved plugin _FFE_
   - Added print views for FFE forms
   - Update FFE players by FFE licence number, FIDE ID (new), then name/DOB
@@ -22,6 +22,7 @@ separator: true
   - Save the school data for batch player creation
 - New type of prizes _Hybrid_
 - Deletion of archived events
+- Added options to Players Screens to display more pairings with minimal information
 - Improve error message when executing from a directory without write permissions
 - Display the unpaired players by default on screens and families
 - Fixed the creation of player category sets

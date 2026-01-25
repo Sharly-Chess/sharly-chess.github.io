@@ -9,21 +9,22 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 3.5.0 - X janvier 2026
-- Amélioration du plug-in _FFE_
+## :point_right: Version 3.5.0 - 26 janvier 2026
+- Améliorations du plug-in _FFE_
   - Mise à jour des joueur·euses par numéro de licence _FFE_, ID _FIDE_ (nouveau), puis nom/DdN
   - Ajout des impressions des formulaires FFE
-- Amélioration du plug-in _Compétitions scolaires françaises_
+- Améliorations du plug-in _Compétitions scolaires françaises_
   - Mise à jour des données des écoles après leur création
   - Ajout des établissements dans les statistiques
-  - Added team options to the schools ranking document
-  - Added an overall ranking to the schools ranking document
-  - Added option to hide the schools UAI codes on the FFE upload
-  - Save the school data for batch player creation
+  - Ajout d'une option d'impression pour n'imprimer que les équipes complètes
+  - Ajout du classement global des établissements à l'impression
+  - Possibilité de cacher les UAI des établissements pour l'export sur le site _FFE_
+  - Amélioration de l'interface d'ajout des joueur·euses (établissement conservé)
 - Nouveau type de prix _Hybride_
 - Suppression des événements archivés
+- Ajout d'options aux écrans d'affichage des appariements par ordre alphabétique pour afficher plus de joueur·euses avec les informations minimales
 - Amélioration du message d'erreur à l'exécution dans un dossier sans droit d'écriture
-- Affichage des joueur·euses non apparié·es sur les écrans et les familles d'écrans
+- Par défaut, affichage des joueur·euses non apparié·es sur les écrans et les familles d'écrans
 - Correction de la création d'ensembles de catégories de joueur·euses
 - Correction du problème des classements supprimés non pris en compte lors de la mise à jour des joueur·euses
 - Correction du texte des infobulles des normes des joueurs.
