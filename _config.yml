@@ -35,7 +35,7 @@ permalink: :categories/:year/:month/:day/:slug:output_ext
 url: "https://sharly-chess.com" # the base hostname & protocol for your site, e.g. http://example.com
 favicon_ico: "/assets/images/sharly-chess.ico"
 
-doc_version: 3.4
+doc_version: 3.5
 latest_version: 3.5.0
 github_url: "https://github.com/sharly-chess/sharly-chess"
 
