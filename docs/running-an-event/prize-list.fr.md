@@ -60,6 +60,6 @@ Tous les prix (monétaires ou non) doivent avoir une **valeur attribuée** afin 
 {: .tip }
 > :point_right: Les prix monétaires **ne sont pas prioritaires** sur les prix non monétaires. Par exemple, un·e joueur·euse recevra un prix non monétaire avec une valeur de 60 plutôt qu’un prix en argent de 50€, si les deux appartiennent au même _groupe de prix_. Cela vous donne un contrôle total sur la structure des récompenses.
 
-## Consultation et impression des résultats
+## Consultation et impression des attributions de prix
 
-Une fois les prix configurés, vous pouvez consulter et imprimer les attributions via la fenêtre d’impression (via l’option d’impression dans la barre latérale).
+Une fois les prix configurés, vous pouvez consulter les attributions et générer un document imprimable (via le menu Documents dans la barre latérale).

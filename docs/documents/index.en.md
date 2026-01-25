@@ -1,22 +1,22 @@
 ---
 layout: page
-title: Printing
-permalink: /printing
-page_id: printing
+title: Documents
+permalink: /documents
+page_id: documents
 nav_order: 350
 ---
 
-# Printing
+# Documents
 
-The print dialog can be accessed in two ways:
+The documents dialog can be accessed in two ways:
 
-- Via the **"Print"** option in the sidebar navigation
-- From the **actions menu** on a tournament card (on the tournaments page). In this case, the tournament will be preselected in the print dialog.
+- Via the **"Documents"** menu of the sidebar navigation
+- From the **Actions menu** on a tournament card (on the tournaments page). In this case, the tournament will be preselected in the documents dialog.
 
 Sharly Chess can generate a wide variety of documents intended for display during a tournament.
 The selected document will open in a new browser tab, allowing you to print it as you would any standard document.
 
-Here’s a brief overview of the available document types:
+Here’s a brief overview of the available document types.
 
 ---
 
@@ -90,7 +90,7 @@ This system can be useful for awarding per-round prizes or for any other creativ
 
 ## Prize List
 
-Prints the list of prizes defined for the tournament. According to _FIDE_ regulations, this list must be displayed no later than halfway through the event.
+Presents the list of prizes defined for the tournament. According to _FIDE_ regulations, this list must be displayed no later than halfway through the event.
 
 ---
 
@@ -102,10 +102,10 @@ Once the tournament is complete, you can generate the list of prize winners base
 
 ## Place cards
 
-_Sharly Chess_ offers three printing options for creating place cards:
+_Sharly Chess_ offers three document options for creating place cards:
 
 - **Player cards** add a touch of class to your event and make it easier for players to fill in their scoresheets.
 - **Board cards** display the board numbers, helping players quickly locate their seats.
 - **Pairing cards** combine both board numbers and player information for complete round visibility
 
-- [Place Cards Customization Guide]({% link docs/printing/place-cards.en.md %})
+- [Place Cards Customization Guide]({% link docs/documents/place-cards.en.md %})

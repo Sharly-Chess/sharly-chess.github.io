@@ -31,7 +31,7 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - Easy access to actions on the _FFE_ website: submitting regulations, managing tournament visibility, and downloading fees.
 - _FFE_ specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
-- Printing _FFE_ forms needed to manage French tournaments.
+- Generating _FFE_ forms needed to manage French tournaments.
 
 ## Tournament Display on the _FFE_ Website
 

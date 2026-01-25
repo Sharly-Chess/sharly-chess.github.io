@@ -40,7 +40,7 @@ You can add one or more filters to each category to limit eligibility:
 
 - **Gender**: Male or Female
 - **Elo Rating**: Minimum and/or maximum
-- **Age Category**: Specify the age categories concernced (e.g. U12), and optionally include all lower or higher age brackets
+- **Age Category**: Specify the age categories concerned (e.g. U12), and optionally include all lower or higher age brackets
 - **Rating Type**: _FIDE_, national, or estimated
 - **Clubs**: Limit the category to specific clubs
 - **Federations**: Limit the category to specific national federations
@@ -62,4 +62,4 @@ All prizes (monetary or not) should have a value assigned for fair comparison du
 
 ## Viewing and Exporting Results
 
-Once prizes are configured, you can view and print the prize allocations from the Print dialog (via the print option in the side bar).
+Once prizes are configured, you can view the prize allocations and generate a printable document from the Documents dialog (via the Documents menu of the side bar).

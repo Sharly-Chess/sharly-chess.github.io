@@ -10,13 +10,14 @@ separator: true
 # Changelog
 
 ## :point_right: Version 3.5.0 - January 26, 2026
+- Renamed menu « Printing » to « Documents »
 - Improved plugin _FFE_
-  - Added print views for FFE forms
-  - Update FFE players by FFE licence number, FIDE ID (new), then name/DOB
+  - Added FFE forms to the documents
+  - Update FFE players by _FFE_ licence number, _FIDE_ ID (new), then name/DOB
 - Improved plugin _FRA Schools_
   - Allow updating the schools data after creation
   - Added schools to the statistics
-  - Added team options to the schools ranking document
+  - Added an option to show only the complete teams on the schools ranking document
   - Added an overall ranking to the schools ranking document
   - Added option to hide the schools UAI codes on the FFE upload
   - Save the school data for batch player creation

@@ -1,22 +1,22 @@
 ---
 layout: page
-title: Impression
-permalink: /printing
-page_id: printing
+title: Documents
+permalink: /documents
+page_id: documents
 nav_order: 350
 ---
 
 # Impression
 
-La fenêtre d’impression est accessible de deux manières :
+La fenêtre des documents est accessible de deux manières :
 
-- Via l’option **« Impression »** dans le menu de navigation latéral
-- Depuis le **menu d’actions** d’un tournoi (sur la page des tournois). Dans ce cas, le tournoi sera déjà sélectionné dans la fenêtre d’impression.
+- Via l’option **« Documents »** dans le menu de navigation latéral
+- Depuis le **menu d’actions** d’un tournoi (sur la page des tournois). Dans ce cas, le tournoi sera déjà sélectionné dans la fenêtre des documents.
 
-Sharly Chess peut générer une grande variété de documents destinés à être affichés lors d’un tournoi.
-Le document choisi s’ouvre dans un nouvel onglet du navigateur, que vous pouvez imprimer comme tout autre document.
+_Sharly Chess_ peut générer une grande variété de documents destinés à être affichés ou imprimés lors d’un tournoi.
+Le document choisi s’ouvre dans un nouvel onglet du navigateur, que vous pouvez afficher ou imprimer comme tout autre document.
 
-Voici un aperçu des différents types de documents disponibles :
+Les différents types de documents disponibles sont les suivants.
 
 ---
 
@@ -29,17 +29,17 @@ Ce document inclut le nom, le classement, la catégorie d’âge, le genre, la f
 
 ## Liste de pointage
 
-Sharly Chess propose plusieurs façons de pointer les joueur·euses avant le début du tournoi. L’arbitre·e peut :
+_Sharly Chess_ propose plusieurs façons de pointer les joueur·euses avant le début du tournoi. L’arbitre·e peut :
 
 - Pointer les joueur·euses manuellement dans l’interface de _Sharly Chess_
 - Permettre aux joueur·euses de s’auto-pointer via un [Écran]({% link docs/screens/single-screens.fr.md %}) sur tablette ou ordinateur
 
 Vous pouvez également utiliser une méthode plus traditionnelle avec une liste de pointage imprimée. Celle-ci inclut :
 
-- Une case à cocher pour chaque joueur·euse
-- Le nom, le classement, la catégorie d’âge, le genre, etc.
-- Les montants payés et dus
-- Les commentaires associés au joueur·euse
+- Une case à cocher pour chaque joueur·euse ;
+- Le nom, le classement, la catégorie d’âge, le genre... ;
+- Les montants payés et dus ;
+- Les commentaires associés au·à la joueur·euse.
 
 ---
 
@@ -104,7 +104,7 @@ Une fois le tournoi terminé, vous pouvez générer la liste des gagnant·es pou
 
 ## Chevalets
 
-_Sharly Chess_ offre trois impressions spécifiques pour réaliser des chevalets de table :
+_Sharly Chess_ offre trois documents spécifiques pour réaliser des chevalets de table :
 
 - **chevalets des joueur·euses**, qui donne un standing aux évènements et facilitent le remplissage des feuilles de partie ;
 - **chevalets d'échiquier**, avec simplement les numéros de table, qui permettent aux joueur·euses de se repérer facilement dans la salle ;
@@ -112,4 +112,4 @@ _Sharly Chess_ offre trois impressions spécifiques pour réaliser des chevalets
 
 Il est également possible de personnaliser les chevalets, au niveau du texte et des images.
 
-- [Guide de personnalisation des chevalets]({% link docs/printing/place-cards.fr.md %}) 
+- [Guide de personnalisation des chevalets]({% link docs/documents/place-cards.fr.md %}) 
