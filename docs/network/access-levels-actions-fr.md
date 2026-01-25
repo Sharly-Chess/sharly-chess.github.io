@@ -71,9 +71,9 @@
 | **Prix**                                           |           |           |           |           |           |           |           |           |           |           |   |
 | Voir l'onglet Prix                                 |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 | Gestion des prix                                   |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
-| **Impression**                                     |           |           |           |           |           |           |           |           |           |           |   |
-| Imprimer                                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
+| **Documents**                                      |           |           |           |           |           |           |           |           |           |           |   |
+| Générer des documents                              |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2025-10-05 11:26) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-01-25 14:46) -->
