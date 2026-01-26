@@ -22,6 +22,7 @@ separator: true
   - Added option to hide the schools UAI codes on the FFE upload
   - Save the school data for batch player creation
 - New type of prizes _Hybrid_
+- Improved player filtering on the Players tab
 - Deletion of archived events
 - Added options to Players Screens to display more pairings with minimal information
 - Improve error message when executing from a directory without write permissions

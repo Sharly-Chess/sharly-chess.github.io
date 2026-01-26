@@ -22,6 +22,7 @@ separator: true
   - Possibilité de cacher les UAI des établissements pour l'export sur le site _FFE_
   - Amélioration de l'interface d'ajout des joueur·euses (établissement conservé)
 - Nouveau type de prix _Hybride_
+- Amélioration du filtrage des joueur·euses sur l'onglet Joueur·euses
 - Suppression des événements archivés
 - Ajout d'options aux écrans d'affichage des appariements par ordre alphabétique pour afficher plus de joueur·euses avec les informations minimales
 - Amélioration du message d'erreur à l'exécution dans un dossier sans droit d'écriture
