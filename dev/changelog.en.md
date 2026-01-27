@@ -9,9 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 3.5.1 - January 28, 2026
+- Fixed the pairings by player document
+- Use score instead of result in history popover
+
 ## :point_right: Version 3.5.0 - January 26, 2026
-- Renamed menu « Printing » to « Documents »
-- Rework of the _Players_ tab
+- Renamed menu "Printing" to "Documents"
+- Rework of the Players tab
   - All the columns are now sortable
   - Search by name and club is globalized
   - Dynamic columns handling to match the usage 
