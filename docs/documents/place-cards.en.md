@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Place Cards
-parent: Printing
+parent: Documents
 permalink: /place-cards/
 page_id: place-cards
 nav_order: 352
@@ -9,7 +9,7 @@ nav_order: 352
 
 # Place Cards Customization Guide
 
-_Sharly Chess_ allows you to print standard **place cards** that help organize and enhance your tournament setup:
+_Sharly Chess_ allows you to generate standard **place cards** that help organize and enhance your tournament setup:
 
 - **Player cards** add a touch of class to your event and make it easier for players to complete their scoresheets.
 - **Board cards** display the board numbers, helping players quickly find their assigned tables.
@@ -152,8 +152,8 @@ v_pos = 0.0
 
 ### Foldable (double-sided) cards
 
-For foldable cards, simply check the corresponding box in the print dialog.
-The items will be automatically duplicated and printed on both halves of the card so that it can be folded neatly in two.
+For foldable cards, simply check the corresponding box in the Documents dialog.
+The items will be automatically duplicated and displayed on both halves of the card so that it can be folded neatly in two.
 
 ### Foldable cards with different sides
 

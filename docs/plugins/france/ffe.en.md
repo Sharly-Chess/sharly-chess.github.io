@@ -15,7 +15,7 @@ nav_order: 400
 The _FFE_ plugin provides functionality that's useful for running tournaments associated with the **French Chess Federation** (the _**F**édération **F**rançaise des **É**checs_).
 
 {: .note }
-> :information_source: The _FFE_ plugin is automatically actived for tournaments of federation "FRA".
+> :information_source: The _FFE_ plugin is automatically activated for tournaments of federation "FRA".
 
 Enabling the plugin adds a number of a features to _Sharly Chess_:
 
@@ -31,6 +31,7 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - Easy access to actions on the _FFE_ website: submitting regulations, managing tournament visibility, and downloading fees.
 - _FFE_ specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
+- Generating _FFE_ forms needed to manage French tournaments.
 
 ## Tournament Display on the _FFE_ Website
 

@@ -18,14 +18,14 @@ Lorsqu’il est activé pour un évènement, il :
 
 * Ajoute un nouveau type de base de données locale contenant tous les établissements scolaires et collèges de France (téléchargeable depuis _Sources de données_)
 * Ajoute un champ **Établissement scolaire** pour chaque joueur·euse
-* Remplace les colonnes _Fédération_, _Ligue_ et _Club_ par l’établissement scolaire dans les vues d’écran et d’impression
-* Ajoute une colonne **École** à l’onglet _Joueurs·euses_ de l’interface d’administration
-* Propose une option d’impression **« Par établissement »**
+* Remplace les colonnes _Fédération_, _Ligue_ et _Club_ par l’établissement scolaire dans les vues d’écran et les documents
+* Ajoute une colonne **Établissement** à l’onglet _Joueurs·euses_ de l’interface d’administration
+* Propose le tri **« Par établissement »** dans les documents
 * Fournit un **critère de prix** par établissement scolaire
-* Ajoute un document d’impression **Écoles par classement** pour lister les équipes d’établissement par ordre de classement
-* Exporte l’établissement comme club lors de la génération des fichiers Papi
-* Crée les établissements lors de l'import depuis ChessEvent et Papi
-* Inclut l’établissement dans les exports de fiches de données
+* Ajoute un document **Classement par établissement** pour lister les équipes d’établissement par ordre de classement
+* Exporte l’établissement comme club lors de la génération des fichiers _Papi_
+* Crée les établissements lors de l'import depuis ChessEvent et _Papi_
+* Inclut l’établissement dans les exports vers le site web de la _FFE_
 
 ## Utilisation
 

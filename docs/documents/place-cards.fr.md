@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chevalets
-parent: Impression
+parent: Documents
 permalink: /chevalets/
 page_id: place-cards
 nav_order: 352
@@ -9,7 +9,7 @@ nav_order: 352
 
 # Guide de personnalisation des chevalets
 
-_Sharly Chess_ offre la possibilité d'imprimer des chevalets de table standards :
+_Sharly Chess_ offre la possibilité de générer des chevalets de table standards :
 
 - **chevalets d'échiquier**, avec simplement les numéros de table, qui permettent aux joueur·euses de se repérer facilement dans la salle ;
 - **chevalets des joueur·euses**, qui donne un standing aux évènements et facilitent la saisie des feuilles de partie ;
@@ -19,7 +19,7 @@ Cette page explique comment personnaliser les chevalets.
 
 ## Par où commencer ?
 
-Pour imprimer un jeu de chevalets personnalisés, il faut :
+Pour générer un jeu de chevalets personnalisés, il faut :
 - créer le dossier `place_cards/` dans le dossier `custom`
 - créer un dossier dans `custom/place_cards`, par exemple `custom/place_cards/essai`
 - créer un modèle (fichier avec l'extension `.template`) dans ce dossier, par exemple `custom/place_cards/essai/echiquiers.template`.
@@ -146,13 +146,13 @@ h_pos = 0.0
 v_pos = 0.0
 ```
 
-### Impression recto-verso en miroir
+### Génération recto-verso en miroir
 
-Pour des chevalets symétriques recto-verso, il suffit de cocher la case correspondante dans le dialogue d'impression et les éléments entrés seront automatiquement dupliqués et imprimés de chaque côté du chevalet.
+Pour des chevalets symétriques recto-verso, il suffit de cocher la case correspondante dans le dialogue de génération des documents et les éléments entrés seront automatiquement dupliqués et affichés de chaque côté du chevalet.
 
-### Impression recto-verso différenciée
+### Génération recto-verso différenciée
 
-Pour des chevalets recto-verso différenciés, il suffit d'indiquer pour les éléments à imprimer sur le verso la propriété `side = back` (par défaut, la valeur est `side = front`).
+Pour des chevalets recto-verso différenciés, il suffit d'indiquer pour les éléments à générer sur le verso la propriété `side = back` (par défaut, la valeur est `side = front`).
 
 ## Référence des propriétés des éléments
 
