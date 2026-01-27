@@ -9,9 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 3.5.1 - 28 janvier 2026
+- Correction du document d'appariement par ordre alphabétique
+- Utilisation du score à l place du résultat sur le popup d'historique des joueur·euses
+
 ## :point_right: Version 3.5.0 - 26 janvier 2026
 - Renommage du menu « Impression » en « Documents »
-- Refonte de l'onglet _Joueur·euses_
+- Refonte de l'onglet Joueur·euses
   - Le tri peut s'effectuer sur chaque colonne
   - La recherche par nom et par club est globalisée
   - Gestion dynamique des colonnes pour correspondre à l'usage

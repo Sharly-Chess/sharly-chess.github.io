@@ -10,8 +10,8 @@ separator: true
 # Changelog
 
 ## :point_right: Version 3.5.0 - January 26, 2026
-- Renamed menu « Printing » to « Documents »
-- Rework of the _Players_ tab
+- Renamed menu "Printing" to "Documents"
+- Rework of the Players tab
   - All the columns are now sortable
   - Search by name and club is globalized
   - Dynamic columns handling to match the usage 
@@ -36,6 +36,38 @@ separator: true
 - Fixed deleted ratings not taken into account during player update
 - Fixed the text of player norm tooltips
 - Fixed the display of first and last players on family card
+
+## Version 3.5.1 - January 28, 2026
+- Fixed the pairings by player document
+- Use score instead of result in history popover
+
+## :point_right: Version 3.5.0 - January 26, 2026
+- Renamed menu « Printing » to « Documents »
+- Rework of the Players tab
+  - All the columns are now sortable
+  - Search by name and club is globalized
+  - Dynamic columns handling to match the usage
+  - Downloading now takes effect on the search results
+- Improved plugin FFE
+  - Added FFE forms to the documents
+  - Update FFE players by FFE licence number, FIDE ID (new), then name/DOB
+- Improved plugin FRA Schools
+  - Allow updating the schools data after creation
+  - Added schools to the statistics
+  - Added an option to show only the complete teams on the schools ranking document
+  - Added an overall ranking to the schools ranking document
+  - Added option to hide the schools UAI codes on the FFE upload
+  - Save the school data for batch player creation
+- New type of prizes Hybrid
+- Improved player filtering on the Players tab
+- Deletion of archived events
+- Added options to Players Screens to display more pairings with minimal information
+- Improve error message when executing from a directory without write permissions
+- Display the unpaired players by default on screens and families
+- Fixed the creation of player category sets
+- Fixed deleted ratings not taken into account during player update
+- Fixed the text of player norm tooltips
+- Fixed the display of first and last players on family card- Fixed the pairings by player document
 
 ## Version 3.4.7 - January 14, 2026
 - Use menu links by default for new screen families
