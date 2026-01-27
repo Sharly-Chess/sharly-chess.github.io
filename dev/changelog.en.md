@@ -11,6 +11,11 @@ separator: true
 
 ## :point_right: Version 3.5.0 - January 26, 2026
 - Renamed menu « Printing » to « Documents »
+- Rework of the _Players_ tab
+  - All the columns are now sortable
+  - Search by name and club is globalized
+  - Dynamic columns handling to match the usage 
+  - Downloading now takes effect on the search results
 - Improved plugin _FFE_
   - Added FFE forms to the documents
   - Update FFE players by _FFE_ licence number, _FIDE_ ID (new), then name/DOB

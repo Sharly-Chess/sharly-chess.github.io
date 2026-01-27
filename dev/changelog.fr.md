@@ -11,6 +11,11 @@ separator: true
 
 ## :point_right: Version 3.5.0 - 26 janvier 2026
 - Renommage du menu « Impression » en « Documents »
+- Refonte de l'onglet _Joueur·euses_
+  - Le tri peut s'effectuer sur chaque colonne
+  - La recherche par nom et par club est globalisée
+  - Gestion dynamique des colonnes pour correspondre à l'usage
+  - Le téléchargement s'effectue maintenant sur les résultats de la recherche
 - Améliorations du plug-in _FFE_
   - Mise à jour des joueur·euses par numéro de licence _FFE_, ID _FIDE_ (nouveau), puis nom/DdN
   - Ajout des formulaires FFE
