@@ -11,7 +11,7 @@ separator: true
 
 ## Version 3.5.1 - 28 janvier 2026
 - Correction du document d'appariement par ordre alphabétique
-- Utilisation du score à l place du résultat sur le popup d'historique des joueur·euses
+- Utilisation du score à la place du résultat sur le popup d'historique des joueur·euses
 
 ## :point_right: Version 3.5.0 - 26 janvier 2026
 - Renommage du menu « Impression » en « Documents »
