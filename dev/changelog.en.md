@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.5.2 - February 7, 2026
+- Remove table header transparency
+- Fixed tombola with no players
+- Fixed the _All / In play_ button of the Pairings tab
+
 ## Version 3.5.1 - January 28, 2026
 - Fixed the pairings by player document
 - Use score instead of result in history popover

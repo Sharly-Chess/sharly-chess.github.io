@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.5.2 - February 7, 2026
+- Suppression de la transparence de l'entête des tableaux
+- Correction de la tombola en l'absence de joueur·euses
+- Correction du bouton _Tous / En jeu_ de l'onglet Appariements
+
 ## Version 3.5.1 - 28 janvier 2026
 - Correction du document d'appariement par ordre alphabétique
 - Utilisation du score à la place du résultat sur le popup d'historique des joueur·euses
