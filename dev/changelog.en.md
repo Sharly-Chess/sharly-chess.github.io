@@ -9,6 +9,16 @@ separator: true
 
 # Changelog
 
+## Version 3.6.0 - February X, 2026
+- Upgrade _bbpPairings_ engine to v6.0.0
+- Import events from SCE files
+- Push forward SCE export
+- Import players from CSV files
+- Delete all unpaired players at once
+- Display player history on crosstable document
+- Distribute the players among the tournaments
+- Added criteria type Comment
+
 ## Version 3.5.2 - February 7, 2026
 - Remove table header transparency
 - Fixed tombola with no players
