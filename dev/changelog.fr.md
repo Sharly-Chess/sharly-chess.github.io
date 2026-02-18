@@ -9,7 +9,20 @@ separator: true
 
 # Changelog
 
-## Version 3.5.2 - February 7, 2026
+## :point_right: Version 3.6.0 - 18 février 2026
+- Montée de version du moteur _bbpPairings_ en v6.0.0
+- Import des évènements depuis des fichiers SCE
+- Promotion de l'exportation au format SCE
+- Import des joueur·euses au format CSV
+- Suppression de tou·tes les joueur·euses on apparié·es en une fois
+- Affichage de l'historique des joueur·euses sur le document « grille américaine »
+- Répartition des joueur·euses dans les tournois
+- Ajout du critère Commentaire
+- Amélioration des documents des prix
+- Ajout d'un lien manquant sur les cartes des écrans de familles
+- Correction des formulaires _FFE_ T2 et indemnisation de l'arbitre
+
+## Version 3.5.2 - 7 février 2026
 - Suppression de la transparence de l'entête des tableaux
 - Correction de la tombola en l'absence de joueur·euses
 - Correction du bouton _Tous / En jeu_ de l'onglet Appariements

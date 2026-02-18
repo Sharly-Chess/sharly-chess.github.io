@@ -21,3 +21,11 @@ Some basic information is required to set up an event, but most fields can be le
 | **Player ratings to use by default** | Specifies if tournaments will use FIDE or national ratings by default.|
 
 You can also activate any plugins that you'll need for this event.
+
+## Sharing Events
+
+The preferred format for sharing events between _Sharly Chess_ users is the _SCE_ format (**S**harly **C**hess **E**vent).
+
+Events can be:
+- exported from the event cards (Actions > Export > SCE format)
+- imported from the homepage (Create an event > Import an SCE file)

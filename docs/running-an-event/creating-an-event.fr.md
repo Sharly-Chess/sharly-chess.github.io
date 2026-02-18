@@ -19,3 +19,12 @@ Quelques informations de base sont nécessaires pour configurer un événement, 
 | **Dates** | Les dates de début et de fin de l’événement. Utilisées pour trier les événements et incluses dans l’export TRF. |
 | **Lieu** | Le lieu de l’événement (par exemple : ville ou salle). |
 | **Classements à utiliser par défaut** | Indique si les tournois utilisent par défaut le classement FIDE ou national. |
+
+## Partage des évènements
+
+Le format privilégié pour partager des évènements entre utilisateurs de _Sharly Chess_ est le format _SCE_ (**S**harly **C**hess **E**vent).
+
+Les évènements peuvent ainsi être :
+
+- exportés depuis la carte des évènements (Actions > Exporter > Format SCE) ;
+- importés depuis la page d'accueil (Créer un évènement > Importer un fichier SCE).

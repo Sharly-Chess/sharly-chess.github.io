@@ -40,6 +40,7 @@
 | Mettre à jour les joueur·euses                     |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 | Modifier l'historique des joueur·euses             |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     | - |
 | Supprimer des joueur·euses                         |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
+| Répartir les joueur·euses dans les tournois        |     ✔     |     -     |     -     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | **Pointage**                                       |           |           |           |           |           |           |           |           |           |           |   |
 | Ouvrir/fermer le pointage                          |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Pointer les joueur·euses                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     | - |
@@ -76,4 +77,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2026-01-25 14:46) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-02-05 16:12) -->

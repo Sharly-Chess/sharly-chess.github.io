@@ -13,7 +13,7 @@ nav_order: 700
 |   _Papi-web_ 1.x   |   2013–2023 | Version initiale                                                                                                                  |        -         |    10 nov 2023 |
 |   _Papi-web_ 2.0   | 10 Nov 2023 | Amélioration des écrans d'affichage                                                                                               |        ❌         |    27 mar 2024 |
 |   _Papi-web_ 2.1   |  9 Déc 2023 | Connexion à _ChessEvent_                                                                                                          |        ✅         |     8 avr 2024 |
-|   _Papi-web_ 2.2   | 27 Mar 2024 | Amélioration des performances, coups illégaux                                                                                     |        ✅         |    30 oct 2024 |
+|   _Papi-web_ 2.2   | 27 Mar 2024 | Amélioration des performances<br/>Coups illégaux                                                                                  |        ✅         |    30 oct 2024 |
 |   _Papi-web_ 2.3   |  8 Avr 2024 | Pointage                                                                                                                          |        ✅         |     7 avr 2025 |
 |   _Papi-web_ 2.4   | 30 Oct 2024 | Logiciel libre<br/>Support multilingue<br/>Configuration web<br/>Stockage SQLite                                                  |        ❌         |    13 mai 2025 |
 |   _Papi-web_ 2.5   |  7 Avr 2025 | Amélioration de l'interface<br/>Gestion des joueurs·euses<br/>Calcul, affichage et impression des classements                     |        ✅         |    28 mai 2025 |
@@ -22,14 +22,16 @@ nav_order: 700
 | _Sharly Chess_ 2.8 |  7 Jul 2025 | Appariement suisse<br/>Calcul des prix<br/>Listes de pointage                                                                     |        ✅         |     1 oct 2025 |
 | _Sharly Chess_ 3.0 |  1 Sep 2025 | Abandon du format Papi<br/>Prise en charge de macOS                                                                               |        ✅         |    29 oct 2025 |
 | _Sharly Chess_ 3.1 |  1 Oct 2025 | Délégation par niveau d'accès<br/>Import/export TRF                                                                               |        ✅         |    21 nov 2025 |
-| _Sharly Chess_ 3.2 | 29 Oct 2025 | Accélération de Bakou<br/>Normes de joueur·euse<br/>Support de tous les départages _FIDE_<br/>Publication sur _Chess-Results.com_ |        ✅         |    15 Déc 2025 |
-| _Sharly Chess_ 3.3 | 21 Nov 2025 | Amélioration de l'interface web<br/>Gestion des tournois scolaires _FFE_<br/>Chevalets<br/>Performances _FIDE_                    |        ✅         |              - |
-| _Sharly Chess_ 3.4 | 15 Déc 2025 | Catégories d'âge configurables, partage des évènements, reçus financiers                                                          |        ✅         |              - |
-| _Sharly Chess_ 3.5 |    Jan 2025 | Formulaires _FFE_, prix hybrides                                                                                                  |        ✅         |              - |
+| _Sharly Chess_ 3.2 | 29 Oct 2025 | Accélération de Bakou<br/>Normes de joueur·euse<br/>Support de tous les départages _FIDE_<br/>Publication sur _Chess-Results.com_ |        ✅         |    15 déc 2025 |
+| _Sharly Chess_ 3.3 | 21 Nov 2025 | Amélioration de l'interface web<br/>Gestion des tournois scolaires _FFE_<br/>Chevalets<br/>Performances _FIDE_                    |        ✅         |    26 jan 2026 |
+| _Sharly Chess_ 3.4 | 15 déc 2025 | Catégories d'âge configurables<br/>Partage des évènements<br/>Reçus financiers                                                    |        ✅         |    18 fév 2026 |
+| _Sharly Chess_ 3.5 | 26 jan 2026 | Formulaires _FFE_<br/>Prix hybrides                                                                                               |        ✅         |              - |
+| _Sharly Chess_ 3.6 | 18 fév 2026 | Import des évènements au format SCE<br/>Import des joueur·euses au format CSV                                                     |        ✅         |              - |
 
 # Bientôt disponible
 
 - Statut brouillon/publié des rondes
+- import/export TRF26
 
 ## À plus long terme
 

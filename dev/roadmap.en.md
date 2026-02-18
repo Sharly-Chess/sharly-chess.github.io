@@ -13,7 +13,7 @@ nav_order: 700
 |   _Papi-web_ 1.x   |      2013–2023 | Initial version                                                                                            |          -           | Nov 10th, 2023 |
 |   _Papi-web_ 2.0   | Nov 10th, 2023 | Improved display screens                                                                                   |          ❌           | Mar 27th, 2024 |
 |   _Papi-web_ 2.1   |  Dec 9th, 2023 | Connection to _ChessEvent_                                                                                 |          ✅           |  Avr 8th, 2024 |
-|   _Papi-web_ 2.2   | Mar 27th, 2024 | Performance improvements, illegal moves                                                                    |          ✅           | Oct 30th, 2024 |
+|   _Papi-web_ 2.2   | Mar 27th, 2024 | Performance improvements<br/>Illegal moves                                                                 |          ✅           | Oct 30th, 2024 |
 |   _Papi-web_ 2.3   |  Avr 8th, 2024 | Check-in feature                                                                                           |          ✅           |  Avr 7th, 2025 |
 |   _Papi-web_ 2.4   | Oct 30th, 2024 | Open-source<br/>Multilingual support<br/>Web configuration<br/>SQLite storage                              |          ❌           | Mai 13th, 2025 |
 |   _Papi-web_ 2.5   |  Avr 7th, 2025 | Interface improvements<br/>Player management<br/>Ranking calculation, display, and printing                |          ✅           | Mai 28th, 2025 |
@@ -23,13 +23,15 @@ nav_order: 700
 | _Sharly Chess_ 3.0 |  Sep 1st, 2025 | Dropping of Papi format<br/>macOS support                                                                  |          ✅           | Oct 27th, 2025 |
 | _Sharly Chess_ 3.1 |  Oct 1st, 2025 | Délégation par niveau d'accès<br/>TRF import/export                                                        |          ✅           | Nov 21th, 2025 |
 | _Sharly Chess_ 3.2 | Oct 27th, 2025 | Baku acceleration<br/>Player norms<br/>Support for all _FIDE_ tie-breaks<br/>Upload to _Chess-Results.com_ |          ✅           | Dec 15th, 2025 |
-| _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances     |          ✅           |      Jan, 2025 |
-| _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                 |          ✅           |              - |
-| _Sharly Chess_ 3.5 |      Jan, 2025 | _FFE_ forms, Hybrid prizes                                                                                 |          ✅           |              - |
+| _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances     |          ✅           | Jan 26th, 2025 |
+| _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                 |          ✅           | Feb 18th, 2026 |
+| _Sharly Chess_ 3.5 | Jan 26th, 2025 | _FFE_ forms<br/>Hybrid prizes                                                                              |          ✅           |              - |
+| _Sharly Chess_ 3.6 | Feb 18th, 2025 | SCE event import<br/>CSV player import                                                                     |          ✅           |              - |
 
 ## Coming next
 
 - Draft/Published round status
+- TRF26 import/export
 
 ## Longer term
 
