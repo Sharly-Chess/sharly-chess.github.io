@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.1 - February 19, 2026
+- Fixed access to _FFE_ upload modal
+- Fixed invalid type on account _FFE_ arbiter title
+- Only take into account the players with games played for the ranking by school
+- Fixed the number of titled players on norm reports
+
 ## Version 3.6.0 - February 18, 2026
 - Upgrade _bbpPairings_ engine to v6.0.0
 - Import events from SCE files

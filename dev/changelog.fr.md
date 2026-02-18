@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.1 - 19 février 2026
+- Correction de l'accès au modal de téléversement _FFE_
+- Correction des titres d'arbitre _FFE_ sur les comptes
+- Non prise en compte des joueur·euses sans partie jouée dans le classement par établissement
+- Correction du nombre de joueur·euses titré·es sur les rapports de norme
+
 ## :point_right: Version 3.6.0 - 18 février 2026
 - Montée de version du moteur _bbpPairings_ en v6.0.0
 - Import des évènements depuis des fichiers SCE
