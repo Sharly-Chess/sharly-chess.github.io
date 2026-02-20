@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.2 - February 20, 2026
+- Correction de l'import de joueur·euses au format CSV avec un seule colonne
+- Correction du calcul des normes de joueur·euse
+- Ajout d'une note indiquant que le calcul des normes est basé seulement sur les parties jouées
+- Correction des normes féminines inaccessibles
+
 ## Version 3.6.1 - 19 février 2026
 - Correction de l'accès au modal de téléversement _FFE_
 - Correction des titres d'arbitre _FFE_ sur les comptes
