@@ -264,8 +264,8 @@ separator: true
 - Export des tournois au format TRF
 - Vue imprimable des statistiques des joueur·euses
 - Vue imprimable des QR codes
-– Prise en charge des serveurs avec plusieurs adresses IP
-– Sélection de plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix et les statistiques
+- Prise en charge des serveurs avec plusieurs adresses IP
+- Sélection de plusieurs tournois pour différents aperçus d’impression : liste des joueur·euses, liste de pointage, liste et attribution des prix et les statistiques
 - Import de tournois _ChessEvent_ depuis l'interface web (remplace le script `tools/chessevent.bat`)
 - Affichage du statut pointé/non-pointé des joueur·euses sur les listes de pointage
 
