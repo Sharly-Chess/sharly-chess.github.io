@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.2 - February 20, 2026
+- Fixed CSV player import with one column
+- Fixed player norms computation
+- Added a note that norms are only computed based on completed games
+- Fixed inaccessible Woman title documents
+
 ## Version 3.6.1 - February 19, 2026
 - Fixed access to _FFE_ upload modal
 - Fixed invalid type on account _FFE_ arbiter title
