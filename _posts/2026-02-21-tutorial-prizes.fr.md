@@ -1,5 +1,5 @@
 ---
-title: Use Sharly Chess's non-monetary prizes for qualifying tournaments
+title: Utiliser les prix non monétaires de Sharly Chess pour les tournois qualificatifs
 date: 2026-02-21 20:00:00 +0200
 categories: actualites
 layout: post
