@@ -9,7 +9,13 @@ separator: true
 
 # Changelog
 
-## Version 3.6.2 - February 20, 2026
+## Version 3.6.3 - 24 février 2026
+- Correction de la visibilité des écrans rotatifs
+- Restriction des documents à ceux qui peuvent être générés
+- Correction de la lenteur après génération d'un document
+- Ajout des champs manquants sur le formulaire FFE d'indemnisation des arbitres
+
+## Version 3.6.2 - 20 février 2026
 - Correction de l'import de joueur·euses au format CSV avec un seule colonne
 - Correction du calcul des normes de joueur·euse
 - Ajout d'une note indiquant que le calcul des normes est basé seulement sur les parties jouées
