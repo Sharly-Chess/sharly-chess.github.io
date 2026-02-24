@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.3 - February 24, 2026
+- Fixed rotators always public
+- Restrict document options to the ones that can be generated
+- Fixed slowness after document generation
+- Added missing fields to the _FFE_ arbiter compensation form
+
 ## Version 3.6.2 - February 20, 2026
 - Fixed CSV player import with one column
 - Fixed player norms computation
