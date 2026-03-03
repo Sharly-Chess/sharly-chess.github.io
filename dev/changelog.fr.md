@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.4 - 3 mars 2026
+- Correction des lenteurs sur la recherche des joueur·euses
+- Correction de la suppression du critère de recherche sur l'onglet Appariements après l'entrée d'un résultat
+- Correction de l'accès aux rapports de normes
+- Interdiction de l'accès aux bases de données locales avant la fin de leur génération
+
 ## Version 3.6.3 - 24 février 2026
 - Correction de la visibilité des écrans rotatifs
 - Restriction des documents à ceux qui peuvent être générés
