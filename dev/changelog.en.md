@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.4 - March 3, 2026
+- Fixed slowness on player search
+- Fixed search removed from the Pairings tab after manual result input
+- Fixed norm report document access
+- Fixed error when accessing database before fully generated
+
 ## Version 3.6.3 - February 24, 2026
 - Fixed rotators always public
 - Restrict document options to the ones that can be generated
