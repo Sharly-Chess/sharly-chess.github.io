@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.6.5 - 6 mars 2026
+- Minimisation de la taille des drapeaux des fédérations
+- Accélération de la mise à jour de la base locale des joueur·euses de la _FFE_
+
 ## Version 3.6.4 - 3 mars 2026
 - Correction des lenteurs sur la recherche des joueur·euses
 - Correction de la suppression du critère de recherche sur l'onglet Appariements après l'entrée d'un résultat

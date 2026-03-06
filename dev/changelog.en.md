@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 3.6.5 - March 6, 2026
+- Minimized federation flags
+- Speed up the update of the local _FFE_ player database
+
 ## Version 3.6.4 - March 3, 2026
 - Fixed slowness on player search
 - Fixed search removed from the Pairings tab after manual result input
