@@ -13,6 +13,6 @@ Les prix des tournois d'échecs sont en général des prix monétaires. _Sharly 
 
 Vous découvrirez dans la vidéo ci-dessous comment on peut utiliser les prix non monétaires de _Sharly Chess_ pour décerner des places qualificatives pour le championnat de France jeunes dans les tournois régionaux (ou les places qualificatives pour le championnat régional dans les tournois départementaux).
 
-- [Télécharger l'évènement _Sharly Chess_ de la vidéo](../assets/misc/20260221-tutorial-prizes.sce)
+- [Télécharger l'évènement _Sharly Chess_ de la vidéo](/assets/misc/20260221-tutorial-prizes.sce)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R4hXZPqGxCM?si=QbWG6Z-7AoiGX3Hl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
