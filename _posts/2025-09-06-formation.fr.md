@@ -30,4 +30,4 @@ La fin de la séance a permis d’évoquer quelques sujets plus techniques, nota
 Merci à tous les participants pour leur intérêt et leurs retours constructifs. Ces échanges permettent de faire avancer ensemble le développement de _Sharly Chess_.
 
 {: .text-center}
-![Formation Sharly Chess à Romans-sur-Isère le 6 septembre 2025](/assets/images/2025097-training/training.jpg)
+![Formation Sharly Chess à Romans-sur-Isère le 6 septembre 2025](/assets/images/20250906-training/training.jpg)
