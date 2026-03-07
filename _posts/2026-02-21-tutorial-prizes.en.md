@@ -13,4 +13,6 @@ Chess tournament prizes are generally monetary. _Sharly Chess_ offers the abilit
 
 In the video below (**in French**), you will discover how to use _Sharly Chess_'s non-monetary prizes to award qualifying spots for the French Youth Championship in regional tournaments (or qualifying spots for the regional championship in departmental tournaments).
 
+- [Download the _Sharly Chess_ event of the video](../assets/misc/20260221-tutorial-prizes.sce)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R4hXZPqGxCM?si=QbWG6Z-7AoiGX3Hl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
