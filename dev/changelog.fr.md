@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.6.6 - 15 mars 2026
+- Correction du pointage sur les tournois déjà commencés
+- Correction des départages manuels sur la page de classement
+- Correction du message d'erreur lorsque l'appariement est impossible
+
 ## Version 3.6.5 - 6 mars 2026
 - Minimisation de la taille des drapeaux des fédérations
 - Accélération de la mise à jour de la base locale des joueur·euses de la _FFE_

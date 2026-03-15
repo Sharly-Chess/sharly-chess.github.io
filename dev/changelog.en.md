@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 3.6.6 - March 15, 2026
+- Fixed player check-in on already started tournaments
+- Fixed manual tie-break on the Rankings page
+- Fixed error message when pairing is impossible
+
 ## Version 3.6.5 - March 6, 2026
 - Minimized federation flags
 - Speed up the update of the local _FFE_ player database
