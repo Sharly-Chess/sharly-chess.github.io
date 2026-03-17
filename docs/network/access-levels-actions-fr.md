@@ -37,7 +37,7 @@
 | **Joueur·euses**                                   |           |           |           |           |           |           |           |           |           |           |   |
 | Voir l'onglet Joueur·euses                         |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     | - |
 | Ajouter des joueur·euses                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
-| Mettre à jour les joueur·euses                     |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
+| Mettre à jour les joueur·euses                     |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Modifier l'historique des joueur·euses             |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     | - |
 | Supprimer des joueur·euses                         |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 | Répartir les joueur·euses dans les tournois        |     ✔     |     -     |     -     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
@@ -77,4 +77,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2026-02-05 16:12) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-03-14 13:58) -->
