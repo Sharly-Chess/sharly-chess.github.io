@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.6.8 - March X, 2026
+- Fix DE tie-break calculation of double round-robin tournaments
+
 ## Version 3.6.7 - March 24, 2026
 - Fixed player ODS export
 - Use UTF-8 encoding for CSV exports

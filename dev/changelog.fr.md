@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 3.6.8 - X mars 2026
+- Correction du calcul de la confrontation directe pour les tournois double rondes
+
 ## Version 3.6.7 - 24 mars 2026
 - Correction de l'export ODS des joueur·euses
 - Encodage UTF-8 pour les exports CSV
