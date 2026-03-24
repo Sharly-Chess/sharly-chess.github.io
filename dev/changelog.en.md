@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 3.6.7 - March 22, 2026
+- Fixed player ODS export
+- Use UTF-8 encoding for CSV exports
+- Return to tournament at the first round with no pairings
+- Fixed players list document when players have no club
+
 ## Version 3.6.6 - March 15, 2026
 - Fixed player check-in on already started tournaments
 - Fixed manual tie-break on the Rankings page
