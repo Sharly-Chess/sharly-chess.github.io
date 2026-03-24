@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.6.7 - 22 mars 2026
+## Version 3.6.7 - 24 mars 2026
 - Correction de l'export ODS des joueur·euses
 - Encodage UTF-8 pour les exports CSV
 - Retour au tournoi à partir de la première ronde sans appariement

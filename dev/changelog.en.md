@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 3.6.7 - March 22, 2026
+## Version 3.6.7 - March 24, 2026
 - Fixed player ODS export
 - Use UTF-8 encoding for CSV exports
 - Return to tournament at the first round with no pairings
