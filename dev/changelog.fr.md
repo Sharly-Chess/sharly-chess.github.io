@@ -11,6 +11,7 @@ separator: true
 
 ## Version 3.6.8 - X mars 2026
 - Correction du calcul de la confrontation directe pour les tournois double rondes
+- Correction des sélecteurs horaires sur les navigateurs Firefox
 
 ## Version 3.6.7 - 24 mars 2026
 - Correction de l'export ODS des joueur·euses
