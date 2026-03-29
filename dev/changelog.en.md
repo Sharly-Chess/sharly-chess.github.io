@@ -9,9 +9,11 @@ separator: true
 
 # Changelog
 
-## Version 3.6.8 - March X, 2026
+## Version 3.6.8 - March 29, 2026
 - Fixed DE tie-break calculation of double round-robin tournaments
 - Fixed time pickers on Firefox-based browsers
+- Fixed white flashes on refresh for Firefox-based browsers
+- Fixed incoherent forms after an error
 
 ## Version 3.6.7 - March 24, 2026
 - Fixed player ODS export
