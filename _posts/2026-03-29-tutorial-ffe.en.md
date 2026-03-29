@@ -19,4 +19,4 @@ Four distinct issues have been identified that disrupt the order of the boards o
 
 You will discover the reasons for these display differences in the video below.
 
-<iframe width="560" height="315" src="https://youtu.be/BQFzn1_10gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BQFzn1_10gQ?si=QbWG6Z-7AoiGX3Hl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
