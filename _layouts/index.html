@@ -1,0 +1,73 @@
+---
+layout: table_wrappers
+---
+
+{% assign lang = site.active_lang | default: site.default_lang %}
+{% assign strings = site.data[lang].strings %}
+{% assign index = site.data.index %}
+
+<!DOCTYPE html>
+
+<html lang="{{ lang }}">
+{% include head.html %}
+<body class="index">
+  <header>
+    {% include header_custom.html %}
+    <div class="container">
+      <div class="logo">
+        {% include logo.svg %}
+      </div>
+      <p>{{ index.subtitle[lang] }}</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="carousel">
+        <div>
+            <h1>{{ index.find_your_tournament.title[lang] }}</h1>
+            <p>{{ index.find_your_tournament.text[lang] }}</p>
+            <a href="https://events.sharly-chess.com"><img class="large" src="/assets/images/index-events.{{ lang }}.jpg"></a>
+        </div>
+        <div>
+            <h1>{{ index.manage_your_tournament.title[lang] }}</h1>
+            <p>{{ index.manage_your_tournament.text[lang] }}</p>
+            <a href="{% link thp.{{ lang }}.md %}"><img class="large" src="/assets/images/index-thp.{{ lang }}.jpg"></a>
+        </div>
+    </div>
+    {% contentblock main %}
+  </section>
+
+  {% assign easy_life = index.easy_life %}
+  <section class="features-easy-life">
+    <div class="features-section">
+      <h1>{{ easy_life.title[lang] }}</h1>
+      <p>{{ easy_life.text[lang] }}</p>
+      <div class="features-inline">
+        {% for item in easy_life.items %}
+          <div
+            class="feature-box {{ item.box.class }}"
+            style="display: flex; gap: 12px;"
+          >
+            <div class="feature-icon-wrapper">
+              <div class="feature-icon" style="background-color: {{ item.icon.background_color }};">
+                <i class="{{ item.icon.class }}" style="color: {{ item.icon.color }};"></i>
+              </div>
+            </div>
+            <div class="feature-content">
+              <strong>{{ item.title[lang] }}</strong><br/>
+              {{ item.text[lang] }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% include last_posts.html %}
+
+  <footer>
+      {{ strings.copyright }}.
+      {{ strings.slogan }}
+  </footer>
+</body>
+</html>

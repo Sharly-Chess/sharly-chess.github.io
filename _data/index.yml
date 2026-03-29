@@ -1,0 +1,104 @@
+description:
+  en: Find tournaments and register online, or manage your events with our free arbiting software. Sharly Chess covers the full tournament lifecycle – from registration to final standings.
+  fr: Trouvez vos tournois et inscrivez-vous en ligne, ou gérez vos évènements avec notre logiciel d'arbitrage gratuit. Sharly Chess couvre le cycle de vie complet des tournois – depuis l'inscription jusqu'aux résultats.
+find_your_tournament:
+  title:
+    en: Find your tournament
+    fr: Trouvez votre tournoi
+  text:
+    en: Register, check-in, view pairings and results online.
+    fr: Inscrivez-vous, pointez, voyez les appariements et résultats en ligne.
+manage_your_tournament:
+  title:
+    en: Manage your tournament
+    fr: Gérez votre tournoi
+  text:
+    en: Manage tournaments with ease with our free software.
+    fr: Gérez facilement votre tournoi grâce à notre logiciel gratuit.
+easy_life:
+  title:
+    en: Make your life easier with <em>Sharly-Chess.com</em>!
+    fr: Facilitez-vous la vie avec <em>Sharly-Chess.com</em>&nbsp;!
+  text:
+    en: Everything you need to organize successful chess tournaments
+    fr: Tout ce dont vous avez besoin pour organiser des tournois d'échecs réussis
+  items:
+    -
+      title:
+        en: Event Management
+        fr: Gestion d'événements
+      text:
+        en: Create and manage chess events with multiple tournaments, age categories, and flexible capacity limits.
+        fr: Créez et gérez des événements d'échecs avec plusieurs tournois, catégories d'âge et limites de capacité flexibles.
+      icon:
+        class: bi-calendar
+        color: "#155dfc"
+        background_color: "#dbeafe"
+    -
+      title:
+        en: Player Registration
+        fr: Inscription des joueur·euses
+      text:
+        en: Streamlined registration process with support for tariffs, early bird pricing, and duplicate player detection.
+        fr: Processus d'inscription simplifié avec prise en charge des tarifs, tarification anticipée et détection des joueur·euses en double.
+      icon:
+        class: bi-people-fill
+        color: "#00a63e"
+        background_color: "#dcfce7"
+    -
+      title:
+        en: Payment Processing
+        fr: Traitement des paiements
+      text:
+        en: Secure payment processing via Stripe with funds going directly to you. Automatic invoicing and refund management included.
+        fr: Traitement sécurisé des paiements via Stripe avec les fonds allant directement vers vous. Facturation automatique et gestion des remboursements incluses.
+      icon:
+        class: bi-credit-card-fill
+        color: "#9810fa"
+        background_color: "#f3e8ff"
+    -
+      title:
+        en: Products & Add-ons
+        fr: Produits et options
+      text:
+        en: Sell merchandise, meal vouchers, and other add-ons alongside tournament registrations.
+        fr: Vendez des articles, des bons repas et d'autres options en plus des inscriptions aux tournois.
+      icon:
+        class: bi-cart-fill
+        color: "#f54a00"
+        background_color: "#ffedd4"
+    -
+      title:
+        en: Player Database Search
+        fr: Recherche dans la base de données des joueur·euses
+      text:
+        en: Integrated player database search for accurate player information.
+        fr: Recherche intégrée dans la base de données des joueurs pour des informations précises.
+      icon:
+        class: bi-search
+        color: "#4f39f6"
+        background_color: "#e0e7ff"
+    -
+      title:
+        en: Modern Interface
+        fr: Interface moderne
+      text:
+        en: Clean, responsive design that works seamlessly on desktop and mobile devices.
+        fr: Design épuré et réactif qui fonctionne parfaitement sur ordinateur et mobile.
+      icon:
+        class: bi-stars
+        color: "#d08700"
+        background_color: "#fef9c2"
+    -
+      title:
+        en: Support our Open Source Tournament Manager
+        fr: Soutenez notre logiciel libre de gestion de tournois
+      text:
+        en: By using the <em>Sharly-Chess.com</em> platform, you're supporting the ongoing development and maintenance of our open-source tournament management application.
+        fr: En utilisant la plateforme <em>Sharly-Chess.com</em>, vous soutenez le développement et la maintenance continus de notre application libre de gestion de tournois.
+      box:
+        class: wide
+      icon:
+        class: bi-heart-fill
+        color: "#ea580c"
+        background_color: "#ffedd5"

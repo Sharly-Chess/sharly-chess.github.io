@@ -1,0 +1,28 @@
+{% assign posts = site.posts %}
+{%- if posts.size > 0 -%}
+  <section class="news">
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+    <h1>{{ strings.latest_news }} <a href="/feed.xml" target="_blank"><i class="bi-rss-fill"></i></a></h1>
+    {% for post in posts limit:3 %}
+      <div class="news-item">
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {% if post.summary %}
+          {{ post.summary | markdownify }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+        <a class="read-more" href="{{ post.url | relative_url }}">
+          {{ strings.read_more }}
+        </a>
+      </div>
+    {% endfor %}
+      {{ news }}
+    <p><a class="btn" href="{% link news.{{ lang }}.md %}">{{ strings.see_all_posts }}</a></p>
+  </section>
+{%- endif -%}
+
