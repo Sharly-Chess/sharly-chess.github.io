@@ -195,7 +195,7 @@ details {
   font-style: italic;
 }
 
-body.home {
+body.index, body.thp {
   margin: 0;
   font-family: 'Helvetica Neue', system-ui, sans-serif;
   background-color: #1e1e1e;
@@ -245,12 +245,12 @@ body.home {
     }
   }
 
-  .hero {
+  .links {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     max-width: 1036px;
     margin: 0 auto;
 
@@ -274,9 +274,13 @@ body.home {
     margin: 0 auto;
     text-align: center;
 
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
     h2 {
       font-size: 2rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 3rem;
     }
 
     p {
@@ -302,6 +306,25 @@ body.home {
       text-align: left;
     }
 
+    .feature-box.wide {
+      max-width: 100%;
+      color: #000000;
+      background-color: #fff7ed;
+      border-color: #fed7aa;
+    }
+
+    .feature-icon {
+      padding: 8px;
+      border-radius: 8px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+    }
+
+    .feature-icon i {
+      font-size: 24px;
+    }
+
     img.screenshot {
       width: 100%;
       border-radius: 10px;
@@ -310,22 +333,34 @@ body.home {
     }
   }
 
-  .features-arbiters {
+  .separator {
+    width: 60vw;
+    height: 1px;
+    margin: auto;
+    background-color: #d7c9aa;
+  }
+
+  .features-easy-life {
     background-color: #2a2a2a;
     color: #f4f0e6;
   }
 
-  .features-players {
+  .features-made-by, .features-arbiters, .features-players {
     background-color: #333333;
     color: #f4f0e6;
   }
 
   .carousel {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+
+    div {
+      width: 300px;
+    }
 
     img {
       width: 300px;

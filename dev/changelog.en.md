@@ -9,6 +9,18 @@ separator: true
 
 # Changelog
 
+## Version 3.6.8 - March 29, 2026
+- Fixed DE tie-break calculation of double round-robin tournaments
+- Fixed time pickers on Firefox-based browsers
+- Fixed white flashes on refresh for Firefox-based browsers
+- Fixed incoherent forms after an error
+
+## Version 3.6.7 - March 24, 2026
+- Fixed player ODS export
+- Use UTF-8 encoding for CSV exports
+- Return to tournament at the first round with no pairings
+- Fixed players list document when players have no club
+
 ## Version 3.6.6 - March 15, 2026
 - Fixed player check-in on already started tournaments
 - Fixed manual tie-break on the Rankings page

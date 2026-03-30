@@ -9,6 +9,18 @@ separator: true
 
 # Changelog
 
+## Version 3.6.8 - 29 mars 2026
+- Correction du calcul de la confrontation directe pour les tournois double rondes
+- Correction des sélecteurs horaires sur les navigateurs Firefox
+- Suppression du flash de rafraîchissement sur les navigateurs Firefox
+- Correction de l'incohérence de certains formulaires après une erreur
+
+## Version 3.6.7 - 24 mars 2026
+- Correction de l'export ODS des joueur·euses
+- Encodage UTF-8 pour les exports CSV
+- Retour au tournoi à partir de la première ronde sans appariement
+- Correction du document « liste des joueur·euses » lors des joueur·euses n'ont pas de club
+
 ## Version 3.6.6 - 15 mars 2026
 - Correction du pointage sur les tournois déjà commencés
 - Correction des départages manuels sur la page de classement

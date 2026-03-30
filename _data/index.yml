@@ -1,0 +1,221 @@
+description:
+  en: Find tournaments and register online, or manage your events with our free arbiting software. Sharly Chess covers the full tournament lifecycle – from registration to final standings.
+  fr: Trouvez vos tournois et inscrivez-vous en ligne, ou gérez vos évènements avec notre logiciel d'arbitrage gratuit. Sharly Chess couvre le cycle de vie complet des tournois – depuis l'inscription jusqu'aux résultats.
+links:
+  items:
+    -
+      title:
+        en: Organisers,<br/>prepare your tournament
+        fr: Organisateur·ices,<br/>préparez votre tournoi
+      subtitle:
+        en: Manage registrations and payments, communicate with participants.
+        fr: Gérez les inscriptions et les paiements, communiquez avec les participant·es.
+      image:
+        basename: links-organisers
+      button_text:
+        en: Discover
+        fr: Découvrir
+      url:
+        en: https://events.sharly-chess.com/en/features
+        fr: https://events.sharly-chess.com/fr/features
+    -
+      title:
+        en: Players,<br/>find your tournament
+        fr: Joueur·euses,<br/>Trouvez votre tournoi
+      subtitle:
+        en: Register, check-in, view pairings and results online.
+        fr: Inscrivez-vous, pointez, voyez les appariements et résultats en ligne.
+      image:
+        basename: links-players
+      button_text:
+        en: Search
+        fr: Chercher
+      url:
+        en: https://events.sharly-chess.com/fr
+        fr: https://events.sharly-chess.com/en
+    -
+      title:
+        en: Arbiters,<br/>manage your tournament
+        fr: Arbitres,<br/>gérez votre tournoi
+      subtitle:
+        en: Manage tournaments with ease with our free software
+        fr: Gérez facilement votre tournoi grâce à notre logiciel gratuit
+      image:
+        basename: links-arbiters
+      button_text:
+        en: Install
+        fr: Installer
+      url:
+        en: /getting-started/
+        fr: /fr/bien-demarrer/
+easy_life:
+  title:
+    en: Make your life easier with <em>Sharly-Chess.com</em>
+    fr: Facilitez-vous la vie avec <em>Sharly-Chess.com</em>
+  text:
+    en: Everything you need to organize successful chess tournaments
+    fr: Tout ce dont vous avez besoin pour organiser des tournois d'échecs réussis
+  items:
+    -
+      title:
+        en: Event Management
+        fr: Gestion d'événements
+      text:
+        en: Create and manage chess events with multiple tournaments and flexible capacity limits.
+        fr: Créez et gérez des événements d'échecs avec plusieurs tournois et limites de capacité flexibles.
+    -
+      title:
+        en: Player Registration
+        fr: Inscription des joueur·euses
+      text:
+        en: Streamlined registration process with support for multiple tariffs, and duplicate player detection.
+        fr: Processus d'inscription simplifié avec prise en charge des tarifs, et détection des joueurs en double.
+    -
+      title:
+        en: Player Database Search
+        fr: Recherche dans la base de données des joueur·euses
+      text:
+        en: Integrated player database search for accurate player information.
+        fr: Recherche intégrée dans la base de données des joueurs pour des informations précises.
+    -
+      title:
+        en: Payment Processing
+        fr: Traitement des paiements
+      text:
+        en: Secure payment processing via Stripe with funds going directly to you. Automatic invoicing and refund management included.
+        fr: Traitement sécurisé des paiements via Stripe avec les fonds allant directement vers vous. Facturation automatique et gestion des remboursements incluses.
+    -
+      title:
+        en: Products & Add-ons
+        fr: Produits et options
+      text:
+        en: Sell merchandise, meal vouchers, and other add-ons alongside tournament registrations.
+        fr: Vendez des articles, des bons repas et d'autres options en plus des inscriptions aux tournois.
+    -
+      title:
+        en: Team Access
+        fr: Accès équipe
+      text:
+        en: Give all team members access to your organisation so everyone can share the workload.
+        fr: Donnez accès à tous les membres de votre équipe à votre organisation pour partager la charge de travail.
+    -
+      title:
+        en: Built-in Messaging
+        fr: Messagerie intégrée
+      text:
+        en: Communicate directly with players through built-in messaging that the entire organising team can access and share.
+        fr: Communiquez directement avec les joueurs via la messagerie intégrée, accessible et partagée par toute l'équipe organisatrice.
+    -
+      title:
+        en: Live Pairings & Results
+        fr: Appariements et résultats en direct
+      text:
+        en: Display pairings and results in real time during tournaments for players and spectators.
+        fr: Affichez les appariements et résultats en temps réel pendant les tournois pour les joueurs et spectateurs.
+    -
+      title:
+        en: Easy Synchronisation
+        fr: Synchronisation facile
+      text:
+        en: Effortless synchronisation with our arbitration software to keep everything in sync.
+        fr: Synchronisation sans effort avec notre logiciel d'arbitrage pour tout garder à jour.
+made_by:
+  title:
+    en: Tournament management made for <em>arbiters</em>, by <em>arbiters</em>
+    fr: Gestion de tournoi conçue par des <em>arbitres</em>, pour les <em>arbitres</em>
+  text:
+    en: Free, open-source, intuitive and designed for real-world tournaments.
+    fr: Gratuit, open-source, intuitif et pensé pour les tournois du monde réel.
+  images:
+    -
+      basename: made-by-1
+    -
+      basename: made-by-2
+    -
+      basename: made-by-3
+  button_text:
+    en: Get started
+    fr: Bien commencer
+  button_url:
+    en: /getting-started/
+    fr: /fr/bien-demarrer/
+arbiters:
+  title:
+    en: <em>Arbiters</em> love it
+    fr: Les <em>arbitres</em> l'adorent
+  text:
+    en: <em>Sharly Chess</em> is built around the needs of tournament arbiters, helping you stay organized and efficient even in high-pressure settings.
+    fr: <em>Sharly Chess</em> est conçu autour des besoins des arbitres de tournois, pour vous aider à rester organisé·e et efficace, même sous pression.
+  items:
+    -
+      title:
+        en: Player management
+        fr: Gestion des joueur·euses
+      text:
+        en: All your players in one place, with easy search and filtering.
+        fr: Tous vos joueur·euses au même endroit, avec recherche et filtres faciles.
+    -
+      title:
+        en: Check-ins
+        fr: Pointage
+      text:
+        en: Check players in yourself, or have players check themselves in.
+        fr: Faites le pointage vous-même ou laissez les joueur·euses s’auto-enregistrer.
+    -
+      title:
+        en: Pairings
+        fr: Appariements
+      text:
+        en:  Automated, FIDE compliant, and easy to adjust on the fly.
+        fr: Automatisés, respectant les règles de la FIDE, et faciles à ajuster à la volée.
+    -
+      title:
+        en: Live standings
+        fr: Classements en direct
+      text:
+        en: Results are available instantly after each round.
+        fr: Les résultats sont disponibles immédiatement après chaque ronde.
+    -
+      title:
+        en: Offline solution
+        fr: Fonctionnement hors ligne
+      text:
+        en: Run tournaments without an internet connection.
+        fr: Organisez un tournoi même sans connexion Internet.
+    -
+      title:
+        en: Focus on arbitration
+        fr: Plus de temps pour arbitrer
+      text:
+        en: Players can enter their own results while you manage the tournament.
+        fr: Les joueur·euses peuvent entrer leurs résultats en autonomie, vous pouvez vous concentrer sur les parties.
+  image:
+    name: arbiters.jpg
+    class: screenshot sepia
+players:
+  title:
+    en: <em>Players</em> love it
+    fr: Les <em>joueur·euses</em> l'adorent
+  text:
+    en: <em>Sharly Chess</em> improves the tournament experience for everyone. Players can find their pairings quickly and submit results with ease.
+    fr: <em>Sharly Chess</em> améliore l’expérience des tournois pour tout le monde. Les joueur·euses trouvent facilement leurs appariements et peuvent saisir leurs résultats en un clin d’œil.
+  items:
+    -
+      title:
+        en: Digital result input
+        fr: Saisie des résultats en ligne
+      text:
+        en: Less waiting between rounds since the arbiter doesn’t have to enter every result.
+        fr: Moins d’attente entre les rondes puisque l’arbitre n’a pas à entrer chaque résultat.
+    -
+      title:
+        en: On-screen pairings
+        fr: Appariements projetés
+      text:
+        en: Players instantly see their board and opponent.
+        fr: Les joueur·euses voient immédiatement leur table et leur adversaire.
+  images:
+    -
+      name: players-1.jpg
+    -
+      name: players-2.jpg

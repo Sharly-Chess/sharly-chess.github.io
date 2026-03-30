@@ -61,14 +61,13 @@ jobs:
         id: check-beta
         continue-on-error: true
         run: |
-          # Use GitHub API to check if beta branch exists
-          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" "https://api.github.com/repos/${{ github.repository }}/branches/beta")
-          if [ "$RESPONSE" = "200" ]; then
+          cd main-site
+          if git ls-remote --exit-code --heads origin beta > /dev/null 2>&1; then
             echo "beta_exists=true" >> $GITHUB_OUTPUT
             echo "Beta branch exists, will build beta docs"
           else
             echo "beta_exists=false" >> $GITHUB_OUTPUT
-            echo "Beta branch does not exist (HTTP $RESPONSE), skipping beta docs"
+            echo "Beta branch does not exist, skipping beta docs"
           fi
       
       - name: Checkout beta branch
