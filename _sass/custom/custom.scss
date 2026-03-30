@@ -245,7 +245,7 @@ body.index, body.thp {
     }
   }
 
-  .hero {
+  .links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -329,12 +329,12 @@ body.index, body.thp {
     }
   }
 
-  .features-arbiters, .features-easy-life {
+  .features-easy-life, .features-arbiters {
     background-color: #2a2a2a;
     color: #f4f0e6;
   }
 
-  .features-players {
+  .features-made-by, .features-players {
     background-color: #333333;
     color: #f4f0e6;
   }
@@ -347,16 +347,16 @@ body.index, body.thp {
     gap: 2rem;
     flex-wrap: wrap;
 
+    div {
+      width: 300px;
+    }
+
     img {
       width: 300px;
       height: auto;
       margin: 0;
       border-radius: 10px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-    }
-
-    img.large {
-      width: 450px;
     }
   }
 

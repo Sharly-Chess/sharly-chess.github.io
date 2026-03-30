@@ -21,20 +21,18 @@ layout: table_wrappers
     </div>
   </header>
 
-  <section class="hero">
+  {% assign links = index.links %}
+  <section class="links">
     <div class="carousel">
+      {% for link in links.items %}
         <div>
-            <h1>{{ index.find_your_tournament.title[lang] }}</h1>
-            <p>{{ index.find_your_tournament.text[lang] }}</p>
-            <a href="https://events.sharly-chess.com"><img class="large" src="/assets/images/index-events.{{ lang }}.jpg"></a>
+          <h2>{{ link.title[lang] }}</h2>
+          <p>{{ link.subtitle[lang] }}</p>
+          <p><a href="{{ link.url[lang] }}"><img src="/assets/images/index/{{ link.image.basename }}.{{ lang }}.jpg"></a></p>
+          <p><a class="btn" href="{{ link.url[lang] }}">{{ link.button_text[lang] }}</a></p>
         </div>
-        <div>
-            <h1>{{ index.manage_your_tournament.title[lang] }}</h1>
-            <p>{{ index.manage_your_tournament.text[lang] }}</p>
-            <a href="{% link thp.{{ lang }}.md %}"><img class="large" src="/assets/images/index-thp.{{ lang }}.jpg"></a>
-        </div>
+      {% endfor %}
     </div>
-    {% contentblock main %}
   </section>
 
   {% assign easy_life = index.easy_life %}
@@ -63,7 +61,92 @@ layout: table_wrappers
     </div>
   </section>
 
-  {% include last_posts.html %}
+  {% assign made_by = index.made_by %}
+  <section class="features-made-by">
+    <div class="features-section">
+      <h1>{{ made_by.title[lang] }}</h1>
+      <p>{{ made_by.text[lang] }}</p>
+      <div class="carousel">
+        {% for image in made_by.images %}
+          <img src="/assets/images/index/{{ image.basename }}.{{ lang }}.jpg">
+        {% endfor %}
+      </div>
+      <p><a class="btn big" href="{{ made_by.button_url[lang] }}">{{ made_by.button_text[lang] }}</a></p>
+    </div>
+  </section>
+
+  {% assign arbiters = index.arbiters %}
+  <section class="features-arbiters">
+    <div class="features-section">
+      <h1>{{ arbiters.title[lang] }}</h1>
+      <p>{{ arbiters.text[lang] }}</p>
+      <div class="features-inline">
+        {% for item in arbiters.items %}
+          <div
+            class="feature-box"
+          >
+            <div class="feature-content">
+              <strong>{{ item.title[lang] }}</strong><br/>
+              {{ item.text[lang] }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <p><img class="{{ arbiters.image.class }}" src="/assets/images/index/{{ arbiters.image.name }}"></p>
+    </div>
+  </section>
+
+  {% assign players = index.players %}
+  <section class="features-players">
+    <div class="features-section">
+      <h1>{{ players.title[lang] }}</h1>
+      <p>{{ players.text[lang] }}</p>
+      <div class="features-inline">
+        {% for item in players.items %}
+          <div
+            class="feature-box"
+          >
+            <div class="feature-content">
+              <strong>{{ item.title[lang] }}</strong><br/>
+              {{ item.text[lang] }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="carousel">
+        {% for image in players.images %}
+          <img src="/assets/images/index/{{ image.name }}">
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% assign posts = site.posts %}
+  {%- if posts.size > 0 -%}
+    <section class="news">
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      <h1>{{ strings.latest_news }} <a href="/feed.xml" target="_blank"><i class="bi-rss-fill"></i></a></h1>
+      {% for post in posts limit:3 %}
+        <div class="news-item">
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {% if post.summary %}
+            {{ post.summary | markdownify }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+          <a class="read-more" href="{{ post.url | relative_url }}">
+            {{ strings.read_more }}
+          </a>
+        </div>
+      {% endfor %}
+      <p><a class="btn" href="{% link news.{{ lang }}.md %}">{{ strings.see_all_posts }}</a></p>
+    </section>
+{%- endif -%}
 
   <footer>
       {{ strings.copyright }}.
