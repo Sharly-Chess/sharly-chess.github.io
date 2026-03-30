@@ -39,18 +39,12 @@ layout: table_wrappers
   <section class="features-easy-life">
     <div class="features-section">
       <h1>{{ easy_life.title[lang] }}</h1>
-      <p>{{ easy_life.text[lang] }}</p>
+      <h2>{{ easy_life.text[lang] }}</h2>
       <div class="features-inline">
         {% for item in easy_life.items %}
           <div
             class="feature-box {{ item.box.class }}"
-            style="display: flex; gap: 12px;"
           >
-            <div class="feature-icon-wrapper">
-              <div class="feature-icon" style="background-color: {{ item.icon.background_color }};">
-                <i class="{{ item.icon.class }}" style="color: {{ item.icon.color }};"></i>
-              </div>
-            </div>
             <div class="feature-content">
               <strong>{{ item.title[lang] }}</strong><br/>
               {{ item.text[lang] }}
@@ -65,7 +59,7 @@ layout: table_wrappers
   <section class="features-made-by">
     <div class="features-section">
       <h1>{{ made_by.title[lang] }}</h1>
-      <p>{{ made_by.text[lang] }}</p>
+      <h2>{{ made_by.text[lang] }}</h2>
       <div class="carousel">
         {% for image in made_by.images %}
           <img src="/assets/images/index/{{ image.basename }}.{{ lang }}.jpg">
@@ -73,6 +67,7 @@ layout: table_wrappers
       </div>
       <p><a class="btn big" href="{{ made_by.button_url[lang] }}">{{ made_by.button_text[lang] }}</a></p>
     </div>
+    <div class="separator" />
   </section>
 
   {% assign arbiters = index.arbiters %}
@@ -94,6 +89,7 @@ layout: table_wrappers
       </div>
       <p><img class="{{ arbiters.image.class }}" src="/assets/images/index/{{ arbiters.image.name }}"></p>
     </div>
+    <div class="separator" />
   </section>
 
   {% assign players = index.players %}

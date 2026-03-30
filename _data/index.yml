@@ -13,11 +13,11 @@ links:
       image:
         basename: links-organisers
       button_text:
-        en: Prepare
-        fr: Préparer
+        en: Discover
+        fr: Découvrir
       url:
-        en: https://events.sharly-chess.com/en/auth/login
-        fr: https://events.sharly-chess.com/fr/auth/login
+        en: https://events.sharly-chess.com/en/features
+        fr: https://events.sharly-chess.com/fr/features
     -
       title:
         en: Players,<br/>find your tournament
@@ -38,8 +38,8 @@ links:
         en: Arbiters,<br/>manage your tournament
         fr: Arbitres,<br/>gérez votre tournoi
       subtitle:
-        en: Manage tournaments with ease with our free software.
-        fr: Gérez facilement votre tournoi grâce à notre logiciel gratuit.
+        en: Manage tournaments with ease with our free software
+        fr: Gérez facilement votre tournoi grâce à notre logiciel gratuit
       image:
         basename: links-arbiters
       button_text:
@@ -50,56 +50,26 @@ links:
         fr: /fr/bien-demarrer/
 easy_life:
   title:
-    en: Make your life easier with <em>Sharly-Chess.com</em>!
-    fr: Facilitez-vous la vie avec <em>Sharly-Chess.com</em>&nbsp;!
+    en: Make your life easier with <em>Sharly-Chess.com</em>
+    fr: Facilitez-vous la vie avec <em>Sharly-Chess.com</em>
   text:
-    en: Everything you need to organize successful chess tournaments.
-    fr: Tout ce dont vous avez besoin pour organiser des tournois d'échecs réussis.
+    en: Everything you need to organize successful chess tournaments
+    fr: Tout ce dont vous avez besoin pour organiser des tournois d'échecs réussis
   items:
     -
       title:
         en: Event Management
         fr: Gestion d'événements
       text:
-        en: Create and manage chess events with multiple tournaments, age categories, and flexible capacity limits.
-        fr: Créez et gérez des événements d'échecs avec plusieurs tournois, catégories d'âge et limites de capacité flexibles.
-      icon:
-        class: bi-calendar
-        color: "#155dfc"
-        background_color: "#dbeafe"
+        en: Create and manage chess events with multiple tournaments and flexible capacity limits.
+        fr: Créez et gérez des événements d'échecs avec plusieurs tournois et limites de capacité flexibles.
     -
       title:
         en: Player Registration
         fr: Inscription des joueur·euses
       text:
-        en: Streamlined registration process with support for tariffs, early bird pricing, and duplicate player detection.
-        fr: Processus d'inscription simplifié avec prise en charge des tarifs, tarification anticipée et détection des joueur·euses en double.
-      icon:
-        class: bi-people-fill
-        color: "#00a63e"
-        background_color: "#dcfce7"
-    -
-      title:
-        en: Payment Processing
-        fr: Traitement des paiements
-      text:
-        en: Secure payment processing via Stripe with funds going directly to you. Automatic invoicing and refund management included.
-        fr: Traitement sécurisé des paiements via Stripe avec les fonds allant directement vers vous. Facturation automatique et gestion des remboursements incluses.
-      icon:
-        class: bi-credit-card-fill
-        color: "#9810fa"
-        background_color: "#f3e8ff"
-    -
-      title:
-        en: Products & Add-ons
-        fr: Produits et options
-      text:
-        en: Sell merchandise, meal vouchers, and other add-ons alongside tournament registrations.
-        fr: Vendez des articles, des bons repas et d'autres options en plus des inscriptions aux tournois.
-      icon:
-        class: bi-cart-fill
-        color: "#f54a00"
-        background_color: "#ffedd4"
+        en: Streamlined registration process with support for multiple tariffs, and duplicate player detection.
+        fr: Processus d'inscription simplifié avec prise en charge des tarifs, et détection des joueurs en double.
     -
       title:
         en: Player Database Search
@@ -107,38 +77,52 @@ easy_life:
       text:
         en: Integrated player database search for accurate player information.
         fr: Recherche intégrée dans la base de données des joueurs pour des informations précises.
-      icon:
-        class: bi-search
-        color: "#4f39f6"
-        background_color: "#e0e7ff"
     -
       title:
-        en: Modern Interface
-        fr: Interface moderne
+        en: Payment Processing
+        fr: Traitement des paiements
       text:
-        en: Clean, responsive design that works seamlessly on desktop and mobile devices.
-        fr: Design épuré et réactif qui fonctionne parfaitement sur ordinateur et mobile.
-      icon:
-        class: bi-stars
-        color: "#d08700"
-        background_color: "#fef9c2"
+        en: Secure payment processing via Stripe with funds going directly to you. Automatic invoicing and refund management included.
+        fr: Traitement sécurisé des paiements via Stripe avec les fonds allant directement vers vous. Facturation automatique et gestion des remboursements incluses.
     -
       title:
-        en: Support our Open Source Tournament Manager
-        fr: Soutenez notre logiciel libre de gestion de tournois
+        en: Products & Add-ons
+        fr: Produits et options
       text:
-        en: By using the <em>Sharly-Chess.com</em> platform, you're supporting the ongoing development and maintenance of our open-source tournament management application.
-        fr: En utilisant la plateforme <em>Sharly-Chess.com</em>, vous soutenez le développement et la maintenance continus de notre application libre de gestion de tournois.
-      box:
-        class: wide
-      icon:
-        class: bi-heart-fill
-        color: "#ea580c"
-        background_color: "#ffedd5"
+        en: Sell merchandise, meal vouchers, and other add-ons alongside tournament registrations.
+        fr: Vendez des articles, des bons repas et d'autres options en plus des inscriptions aux tournois.
+    -
+      title:
+        en: Team Access
+        fr: Accès équipe
+      text:
+        en: Give all team members access to your organisation so everyone can share the workload.
+        fr: Donnez accès à tous les membres de votre équipe à votre organisation pour partager la charge de travail.
+    -
+      title:
+        en: Built-in Messaging
+        fr: Messagerie intégrée
+      text:
+        en: Communicate directly with players through built-in messaging that the entire organising team can access and share.
+        fr: Communiquez directement avec les joueurs via la messagerie intégrée, accessible et partagée par toute l'équipe organisatrice.
+    -
+      title:
+        en: Live Pairings & Results
+        fr: Appariements et résultats en direct
+      text:
+        en: Display pairings and results in real time during tournaments for players and spectators.
+        fr: Affichez les appariements et résultats en temps réel pendant les tournois pour les joueurs et spectateurs.
+    -
+      title:
+        en: Easy Synchronisation
+        fr: Synchronisation facile
+      text:
+        en: Effortless synchronisation with our arbitration software to keep everything in sync.
+        fr: Synchronisation sans effort avec notre logiciel d'arbitrage pour tout garder à jour.
 made_by:
   title:
-    en: Made for <em>arbiters</em>, by <em>arbiters</em>
-    fr: Conçu par des <em>arbitres</em>, pour les <em>arbitres</em>
+    en: Tournament management made for <em>arbiters</em>, by <em>arbiters</em>
+    fr: Gestion de tournoi conçue par des <em>arbitres</em>, pour les <em>arbitres</em>
   text:
     en: Free, open-source, intuitive and designed for real-world tournaments.
     fr: Gratuit, open-source, intuitif et pensé pour les tournois du monde réel.
@@ -221,13 +205,6 @@ players:
         en: Digital result input
         fr: Saisie des résultats en ligne
       text:
-        en: No waiting in line to report a result.
-        fr: Plus besoin de faire la queue pour signaler un résultat.
-    -
-      title:
-        en: Smoother tournaments
-        fr: Fluidité des tournois
-      text:
         en: Less waiting between rounds since the arbiter doesn’t have to enter every result.
         fr: Moins d’attente entre les rondes puisque l’arbitre n’a pas à entrer chaque résultat.
     -
@@ -242,5 +219,3 @@ players:
       name: players-1.jpg
     -
       name: players-2.jpg
-    -
-      name: players-3.jpg

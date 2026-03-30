@@ -274,9 +274,13 @@ body.index, body.thp {
     margin: 0 auto;
     text-align: center;
 
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
     h2 {
       font-size: 2rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 3rem;
     }
 
     p {
@@ -329,12 +333,19 @@ body.index, body.thp {
     }
   }
 
-  .features-easy-life, .features-arbiters {
+  .separator {
+    width: 60vw;
+    height: 1px;
+    margin: auto;
+    background-color: #d7c9aa;
+  }
+
+  .features-easy-life {
     background-color: #2a2a2a;
     color: #f4f0e6;
   }
 
-  .features-made-by, .features-players {
+  .features-made-by, .features-arbiters, .features-players {
     background-color: #333333;
     color: #f4f0e6;
   }
