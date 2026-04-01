@@ -20,7 +20,7 @@ Son développement est parti de quelques constats simples :
 _Papi-web_ a donc été créé en septembre 2013 pour la 7e édition de l’open rapide de Domloup, et son utilisation a été relayée dans le numéro 135 du BAF (_Bulletin des Arbitres Fédéraux_). Depuis, le logiciel n’a cessé d’évoluer grâce aux contributions — et à l’impulsion — de ses utilisateur·ices.
 
 {% figure [caption: "Première utilisation de Papi-web dans une compétition homologuée en 2013"] %}
-![Première utilisation de Papi-web dans une compétition homologuée en 2013](/assets/images/input-2013.jpg)
+![Première utilisation de Papi-web dans une compétition homologuée en 2013](/assets/images/history/input-2013.jpg)
 {% endfigure %}
 
 ## _Sharly Chess_
