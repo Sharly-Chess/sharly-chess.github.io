@@ -27,7 +27,8 @@ nav_order: 700
 | _Sharly Chess_ 3.4 | 15 déc 2025 | Catégories d'âge configurables<br/>Partage des évènements<br/>Reçus financiers                                                    |         ✅         |    18 fév 2026 |
 | _Sharly Chess_ 3.5 | 26 jan 2026 | Formulaires _FFE_<br/>Prix hybrides                                                                                               |         ✅         |       avr 2026 |
 | _Sharly Chess_ 3.6 | 18 fév 2026 | Import des évènements au format SCE<br/>Import des joueur·euses au format CSV                                                     |         ✅         |              - |
-| _Sharly Chess_ 4.0 |   Apr, 2025 | Synchronisation avec Sharly-Chess.com                                                                                             |         ✅         |              - |
+| _Sharly Chess_ 4.0 |   Apr, 2026 | Synchronisation avec Sharly-Chess.com                                                                                             |         ✅         |              - |
+| _Sharly Chess_ 4.1 |        2026 | Homologation FIDE                                                                                                                 |         ✅         |              - |
 
 # Bientôt disponible
 
