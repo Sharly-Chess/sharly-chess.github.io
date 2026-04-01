@@ -25,9 +25,9 @@ nav_order: 700
 | _Sharly Chess_ 3.2 | 29 Oct 2025 | Accélération de Bakou<br/>Normes de joueur·euse<br/>Support de tous les départages _FIDE_<br/>Publication sur _Chess-Results.com_ |         ✅         |    15 déc 2025 |
 | _Sharly Chess_ 3.3 | 21 Nov 2025 | Amélioration de l'interface web<br/>Gestion des tournois scolaires _FFE_<br/>Chevalets<br/>Performances _FIDE_                    |         ✅         |    26 jan 2026 |
 | _Sharly Chess_ 3.4 | 15 déc 2025 | Catégories d'âge configurables<br/>Partage des évènements<br/>Reçus financiers                                                    |         ✅         |    18 fév 2026 |
-| _Sharly Chess_ 3.5 | 26 jan 2026 | Formulaires _FFE_<br/>Prix hybrides                                                                                               |         ✅         |       avr 2026 |
+| _Sharly Chess_ 3.5 | 26 jan 2026 | Formulaires _FFE_<br/>Prix hybrides                                                                                               |         ✅         |     2 avr 2026 |
 | _Sharly Chess_ 3.6 | 18 fév 2026 | Import des évènements au format SCE<br/>Import des joueur·euses au format CSV                                                     |         ✅         |              - |
-| _Sharly Chess_ 4.0 |   Apr, 2026 | Synchronisation avec Sharly-Chess.com                                                                                             |         ✅         |              - |
+| _Sharly Chess_ 4.0 |  2 avr 2026 | Intégration avec _Sharly-Chess.com_                                                                                               |         ✅         |              - |
 | _Sharly Chess_ 4.1 |        2026 | Homologation FIDE                                                                                                                 |         ✅         |              - |
 
 # Bientôt disponible
