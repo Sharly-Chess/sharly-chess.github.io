@@ -9,6 +9,26 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 4.0.0 - April 2, 2026
+- _Sharly-Chess.com_ integration
+- Use Flatpak for Linux build
+- Improved the navigation thanks to keyboard shortcuts
+- Rename _Upload_ menu to _Data Transfer_
+- Automatically calculate event dates from tournament dates
+- Added an option to allow players in multiple tournaments
+- Added _rating_ and _rating_type_ CSV columns
+- Clarify gender naming
+- Display absent players on top of unpaired players on the Pairings tab
+- Added a reminder to update the players' ratings before pairings on round #1 and for tournaments lasting on multiple FIDE periods
+- Added round schedule to tournaments
+- Added owed/paid totals to the check-in list
+- Added a sort option to the players list document
+- Moved the auto-upload options to the upload modal
+- Improved the _FFE_ and _Chess-Results_ upload modal
+- Relocate the rules upload to a group button on the _FFE_ modal
+- Moved the _ChessEvent_ synchronize button to the _Data Transfer_ menu
+- Added time control handicap info to tournament cards
+
 ## Version 3.6.8 - March 29, 2026
 - Fixed DE tie-break calculation of double round-robin tournaments
 - Fixed time pickers on Firefox-based browsers
@@ -54,7 +74,7 @@ separator: true
 - Only take into account the players with games played for the ranking by school
 - Fixed the number of titled players on norm reports
 
-## Version 3.6.0 - February 18, 2026
+## :point_right: Version 3.6.0 - February 18, 2026
 - Upgrade _bbpPairings_ engine to v6.0.0
 - Import events from SCE files
 - Push forward SCE export

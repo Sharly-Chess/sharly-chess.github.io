@@ -9,6 +9,26 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 4.0.0 - 2 avril 2026
+- Intégration avec _Sharly-Chess.com_
+- Packaging Flatpak pour Linux
+- Amélioration de la navigation grâce à des raccourcis clavier
+- Renommage du menu _Mettre en ligne_ en _Transfert de données_
+- Calcul automatique des dates des évènements à partir de celles des tournois
+- Ajout d'une option pour autoriser les joueur·euses dans plusieurs tournois
+- Ajout des colonnes _rating_ et _rating_type_ dans les exports CSV
+- Clarification du nommage des genres
+- Affichage des joueur·euses absent·es au-dessus des joueur·euses non apparié·es sur l'onglet Appariements
+- Ajout d'un mémo invitant les arbitres à mettre à jour les classements des joueur·euses avant d'apparier pour les tournois se déroulant sur plusieurs périodes _FIDE_
+- Ajout du calendrier des rondes sur les tournois
+- Ajout des totaux dû/payé sur les listes de pointage
+- Ajout d'une option de tri pour l'impression des listes des participant·es
+- Déplacement des options de mise en ligne automatique sur les modales de mise en ligne
+- Amélioration des modales de mise en ligne des plug-ins _FFE_ et _Chess-Results_
+- déplacement de la mise en ligne des règlements sur un bouton de la modale _FFE_
+- Déplacement du bouton de synchronisation _ChessEvent_ dans le menu _Transfert de données_
+- Ajout des informations de handicap de cadence sur les cartes des tournois
+
 ## Version 3.6.8 - 29 mars 2026
 - Correction du calcul de la confrontation directe pour les tournois double rondes
 - Correction des sélecteurs horaires sur les navigateurs Firefox
