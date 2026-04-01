@@ -28,7 +28,7 @@ layout: table_wrappers
         <div>
           <h2>{{ link.title[lang] }}</h2>
           <p>{{ link.subtitle[lang] }}</p>
-          <p><a href="{{ link.url[lang] }}"><img src="/assets/images/index/{{ link.image.basename }}.{{ lang }}.jpg"></a></p>
+          <p><a href="{{ link.url[lang] }}"><img src="assets/images/index/{{ link.image.basename }}.{{ lang }}.jpg"></a></p>
           <p><a class="btn" href="{{ link.url[lang] }}">{{ link.button_text[lang] }}</a></p>
         </div>
       {% endfor %}
@@ -62,7 +62,7 @@ layout: table_wrappers
       <h2>{{ made_by.text[lang] }}</h2>
       <div class="carousel">
         {% for image in made_by.images %}
-          <img src="/assets/images/index/{{ image.basename }}.{{ lang }}.jpg">
+          <img src="assets/images/index/{{ image.basename }}.{{ lang }}.jpg">
         {% endfor %}
       </div>
       <p><a class="btn big" href="{{ made_by.button_url[lang] }}">{{ made_by.button_text[lang] }}</a></p>
@@ -87,7 +87,7 @@ layout: table_wrappers
           </div>
         {% endfor %}
       </div>
-      <p><img class="{{ arbiters.image.class }}" src="/assets/images/index/{{ arbiters.image.name }}"></p>
+      <p><img class="{{ arbiters.image.class }}" src="assets/images/index/{{ arbiters.image.name }}"></p>
     </div>
     <div class="separator" />
   </section>
@@ -111,7 +111,7 @@ layout: table_wrappers
       </div>
       <div class="carousel">
         {% for image in players.images %}
-          <img src="/assets/images/index/{{ image.name }}">
+          <img src="assets/images/index/{{ image.name }}">
         {% endfor %}
       </div>
     </div>

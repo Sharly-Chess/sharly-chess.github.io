@@ -46,8 +46,8 @@ links:
         en: Get started
         fr: Bien commencer
       url:
-        en: /getting-started/
-        fr: /fr/bien-demarrer/
+        en: getting-started/
+        fr: bien-demarrer/
 easy_life:
   title:
     en: Make your life easier with <em>Sharly-Chess.com</em>
@@ -137,8 +137,8 @@ made_by:
     en: Get started
     fr: Bien commencer
   button_url:
-    en: /getting-started/
-    fr: /fr/bien-demarrer/
+    en: getting-started/
+    fr: bien-demarrer/
 arbiters:
   title:
     en: <em>Arbiters</em> love it
