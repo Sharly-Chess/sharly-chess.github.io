@@ -12,5 +12,5 @@ One of _Sharly Chess_'s flagship features is the ability to display pairings and
 .
 
 {% figure [caption: "Display of results in a playing hall, 2023"] %}
-![Display of results in a playing hall, 2023](/assets/images/displays-2023.jpg)
+![Display of results in a playing hall, 2023](/assets/images/screens/displays-2023.jpg)
 {% endfigure %}
