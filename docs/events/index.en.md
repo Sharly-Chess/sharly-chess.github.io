@@ -6,9 +6,9 @@ page_id: integration
 nav_order: 450
 ---
 
-# Sharly-Chess.com
+# _Sharly-Chess.com_
 
-Our integration with [Sharly-Chess.com](https://sharly-chess.com) allows you to create and manage your events online.
+Our integration with [_Sharly-Chess.com_](https://sharly-chess.com) allows you to create and manage your events online.
 
 The platform brings together organisers, players and arbiters in a single, modern interface — handling everything from event creation and player registration to live results display.
 
