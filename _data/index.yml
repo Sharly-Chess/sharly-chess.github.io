@@ -38,13 +38,13 @@ links:
         en: Arbiters,<br/>manage your tournament
         fr: Arbitres,<br/>gérez votre tournoi
       subtitle:
-        en: Manage tournaments with ease with our free software
-        fr: Gérez facilement votre tournoi grâce à notre logiciel gratuit
+        en: Manage tournaments with ease with our free software.
+        fr: Gérez facilement votre tournoi grâce à notre logiciel gratuit.
       image:
         basename: links-arbiters
       button_text:
-        en: Install
-        fr: Installer
+        en: Get started
+        fr: Bien commencer
       url:
         en: /getting-started/
         fr: /fr/bien-demarrer/
