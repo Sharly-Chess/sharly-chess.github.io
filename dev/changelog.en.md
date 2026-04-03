@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.0.1 - April 3, 2026
+- Fixed disabled fields behavior in event modal
+- Fixed player update
+- Fixed player search keyboard selection
+
 ## :point_right: Version 4.0.0 - April 2, 2026
 - _Sharly-Chess.com_ integration
 - Improved the navigation with keyboard shortcuts

@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.0.1 - 3 avril 2026
+- Correction des champs désactivés dans la modale d'évènement
+- Correction de la mise à jour des joueur·euses
+- Correction de la sélection au clavier dans la recherche des joueur·euses
+
 ## :point_right: Version 4.0.0 - 2 avril 2026
 - Intégration avec _Sharly-Chess.com_
 - Amélioration de la navigation grâce à des raccourcis clavier
