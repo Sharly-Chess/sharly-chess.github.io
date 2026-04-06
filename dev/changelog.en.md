@@ -9,6 +9,14 @@ separator: true
 
 # Changelog
 
+## Version 4.0.2 - April 6, 2026
+- Invalidate players' year of birth < 1900
+- Always export the players' year of birth in CSV export
+- Clean display of pairing exceptions
+- Fixed prize assignment on multiple main category override
+- Fixed tournament still uploadable to _Sharly-Chess.com_ after manual upload
+- Fixed unique constraint violation on tournament names on _Sharly-Chess.com_ import
+
 ## Version 4.0.1 - April 3, 2026
 - Fixed disabled fields behavior in event modal
 - Fixed player update

@@ -9,6 +9,14 @@ separator: true
 
 # Changelog
 
+## Version 4.0.2 - 6 avril 2026
+- Invalidation des dates de naissance des joueur·euses inférieures à 1900
+- Export systématique des années de naissance des joueur·euses dans l'export CSV
+- Mailleur affichage des exceptions d'appariement
+- Correction de l'assignation des prix dans les cas complexes
+- Correction des tournois qui restent téléversables vers _Sharly-Chess.com_ après un téléversement manuel
+- Correction d'une contrainte d'unicité des noms des tournois lors de l'import depuis _Sharly-Chess.com_
+
 ## Version 4.0.1 - 3 avril 2026
 - Correction des champs désactivés dans la modale d'évènement
 - Correction de la mise à jour des joueur·euses
