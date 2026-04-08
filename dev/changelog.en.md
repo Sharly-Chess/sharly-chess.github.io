@@ -9,6 +9,15 @@ separator: true
 
 # Changelog
 
+## Version 4.0.3 - April 8, 2026
+- Fixed scrolling the first error into view on long forms
+- Added event duplication options to include pairings and define a start date
+- Fixed tournament schedule dates not selected by default
+- Fixed Koya tie-break calculation
+- Prevent duplicating prize criteria
+- Set rank as the default sort option for Berger grids
+- Ensure consistent prize criteria order
+
 ## Version 4.0.2 - April 6, 2026
 - Invalidate players' year of birth < 1900
 - Always export the players' year of birth in CSV export

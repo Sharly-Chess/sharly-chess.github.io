@@ -9,6 +9,15 @@ separator: true
 
 # Changelog
 
+## Version 4.0.3 - 8 avril 2026
+- Correction du _scrolling_ sur les formulaires longs en cas d'erreur
+- Ajout d'options de duplication d'évènement pour inclure les appariements et définir une date de début
+- Correction des dates des rondes non sélectionnées par défaut
+- Correction du calcul du départage Koya
+- Interdiction d'avoir plusieurs critères de prix semblables dans une catégorie de prix
+- ordonnancement des grilles Berger par classement par défaut
+- Consistence de l'ordre des catégories de prix
+
 ## Version 4.0.2 - 6 avril 2026
 - Invalidation des dates de naissance des joueur·euses inférieures à 1900
 - Export systématique des années de naissance des joueur·euses dans l'export CSV
