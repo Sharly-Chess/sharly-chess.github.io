@@ -4,7 +4,7 @@ date: 2026-04-07 12:00:00 +0200
 categories: news
 layout: post
 page_id: post-2026-04-07
-slug: tutorial-sharly-chess-connect
+slug: tutorial-sharly-chess-com-connect
 lang: en
 excerpt: "Learn how to create your account on the Sharly-Chess.com platform and connect with a PassKey (video, in French)."
 ---
