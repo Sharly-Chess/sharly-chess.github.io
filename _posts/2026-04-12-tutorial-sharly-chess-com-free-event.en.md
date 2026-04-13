@@ -1,6 +1,6 @@
 ---
 title: Create your first free event on the Sharly-Chess.com platform
-date: 2026-04-12 12:00:00 +0200
+date: 2026-04-13 20:00:00 +0200
 categories: news
 layout: post
 page_id: post-2026-04-12
