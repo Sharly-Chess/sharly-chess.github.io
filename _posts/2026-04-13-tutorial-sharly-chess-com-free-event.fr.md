@@ -6,7 +6,7 @@ layout: post
 page_id: post-2026-04-12
 slug: tutorial-sharly-chess-com-free-event
 lang: fr
-excerpt: "Créer son premier évènement gratuit sur la plateforme Sharly-Chess.com et synchroniser Sharely Chess avec Sharly-Chess.com."
+excerpt: "Créer son premier évènement gratuit sur la plateforme Sharly-Chess.com et synchroniser Sharly Chess avec Sharly-Chess.com."
 ---
 
 Apprenez en 10 minutes comment :
