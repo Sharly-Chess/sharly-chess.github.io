@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.0.4 - April 18, 2026
+- Fixed error when changing the date multiple times on tournament creation
+- Fixed Round-Robin tournament round navigation
+- Added new player fields to the _Sharly-Chess.com_ synchronisation (federation, _FFE_ league, _FFE_ licence, comment)
+
 ## Version 4.0.3 - April 8, 2026
 - Fixed scrolling the first error into view on long forms
 - Added event duplication options to include pairings and define a start date

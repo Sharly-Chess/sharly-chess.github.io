@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.0.4 - 18 avril 2026
+- Correction d'une erreur sur les changements de date Fixed error when changing the date multiple times on creation
+- Correction de la navigation entre les rondes pour les tournois toutes-rondes
+- Ajout de champs pour les joueur·euses dans la synchronisation avec _Sharly-Chess.com_ (fédération, ligue _FFE_, licence _FFE_, commentaire)
+
 ## Version 4.0.3 - 8 avril 2026
 - Correction du _scrolling_ sur les formulaires longs en cas d'erreur
 - Ajout d'options de duplication d'évènement pour inclure les appariements et définir une date de début
