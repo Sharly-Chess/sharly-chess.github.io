@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 4.0.5 - 23 avril 2026
+- Correction du calendrier des rondes sur le téléversement _Chess-Results.com_
+- Ajout de la colonne _check_in_ dans les exports CSV
+- Téléchargement de la base _FIDE_ depuis _GitHub_
+- Diminution importante du temps de mise à jour de la base locale _FFE_
+- Téléchargement de la base _FRA Schools_ depuis _GitHub_
+
 ## Version 4.0.4 - 18 avril 2026
 - Correction d'une erreur sur les changements de date Fixed error when changing the date multiple times on creation
 - Correction de la navigation entre les rondes pour les tournois toutes-rondes

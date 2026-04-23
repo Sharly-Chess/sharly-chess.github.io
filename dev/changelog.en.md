@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 4.0.5 - April 23, 2026
+- Fixed _Chess-Results.com_ round schedule upload
+- Added _check_in_ column to CSV export
+- Download _FIDE_ database from _GitHub_
+- Speedup _FFE_ database update
+- Download _FRA Schools_ database from _GitHub_
+
 ## Version 4.0.4 - April 18, 2026
 - Fixed error when changing the date multiple times on tournament creation
 - Fixed Round-Robin tournament round navigation
