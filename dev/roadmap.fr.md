@@ -26,9 +26,10 @@ nav_order: 700
 | _Sharly Chess_ 3.3 | 21 Nov 2025 | Amélioration de l'interface web<br/>Gestion des tournois scolaires _FFE_<br/>Chevalets<br/>Performances _FIDE_                    |         ✅         |    26 jan 2026 |
 | _Sharly Chess_ 3.4 | 15 déc 2025 | Catégories d'âge configurables<br/>Partage des évènements<br/>Reçus financiers                                                    |         ✅         |    18 fév 2026 |
 | _Sharly Chess_ 3.5 | 26 jan 2026 | Formulaires _FFE_<br/>Prix hybrides                                                                                               |         ✅         |     2 avr 2026 |
-| _Sharly Chess_ 3.6 | 18 fév 2026 | Import des évènements au format SCE<br/>Import des joueur·euses au format CSV                                                     |         ✅         |              - |
+| _Sharly Chess_ 3.6 | 18 fév 2026 | Import des évènements au format SCE<br/>Import des joueur·euses au format CSV                                                     |         ✅         |       mai 2026 |
 | _Sharly Chess_ 4.0 |  2 avr 2026 | Intégration avec _Sharly-Chess.com_                                                                                               |         ✅         |              - |
-| _Sharly Chess_ 4.1 |        2026 | Homologation FIDE                                                                                                                 |         ✅         |              - |
+| _Sharly Chess_ 4.1 |    mai 2026 | Nouveau système de pointage, Homologation FIDE                                                                                    |         ✅         |              - |
+| _Sharly Chess_ 5.0 |             | Compétitions par équipe                                                                                                           |         ✅         |              - |
 
 # Bientôt disponible
 
@@ -37,5 +38,4 @@ nav_order: 700
 
 ## À plus long terme
 
-- Gestion des compétitions par équipes (5.x)
 - Prise en charge de plug-ins fédéraux autres que celui de la Fédération Française des Échecs (les développeur·euses intéressé·es sont invité·es à [nous contacter]({% link docs/getting-started/getting-support.fr.md %}))
