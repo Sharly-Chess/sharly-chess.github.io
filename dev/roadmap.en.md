@@ -26,9 +26,10 @@ nav_order: 700
 | _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances     |          ✅           | Jan 26th, 2025 |
 | _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                 |          ✅           | Feb 18th, 2026 |
 | _Sharly Chess_ 3.5 | Jan 26th, 2026 | _FFE_ forms<br/>Hybrid prizes                                                                              |          ✅           |  Apr 2nd, 2026 |
-| _Sharly Chess_ 3.6 | Feb 18th, 2026 | SCE event import<br/>CSV player import                                                                     |          ✅           |              - |
+| _Sharly Chess_ 3.6 | Feb 18th, 2026 | SCE event import<br/>CSV player import                                                                     |          ✅           |      May, 2026 |
 | _Sharly Chess_ 4.0 |  Apr 2nd, 2026 | _Sharly-Chess.com_ integration                                                                             |          ✅           |              - |
-| _Sharly Chess_ 4.1 |           2026 | FIDE endorsement                                                                                           |          ✅           |              - |
+| _Sharly Chess_ 4.1 |     May,  2026 | New check-in system, FIDE endorsement                                                                      |          ✅           |              - |
+| _Sharly Chess_ 5.0 |                | Team competitions                                                                                          |          ✅           |              - |
 
 ## Coming next
 
@@ -37,5 +38,4 @@ nav_order: 700
 
 ## Longer term
 
-- Handling of team competitions (5.x)
 - Support for federation plugins other than that of the French Chess Federation (developers interested in contributing are invited to [contact us]({% link docs/getting-started/getting-support.en.md %}))

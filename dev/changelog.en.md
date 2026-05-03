@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 4.0.6 - May 3, 2026
+- Fixed keyboard shortcuts
+- Search for _GitHub_ updates every hour only
+- Also revert the result when permuting board colors
+- Fixed schools with no UAI code replacing each other
+
 ## Version 4.0.5 - April 23, 2026
 - Fixed _Chess-Results.com_ round schedule upload
 - Added _check_in_ column to CSV export

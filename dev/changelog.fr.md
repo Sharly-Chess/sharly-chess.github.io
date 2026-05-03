@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 4.0.6 - 3 mai 2026
+- Correction des raccourcis clavier
+- Recherche des nouvelles versions sur _GitHub_ seulement toutes les heures
+- Inversion du résultat lors de l'inversion de couleurs d'un échiquier
+- Correction du remplacement entre elles des écoles sans UAI
+
 ## Version 4.0.5 - 23 avril 2026
 - Correction du calendrier des rondes sur le téléversement _Chess-Results.com_
 - Ajout de la colonne _check_in_ dans les exports CSV
