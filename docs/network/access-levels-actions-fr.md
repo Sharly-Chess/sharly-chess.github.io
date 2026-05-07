@@ -41,8 +41,6 @@
 | Modifier l'historique des joueur·euses             |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     | - |
 | Supprimer des joueur·euses                         |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 | Répartir les joueur·euses dans les tournois        |     ✔     |     -     |     -     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
-| **Pointage**                                       |           |           |           |           |           |           |           |           |           |           |   |
-| Ouvrir/fermer le pointage                          |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Pointer les joueur·euses                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     | - |
 | **Appariements**                                   |           |           |           |           |           |           |           |           |           |           |   |
 | Voir l'onglet Appariements                         |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     | - |
@@ -52,7 +50,7 @@
 | Désapparier un échiquier                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Permuter les échiquiers                            |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Changer la ronde courante                          |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
-| Noter des absences                                 |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
+| Allouer des forfaits                               |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Allouer des demi-points joker                      |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Allouer des points joker                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 | Voir les appariement avant publication             |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
@@ -77,4 +75,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2026-03-14 13:58) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-04-30 17:21) -->

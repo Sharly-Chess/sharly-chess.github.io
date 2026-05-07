@@ -9,6 +9,15 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 4.1.0 - 7 mai 2026
+- Système de pointage permanent
+- Synchronisation des pointages et des établissements scolaires français avec _Sharly-Chess.com_ 
+- Ouverture/fermeture du pointage en ligne de _Sharly-Chess.com_ depuis la modale de pointage
+- Nouveaux départages : STD, TPN et RTNG
+- Mise à jour des départages BH, FB et des scores ajustés SB selon l'article C07.16 Handbook de la _FIDE_
+- Simplification des critères des tournois, maintenant inclus dans la modale d'édition
+- Création simple de critères de prix depuis la modale des catégories de prix
+
 ## Version 4.0.6 - 3 mai 2026
 - Correction des raccourcis clavier
 - Recherche des nouvelles versions sur _GitHub_ seulement toutes les heures
