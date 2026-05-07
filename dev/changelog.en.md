@@ -9,6 +9,15 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 4.1.0 - May 7, 2026
+- Make check-in system permanent
+- Added player check-in and French school to the _Sharly-Chess.com_ synchronization
+- Open / close the online check-in from the check-in modal
+- New tie-breaks: STD, TPN and RTNG
+- Update tie-breaks BH, FB and SB dummy scores according to _FIDE_ Handbook C07.16
+- Simplify the tournament criteria, now included in the edit form
+- Add simple prize criteria creation from the category modal
+
 ## Version 4.0.6 - May 3, 2026
 - Fixed keyboard shortcuts
 - Search for _GitHub_ updates every hour only
