@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.1.2 - May 8, 2026
+- Fixed direct encounter bug
+
 ## Version 4.1.1 - May 8, 2026
 - Fixed redirect when editing players from the Pairings tab
 - Set the highest board number when both players have a fixed board

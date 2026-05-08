@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.1.2 - 8 mai 2026
+- Correction d'un bug sur le départage « Confrontation directe »
+
 ## Version 4.1.1 - 8 mai 2026
 - Correction de la redirection après édition des joueur·euses depuis l'onglet Appariements
 - Prise en compte du plus haut numéro lorsque les deux joueur·euses ont une table fixe
