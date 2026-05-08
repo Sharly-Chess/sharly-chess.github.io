@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.1.1 - May 8, 2026
+- Fixed redirect when editing players from the Pairings tab
+- Set the highest board number when both players have a fixed board
+- Fixed players' default check-in value of not started tournaments
+
 ## :point_right: Version 4.1.0 - May 7, 2026
 - Make check-in system permanent
 - Added player check-in and French school to the _Sharly-Chess.com_ synchronization

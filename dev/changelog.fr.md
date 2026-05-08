@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.1.1 - 8 mai 2026
+- Correction de la redirection après édition des joueur·euses depuis l'onglet Appariements
+- Prise en compte du plus haut numéro lorsque les deux joueur·euses ont une table fixe
+- Correction du statut de pointage des joueur·euses pour les tournois non démarrés
+
 ## :point_right: Version 4.1.0 - 7 mai 2026
 - Système de pointage permanent
 - Synchronisation des pointages et des établissements scolaires français avec _Sharly-Chess.com_ 
