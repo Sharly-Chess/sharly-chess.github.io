@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.1.3 - 9 mai 2026
+- Correction du numéro d'appariement utilisé à la place du classement sur la page de classement de l'Onglet Appariements
+
 ## Version 4.1.2 - 8 mai 2026
 - Correction d'un bug sur le départage « Confrontation directe »
 

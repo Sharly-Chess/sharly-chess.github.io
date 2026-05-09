@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.1.3 - May 9, 2026
+- Fixed pairing number used instead of rank in rankings table of the Pairings tab
+
 ## Version 4.1.2 - May 8, 2026
 - Fixed direct encounter bug
 
