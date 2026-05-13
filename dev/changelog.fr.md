@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 4.1.4 - 13 mai 2026
+- Utilisation d'intervalles de catégories pour les critères d'âge des prix
+- Correction de l'erreur 500 avant appariement sur les écrans de saisie des résultats en cas d'échiquiers fixes
+
 ## Version 4.1.3 - 9 mai 2026
 - Correction du numéro d'appariement utilisé à la place du classement sur la page de classement de l'Onglet Appariements
 

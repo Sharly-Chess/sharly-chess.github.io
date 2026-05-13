@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 4.1.4 - May 13, 2026
+- Use category range for age criterion of prizes
+- Fixed error 500 before pairing on Results Entry screens with fixed boards
+
 ## Version 4.1.3 - May 9, 2026
 - Fixed pairing number used instead of rank in rankings table of the Pairings tab
 
