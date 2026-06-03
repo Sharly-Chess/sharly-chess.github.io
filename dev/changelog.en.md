@@ -9,6 +9,20 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 4.2.0 - June 3, 2026
+- Added a new document to get a summary of norms achieved, or a forecast of norms that can be achieved for the final round
+- Added options to the norm document for the number of rounds and the event type
+- Added detailed calculations to the norm report to allow for easy validation
+- Added automatic removal of specific played games in order to try to fulfil the norm requirements
+- Fixed a norm calculation bug that incorrectly considered CM and WCM as title-holders
+- Added support for norm exemption 1.4.2c (last round forfeit as loss)
+- TRF26 import / export
+- Added custom team ranking documents
+- Improved detection of internet connectivity
+- Added missing timeouts to _Sharly-Chess.com_ synchronization
+- Prevent moving players from a synced tournament to a not-synced tournament on _Sharly_Chess.com_
+- Clarified the _FFE_ rules upload
+
 ## Version 4.1.4 - May 13, 2026
 - Use category range for age criterion of prizes
 - Fixed error 500 before pairing on Results Entry screens with fixed boards
