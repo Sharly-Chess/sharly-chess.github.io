@@ -17,8 +17,8 @@ nav_order: 700
 |   _Papi-web_ 2.3   |  Avr 8th, 2024 | Check-in feature                                                                                           |          ✅           |  Avr 7th, 2025 |
 |   _Papi-web_ 2.4   | Oct 30th, 2024 | Open-source<br/>Multilingual support<br/>Web configuration<br/>SQLite storage                              |          ❌           | Mai 13th, 2025 |
 |   _Papi-web_ 2.5   |  Avr 7th, 2025 | Interface improvements<br/>Player management<br/>Ranking calculation, display, and printing                |          ✅           | Mai 28th, 2025 |
-| _Sharly Chess_ 2.6 | Mai 13th, 2025 | Round-robin and manual pairing                                                                             |          ✅           |  Jul 7th, 2025 |
-| _Sharly Chess_ 2.7 | Mai 28th, 2025 | Integration of _FFE_ operations _FFE_ into the web UI                                                      |          ✅           |  Sep 1st, 2025 |
+| _Sharly Chess_ 2.6 | May 13th, 2025 | Round-robin and manual pairing                                                                             |          ✅           |  Jul 7th, 2025 |
+| _Sharly Chess_ 2.7 | May 28th, 2025 | Integration of _FFE_ operations _FFE_ into the web UI                                                      |          ✅           |  Sep 1st, 2025 |
 | _Sharly Chess_ 2.8 |  Jul 7th, 2025 | Swiss pairings<br/>Prize calculation<br/>Check-in lists                                                    |          ✅           |  Oct 1st, 2025 |
 | _Sharly Chess_ 3.0 |  Sep 1st, 2025 | Dropping of Papi format<br/>macOS support                                                                  |          ✅           | Oct 27th, 2025 |
 | _Sharly Chess_ 3.1 |  Oct 1st, 2025 | Délégation par niveau d'accès<br/>TRF import/export                                                        |          ✅           | Nov 21th, 2025 |
@@ -26,15 +26,15 @@ nav_order: 700
 | _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances     |          ✅           | Jan 26th, 2025 |
 | _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                 |          ✅           | Feb 18th, 2026 |
 | _Sharly Chess_ 3.5 | Jan 26th, 2026 | _FFE_ forms<br/>Hybrid prizes                                                                              |          ✅           |  Apr 2nd, 2026 |
-| _Sharly Chess_ 3.6 | Feb 18th, 2026 | SCE event import<br/>CSV player import                                                                     |          ✅           |      May, 2026 |
-| _Sharly Chess_ 4.0 |  Apr 2nd, 2026 | _Sharly-Chess.com_ integration                                                                             |          ✅           |              - |
-| _Sharly Chess_ 4.1 |     May,  2026 | New check-in system, FIDE endorsement                                                                      |          ✅           |              - |
-| _Sharly Chess_ 5.0 |                | Team competitions                                                                                          |          ✅           |              - |
+| _Sharly Chess_ 3.6 | Feb 18th, 2026 | SCE event import<br/>CSV player import                                                                     |          ✅           |  May 7th, 2026 |
+| _Sharly Chess_ 4.0 |  Apr 2nd, 2026 | _Sharly-Chess.com_ integration                                                                             |          ✅           |  Jun 3rd, 2026 |
+| _Sharly Chess_ 4.1 |  May 7th, 2026 | New check-in system                                                                                        |          ✅           |      Jul, 2026 |
+| _Sharly Chess_ 4.2 |  Jun 3rd, 2026 | Norm documents improvements<br/>TRF26 compliance<br/>Team ranking in individual competitions               |          ✅           |              - |
+| _Sharly Chess_ 5.0 |      Jul, 2026 | Team competitions, FIDE endorsement                                                                        |          ✅           |              - |
 
 ## Coming next
 
 - Draft/Published round status
-- TRF26 import/export
 
 ## Longer term
 

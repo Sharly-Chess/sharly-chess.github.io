@@ -9,7 +9,22 @@ separator: true
 
 # Changelog
 
-## Version 4.1.4 - 13 mai 2026
+## :point_right: Version 4.2.0 - 3 juin 2026
+
+- Ajout d'un nouveau document récapitulant les normes atteintes ou prévoyant les normes atteignables pour la ronde finale
+- Ajout d'options au document de norme pour le nombre de rondes et le type d'événement
+- Ajout de calculs détaillés au rapport de norme pour faciliter la validation
+- Ajout de la suppression automatique de certaines parties jouées afin de réaliser plus de normes
+- Correction d'un bug de calcul de norme qui considérait incorrectement les CM et WCM comme détenteur·ices de titre
+- Ajout de la prise en charge de l'exemption de norme 1.4.2c (forfaits à la dernière ronde)
+- Import/export TRF26
+- Ajout de documents de classement par équipe personnalisés
+- Amélioration de la détection de la connexion Internet
+- Ajout des délais d'expiration manquants à la synchronisation _Sharly-Chess.com_
+- Empêche le déplacement de joueurs d'un tournoi synchronisé vers un tournoi non synchronisé sur _Sharly_Chess.com_
+- Clarification du téléversement des règlements sur le site _FFE_
+
+- ## Version 4.1.4 - 13 mai 2026
 - Utilisation d'intervalles de catégories pour les critères d'âge des prix
 - Correction de l'erreur 500 avant appariement sur les écrans de saisie des résultats en cas d'échiquiers fixes
 
