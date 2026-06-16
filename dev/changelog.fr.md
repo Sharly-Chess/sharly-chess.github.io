@@ -9,8 +9,14 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 4.2.0 - 3 juin 2026
+## Version 4.2.1 - 16 juin 2026
+- Clarification des actions à effectuer sur les joueur·euses absent·es lorsque plus de la moitié sont absent·es
+- Correction de la couleur de fond par défaut des écrans
+- Correction de la redirection des contrôleurs d'affichage après saisie de résultats ou pointage
+- Correction de l'import de tournois d'écoles depuis _Sharly-Chess.com_
+- Correction de l'import des départages en TRF26
 
+## :point_right: Version 4.2.0 - 3 juin 2026
 - Ajout d'un nouveau document récapitulant les normes atteintes ou prévoyant les normes atteignables pour la ronde finale
 - Ajout d'options au document de norme pour le nombre de rondes et le type d'événement
 - Ajout de calculs détaillés au rapport de norme pour faciliter la validation
@@ -24,7 +30,7 @@ separator: true
 - Empêche le déplacement de joueurs d'un tournoi synchronisé vers un tournoi non synchronisé sur _Sharly_Chess.com_
 - Clarification du téléversement des règlements sur le site _FFE_
 
-- ## Version 4.1.4 - 13 mai 2026
+## Version 4.1.4 - 13 mai 2026
 - Utilisation d'intervalles de catégories pour les critères d'âge des prix
 - Correction de l'erreur 500 avant appariement sur les écrans de saisie des résultats en cas d'échiquiers fixes
 

@@ -9,10 +9,17 @@ separator: true
 
 # Changelog
 
+## Version 4.2.1 - June 16, 2026
+- Clarify actions on absent players if over half absent players
+- Fixed default global background color
+- Fixed display controller redirection on results or check-in input
+- Fixed tournament import of schools tournaments from _Sharly-Chess.com_
+- Fixed import of Papi tie-breaks in TRF26
+
 ## :point_right: Version 4.2.0 - June 3, 2026
 - Added a new document to get a summary of norms achieved, or a forecast of norms that can be achieved for the final round
 - Added options to the norm document for the number of rounds and the event type
-- Added detailed calculations to the norm report to allow for easy validation
+- Added detailed calculations for the norm report to allow for easy validation
 - Added automatic removal of specific played games in order to try to fulfil the norm requirements
 - Fixed a norm calculation bug that incorrectly considered CM and WCM as title-holders
 - Added support for norm exemption 1.4.2c (last round forfeit as loss)
