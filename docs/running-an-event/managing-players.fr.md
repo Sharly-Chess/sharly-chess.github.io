@@ -20,10 +20,12 @@ Les joueur·euses peuvent être ajouté·es en cliquant sur le bouton **Ajouter 
 Vous pouvez saisir les informations d’un·e joueur·euse manuellement, mais il est souvent plus rapide et plus fiable d’utiliser la **base _FIDE_** ou une base fédérale locale (disponible via un [plug-in]({% link docs/plugins/index.fr.md %})) pour rechercher et importer les fiches existantes. 
 Consultez la section [Bases de données joueur·euses]({% link docs/player-databases/index.fr.md %}) pour plus de détails sur l’installation et l’utilisation de ces bases.
 
-## Changer de tournoi
+## Changer de tournoi ou d’équipe
 
 Au début d’un événement, il est courant que certain·es joueur·euses souhaitent changer de tournoi — par exemple, passer de la section Open à celle des moins de 1600 Elo.
-Vous pouvez modifier faire passer les joueur·euses depuis un tournoi vers un autre directement dans la colonne **Tournoi** du tableau des joueur·euses.
+Vous pouvez faire passer les joueur·euses d’un tournoi à un autre directement dans la colonne **Tournoi** du tableau des joueur·euses.
+
+Dans un **événement par équipes**, ce même tableau propose à la place une colonne **Équipe**, ce qui permet de déplacer un·e joueur·euse d’une équipe à une autre de la même façon.
 
 ## Mettre à jour les joueur·euses depuis les bases récentes
 

@@ -32,6 +32,19 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - _FFE_ specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
 - Generating _FFE_ forms needed to manage French tournaments.
+- Rule sets for the French **team** competitions, with their roster rules and the _Loubatière_ pairing sheet.
+
+## Team competitions
+
+For [team events]({% link docs/team-tournaments/index.en.md %}), the _FFE_ plugin adds rule sets for the official French team competitions. Selecting one on a team tournament applies its roster rules and scoring:
+
+- **Jean-Claude Loubatière Cup** — a 4-board team cup. Roster capped at 5 players, each rated **≤ 1800 Elo** (flagged as a warning), with a mixed Swiss / [Molter]({% link docs/team-tournaments/molter-tables.en.md %}) / round-robin schedule. A game lost by forfeit costs −1 game point.
+- **FFE Women championship (N1F / N2F)** — the same 4-board format and 5-player roster, but with no Elo cap; instead the roster must consist of women players only (a warning if not).
+- **Mixed Cup** (_Coupe de la Parité_) — each match fields **2 men and 2 women**; the roster holds up to 6 players (max 3 of each), with the team's Elo capped at 8000.
+
+### Loubatière pairing sheet
+
+When a team tournament uses the **Jean-Claude Loubatière Cup** rule set, the plugin adds the **Loubatière pairing sheet** document — one page per team, laid out as the FFE's _fiche d'appariement_ for the arbiter to fill in.
 
 ## Tournament Display on the _FFE_ Website
 

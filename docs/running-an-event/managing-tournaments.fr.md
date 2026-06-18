@@ -18,6 +18,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 
 | **Nom** | Un identifiant unique pour le tournoi, utilisé dans les URL et en interne par _Sharly Chess_.  |
 | **Rondes** | Le nombre de rondes du tournoi. |
+| **Joueur·euses par équipe** | _Événements par équipes uniquement._ Le nombre d’échiquiers alignés par chaque équipe. |
 | **Cadence** | Le type de cadence du tournoi — Classique, Rapide ou Blitz. |
 | **Classement utilisé** | Indique si le tournoi utilise le classement FIDE ou national. |
 | **Dates** | Les dates de début et de fin du tournoi (remplacent celles de l’événement). |
@@ -29,7 +30,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 
 ### Appariements
 
-| **Système d’appariement** | Permet de choisir entre un système suisse ou toutes-rondes. |
+| **Système d’appariement** | Permet de choisir le système d’appariement du tournoi. Dans un événement par équipes, ce sont les [systèmes d’appariement par équipes]({% link docs/team-tournaments/pairing-systems.fr.md %}) qui sont proposés, au lieu du suisse / toutes-rondes. |
 | **Variante d’appariement** | Permet de sélectionner des variantes du système choisi. |
 | **Numéro de la première table** | Le numéro de table à utiliser pour la première table de ce tournoi. |
 | **Nombre maximum de demi-points joker** | Nombre maximal de demi-points joker (byes) qu’un·e joueur·euse peut demander. |

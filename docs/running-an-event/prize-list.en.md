@@ -3,7 +3,7 @@ layout: page
 title: Prize List
 permalink: /prize-list/
 page_id: prize-list
-parent: Running an Event
+parent: Individual events
 nav_order: 600
 ---
 

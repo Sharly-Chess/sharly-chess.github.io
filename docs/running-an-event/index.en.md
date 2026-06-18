@@ -10,13 +10,20 @@ nav_order: 200
 
 ## Overview
 
-An **Event** in _Sharly Chess_ includes one or more individual **Tournaments** — typically grouped by rating ranges, though you're free to organize your event however you like.
+An **Event** in _Sharly Chess_ includes one or more **Tournaments** — typically grouped by rating ranges, though you're free to organize your event however you like.
+
+Every event is either an **individual event** or a **team event** — you choose when you create it, and an event is one or the other, never both:
+
+- **[Individual events]({% link docs/running-an-event/individual.en.md %})** — players compete and are ranked individually.
+- **[Team events]({% link docs/team-tournaments/index.en.md %})** — players compete in teams; teams are paired and ranked.
+
+The general flow below is the same for both; the two branches above cover what is specific to each.
 
 You’ll probably want to create your Event well in advance and start adding players as they register.
 _Sharly Chess_ makes it easy to pull players from the _FIDE_ database, as well as other sources depending on the plugins you’ve activated.
 Once added, players can be moved between tournaments with just a few clicks.
 
-On the day of the event, you can use _Sharly Chess_ to check-in players as they arrive. If you'd like, you can also set up tablets or laptops to let players check themselves in.
+On the day of the event, you can use _Sharly Chess_ to check in players — or, in a team event, teams — as they arrive. If you'd like, you can also set up tablets or laptops to let them check themselves in.
 
 Once everyone is ready, you can generate pairings and start the tournaments.
 The pairings can be printed or displayed via a projector if you have one available.

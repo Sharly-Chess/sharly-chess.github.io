@@ -3,7 +3,7 @@ layout: page
 title: Le processus de pointage
 permalink: /pointage/
 page_id: check-ins
-parent: Gérer un événement
+parent: Événements individuels
 nav_order: 400
 ---
 

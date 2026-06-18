@@ -32,6 +32,19 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.
 - Critères de prix supplémentaires pour les ligues.
 - Génération des formulaires de la _FFE_ nécessaires à la gestion des tournois en France.
+- Jeux de règles pour les compétitions **par équipes** françaises, avec leurs règles de composition et la fiche d'appariement _Loubatière_.
+
+## Compétitions par équipes
+
+Pour les [événements par équipes]({% link docs/team-tournaments/index.fr.md %}), le plug-in _FFE_ ajoute des jeux de règles pour les compétitions officielles françaises par équipes. En sélectionner un sur un tournoi par équipes applique ses règles de composition et de décompte :
+
+- **Coupe Jean-Claude Loubatière** — une coupe par équipes à 4 échiquiers. Liste limitée à 5 joueur·euses, chacun·e classé·e à **1800 Elo maximum** (signalé par un avertissement), avec un calendrier mixte Suisse / [Molter]({% link docs/team-tournaments/molter-tables.fr.md %}) / toutes‑rondes. Une partie perdue par forfait coûte −1 point de partie.
+- **Championnat féminin (N1F / N2F)** — même format à 4 échiquiers et liste de 5 joueuses, mais sans plafond Elo ; en revanche la liste doit être composée uniquement de joueuses (avertissement sinon).
+- **Coupe de la Parité** — chaque match aligne **2 hommes et 2 femmes** ; la liste compte jusqu'à 6 joueur·euses (3 de chaque au maximum), avec un Elo d'équipe plafonné à 8000.
+
+### Fiche d'appariement Loubatière
+
+Lorsqu'un tournoi par équipes utilise le jeu de règles **Coupe Jean-Claude Loubatière**, le plug-in ajoute le document **fiche d'appariement Loubatière** — une page par équipe, présentée comme la _fiche d'appariement_ de la FFE, à remplir par l'arbitre.
 
 ## Affichage des tournois sur le site de la _FFE_
 

@@ -3,7 +3,7 @@ layout: page
 title: Gérer les appariements
 permalink: /gerer-les-appariements/
 page_id: managing-pairings
-parent: Gérer un événement
+parent: Événements individuels
 nav_order: 500
 ---
 

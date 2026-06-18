@@ -3,7 +3,7 @@ layout: page
 title: Check-in Process
 permalink: /check-ins/
 page_id: check-ins
-parent: Running an Event
+parent: Individual events
 nav_order: 400
 ---
 

@@ -18,6 +18,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 
 | **Name** | A user-friendly name used for display purposes (e.g. on [Screens]({% link docs/screens/index.en.md %})).
 | **Rounds** | The number of rounds in the tournament. |
+| **Players per team** | _Team events only._ The number of boards each team fields. |
 | **Rating** | The rating type of the tournament — Standard, Rapid, or Blitz. |
 | **Rating to use** | Specifies if tournaments will use FIDE or national ratings. |
 | **Dates** | The tournament’s start and end dates (overrides the event-level values). |
@@ -29,7 +30,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 
 ### Pairings
 
-| **Pairing system** | Choose between swiss and round-robin pairings. |
+| **Pairing system** | Choose the tournament's pairing system. In a team event these are the [team pairing systems]({% link docs/team-tournaments/pairing-systems.en.md %}) instead of swiss / round-robin. |
 | **Pairing variation** | Allow you to choose variants of the pairing system. |
 | **First board number** | The first board number to use for pairings of this tournament. |
 | **Max byes** | The maximum number of byes a player may request. |

@@ -20,9 +20,11 @@ Players can be added using the **Add Player** button.
 While you can enter a player's details manually, it’s often quicker and more reliable to use the **_FIDE_ database** or a local federation database (provided via a
 [plugin]({% link docs/plugins/index.en.md %})) to search and import existing player records. See the [Player Databases]({% link docs/player-databases/index.en.md %}) section for more details on installing and using these databases.
 
-## Changing Tournaments
+## Changing Tournaments and Teams
 
 At the start of an event, it's common for players to switch between tournaments — for example, from an Open section to an under 1600 Elo section. You can update a player’s tournament assignment directly from the **Tournament** field in the Players table.
+
+In a **team event** the same table instead offers a **Team** field, so you can move a player from one team to another the same way.
 
 ## Updating Players from the Latest Databases
 

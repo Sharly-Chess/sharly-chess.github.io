@@ -3,7 +3,7 @@ layout: page
 title: Liste des prix
 permalink: /liste-des-prix/
 page_id: prize-list
-parent: Gérer un événement
+parent: Événements individuels
 nav_order: 600
 ---
 

@@ -21,6 +21,7 @@
 title: Sharly Chess
 author: Sharly Chess
 email: contact@sharly-chess.com
+future: true # render posts dated in the future
 title_tag:
   en: Open Source Chess Tournament Management Software
   fr: Logiciel libre de gestion de tournois d’échecs
@@ -32,8 +33,8 @@ permalink: :categories/:year/:month/:day/:slug:output_ext
 url: "https://sharly-chess.com" # the base hostname & protocol for your site, e.g. http://example.com
 favicon_ico: "/assets/images/sharly-chess.ico"
 
-doc_version: 4.2
-latest_version: 4.2.1
+doc_version: 5.0
+latest_version: 5.0.0
 github_url: "https://github.com/sharly-chess/sharly-chess"
 
 # Build settings
