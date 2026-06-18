@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.2.2 - 18 juin 2026
+- Correction de l'export des tables fixes pour les tournois non commencés
+
 ## Version 4.2.1 - 16 juin 2026
 - Clarification des actions à effectuer sur les joueur·euses absent·es lorsque plus de la moitié sont absent·es
 - Correction de la couleur de fond par défaut des écrans

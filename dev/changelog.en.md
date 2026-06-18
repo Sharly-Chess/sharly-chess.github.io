@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.2.2 - June 18, 2026
+- Fixed export of fixed tables in Papi on not started tournaments
+
 ## Version 4.2.1 - June 16, 2026
 - Clarify actions on absent players if over half absent players
 - Fixed default global background color
