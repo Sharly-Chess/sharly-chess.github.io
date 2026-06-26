@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.2.3 - 27 juin 2026
+- Correction de la répartition des joueur·euses par critères
+- Échappement des caractères spéciaux dans les textes des chronomètres
+- Correction de l'affichage des joueur·euses sur l'affichage des appariements par ordre alphabétique avant appariement
+
 ## Version 4.2.2 - 18 juin 2026
 - Correction de l'export des tables fixes pour les tournois non commencés
 
