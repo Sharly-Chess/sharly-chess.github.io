@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.2.3 - June 27, 2026
+- Fixed player distribution by criteria
+- Escape special characters in timer texts
+- Fixed players' display on players screens before pairing
+
 ## Version 4.2.2 - June 18, 2026
 - Fixed export of fixed tables in Papi on not started tournaments
 
