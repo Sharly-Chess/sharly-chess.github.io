@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.2.4 - July 1, 2026
+- Fixed double form submission using the `Enter` key
+- Remove trailing spaces from club names
+- Fixed `Withdraw from tournament` button absent from the players record modal
+
 ## Version 4.2.3 - June 27, 2026
 - Fixed player distribution by criteria
 - Escape special characters in timer texts
