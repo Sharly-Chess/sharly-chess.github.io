@@ -9,7 +9,7 @@ nav_order: 500
 
 # Timers
 
-Single Screens and Screen Families support displaying a countdown timer — useful for things like showing how much time remains before check-in, when the next round begins, and more.
+Single Screens and Multi-Screens support displaying a countdown timer — useful for things like showing how much time remains before check-in, when the next round begins, and more.
 
 ---
 
@@ -30,7 +30,7 @@ After confirming the timer's parameters, you’ll be able to define a schedule o
 
 ## Displaying a Timer
 
-To show a timer on a screen or screen family:
+To show a timer on a screen or multi-screen:
 
 1. Edit the screen (or family) where you want the timer to appear.
 2. Choose the desired timer from the **Timer** dropdown menu.

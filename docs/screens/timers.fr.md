@@ -9,7 +9,7 @@ nav_order: 500
 
 # Chronomètres
 
-Les **Écrans simples** et les **Familles d’écrans** prennent en charge l’affichage d’un chronomètre décomptant le temps — pratique pour indiquer, par exemple, combien de temps il reste avant la fin du pointage, ou quand la prochaine ronde commencera.
+Les **Écrans simples** et les **Écrans multiples** prennent en charge l’affichage d’un chronomètre décomptant le temps — pratique pour indiquer, par exemple, combien de temps il reste avant la fin du pointage, ou quand la prochaine ronde commencera.
 
 ---
 
@@ -30,7 +30,7 @@ Une fois les paramètres du chronomètre validés, vous pourrez définir un plan
 
 ## Afficher un chronomètre
 
-Pour afficher un chronomètre sur un écran ou une famille d’écrans :
+Pour afficher un chronomètre sur un écran ou un écran multiple :
 
 1. Éditez l’écran (ou la famille) sur lequel vous souhaitez afficher le chronomètre.
 2. Sélectionnez le chronomètre souhaité dans le menu déroulant **Chronomètre**.

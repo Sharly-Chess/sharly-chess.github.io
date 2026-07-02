@@ -35,8 +35,8 @@ Once your Display Controller is created, you can assign a screen to it in two wa
   Find the controller you'd like to update, click the **Assign Screen** button, and choose the screen or rotator you want to display.
 
 {: .note }
-> :information_source: You can assign **Single Screens** and **Rotators** to a controller — but not **Screen Families** since they have multiple screens associated with them.
-> To display a Screen Family, create a Rotator for the screens of this family and then assign the rotator to the controller.
+> :information_source: You can assign **Single Screens** and **Rotators** to a controller — but not **Multi-Screens** since they have multiple screens associated with them.
+> To display a Multi-Screen, create a Rotator for the screens of this Multi-Screen and then assign the rotator to the controller.
 
 ---
 

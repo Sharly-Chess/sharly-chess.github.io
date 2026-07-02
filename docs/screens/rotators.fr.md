@@ -17,11 +17,11 @@ Si vous souhaitez afficher plusieurs écrans sur un seul appareil — comme un v
 
 Pour créer un écran rotatif, rendez-vous sur le menu **Écrans → Écrans rotatifs** et cliquez sur le bouton **Créer un écran rotatif**.
 
-Lors de la configuration, vous pouvez choisir d’inclure des **Écrans simples** ainsi que des **Familles d’écrans**.
+Lors de la configuration, vous pouvez choisir d’inclure des **Écrans simples** ainsi que des **Écrans multiples**.
 L’écran rotatif fera automatiquement défiler les écrans sélectionnés.
 
-Si vous ajoutez une Famille d’écrans, l’écran rotatif passera en revue tous les écrans simples générés par cette famille.
+Si vous ajoutez un Écran multiple, l’écran rotatif passera en revue tous les écrans simples générés par cet écran multiple.
 
 {: .warning }
 > :warning: Les écrans rotatifs sont conçus pour _afficher_ des écrans — et non pour _saisir des résultats_.
-> Si vous incluez un écran de saisie et qu’un·e joueur·euse interagit avec, la rotation s’arrêtera automatiquement.
+> Il n’est pas possible d’ajouter un écran de saisie à un rotateur.
