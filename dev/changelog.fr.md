@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 4.2.4 - 1er juillet 2026
+- Correction des doubles soumissions de formulaires avec la touche `Entrée`
+- Suppression des espaces à la fin des noms des clubs
+- Correction de l'absence du bouton `Forfait définitif` sur la modale d'historique des joueur·euses
+
 ## Version 4.2.3 - 27 juin 2026
 - Correction de la répartition des joueur·euses par critères
 - Échappement des caractères spéciaux dans les textes des chronomètres
