@@ -16,12 +16,11 @@ relied on ever since were drawn up in November 1991 by international arbiter
 **Jean-Claude Templeur**, from Molter's originals and under his supervision, and
 have been distributed by the _Fédération Française des Échecs_ since.
 
-Those tables are now changing. Wanting _Sharly Chess_ to produce Molter tables on
-demand rather than carry a fixed, hand-transcribed set, the team worked with the
-_Fédération Française des Échecs_ to develop an algorithm that **generates valid
-tables** for any supported
-size. Little known outside France until now, the system is open to everyone — and
-the tables are generated for you, automatically.
+Those tables are now changing. Working closely with the _Fédération Française
+des Échecs_, the _Sharly Chess_ team defined the hard criteria and quality
+requirements expected of a good modern Molter table. _Sharly Chess_ now provides
+validated tables for every supported configuration, so the correct table is
+selected for you automatically.
 
 ---
 
@@ -51,11 +50,12 @@ Molter is the right choice when:
 
 - the **number of teams is small relative to the number of rounds**;
 - each team has an **even number of players**;
-- and — most often — there is an **odd number of teams**.
+- and you want a fixed schedule rather than pairings driven by standings.
 
-That last point is the heart of it: with an odd number of teams a naive schedule
-would force someone to sit out each round, and **Molter is designed precisely to
-avoid byes**. Every player gets a game every round.
+Odd team counts are the original hard case: a naive schedule would force someone
+to sit out each round, and **Molter is designed precisely to avoid byes**. Even
+team counts are supported too; in that case the table keeps players on their own
+board number and no floater is needed.
 
 {: .note }
 
@@ -71,8 +71,8 @@ avoid byes**. Every player gets a game every round.
 - Each team fields **P players on boards 1…P**, board 1 being the strongest.
 - For each round the table fixes, **board by board, who faces whom** — always a
   player from a _different_ team, never a team-mate.
-- Over the schedule each player meets a **distinct opposing team** every round,
-  and **colours balance out** (as many Whites as Blacks).
+- Over the schedule each player meets a **distinct opposing team** each round,
+  and **colours remain tightly balanced**.
 - With an **odd number of teams**, one player "floats" to the neighbouring board
   so that nobody is left without an opponent — the **floater** — and this duty is
   shared evenly across the teams.
@@ -82,10 +82,50 @@ decisions to make** during the event — the table is fixed in advance.
 
 {: .note }
 
-> :information_source: **Prefer an even number of rounds.** Molter schedules are
-> built in round-pairs — that is how each player's colours balance out. An odd
-> count leaves one leftover round, which is filled by repeating an earlier round
-> (recoloured); an even count avoids the repeat and keeps colours evenly balanced.
+> :information_source: Choose the number of rounds you intend to play. _Sharly
+> Chess_ will use the Molter table validated for that exact event length, while
+> keeping individual colours and floater duties balanced as closely as possible.
+
+---
+
+## Validity and quality
+
+Every shipped Molter recipe is checked before it is used. A table is rejected if
+it breaks the hard rules:
+
+- every player appears **exactly once per round**;
+- no player faces a **team-mate**;
+- no player faces the **same opposing team twice**;
+- player colours stay within bounded drift and never repeat three times in a row;
+- floaters, when needed, are only between neighbouring boards and do not repeat
+  the same role for the same player.
+
+Among valid tables, _Sharly Chess_ then prefers the best quality it can obtain:
+
+- **opponent spread**: teams should meet as many different teams as possible early
+  in the event;
+- **floater balance**: ascending and descending floaters should be balanced by
+  team;
+- **floater spread**: the descending duty should be shared evenly;
+- **round-pair balance**: a team should not be asked to float too often within
+  the same pair of rounds;
+- **per-round spread**: a team's boards should not all be concentrated against
+  the same opponent when a better spread is possible;
+- **team colours**: exact per-round team colour balance is kept when it does not
+  damage the stronger opponent and floater objectives.
+
+The current recipe set is deliberately capped in the app to keep this quality
+high.
+
+{: .note }
+
+> :information_source: Behind the scenes, the current tables come from a
+> reproducible research process that tries several construction and optimisation
+> methods, then keeps the best validated results found. This is a practical
+> approach, not a claim that the final mathematical construction has been
+> discovered. If you are a combinatorics or graph-theory specialist and want to
+> help improve the Molter algorithm further, please contact the _Sharly Chess_
+> team.
 
 ---
 
@@ -122,14 +162,16 @@ _Sharly Chess_ produces this table for you — you don't transcribe anything.
 
 1. Create a **team tournament** and choose the **Molter** pairing system.
 2. Set the **players per team** and the **number of rounds**.
-3. _Sharly Chess_ **generates the table automatically** for the chosen size
-   (3–13 teams) — there are no hand‑copied tables to maintain.
+3. _Sharly Chess_ **selects the table automatically** for the chosen size
+   (currently 3–20 teams, with an even number of players per team up to 12).
 4. Generate each round's pairings as usual; you can still adjust a team's
    line‑up between rounds.
 
 {: .note }
 
-> :information_source: The tables are computed **deterministically**: the same
+> :information_source: The tables are **deterministic**: the same
 > _(teams, players per team, rounds)_ always produces the same table, reproducible
 > anywhere. A federation can also supply its own **official table** for a specific
-> size through a rule set — for example the _Coupe Jean‑Claude Loubatière_ of the _Fédération Française des Échecs_.
+> size through a rule set — for example the _Coupe Jean‑Claude Loubatière_ of the
+> _Fédération Française des Échecs_. If a shape is outside the validated recipe
+> range, _Sharly Chess_ does not offer Molter for that tournament.

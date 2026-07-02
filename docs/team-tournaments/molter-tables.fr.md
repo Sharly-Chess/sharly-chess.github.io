@@ -17,12 +17,11 @@ l'arbitre international **Jean-Claude Templeur**, à partir des originaux de Mol
 et sous son contrôle, et sont diffusés depuis par la _Fédération Française des
 Échecs_.
 
-Ces tableaux changent aujourd'hui. Souhaitant que _Sharly Chess_ produise les
-tableaux Molter à la demande plutôt que d'embarquer un jeu fixe recopié à la main,
-l'équipe a travaillé avec la _Fédération Française des Échecs_ pour mettre au point un algorithme qui **génère
-des tableaux valides** pour toute taille prise en charge. Peu connu hors de France
-jusqu'ici, le système est ouvert à toutes et tous — et les tableaux sont générés
-pour vous, automatiquement.
+Ces tableaux changent aujourd'hui. En lien étroit avec la _Fédération Française
+des Échecs_, l'équipe _Sharly Chess_ a défini les critères durs et les exigences
+de qualité attendus d'un bon tableau Molter moderne. _Sharly Chess_ propose
+désormais des tableaux validés pour chaque configuration prise en charge, afin
+que le bon tableau soit sélectionné pour vous automatiquement.
 
 ---
 
@@ -54,12 +53,14 @@ Le Molter est pertinent lorsque :
 
 - le **nombre d'équipes est restreint par rapport au nombre de rondes** ;
 - chaque équipe compte un **nombre pair de joueur·euses** ;
-- et — le plus souvent — le **nombre d'équipes est impair**.
+- et vous souhaitez un calendrier fixe plutôt qu'un appariement guidé par le
+  classement.
 
-Ce dernier point est l'essentiel : avec un nombre impair d'équipes, un calendrier
-naïf obligerait quelqu'un à être exempt à chaque ronde, et **le Molter est conçu
-précisément pour éviter les exempts**. Chaque joueur·euse a une partie à chaque
-ronde.
+Les nombres impairs d'équipes sont le cas difficile historique : avec un
+calendrier naïf, quelqu'un serait exempt à chaque ronde, et **le Molter est
+conçu précisément pour éviter les exempts**. Les nombres pairs d'équipes sont
+aussi pris en charge ; dans ce cas, les joueur·euses restent sur leur propre
+numéro d'échiquier et aucun flotteur n'est nécessaire.
 
 {: .note }
 
@@ -79,8 +80,7 @@ ronde.
   qui** — toujours un·e joueur·euse d'une _autre_ équipe, jamais un·e
   coéquipier·ère.
 - Sur l'ensemble du calendrier, chaque joueur·euse rencontre une **équipe adverse
-  distincte** à chaque ronde, et les **couleurs s'équilibrent** (autant de blancs
-  que de noirs).
+  distincte** à chaque ronde, et les **couleurs restent fortement équilibrées**.
 - Avec un **nombre impair d'équipes**, un·e joueur·euse « flotte » vers
   l'échiquier voisin pour que personne ne reste sans adversaire — le **flotteur**
   — et ce rôle est réparti équitablement entre les équipes.
@@ -90,11 +90,56 @@ d'appariement** à prendre pendant l'épreuve — le tableau est fixé à l'avan
 
 {: .note }
 
-> :information_source: **Préférez un nombre pair de rondes.** Les tableaux Molter se
-> construisent par paires de rondes — c'est ainsi que les couleurs de chaque
-> joueur·euse s'équilibrent. Un nombre impair laisse une ronde en trop, comblée par
-> la reprise d'une ronde précédente (recoloriée) ; un nombre pair évite cette
-> reprise et garde les couleurs équilibrées.
+> :information_source: Choisissez le nombre de rondes que vous souhaitez jouer.
+> _Sharly Chess_ utilisera le tableau Molter validé pour cette durée précise,
+> tout en équilibrant au mieux les couleurs individuelles et les rôles de
+> flotteur.
+
+---
+
+## Validité et qualité
+
+Chaque recette Molter embarquée est vérifiée avant d'être utilisée. Un tableau
+est rejeté s'il enfreint une règle dure :
+
+- chaque joueur·euse apparaît **exactement une fois par ronde** ;
+- personne ne joue contre un·e **coéquipier·ère** ;
+- personne ne rencontre **deux fois la même équipe adverse** ;
+- les couleurs restent dans une dérive bornée et ne se répètent jamais trois
+  fois de suite ;
+- les flotteurs, lorsqu'ils sont nécessaires, ne relient que des échiquiers
+  voisins et ne font pas répéter le même rôle au même joueur ou à la même
+  joueuse.
+
+Parmi les tableaux valides, _Sharly Chess_ privilégie ensuite la meilleure
+qualité possible :
+
+- **répartition des adversaires** : les équipes doivent rencontrer autant
+  d'équipes différentes que possible dès le début de l'épreuve ;
+- **équilibre des flotteurs** : les flotteurs montants et descendants doivent
+  être équilibrés par équipe ;
+- **répartition des descendants** : le rôle descendant doit être partagé
+  équitablement ;
+- **équilibre par paire de rondes** : une équipe ne doit pas flotter trop souvent
+  dans une même paire de rondes ;
+- **répartition dans la ronde** : les échiquiers d'une équipe ne doivent pas être
+  concentrés inutilement contre le même adversaire ;
+- **couleurs par équipe** : l'équilibre exact des couleurs à chaque ronde est
+  conservé lorsqu'il ne dégrade pas les objectifs plus importants sur les
+  adversaires et les flotteurs.
+
+La plage de recettes proposée dans l'application est volontairement limitée afin
+de conserver ce niveau de qualité.
+
+{: .note }
+
+> :information_source: En coulisses, les tableaux actuels proviennent d'un
+> processus de recherche reproductible qui essaie plusieurs méthodes de
+> construction et d'optimisation, puis conserve les meilleurs résultats validés.
+> C'est une approche pratique, pas l'affirmation que la construction
+> mathématique définitive a été trouvée. Si vous êtes spécialiste de combinatoire
+> ou de théorie des graphes et souhaitez aider à améliorer encore l'algorithme
+> Molter, contactez l'équipe _Sharly Chess_.
 
 ---
 
@@ -134,15 +179,18 @@ _Sharly Chess_ produit ce tableau pour vous — vous ne recopiez rien.
 1. Créez un **tournoi par équipes** et choisissez le système d'appariement
    **Molter**.
 2. Indiquez le **nombre de joueur·euses par équipe** et le **nombre de rondes**.
-3. _Sharly Chess_ **génère le tableau automatiquement** pour la taille choisie
-   (3 à 13 équipes) — aucun tableau recopié à la main à maintenir.
+3. _Sharly Chess_ **sélectionne le tableau automatiquement** pour la taille
+   choisie (actuellement 3 à 20 équipes, avec un nombre pair de joueur·euses par
+   équipe jusqu'à 12).
 4. Générez les appariements de chaque ronde comme d'habitude ; vous pouvez
    toujours ajuster la composition d'une équipe entre les rondes.
 
 {: .note }
 
-> :information_source: Les tableaux sont calculés de manière **déterministe** : la
-> même configuration _(équipes, joueur·euses par équipe, rondes)_ produit toujours
-> le même tableau, reproductible partout. Une fédération peut aussi fournir son
-> propre **tableau officiel** pour une taille donnée via un jeu de règles — par
-> exemple la _Coupe Jean‑Claude Loubatière_ de la _Fédération Française des Échecs_.
+> :information_source: Les tableaux sont **déterministes** : la même configuration
+> _(équipes, joueur·euses par équipe, rondes)_ produit toujours le même tableau,
+> reproductible partout. Une fédération peut aussi fournir son propre **tableau
+> officiel** pour une taille donnée via un jeu de règles — par exemple la _Coupe
+> Jean‑Claude Loubatière_ de la _Fédération Française des Échecs_. Si une forme
+> n'appartient pas à la plage de recettes validées, _Sharly Chess_ ne propose pas
+> le Molter pour ce tournoi.
