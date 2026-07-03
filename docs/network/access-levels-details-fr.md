@@ -30,4 +30,4 @@ Autorise la saisie des résultats sur des écrans de saisie publics (héritage 
 ### 🟢 SPE Visualisation
 Autorise l'accès aux écrans publics.
 
-<!-- Généré par le script generate_access_levels_doc.py (2026-04-30 17:21) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-07-03 22:41) -->

@@ -11,6 +11,7 @@
 | Voir les évènement privés                          |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Voir les évènement passés                          |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Voir les détails des cartes d'évènement            |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
+| Créer des évènements                               |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Gestion des évènements                             |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Renommer l'évènement                               |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     |     -     | - |
 | Mettre à jour l'évènement                          |     ✔     |     ✔     |     -     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
@@ -41,6 +42,8 @@
 | Modifier l'historique des joueur·euses             |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     | - |
 | Supprimer des joueur·euses                         |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 | Répartir les joueur·euses dans les tournois        |     ✔     |     -     |     -     |     ✔     |     -     |     -     |     -     |     -     |     -     |     -     | - |
+| **Pointage**                                       |           |           |           |           |           |           |           |           |           |           |   |
+| Ouvrir/fermer le pointage                          |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Pointer les joueur·euses                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     | - |
 | **Appariements**                                   |           |           |           |           |           |           |           |           |           |           |   |
 | Voir l'onglet Appariements                         |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     | - |
@@ -51,13 +54,8 @@
 | Permuter les échiquiers                            |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Changer la ronde courante                          |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Allouer des forfaits                               |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
-| Allouer des demi-points joker                      |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
-| Allouer des points joker                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
-| Voir les appariement avant publication             |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
-| Publier les appariements                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
-| **Classements**                                    |           |           |           |           |           |           |           |           |           |           |   |
-| Voir les classement avant publication              |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
-| Publier les classements                            |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
+| Allouer des byes                                   |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
+| Allouer des byes point entier                      |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
 | **Résultats**                                      |           |           |           |           |           |           |           |           |           |           |   |
 | Entrer des résultats                               |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     ✔     |     -     | - |
 | Modifier les résultats                             |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     | - |
@@ -75,4 +73,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2026-04-30 17:21) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-07-03 22:41) -->
