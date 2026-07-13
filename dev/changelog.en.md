@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 4.2.5 - July 13, 2026
+- Fix previous version recovery freeze
+- Norm reports for WGM title holders now include the IM norm
+
 ## Version 4.2.4 - July 1, 2026
 - Fixed double form submission using the `Enter` key
 - Remove trailing spaces from club names

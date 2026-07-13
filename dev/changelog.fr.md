@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 4.2.5 - 13 juillet 2026
+- Correction de la récupération des versions précédentes
+- Les rapports de norme des détentrices du titre GMF incluent maintenant la norme MI
+
 ## Version 4.2.4 - 1er juillet 2026
 - Correction des doubles soumissions de formulaires avec la touche `Entrée`
 - Suppression des espaces à la fin des noms des clubs
