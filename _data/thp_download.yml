@@ -15,3 +15,10 @@ instructions:
   macos:
     en: Open the DMG file, then copy the application to your <i>Applications</i> folder and run it.
     fr: Ouvrez le fichier DMG, puis copiez l'application vers le dossier <i>Applications</i> et lancez-la depuis ce dossier.
+support_us:
+  message:
+    en: Sharly Chess is a free application. Its maintenance, support and development rely on your support. 
+    fr: Sharly Chess est un logiciel gratuit. La maintenance, le support et le développement dépendent de votre soutien.
+  button_text:
+    en: Support us
+    fr: Nous soutenir

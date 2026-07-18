@@ -31,9 +31,19 @@
           </div>
         </div>
         <div class="modal__content">
-          <p style="margin-bottom: 0">
+          <p style="margin-top: 0">
             {{ thp_download.instructions[platform][lang] | safe }}
           </p>
+          <div class="separator modal__separator"></div>
+          <p>
+            {{ thp_download.support_us.message[lang] }}
+          </p>
+          <a
+            class="btn modal-btn"
+            style="margin: 0"
+            href="{{ site.data[lang].strings.support_us_url }}" target="_blank">
+            {{ thp_download.support_us.button_text[lang] }}
+          </a>
         </div>
       </div>
     </div>

@@ -221,3 +221,16 @@ players:
       name: players-1.jpg
     -
       name: players-2.jpg
+support:
+  block_prefix:
+    en: Support
+    fr: Soutenir
+  title:
+    en: An associative project who needs your support!
+    fr: Un projet associatif qui a besoin de votre soutien !
+  text:
+    en: Our association's goal is to provide free or affordable tools for arbiters all over the world. To help the maintenance, support and development of our free arbitration application, please consider donating to the association.
+    fr: L'objectif de notre association est de fournir des outils gratuits ou abordables aux arbitres du monde entier. Pour aider à la maintenance, au support et au développement de notre logiciel d'arbitrage gratuit, merci d'envisager de faire un don à l'association.
+  button_text:
+    en: Support us
+    fr: Nous soutenir

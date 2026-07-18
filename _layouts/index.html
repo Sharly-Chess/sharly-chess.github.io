@@ -146,32 +146,62 @@ layout: table_wrappers
     </div>
   </section>
 
+  {% assign support = index.support %}
+  <a id="support-link" href="{{ strings.support_us_url }}" target="_blank" style="display: none"></a>
+  <script>
+    function openSupportPage() {
+      document.getElementById('support-link').click();
+    }
+  </script>
+  <section class="support">
+    <div class="support-section">
+      <h1>{{ support.title[lang] }}</h1>
+      <p>{{ support.text[lang] }}</p>
+      <a class="btn big" href="{{ strings.support_us_url }}">
+        {{ support.button_text[lang] }}
+      </a>
+    </div>
+  </section>
+
+  <div class="support-block support-block-desktop" onclick="openSupportPage()">
+    <div>
+      {{ support.block_prefix[lang] }}
+      <br/>Sharly Chess
+    </div>
+    <i class="bi-heart"></i>
+  </div>
+  <div class="support-block support-block-mobile" onclick="openSupportPage()">
+    <div>
+      {{ support.block_prefix[lang] }}
+      Sharly Chess
+    </div>
+    <i class="bi-heart"></i>
+  </div>
+
   {% assign posts = site.posts %}
-  {%- if posts.size > 0 -%}
-    <section class="news">
-      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-      <h1>{{ strings.latest_news }} <a href="/feed.xml" target="_blank"><i class="bi-rss-fill"></i></a></h1>
-      {% for post in posts limit:3 %}
-        <div class="news-item">
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {% if post.summary %}
-            {{ post.summary | markdownify }}
-          {% else %}
-            {{ post.excerpt }}
-          {% endif %}
-          <a class="read-more" href="{{ post.url | relative_url }}">
-            {{ strings.read_more }}
+  <section class="news">
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+    <h1>{{ strings.latest_news }} <a href="/feed.xml" target="_blank"><i class="bi-rss-fill"></i></a></h1>
+    {% for post in posts limit:3 %}
+      <div class="news-item">
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
           </a>
-        </div>
-      {% endfor %}
-      <p><a class="btn" href="{% link news.{{ lang }}.md %}">{{ strings.see_all_posts }}</a></p>
-    </section>
-{%- endif -%}
+        </h3>
+        {% if post.summary %}
+          {{ post.summary | markdownify }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+        <a class="read-more" href="{{ post.url | relative_url }}">
+          {{ strings.read_more }}
+        </a>
+      </div>
+    {% endfor %}
+    <p><a class="btn" href="{% link news.{{ lang }}.md %}">{{ strings.see_all_posts }}</a></p>
+  </section>
 
   <footer>
       {{ strings.copyright }}.

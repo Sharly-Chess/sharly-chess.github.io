@@ -284,6 +284,10 @@ body.index {
       width: 100%;
     }
 
+    .modal .btn {
+      width: auto;
+    }
+
     .modal div, .modal {
       width: auto;
     }
@@ -358,13 +362,6 @@ body.index {
     }
   }
 
-  .separator {
-    width: 60vw;
-    height: 1px;
-    margin: auto;
-    background-color: #d7c9aa;
-  }
-
   .features-easy-life {
     background-color: #2a2a2a;
     color: #f4f0e6;
@@ -400,9 +397,22 @@ body.index {
     filter: sepia(40%) contrast(1);
   }
 
-  .news {
+  .support {
     padding: 4rem 2rem;
     background-color: #1e1e1e;
+    color: #f4f0e6;
+    text-align: center;
+
+    p {
+      max-width: 800px;
+      margin: 0 auto 1rem;
+      line-height: 1.6;
+    }
+  }
+
+  .news {
+    padding: 4rem 2rem;
+    background-color: #2a2a2a;
     color: #f4f0e6;
     text-align: center;
 
@@ -431,6 +441,13 @@ body.index {
   }
 }
 
+.separator {
+  width: 60vw;
+  height: 1px;
+  margin: auto;
+  background-color: #d7c9aa;
+}
+
 .thp-download-container {
   text-align: center;
 }
@@ -439,10 +456,69 @@ body.index {
   gap: 1rem;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 img.no-border, img.emoji {
   border: 0;
+}
+
+.support-block {
+  position: fixed;
+  background-color: #d7c9aa;
+  color: $sidebar-color;
+  cursor: pointer;
+  font-weight: bold;
+  flex-direction: row;
+  border: 2px $border-color solid;
+}
+
+.support-block-desktop {
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-radius: 10px;
+  padding: 7px 20px;
+  gap: 1rem;
+}
+
+.support-block-desktop div {
+  font-size: x-large;
+  line-height: 1.1;
+  margin-top: 7px;
+}
+.support-block-desktop i {
+  font-size: xxx-large;
+}
+
+.support-block-mobile {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 7px 10px 2px 10px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.support-block-mobile div {
+  font-size: large;
+  margin-top: 2px;
+  text-wrap: nowrap;
+}
+
+.support-block-mobile i {
+  font-size: x-large;
+}
+
+@media (min-width: 31.25rem) {
+  .support-block-desktop {
+    display: flex !important;
+  }
+  .support-block-mobile {
+    display: none !important;
+  }
 }
 
 .before-access-level-actions ~ * {
@@ -517,6 +593,10 @@ img.no-border, img.emoji {
 
 .modal__content {
   line-height: 1.5;
+}
+
+.modal__separator {
+  width: auto;
 }
 
 .modal__footer {
