@@ -21,7 +21,9 @@ Unlike many other solutions, **no internet connection is required during tournam
 <div id="install-buttons-container">
     {% include thp_download_button.html platform='windows' %}
     {% include thp_download_button.html platform='macos' %}
-    <a class="btn" href="/installation-linux/">
-        Installation guide (Linux)
-    </a>
+    <div>
+        <a class="btn" href="/installation-linux/">
+            Installation guide (Linux)
+        </a>
+    </div>
 </div>

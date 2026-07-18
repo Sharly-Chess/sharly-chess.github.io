@@ -23,7 +23,9 @@ contrairement à de nombreuses autres solutions, **aucune connexion à internet 
 <div id="install-buttons-container">
     {% include thp_download_button.html platform='windows' %}
     {% include thp_download_button.html platform='macos' %}
-    <a class="btn" href="/installation-linux/">
-        Guide d'installation (Linux)
-    </a>
+    <div>
+        <a class="btn" href="/installation-linux/">
+            Guide d'installation (Linux)
+        </a>
+    </div>
 </div>

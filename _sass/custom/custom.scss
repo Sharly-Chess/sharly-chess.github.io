@@ -280,7 +280,7 @@ body.index {
       margin: 0 10%;
     }
 
-    .buttons-container .btn {
+    .buttons-container .btn, .thp-download-container {
       width: 100%;
     }
 
@@ -356,6 +356,10 @@ body.index {
       margin-top: 2rem;
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     }
+  }
+
+  .thp-download-container {
+    text-align: center;
   }
 
   .separator {
@@ -496,7 +500,7 @@ img.no-border, img.emoji {
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   line-height: 1.25;
 }
 
