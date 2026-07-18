@@ -195,7 +195,7 @@ details {
   font-style: italic;
 }
 
-body.index, body.thp {
+body.index {
   margin: 0;
   font-family: 'Helvetica Neue', system-ui, sans-serif;
   background-color: #1e1e1e;
@@ -245,7 +245,7 @@ body.index, body.thp {
     }
   }
 
-  .links {
+  .services {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -254,13 +254,38 @@ body.index, body.thp {
     max-width: 1036px;
     margin: 0 auto;
 
+    @media (min-width: 31.25rem) {
+      .service-container {
+        max-width: 450px !important;
+      }
+      .buttons-container {
+        margin: 0 20% !important;
+      }
+    }
+
     img {
+      width: auto !important;
       max-width: 90%;
       height: auto;
       margin: 1.5rem 0;
       border-radius: 10px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
       transition: transform 0.3s;
+    }
+
+    .buttons-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10%;
+    }
+
+    .buttons-container .btn {
+      width: 100%;
+    }
+
+    .modal div, .modal {
+      width: auto;
     }
 
     p:first-of-type {
@@ -406,6 +431,12 @@ body.index, body.thp {
   }
 }
 
+#install-buttons-container {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
 img.no-border, img.emoji {
   border: 0;
 }
@@ -429,4 +460,113 @@ img.no-border, img.emoji {
       min-width: auto;
     }
   }
+}
+
+// Micromodal
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__container {
+  background-color: $sidebar-color;
+  padding: 30px;
+  max-width: min(90vw, 500px);
+  max-height: 100vh;
+  border-radius: 10px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.modal__close {
+  background: transparent;
+  border: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.modal__close:before { content: "\2715"; }
+
+.modal__content {
+  line-height: 1.5;
+}
+
+.modal__footer {
+  margin-top: 1rem;
+}
+
+
+// Modal Animation Style
+
+@keyframes mmfadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes mmfadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
+@keyframes mmslideIn {
+  from { transform: translateY(15%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes mmslideOut {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10%); }
+}
+
+.modal {
+  display: none;
+}
+
+.modal.is-open {
+  display: block;
+}
+
+.modal[aria-hidden="false"] .modal__overlay {
+  animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.modal[aria-hidden="false"] .modal__container {
+  animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.modal[aria-hidden="true"] .modal__overlay {
+  animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.modal[aria-hidden="true"] .modal__container {
+  animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.modal .modal__container,
+.modal .modal__overlay {
+  will-change: transform;
 }

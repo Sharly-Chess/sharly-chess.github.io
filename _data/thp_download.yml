@@ -1,0 +1,17 @@
+button_text:
+  windows:
+    en: Download (Windows)
+    fr: Télécharger (Windows)
+  macos:
+    en: Download (macOS)
+    fr: Télécharger (macOS)
+thank_you:
+  en: Thank you for downloading<br/>Sharly Chess!
+  fr: Merci d'avoir téléchargé<br/>Sharly Chess !
+instructions:
+  windows:
+    en: Run the installer program to continue.
+    fr: Lancez le programme d'installation pour continuer.
+  macos:
+    en: Open the DMG file, then copy the application to your <i>Applications</i> folder and run it.
+    fr: Ouvrez le fichier DMG, puis copiez l'application vers le dossier <i>Applications</i> et lancez-la depuis ce dossier.

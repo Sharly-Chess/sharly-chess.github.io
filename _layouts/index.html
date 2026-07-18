@@ -21,18 +21,48 @@ layout: table_wrappers
     </div>
   </header>
 
-  {% assign links = index.links %}
-  <section class="links">
+  {% assign services = index.services %}
+  <section class="services">
     <div class="carousel">
-      {% for link in links.items %}
-        <div>
-          <h2>{{ link.title[lang] }}</h2>
-          <p>{{ link.subtitle[lang] }}</p>
-          <p><a href="{{ link.url[lang] }}"><img src="assets/images/index/{{ link.image.basename }}.{{ lang }}.jpg"></a></p>
-          <p><a class="btn" href="{{ link.url[lang] }}">{{ link.button_text[lang] }}</a></p>
-        </div>
+      {% for service in services.items %}
+        <span class="service-container">
+          <h2>{{ service.title[lang] }}</h2>
+          <p>{{ service.subtitle[lang] }}</p>
+          <p><a href="{{ service.image.url[lang] }}">
+            <img src="assets/images/index/{{ service.image.basename }}.{{ lang }}.jpg">
+          </a></p>
+          <span class="buttons-container">
+            {% for button in service.buttons %}
+              {% if button.thp_download_platform %}
+                {% include thp_download_button.html platform=button.thp_download_platform %}
+              {% else %}
+                <a
+                  {% if button.id %}
+                    id="{{ button.id }}"
+                  {% endif %}
+                  class="btn"
+                  href="{{ button.url[lang] }}"
+                >
+                  {{ button.text[lang] }}
+                </a>
+              {% endif %}
+            {% endfor %}
+          </span>
+        </span>
       {% endfor %}
     </div>
+    <script>
+      const { userAgent, platform } = navigator;
+      if (!platform.includes('Win')) {
+        document.getElementById('thp-download-windows-button').remove();
+      }
+      if (!platform.includes('Mac')) {
+        document.getElementById('thp-download-macos-button').remove();
+      }
+      if (!platform.includes('Linux')) {
+        document.getElementById('thp-install-linux-button').remove();
+      }
+    </script>
   </section>
 
   {% assign easy_life = index.easy_life %}
@@ -65,7 +95,6 @@ layout: table_wrappers
           <img src="assets/images/index/{{ image.basename }}.{{ lang }}.jpg">
         {% endfor %}
       </div>
-      <p><a class="btn big" href="{{ made_by.button_url[lang] }}">{{ made_by.button_text[lang] }}</a></p>
     </div>
     <div class="separator" />
   </section>
