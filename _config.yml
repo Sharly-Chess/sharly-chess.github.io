@@ -45,6 +45,7 @@ plugins:
   - jemoji
   - jekyll-figure
   - jekyll-redirect-from
+  - jekyll-dotenv
 
 color_scheme: sc
 languages: ["en","fr"]

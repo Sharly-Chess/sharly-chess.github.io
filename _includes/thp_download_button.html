@@ -1,17 +1,22 @@
 {% assign platform = include.platform %}
 {% assign lang = site.active_lang | default: site.default_lang %}
 {% assign thp_download = site.data.thp_download %}
-{% assign file_name = (
-  'sharly-chess-{{ site.latest_version }}-mac.dmg'
-  if platform == 'macos' else
-  'Sharly Chess Installer {{ site.latest_version }}.exe'
-) %}
+  {% if platform == 'macos' %}
+    {%- capture file_name -%}sharly-chess-{{ site.latest_version }}-mac.dmg{% endcapture %}
+  {% else %}
+    {%- capture file_name -%}Sharly Chess Installer {{ site.latest_version }}.exe{% endcapture %}
+  {% endif %}
+
+{% assign env_url = site.env.THP_DOWNLOAD_URL %}
 <div class="thp-download-container">
   <a
     id="thp-download-{{ platform }}-button"
     class="btn"
-    href="{{ site.github_url }}/releases/download/{{ site.latest_version }}/{{ file_name }}"
-    target="_blank"
+    {% if env_url %}
+      href="{{ env_url }}"
+    {% else %}
+      href="{{ site.github_url }}/releases/download/{{ site.latest_version }}/{{ file_name }}"
+    {% endif %}
     data-micromodal-trigger="thank-you-modal-{{ platform }}"
   >
     {{ thp_download.button_text[platform][lang] }}
