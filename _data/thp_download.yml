@@ -17,8 +17,8 @@ instructions:
     fr: Ouvrez le fichier DMG, puis copiez l'application vers le dossier <i>Applications</i> et lancez-la depuis ce dossier.
 support_us:
   message:
-    en: Sharly Chess is a free application. Its maintenance, support and development rely on your support. 
-    fr: Sharly Chess est un logiciel gratuit. La maintenance, le support et le développement dépendent de votre soutien.
+    en: Sharly Chess is a free application. To help its maintenance, support and development, please consider donating to our association.
+    fr: Sharly Chess est un logiciel gratuit. Pour aider à la maintenance, au support et au développement, merci d'envisager de faire un don à notre association.
   button_text:
     en: Support us
     fr: Nous soutenir
