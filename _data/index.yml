@@ -30,11 +30,11 @@ services:
             fr: https://events.sharly-chess.com/fr/features
     -
       title:
-        en: Arbitration application
-        fr: Logiciel d'arbitrage
+        en: Free and open arbitration application
+        fr: Logiciel d'arbitrage gratuit et libre
       subtitle:
-        en: Manage tournaments from A to Z using our free open-source application. Available for Windows, macOS and Linux.
-        fr: Gérez vos tournois de A à Z avec notre logiciel d'arbitrage gratuit. Disponible pour Windows, macOS et Linux.
+        en: Manage tournaments from A to Z using our free application.<br/>Available for Windows, macOS and Linux.
+        fr: Gérez vos tournois de A à Z avec notre logiciel gratuit.<br/>Disponible pour Windows, macOS et Linux.
       image:
         basename: services-thp
         url:
