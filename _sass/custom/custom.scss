@@ -358,10 +358,6 @@ body.index {
     }
   }
 
-  .thp-download-container {
-    text-align: center;
-  }
-
   .separator {
     width: 60vw;
     height: 1px;
@@ -433,6 +429,10 @@ body.index {
     padding: 2rem;
     margin-top: 0rem;
   }
+}
+
+.thp-download-container {
+  text-align: center;
 }
 
 #install-buttons-container {
