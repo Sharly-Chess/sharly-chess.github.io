@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 4.2.6 - July 22, 2026
+- Fixed tournament creation when FFE plugin is disabled
+- Allow rating based tie-breaks on Round-Robin tournaments
+
 ## Version 4.2.5 - July 13, 2026
 - Fix previous version recovery freeze
 - Norm reports for WGM title holders now include the IM norm
