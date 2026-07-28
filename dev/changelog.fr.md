@@ -9,6 +9,24 @@ separator: true
 
 # Changelog
 
+## Version 4.2.6 - 22 juillet 2026
+- Correction de la création des tournois lorsque le plug-in _FFE_ est désactivé
+- Autorisation des départages basés sur le classement pour les tournois toutes-rondes
+
+## Version 4.2.5 - 13 juillet 2026
+- Correction de la récupération des versions précédentes
+- Les rapports de norme des détentrices du titre GMF incluent maintenant la norme MI
+
+## Version 4.2.4 - 1er juillet 2026
+- Correction des doubles soumissions de formulaires avec la touche `Entrée`
+- Suppression des espaces à la fin des noms des clubs
+- Correction de l'absence du bouton `Forfait définitif` sur la modale d'historique des joueur·euses
+
+## Version 4.2.3 - 27 juin 2026
+- Correction de la répartition des joueur·euses par critères
+- Échappement des caractères spéciaux dans les textes des chronomètres
+- Correction de l'affichage des joueur·euses sur l'affichage des appariements par ordre alphabétique avant appariement
+
 ## Version 4.2.2 - 18 juin 2026
 - Correction de l'export des tables fixes pour les tournois non commencés
 

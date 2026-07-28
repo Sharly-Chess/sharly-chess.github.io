@@ -9,6 +9,24 @@ separator: true
 
 # Changelog
 
+## Version 4.2.6 - July 22, 2026
+- Fixed tournament creation when FFE plugin is disabled
+- Allow rating based tie-breaks on Round-Robin tournaments
+
+## Version 4.2.5 - July 13, 2026
+- Fix previous version recovery freeze
+- Norm reports for WGM title holders now include the IM norm
+
+## Version 4.2.4 - July 1, 2026
+- Fixed double form submission using the `Enter` key
+- Remove trailing spaces from club names
+- Fixed `Withdraw from tournament` button absent from the players record modal
+
+## Version 4.2.3 - June 27, 2026
+- Fixed player distribution by criteria
+- Escape special characters in timer texts
+- Fixed players' display on players screens before pairing
+
 ## Version 4.2.2 - June 18, 2026
 - Fixed export of fixed tables in Papi on not started tournaments
 
