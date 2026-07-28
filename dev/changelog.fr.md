@@ -37,8 +37,9 @@ separator: true
   - Prise en compte correcte du nombre de colonnes configuré dans les écrans de pointage
   - Affichage de lignes verticales entre les colonnes
 - Nouveau plugin **Chess 960** pour afficher les positions de départ
-- Les rapports de normes générés avant la fin du tournoi supposent désormais que les joueurs disputeront les rondes restantes pour l'application des règles 1.5.6a et 1.4.3d
-- Le calcul des normes de titre prend désormais en compte les titres féminins : les adversaires détenant un titre de GMF ou MIF sont correctement comptabilisées pour les exigences des règles 1.4.5 et 1.4.3d, même lorsqu'elles détiennent également un titre mixte
+- Amélioration de rapports de normes
+  - Les rapports de normes générés avant la fin du tournoi supposent désormais que les joueurs disputeront les rondes restantes pour l'application des règles 1.5.6a et 1.4.3d
+  - Le calcul des normes de titre prend désormais en compte les titres féminins : les adversaires détenant un titre de GMF ou MIF sont correctement comptabilisées pour les exigences des règles 1.4.5 et 1.4.3d, même lorsqu'elles détiennent également un titre mixte
 - Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
 - Téléversement personnalisé des documents HTML
 

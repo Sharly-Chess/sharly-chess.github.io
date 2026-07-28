@@ -37,8 +37,9 @@ separator: true
   - Correct use by check-in screens of the configure column count
   - Display vertical lines between columns
 - New **Chess 960** plugin to display start positions
-- Norm reports generated before the end of the tournament now assume that players will play the remaining rounds for the purposes of displaying 1.5.6a and 1.4.3d
-- Title norm calculations now take women titles into account: opponents holding a WGM or WIM title are correctly counted towards the 1.4.5 and 1.4.3d requirements, even when they also hold an open title
+- Improved norm reports
+  - Norm reports generated before the end of the tournament now assume that players will play the remaining rounds for the purposes of displaying 1.5.6a and 1.4.3d
+  - Title norm calculations now take women titles into account: opponents holding a WGM or WIM title are correctly counted towards the 1.4.5 and 1.4.3d requirements, even when they also hold an open title
 - Added an option to the pairings document to include a federation column
 - Custom upload of HTML documents
 
