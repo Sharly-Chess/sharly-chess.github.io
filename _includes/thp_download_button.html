@@ -4,7 +4,7 @@
   {% if platform == 'macos' %}
     {%- capture file_name -%}sharly-chess-{{ site.latest_version }}-mac.dmg{% endcapture %}
   {% else %}
-    {%- capture file_name -%}Sharly Chess Installer {{ site.latest_version }}.exe{% endcapture %}
+    {%- capture file_name -%}sharly-chess-installer-{{ site.latest_version }}.exe{% endcapture %}
   {% endif %}
 
 {% assign env_url = site.env.THP_DOWNLOAD_URL %}
