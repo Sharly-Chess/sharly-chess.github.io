@@ -16,3 +16,14 @@ Built with practical tournament needs for arbiters in mind, it also includes fun
 Unlike many other solutions, **no internet connection is required during tournaments**
 (you don't have to worry about network outages or the availability of an online server or hosting provider).
 
+## Installation
+
+<div id="install-buttons-container">
+    {% include thp_download_button.html platform='windows' %}
+    {% include thp_download_button.html platform='macos' %}
+    <div>
+        <a class="btn" href="/installation-linux/">
+            Installation guide (Linux)
+        </a>
+    </div>
+</div>

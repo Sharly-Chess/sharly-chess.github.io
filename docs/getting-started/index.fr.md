@@ -17,3 +17,15 @@ Conçu en pensant aux besoins pratiques des arbitres en tournoi, il inclut égal
 **_Sharly Chess_ fonctionne en autonomie complète** sur l’ordinateur de l’arbitre :
 contrairement à de nombreuses autres solutions, **aucune connexion à internet n'est nécessaire pendant les tournois**
 (vous ne craignez ni les pannes de réseau ni les indisponibilités d'un serveur en ligne ou d'un hébergeur).
+
+## Installation
+
+<div id="install-buttons-container">
+    {% include thp_download_button.html platform='windows' %}
+    {% include thp_download_button.html platform='macos' %}
+    <div>
+        <a class="btn" href="/installation-linux/">
+            Guide d'installation (Linux)
+        </a>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Installation on Linux
+title: Installation guide (Linux)
 permalink: /installation-linux/
 page_id: installation-linux
 parent: Getting Started
@@ -14,8 +14,6 @@ nav_order: 52
 > :warning: **EXPERIMENTAL FEATURE!**<br/>
 > Linux support is still experimental and may not work on all Linux distributions.<br/>
 > Furthermore, the _Sharly Chess_ developers are unable to provide support for this aspect and are looking for Linux experts. Get in touch!
-
-Sharly Chess is also available for [Windows]({% link docs/getting-started/installation-windows.en.md %}) and [MacOS]({% link docs/getting-started/installation-mac.en.md %}).
 
 ## Requirements
 

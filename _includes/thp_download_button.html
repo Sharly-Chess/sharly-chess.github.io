@@ -1,0 +1,46 @@
+{% assign platform = include.platform %}
+{% assign lang = site.active_lang | default: site.default_lang %}
+{% assign thp_download = site.data.thp_download %}
+  {% if platform == 'macos' %}
+    {%- capture file_name -%}sharly-chess-{{ site.latest_version }}-mac.dmg{% endcapture %}
+  {% else %}
+    {%- capture file_name -%}sharly-chess-installer-{{ site.latest_version }}.exe{% endcapture %}
+  {% endif %}
+
+{% assign env_url = site.env.THP_DOWNLOAD_URL %}
+<div class="thp-download-container">
+  <a
+    id="thp-download-{{ platform }}-button"
+    class="btn"
+    {% if env_url %}
+      href="{{ env_url }}"
+    {% else %}
+      href="{{ site.github_url }}/releases/download/{{ site.latest_version }}/{{ file_name }}"
+    {% endif %}
+    data-micromodal-trigger="thank-you-modal-{{ platform }}"
+  >
+    {{ thp_download.button_text[platform][lang] }}
+  </a>
+  <div class="modal" id="thank-you-modal-{{ platform }}" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container" role="dialog" aria-modal="true">
+        <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+        <div class="modal__header" style="justify-content: center">
+          <div class="modal__title">
+            {{ thp_download.thank_you[lang] | safe }}
+          </div>
+        </div>
+        <div class="modal__content">
+          <p style="margin-bottom: 0">
+            {{ thp_download.instructions[platform][lang] | safe }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  MicroModal.init();
+</script>

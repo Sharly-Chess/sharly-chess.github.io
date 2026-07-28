@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Installation sur Linux
+title: Guide d'installation (Linux)
 permalink: /installation-linux/
 page_id: installation-linux
 parent: Bien démarrer
@@ -14,8 +14,6 @@ nav_order: 52
 > :warning: **FONCTIONNALITÉ EXPÉRIMENTALE !**<br/>
 > La prise en charge Linux est encore expérimentale et peut ne pas fonctionner sur toutes les distributions Linux.<br/>
 > Par ailleurs, les développeurs de _Sharly Chess_ ne sont pas en mesure d'apporter du support sur cette partie et recherchent des experts Linux. Contactez-nous !
-
-_Sharly Chess_ est également disponible pour [Windows]({% link docs/getting-started/installation-windows.fr.md %}) et [MacOS]({% link docs/getting-started/installation-mac.fr.md %}).
 
 ## Prérequis
 

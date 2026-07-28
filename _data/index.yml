@@ -1,53 +1,61 @@
 description:
   en: Find tournaments and register online, or manage your events with our free arbiting software. Sharly Chess covers the full tournament lifecycle – from registration to final standings.
   fr: Trouvez vos tournois et inscrivez-vous en ligne, ou gérez vos évènements avec notre logiciel d'arbitrage gratuit. Sharly Chess couvre le cycle de vie complet des tournois – depuis l'inscription jusqu'aux résultats.
-links:
+services:
   items:
     -
       title:
-        en: Organisers,<br/>prepare your tournament
-        fr: Organisateur·ices,<br/>préparez votre tournoi
+        en: Online registration platform
+        fr: Plateforme d'inscription en ligne
       subtitle:
-        en: Manage registrations and payments, communicate with participants.
-        fr: Gérez les inscriptions et les paiements, communiquez avec les participant·es.
+        en: Allows players to register online, and organisers to manage their registrations. 
+        fr: Permet aux joueur·euses de s'inscrire en ligne, et aux organisateur·ices de de gérer leurs inscriptions.
       image:
-        basename: links-organisers
-      button_text:
-        en: Discover
-        fr: Découvrir
-      url:
-        en: https://events.sharly-chess.com/en/features
-        fr: https://events.sharly-chess.com/fr/features
+        basename: services-sc-com
+        url:
+          en: https://events.sharly-chess.com/en
+          fr: https://events.sharly-chess.com/fr
+      buttons:
+        - text:
+            en: Search for tournaments
+            fr: Rechercher des tournois
+          url:
+            en: https://events.sharly-chess.com/en
+            fr: https://events.sharly-chess.com/fr
+        - text:
+            en: Organize my own tournaments
+            fr: Organiser mes propres tournois
+          url:
+            en: https://events.sharly-chess.com/en/features
+            fr: https://events.sharly-chess.com/fr/features
     -
       title:
-        en: Players,<br/>find your tournament
-        fr: Joueur·euses,<br/>Trouvez votre tournoi
+        en: Free and open arbitration application
+        fr: Logiciel d'arbitrage gratuit et libre
       subtitle:
-        en: Register, check-in, view pairings and results online.
-        fr: Inscrivez-vous, pointez, voyez les appariements et résultats en ligne.
+        en: Manage tournaments from A to Z using our free application.<br/>Available for Windows, macOS and Linux.
+        fr: Gérez vos tournois de A à Z avec notre logiciel gratuit.<br/>Disponible pour Windows, macOS et Linux.
       image:
-        basename: links-players
-      button_text:
-        en: Search
-        fr: Chercher
-      url:
-        en: https://events.sharly-chess.com/en
-        fr: https://events.sharly-chess.com/fr
-    -
-      title:
-        en: Arbiters,<br/>manage your tournament
-        fr: Arbitres,<br/>gérez votre tournoi
-      subtitle:
-        en: Manage tournaments with ease with our free software.
-        fr: Gérez facilement votre tournoi grâce à notre logiciel gratuit.
-      image:
-        basename: links-arbiters
-      button_text:
-        en: Get started
-        fr: Bien commencer
-      url:
-        en: getting-started/
-        fr: bien-demarrer/
+        basename: services-thp
+        url:
+          en: getting-started/
+          fr: bien-demarrer/
+      buttons:
+        - thp_download_platform: windows
+        - thp_download_platform: macos
+        - id: thp-install-linux-button
+          text:
+            en: Install (Linux)
+            fr: Installer (Linux)
+          url:
+            en: installation-linux/
+            fr: installation-linux/
+        - text:
+            en: Access the documentation
+            fr: Accéder à la documentation
+          url:
+            en: getting-started/
+            fr: bien-demarrer/
 easy_life:
   title:
     en: Make your life easier with <em>Sharly-Chess.com</em>
@@ -121,8 +129,8 @@ easy_life:
         fr: Synchronisation sans effort avec notre logiciel d'arbitrage pour tout garder à jour.
 made_by:
   title:
-    en: Tournament management made for <em>arbiters</em>, by <em>arbiters</em>
-    fr: Gestion de tournoi conçue par des <em>arbitres</em>, pour les <em>arbitres</em>
+    en: An arbitration application made for <em>arbiters</em>, by <em>arbiters</em>
+    fr: Un logiciel d'arbitrage conçu par des <em>arbitres</em>, pour les <em>arbitres</em>
   text:
     en: Free, open-source, intuitive and designed for real-world tournaments.
     fr: Gratuit, open-source, intuitif et pensé pour les tournois du monde réel.
@@ -133,12 +141,6 @@ made_by:
       basename: made-by-2
     -
       basename: made-by-3
-  button_text:
-    en: Get started
-    fr: Bien commencer
-  button_url:
-    en: getting-started/
-    fr: bien-demarrer/
 arbiters:
   title:
     en: <em>Arbiters</em> love it
