@@ -29,7 +29,7 @@ separator: true
 - Added federation CUR
 - Improved prizes management
   - Added a quick way to generate prize categories for age categories and rating ranges
-  - Duplication prize categories are now added immediately after the original
+  - Duplicated prize categories are now added immediately after the original
   - Duplicate prizes when duplicating a tournament
 - Screens families have been renamed "Multi-Screens"
 - Menu support completely redesigned for a better experience
