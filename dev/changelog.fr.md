@@ -9,6 +9,39 @@ separator: true
 
 # Changelog
 
+## Version 5.0.0 - X août 2026
+
+- Prise en charge des compétitions par équipes
+- Réorganisation de la console en onglets
+- Ajout de vues sous forme de liste aux pages d'administration basées sur des cartes, avec les informations clés en colonnes et des détails extensibles
+- Vitesse de l'application considérablement améliorée
+- Gestion conforme des titres _FIDE_
+  - Distinction entre les titres _FIDE_ mixtes et féminins
+  - Affichage intelligent des titres _FIDE_ (les deux sont affichés lorsque cela est pertinent, le titre féminin est masqué lorsque le titre mixte prévaut)
+  - Remplissage automatique des titres _FIDE_ à partir de la base de données de la _FIDE_
+- Amélioration de la gestion des tables fixes
+  - Les tables normalement attribuées à des joueur·euses ne restent plus vides
+  - Possibilité d'attribuer n'importe quel numéro de table comme table fixe sans créer de doublons
+  - Gestion correcte de la modification de l'attribution d'une table fixe en cours de tournoi, tout en conservant les attributions de tables des rondes précédentes
+  - Tri par ordre d'appariement ou par numéro d'échiquier de la vue d'administration des appariements, du document d'appariements et des écrans d'appariement pour les utilisateurs
+- Fonctionnalités spécifiques à la _FFE_ pour les tables fixes (pour compatibilité avec les appariements affichés sur le site _FFE_)
+- Création d'évènement autorisée pour le niveau d'accès « Organisation »
+- Ajout de la fédération CUR
+- Amélioration de la gestion des prix
+  - Ajout d'un moyen rapide de générer des catégories de prix basées sur les catégories d'âge et les tranches de classement
+  - Ajout d'une catégorie de prix dupliquée immédiatement après l'originale
+  - Duplication des prix lors de la duplication d'un tournoi
+- Renommage des familles d'écrans en « écrans multiples »
+- Gestion des menus entièrement repensée pour une meilleure expérience
+- Amélioration des écrans existants
+  - Prise en compte correcte du nombre de colonnes configuré dans les écrans de pointage
+  - Affichage de lignes verticales entre les colonnes
+- Nouveau plugin **Chess 960** pour afficher les positions de départ
+- Les rapports de normes générés avant la fin du tournoi supposent désormais que les joueurs disputeront les rondes restantes pour l'application des règles 1.5.6a et 1.4.3d
+- Le calcul des normes de titre prend désormais en compte les titres féminins : les adversaires détenant un titre de GMF ou MIF sont correctement comptabilisées pour les exigences des règles 1.4.5 et 1.4.3d, même lorsqu'elles détiennent également un titre mixte
+- Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
+- Téléversement personnalisé des documents HTML
+
 ## Version 4.2.6 - 22 juillet 2026
 - Correction de la création des tournois lorsque le plug-in _FFE_ est désactivé
 - Autorisation des départages basés sur le classement pour les tournois toutes-rondes

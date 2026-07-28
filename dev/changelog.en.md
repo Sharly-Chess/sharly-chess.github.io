@@ -9,6 +9,39 @@ separator: true
 
 # Changelog
 
+## Version 5.0.0 - August X, 2026
+
+- Team event support
+- Desktop application reorganized into tabs
+- Added list views to card-based administration pages, with key information in columns and expandable details
+- Significantly improved speed of the application
+- _FIDE_ title compliance
+  - Separate _FIDE_ titles for the open and women titles
+  - Intelligent display of _FIDE_ titles (both shown when they matter, women title hidden when the open title supersedes it)
+  - Automatic _FIDE_ title population from the _FIDE_ database
+- Better handling of fixed tables
+  - Tables with players normally assigned to no longer left empty
+  - Assign any table number as a fixed table without getting duplicate tables
+  - Change fixed table assignment mid-tournament now correctly handled, keeping previous round table assignments
+  - Sort the admin pairings view, the pairings document and the user pairings screens by pairing order or board number
+- FFE-specific fixed tables features (for compatibility with the pairings displayed on the _FFE_ website)
+- Event creation allowed for access level "Organization"
+- Added federation CUR
+- Improved prizes management
+  - Added a quick way to generate prize categories for age categories and rating ranges
+  - Duplication prize categories are now added immediately after the original
+  - Duplicate prizes when duplicating a tournament
+- Screens families have been renamed "Multi-Screens"
+- Menu support completely redesigned for a better experience
+- Improvement of existing screens
+  - Correct use by check-in screens of the configure column count
+  - Display vertical lines between columns
+- New **Chess 960** plugin to display start positions
+- Norm reports generated before the end of the tournament now assume that players will play the remaining rounds for the purposes of displaying 1.5.6a and 1.4.3d
+- Title norm calculations now take women titles into account: opponents holding a WGM or WIM title are correctly counted towards the 1.4.5 and 1.4.3d requirements, even when they also hold an open title
+- Added an option to the pairings document to include a federation column
+- Custom upload of HTML documents
+
 ## Version 4.2.6 - July 22, 2026
 - Fixed tournament creation when FFE plugin is disabled
 - Allow rating based tie-breaks on Round-Robin tournaments
