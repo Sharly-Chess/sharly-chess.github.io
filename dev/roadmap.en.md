@@ -28,9 +28,9 @@ nav_order: 700
 | _Sharly Chess_ 3.5 | Jan 26th, 2026 | _FFE_ forms<br/>Hybrid prizes                                                                              |          ✅           |  Apr 2nd, 2026 |
 | _Sharly Chess_ 3.6 | Feb 18th, 2026 | SCE event import<br/>CSV player import                                                                     |          ✅           |  May 7th, 2026 |
 | _Sharly Chess_ 4.0 |  Apr 2nd, 2026 | _Sharly-Chess.com_ integration                                                                             |          ✅           |  Jun 3rd, 2026 |
-| _Sharly Chess_ 4.1 |  May 7th, 2026 | New check-in system                                                                                        |          ✅           |      Jul, 2026 |
+| _Sharly Chess_ 4.1 |  May 7th, 2026 | New check-in system                                                                                        |          ✅           |      Aug, 2026 |
 | _Sharly Chess_ 4.2 |  Jun 3rd, 2026 | Norm documents improvements<br/>TRF26 compliance<br/>Team ranking in individual competitions               |          ✅           |              - |
-| _Sharly Chess_ 5.0 |      Jul, 2026 | Team competitions, FIDE endorsement                                                                        |          ✅           |              - |
+| _Sharly Chess_ 5.0 |      Aug, 2026 | Team competitions<br/>_FIDE_ norm reports compliance<br/>Chess 960<br/>Windows installer                   |          ✅           |              - |
 
 ## Coming next
 

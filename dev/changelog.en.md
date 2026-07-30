@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 5.0.0 - August X, 2026
+## :point_right: Version 5.0.0 - August X, 2026
 
 - Team event support
 - Desktop application reorganized into tabs

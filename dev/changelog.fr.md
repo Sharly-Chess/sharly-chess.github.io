@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## Version 5.0.0 - X août 2026
+## :point_right: Version 5.0.0 - X août 2026
 
 - Prise en charge des compétitions par équipes
 - Réorganisation de la console en onglets
