@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.2.7 - August 1, 2026
+- Enable upgrading to version 5
+
 ## Version 4.2.6 - July 22, 2026
 - Fixed tournament creation when FFE plugin is disabled
 - Allow rating based tie-breaks on Round-Robin tournaments

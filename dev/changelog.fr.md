@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 4.2.7 - 1er août 2026
+- Activation des mises à jour en version 5
+
 ## Version 4.2.6 - 22 juillet 2026
 - Correction de la création des tournois lorsque le plug-in _FFE_ est désactivé
 - Autorisation des départages basés sur le classement pour les tournois toutes-rondes
