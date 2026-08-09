@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 4.2.8 - August 9, 2026
+- Fixed _FFE_ export of the Sonneborn-Berger tie-break on 3 points for a win tournaments
+- Prevent from adding and importing players with invalid ratings
+
 ## Version 4.2.7 - August 1, 2026
 - Enable upgrading to version 5
 

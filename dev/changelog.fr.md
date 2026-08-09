@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 4.2.8 - August 9, 2026
+- Correction de l'export _FFE_ du départage Sonneborn-Berger pour les victoires à trois points
+- Prevent from adding and importing players with invalid ratings
+
 ## Version 4.2.7 - 1er août 2026
 - Activation des mises à jour en version 5
 
