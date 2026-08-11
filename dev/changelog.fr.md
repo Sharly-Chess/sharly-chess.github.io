@@ -43,6 +43,10 @@ separator: true
 - Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
 - Téléversement personnalisé des documents HTML
 
+## Version 4.2.8 - August 11, 2026
+- Correction de l'export _FFE_ du départage Sonneborn-Berger pour les victoires à trois points
+- Prevent from adding and importing players with invalid ratings
+
 ## Version 4.2.7 - 1er août 2026
 - Activation des mises à jour en version 5
 

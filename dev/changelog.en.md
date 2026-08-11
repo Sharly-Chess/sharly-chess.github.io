@@ -43,6 +43,10 @@ separator: true
 - Added an option to the pairings document to include a federation column
 - Custom upload of HTML documents
 
+## Version 4.2.8 - August 11, 2026
+- Fixed _FFE_ export of the Sonneborn-Berger tie-break on 3 points for a win tournaments
+- Prevent from adding and importing players with invalid ratings
+
 ## Version 4.2.7 - August 1, 2026
 - Enable upgrading to version 5
 
