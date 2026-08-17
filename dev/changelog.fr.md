@@ -9,9 +9,9 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.0.0 - X août 2026
+## :point_right: Version 5.0.0b5 - X août 2026
 
-- Prise en charge des compétitions par équipes
+- Prise en charge des compétitions par équipes (appariements suisse, toutes-rondes, Scheveningen et Molter)
 - Réorganisation de la console en onglets
 - Ajout de vues sous forme de liste aux pages d'administration basées sur des cartes, avec les informations clés en colonnes et des détails extensibles
 - Vitesse de l'application considérablement améliorée
@@ -19,14 +19,24 @@ separator: true
   - Distinction entre les titres _FIDE_ mixtes et féminins
   - Affichage intelligent des titres _FIDE_ (les deux sont affichés lorsque cela est pertinent, le titre féminin est masqué lorsque le titre mixte prévaut)
   - Remplissage automatique des titres _FIDE_ à partir de la base de données de la _FIDE_
+- Meilleure gestion des appariements et des accélérations
+  - Nouveau **Système d'accélération personnalisé** (accélération définie ronde par ronde)
+  - Nouveau **Système accéléré à scores initiaux** (points virtuels alloués aux joueur·euses individuellement)
+  - Préparation des paramètres d'appariement avant d'apparier et visualisation à n'importe quel moment
+  - Avertissement lorsque les premiers groupes d'accélération comportent un nombre impair de joueur·euses à la ronde n°1
+- Meilleure gestion des classements
+  - Les points de partie constituent un critère de classement à part entière, à côté des critères de départage
+  - Des points de bonus/pénalité peuvent être donnés aux joueur·euses (Enregistrement TFR26 299)
 - Amélioration de la gestion des tables fixes
   - Les tables normalement attribuées à des joueur·euses ne restent plus vides
   - Possibilité d'attribuer n'importe quel numéro de table comme table fixe sans créer de doublons
   - Gestion correcte de la modification de l'attribution d'une table fixe en cours de tournoi, tout en conservant les attributions de tables des rondes précédentes
   - Tri par ordre d'appariement ou par numéro d'échiquier de la vue d'administration des appariements, du document d'appariements et des écrans d'appariement pour les utilisateurs
 - Fonctionnalités spécifiques à la _FFE_ pour les tables fixes (pour compatibilité avec les appariements affichés sur le site _FFE_)
+- Classement et filtrage de l'affichage des évènements grâce à des étiquettes personnalisées
 - Création d'évènement autorisée pour le niveau d'accès « Organisation »
 - Ajout de la fédération CUR
+- Désignation des membres du staff comme arbitres, en plus des rôles d'arbitre en chef et arbitre adjoint·e, et prise en compte dans les documents des tournois et dans les exports _Chess-Results_
 - Amélioration de la gestion des prix
   - Ajout d'un moyen rapide de générer des catégories de prix basées sur les catégories d'âge et les tranches de classement
   - Ajout d'une catégorie de prix dupliquée immédiatement après l'originale
