@@ -144,13 +144,40 @@ layout: table_wrappers
         {% endfor %}
       </div>
     </div>
+    <div class="separator" />
   </section>
 
-  {% assign supp = index.supporters %}
+  {% assign support = index.support %}
+  <a id="support-link" href="{{ support.donate_url[lang] }}" target="_blank" style="display: none"></a>
+  <script>
+    function openSupportPage() {
+      document.getElementById('support-link').click();
+    }
+  </script>
+  <div class="support-block support-block-desktop" onclick="openSupportPage()">
+    <div>
+      {{ support.block_prefix[lang] }}
+      <br/>Sharly Chess
+    </div>
+    <i class="bi-heart"></i>
+  </div>
+  <div class="support-block support-block-mobile" onclick="openSupportPage()">
+    <div>
+      {{ support.block_prefix[lang] }}
+      Sharly Chess
+    </div>
+    <i class="bi-heart"></i>
+  </div>
+
+  {% assign supporters = index.supporters %}
   <section class="features-supporters">
     <div class="features-section">
-      <h1>{{ supp.title[lang] }}</h1>
-      <p>{{ supp.text[lang] }}</p>
+      <h1>{{ supporters.title[lang] }}</h1>
+      <p>
+        {{ supporters.text_1[lang] }}
+        <br/>
+        {{ supporters.text_2[lang] }}
+      </p>
       <!-- Supporter grid is fetched live from the donations app (public,
            edge-cached feed) and rendered client-side. Progressive enhancement:
            if JS is off or the feed is unreachable, the section still shows the
@@ -158,12 +185,12 @@ layout: table_wrappers
       <ul
         class="supporters-grid"
         id="supporters-grid"
-        data-feed="{{ supp.feed_url }}"
+        data-feed="{{ supporters.feed_url }}"
         data-supporter="{{ strings.supporter_badge }}"
         data-elite="{{ strings.elite_badge }}"
         hidden
       ></ul>
-      <p><a class="btn" href="{{ supp.donate_url[lang] }}">{{ strings.support_us }}</a></p>
+      <p><a class="btn" onclick="openSupportPage()">{{ supporters.button_text[lang] }}</a></p>
     </div>
     <div class="separator" />
   </section>
@@ -212,31 +239,29 @@ layout: table_wrappers
   </script>
 
   {% assign posts = site.posts %}
-  {%- if posts.size > 0 -%}
-    <section class="news">
-      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-      <h1>{{ strings.latest_news }} <a href="/feed.xml" target="_blank"><i class="bi-rss-fill"></i></a></h1>
-      {% for post in posts limit:3 %}
-        <div class="news-item">
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {% if post.summary %}
-            {{ post.summary | markdownify }}
-          {% else %}
-            {{ post.excerpt }}
-          {% endif %}
-          <a class="read-more" href="{{ post.url | relative_url }}">
-            {{ strings.read_more }}
+  <section class="news">
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+    <h1>{{ strings.latest_news }} <a href="/feed.xml" target="_blank"><i class="bi-rss-fill"></i></a></h1>
+    {% for post in posts limit:3 %}
+      <div class="news-item">
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
           </a>
-        </div>
-      {% endfor %}
-      <p><a class="btn" href="{% link news.{{ lang }}.md %}">{{ strings.see_all_posts }}</a></p>
-    </section>
-{%- endif -%}
+        </h3>
+        {% if post.summary %}
+          {{ post.summary | markdownify }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+        <a class="read-more" href="{{ post.url | relative_url }}">
+          {{ strings.read_more }}
+        </a>
+      </div>
+    {% endfor %}
+    <p><a class="btn" href="{% link news.{{ lang }}.md %}">{{ strings.see_all_posts }}</a></p>
+  </section>
 
   <footer>
       {{ strings.copyright }}.

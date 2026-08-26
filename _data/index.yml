@@ -221,14 +221,24 @@ players:
       name: players-1.jpg
     -
       name: players-2.jpg
-supporters:
-  title:
-    en: Our supporters
-    fr: Nos soutiens
-  text:
-    en: The Sharly Chess arbiting application is free and open source, kept alive by donations. Thank you to everyone supporting the project.
-    fr: L'application d'arbitrage Sharly Chess est gratuite et open source, maintenue grâce aux dons. Merci à toutes les personnes qui soutiennent le projet.
+support:
+  block_prefix:
+    en: Support
+    fr: Soutenir
   donate_url:
     en: https://donations.sharly-chess.com/en
     fr: https://donations.sharly-chess.com/fr
+supporters:
+  title:
+    en: Sharly Chess needs your support!
+    fr: Sharly Chess a besoin de votre soutien !
+  text_1:
+    en: The Sharly Chess arbiting application is free and open source, kept alive by donations.
+    fr: L'application d'arbitrage Sharly Chess est gratuite et open source, maintenue grâce aux dons.
+  text_2:
+    en: Thank you to everyone supporting the project.
+    fr: Merci à toutes les personnes qui soutiennent le projet.
+  button_text:
+    en: Support Sharly Chess
+    fr: Soutenir Sharly Chess
   feed_url: https://donations.sharly-chess.com/api/supporters

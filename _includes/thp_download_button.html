@@ -1,11 +1,11 @@
 {% assign platform = include.platform %}
 {% assign lang = site.active_lang | default: site.default_lang %}
 {% assign thp_download = site.data.thp_download %}
-  {% if platform == 'macos' %}
-    {%- capture file_name -%}sharly-chess-{{ site.latest_version }}-mac.dmg{% endcapture %}
-  {% else %}
-    {%- capture file_name -%}sharly-chess-installer-{{ site.latest_version }}.exe{% endcapture %}
-  {% endif %}
+{% if platform == 'macos' %}
+  {%- capture file_name -%}sharly-chess-{{ site.latest_version }}-mac.dmg{% endcapture %}
+{% else %}
+  {%- capture file_name -%}sharly-chess-installer-{{ site.latest_version }}.exe{% endcapture %}
+{% endif %}
 
 {% assign env_url = site.env.THP_DOWNLOAD_URL %}
 <div class="thp-download-container">
@@ -31,9 +31,19 @@
           </div>
         </div>
         <div class="modal__content">
-          <p style="margin-bottom: 0">
+          <p style="margin-top: 0">
             {{ thp_download.instructions[platform][lang] | safe }}
           </p>
+          <div class="separator modal__separator"></div>
+          <p>
+            {{ thp_download.support_us.message[lang] }}
+          </p>
+          <a
+            class="btn modal-btn"
+            style="margin: 0"
+            href="{{ site.data[lang].strings.support_us_url }}" target="_blank">
+            {{ thp_download.support_us.button_text[lang] }}
+          </a>
         </div>
       </div>
     </div>
