@@ -225,23 +225,20 @@ support:
   block_prefix:
     en: Support
     fr: Soutenir
-  title:
-    en: An associative project who needs your support!
-    fr: Un projet associatif qui a besoin de votre soutien !
-  text:
-    en: Our association's goal is to provide free or affordable tools for arbiters all over the world. To help the maintenance, support and development of our free arbitration application, please consider donating to the association.
-    fr: L'objectif de notre association est de fournir des outils gratuits ou abordables aux arbitres du monde entier. Pour aider à la maintenance, au support et au développement de notre logiciel d'arbitrage gratuit, merci d'envisager de faire un don à l'association.
-  button_text:
-    en: Support us
-    fr: Nous soutenir
-supporters:
-  title:
-    en: Our supporters
-    fr: Nos soutiens
-  text:
-    en: The Sharly Chess arbiting application is free and open source, kept alive by donations. Thank you to everyone supporting the project.
-    fr: L'application d'arbitrage Sharly Chess est gratuite et open source, maintenue grâce aux dons. Merci à toutes les personnes qui soutiennent le projet.
   donate_url:
     en: https://donations.sharly-chess.com/en
     fr: https://donations.sharly-chess.com/fr
+supporters:
+  title:
+    en: Sharly Chess needs your support!
+    fr: Sharly Chess a besoin de votre soutien !
+  text_1:
+    en: The Sharly Chess arbiting application is free and open source, kept alive by donations.
+    fr: L'application d'arbitrage Sharly Chess est gratuite et open source, maintenue grâce aux dons.
+  text_2:
+    en: Thank you to everyone supporting the project.
+    fr: Merci à toutes les personnes qui soutiennent le projet.
+  button_text:
+    en: Support Sharly Chess
+    fr: Soutenir Sharly Chess
   feed_url: https://donations.sharly-chess.com/api/supporters

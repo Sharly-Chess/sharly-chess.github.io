@@ -144,25 +144,16 @@ layout: table_wrappers
         {% endfor %}
       </div>
     </div>
+    <div class="separator" />
   </section>
 
   {% assign support = index.support %}
-  <a id="support-link" href="{{ strings.support_us_url }}" target="_blank" style="display: none"></a>
+  <a id="support-link" href="{{ support.donate_url[lang] }}" target="_blank" style="display: none"></a>
   <script>
     function openSupportPage() {
       document.getElementById('support-link').click();
     }
   </script>
-  <section class="support">
-    <div class="support-section">
-      <h1>{{ support.title[lang] }}</h1>
-      <p>{{ support.text[lang] }}</p>
-      <a class="btn big" href="{{ strings.support_us_url }}">
-        {{ support.button_text[lang] }}
-      </a>
-    </div>
-  </section>
-
   <div class="support-block support-block-desktop" onclick="openSupportPage()">
     <div>
       {{ support.block_prefix[lang] }}
@@ -182,7 +173,11 @@ layout: table_wrappers
   <section class="features-supporters">
     <div class="features-section">
       <h1>{{ supporters.title[lang] }}</h1>
-      <p>{{ supporters.text[lang] }}</p>
+      <p>
+        {{ supporters.text_1[lang] }}
+        <br/>
+        {{ supporters.text_2[lang] }}
+      </p>
       <!-- Supporter grid is fetched live from the donations app (public,
            edge-cached feed) and rendered client-side. Progressive enhancement:
            if JS is off or the feed is unreachable, the section still shows the
@@ -195,7 +190,7 @@ layout: table_wrappers
         data-elite="{{ strings.elite_badge }}"
         hidden
       ></ul>
-      <p><a class="btn" href="{{ supporters.donate_url[lang] }}">{{ strings.support_us }}</a></p>
+      <p><a class="btn" onclick="openSupportPage()">{{ supporters.button_text[lang] }}</a></p>
     </div>
     <div class="separator" />
   </section>

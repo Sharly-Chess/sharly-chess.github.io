@@ -1,11 +1,11 @@
 {% assign platform = include.platform %}
 {% assign lang = site.active_lang | default: site.default_lang %}
 {% assign thp_download = site.data.thp_download %}
-  {% if platform == 'macos' %}
-    {%- capture file_name -%}sharly-chess-{{ site.latest_version }}-mac.dmg{% endcapture %}
-  {% else %}
-    {%- capture file_name -%}Sharly Chess Installer {{ site.latest_version }}.exe{% endcapture %}
-  {% endif %}
+{% if platform == 'macos' %}
+  {%- capture file_name -%}sharly-chess-{{ site.latest_version }}-mac.dmg{% endcapture %}
+{% else %}
+  {%- capture file_name -%}sharly-chess-installer-{{ site.latest_version }}.exe{% endcapture %}
+{% endif %}
 
 {% assign env_url = site.env.THP_DOWNLOAD_URL %}
 <div class="thp-download-container">
