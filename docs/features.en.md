@@ -32,6 +32,7 @@ This page presents the features of _Sharly Chess_, a complete chess competition 
 - **_FIDE_-compliant Swiss** — Dutch-system pairings via the _BbpPairings_ engine, with a built-in consistency checker.
 - **Round robin & double round robin** — all-play-all, singly or twice with reversed colours.
 - **Team pairings** — team Swiss, team round robin, team double round robin, Scheveningen (standard and double) and Molter tables. See [Team pairing systems]({% link docs/team-tournaments/pairing-systems.en.md %}) and [Molter tables]({% link docs/team-tournaments/molter-tables.en.md %}).
+- **Keizer** — flexible pairings designed for long-running club tournaments, pairing the players available each round while allowing occasional absences.
 - **Accelerated pairings** — Baku (_FIDE_ Dutch 2026), Haley, Haley Soft, Progressive, Initial-score and custom schemes. See [Accelerated pairings]({% link docs/plugins/accelerated-pairings.en.md %}).
 - **Manual control** — pair, unpair, permute and swap by hand at any time. See [Managing Pairings]({% link docs/running-an-event/managing-pairings.en.md %}).
 - **Prohibited pairings** — keep players from the same club, federation or team apart; hard rules, or soft rules that relax from the bottom of the field while protecting the top boards.

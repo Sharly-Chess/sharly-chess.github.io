@@ -9,10 +9,10 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.0.0b5 - X août 2026
+## :point_right: Version 5.0.0 - 26 août 2026
 
 - Prise en charge des compétitions par équipes (appariements suisse, toutes-rondes, Scheveningen et Molter)
-- Gestion des Grands Prix – regroupe les participants des différents tournois.
+- Gestion des Grands Prix – agrège les résultats de plusieurs tournois indépendants.
 - Réorganisation de la console en onglets
 - Ajout de vues sous forme de liste aux pages d'administration basées sur des cartes, avec les informations clés en colonnes et des détails extensibles
 - Vitesse de l'application considérablement améliorée
@@ -21,25 +21,26 @@ separator: true
   - Affichage intelligent des titres _FIDE_ (les deux sont affichés lorsque cela est pertinent, le titre féminin est masqué lorsque le titre mixte prévaut)
   - Remplissage automatique des titres _FIDE_ à partir de la base de données de la _FIDE_
 - Meilleure gestion des appariements et des accélérations
-  - Nouveau **Système d'accélération personnalisé** (accélération définie ronde par ronde)
-  - Nouveau **Système accéléré à scores initiaux** (points virtuels alloués aux joueur·euses individuellement)
+  - Système d’appariement Keizer – idéal pour les tournois internes de club
+  - Accélérations personnalisées – accélération définie ronde par ronde
+  - Système accéléré à score initial – points virtuels attribués aux joueur·euses individuellement
   - Préparation des paramètres d'appariement avant d'apparier et visualisation à n'importe quel moment
   - Avertissement lorsque les premiers groupes d'accélération comportent un nombre impair de joueur·euses à la ronde n°1
 - Meilleure gestion des classements
   - Les points de partie constituent un critère de classement à part entière, à côté des critères de départage
-  - Des points de bonus/pénalité peuvent être donnés aux joueur·euses (Enregistrement TFR26 299)
+  - Des points de bonus/pénalité peuvent être donnés aux joueur·euses (Enregistrement TRF26 299)
 - Amélioration de la gestion des tables fixes
   - Les tables normalement attribuées à des joueur·euses ne restent plus vides
   - Possibilité d'attribuer n'importe quel numéro de table comme table fixe sans créer de doublons
   - Gestion correcte de la modification de l'attribution d'une table fixe en cours de tournoi, tout en conservant les attributions de tables des rondes précédentes
   - Tri par ordre d'appariement ou par numéro d'échiquier de la vue d'administration des appariements, du document d'appariements et des écrans d'appariement pour les utilisateurs
 - Fonctionnalités spécifiques à la _FFE_ pour les tables fixes (pour compatibilité avec les appariements affichés sur le site _FFE_)
-- Classement et filtrage de l'affichage des évènements grâce à des étiquettes personnalisées
+- Création d’étiquettes personnalisées pouvant être attribuées aux évènements pour faciliter le filtrage
 - Création d'évènement autorisée pour le niveau d'accès « Organisation »
-- Ajout de la fédération CUR
+- Ajout de la fédération Curaçao (CUR)
 - Désignation des membres du staff comme arbitres, en plus des rôles d'arbitre en chef et arbitre adjoint·e, et prise en compte dans les documents des tournois et dans les exports _Chess-Results_
 - Amélioration de la gestion des prix
-  - Ajout d'un moyen rapide de générer des catégories de prix basées sur les catégories d'âge et les tranches de classement
+  - Ajout d’un moyen rapide de générer des catégories de prix par catégorie d’âge et tranche Elo
   - Ajout d'une catégorie de prix dupliquée immédiatement après l'originale
   - Duplication des prix lors de la duplication d'un tournoi
 - Renommage des familles d'écrans en « écrans multiples »
@@ -47,8 +48,8 @@ separator: true
 - Amélioration des écrans existants
   - Prise en compte correcte du nombre de colonnes configuré dans les écrans de pointage
   - Affichage de lignes verticales entre les colonnes
-- Nouveau plugin **Chess 960** pour afficher les positions de départ
-- Amélioration de rapports de normes
+- Nouveau plugin Chess960 pour afficher les positions de départ
+- Amélioration des rapports de normes
   - Les rapports de normes générés avant la fin du tournoi supposent désormais que les joueurs disputeront les rondes restantes pour l'application des règles 1.5.6a et 1.4.3d
   - Le calcul des normes de titre prend désormais en compte les titres féminins : les adversaires détenant un titre de GMF ou MIF sont correctement comptabilisées pour les exigences des règles 1.4.5 et 1.4.3d, même lorsqu'elles détiennent également un titre mixte
 - Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
@@ -56,7 +57,7 @@ separator: true
 
 ## Version 4.2.8 - August 11, 2026
 - Correction de l'export _FFE_ du départage Sonneborn-Berger pour les victoires à trois points
-- Prevent from adding and importing players with invalid ratings
+- Empêche l’ajout et l’import de joueur·euses avec des classements invalides
 
 ## Version 4.2.7 - 1er août 2026
 - Activation des mises à jour en version 5
