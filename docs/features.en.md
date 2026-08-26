@@ -8,17 +8,17 @@ nav_order: 150
 
 # Features
 
-_Sharly Chess_ is a complete tournament management suite. This page gives an overview of what it can do. Where a feature has its own guide, you'll find a link to it.
+This page presents the features of _Sharly Chess_, a complete chess competitions management suite.
 
 ## Events & tournaments
 
 - **Multiple tournaments per event** — group tournaments however you like (for example by rating range) within a single event. See [Creating an Event]({% link docs/running-an-event/creating-an-event.en.md %}).
 - **Individual or team events** — each event is one or the other, chosen at creation.
 - **Player distribution** — bulk-split your player pool across the tournaments in an event.
-- **Event tags** — colour-coded labels to organise your events, with locale-aware presets.
+- **Event categorization** — color-coded tags to organize your events; pre-configured and customizable.
 - **Public & organiser details** — location, organiser name, email, director, homepage, plus public-display colours and timer settings.
 - **Tournament formats** — Swiss, Round-Robin, Team Swiss, Team Round-Robin, plus fixed-table (Molter) and Scheveningen variations. See [Managing Tournaments]({% link docs/running-an-event/managing-tournaments.en.md %}).
-- **Rating cadence & source** — Standard / Rapid / Blitz per tournament; FIDE / National / Estimated rating source, with overrides.
+- **Rating cadence & source** — Standard / Rapid / Blitz per tournament; _FIDE_ / National / Estimated rating source, with overrides.
 - **Round scheduling** — per-round dates and times.
 - **Manual point adjustments** — per-player and per-team bonuses or penalties, each with a reason, folded into standings, tie-breaks and the TRF export.
 - **Byes** — zero / half / full-point byes, pairing-allocated byes, a maximum-byes cap, and a "no byes in the last N rounds" rule.
@@ -29,17 +29,17 @@ _Sharly Chess_ is a complete tournament management suite. This page gives an ove
 
 ## Pairings
 
-- **FIDE-compliant Swiss** — Dutch-system pairings via the _BbpPairings_ engine, with a built-in consistency checker.
+- **_FIDE_-compliant Swiss** — Dutch-system pairings via the _BbpPairings_ engine, with a built-in consistency checker.
 - **Round Robin & Double Round Robin** — all-play-all, singly or twice with reversed colours.
 - **Team pairings** — Team Swiss, Team Round-Robin, Team Double Berger, Scheveningen (standard and double) and Molter tables. See [Team pairing systems]({% link docs/team-tournaments/pairing-systems.en.md %}) and [Molter tables]({% link docs/team-tournaments/molter-tables.en.md %}).
-- **Accelerated pairings** — Baku (FIDE Dutch 2026), Haley, Haley Soft, Progressive, Initial-score and custom schemes. See [Accelerated pairings]({% link docs/plugins/accelerated-pairings.en.md %}).
+- **Accelerated pairings** — Baku (_FIDE_ Dutch 2026), Haley, Haley Soft, Progressive, Initial-score and custom schemes. See [Accelerated pairings]({% link docs/plugins/accelerated-pairings.en.md %}).
 - **Manual control** — pair, unpair, permute and swap by hand at any time. See [Managing Pairings]({% link docs/running-an-event/managing-pairings.en.md %}).
 - **Prohibited pairings** — keep players from the same club, federation or team apart; hard rules, or soft rules that relax from the bottom of the field while protecting the top boards.
-- **Safety mode** — actions are classified as safe, unsafe or FIDE-incompatible and gated according to each round's status, so you can't accidentally break a paired round.
+- **Safety mode** — actions are classified as safe, unsafe or _FIDE_-incompatible and gated according to each round's status, so you can't accidentally break a paired round.
 
 ## Tie-breaks
 
-Every FIDE tie-break is supported, for both individual and team tournaments — Buchholz and its variants, Sonneborn-Berger, Koya, direct encounter, performance ratings, and many more. Cutters (No Cut, Cut-1, Cut-2, Median-1, Median-2) and predefined recommended sets (SC and FIDE) are available, and you can build your own sets.
+Every _FIDE_ tie-break is supported, for both individual and team tournaments — Buchholz and its variants, Sonneborn-Berger, Koya, direct encounter, performance ratings, and many more. Cutters (No Cut, Cut-1, Cut-2, Median-1, Median-2) and predefined recommended sets (_Sharly Chess_ and _FIDE_) are available, and you can build your own sets.
 
 See [Team scoring & tie-breaks]({% link docs/team-tournaments/scoring-tie-breaks.en.md %}) for the team specifics.
 
@@ -59,17 +59,17 @@ A comprehensive prize-management module:
 
 See [Prize List]({% link docs/running-an-event/prize-list.en.md %}).
 
-## FIDE title norms
+## _FIDE_ title norms
 
-Automatic detection and calculation of GM, IM, WGM and WIM norms following the full FIDE 1.4 ruleset — minimum games, federation diversity, title-holder shares, minimum score, rating floors and performance margins. Includes a per-round audit trail for the IT1 report, a subset searcher for permitted game drops, and a what-if forecaster showing the results still needed to chase a norm.
+Automatic detection and calculation of GM, IM, WGM and WIM norms following the full _FIDE_ 1.4 ruleset — minimum games, federation diversity, title-holder shares, minimum score, rating floors and performance margins. Includes a per-round audit trail for the IT1 report, a subset searcher for permitted game drops, and a what-if forecaster showing the results still needed to chase a norm.
 
 ## Players & teams
 
-- **Player records** — name, date of birth, gender, contact details, federation, club, FIDE ID and fixed-table number, plus amounts owed and paid.
+- **Player records** — name, date of birth, gender, contact details, federation, club, _FIDE_ ID and fixed-table number, plus amounts owed and paid.
 - **Dual title system** — open titles (GM/IM/FM/CM) and women's titles (WGM/WIM/WFM/WCM), shown together where relevant.
-- **Ratings** — per-cadence ratings with a defined resolution order, plus rating maths (first-FIDE estimate, K-factor, per-round performance and rating change).
+- **Ratings** — per-cadence ratings with a defined resolution order, plus rating maths (first-_FIDE_ estimate, K-factor, per-round performance and rating change).
 - **Player categories** — fully configurable per event.
-- **Managing players** — sortable, filterable table with FIDE search and import-with-diff. See [Managing Players]({% link docs/running-an-event/managing-players.en.md %}).
+- **Managing players** — sortable, filterable table with _FIDE_ search and import-with-diff. See [Managing Players]({% link docs/running-an-event/managing-players.en.md %}).
 - **Teams** — rosters with size caps and reordering, playing or non-playing captains, team groups, per-round lineups, stable board numbering, team byes, and configurable match-point scoring (e.g. Olympiad 2/1/0). See [Team events]({% link docs/team-tournaments/index.en.md %}) and [Running team rounds]({% link docs/team-tournaments/running-team-rounds.en.md %}).
 
 ## Screens & public display
@@ -82,6 +82,7 @@ _Sharly Chess_ includes a built-in web server offering a full set of screens for
 - **Menus** — see [Menus]({% link docs/screens/menus.en.md %}).
 - **Display controllers** — physical screens you can remotely assign to any screen or rotator. See [Display Controllers]({% link docs/screens/display-controllers.en.md %}).
 - **Timers** — public countdown timers with configurable colours and delays. See [Timers]({% link docs/screens/timers.en.md %}).
+- **Chess 960** — display start positions to the players.
 
 ## Documents & printing
 
@@ -92,15 +93,15 @@ A large library of printable documents: player and check-in lists, pairings, Rou
 ## Import, export & data sources
 
 - **Import** — full TRF26 support; direct import of events and players from our [tournament registration platform](https://events.sharly-chess.com); CSV; and federation-specific formats via plugins.
-- **Export** — TRF26 (FIDE rating report) and PGN; player exports to CSV, ODS, XLSX and vCard.
-- **Data sources** — look players up in the local FIDE database and, via plugins, federation-specific sources (for example FFE online and local, and French-schools). See [Data sources]({% link docs/player-databases/index.en.md %}).
+- **Export** — TRF26 (_FIDE_ rating report) and PGN; player exports to CSV, ODS, XLSX and vCard.
+- **Data sources** — look players up in the local _FIDE_ database and, via plugins, federation-specific sources (for example _FFE_ online and local, and French-schools). See [Data sources]({% link docs/player-databases/index.en.md %}).
 
 ## Network & access control
 
 _Sharly Chess_ can be accessed by other arbiters over the local network, with fine-grained control over who can do what.
 
 - **Access levels** — a ten-level hierarchy from administration down to spectator, scoped to the whole application, an event, or individual tournaments. See [Access levels]({% link docs/network/access-levels.en.md %}).
-- **Staff accounts** — give colleagues remote access to the event. See [Staff Accounts]({% link docs/network/staff.en.md %}).
+- **Staff accounts** — Delegate organizational and arbitration tasks. See [Staff Accounts]({% link docs/network/staff.en.md %}).
 - **Security** — password-protected accounts and session-based access. See [Security]({% link docs/network/security.en.md %}).
 
 ## Web interface
@@ -117,7 +118,7 @@ See [Accessing the User Interface]({% link docs/getting-started/accessing-ui.en.
 
 _Sharly Chess_ can be extended with plugins for national federations and specialised needs. See [Plugins]({% link docs/plugins/index.en.md %}).
 
-- **[FFE]({% link docs/plugins/france/ffe.en.md %})** (French federation) — Papi transfer, player search, results upload, licences, French leagues, tie-breaks, rule sets and arbiter titles.
+- **[_FFE_]({% link docs/plugins/france/ffe.en.md %})** (French federation) — _PAPI_ transfer, player search, results upload, licences, French leagues, tie-breaks, rule sets and arbiter titles.
 - **_Sharly-Chess.com_** — two-way sync with our online platform for check-in, players, results and event import. See [_Sharly-Chess.com_]({% link docs/events/index.en.md %}).
 - **[Chess-Results.com]({% link docs/plugins/chess-results.en.md %})** — upload your results to the international portal.
 - **[ChessEvent]({% link docs/plugins/france/chessevent.en.md %})** — download registrations from the French registration platform.
