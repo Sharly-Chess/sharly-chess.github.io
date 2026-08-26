@@ -22,7 +22,7 @@ Cette page présente les fonctionnalités de _Sharly Chess_, suite complète de 
 - **Programmation des rondes** — dates et heures par ronde.
 - **Ajustements manuels de points** — bonus ou pénalités par joueur·euse et par équipe, chacun avec un motif, pris en compte dans les classements, les départages et l'export TRF.
 - **Byes** — byes à zéro, demi ou un point, exemption, limitation du nombre de byes, et règle « pas de bye lors des N dernières rondes ».
-- **Pointage** — marquez les joueur·euses (ou les équipes) présent·es, absent·es ou parti·es ; possibilité de les laisser pointer en autonomie. Voir [Processus de pointage]({% link docs/running-an-event/check-in-processs.fr.md %}).
+- **Pointage** — marquez les joueur·euses (ou les équipes) présent·es, absent·es ou parti·es ; possibilité de les laisser pointer en autonomie. Voir [Processus de pointage]({% link docs/running-an-event/check-in-process.fr.md %}).
 - **Enregistrement des coups illégaux** — avec un plafond configurable par partie.
 - **Statistiques** — décomptes par genre, fédération, club, catégorie et type de classement, ainsi que les classements min / max / moyen.
 - **Arbitres** — arbitre principal·e, adjoint·e et liste agrégée des arbitres.
@@ -45,7 +45,7 @@ Voir [Score et départages par équipes]({% link docs/team-tournaments/scoring-t
 
 ## Championnats et Grand Prix
 
-Agrégez les classements de plusieurs tournois ou événements en un classement général, pour les championnats individuels comme par équipes. De nombreuses règles de score sont disponibles — points totaux, points pondérés, points de position (façon F1), points de classement avec bonus, points ou rang moyen, décompte des places ou des victoires, basé sur les départages, et manuel. Les joueur·euses sont mis·es en correspondance automatiquement entre les tournois sources.
+Agrégez les classements de plusieurs tournois ou événements en un classement général, pour les championnats individuels comme par équipes. De nombreuses règles de score sont disponibles — points totaux, points pondérés, points selon le classement, points de classement avec bonus, points ou rang moyen, décompte des places ou des victoires, basé sur les départages, et manuel. Les joueur·euses sont mis·es en correspondance automatiquement entre les tournois sources.
 
 Voir [Championnats]({% link docs/championship/index.fr.md %}) et [Score et départages des championnats]({% link docs/championship/scoring-tie-breaks.fr.md %}).
 
@@ -77,7 +77,6 @@ Détection et calcul automatiques des normes de GM, MI, GMF et MIF selon l'ensem
 _Sharly Chess_ intègre un serveur web offrant un ensemble complet d'écrans pour l'affichage public et la saisie des résultats.
 
 - **Types d'écran** — pointage, saisie des résultats, appariements par échiquier ou par joueur·euse, derniers résultats, classement et grille américaine, et images.
-- **Écrans simples et multiples** — voir [Écrans simples]({% link docs/screens/single-screens.fr.md %}) et [Multi-écrans]({% link docs/screens/multi-screens.fr.md %}).
 - **Rotateurs** — séquences d'écrans à défilement automatique pour les affichages sans surveillance. Voir [Rotateurs]({% link docs/screens/rotators.fr.md %}).
 - **Menus** — voir [Menus]({% link docs/screens/menus.fr.md %}).
 - **Contrôleurs d'affichage** — écrans physiques que vous pouvez affecter à distance à n'importe quel écran ou rotateur. Voir [Contrôleurs d'affichage]({% link docs/screens/display-controllers.fr.md %}).
@@ -130,5 +129,5 @@ _Sharly Chess_ peut être étendu par des plugins pour les fédérations nationa
 
 - **Multiplateforme** — fonctionne sous Windows, macOS et Linux, avec une interface identique.
 - **Fonctionne hors-ligne** — aucune connexion internet n'est nécessaire pour gérer un tournoi.
-- **Mise à jour automatique** — les nouvelles versions sont détectées et installées automatiquement.
+- **Mise à jour automatique** — les nouvelles versions sont détectées automatiquement et peuvent être installées directement depuis Sharly Chess.
 - **Multilingue** — anglais et français inclus, avec formats de date ISO, EU et US.
