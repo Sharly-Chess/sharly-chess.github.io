@@ -178,6 +178,71 @@ layout: table_wrappers
     <i class="bi-heart"></i>
   </div>
 
+  {% assign supporters = index.supporters %}
+  <section class="features-supporters">
+    <div class="features-section">
+      <h1>{{ supporters.title[lang] }}</h1>
+      <p>{{ supporters.text[lang] }}</p>
+      <!-- Supporter grid is fetched live from the donations app (public,
+           edge-cached feed) and rendered client-side. Progressive enhancement:
+           if JS is off or the feed is unreachable, the section still shows the
+           heading, text and the Support-us button. -->
+      <ul
+        class="supporters-grid"
+        id="supporters-grid"
+        data-feed="{{ supporters.feed_url }}"
+        data-supporter="{{ strings.supporter_badge }}"
+        data-elite="{{ strings.elite_badge }}"
+        hidden
+      ></ul>
+      <p><a class="btn" href="{{ supporters.donate_url[lang] }}">{{ strings.support_us }}</a></p>
+    </div>
+    <div class="separator" />
+  </section>
+
+  <script>
+    (function () {
+      const grid = document.getElementById('supporters-grid');
+      if (!grid) return;
+      const esc = s =>
+        String(s).replace(/[&<>"']/g, c =>
+          ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
+        );
+      fetch(grid.dataset.feed)
+        .then(r => (r.ok ? r.json() : Promise.reject()))
+        .then(({ supporters }) => {
+          if (!supporters || !supporters.length) return;
+          grid.innerHTML = supporters
+            .map(s => {
+              const badge = s.elite ? grid.dataset.elite : grid.dataset.supporter;
+              const initials = (s.name || '?')
+                .trim()
+                .split(/\s+/)
+                .slice(0, 2)
+                .map(w => w.charAt(0))
+                .join('')
+                .toUpperCase();
+              const avatar = s.imageUrl
+                ? '<img src="' + esc(s.imageUrl) + '" alt="" loading="lazy">'
+                : '<span class="supporter-initial">' + esc(initials) + '</span>';
+              const inner =
+                '<span class="supporter-avatar">' + avatar + '</span>' +
+                '<span class="supporter-name">' + esc(s.name) + '</span>' +
+                '<span class="supporter-badge">' + esc(badge) + '</span>';
+              const body = s.link
+                ? '<a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + inner + '</a>'
+                : inner;
+              return '<li class="supporter' + (s.elite ? ' elite' : '') + '">' + body + '</li>';
+            })
+            .join('');
+          grid.hidden = false;
+        })
+        .catch(() => {
+          /* feed unavailable — leave the heading + button, hide the grid */
+        });
+    })();
+  </script>
+
   {% assign posts = site.posts %}
   <section class="news">
     {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}

@@ -9,9 +9,10 @@ separator: true
 
 # Changelog
 
-## Version 5.0.0 - August X, 2026
+## :point_right: Version 5.0.0b5 - August X, 2026
 
-- Team event support
+- Team event support (Swiss, Round-Robin, Scheveningen and Molter pairings)
+- Championship support - aggregates competitors across the different tournaments
 - Desktop application reorganized into tabs
 - Added list views to card-based administration pages, with key information in columns and expandable details
 - Significantly improved speed of the application
@@ -19,14 +20,24 @@ separator: true
   - Separate _FIDE_ titles for the open and women titles
   - Intelligent display of _FIDE_ titles (both shown when they matter, women title hidden when the open title supersedes it)
   - Automatic _FIDE_ title population from the _FIDE_ database
+- Better handling of pairings and accelerations
+  - New **Custom accelerated system** (acceleration defined round by round)
+  - New **Initial score accelerated system** (virtual points individually granted to players)
+  - Pairing settings can be prepared prior to pairing and viewed at any time
+  - Warn when top acceleration groups have an odd number of players at round #1
+- Better handling of ranking
+  - Game points are now a ranking criterion in their own right, listed alongside the tie-breaks
+  - Bonus / penalty points can be given to players (TRF26 299 record)
 - Better handling of fixed tables
   - Tables with players normally assigned to no longer left empty
   - Assign any table number as a fixed table without getting duplicate tables
   - Change fixed table assignment mid-tournament now correctly handled, keeping previous round table assignments
   - Sort the admin pairings view, the pairings document and the user pairings screens by pairing order or board number
 - FFE-specific fixed tables features (for compatibility with the pairings displayed on the _FFE_ website)
+- Custom tags can be created and added to events for easier filtering
 - Event creation allowed for access level "Organization"
 - Added federation CUR
+- Assign Staff members as arbiters, separately from chief and deputy arbiter roles, included in tournament documents and _Chess-Results_ exports
 - Improved prizes management
   - Added a quick way to generate prize categories for age categories and rating ranges
   - Duplicated prize categories are now added immediately after the original
@@ -42,6 +53,13 @@ separator: true
   - Title norm calculations now take women titles into account: opponents holding a WGM or WIM title are correctly counted towards the 1.4.5 and 1.4.3d requirements, even when they also hold an open title
 - Added an option to the pairings document to include a federation column
 - Custom upload of HTML documents
+
+## Version 4.2.8 - August 11, 2026
+- Fixed _FFE_ export of the Sonneborn-Berger tie-break on 3 points for a win tournaments
+- Prevent from adding and importing players with invalid ratings
+
+## Version 4.2.7 - August 1, 2026
+- Enable upgrading to version 5
 
 ## Version 4.2.6 - July 22, 2026
 - Fixed tournament creation when FFE plugin is disabled
@@ -241,7 +259,7 @@ separator: true
 - Rework of the Players tab
   - All the columns are now sortable
   - Search by name and club is globalized
-  - Dynamic columns handling to match the usage 
+  - Dynamic columns handling to match the usage
   - Downloading now takes effect on the search results
 - Improved plugin _FFE_
   - Added FFE forms to the documents

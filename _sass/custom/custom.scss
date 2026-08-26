@@ -654,3 +654,78 @@ img.no-border, img.emoji {
 .modal .modal__overlay {
   will-change: transform;
 }
+
+// Supporter wall (data from _data/supporters.json, refreshed by the
+// supporters GitHub Action).
+.features-supporters {
+  .supporters-grid {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .supporter {
+    width: 120px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .supporter-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 0.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #eee;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  // Fallback initial shown when a supporter has no avatar image.
+  .supporter-initial {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #555;
+    text-transform: uppercase;
+  }
+
+  .supporter-name {
+    display: block;
+    font-weight: 600;
+  }
+
+  .supporter-badge {
+    display: inline-block;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
+
+  .supporter.elite {
+    .supporter-avatar {
+      box-shadow: 0 0 0 3px $link-color;
+    }
+
+    .supporter-badge {
+      color: $link-color;
+      opacity: 1;
+      font-weight: 600;
+    }
+  }
+}

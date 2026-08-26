@@ -234,3 +234,14 @@ support:
   button_text:
     en: Support us
     fr: Nous soutenir
+supporters:
+  title:
+    en: Our supporters
+    fr: Nos soutiens
+  text:
+    en: The Sharly Chess arbiting application is free and open source, kept alive by donations. Thank you to everyone supporting the project.
+    fr: L'application d'arbitrage Sharly Chess est gratuite et open source, maintenue grâce aux dons. Merci à toutes les personnes qui soutiennent le projet.
+  donate_url:
+    en: https://donations.sharly-chess.com/en
+    fr: https://donations.sharly-chess.com/fr
+  feed_url: https://donations.sharly-chess.com/api/supporters

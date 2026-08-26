@@ -28,9 +28,9 @@ nav_order: 700
 | _Sharly Chess_ 3.5 | 26 jan 2026 | Formulaires _FFE_<br/>Prix hybrides                                                                                               |         ✅         |     2 avr 2026 |
 | _Sharly Chess_ 3.6 | 18 fév 2026 | Import des évènements au format SCE<br/>Import des joueur·euses au format CSV                                                     |         ✅         |     7 mai 2026 |
 | _Sharly Chess_ 4.0 |  2 avr 2026 | Intégration avec _Sharly-Chess.com_                                                                                               |         ✅         |     3 jun 2026 |
-| _Sharly Chess_ 4.1 |  7 mai 2026 | Nouveau système de pointage                                                                                                       |         ✅         |       jul 2026 |
+| _Sharly Chess_ 4.1 |  7 mai 2026 | Nouveau système de pointage                                                                                                       |         ✅         |       aou 2026 |
 | _Sharly Chess_ 4.1 |  3 jun 2026 | Amélioration des documents de norme<br/>Compatibilité TRF26<br/>Classements par équipe dans les compétitions individuelles        |         ✅         |              - |
-| _Sharly Chess_ 5.0 |    jul 2026 | Compétitions par équipe, Homologation FIDE                                                                                        |         ✅         |              - |
+| _Sharly Chess_ 5.0 |    aou 2026 | Compétitions par équipe<br/>Conformité normes _FIDE_<br/>Chess 960<br/>Windows installeur                                         |         ✅         |              - |
 
 # Bientôt disponible
 
