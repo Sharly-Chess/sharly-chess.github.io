@@ -33,7 +33,7 @@ Cette page présente les fonctionnalités de _Sharly Chess_, suite complète de 
 - **Toutes-Rondes et double Toutes-Rondes** — matchs simples ou aller-retour avec couleurs inversées.
 - **Appariements par équipes** — Suisse par équipes, Toutes-Rondes par équipes, double Berger par équipes, Scheveningen (standard et double) et tables Molter. Voir [Systèmes d'appariement par équipes]({% link docs/team-tournaments/pairing-systems.fr.md %}) et [Tables Molter]({% link docs/team-tournaments/molter-tables.fr.md %}).
 - **Keizer** — appariements flexibles conçus pour les tournois internes de club de longue durée, en appariant à chaque ronde les joueur·euses disponibles tout en permettant des absences occasionnelles.
-- **Appariements accélérés** — Baku (Dutch _FIDE_ 2026), Haley, Haley Soft, progressif, score initial et schémas personnalisés. Voir [Appariements accélérés]({% link docs/plugins/accelerated-pairings.fr.md %}).
+- **Appariements accélérés** — Baku (Dutch _FIDE_ 2026), Haley, Haley Soft, progressif, score initial et schémas personnalisés.
 - **Contrôle manuel** — appariez, désappariez, permutez et échangez à la main à tout moment. Voir [Gérer les appariements]({% link docs/running-an-event/managing-pairings.fr.md %}).
 - **Appariements interdits** — empêchez la rencontre de joueur·euses du même club, de la même fédération ou de la même équipe ; règles strictes, ou règles souples qui se relâchent depuis le bas du classement tout en protégeant les premiers échiquiers.
 - **Mode sécurité** — les actions sont classées sûres, non sûres ou incompatibles _FIDE_, et conditionnées selon l'état de chaque ronde, pour éviter d'endommager par accident une ronde déjà appariée.
