@@ -12,6 +12,7 @@ separator: true
 ## :point_right: Version 5.0.0b5 - August X, 2026
 
 - Team event support (Swiss, Round-Robin, Scheveningen and Molter pairings)
+- Championship support - aggregates competitors across the different tournaments
 - Desktop application reorganized into tabs
 - Added list views to card-based administration pages, with key information in columns and expandable details
 - Significantly improved speed of the application
@@ -258,7 +259,7 @@ separator: true
 - Rework of the Players tab
   - All the columns are now sortable
   - Search by name and club is globalized
-  - Dynamic columns handling to match the usage 
+  - Dynamic columns handling to match the usage
   - Downloading now takes effect on the search results
 - Improved plugin _FFE_
   - Added FFE forms to the documents

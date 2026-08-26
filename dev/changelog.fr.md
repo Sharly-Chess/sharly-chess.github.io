@@ -12,6 +12,7 @@ separator: true
 ## :point_right: Version 5.0.0b5 - X août 2026
 
 - Prise en charge des compétitions par équipes (appariements suisse, toutes-rondes, Scheveningen et Molter)
+- Gestion des Grands Prix – regroupe les participants des différents tournois.
 - Réorganisation de la console en onglets
 - Ajout de vues sous forme de liste aux pages d'administration basées sur des cartes, avec les informations clés en colonnes et des détails extensibles
 - Vitesse de l'application considérablement améliorée
@@ -119,7 +120,7 @@ separator: true
 
 ## :point_right: Version 4.1.0 - 7 mai 2026
 - Système de pointage permanent
-- Synchronisation des pointages et des établissements scolaires français avec _Sharly-Chess.com_ 
+- Synchronisation des pointages et des établissements scolaires français avec _Sharly-Chess.com_
 - Ouverture/fermeture du pointage en ligne de _Sharly-Chess.com_ depuis la modale de pointage
 - Nouveaux départages : STD, TPN et RTNG
 - Mise à jour des départages BH, FB et des scores ajustés SB selon l'article C07.16 Handbook de la _FIDE_
