@@ -23,6 +23,7 @@ separator: true
 - Meilleure gestion des appariements et des accélérations
   - Nouveau **Système d'accélération personnalisé** (accélération définie ronde par ronde)
   - Nouveau **Système accéléré à scores initiaux** (points virtuels alloués aux joueur·euses individuellement)
+  - Ajout du système d'appariement **Keizer** - parfait pour les tournois de club où les joueur·euses n'ont pas à participer à toutes les rondes
   - Préparation des paramètres d'appariement avant d'apparier et visualisation à n'importe quel moment
   - Avertissement lorsque les premiers groupes d'accélération comportent un nombre impair de joueur·euses à la ronde n°1
 - Meilleure gestion des classements

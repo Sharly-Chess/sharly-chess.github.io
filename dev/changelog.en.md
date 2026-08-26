@@ -23,7 +23,8 @@ separator: true
 - Better handling of pairings and accelerations
   - New **Custom accelerated system** (acceleration defined round by round)
   - New **Initial score accelerated system** (virtual points individually granted to players)
-  - Pairing settings can be prepared prior to pairing and viewed at any time
+  - **Keizer** pairing system added - perfect for club tournaments where players don't have to be available for each round
+  - - Pairing settings can be prepared prior to pairing and viewed at any time
   - Warn when top acceleration groups have an odd number of players at round #1
 - Better handling of ranking
   - Game points are now a ranking criterion in their own right, listed alongside the tie-breaks
