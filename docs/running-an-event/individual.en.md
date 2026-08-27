@@ -13,6 +13,9 @@ In an **individual event**, players compete and are ranked individually. The com
 is the same for any event and is covered under [Running an Event]({% link docs/running-an-event/index.en.md %}).
 The pages here cover the individual-specific work:
 
+- **[Pairing systems]({% link docs/running-an-event/pairing-systems.en.md %})** — Swiss, Round-Robin and Keizer, and which to pick.
+  - **[Accelerations]({% link docs/running-an-event/accelerations.en.md %})** — the accelerated Swiss variations.
+  - **[Keizer]({% link docs/running-an-event/keizer.en.md %})** — the ranking-value system for club events.
 - **Check-in Process** — mark players present before pairing.
 - **Managing Pairings** — generate pairings, enter results, run the rounds.
 - **Prize List** — define and award prizes.

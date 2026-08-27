@@ -15,6 +15,9 @@ ajouter les tournois et inscrire les joueur·euses — est la même pour tout é
 et est couverte sous [Gérer un événement]({% link docs/running-an-event/index.fr.md %}).
 Les pages ci‑dessous couvrent le travail propre aux événements individuels :
 
+- **[Systèmes d'appariement]({% link docs/running-an-event/pairing-systems.fr.md %})** — Suisse, Toutes‑rondes et Keizer, et lequel choisir.
+  - **[Accélérations]({% link docs/running-an-event/accelerations.fr.md %})** — les variations suisses accélérées.
+  - **[Keizer]({% link docs/running-an-event/keizer.fr.md %})** — le système à valeur de classement pour les événements de club.
 - **Le processus de pointage** — marquer les présent·es avant l'appariement.
 - **Gérer les appariements** — générer les appariements, saisir les résultats, dérouler les rondes.
 - **Liste des prix** — définir et attribuer les prix.
