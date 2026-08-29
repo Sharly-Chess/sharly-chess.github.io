@@ -9,6 +9,16 @@ separator: true
 
 # Changelog
 
+## Version 5.0.2 - 28 août 2026
+- Correction de l’accès aux écrans rotatifs et aux pilotes d’écrans depuis le réseau (5.0.2)
+- Les résultats de la recherche de joueurs se ferment désormais lorsque l’on clique en dehors (5.0.2)
+- Lors de de la création de plusieurs joueurs à la suite, seuls le tournoi et l’équipe sont désormais conservés pour le joueur suivant (5.0.2)
+- Correction d’un bug concernant la prise en compte du propre score Keizer du joueur (5.0.2)
+
+## Version 5.0.1 - 27 août 2026
+- Correction d’une erreur lors de la récupération des événements depuis la version 4.2.8 (5.0.1)
+- Correction des documents de chevalets (5.0.1)
+
 ## :point_right: Version 5.0.0 - 26 août 2026
 
 - Prise en charge des compétitions par équipes (appariements suisse, toutes-rondes, Scheveningen et Molter)
