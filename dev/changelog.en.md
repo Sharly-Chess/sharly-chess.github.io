@@ -10,14 +10,19 @@ separator: true
 # Changelog
 
 ## Version 5.0.2 - August 28, 2026
-- Fixed access to rotators and display controllers from the network (5.0.2)
-- The player search results now close when clicking outside them (5.0.2)
-- When creating several players in a row, only the tournament and team are now carried over to the next player (5.0.2)
-- Fixed a bug concerning the handling of the player's own Keizer score (5.0.2)
+- Fixed access to rotators and display controllers from the network
+- The player search results now close when clicking outside them
+- When creating several players in a row, only the tournament and team are now carried over to the next player
+- Fixed a bug concerning the handling of the player's own Keizer score
 
 ## Version 5.0.1 - August 27, 2026
 - Fixed error tryin to recover events from 4.2.8
-- Fix place cards documents (5.0.1)
+- Fix place cards documents
+
+## Version 5.0.1 - August 27, 2026
+
+- Fix data recovery from previous 4.2.8 version
+- Fix place cards documents
 
 ## :point_right: Version 5.0.0 - August 26, 2026
 

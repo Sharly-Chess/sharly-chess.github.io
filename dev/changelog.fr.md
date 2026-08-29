@@ -10,14 +10,14 @@ separator: true
 # Changelog
 
 ## Version 5.0.2 - 28 août 2026
-- Correction de l’accès aux écrans rotatifs et aux pilotes d’écrans depuis le réseau (5.0.2)
-- Les résultats de la recherche de joueurs se ferment désormais lorsque l’on clique en dehors (5.0.2)
-- Lors de de la création de plusieurs joueurs à la suite, seuls le tournoi et l’équipe sont désormais conservés pour le joueur suivant (5.0.2)
-- Correction d’un bug concernant la prise en compte du propre score Keizer du joueur (5.0.2)
+- Correction de l’accès aux écrans rotatifs et aux pilotes d’écrans depuis le réseau
+- Les résultats de la recherche de joueur·euses se ferment désormais lorsque l’on clique en dehors
+- Lors de la création de plusieurs joueur·euses à la suite, seuls le tournoi et l’équipe sont désormais conservés pour le joueur suivant
+- Correction d’un bug concernant la prise en compte du propre score Keizer du·de la joueur·euse
 
 ## Version 5.0.1 - 27 août 2026
-- Correction d’une erreur lors de la récupération des événements depuis la version 4.2.8 (5.0.1)
-- Correction des documents de chevalets (5.0.1)
+- Correction d’une erreur lors de la récupération des événements depuis la version 4.2.8
+- Correction des documents de chevalets
 
 ## :point_right: Version 5.0.0 - 26 août 2026
 
