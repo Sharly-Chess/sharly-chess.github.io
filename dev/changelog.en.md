@@ -9,6 +9,19 @@ separator: true
 
 # Changelog
 
+## Version 5.0.3 - September 4, 2026
+- Fix error status not cleared after reauthentication with _Sharly-Chess.com_
+- Fix _Papi_ export to no longer warns that tie-break values will be missing on the _FFE_ website when the points criterion leads the ranking
+- A clear indication is now given in the case that an event file becomes locked by another application (anti-virus, drive synchronization, etc.)
+- Display a clearer error message when the pairing engine fails to produce pairings
+- Improved the display of fixed table numbers
+- Base clients on the server date to display the timers
+- Improved timer display
+- Network clients can now open screens, rotators, and display controllers by clicking anywhere on their card or list row
+- The edit pencil on editable table columns is now always visible instead of only appearing on hover
+- Fix: searching or importing players no longer crashes when the local _FIDE_ database has not yet been updated to the version 5 format
+- Fix: the pairing-system warning icon in the tournament list view now shows its explanation on hover
+
 ## Version 5.0.2 - August 28, 2026
 - Fixed access to rotators and display controllers from the network
 - The player search results now close when clicking outside them
@@ -16,12 +29,7 @@ separator: true
 - Fixed a bug concerning the handling of the player's own Keizer score
 
 ## Version 5.0.1 - August 27, 2026
-- Fixed error tryin to recover events from 4.2.8
-- Fix place cards documents
-
-## Version 5.0.1 - August 27, 2026
-
-- Fix data recovery from previous 4.2.8 version
+- Fixed error trying to recover events from 4.2.8
 - Fix place cards documents
 
 ## :point_right: Version 5.0.0 - August 26, 2026
@@ -1015,6 +1023,6 @@ separator: true
 
 # Version Numbering Policy (`x.y.z`)
 
-- `x`: major number (full software changes)
+- `x`: major number (major software changes)
 - `y`: minor number (configuration changes and functional updates)
 - `z`: patch number (code changes)

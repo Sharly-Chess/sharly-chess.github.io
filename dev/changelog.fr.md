@@ -9,6 +9,19 @@ separator: true
 
 # Changelog
 
+## Version 5.0.3 - 4 septembre 2026
+- Correction du statut d'erreur après ré-authentification sur _Sharly-Chess.com_
+- Correction de l'export _Papi_ pour ne plus avertir que les départages manqueront sur le site web _FFE_ lorsque les points apparaissent en premier départage
+- Une indication claire est donnée dans le cas où un fichier d'évènement est verrouillé par une autre application (antivirus, synchronisation de drive...)
+- Affichage d'un message d'erreur plus clair lorsque le moteur d'appariement échoue
+- Amélioration de l'affichage des numéros des tables fixes
+- Les clients se basent désormais sur l'heure du serveur uniquement pour l'affichage des chronomètres
+- Amélioration de l'affichage des chronomètres
+- Network clients can now open screens, rotators, and display controllers by clicking anywhere on their card or list row
+- Le crayon d'édition sur les colonnes éditables est désormais toujours visibles au lieu de n'apparaître qu'au survol
+- Suppression du crash lorsque la base de données _FIDE_ n'a pas encore été mise à jour au format de la version 5
+- L'icône d'avertissement sur le système d'appariement sur la liste des tournois montre une explication au survol
+
 ## Version 5.0.2 - 28 août 2026
 - Correction de l’accès aux écrans rotatifs et aux pilotes d’écrans depuis le réseau
 - Les résultats de la recherche de joueur·euses se ferment désormais lorsque l’on clique en dehors
@@ -1014,6 +1027,6 @@ separator: true
 
 # Politique de numérotation des versions (`x.y.z`)
 
-- `x` : numéro majeur (changements complets du logiciel)
+- `x` : numéro majeur (changements majeurs du logiciel)
 - `y` : numéro mineur (modifications de configuration et évolutions fonctionnelles)
 - `z` : numéro de correctif (modifications du code)
