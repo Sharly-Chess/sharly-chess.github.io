@@ -9,6 +9,20 @@ separator: true
 
 # Changelog
 
+## Version 5.0.4 - September 10, 2026
+- Improve the compacted sidebar on the home page
+- Remove mentions to "modals" in translations
+- The match points scored by an absent team can now be set
+- The team ranking counts the rounds a team was absent for in a new **F** column
+- Fix: Molter tournaments no longer ask for match-point values they never use
+- Fix: the lineup editor groups the rounds sharing a lineup again
+- Fix: a round taking the previous round's lineup now takes the one it played
+- A team can be set to field nobody for a round before it is paired
+- Fix: the "warn on lineup out of roster order" setting is honoured again
+- Fix: the forfeit column was missing from the ranking screens
+- Fix: a team's bye is worth the same to the tie-breaks as to its ranking row
+- Fix: a forfeited match counts as unplayed in the tie-breaks, for both teams
+
 ## Version 5.0.3 - September 4, 2026
 - Fix error status not cleared after reauthentication with _Sharly-Chess.com_
 - Fix _Papi_ export to no longer warns that tie-break values will be missing on the _FFE_ website when the points criterion leads the ranking

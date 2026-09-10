@@ -9,6 +9,20 @@ separator: true
 
 # Changelog
 
+## Version 5.0.4 - 10 septembre 2026
+- Amélioration de la barre de navigation compactée sur la page d'accueil
+- Suppression des mentions aux « modales »
+- Les points pour les équipes absentes peuvent être définis
+- Le classement par équipe compte le nombre de rondes où les équipes ont été absentes dans une nouvelle colonne **F**
+- Correction : on ne demande plus les valeurs des points de match pour les tournois Molter (non utilisés)
+- Correction : l'éditeur des compositions d'équipe groupe correctement les rondes avec la même composition
+- Correction : une ronde qui utilise la même composition que la ronde précédente s'appuie sur la composition effectivement utilisée
+- Il est désormais possible de configurer une équipe pour qu'elle n'aligne aucun joueur lors d'une ronde, avant même l'appariement
+- Correction : l'option d'avertissement en cas d'alignement non conforme à l'ordre de la liste des joueurs est de nouveau prise en compte
+- Correction : la colonne « forfait » manquait sur les écrans de classement
+- Correction : le « bye » (exemption) d'une équipe est pris en compte de la même manière pour les départages et pour le classement
+- Correction : un match perdu par forfait est considéré comme non joué dans les calculs de départage, pour les deux équipes
+
 ## Version 5.0.3 - 4 septembre 2026
 - Correction du statut d'erreur après ré-authentification sur _Sharly-Chess.com_
 - Correction de l'export _Papi_ pour ne plus avertir que les départages manqueront sur le site web _FFE_ lorsque les points apparaissent en premier départage
