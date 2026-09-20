@@ -18,11 +18,18 @@ L’interface d’appariement est divisée en deux parties :
 Des contrôles de navigation permettent de changer de tournoi ou de ronde.
 Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
 
+{: .note }
+> :information_source: L'interface s'adapte au [système d'appariement]({% link docs/running-an-event/pairing-systems.fr.md %}) : un toutes-rondes n'a pas de liste de non-apparié·es, et un [système coupe]({% link docs/running-an-event/knockout.fr.md %}) affiche à la place qui est encore en lice dans le tableau.
+
+L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les résultats peuvent être saisis — et les appariements vérifiés — depuis un smartphone dans la salle de jeu.
+
 ---
 
 ## Appariement automatique
 
 Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
+
+Dans un **toutes-rondes**, toutes les rondes sont connues d'avance : au lieu d'apparier, vous **terminez** la ronde en cours. Lorsque vous naviguez au-delà de celle-ci, _Sharly Chess_ vous demande s'il faut terminer la ronde (la suivante devient la ronde en cours) ou simplement jeter un œil à la ronde suivante, et vous prévient si des échiquiers sont encore sans résultat.
 
 ---
 
@@ -95,8 +102,7 @@ Si la saisie correspond, le tableau passe à la ligne suivante. En cas d’erreu
 Plutôt que d’entrer vous-même les résultats, vous pouvez fournir une tablette ou un ordinateur aux joueur·euses pour qu’ils·elles les saisissent directement.
 Cela réduit la charge de travail et les erreurs. Voir la section [Écrans]({% link docs/screens/index.fr.md %}) pour les détails de configuration.
 
-{: .tip }
-> :point_right: Pensez à rafraîchir votre navigateur de temps en temps pour voir les résultats saisis depuis d’autres appareils.
+Les résultats saisis sur un écran de saisie, ou sur l'écran d'appariement d'un·e autre arbitre, apparaissent immédiatement sur votre propre écran.
 
 ---
 

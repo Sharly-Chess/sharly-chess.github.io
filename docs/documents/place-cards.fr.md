@@ -17,9 +17,33 @@ _Sharly Chess_ offre la possibilité de générer des chevalets de table standar
 
 Cette page explique comment personnaliser les chevalets.
 
-## Par où commencer ?
+## L'éditeur de chevalets
 
-Pour générer un jeu de chevalets personnalisés, il faut :
+Les modèles de chevalets se gèrent depuis le bouton **Modèles** situé à côté du sélecteur de modèle, dans la section chevalets de la fenêtre [Documents]({% link docs/documents/index.fr.md %}). Les modèles sont communs à tous les évènements.
+
+La **bibliothèque de modèles** liste les **modèles intégrés**, qui ne peuvent pas être modifiés, et vos **modèles personnalisés**. Depuis cette page, vous pouvez :
+
+- créer un **nouveau modèle** (en choisissant un nom et un type : chevalets de joueur·euses, d'échiquier ou d'appariement) ;
+- **dupliquer** n'importe quel modèle — la façon habituelle de partir d'un modèle intégré ;
+- **importer** un modèle partagé par quelqu'un d'autre (un fichier `.zip`) ou **exporter** les vôtres ;
+- **supprimer** un modèle personnalisé ;
+- **ouvrir l'éditeur** sur un modèle personnalisé.
+
+L'**éditeur** affiche le chevalet à ses proportions réelles, avec des **données d'exemple** à la place des champs pour prévisualiser le résultat (et passer d'un·e joueur·euse d'exemple à un·e autre). Vous pouvez :
+
+- ajouter des éléments de **texte** et des **images** (téléversées depuis l'éditeur), puis les déplacer à la souris et ajuster leur largeur en tirant sur leurs bords ;
+- définir les **propriétés du chevalet** : nom, unité (mm ou pouces), largeur, hauteur, marge intérieure, et s'il est **recto verso** (pliable) ;
+- définir les propriétés de chaque élément dans le panneau latéral : le texte et ses **champs** (avec un préfixe et un suffixe optionnels, affichés seulement si le champ a une valeur), la police, la taille, le style (gras, italique, souligné, barré, capitales), l'alignement, les couleurs, l'opacité, les bordures, le point d'ancrage et l'ordre d'empilement ;
+- **annuler** et **rétablir**, zoomer, et afficher ou masquer les contours des éléments.
+
+Les modifications sont enregistrées dans le modèle au fur et à mesure : la prochaine génération de chevalets les utilise.
+
+{: .note }
+> :information_source: L'éditeur écrit les mêmes fichiers de modèle TOML que ceux décrits ci-dessous : un modèle construit dans l'éditeur peut donc toujours être peaufiné à la main — et inversement. Un contenu utilisant des expressions Jinja avancées est affiché tel quel dans l'éditeur et ne peut pas être modifié avec l'éditeur de blocs.
+
+## Modifier les modèles à la main
+
+Les modèles personnalisés sont stockés sur le disque, un dossier par modèle. Pour en créer un à la main, il faut :
 - créer le dossier `place_cards/` dans le dossier `custom`
 - créer un dossier dans `custom/place_cards`, par exemple `custom/place_cards/essai`
 - créer un modèle (fichier avec l'extension `.template`) dans ce dossier, par exemple `custom/place_cards/essai/echiquiers.template`.

@@ -32,7 +32,7 @@ for detail.
 
 ## Pairing systems
 
-Four systems pair teams; pick the one that fits your format:
+Five systems pair teams; pick the one that fits your format:
 
 - **Team Swiss** — pairs whole teams by standings each round; best for larger
   fields. Supports byes and keeping related teams apart.
@@ -40,6 +40,9 @@ Four systems pair teams; pick the one that fits your format:
   generated up front.
 - **Team Two-Game Match** — a head-to-head between two teams with alternating
   colours.
+- **[Team Knock-out]({% link docs/running-an-event/knockout.en.md %})** — a cup: teams are seeded into a bracket, the losing
+  team is out and the winner moves on. Single or double elimination, one-match
+  or two-match ties.
 - **[Molter]({% link docs/team-tournaments/molter-tables.en.md %})** — a fixed-table system for **small team events over
   a few rounds**, where everyone plays every round and nobody sits out. _Sharly
   Chess_ generates the tables automatically. See **[Molter tables]({% link docs/team-tournaments/molter-tables.en.md %})**.

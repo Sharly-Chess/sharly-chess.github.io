@@ -34,7 +34,7 @@ les pages filles pour le détail.
 
 ## Systèmes d'appariement
 
-Quatre systèmes apparient les équipes ; choisissez celui qui convient à votre
+Cinq systèmes apparient les équipes ; choisissez celui qui convient à votre
 format :
 
 - **Suisse par équipes** — apparie des équipes entières selon le classement à
@@ -44,6 +44,9 @@ format :
   autres ; calendrier fixe généré d'emblée.
 - **Match en deux parties** — un face‑à‑face entre deux équipes avec alternance
   des couleurs.
+- **[Coupe par équipes]({% link docs/running-an-event/knockout.fr.md %})** — une coupe : les équipes sont réparties dans
+  un tableau, l'équipe perdante est éliminée et la gagnante continue. Élimination
+  simple ou double, confrontations en un ou deux matchs.
 - **[Molter]({% link docs/team-tournaments/molter-tables.fr.md %})** — un système à tableau fixe pour les **petits
   tournois par équipes en quelques rondes**, où tout le monde joue à chaque ronde
   et personne n'est exempt. _Sharly Chess_ génère les tableaux automatiquement.

@@ -27,5 +27,7 @@ Le format privilégié pour partager des évènements entre utilisateurs de _Sha
 
 Les évènements peuvent ainsi être :
 
-- exportés depuis la carte des évènements (Actions > Exporter > Format SCE) ;
+- exportés avec le bouton **Exporter**, soit depuis la carte de l'évènement sur la page d'accueil, soit depuis la fenêtre de configuration de l'évènement (icône crayon sur la carte) ;
 - importés depuis la page d'accueil (Créer un évènement > Importer un fichier SCE).
+
+Lors de l'export, vous choisissez d'inclure ou non les joueur·euses, leurs données privées (e-mails, numéros de téléphone…) et les identifiants utilisés pour l'envoi des résultats.

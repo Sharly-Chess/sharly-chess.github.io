@@ -19,9 +19,35 @@ This page explains how to create and customize your own place card templates.
 
 ---
 
-## Getting Started
+## The place card editor
 
-To create a set of custom place cards:
+Place card templates are managed from the **Templates** button next to the template selector, in the place cards section of the [Documents]({% link docs/documents/index.en.md %}) dialog. Templates are shared by all events.
+
+The **template library** lists the **built-in templates**, which cannot be edited, and your **custom templates**. From there you can:
+
+- create a **new template** (choose a name and a type: player, board or pairing cards);
+- **duplicate** any template — the usual way to start from a built-in design;
+- **import** a template shared by someone else (a `.zip` file) or **export** yours;
+- **delete** a custom template;
+- **open the editor** on a custom template.
+
+The **editor** shows the card at its real proportions, with **example data** in place of the placeholders so you can preview the result (and switch between several sample players). You can:
+
+- add **text** items and **images** (uploaded from the editor), then drag them into place and drag their edges to set their width;
+- set the **card properties**: name, unit (mm or inches), width, height, padding, and whether the card is **two-sided** (foldable);
+- set each item's properties in the side panel: the text and its **fields** (with an optional prefix and suffix shown only when the field has a value), the font, size, style (bold, italic, underline, strikethrough, all caps), alignment, colours, opacity, borders, anchor position and stacking order;
+- **undo** and **redo**, zoom, and show or hide the item outlines.
+
+Changes are saved to the template as you go: the next generation of place cards uses them.
+
+{: .note }
+> :information_source: The editor writes the same TOML template files described below, so a template built in the editor can still be fine-tuned by hand — and vice versa. Content that uses advanced Jinja expressions is shown as-is in the editor and cannot be edited with the block editor.
+
+---
+
+## Editing templates by hand
+
+Custom templates live on disk, one folder per template:
 
 1. Create a folder named `place_cards/` inside the `custom` folder.
 2. Inside that folder, create a subfolder for your design — for example:

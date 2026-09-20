@@ -9,7 +9,7 @@ nav_order: 450
 
 # Individual pairing systems
 
-An individual tournament uses one of three pairing systems, chosen on the
+An individual tournament uses one of four pairing systems, chosen on the
 tournament form (see [Managing Tournaments]({% link docs/running-an-event/managing-tournaments.en.md %})).
 Each pairs **players** against each other.
 
@@ -17,6 +17,7 @@ Each pairs **players** against each other.
 |---|---|---|
 | **Swiss** | Larger fields, fewer rounds than players | Pairs players by standings each round (_FIDE_ Dutch system) |
 | **Round-Robin** | Small fields where everyone should meet everyone | A fixed all-play-all schedule generated up front |
+| **[Knock-out]({% link docs/running-an-event/knockout.en.md %})** | Cups and play-offs where the loser is out | A seeded bracket; the winner of each match moves on |
 | **[Keizer]({% link docs/running-an-event/keizer.en.md %})** | Long-running club events with changing attendance | A ranking-value system that pairs whoever is present each round |
 
 ---
@@ -61,6 +62,41 @@ _Variations:_
 - **Double-round Berger** — double round-robin: each pair meets twice, with the
   colours reversed.
 
+Because every round is known in advance, moving on to the next round is an
+explicit step: when you navigate past the current round, _Sharly Chess_ asks
+whether to **end the round** (making the next one the current round) or just
+take a look at the next round, and warns you if boards are still without a
+result.
+
+The tournament form offers the **_FIDE_ 6.6 participation rule** for
+round-robins: a player who withdrew or was expelled having completed **less
+than half** of their games is dropped from the final standings and their games
+are annulled — they no longer count in the opponents' scores and tie-breaks
+(the results stay in the crosstable).
+
+---
+
+## Knock-out
+
+A **cup** format: the players are seeded into a **bracket**, the loser of each
+match is out and the winner moves on, until one player is left. The number of
+rounds follows from the size of the field, drawn games are decided by
+**advancement tie-breaks** (or by the arbiter after a play-off), and the
+ranking is by the round reached.
+
+See **[Knock-out]({% link docs/running-an-event/knockout.en.md %})** for the
+bracket, the settings and how matches are decided.
+
+_Variations:_
+
+- **Single elimination** — one game per match, one loss and you are out.
+- **Single elimination — two-game matches** — each match over two games with
+  colours reversed, decided on aggregate.
+- **Double elimination** — a first loss drops the player into a lower bracket;
+  a second loss eliminates. The two bracket winners meet in a Grand Final.
+- **Double elimination — two-game matches** — double elimination with two-game
+  matches.
+
 ---
 
 ## Keizer
@@ -81,4 +117,5 @@ _Variation:_ Keizer.
 
 - **More players than rounds** → Swiss (add an [acceleration]({% link docs/running-an-event/accelerations.en.md %}) for a large field over few rounds).
 - **A small field where everyone should meet everyone** → Round-Robin.
+- **A cup or play-off where the loser is out** → [Knock-out]({% link docs/running-an-event/knockout.en.md %}).
 - **A club championship over many evenings with changing attendance** → [Keizer]({% link docs/running-an-event/keizer.en.md %}).

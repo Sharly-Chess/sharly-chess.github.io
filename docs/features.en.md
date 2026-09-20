@@ -14,10 +14,10 @@ This page presents the features of _Sharly Chess_, a complete chess competition 
 
 - **Multiple tournaments per event** — group tournaments however you like (for example by rating range) within a single event. See [Creating an Event]({% link docs/running-an-event/creating-an-event.en.md %}).
 - **Individual or team events** — each event is one or the other, chosen at creation.
-- **Player distribution** — bulk-split your player pool across the tournaments in an event.
+- **Player distribution** — bulk-split your player pool across the tournaments in an event, by rating or by each tournament's criteria, with balanced groups and club separation.
 - **Event categorisation** — colour-coded tags to organise your events; pre-configured and customisable.
 - **Public & organiser details** — location, organiser name, email, director, homepage, plus public-display colours and timer settings.
-- **Tournament formats** — Swiss, round robin, team Swiss, team round robin, plus fixed-table (Molter) and Scheveningen variations. See [Managing Tournaments]({% link docs/running-an-event/managing-tournaments.en.md %}).
+- **Tournament formats** — Swiss, round robin, knock-out, team Swiss, team round robin, team knock-out, plus fixed-table (Molter) and Scheveningen variations. See [Managing Tournaments]({% link docs/running-an-event/managing-tournaments.en.md %}).
 - **Rating cadence & source** — Standard / Rapid / Blitz per tournament; _FIDE_ / National / Estimated rating source, with overrides.
 - **Round scheduling** — per-round dates and times.
 - **Manual point adjustments** — per-player and per-team bonuses or penalties, each with a reason, folded into standings, tie-breaks and the TRF export.
@@ -30,8 +30,9 @@ This page presents the features of _Sharly Chess_, a complete chess competition 
 ## Pairings
 
 - **_FIDE_-compliant Swiss** — Dutch-system pairings via the _BbpPairings_ engine, with a built-in consistency checker.
-- **Round robin & double round robin** — all-play-all, singly or twice with reversed colours.
-- **Team pairings** — team Swiss, team round robin, team double round robin, Scheveningen (standard and double) and Molter tables. See [Team pairing systems]({% link docs/team-tournaments/pairing-systems.en.md %}) and [Molter tables]({% link docs/team-tournaments/molter-tables.en.md %}).
+- **Round robin & double round robin** — all-play-all, singly or twice with reversed colours, with the _FIDE_ 6.6 participation rule.
+- **Knock-out** — single and double elimination, one-game or two-game matches, third-place playoff, grouped seeding and advancement tie-breaks, for players and for teams. See [Knock-out]({% link docs/running-an-event/knockout.en.md %}).
+- **Team pairings** — team Swiss, team round robin, team double round robin, team knock-out, Scheveningen (standard and double) and Molter tables. See [Team pairing systems]({% link docs/team-tournaments/pairing-systems.en.md %}) and [Molter tables]({% link docs/team-tournaments/molter-tables.en.md %}).
 - **Keizer** — flexible pairings designed for long-running club tournaments, pairing the players available each round while allowing occasional absences.
 - **Accelerated pairings** — Baku (_FIDE_ Dutch 2026), Haley, Haley Soft, Progressive, Initial-score and custom schemes.
 - **Manual control** — pair, unpair, permute and swap by hand at any time. See [Managing Pairings]({% link docs/running-an-event/managing-pairings.en.md %}).
@@ -70,7 +71,7 @@ Automatic detection and calculation of GM, IM, WGM and WIM norms following the f
 - **Dual title system** — open titles (GM/IM/FM/CM) and women's titles (WGM/WIM/WFM/WCM), shown together where relevant.
 - **Ratings** — per-cadence ratings with a defined resolution order, plus rating calculations (initial _FIDE_ rating estimate, K-factor, per-round performance and rating change).
 - **Player categories** — fully configurable per event.
-- **Managing players** — sortable, filterable table with _FIDE_ search and import-with-diff. See [Managing Players]({% link docs/running-an-event/managing-players.en.md %}).
+- **Managing players** — sortable, filterable table with _FIDE_ search (narrowed by federation, gender, age category and club) and import-with-diff. See [Managing Players]({% link docs/running-an-event/managing-players.en.md %}).
 - **Teams** — rosters with size caps and reordering, playing or non-playing captains, team groups, per-round lineups, stable board numbering, team byes, and configurable match-point scoring (e.g. Olympiad 2/1/0). See [Team events]({% link docs/team-tournaments/index.en.md %}) and [Running team rounds]({% link docs/team-tournaments/running-team-rounds.en.md %}).
 
 ## Screens & public display
@@ -86,9 +87,9 @@ _Sharly Chess_ includes a built-in web server offering a full set of screens for
 
 ## Documents & printing
 
-A large library of printable documents: player and check-in lists, pairings, round robin schedules, Molter and Scheveningen tables, match sheets, results, individual and team rankings, cross-tables, Berger grids, prize lists and receipts, statistics, norm reports, QR codes and place cards. See [Documents]({% link docs/documents/index.en.md %}) for the full list.
+A large library of printable documents: player and check-in lists, pairings, round robin schedules, knock-out brackets, Molter and Scheveningen tables, match sheets, results, individual and team rankings, cross-tables, Berger grids, prize lists and receipts, statistics, norm reports, QR codes and place cards. See [Documents]({% link docs/documents/index.en.md %}) for the full list.
 
-[Place cards]({% link docs/documents/place-cards.en.md %}), available for players, boards, pairings and teams, are built from customisable templates, with optional crop marks.
+[Place cards]({% link docs/documents/place-cards.en.md %}), available for players, boards, pairings and teams, are built from customisable templates — designed in the built-in visual editor, or by hand — with optional crop marks.
 
 ## Import, export & data sources
 
@@ -110,7 +111,7 @@ One server serves three audiences at once:
 
 - **Public / spectator** — live screen, rotator and display-controller views that update in real time.
 - **On-site input** — result entry and editing, player and team self check-in, and illegal-move recording.
-- **Organiser console** — full administration of events, tournaments, players, check-in, pairings and results, teams, prizes, championships, screens, timers, accounts and documents.
+- **Organiser console** — full administration of events, tournaments, players, check-in, pairings and results, teams, prizes, championships, screens, timers, accounts and documents. It adapts to phone screens, so results can be entered from a smartphone in the playing hall.
 
 See [Accessing the User Interface]({% link docs/getting-started/accessing-ui.en.md %}).
 
