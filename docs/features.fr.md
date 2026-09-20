@@ -94,7 +94,7 @@ Les [chevalets de table]({% link docs/documents/place-cards.fr.md %}) — cheval
 
 - **Import** — prise en charge complète du TRF26 ; import direct des événements et des joueur·euses depuis notre [plateforme d'inscription aux tournois](https://events.sharly-chess.com) ; CSV ; et formats spécifiques aux fédérations via des plugins.
 - **Export** — TRF26 (rapport de classement _FIDE_) et PGN ; export des joueur·euses en CSV, ODS, XLSX et vCard.
-- **Sources de données** — recherchez les joueur·euses dans la base _FIDE_ locale et, via des plugins, des sources spécifiques aux fédérations (par exemple la _FFE_ en ligne et locale, et les écoles françaises). Voir [Sources de données]({% link docs/player-databases/index.fr.md %}).
+- **Sources de données** — recherchez les joueur·euses dans la base _FIDE_ locale, dans les listes de classement de quinze fédérations nationales converties sur votre machine et, via des plug-ins, dans des sources en ligne (par exemple le site de la _FFE_). Voir [Sources de données]({% link docs/player-databases/index.fr.md %}).
 
 ## Réseau et contrôle d'accès
 
