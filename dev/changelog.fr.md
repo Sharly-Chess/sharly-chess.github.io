@@ -31,10 +31,6 @@ separator: true
 - Les résultats saisis sur un écran d'appariement d'administration sont désormais notifiés immédiatement aux autres écrans d'administration
 - L'export d'évènement (SCE) est déplacé dans la fenêtre de configuration de l'évènement
 - La différence de classement est désormais envoyée à _Chess-Results_ (le facteur K _FIDE_ est enregistré avec le·la joueur·euse)
-- Le bouton « envoyer tous les résultats » vers _Sharly-Chess.com_ est désactivé en l'absence de résultat
-- _FFE_ : la cadence, la séquence de couleurs et le score secondaire sont verrouillés pour les coupes par équipes _FFE_ ; infobulle du filtre licence clarifiée
-- Correction : le champ de recherche est sélectionné à l'ouverture de la fenêtre de joueur·euse
-- Correction : style de la recherche de joueur·euses, et hauteur de la liste des fédérations sous Linux
 
 ## Version 5.0.4 - 10 septembre 2026
 - Amélioration de la barre de navigation compactée sur la page d'accueil

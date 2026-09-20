@@ -31,10 +31,6 @@ separator: true
 - Results entered on an administration pairings screen now notify the other administration screens immediately
 - The event export (SCE) has been moved to the event's configuration window
 - The rating difference is now sent to _Chess-Results_ (the _FIDE_ K factor is stored with the player)
-- The _Sharly-Chess.com_ "upload all results" button is disabled when no result exists
-- _FFE_: the rating type, colour pattern and secondary score are locked for the _FFE_ team cups; clearer licence filter tooltip
-- Fix: the player search field is focused when the player dialog opens
-- Fix: player search styling, and the height of the federation list on Linux
 
 ## Version 5.0.4 - September 10, 2026
 - Improve the compacted sidebar on the home page
