@@ -9,6 +9,33 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 5.1.0 - 20 septembre 2026
+
+- Système d'appariement coupe (élimination directe), pour les évènements individuels et par équipes
+  - Élimination simple et double, avec des matchs en une partie ou aller-retour (couleurs inversées)
+  - Match pour la troisième place, belle de grande finale, règles d'attribution des couleurs (alternance, meilleure tête de série avec les Blancs, tirage au sort)
+  - Tirage par groupes (club, fédération ou affiliation), avec aperçu en direct du tableau
+  - Matchs à égalité décidés par des départages de qualification, ou par l'arbitre après un barrage
+  - Classement selon le tour atteint ; nouveau document **Tableau de la coupe** (tableau ou programme)
+- Les chevalets peuvent désormais être conçus avec un éditeur visuel intégré
+  - Bibliothèque de modèles : création, duplication, import et export de modèles, communs à tous les évènements
+  - Les modèles sont accessibles depuis la fenêtre Documents
+- Les paramètres de langue, de fédération et de format de date passent du navigateur à la fenêtre principale de l'application
+- Les plug-ins s'installent et se désinstallent désormais depuis la fenêtre principale de l'application
+- L'interface d'administration s'adapte aux écrans de téléphone
+- La recherche de joueur·euses peut être affinée par fédération, genre, catégorie d'âge et club (plus licence et ligue pour les recherches _FFE_), et les filtres peuvent être remplis d'un coup à partir des critères de n'importe quel tournoi de l'évènement
+- Exclusion des joueur·euses (ou équipes) n'ayant pas disputé 50 % de leurs parties (ou matchs) dans les toutes-rondes, conformément à l'article 6.6 de la _FIDE_
+- Demande de confirmation de fin de ronde lors du passage à la ronde suivante d'un toutes-rondes
+- Les joueur·euses d'un même club sont séparé·es, autant que possible, lors de la répartition sur des tournois équilibrés
+- Un rappel de mise à jour des données des joueur·euses est affiché avant la répartition dans les tournois et avant la génération des chevalets
+- Les résultats saisis sur un écran d'appariement d'administration sont désormais notifiés immédiatement aux autres écrans d'administration
+- L'export d'évènement (SCE) est déplacé dans la fenêtre de configuration de l'évènement
+- La différence de classement est désormais envoyée à _Chess-Results_ (le facteur K _FIDE_ est enregistré avec le·la joueur·euse)
+- Le bouton « envoyer tous les résultats » vers _Sharly-Chess.com_ est désactivé en l'absence de résultat
+- _FFE_ : la cadence, la séquence de couleurs et le score secondaire sont verrouillés pour les coupes par équipes _FFE_ ; infobulle du filtre licence clarifiée
+- Correction : le champ de recherche est sélectionné à l'ouverture de la fenêtre de joueur·euse
+- Correction : style de la recherche de joueur·euses, et hauteur de la liste des fédérations sous Linux
+
 ## Version 5.0.4 - 10 septembre 2026
 - Amélioration de la barre de navigation compactée sur la page d'accueil
 - Suppression des mentions aux « modales »
