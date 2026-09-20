@@ -95,7 +95,7 @@ A large library of printable documents: player and check-in lists, pairings, rou
 
 - **Import** — full TRF26 support; direct import of events and players from our [tournament registration platform](https://events.sharly-chess.com); CSV; and federation-specific formats via plugins.
 - **Export** — TRF26 (_FIDE_ rating report) and PGN; player exports to CSV, ODS, XLSX and vCard.
-- **Data sources** — look players up in the local _FIDE_ database and, via plugins, federation-specific sources (for example _FFE_ online and local, and French-schools). See [Data sources]({% link docs/player-databases/index.en.md %}).
+- **Data sources** — look players up in the local _FIDE_ database, in the rating lists of fifteen national federations converted on your machine, and, via plugins, in online sources (for example the _FFE_ website). See [Data sources]({% link docs/player-databases/index.en.md %}).
 
 ## Network & access control
 
