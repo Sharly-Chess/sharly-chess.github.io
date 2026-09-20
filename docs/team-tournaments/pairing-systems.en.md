@@ -9,7 +9,7 @@ nav_order: 100
 
 # Team pairing systems
 
-A team tournament uses one of four pairing systems, chosen on the tournament
+A team tournament uses one of five pairing systems, chosen on the tournament
 form. Each pairs **teams** against each other; the result of a match is the
 aggregate of its individual boards.
 
@@ -17,6 +17,7 @@ aggregate of its individual boards.
 |---|---|---|
 | **Team Swiss** | Larger fields, few rounds | Pairs teams by standings each round, like an individual Swiss |
 | **Team Round-Robin** | Small fields, every team meets every other | A fixed all-play-all schedule generated up front |
+| **[Team Knock-out]({% link docs/running-an-event/knockout.en.md %})** | Cups and play-offs where the losing team is out | A seeded bracket; the winning team moves on |
 | **Two-game team match** | A single head-to-head between two teams | Two games with the colours reversed |
 | **[Molter]({% link docs/team-tournaments/molter-tables.en.md %})** | Small fields over a few rounds, no byes | A fixed cross-team board table |
 
@@ -49,6 +50,37 @@ _Variations:_
 - **Double Berger** — double round-robin: each pair meets twice, with colours
   reversed.
 
+The tournament form offers the **_FIDE_ 6.6 participation rule**: a team that
+withdrew or was expelled having completed **less than half** of its matches is
+dropped from the final standings and its matches are annulled — they no longer
+count in the other teams' scores and tie-breaks (the results stay in the
+crosstable).
+
+---
+
+## Team Knock-out
+
+A **cup** format: the teams are seeded into a **bracket** by pairing number,
+the losing team of each match is out and the winner moves on, until one team is
+left. Each match is decided on **game points**; a level match is decided by the
+**advancement tie-breaks** (board count, top board results…) or by the arbiter
+with the **Manual** tie-break after a play-off. The number of rounds follows
+from the number of teams, and the ranking is by the round reached.
+
+See **[Knock-out]({% link docs/running-an-event/knockout.en.md %})** for the
+bracket, the settings (third-place playoff, colour of board one, grouping by
+affiliation…) and how matches are decided.
+
+_Variations:_
+
+- **Single elimination** — one match per round, one loss and the team is out.
+- **Single elimination — two-game matches** — each pairing of teams is played
+  over two matches with colours reversed, decided on aggregate.
+- **Double elimination** — a first loss drops the team into a lower bracket; a
+  second loss eliminates. The two bracket winners meet in a Grand Final.
+- **Double elimination — two-game matches** — double elimination with two-match
+  ties.
+
 ---
 
 ## Two-game team match
@@ -79,5 +111,6 @@ _Variation:_ Standard Molter.
 
 - **Many teams, a handful of rounds** → Team Swiss.
 - **Few teams and you want everyone to meet everyone** → Team Round-Robin.
+- **A cup or play-off where the losing team is out** → [Team Knock-out]({% link docs/running-an-event/knockout.en.md %}).
 - **Just two teams** → Two-game team match.
 - **Few teams, few rounds, no byes, everyone plays every round** → Molter.

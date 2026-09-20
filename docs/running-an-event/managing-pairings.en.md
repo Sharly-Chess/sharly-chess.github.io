@@ -18,11 +18,18 @@ The pairing interface is split into two sections:
 Navigation controls allow you to switch between tournaments and rounds.
 You can also toggle between showing all boards or only those still in play.
 
+{: .note }
+> :information_source: The interface adapts to the [pairing system]({% link docs/running-an-event/pairing-systems.en.md %}): a round-robin has no unpaired list, and a [knock-out]({% link docs/running-an-event/knockout.en.md %}) shows who is still in the bracket instead.
+
+The administration interface also adapts to **phone screens**, so results can be entered — and pairings checked — from a smartphone in the playing hall.
+
 ---
 
 ## Automatic Pairing
 
 You can use the "Pair" button on the pairing interface to automatically pair players.
+
+In a **round-robin**, every round is known in advance, so instead of pairing you **end** the current round: when you navigate past it, _Sharly Chess_ asks whether to end the round (the next one becomes the current round) or just take a look at the next round, and warns you if boards are still without a result.
 
 ---
 
@@ -95,8 +102,7 @@ If it doesn’t match, the row is highlighted in red and input is paused until y
 Instead of entering results yourself, you can provide a device (tablet or laptop) for players to enter the results themselves.
 This reduces workload and helps avoid errors. See the [Screens]({% link docs/screens/index.en.md %}) section for setup details.
 
-{: .tip }
-> :point_right: You’ll need to refresh your browser occasionally to see changes made from other devices.
+Results entered on an input screen, or on the pairings screen of another arbiter, appear on your own screen immediately.
 
 ---
 

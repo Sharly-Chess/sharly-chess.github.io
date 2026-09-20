@@ -20,6 +20,8 @@ Les joueur·euses peuvent être ajouté·es en cliquant sur le bouton **Ajouter 
 Vous pouvez saisir les informations d’un·e joueur·euse manuellement, mais il est souvent plus rapide et plus fiable d’utiliser la **base _FIDE_** ou une base fédérale locale (disponible via un [plug-in]({% link docs/plugins/index.fr.md %})) pour rechercher et importer les fiches existantes. 
 Consultez la section [Bases de données joueur·euses]({% link docs/player-databases/index.fr.md %}) pour plus de détails sur l’installation et l’utilisation de ces bases.
 
+La recherche peut être **affinée** grâce au bouton de filtre à côté du champ de recherche : par **fédération**, **genre**, **catégorie d'âge** et **club** (plus la licence et la ligue pour les recherches _FFE_). Le bouton **Utiliser les critères d'un tournoi** remplit les filtres en une seule fois à partir des [critères]({% link docs/running-an-event/managing-tournaments.fr.md %}#critères) de n'importe quel tournoi de l'événement — pratique pour inscrire les joueur·euses section par section.
+
 ## Changer de tournoi ou d’équipe
 
 Au début d’un événement, il est courant que certain·es joueur·euses souhaitent changer de tournoi — par exemple, passer de la section Open à celle des moins de 1600 Elo.

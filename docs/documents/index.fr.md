@@ -56,6 +56,12 @@ Utilisée pour les tournois toutes rondes, cette grille affiche les appariements
 
 ---
 
+## Tableau de la coupe
+
+Proposé pour les tournois en [système coupe]({% link docs/running-an-event/knockout.fr.md %}), ce document dessine le tableau avec les résultats obtenus jusque-là. Son option **programme** liste les mêmes matchs chronologiquement, ronde par ronde, avec la date et l'heure de chaque ronde lorsqu'elles ont été définies.
+
+---
+
 ## Résultats
 
 Cette liste est identique à celle des appariements, mais inclut les résultats des parties.
@@ -110,6 +116,7 @@ _Sharly Chess_ offre trois documents spécifiques pour réaliser des chevalets d
 - **chevalets d'échiquier**, avec simplement les numéros de table, qui permettent aux joueur·euses de se repérer facilement dans la salle ;
 - **chevalets d'appariement**, qui permettent d'afficher sur les tables à la fois les numéros de table et les informations des joueur·euses. 
 
-Il est également possible de personnaliser les chevalets, au niveau du texte et des images.
+Les chevalets sont construits à partir de **modèles**, que vous pouvez créer et modifier avec l'éditeur intégré — voir le [Guide de personnalisation des chevalets]({% link docs/documents/place-cards.fr.md %}).
 
-- [Guide de personnalisation des chevalets]({% link docs/documents/place-cards.fr.md %}) 
+{: .tip }
+> :point_right: Les chevalets affichent les noms, Elo, clubs… des joueur·euses tels qu'ils figurent dans l'évènement : mettez à jour les informations des joueur·euses depuis les dernières listes de classement avant de les imprimer. La fenêtre des chevalets vous le rappelle.

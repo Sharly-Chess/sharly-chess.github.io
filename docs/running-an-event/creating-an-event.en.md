@@ -28,5 +28,7 @@ You can also activate any plugins that you'll need for this event.
 The preferred format for sharing events between _Sharly Chess_ users is the _SCE_ format (**S**harly **C**hess **E**vent).
 
 Events can be:
-- exported from the event cards (Actions > Export > SCE format)
+- exported with the **Export** button, either on the event card of the home page or in the event's configuration window (the pencil icon on the event card)
 - imported from the homepage (Create an event > Import an SCE file)
+
+When exporting, you choose whether to include the players, their private data (emails, phone numbers…) and the credentials used to upload results.

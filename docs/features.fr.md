@@ -14,10 +14,10 @@ Cette page présente les fonctionnalités de _Sharly Chess_, suite complète de 
 
 - **Plusieurs tournois par événement** — regroupez les tournois comme vous le souhaitez (par exemple par tranches de classement) au sein d'un même événement. Voir [Créer un événement]({% link docs/running-an-event/creating-an-event.fr.md %}).
 - **Événements individuels ou par équipes** — chaque événement est de l'un ou l'autre type, choisi à la création.
-- **Répartition des joueur·euses** — répartissez en masse votre liste de joueur·euses entre les tournois d'un événement.
+- **Répartition des joueur·euses** — répartissez en masse votre liste de joueur·euses entre les tournois d'un événement, par Elo ou selon les critères de chaque tournoi, avec groupes équilibrés et séparation des clubs.
 - **Classement des événements** — étiquettes colorées pour organiser vos événements, pré-configurées et personnalisables.
 - **Informations publiques et organisateur** — lieu, nom de l'organisateur, e-mail, directeur, site web, ainsi que les couleurs d'affichage public et les réglages des comptes à rebours.
-- **Formats de tournoi** — Suisse, Toutes-Rondes, Suisse par équipes, Toutes-Rondes par équipes, ainsi que les tables fixes (Molter) et les variantes Scheveningen. Voir [Gérer les tournois]({% link docs/running-an-event/managing-tournaments.fr.md %}).
+- **Formats de tournoi** — Suisse, Toutes-Rondes, système coupe, Suisse par équipes, Toutes-Rondes par équipes, coupe par équipes, ainsi que les tables fixes (Molter) et les variantes Scheveningen. Voir [Gérer les tournois]({% link docs/running-an-event/managing-tournaments.fr.md %}).
 - **Cadence et source de classement** — Standard / Rapide / Blitz par tournoi ; source _FIDE_ / nationale / estimée, avec dérogations possibles.
 - **Programmation des rondes** — dates et heures par ronde.
 - **Ajustements manuels de points** — bonus ou pénalités par joueur·euse et par équipe, chacun avec un motif, pris en compte dans les classements, les départages et l'export TRF.
@@ -30,8 +30,9 @@ Cette page présente les fonctionnalités de _Sharly Chess_, suite complète de 
 ## Appariements
 
 - **Suisse conforme _FIDE_** — appariements par le système hollandais via le moteur _BbpPairings_, avec un vérificateur de cohérence intégré.
-- **Toutes-Rondes et double Toutes-Rondes** — matchs simples ou aller-retour avec couleurs inversées.
-- **Appariements par équipes** — Suisse par équipes, Toutes-Rondes par équipes, double Berger par équipes, Scheveningen (standard et double) et tables Molter. Voir [Systèmes d'appariement par équipes]({% link docs/team-tournaments/pairing-systems.fr.md %}) et [Tables Molter]({% link docs/team-tournaments/molter-tables.fr.md %}).
+- **Toutes-Rondes et double Toutes-Rondes** — matchs simples ou aller-retour avec couleurs inversées, avec la règle de participation _FIDE_ 6.6.
+- **Système coupe** — élimination simple ou double, matchs en une partie ou aller-retour, match pour la troisième place, tirage par groupes et départages de qualification, pour les joueur·euses comme pour les équipes. Voir [Système coupe]({% link docs/running-an-event/knockout.fr.md %}).
+- **Appariements par équipes** — Suisse par équipes, Toutes-Rondes par équipes, double Berger par équipes, coupe par équipes, Scheveningen (standard et double) et tables Molter. Voir [Systèmes d'appariement par équipes]({% link docs/team-tournaments/pairing-systems.fr.md %}) et [Tables Molter]({% link docs/team-tournaments/molter-tables.fr.md %}).
 - **Keizer** — appariements flexibles conçus pour les tournois internes de club de longue durée, en appariant à chaque ronde les joueur·euses disponibles tout en permettant des absences occasionnelles.
 - **Appariements accélérés** — Baku (Dutch _FIDE_ 2026), Haley, Haley Soft, progressif, score initial et schémas personnalisés.
 - **Contrôle manuel** — appariez, désappariez, permutez et échangez à la main à tout moment. Voir [Gérer les appariements]({% link docs/running-an-event/managing-pairings.fr.md %}).
@@ -70,7 +71,7 @@ Détection et calcul automatiques des normes de GM, MI, GMF et MIF selon l'ensem
 - **Double système de titres** — titres open (GM/MI/MF/CM) et titres féminins (GMF/MIF/MFF/CMF), affichés ensemble le cas échéant.
 - **Classements** — classements par cadence avec un ordre de résolution défini, ainsi que les calculs de classement (estimation premier classement _FIDE_, coefficient K, performance par ronde et variation de classement).
 - **Catégories de joueur·euses** — entièrement configurables par événement.
-- **Gestion des joueur·euses** — tableau triable et filtrable avec recherche _FIDE_ et import avec comparaison. Voir [Gérer les joueur·euses]({% link docs/running-an-event/managing-players.fr.md %}).
+- **Gestion des joueur·euses** — tableau triable et filtrable avec recherche _FIDE_ (affinée par fédération, genre, catégorie d'âge et club) et import avec comparaison. Voir [Gérer les joueur·euses]({% link docs/running-an-event/managing-players.fr.md %}).
 - **Gestion des équipes** — compositions avec plafonds d'effectif et réordonnancement, capitaines joueur·euses ou non, groupes d'équipes, alignements par ronde, numérotation stable des échiquiers, byes d'équipe, et score au point de match configurable (par exemple Olympiade 2/1/0). Voir [Événements par équipes]({% link docs/team-tournaments/index.fr.md %}) et [Dérouler les rondes par équipes]({% link docs/team-tournaments/running-team-rounds.fr.md %}).
 
 ## Écrans et affichage public
@@ -86,9 +87,9 @@ _Sharly Chess_ intègre un serveur web offrant un ensemble complet d'écrans pou
 
 ## Documents et impression
 
-Une vaste bibliothèque de documents imprimables : listes de joueur·euses et de pointage, appariements, calendriers de Toutes-Rondes, tables Molter et Scheveningen, feuilles de partie, résultats, classements individuels et par équipes, grilles américaines, grilles Berger, listes de prix et reçus, statistiques, rapports de normes, QR codes et cartons de table. Voir [Documents]({% link docs/documents/index.fr.md %}) pour la liste complète.
+Une vaste bibliothèque de documents imprimables : listes de joueur·euses et de pointage, appariements, calendriers de Toutes-Rondes, tableaux de coupe, tables Molter et Scheveningen, feuilles de partie, résultats, classements individuels et par équipes, grilles américaines, grilles Berger, listes de prix et reçus, statistiques, rapports de normes, QR codes et cartons de table. Voir [Documents]({% link docs/documents/index.fr.md %}) pour la liste complète.
 
-Les [chevalets de table]({% link docs/documents/place-cards.fr.md %}) — chevalets des joueur·euses, des échiquiers, des appariements et des équipes — sont construits à partir de modèles personnalisables, avec repères de coupe optionnels.
+Les [chevalets de table]({% link docs/documents/place-cards.fr.md %}) — chevalets des joueur·euses, des échiquiers, des appariements et des équipes — sont construits à partir de modèles personnalisables — conçus dans l'éditeur visuel intégré, ou à la main — avec repères de coupe optionnels.
 
 ## Import, export et sources de données
 
@@ -110,7 +111,7 @@ Un seul serveur s'adresse à trois publics à la fois :
 
 - **Public / spectateur·ices** — vues d'écrans simples, d'écrans rotatifs et de contrôleur d'affichage en direct, mises à jour en temps réel.
 - **Saisie sur site** — saisie et modification des résultats, auto-pointage des joueur·euses et des équipes, et enregistrement des coups illégaux.
-- **Console organisateur** — administration complète des événements, tournois, joueur·euses, pointage, appariements et résultats, équipes, prix, championnats, écrans, minuteurs, comptes et documents.
+- **Console organisateur** — administration complète des événements, tournois, joueur·euses, pointage, appariements et résultats, équipes, prix, championnats, écrans, minuteurs, comptes et documents. Elle s'adapte aux écrans de téléphone, pour saisir les résultats depuis un smartphone dans la salle de jeu.
 
 Voir [Accéder à l'interface]({% link docs/getting-started/accessing-ui.fr.md %}).
 

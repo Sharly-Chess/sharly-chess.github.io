@@ -54,6 +54,12 @@ Used in round-robin tournaments, this grid displays all pairings for every round
 
 ---
 
+## Knock-out Bracket
+
+Available for [knock-out]({% link docs/running-an-event/knockout.en.md %}) tournaments, this document draws the bracket with the results so far. Its **schedule** option lists the same matches chronologically, round by round, with the date and time of each round when they have been set.
+
+---
+
 ## Results
 
 This listing is identical to the pairings list but includes the results of each game.
@@ -108,4 +114,7 @@ _Sharly Chess_ offers three document options for creating place cards:
 - **Board cards** display the board numbers, helping players quickly locate their seats.
 - **Pairing cards** combine both board numbers and player information for complete round visibility
 
-- [Place Cards Customization Guide]({% link docs/documents/place-cards.en.md %})
+Place cards are built from **templates**, which you can create and edit with the built-in editor — see the [Place Cards Customization Guide]({% link docs/documents/place-cards.en.md %}).
+
+{: .tip }
+> :point_right: Place cards show the players' names, ratings, clubs… as they stand in the event, so update the players' information from the latest rating lists before printing them. The place cards dialog reminds you to do so.
