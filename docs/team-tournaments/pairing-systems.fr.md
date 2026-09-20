@@ -83,7 +83,7 @@ _Variantes :_
 - **Élimination simple — aller-retour** — chaque confrontation se joue en deux
   matchs, couleurs inversées, décidée au cumul.
 - **Double élimination** — une première défaite fait basculer l'équipe dans un
-  tableau inférieur ; une seconde l'élimine. Les vainqueurs des deux tableaux se
+  tableau inférieur ; une seconde l'élimine. Les équipes gagnantes des deux tableaux se
   rencontrent en Grande finale.
 - **Double élimination — aller-retour** — la double élimination avec des
   confrontations en deux matchs.

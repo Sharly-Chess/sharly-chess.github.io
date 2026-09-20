@@ -11,7 +11,7 @@ nav_order: 480
 
 Le **système coupe** (élimination directe) apparie les participant·es dans un
 **tableau** : le·la perdant·e de chaque match est éliminé·e, le·la gagnant·e
-passe au tour suivant, et le·la dernier·ère en lice remporte le tournoi. Il est
+passe au tour suivant, et le·la dernier·e en lice remporte le tournoi. Il est
 disponible pour les événements **individuels** comme **par équipes** (sous le
 nom **Coupe par équipes**), en quatre variantes :
 
