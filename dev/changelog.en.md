@@ -9,6 +9,33 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 5.1.0 - September 20, 2026
+
+- Knock-out pairing system, for individual and team events
+  - Single and double elimination, with one-game or two-game (colours reversed) matches
+  - Third-place playoff, grand final reset, colour assignment rules (alternate, higher seed White, drawing of lots)
+  - Grouped seeding by club, federation or affiliation, with a live preview of the bracket
+  - Level matches decided by advancement tie-breaks, or by the arbiter after a play-off
+  - Ranking by the round reached; new **Knock-out Bracket** document (diagram or schedule)
+- Place cards can now be designed with an embedded visual editor
+  - Template library: create, duplicate, import and export templates, shared by all events
+  - Templates are accessed from the Documents dialog
+- The language, federation and date format settings have moved from the browser to the main application window
+- Plugins are now installed and uninstalled from the main application window
+- The administration interface adapts to phone screens
+- The player search can be narrowed by federation, gender, age category and club (plus licence and league for _FFE_ searches), and the filters can be filled in one go from the criteria of any tournament of the event
+- Exclusion of players (or teams) who have not completed 50% of their games (or matches) in round robins, in accordance with _FIDE_ 6.6
+- Ask whether a round should be marked as completed when moving on to the next round of a round robin
+- Players of the same club are separated, as much as possible, when distributing players on balanced tournaments
+- A reminder to update player data is shown before distributing players across tournaments and before generating place cards
+- Results entered on an administration pairings screen now notify the other administration screens immediately
+- The event export (SCE) has been moved to the event's configuration window
+- The rating difference is now sent to _Chess-Results_ (the _FIDE_ K factor is stored with the player)
+- The _Sharly-Chess.com_ "upload all results" button is disabled when no result exists
+- _FFE_: the rating type, colour pattern and secondary score are locked for the _FFE_ team cups; clearer licence filter tooltip
+- Fix: the player search field is focused when the player dialog opens
+- Fix: player search styling, and the height of the federation list on Linux
+
 ## Version 5.0.4 - September 10, 2026
 - Improve the compacted sidebar on the home page
 - Remove mentions to "modals" in translations
