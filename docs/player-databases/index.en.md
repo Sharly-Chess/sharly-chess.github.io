@@ -8,19 +8,64 @@ nav_order: 400
 
 # Data sources
 
-Data sources are used to find players when adding them to a tournament.
+Data sources are used to find players when adding them to a tournament, to import them from a file by their identifier, and to update their data (ratings, titles, club…) from the latest lists.
 
-In order to add players from the **_FIDE_ players database**, it must first be downloaded and installed locally on your machine using _Sharly Chess_.
+Two kinds of sources exist:
 
-[Plugins]({% link docs/plugins/index.en.md %}) may also provide additional databases that behave the same way, or they may add support for online player databases.
+- **local databases**, downloaded on your machine and searched without an internet connection during the event: the _FIDE_ list and the rating lists of national federations;
+- **online sources**, queried live: for example the _FFE_ website, provided by its [plugin]({% link docs/plugins/index.en.md %}).
 
-## Installing databases on your machine
+## Available databases
 
-You can manage all local player databases from the **Data sources** page, accessible via the "Data sources" option in the navigation menu.
+The **_FIDE_ database** is built from the list _FIDE_ publishes every month: every registered player, with their identifier, federation, titles, standard, rapid and blitz ratings and K factors.
 
-For each data source that's downloaded tp your machine, you can choose to:
-- **Update automatically** when _Sharly Chess_ starts.
-- **Receive a warning** when the database is outdated (based on the number of days you define).  In this case the "Data sources" option will display a warning sign.
-- **Update manually** at any time — especially handy on the morning of a tournament.
+The lists of the following federations are also converted by _Sharly Chess_ from the files the federations publish:
 
-This system ensures you always have the latest player info at your fingertips, without relying on an internet connection during the event.
+| Federation | Database | Rate of play | Also carries |
+|---|---|---|---|
+| Canada | CFC | standard, quick (rapid and blitz) | _FIDE_ id |
+| Czech Republic | LOK | standard, rapid | _FIDE_ id, club, date of birth, gender |
+| Denmark | DSU | standard, rapid, blitz | _FIDE_ id, club, year of birth |
+| England | ECF | standard, rapid, blitz | _FIDE_ id, club, gender |
+| Finland | SELO | standard | club |
+| France | FFE | standard, rapid, blitz | licence, league, club, date of birth, gender (via the _FFE_ plugin) |
+| Germany | DSB | standard (DWZ) | _FIDE_ id and ratings, club, year of birth, gender |
+| Indonesia | Percasi | standard, rapid, blitz | _FIDE_ id, province, gender |
+| Italy | FSI | standard | _FIDE_ id and ratings, date of birth, gender |
+| Japan | JCF | standard, rapid | |
+| Malaysia | MCF | standard | _FIDE_ id, state, year of birth, gender |
+| Netherlands | KNSB | standard, rapid, blitz | title, year of birth, gender |
+| New Zealand | NZCF | standard, rapid | _FIDE_ id, club, year of birth |
+| Russia | CFR | standard, rapid, blitz | _FIDE_ id, region, year of birth, gender |
+| South Africa | CHESSA | standard, rapid, blitz | regional federation, date of birth, gender |
+| Ukraine | UCF | standard | _FIDE_ id, region, date of birth, gender |
+
+When a player found in a national list has a _FIDE_ identifier, their _FIDE_ ratings, titles and federation are completed from the _FIDE_ database.
+
+Names are searched without regard to accents or case, and a list written in Cyrillic is searched from a Latin keyboard as well.
+
+## Choosing your data sources
+
+Only the sources you use are shown in the application. The **Data sources** window, opened from the navigation menu, lists the active ones; the **Add a data source** button offers the others, and the bin button of a source withdraws it (and deletes its database).
+
+Some sources are activated for you:
+
+- the _FIDE_ database is active from the start and installed when the application first runs;
+- the sources of a federation are activated when you create the first event of that federation (or choose it as your default federation);
+- a plugin activates the sources it needs.
+
+## Keeping the databases up to date
+
+For each local database, the window tells how many players it holds and lets you choose to:
+
+- **update automatically** when the database is outdated, after the delay you define (daily, weekly, on the first day of the month…);
+- **receive a warning** instead: the "Data sources" option of the menu then shows a warning sign;
+- **update manually** at any time — especially handy on the morning of a tournament.
+
+While a database is being installed or updated, its button shows the progress (download, players stored, indexing).
+
+When a federation's file cannot be downloaded by the application (a login is needed), download it yourself and install it with the folder button of the database.
+
+## National identifiers
+
+A player found in a national list keeps the identifier of their federation (the _FFE_ licence number, the KNSB relation number…) next to their _FIDE_ identifier. It is shown on the player form, on the player's record with a link to their page on the federation's website when there is one, and it can be printed on [place cards]({% link docs/documents/place-cards.en.md %}), imported and exported in the players' datasheet, and used to update the players from the federation's list.
