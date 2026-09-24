@@ -69,7 +69,12 @@ Once you've created a tournament it's displayed on the Tournaments page. Each to
 
 ## Distributing players among tournaments
 
-When the players of an event are registered without a tournament — for example imported from a file or from [_Sharly-Chess.com_]({% link docs/events/index.en.md %}) — the **Distribute the players among the tournaments** button (on the Tournaments page, and in the **Actions** menu of the Players page) splits the whole pool in one go. Two distribution types are available:
+The **Distribute the players among the tournaments** button (on the Tournaments page, and in the **Actions** menu of the Players page) redistributes **all the players of the event** among its tournaments in one go, whichever tournament they are currently in. Distribution is only possible in individual events, before any tournament has started, and when all the tournaments use the same rating type (Standard, Rapid or Blitz).
+
+{: .tip }
+> :point_right: A convenient way to organise registrations is to create a single **holding tournament** that collects all the entries — manually, from a file or from [_Sharly-Chess.com_]({% link docs/events/index.en.md %}) — and then to distribute the players among the real sections once registrations are closed. Give the holding tournament 0 players (**Descending rating**) or leave it unselected (**Based on each tournament's criteria**); once empty, it can be deleted.
+
+Two distribution types are available:
 
 | **Descending rating** | Sort the players by descending rating and choose how many go into each tournament, from the strongest section down. |
 | **Based on each tournament's criteria** | Allocate each player to the first tournament whose criteria (age category, rating, gender…) they meet. |

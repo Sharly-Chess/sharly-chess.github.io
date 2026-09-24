@@ -71,7 +71,12 @@ Chaque tournoi dispose de plusieurs options accessibles, notamment :
 
 ## Répartir les joueur·euses dans les tournois
 
-Lorsque les joueur·euses d'un événement sont inscrit·es sans tournoi — par exemple importé·es depuis un fichier ou depuis [_Sharly-Chess.com_]({% link docs/events/index.fr.md %}) — le bouton **Répartir les joueur·euses dans les tournois** (sur la page Tournois, et dans le menu **Actions** de la page Joueur·euses) répartit l'ensemble du plateau en une seule opération. Deux types de répartition sont proposés :
+Le bouton **Répartir les joueur·euses dans les tournois** (sur la page Tournois, et dans le menu **Actions** de la page Joueur·euses) répartit **tou·tes les joueur·euses de l'évènement** entre ses tournois en une seule opération, quel que soit le tournoi dans lequel ils·elles se trouvent. La répartition n'est possible que dans les évènements individuels, avant le début de tout tournoi, et lorsque tous les tournois ont la même cadence (Classique, Rapide ou Blitz).
+
+{: .tip }
+> :point_right: Une façon pratique d'organiser les inscriptions consiste à créer un unique **tournoi d'attente** qui recueille toutes les inscriptions — manuellement, depuis un fichier ou depuis [_Sharly-Chess.com_]({% link docs/events/index.fr.md %}) — puis à répartir les joueur·euses dans les vrais tournois une fois les inscriptions closes. Attribuez 0 joueur·euse au tournoi d'attente (**Classement décroissant**) ou ne le sélectionnez pas (**Selon les critères de chaque tournoi**) ; une fois vidé, il peut être supprimé.
+
+Deux types de répartition sont proposés :
 
 | **Classement décroissant** | Trie les joueur·euses par Elo décroissant et vous laisse choisir combien vont dans chaque tournoi, de la section la plus forte à la plus faible. |
 | **Selon les critères de chaque tournoi** | Affecte chaque joueur·euse au premier tournoi dont il·elle remplit les critères (catégorie d'âge, Elo, genre…). |
