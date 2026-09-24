@@ -34,7 +34,7 @@ separator: true
 - Les résultats saisis sur un écran d'appariement d'administration sont désormais notifiés immédiatement aux autres écrans d'administration
 - La différence de classement est désormais envoyée à _Chess-Results_ (le facteur K _FIDE_ est enregistré avec le·la joueur·euse)
 - Les tournois par équipes appariés sur tables fixes (Molter) impriment le document d'appariements, avec ses options, à la place des feuilles de match
-- Les bonus / pénalités ne peuvent plus être attribués à un·e joueur·euse d'un évènement par équipes : ils s'appliquent aux équipes entières
+- Les bonus / pénalités ne peuvent plus être attribués à un·e joueur·euse d'un évènement par équipes : ils s'appliquent aux équipes entières
 - La taille maximale des équipes est respectée lors de l'import de joueur·euses depuis un fichier CSV, et les équipes vidées par un import avec écrasement sont supprimées
 - Correction : le classement par équipes des tournois sur tables fixes (Molter) affiche les points de partie et les départages, qui étaient tous à zéro
 
