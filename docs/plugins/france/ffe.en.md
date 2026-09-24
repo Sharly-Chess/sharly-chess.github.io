@@ -35,13 +35,36 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 
 For [team events]({% link docs/team-tournaments/index.en.md %}), the _FFE_ plugin adds rule sets for the official French team competitions. Selecting one on a team tournament applies its roster rules and scoring:
 
-- **Jean-Claude Loubatière Cup** — a 4-board team cup. Roster capped at 5 players, each rated **≤ 1800 Elo** (flagged as a warning), with a mixed Swiss / [Molter]({% link docs/team-tournaments/molter-tables.en.md %}) / round-robin schedule. A game lost by forfeit costs −1 game point.
+- **Jean-Claude Loubatière Cup** — a 4-board team cup. Roster capped at 5 players, each rated **≤ 1800 Elo** (flagged as a warning), with a mixed Swiss / [Molter]({% link docs/team-tournaments/molter-tables.en.md %}) / round-robin schedule. A game lost by forfeit costs −1 game point, although a match score never goes below zero.
 - **FFE Women championship (N1F / N2F)** — the same 4-board format and 5-player roster, but with no Elo cap; instead the roster must consist of women players only (a warning if not).
 - **Mixed Cup** (_Coupe de la Parité_) — each match fields **2 men and 2 women**; the roster holds up to 6 players (max 3 of each), with the team's Elo capped at 8000.
 
 ### Loubatière pairing sheet
 
 When a team tournament uses the **Jean-Claude Loubatière Cup** rule set, the plugin adds the **Loubatière pairing sheet** document — one page per team, laid out as the FFE's _fiche d'appariement_ for the arbiter to fill in.
+
+### Sending team competitions to the _FFE_ website
+
+Team tournaments are not sent to the _FFE_ website as a _Papi_ file, but through the site's **team module**: _Sharly Chess_ logs in with the group account, registers the tournament's teams, and fills in one **match report** per match and round with the players' licence numbers, the results and the adjusted scores. Reports that no longer match a pairing are removed, the standings are recomputed on the site and each team's place is set to its _Sharly Chess_ rank. The reports are saved as visible.
+
+To set it up, open the tournament's properties and fill in the _FFE_ section:
+
+| **Account** / **Password** | The account of the group director on the _FFE_ website (administration of team competitions). The password turns green once the site has accepted the credentials. |
+| **Competition** | The competition, as listed by the _FFE_ website. When the tournament uses one of the rule sets above, the competition is set by the rule set and cannot be changed. |
+| **Division** / **Group** | The division and group of the competition, as listed by the _FFE_ website. For the rule sets above, the division matching the tournament's phase is pre-selected. |
+
+The lists are fetched from the _FFE_ website once the credentials are accepted.
+
+The results are then uploaded from the **Upload** tab, or automatically, as for individual tournaments. The other actions on the _FFE_ website (regulations, visibility, fees) do not apply to team tournaments. Once configured, the tournament card links to the group's page on the _FFE_ website.
+
+Every player must have an _FFE_ licence number and every team must have players: otherwise the tournament is shown as **Incompatible**, and its tooltip explains why.
+
+{: .note }
+> :information_source: On [Molter]({% link docs/team-tournaments/molter-tables.en.md %}) rounds, the site expects one report per pair of teams: _Sharly Chess_ splits each round accordingly, spreads a team's forfeit penalty over its reports so that none goes below zero, and posts no match points, as the cup ranks Molter phases on game points only.
+
+### Exporting team tournaments to _Papi_
+
+Team tournaments can also be exported to a _Papi_ file. As the _Papi_ format has no team play, the file describes an **individual Swiss tournament**, where each board is a game of its own and the players are ranked on their game points. The teams, the match points and the bonus / penalty points are left out, and a roster player who was not fielded in a round gets a zero-point bye.
 
 ## Tournament Display on the _FFE_ Website
 

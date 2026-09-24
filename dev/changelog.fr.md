@@ -24,6 +24,8 @@ separator: true
 - Les plug-ins s'installent et se désinstallent désormais depuis la fenêtre principale de l'application
 - L'export d'évènement (SCE) est déplacé dans la fenêtre de configuration de l'évènement
 - L'interface d'administration s'adapte aux écrans de téléphone
+- Les compétitions par équipes peuvent être mises en ligne sur le site de la _FFE_ : les équipes et les feuilles de match sont remplies à partir du tournoi avec le compte de groupe, pour la compétition, la division et le groupe choisis dans les propriétés du tournoi
+- Les tournois par équipes peuvent être exportés au format _Papi_, qui les décrit comme des tournois individuels au système suisse
 - La recherche de joueur·euses peut être affinée par fédération, genre, catégorie d'âge et club (plus licence et ligue pour les recherches _FFE_), et les filtres peuvent être remplis d'un coup à partir des critères de n'importe quel tournoi de l'évènement
 - Les joueur·euses d'un même club sont séparé·es, autant que possible, lors de la répartition sur des tournois équilibrés
 - Un rappel de mise à jour des données des joueur·euses est affiché avant la répartition dans les tournois et avant la génération des chevalets

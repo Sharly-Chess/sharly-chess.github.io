@@ -24,6 +24,8 @@ separator: true
 - Plugins are now installed and uninstalled from the main application window
 - The event export (SCE) has been moved to the event's configuration window
 - The administration interface adapts to phone screens
+- Team competitions can be uploaded to the _FFE_ website: teams and match reports are filled in from the tournament with the group account, for the competition, division and group chosen in the tournament properties
+- Team tournaments can be exported to the _Papi_ format, which describes them as individual Swiss tournaments
 - The player search can be narrowed by federation, gender, age category and club (plus licence and league for _FFE_ searches), and the filters can be filled in one go from the criteria of any tournament of the event
 - Players of the same club are separated, as much as possible, when distributing players on balanced tournaments
 - A reminder to update player data is shown before distributing players across tournaments and before generating place cards

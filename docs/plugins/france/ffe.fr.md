@@ -35,13 +35,36 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 
 Pour les [événements par équipes]({% link docs/team-tournaments/index.fr.md %}), le plug-in _FFE_ ajoute des jeux de règles pour les compétitions officielles françaises par équipes. En sélectionner un sur un tournoi par équipes applique ses règles de composition et de décompte :
 
-- **Coupe Jean-Claude Loubatière** — une coupe par équipes à 4 échiquiers. Liste limitée à 5 joueur·euses, chacun·e classé·e à **1800 Elo maximum** (signalé par un avertissement), avec un calendrier mixte Suisse / [Molter]({% link docs/team-tournaments/molter-tables.fr.md %}) / toutes‑rondes. Une partie perdue par forfait coûte −1 point de partie.
+- **Coupe Jean-Claude Loubatière** — une coupe par équipes à 4 échiquiers. Liste limitée à 5 joueur·euses, chacun·e classé·e à **1800 Elo maximum** (signalé par un avertissement), avec un calendrier mixte Suisse / [Molter]({% link docs/team-tournaments/molter-tables.fr.md %}) / toutes‑rondes. Une partie perdue par forfait coûte −1 point de partie, sans que le score d'un match puisse devenir négatif.
 - **Championnat féminin (N1F / N2F)** — même format à 4 échiquiers et liste de 5 joueuses, mais sans plafond Elo ; en revanche la liste doit être composée uniquement de joueuses (avertissement sinon).
 - **Coupe de la Parité** — chaque match aligne **2 hommes et 2 femmes** ; la liste compte jusqu'à 6 joueur·euses (3 de chaque au maximum), avec un Elo d'équipe plafonné à 8000.
 
 ### Fiche d'appariement Loubatière
 
 Lorsqu'un tournoi par équipes utilise le jeu de règles **Coupe Jean-Claude Loubatière**, le plug-in ajoute le document **fiche d'appariement Loubatière** — une page par équipe, présentée comme la _fiche d'appariement_ de la FFE, à remplir par l'arbitre.
+
+### Envoi des compétitions par équipes sur le site de la _FFE_
+
+Les tournois par équipes ne sont pas envoyés sur le site de la _FFE_ sous forme de fichier _Papi_, mais par le **module Équipes** du site : _Sharly Chess_ se connecte avec le compte de groupe, inscrit les équipes du tournoi et remplit une **feuille de match** par match et par ronde avec les numéros de licence des joueur·euses, les résultats et les scores ajustés. Les feuilles qui ne correspondent plus à un appariement sont supprimées, le classement est recalculé sur le site et la place de chaque équipe est celle de son classement dans _Sharly Chess_. Les feuilles sont enregistrées visibles.
+
+Pour le configurer, ouvrez les propriétés du tournoi et remplissez la section _FFE_ :
+
+| **Compte** / **Mot de passe** | Le compte du directeur ou de la directrice de groupe sur le site de la _FFE_ (administration des compétitions par équipes). Le mot de passe passe au vert une fois les identifiants acceptés par le site. |
+| **Compétition** | La compétition, telle que listée par le site de la _FFE_. Lorsque le tournoi utilise l'un des jeux de règles ci-dessus, la compétition est définie par le jeu de règles et ne peut pas être modifiée. |
+| **Division** / **Groupe** | La division et le groupe de la compétition, tels que listés par le site de la _FFE_. Pour les jeux de règles ci-dessus, la division correspondant à la phase du tournoi est présélectionnée. |
+
+Les listes sont récupérées sur le site de la _FFE_ une fois les identifiants acceptés.
+
+Les résultats sont ensuite mis en ligne depuis l'onglet **Mettre en ligne**, ou automatiquement, comme pour les tournois individuels. Les autres actions sur le site de la _FFE_ (règlement, visibilité, droits d'homologation) ne s'appliquent pas aux tournois par équipes. Une fois configuré, la carte du tournoi propose un lien vers la page du groupe sur le site de la _FFE_.
+
+Chaque joueur·euse doit avoir un numéro de licence _FFE_ et chaque équipe doit avoir des joueur·euses : sinon le tournoi est affiché **Incompatible**, et son info-bulle en donne la raison.
+
+{: .note }
+> :information_source: Pour les rondes [Molter]({% link docs/team-tournaments/molter-tables.fr.md %}), le site attend une feuille par paire d'équipes : _Sharly Chess_ découpe chaque ronde en conséquence, répartit la pénalité de forfait d'une équipe sur ses feuilles pour qu'aucune ne devienne négative, et n'envoie pas de points de match, la coupe classant les phases Molter aux seuls points de partie.
+
+### Export des tournois par équipes au format _Papi_
+
+Les tournois par équipes peuvent aussi être exportés dans un fichier _Papi_. Le format _Papi_ ne connaissant pas les compétitions par équipes, le fichier décrit un **tournoi individuel au système suisse**, où chaque échiquier est une partie à part entière et où les joueur·euses sont classé·es aux points de parties. Les équipes, les points de match et les bonus / pénalités ne sont pas exportés, et un·e joueur·euse de la liste qui n'a pas été aligné·e à une ronde reçoit un exempt à zéro point.
 
 ## Affichage des tournois sur le site de la _FFE_
 
