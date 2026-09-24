@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.1.0 - September 20, 2026
+## :point_right: Version 5.1.0 - September 24, 2026
 
 - Knock-out pairing system, for individual and team events
   - Single and double elimination, with one-game or two-game (colours reversed) matches

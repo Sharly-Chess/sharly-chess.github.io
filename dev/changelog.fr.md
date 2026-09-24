@@ -9,22 +9,22 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.1.0 - 20 septembre 2026
+## :point_right: Version 5.1.0 - 24 septembre 2026
 
 - Système d'appariement coupe (élimination directe), pour les évènements individuels et par équipes
   - Élimination simple et double, avec des matchs en une partie ou aller-retour (couleurs inversées)
   - Match pour la troisième place, belle de grande finale, règles d'attribution des couleurs (alternance, meilleure tête de série avec les Blancs, tirage au sort)
   - Tirage par groupes (club, fédération ou affiliation), avec aperçu en direct du tableau
   - Matchs à égalité décidés par des départages de qualification, ou par l'arbitre après un barrage
-  - Classement selon le tour atteint ; nouveau document **Tableau de la coupe** (tableau ou programme)
+  - Classement selon le tour atteint, nouveau document **Tableau de la coupe** (tableau ou programme)
 - Les chevalets peuvent désormais être conçus avec un éditeur visuel intégré
-  - Bibliothèque de modèles : création, duplication, import et export de modèles, communs à tous les évènements
+  - Bibliothèque de modèles : création, duplication, import et export de modèles, communs à tous les évènements
   - Les modèles sont accessibles depuis la fenêtre Documents
 - Les paramètres de langue, de fédération et de format de date passent du navigateur à la fenêtre principale de l'application
 - Les plug-ins s'installent et se désinstallent désormais depuis la fenêtre principale de l'application
-- L'export d'évènement (SCE) est déplacé dans la fenêtre de configuration de l'évènement
+- L'export d'évènement (au format SCE) est déplacé dans la fenêtre de configuration de l'évènement
 - L'interface d'administration s'adapte aux écrans de téléphone
-- Les compétitions par équipes peuvent être mises en ligne sur le site de la _FFE_ : les équipes et les feuilles de match sont remplies à partir du tournoi avec le compte de groupe, pour la compétition, la division et le groupe choisis dans les propriétés du tournoi
+- Les compétitions par équipes peuvent être mises en ligne sur le site de la _FFE_ : les équipes et les feuilles de match sont remplies à partir du tournoi avec le compte de groupe, pour la compétition, la division et le groupe choisis dans les propriétés du tournoi
 - Les tournois par équipes peuvent être exportés au format _Papi_, qui les décrit comme des tournois individuels au système suisse
 - La recherche de joueur·euses peut être affinée par fédération, genre, catégorie d'âge et club (plus licence et ligue pour les recherches _FFE_), et les filtres peuvent être remplis d'un coup à partir des critères de n'importe quel tournoi de l'évènement
 - Les joueur·euses d'un même club sont séparé·es, autant que possible, lors de la répartition sur des tournois équilibrés
@@ -36,7 +36,7 @@ separator: true
 - Les tournois par équipes appariés sur tables fixes (Molter) impriment le document d'appariements, avec ses options, à la place des feuilles de match
 - Les bonus / pénalités ne peuvent plus être attribués à un·e joueur·euse d'un évènement par équipes : ils s'appliquent aux équipes entières
 - La taille maximale des équipes est respectée lors de l'import de joueur·euses depuis un fichier CSV, et les équipes vidées par un import avec écrasement sont supprimées
-- Correction : le classement par équipes des tournois sur tables fixes (Molter) affiche les points de partie et les départages, qui étaient tous à zéro
+- Correction : le classement par équipes des tournois sur tables fixes (Molter) affiche les points de partie et les départages, qui étaient tous à zéro
 
 
 ## Version 5.0.4 - 10 septembre 2026
