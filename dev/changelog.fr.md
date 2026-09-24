@@ -22,15 +22,20 @@ separator: true
   - Les modèles sont accessibles depuis la fenêtre Documents
 - Les paramètres de langue, de fédération et de format de date passent du navigateur à la fenêtre principale de l'application
 - Les plug-ins s'installent et se désinstallent désormais depuis la fenêtre principale de l'application
+- L'export d'évènement (SCE) est déplacé dans la fenêtre de configuration de l'évènement
 - L'interface d'administration s'adapte aux écrans de téléphone
 - La recherche de joueur·euses peut être affinée par fédération, genre, catégorie d'âge et club (plus licence et ligue pour les recherches _FFE_), et les filtres peuvent être remplis d'un coup à partir des critères de n'importe quel tournoi de l'évènement
-- Exclusion des joueur·euses (ou équipes) n'ayant pas disputé 50 % de leurs parties (ou matchs) dans les toutes-rondes, conformément à l'article 6.6 de la _FIDE_
-- Demande de confirmation de fin de ronde lors du passage à la ronde suivante d'un toutes-rondes
 - Les joueur·euses d'un même club sont séparé·es, autant que possible, lors de la répartition sur des tournois équilibrés
 - Un rappel de mise à jour des données des joueur·euses est affiché avant la répartition dans les tournois et avant la génération des chevalets
+- Exclusion des joueur·euses (ou équipes) n'ayant pas disputé 50 % de leurs parties (ou matchs) dans les toutes-rondes, conformément à l'article 6.6 de la _FIDE_
+- Demande de confirmation de fin de ronde lors du passage à la ronde suivante d'un toutes-rondes individuel
 - Les résultats saisis sur un écran d'appariement d'administration sont désormais notifiés immédiatement aux autres écrans d'administration
-- L'export d'évènement (SCE) est déplacé dans la fenêtre de configuration de l'évènement
 - La différence de classement est désormais envoyée à _Chess-Results_ (le facteur K _FIDE_ est enregistré avec le·la joueur·euse)
+- Les tournois par équipes appariés sur tables fixes (Molter) impriment le document d'appariements, avec ses options, à la place des feuilles de match
+- Les bonus / pénalités ne peuvent plus être attribués à un·e joueur·euse d'un évènement par équipes : ils s'appliquent aux équipes entières
+- La taille maximale des équipes est respectée lors de l'import de joueur·euses depuis un fichier CSV, et les équipes vidées par un import avec écrasement sont supprimées
+- Correction : le classement par équipes des tournois sur tables fixes (Molter) affiche les points de partie et les départages, qui étaient tous à zéro
+
 
 ## Version 5.0.4 - 10 septembre 2026
 - Amélioration de la barre de navigation compactée sur la page d'accueil

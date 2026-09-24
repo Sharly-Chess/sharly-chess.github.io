@@ -22,15 +22,20 @@ separator: true
   - Templates are accessed from the Documents dialog
 - The language, federation and date format settings have moved from the browser to the main application window
 - Plugins are now installed and uninstalled from the main application window
+- The event export (SCE) has been moved to the event's configuration window
 - The administration interface adapts to phone screens
 - The player search can be narrowed by federation, gender, age category and club (plus licence and league for _FFE_ searches), and the filters can be filled in one go from the criteria of any tournament of the event
-- Exclusion of players (or teams) who have not completed 50% of their games (or matches) in round robins, in accordance with _FIDE_ 6.6
-- Ask whether a round should be marked as completed when moving on to the next round of a round robin
 - Players of the same club are separated, as much as possible, when distributing players on balanced tournaments
 - A reminder to update player data is shown before distributing players across tournaments and before generating place cards
+- Exclusion of players (or teams) who have not completed 50% of their games (or matches) in round robins, in accordance with _FIDE_ 6.6
+- Ask whether a round should be marked as completed when moving on to the next round of an individual round robin
 - Results entered on an administration pairings screen now notify the other administration screens immediately
-- The event export (SCE) has been moved to the event's configuration window
 - The rating difference is now sent to _Chess-Results_ (the _FIDE_ K factor is stored with the player)
+- Team tournaments paired on fixed tables (Molter) print the pairings document, with its options, in place of the match sheets
+- Bonus / penalty points can no longer be given to an individual player of a team event: team events adjust whole teams
+- The team size limit is enforced when importing players from a CSV file, and teams left empty by an overwriting import are deleted
+- Fix: the team ranking of fixed-table tournaments (Molter) now shows the game points and the tie-breaks, which were all displayed as zero
+
 
 ## Version 5.0.4 - September 10, 2026
 - Improve the compacted sidebar on the home page
