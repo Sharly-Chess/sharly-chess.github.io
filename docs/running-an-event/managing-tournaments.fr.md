@@ -35,6 +35,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 | **Numéro de la première table** | Le numéro de table à utiliser pour la première table de ce tournoi. |
 | **Nombre maximum de demi-points joker** | Nombre maximal de demi-points joker (byes) qu’un·e joueur·euse peut demander. |
 | **Dernières rondes sans demi-points joker** | Nombre de rondes finales pendant lesquelles les demi-points joker ne sont pas autorisées. |
+| **Mode FIDE** | _Suisse uniquement._ Maintient le tournoi dans le cadre du règlement _FIDE_ : voir [Mode FIDE]({% link docs/running-an-event/fide-mode.fr.md %}). Activé par défaut ; le désactiver une fois la première ronde appariée est définitif. |
 
 ### Cadence de jeu
 

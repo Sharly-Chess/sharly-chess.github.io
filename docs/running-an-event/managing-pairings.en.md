@@ -39,6 +39,9 @@ To manually pair players (typically late arrivals), click the pairing button nex
 - If there is already a player assigned a pairing-allocated bye and ready to play, you can pair the new player as black against them.
 - If not, the player will be assigned a pairing-allocated bye until a suitable opponent is manually paired.
 
+{: .note }
+> :information_source: In [FIDE mode]({% link docs/running-an-event/fide-mode.en.md %}#manual-pairing), the first manual change starts a manual pairing of the round, which ends when you validate the pairings against the engine's, or cancel your changes.
+
 ---
 
 ## Managing Byes
@@ -113,3 +116,5 @@ You can correct any result using the edit button on the pairing row.
 To avoid accidental changes, _Sharly Chess_ will warn you when editing a past round. You’ll have the option to enter **unsafe mode**, which suppresses warnings for further changes to the same round.
 
 Navigating to another round will automatically exit this mode.
+
+In [FIDE mode]({% link docs/running-an-event/fide-mode.en.md %}#correcting-the-previous-round), there is no unsafe mode: each change to the previous round is confirmed and logged, and older rounds cannot be changed without leaving FIDE mode.

@@ -35,6 +35,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **First board number** | The first board number to use for pairings of this tournament. |
 | **Max byes** | The maximum number of byes a player may request. |
 | **Nb. final rounds without byes** | Number of final rounds in which byes are not permitted. |
+| **FIDE mode** | _Swiss only._ Keeps the tournament within the _FIDE_ regulations: see [FIDE mode]({% link docs/running-an-event/fide-mode.en.md %}). On by default; turning it off once the first round is paired is final. |
 
 ### Time Control
 

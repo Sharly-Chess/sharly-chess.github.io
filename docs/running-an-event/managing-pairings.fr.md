@@ -39,6 +39,9 @@ Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cl
 - S’il y a un·e joueur·euse déjà affecté·e à un bye, vous pouvez les appairer directement ensemble.
 - Sinon, le·la joueur·euse recevra un bye jusqu’à ce qu’un·e adversaire compatible soit ajouté·e.
 
+{: .note }
+> :information_source: En [mode FIDE]({% link docs/running-an-event/fide-mode.fr.md %}#appariement-manuel), la première modification manuelle ouvre un appariement manuel de la ronde, qui se termine quand vous validez les appariements face à ceux du moteur, ou annulez vos modifications.
+
 ---
 
 ## Gérer les absences et les demi-points joker
@@ -114,3 +117,5 @@ Pour éviter les modifications involontaires, _Sharly Chess_ vous alertera en ca
 Vous aurez la possibilité d’activer le **mode non sécurisé** afin de désactiver les alertes pour les autres modifications sur la même ronde.
 
 Ce mode sera automatiquement désactivé dès que vous changerez de ronde.
+
+En [mode FIDE]({% link docs/running-an-event/fide-mode.fr.md %}#corriger-la-ronde-précédente), il n'y a pas de mode non sécurisé : chaque modification de la ronde précédente est confirmée et consignée, et les rondes antérieures ne peuvent pas être modifiées sans quitter le mode FIDE.
