@@ -9,8 +9,19 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.1.0 - September 24, 2026
+## Version 5.1.1 - September 29, 2026
+- Tournaments can be imported from TRF06 and TRF16 files; the import dialog lists every adjustment made to fill in what these older formats lack
+- Scoring systems in which two draws are worth more than a win and a loss are refused, as are pairing-allocated byes worth more than a win or, with the standard scoring system, worth anything other than 1, ½ or 0
+- Team names with characters the _FFE_ website does not store, such as the "œ" of "Sacré Cœur", no longer make the upload of team competitions fail
+- The French School Championship is sent to the school competitions of the _FFE_ website, with the national finals division pre-selected for the national final
+- Players removed by the deletion of unpaired players, or by an import replacing the existing players, are now also deleted on _Sharly-Chess.com_, instead of being brought back by the next synchronisation; re-imported players stay linked to their _Sharly-Chess.com_ registration
+- The _FFE_ player update now finds players whose licence number is wrong or unknown, by their _FIDE_ ID or else by their name and date (or year) of birth, and proposes the correct licence number; names are compared regardless of case and accents; players still not found despite their licence number (or FIDE ID for the FIDE database) are highlighted in the update window
+- Players without a _FIDE_ ID in the _FFE_ database, or with a _FIDE_ ID of 0 in an imported file, no longer prevent the synchronisation with _Sharly-Chess.com_
+- Long club names on ranking screens are cut short with an ellipsis instead of wrapping
+- The championship rankings show the players' club, on screen and printed, and their year of birth on screen
+- The players' year of birth is now shown on _Chess-Results_
 
+## :point_right: Version 5.1.0 - September 24, 2026
 - Knock-out pairing system, for individual and team events
   - Single and double elimination, with one-game or two-game (colours reversed) matches
   - Third-place playoff, grand final reset, colour assignment rules (alternate, higher seed White, drawing of lots)
@@ -37,7 +48,6 @@ separator: true
 - Bonus / penalty points can no longer be given to an individual player of a team event: team events adjust whole teams
 - The team size limit is enforced when importing players from a CSV file, and teams left empty by an overwriting import are deleted
 - Fix: the team ranking of fixed-table tournaments (Molter) now shows the game points and the tie-breaks, which were all displayed as zero
-
 
 ## Version 5.0.4 - September 10, 2026
 - Improve the compacted sidebar on the home page

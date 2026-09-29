@@ -9,8 +9,19 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.1.0 - 24 septembre 2026
+## Version 5.1.1 - 29 septembre 2026
+- Les tournois peuvent être importés depuis des fichiers TRF06 et TRF16 ; la fenêtre d'importation liste tous les ajustements effectués pour pallier les manques de ces anciens formats
+- Les systèmes de score où deux nulles rapportent plus qu'une victoire et une défaite sont refusés, ainsi que les byes qui rapportent plus qu'une victoire ou, dans le système de score standard, une valeur autre que 1, ½ ou 0
+- Les noms d'équipe contenant des caractères non pris en charge par le site de la _FFE_ (comme le « œ » de « Sacré Cœur ») ne provoquent plus l'échec du téléversement des compétitions par équipes
+- Lors de l'utilisation du jeu de règles du championnat scolaire français, la compétition est automatiquement positionnée pour le téléversement vers le site de la _FFE_, avec la division « finale nationale » présélectionnée pour la phase finale
+- Les joueur·euses supprimé·es (suite à la suppression de joueur·euses non apparié·es ou lors d'un import remplaçant les joueur·euses existant·es) sont désormais également supprimé·es sur _Sharly-Chess.com_ et ne sont plus réintégré·es lors de la synchronisation suivante ; les joueur·euses réimporté·es conservent le lien avec leur inscription sur _Sharly-Chess.com_
+- La mise à jour des joueur·euses _FFE_ permet désormais de retrouver les joueur·euses dont le numéro de licence est erroné ou inconnu — en utilisant leur identifiant _FIDE_ ou, à défaut, leur nom et leur date (ou année) de naissance — et propose le numéro de licence correct ; la comparaison des noms ne tient pas compte de la casse ni des accents ; les joueur·euses toujours non identifié·es par leur numéro de licence (ou leur identifiant _FIDE_ pour la base de données _FIDE_) sont mis·es en évidence dans la fenêtre de mise à jour
+- Les joueurs ne possédant pas d'identifiant _FIDE_ dans la base de données _FFE_, ou ayant un identifiant _FIDE_ égal à 0 dans un fichier importé, ne bloquent plus la synchronisation avec _Sharly-Chess.com_
+- Sur les écrans de classement, les noms de clubs trop longs sont tronqués avec des points de suspension au lieu de passer à la ligne
+- Les classements des championnats affichent le club des joueur·euses (à l'écran et à l'impression) ainsi que leur année de naissance (à l'écran)
+- L'année de naissance des joueur·euses est désormais affichée sur _Chess-Results_
 
+## :point_right: Version 5.1.0 - 24 septembre 2026
 - Système d'appariement coupe (élimination directe), pour les évènements individuels et par équipes
   - Élimination simple et double, avec des matchs en une partie ou aller-retour (couleurs inversées)
   - Match pour la troisième place, belle de grande finale, règles d'attribution des couleurs (alternance, meilleure tête de série avec les Blancs, tirage au sort)
