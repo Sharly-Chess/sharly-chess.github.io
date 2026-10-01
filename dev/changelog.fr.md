@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 5.1.2 - 1er octobre 2026
+- Les byes (demi-point et point entier) et les absences sont maintenant envoyées à _Sharly-Chess.com_, dont les grilles américaines montraient une cellule vide et un nombre incorrect de points
+- Le bouton « Toutes absentes » de la fenêtre de pointage des équipes « Toutes présentes »
+- Désapparier un échiquier ne renumérote plus les autres tables de la ronde
+
 ## Version 5.1.1 - 29 septembre 2026
 - Les tournois peuvent être importés depuis des fichiers TRF06 et TRF16 ; la fenêtre d'importation liste tous les ajustements effectués pour pallier les manques de ces anciens formats
 - Les systèmes de score où deux nulles rapportent plus qu'une victoire et une défaite sont refusés, ainsi que les byes qui rapportent plus qu'une victoire ou, dans le système de score standard, une valeur autre que 1, ½ ou 0

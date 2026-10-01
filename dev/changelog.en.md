@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 5.1.2 - October 1, 2026
+- Requested byes (half-point, full-point and zero-point) are now sent to _Sharly-Chess.com_, whose crosstables showed an empty cell and a wrong total for those rounds
+- The "All absent" button of the team check-in window is no longer labelled "Toutes présentes" in French
+- Unpairing a board no longer renumbers the other tables of the round in compact table numbering
+
 ## Version 5.1.1 - September 29, 2026
 - Tournaments can be imported from TRF06 and TRF16 files; the import dialog lists every adjustment made to fill in what these older formats lack
 - Scoring systems in which two draws are worth more than a win and a loss are refused, as are pairing-allocated byes worth more than a win or, with the standard scoring system, worth anything other than 1, ½ or 0
