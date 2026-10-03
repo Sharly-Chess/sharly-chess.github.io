@@ -78,7 +78,7 @@ Dans tous les cas, le classement affiché par _Sharly Chess_ et celui du site we
 
   Ce problème existe depuis plusieurs années (il a été signalé plusieurs fois à la _FFE_ mais n'a jamais été corrigé). Contrairement à _Papi_, _Sharly Chess_ affiche les différences constatées avant de les appliquer et c'est pour cela que les arbitres ne découvrent ce problème qu'aujourd'hui.
 
-  Pratiquement, **il est conseillé de se référer à la base _FFE_ en ligne et n'utiliser la base _FFE_ locale qu'en secours** (lorsque la base _FFE_ n'est pas accessible ou sans connexion à internet). Choisissez **Joueur·euses et classements depuis la source en ligne** sur la ligne _FFE_ des [sources de données]({% link docs/player-databases/index.fr.md %}) : les joueur·euses ajouté·es depuis la liste _FIDE_ et les vérifications de classements lisent alors la base en ligne, la copie installée prenant le relais sans connexion.
+  Pratiquement, **il est conseillé de se référer à la base _FFE_ en ligne et n'utiliser la base _FFE_ locale qu'en secours** (lorsque la base _FFE_ n'est pas accessible ou sans connexion à internet). Choisissez **Essayer d'abord la base en ligne** sur la ligne _FFE_ des [sources de données]({% link docs/player-databases/index.fr.md %}) : les recherches, les joueur·euses ajouté·es depuis la liste _FIDE_ et les vérifications de classements lisent alors la base en ligne, la copie installée prenant le relais sans connexion.
 {% enddetails %}
 
 {% details Comment met-on en ligne les résultats sur le site _FFE_ ? %}
