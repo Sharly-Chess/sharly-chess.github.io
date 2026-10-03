@@ -21,7 +21,7 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **Players per team** | _Team events only._ The number of boards each team fields. |
 | **Rating** | The rating type of the tournament — Standard, Rapid, or Blitz. |
 | **Rating to use** | Specifies if tournaments will use FIDE or national ratings. |
-| **Dates** | The tournament’s start and end dates (overrides the event-level values). |
+| **Dates** | The tournament’s start and end dates (overrides the event-level values). Dates more than 30 days apart offer to split the tournament into [rating periods]({% link docs/running-an-event/rating-periods.en.md %}). |
 | **Location** | The location of the tournament (overrides the event-level value). |
 
 ### Unrated Players

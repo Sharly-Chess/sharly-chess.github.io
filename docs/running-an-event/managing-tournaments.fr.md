@@ -21,7 +21,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 | **Joueur·euses par équipe** | _Événements par équipes uniquement._ Le nombre d’échiquiers alignés par chaque équipe. |
 | **Cadence** | Le type de cadence du tournoi — Classique, Rapide ou Blitz. |
 | **Classement utilisé** | Indique si le tournoi utilise le classement FIDE ou national. |
-| **Dates** | Les dates de début et de fin du tournoi (remplacent celles de l’événement). |
+| **Dates** | Les dates de début et de fin du tournoi (remplacent celles de l’événement). Des dates distantes de plus de 30 jours proposent de découper le tournoi en [périodes de classement]({% link docs/running-an-event/rating-periods.fr.md %}). |
 | **Lieu** | Le lieu du tournoi (remplace celui défini au niveau de l’événement). |
 
 ### Joueurs non classés
