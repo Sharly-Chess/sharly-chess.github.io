@@ -78,7 +78,7 @@ In all cases, the ranking displayed by _Sharly Chess_ and on the _FFE_ website a
 
   This problem has existed for several years (it has been reported to the _FFE_ several times but has never been fixed). Unlike _Papi_, _Sharly Chess_ displays the observed differences before applying them, which is why arbiters are only now discovering this problem.
 
-  In practice, **it is advisable to refer to the online _FFE_ database and only use the local _FFE_ database as a backup** (when the _FFE_ database is not available or there is no internet connection). Choose **Try the online database first** on the _FFE_ row of the [data sources]({% link docs/player-databases/index.en.md %}): searches, players added from the _FIDE_ list and the ratings checks then read the online database, the installed copy standing in when there is no connection.
+  In practice, **it is advisable to refer to the online _FFE_ database and only use the local _FFE_ database as a backup** (when the _FFE_ database is not available or there is no internet connection). Search the online _FFE_ database, and switch on **Try before the installed copy** on its row in the [data sources]({% link docs/player-databases/index.en.md %}): players added from the _FIDE_ list and the ratings checks then read the online database too, the installed copy standing in when there is no connection.
 {% enddetails %}
 
 {% details How do we upload results to the _FFE_ website? %}
