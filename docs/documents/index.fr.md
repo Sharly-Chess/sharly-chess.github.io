@@ -119,4 +119,4 @@ _Sharly Chess_ offre trois documents spécifiques pour réaliser des chevalets d
 Les chevalets sont construits à partir de **modèles**, que vous pouvez créer et modifier avec l'éditeur intégré — voir le [Guide de personnalisation des chevalets]({% link docs/documents/place-cards.fr.md %}).
 
 {: .tip }
-> :point_right: Les chevalets affichent les noms, Elo, clubs… des joueur·euses tels qu'ils figurent dans l'évènement : mettez à jour les informations des joueur·euses depuis les dernières listes de classement avant de les imprimer. La fenêtre des chevalets vous le rappelle.
+> :point_right: Les chevalets affichent les noms, Elo, clubs… des joueur·euses tels qu'ils figurent dans l'évènement : mettez d'abord à jour les classements des joueur·euses avec **Mettre à jour** › **Classements des joueur·euses** (voir [Classements]({% link docs/running-an-event/ratings.fr.md %}#vérifier-les-classements-avec-les-listes)). La fenêtre des chevalets vous le rappelle.

@@ -23,13 +23,28 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 - Recherche de joueur·euses depuis la base de données en ligne fournie par la _FFE_.
 - Téléchargement et recherche locale dans la base de données joueur·euses de la _FFE_.
 - Informations supplémentaires sur les joueur·euses : numéro de licence _FFE_, statut de licence, ligue d’appartenance.
-- Estimation du classement des joueurs non classés selon les règles de la _FFE_.
+- Règles de classement de la _FFE_ : classement utilisé, listes de classement par défaut et estimations pour les joueur·euses non classé·es (voir [Classements](#classements)).
 - Les catégories d’âge sont mises à jour le 1er septembre (au lieu du 1er janvier). Le calcul reste basé sur l’âge du·de la joueur·euse au 1er janvier de l’année en cours.
 - Accès facile aux actions sur le site de la _FFE_ : dépôt du règlement, gestion de la visibilité du tournoi et téléchargement des droits.
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.
 - Critères de prix supplémentaires pour les ligues.
 - Génération des formulaires de la _FFE_ nécessaires à la gestion des tournois en France.
 - Jeux de règles pour les compétitions **par équipes** françaises, avec leurs règles de composition et la fiche d'appariement _Loubatière_.
+
+## Classements
+
+Avec le plug-in _FFE_, la **Source du classement** des tournois est verrouillée sur **_FIDE_, puis nationale**. Les **Listes de classement** restent au choix ; les listes par défaut de la _FFE_ sont :
+
+| **Standard** | _FIDE_ standard → _FFE_ standard |
+| **Rapide** | _FIDE_ rapide → _FIDE_ standard → _FFE_ rapide |
+| **Blitz** | _FIDE_ blitz → _FIDE_ standard → _FFE_ blitz |
+
+Un·e joueur·euse classé·e dans aucune de ces listes reçoit l'estimation prescrite par la _FFE_ selon son âge :
+
+| **Standard** | 1399 (adultes), 1299 (jeunes) |
+| **Rapide et blitz** | 1199, 999 jusqu'à U14, 799 jusqu'à U10 |
+
+Ces estimations suivent la catégorie du·de la joueur·euse (elles changent avec elle) tant que l'arbitre n'a pas saisi de valeur. Les valeurs « E » de la liste _FFE_ ne sont pas importées comme classements. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage des classements.
 
 ## Compétitions par équipes
 
@@ -56,14 +71,14 @@ Dans tous les cas, le classement affiché par _Sharly Chess_ et celui du site we
 
 {% details Pourquoi les classements des joueur·euses ne correspondent-ils pas entre la base _FFE_ en ligne et la base _FFE_ locale ? %}
 
-  Il y a effectivement un différentiel entre les types des classements (_FIDE_, nationaux et estimés) dans les deux bases fédérales, comme on le voit sur les images ci-dessous.
+  Il y a effectivement un différentiel entre les classements (_FIDE_ et nationaux) enregistrés dans les deux bases fédérales, comme on le voit sur les images ci-dessous.
 
   {: .text-center}
   ![Différences de classements entre la base _FFE_ en ligne et la base _FFE_ locale](/assets/faq/faq-ffe-rankings.fr.jpg)
 
   Ce problème existe depuis plusieurs années (il a été signalé plusieurs fois à la _FFE_ mais n'a jamais été corrigé). Contrairement à _Papi_, _Sharly Chess_ affiche les différences constatées avant de les appliquer et c'est pour cela que les arbitres ne découvrent ce problème qu'aujourd'hui.
 
-  Pratiquement, **il est conseillé de se référer à la base _FFE_ en ligne et n'utiliser la base _FFE_ locale qu'en secours** (lorsque la base _FFE_ n'est pas accessible ou sans connexion à internet).
+  Pratiquement, **il est conseillé de se référer à la base _FFE_ en ligne et n'utiliser la base _FFE_ locale qu'en secours** (lorsque la base _FFE_ n'est pas accessible ou sans connexion à internet). Choisissez **Joueur·euses et classements depuis la source en ligne** sur la ligne _FFE_ des [sources de données]({% link docs/player-databases/index.fr.md %}) : les joueur·euses ajouté·es depuis la liste _FIDE_ et les vérifications de classements lisent alors la base en ligne, la copie installée prenant le relais sans connexion.
 {% enddetails %}
 
 {% details Comment met-on en ligne les résultats sur le site _FFE_ ? %}

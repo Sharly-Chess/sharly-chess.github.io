@@ -19,14 +19,27 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **Name** | A user-friendly name used for display purposes (e.g. on [Screens]({% link docs/screens/index.en.md %})).
 | **Rounds** | The number of rounds in the tournament. |
 | **Players per team** | _Team events only._ The number of boards each team fields. |
-| **Rating** | The rating type of the tournament — Standard, Rapid, or Blitz. |
-| **Rating to use** | Specifies if tournaments will use FIDE or national ratings. |
 | **Dates** | The tournament’s start and end dates (overrides the event-level values). |
 | **Location** | The location of the tournament (overrides the event-level value). |
 
-### Unrated Players
+### Ratings
 
-| **Seeding of unrated rapid/blitz** | See [the FAQ entry]({% link dev/faq.en.md %}#standard-rating) for details.
+| **Rating used** | The cadence of the tournament — Standard, Rapid, or Blitz: the time control whose ratings the tournament is played on. |
+| **Rating source** | The kind of rating the players are ranked on, and the one used when they have none: _FIDE_; National; _FIDE_, then national; National, then _FIDE_; Highest of _FIDE_ and national; Lowest of _FIDE_ and national. **Use default - …** takes the event's [setting]({% link docs/running-an-event/creating-an-event.en.md %}). |
+| **Rating lists** | The lists the ratings are looked up in, in this order. The first option, **Default - …**, is the federation's sequence for the cadence (see below). The options only name lists that can give a rating: a national list that publishes only a standard rating offers no national rapid option. |
+
+_FIDE_'s default lists are:
+
+| **Standard** | _FIDE_ standard → _FIDE_ rapid → _FIDE_ blitz |
+| **Rapid** | _FIDE_ rapid → _FIDE_ standard → _FIDE_ blitz |
+| **Blitz** | _FIDE_ blitz → _FIDE_ standard → _FIDE_ rapid |
+
+For each kind of rating, in the order of the **Rating source**, a player is given the value of the first list holding one; failing that, the value typed by the arbiter, then the value prescribed by the federation. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown and checked.
+
+The tournament card shows the lists in use (**Rating lists → …**).
+
+{: .note }
+> :information_source: Federation plugins may set their own default lists, and lock the **Rating source** (see for example the [_FFE_ plugin]({% link docs/plugins/france/ffe.en.md %})).
 
 ### Pairings
 
@@ -62,7 +75,7 @@ Once you've created a tournament it's displayed on the Tournaments page. Each to
 
 - The ability to edit the fields set during creation
 - The ability to download it in various formats (including TRF)
-- Updating the player information from the latest database versions provided by the _FIDE_ or local federation
+- Updating the players' ratings and data from the latest lists (**Actions** › **Update players**, see [Ratings]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists))
 - Duplication and deletion
 
 ---
@@ -80,4 +93,4 @@ With the **descending rating** type, you can also:
 - **Separate players from the same club** — spread the players of the same club across the balanced tournaments, as much as possible, so that club-mates do not meet.
 
 {: .tip }
-> :point_right: The ratings drive the distribution, so update the players' information from the latest rating lists first (see [Managing Players]({% link docs/running-an-event/managing-players.en.md %})). The distribution dialog reminds you to do so.
+> :point_right: The ratings drive the distribution, so check the players' ratings first with **Update** › **Player ratings** (see [Ratings]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists)). The distribution dialog reminds you to do so.

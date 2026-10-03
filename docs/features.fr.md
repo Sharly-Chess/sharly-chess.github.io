@@ -18,7 +18,7 @@ Cette page présente les fonctionnalités de _Sharly Chess_, suite complète de 
 - **Classement des événements** — étiquettes colorées pour organiser vos événements, pré-configurées et personnalisables.
 - **Informations publiques et organisateur** — lieu, nom de l'organisateur, e-mail, directeur, site web, ainsi que les couleurs d'affichage public et les réglages des comptes à rebours.
 - **Formats de tournoi** — Suisse, Toutes-Rondes, système coupe, Suisse par équipes, Toutes-Rondes par équipes, coupe par équipes, ainsi que les tables fixes (Molter) et les variantes Scheveningen. Voir [Gérer les tournois]({% link docs/running-an-event/managing-tournaments.fr.md %}).
-- **Cadence et source de classement** — Standard / Rapide / Blitz par tournoi ; source _FIDE_ / nationale / estimée, avec dérogations possibles.
+- **Classements** — par tournoi : cadence (Standard / Rapide / Blitz), classement utilisé (_FIDE_, national ou une combinaison) et listes de classement ordonnées dans lesquelles les classements sont recherchés ; la provenance de chaque classement est affichée, et une vérification compare les classements des joueur·euses avec les dernières listes. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}).
 - **Programmation des rondes** — dates et heures par ronde.
 - **Ajustements manuels de points** — bonus ou pénalités par joueur·euse et par équipe, chacun avec un motif, pris en compte dans les classements, les départages et l'export TRF.
 - **Byes** — byes à zéro, demi ou un point, exemption, limitation du nombre de byes, et règle « pas de bye lors des N dernières rondes ».
@@ -69,7 +69,7 @@ Détection et calcul automatiques des normes de GM, MI, GMF et MIF selon l'ensem
 
 - **Fiches joueur·euse** — nom, date de naissance, sexe, coordonnées, fédération, club, identifiant _FIDE_ et numéro de table fixe, ainsi que les sommes dues et payées.
 - **Double système de titres** — titres open (GM/MI/MF/CM) et titres féminins (GMF/MIF/MFF/CMF), affichés ensemble le cas échéant.
-- **Classements** — classements par cadence avec un ordre de résolution défini, ainsi que les calculs de classement (estimation premier classement _FIDE_, coefficient K, performance par ronde et variation de classement).
+- **Calculs de classement** — classements par cadence recherchés dans une séquence ordonnée de listes de classement, classement du tournoi distinct du classement _FIDE_ officiel, ainsi que les calculs de classement (estimation premier classement _FIDE_, coefficient K, performance par ronde et variation de classement).
 - **Catégories de joueur·euses** — entièrement configurables par événement.
 - **Gestion des joueur·euses** — tableau triable et filtrable avec recherche _FIDE_ (affinée par fédération, genre, catégorie d'âge et club) et import avec comparaison. Voir [Gérer les joueur·euses]({% link docs/running-an-event/managing-players.fr.md %}).
 - **Gestion des équipes** — compositions avec plafonds d'effectif et réordonnancement, capitaines joueur·euses ou non, groupes d'équipes, alignements par ronde, numérotation stable des échiquiers, byes d'équipe, et score au point de match configurable (par exemple Olympiade 2/1/0). Voir [Événements par équipes]({% link docs/team-tournaments/index.fr.md %}) et [Dérouler les rondes par équipes]({% link docs/team-tournaments/running-team-rounds.fr.md %}).

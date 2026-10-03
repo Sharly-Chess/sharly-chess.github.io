@@ -19,14 +19,27 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 | **Nom** | Un identifiant unique pour le tournoi, utilisé dans les URL et en interne par _Sharly Chess_.  |
 | **Rondes** | Le nombre de rondes du tournoi. |
 | **Joueur·euses par équipe** | _Événements par équipes uniquement._ Le nombre d’échiquiers alignés par chaque équipe. |
-| **Cadence** | Le type de cadence du tournoi — Classique, Rapide ou Blitz. |
-| **Classement utilisé** | Indique si le tournoi utilise le classement FIDE ou national. |
 | **Dates** | Les dates de début et de fin du tournoi (remplacent celles de l’événement). |
 | **Lieu** | Le lieu du tournoi (remplace celui défini au niveau de l’événement). |
 
-### Joueurs non classés
+### Classements
 
-| **Classement des joueur·euses sans classement FIDE rapide/blitz** | Voir [l’entrée FAQ correspondante]({% link dev/faq.fr.md %}#standard-rating) pour plus de détails. |
+| **Classement utilisé** | La cadence du tournoi — Standard, Rapide ou Blitz : la cadence dont les classements sont utilisés pour le tournoi. |
+| **Source du classement** | Le classement sur lequel les joueur·euses sont rangé·es, et celui utilisé à défaut : _FIDE_ ; Nationale ; _FIDE_, puis nationale ; Nationale, puis _FIDE_ ; La plus haute de _FIDE_ et nationale ; La plus basse de _FIDE_ et nationale. **Par défaut – …** reprend le [réglage de l’événement]({% link docs/running-an-event/creating-an-event.fr.md %}). |
+| **Listes de classement** | Les listes dans lesquelles les classements sont recherchés, dans cet ordre. La première option, **Par défaut – …**, est la séquence de la fédération pour la cadence (voir ci-dessous). Les options ne citent que des listes capables de donner un classement : une liste nationale qui ne publie qu’un classement standard ne propose pas d’option nationale rapide. |
+
+Les listes par défaut de la _FIDE_ sont :
+
+| **Standard** | _FIDE_ standard → _FIDE_ rapide → _FIDE_ blitz |
+| **Rapide** | _FIDE_ rapide → _FIDE_ standard → _FIDE_ blitz |
+| **Blitz** | _FIDE_ blitz → _FIDE_ standard → _FIDE_ rapide |
+
+Pour chaque sorte de classement, dans l’ordre de la **Source du classement**, un·e joueur·euse reçoit la valeur de la première liste qui en contient une ; à défaut, la valeur saisie par l’arbitre, puis la valeur prescrite par la fédération. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l’affichage et la vérification des classements.
+
+La carte du tournoi indique les listes utilisées (**Listes de classement → …**).
+
+{: .note }
+> :information_source: Les plug-ins fédéraux peuvent définir leurs propres listes par défaut, et verrouiller la **Source du classement** (voir par exemple le [plug-in _FFE_]({% link docs/plugins/france/ffe.fr.md %})).
 
 ### Appariements
 
@@ -64,7 +77,7 @@ Chaque tournoi dispose de plusieurs options accessibles, notamment :
 
 - Modifier les champs définis lors de la création
 - Télécharger le tournoi sous différents formats (y compris **TRF**)
-- Mettre à jour les informations des joueurs depuis les dernières bases de données de la **FIDE** ou de la fédération nationale
+- Mettre à jour les classements et les données des joueur·euses depuis les dernières listes (**Actions** › **Mettre à jour les joueur·euses**, voir [Classements]({% link docs/running-an-event/ratings.fr.md %}#vérifier-les-classements-avec-les-listes))
 - Dupliquer ou supprimer le tournoi
 
 ---
@@ -82,4 +95,4 @@ Avec le type **classement décroissant**, vous pouvez aussi :
 - **Séparer les joueur·euses du même club** — répartit les joueur·euses d'un même club entre les tournois équilibrés, autant que possible, pour que les membres d'un même club ne se rencontrent pas.
 
 {: .tip }
-> :point_right: La répartition repose sur les Elo : mettez d'abord à jour les informations des joueur·euses depuis les dernières listes de classement (voir [Gérer les joueur·euses]({% link docs/running-an-event/managing-players.fr.md %})). La fenêtre de répartition vous le rappelle.
+> :point_right: La répartition repose sur les Elo : vérifiez d'abord les classements des joueur·euses avec **Mettre à jour** › **Classements des joueur·euses** (voir [Classements]({% link docs/running-an-event/ratings.fr.md %}#vérifier-les-classements-avec-les-listes)). La fenêtre de répartition vous le rappelle.

@@ -62,6 +62,12 @@ For each local database, the window tells how many players it holds and lets you
 - **receive a warning** instead: the "Data sources" option of the menu then shows a warning sign;
 - **update manually** at any time — especially handy on the morning of a tournament.
 
+The **Update all** button updates every active list at once.
+
+A list that also has an online source, such as the _FFE_ database, offers on its row the choice between **Players and ratings from the installed copy** (the default) and **from the online source**. It decides where the ratings of the list are read when players are added from another list (the _FIDE_ one, say) and when the ratings are checked; a search in the online source itself always reads it. The ratings read online say so in their description, for example _FFE online rapid, 03/10/2026_.
+
+The _FIDE_ list is checked every day against _FIDE_'s server. The date on which _FIDE_ published the list is recorded, and shown as the version of the ratings read from it (for the other lists, the version is the day they were fetched). See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how these versions appear on the players' ratings.
+
 While a database is being installed or updated, its button shows the progress (download, players stored, indexing).
 
 When a federation's file cannot be downloaded by the application (a login is needed), download it yourself and install it with the folder button of the database.
