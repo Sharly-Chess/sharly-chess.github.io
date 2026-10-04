@@ -62,6 +62,12 @@ Pour chaque base locale, la fenêtre indique le nombre de joueur·euses qu'elle 
 - de **recevoir une alerte** à la place : l'option « Sources de données » du menu affiche alors un signe d'avertissement ;
 - de l'**actualiser manuellement** à tout moment — particulièrement utile le matin d'un tournoi.
 
+Le bouton **Tout mettre à jour** met à jour toutes les listes actives en une seule fois.
+
+Une liste qui a aussi une version en ligne, comme la base _FFE_, peut être recherchée dans l'une ou l'autre : choisissez sa base locale ou sa base en ligne dans la barre de recherche. Lorsque _Sharly Chess_ consulte la liste de lui-même — à l'ajout d'un·e joueur·euse trouvé·e dans une autre liste (la liste _FIDE_ par exemple) et lors de la vérification des classements —, il lit d'abord la copie installée, puis la base en ligne lorsque la copie n'est pas installée ou ne contient pas le·la joueur·euse. Activez **Essayer avant la copie installée** sur la ligne de la base en ligne pour la lire en premier, la copie installée prenant alors le relais lorsqu'elle est injoignable. Les classements lus en ligne le disent dans leur description, par exemple _FFE en ligne rapide, 03/10/2026_.
+
+La liste _FIDE_ est vérifiée chaque jour auprès du serveur de la _FIDE_. La date à laquelle la _FIDE_ a publié la liste est enregistrée, et affichée comme version des classements qui en sont lus (pour les autres listes, la version est le jour de leur téléchargement). Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage de ces versions sur les classements des joueur·euses.
+
 Pendant l'installation ou la mise à jour d'une base, son bouton indique l'avancement (téléchargement, joueur·euses enregistré·es, indexation).
 
 Lorsque le fichier d'une fédération ne peut pas être téléchargé par l'application (une connexion à un compte est nécessaire), téléchargez-le vous-même et installez-le avec le bouton dossier de la base.

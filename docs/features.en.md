@@ -18,7 +18,7 @@ This page presents the features of _Sharly Chess_, a complete chess competition 
 - **Event categorisation** — colour-coded tags to organise your events; pre-configured and customisable.
 - **Public & organiser details** — location, organiser name, email, director, homepage, plus public-display colours and timer settings.
 - **Tournament formats** — Swiss, round robin, knock-out, team Swiss, team round robin, team knock-out, plus fixed-table (Molter) and Scheveningen variations. See [Managing Tournaments]({% link docs/running-an-event/managing-tournaments.en.md %}).
-- **Rating cadence & source** — Standard / Rapid / Blitz per tournament; _FIDE_ / National / Estimated rating source, with overrides.
+- **Ratings** — per tournament: cadence (Standard / Rapid / Blitz) and the ratings tried, in order, each named by its list, its kind (_FIDE_ or national) and its cadence; the provenance of each rating is shown, and a consistency check compares the players' ratings with the latest lists. See [Ratings]({% link docs/running-an-event/ratings.en.md %}).
 - **Round scheduling** — per-round dates and times.
 - **Manual point adjustments** — per-player and per-team bonuses or penalties, each with a reason, folded into standings, tie-breaks and the TRF export.
 - **Byes** — zero / half / full-point byes, pairing-allocated byes, a maximum-byes cap, and a "no byes in the last N rounds" rule.
@@ -69,7 +69,7 @@ Automatic detection and calculation of GM, IM, WGM and WIM norms following the f
 
 - **Player records** — name, date of birth, gender, contact details, federation, club, _FIDE_ ID and fixed-table number, plus amounts owed and paid.
 - **Dual title system** — open titles (GM/IM/FM/CM) and women's titles (WGM/WIM/WFM/WCM), shown together where relevant.
-- **Ratings** — per-cadence ratings with a defined resolution order, plus rating calculations (initial _FIDE_ rating estimate, K-factor, per-round performance and rating change).
+- **Rating calculations** — per-cadence ratings tried in an ordered sequence, a tournament rating distinct from the official _FIDE_ rating, plus rating calculations (initial _FIDE_ rating estimate, K-factor, per-round performance and rating change).
 - **Player categories** — fully configurable per event.
 - **Managing players** — sortable, filterable table with _FIDE_ search (narrowed by federation, gender, age category and club) and import-with-diff. See [Managing Players]({% link docs/running-an-event/managing-players.en.md %}).
 - **Teams** — rosters with size caps and reordering, playing or non-playing captains, team groups, per-round lineups, stable board numbering, team byes, and configurable match-point scoring (e.g. Olympiad 2/1/0). See [Team events]({% link docs/team-tournaments/index.en.md %}) and [Running team rounds]({% link docs/team-tournaments/running-team-rounds.en.md %}).

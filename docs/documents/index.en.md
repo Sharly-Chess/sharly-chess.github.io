@@ -117,4 +117,4 @@ _Sharly Chess_ offers three document options for creating place cards:
 Place cards are built from **templates**, which you can create and edit with the built-in editor — see the [Place Cards Customization Guide]({% link docs/documents/place-cards.en.md %}).
 
 {: .tip }
-> :point_right: Place cards show the players' names, ratings, clubs… as they stand in the event, so update the players' information from the latest rating lists before printing them. The place cards dialog reminds you to do so.
+> :point_right: Place cards show the players' names, ratings, clubs… as they stand in the event, so bring the players' ratings up to date first with **Update** › **Player ratings** (see [Ratings]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists)). The place cards dialog reminds you to do so.

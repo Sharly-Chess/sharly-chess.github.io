@@ -23,13 +23,28 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 - Player search from the online database provided by the _FFE_.
 - Downloading and local search of the player database provided by the _FFE_.
 - Extra player information including the player's _FFE_ number and license status, and their league.
-- Rating estimation for unrated players based on the _FFE_ rules.
+- _FFE_ rating rules: _FIDE_ ratings first, default sequences and estimates for unrated players (see [Ratings](#ratings)).
 - Age categories are updated on 1 September (instead of 1 January). Calculation is still based on the player’s age as of 1 January of the current year.
 - Easy access to actions on the _FFE_ website: submitting regulations, managing tournament visibility, and downloading fees.
 - _FFE_ specific tie-breaks calculations for compatibility with _Papi_ and the tie-break calculations that are displayed on the _FFE_ site.
 - Extra prize criteria for leagues.
 - Generating _FFE_ forms needed to manage French tournaments.
 - Rule sets for the French **team** competitions, with their roster rules and the _Loubatière_ pairing sheet.
+
+## Ratings
+
+With the _FFE_ plugin, the tournaments try the _FIDE_ ratings first, then the national ones, and the **Ratings tried** are locked to the _FFE_ sequence of the cadence:
+
+| **Standard** | _FIDE_ list: standard → _FFE_: _FIDE_ standard › national standard |
+| **Rapid** | _FIDE_ list: rapid › standard → _FFE_: _FIDE_ rapid › _FIDE_ standard › national rapid |
+| **Blitz** | _FIDE_ list: blitz › standard → _FFE_: _FIDE_ blitz › _FIDE_ standard › national blitz |
+
+A player who holds none of these ratings is given the estimate prescribed by the _FFE_, according to their age:
+
+| **Standard** | 1399 (adults), 1299 (juniors) |
+| **Rapid and blitz** | 1199, 999 up to U14, 799 up to U10 |
+
+These estimates follow the player's category (they change when the category does) until the arbiter types a value. The "E" values of the _FFE_ list are not imported as ratings. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown.
 
 ## Team competitions
 
@@ -79,14 +94,14 @@ In all cases, the ranking displayed by _Sharly Chess_ and on the _FFE_ website a
 
 {% details Why do the player rankings not match between the online and the local _FFE_ databases? %}
 
-  There is indeed a difference between the types of rankings (_FIDE_, national and estimated) in the two federal databases (see below).
+  There is indeed a difference between the ratings (_FIDE_ and national) recorded in the two federal databases (see below).
 
   {: .text-center}
   ![Ranking differences between the online and local _FFE_ databases](/assets/faq/faq-ffe-rankings.en.jpg)
 
   This problem has existed for several years (it has been reported to the _FFE_ several times but has never been fixed). Unlike _Papi_, _Sharly Chess_ displays the observed differences before applying them, which is why arbiters are only now discovering this problem.
 
-  In practice, **it is advisable to refer to the online _FFE_ database and only use the local _FFE_ database as a backup** (when the _FFE_ database is not available or there is no internet connection). 
+  In practice, **it is advisable to refer to the online _FFE_ database and only use the local _FFE_ database as a backup** (when the _FFE_ database is not available or there is no internet connection). Search the online _FFE_ database, and switch on **Try before the installed copy** on its row in the [data sources]({% link docs/player-databases/index.en.md %}): players added from the _FIDE_ list and the ratings checks then read the online database too, the installed copy standing in when there is no connection.
 {% enddetails %}
 
 {% details How do we upload results to the _FFE_ website? %}
