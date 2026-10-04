@@ -41,7 +41,7 @@ You can add one or more filters to each category to limit eligibility:
 - **Gender**: Male or Female
 - **Elo Rating**: Minimum and/or maximum
 - **Age Category**: Specify the age categories concerned (e.g. U12), and optionally include all lower or higher age brackets
-- **Rating Type**: _FIDE_, national, or estimated
+- **Rating Type**: _FIDE_ (F), national (N), or no list (E) — see [Ratings]({% link docs/running-an-event/ratings.en.md %}#reading-a-rating)
 - **Clubs**: Limit the category to specific clubs
 - **Federations**: Limit the category to specific national federations
 

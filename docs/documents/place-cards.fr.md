@@ -122,7 +122,7 @@ Les élements textuels peuvent afficher les informations des joueur·euses, ains
 | `player.first_name`      | Le prénom du·de la joueur·euse                                                  |        `player`        |
 | `player.last_name`       | Le nom de famille du·de la joueur·euse                                          |        `player`        |
 | `player.rating`          | Le classement du·de la joueur·euse, utilisé pour les appariements du tournoi    |        `player`        |
-| `player.rating_type`     | Le type de classement du·de la joueur·euse (`F`=FIDE, `N`=National, `E`=Estimé) |        `player`        |
+| `player.rating_type`     | Le type de classement du·de la joueur·euse (`F`=FIDE, `N`=National, `E`=aucune liste ne classe le·la joueur·euse) |        `player`        |
 | `player.year_of_birth`   | L'année de naissance du·de la joueur·euse                                       |        `player`        |
 | `player.gender`          | Le genre du·de la joueur·euse, sur une lettre                                   |        `player`        |
 | `player.title`           | Le titre _FIDE_ du·de la joueur·euse, le cas échéant                            |        `player`        |

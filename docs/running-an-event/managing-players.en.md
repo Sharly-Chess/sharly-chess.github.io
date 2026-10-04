@@ -30,6 +30,11 @@ In a **team event** the same table instead offers a **Team** field, so you can m
 
 ## Updating Players from the Latest Databases
 
-To ensure player information — especially Elo ratings — is up to date, _Sharly Chess_ allows you to sync your player list with the latest versions of your installed databases.
+To keep the players' information up to date, _Sharly Chess_ compares your player list with the latest versions of your [data sources]({% link docs/player-databases/index.en.md %}). The **Update** menu of the Players page (also in the **Actions** › **Update players** menu of a tournament) offers:
 
-Click the **Update Players** button to choose which databases to use. If differences are found between your list and the database entries, you will be prompted to review and confirm any updates before applying them.
+| **Player ratings** | Checks each player's ratings against the _FIDE_ list and their national list. See [Checking the ratings against the lists]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists). |
+| **Player data from:** _source_ | Updates the players' identity from the chosen source: name, _FIDE_ ID, national ID, title, women's title, category, gender, federation and club. The ratings are never changed here. |
+
+In both cases, the differences found are shown for you to review and confirm before they are applied.
+
+The ratings shown in the players table, and the **Ratings** section of the player form, are described on the [Ratings]({% link docs/running-an-event/ratings.en.md %}) page.

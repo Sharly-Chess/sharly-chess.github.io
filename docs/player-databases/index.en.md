@@ -62,6 +62,12 @@ For each local database, the window tells how many players it holds and lets you
 - **receive a warning** instead: the "Data sources" option of the menu then shows a warning sign;
 - **update manually** at any time — especially handy on the morning of a tournament.
 
+The **Update all** button updates every active list at once.
+
+A list that also has an online version, such as the _FFE_ database, can be searched in either: choose its local database or its online database in the search bar. When _Sharly Chess_ looks the list up on its own — when a player found in another list (the _FIDE_ one, say) is added, and when the ratings are checked — it reads the installed copy first, and the online database when the copy is not installed or does not have the player. Switch on **Try before the installed copy** on the row of the online database to read it first, the installed copy then standing in when it cannot be reached. The ratings read online say so in their description, for example _FFE online rapid, 03/10/2026_.
+
+The _FIDE_ list is checked every day against _FIDE_'s server. The date on which _FIDE_ published the list is recorded, and shown as the version of the ratings read from it (for the other lists, the version is the day they were fetched). See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how these versions appear on the players' ratings.
+
 While a database is being installed or updated, its button shows the progress (download, players stored, indexing).
 
 When a federation's file cannot be downloaded by the application (a login is needed), download it yourself and install it with the folder button of the database.
