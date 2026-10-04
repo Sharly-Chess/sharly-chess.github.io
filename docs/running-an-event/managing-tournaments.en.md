@@ -19,14 +19,28 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 | **Name** | A user-friendly name used for display purposes (e.g. on [Screens]({% link docs/screens/index.en.md %})).
 | **Rounds** | The number of rounds in the tournament. |
 | **Players per team** | _Team events only._ The number of boards each team fields. |
-| **Rating** | The rating type of the tournament — Standard, Rapid, or Blitz. |
-| **Rating to use** | Specifies if tournaments will use FIDE or national ratings. |
 | **Dates** | The tournament’s start and end dates (overrides the event-level values). Dates more than 30 days apart offer to split the tournament into [rating periods]({% link docs/running-an-event/rating-periods.en.md %}). |
 | **Location** | The location of the tournament (overrides the event-level value). |
 
-### Unrated Players
+### Ratings
 
-| **Seeding of unrated rapid/blitz** | See [the FAQ entry]({% link dev/faq.en.md %}#standard-rating) for details.
+| **Rating used** | The cadence of the tournament — Standard, Rapid, or Blitz: the time control whose ratings the tournament is played on. |
+| **Ratings tried** | The ratings the players are ranked on, tried in this order: a player is given the first one they hold. Each rating is named by its list, its kind and its cadence. The first option, **Default - …**, is the federation's sequence for the cadence (see below), following the event's [**Ratings tried by default**]({% link docs/running-an-event/creating-an-event.en.md %}). The **Highest of _FIDE_ and national** and **Lowest of _FIDE_ and national** options compare the first _FIDE_ rating and the first national rating a player holds. |
+
+Within a list, › separates the ratings tried one after the other, and → leads to the next list. For example, _FIDE list: rapid › standard → FFE: FIDE rapid › FIDE standard › national rapid_ tries the rapid then the standard rating of the _FIDE_ list, then the _FIDE_ rapid and standard ratings that the _FFE_ list gives, then the national rapid rating of the _FFE_ list. A national list may give the _FIDE_ ratings of its players besides their national ratings; the options only name the ratings the lists publish: a national list that publishes only a standard rating offers no national rapid rating, and a list that gives no _FIDE_ ratings offers none.
+
+_FIDE_'s default sequences are:
+
+| **Standard** | _FIDE_ list: standard › rapid › blitz |
+| **Rapid** | _FIDE_ list: rapid › standard › blitz |
+| **Blitz** | _FIDE_ list: blitz › standard › rapid |
+
+A player who holds none of the ratings tried is given the value typed by the arbiter; failing that, the value prescribed by the federation. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown and checked.
+
+The tournament card shows the ratings tried (**Ratings tried → …**).
+
+{: .note }
+> :information_source: Federation plugins may impose their federation's sequences, which then cannot be changed (see for example the [_FFE_ plugin]({% link docs/plugins/france/ffe.en.md %})).
 
 ### Pairings
 
@@ -63,7 +77,7 @@ Once you've created a tournament it's displayed on the Tournaments page. Each to
 
 - The ability to edit the fields set during creation
 - The ability to download it in various formats (including TRF)
-- Updating the player information from the latest database versions provided by the _FIDE_ or local federation
+- Updating the players' ratings and data from the latest lists (**Actions** › **Update players**, see [Ratings]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists))
 - Duplication and deletion
 
 ---
@@ -86,4 +100,4 @@ With the **descending rating** type, you can also:
 - **Separate players from the same club** — spread the players of the same club across the balanced tournaments, as much as possible, so that club-mates do not meet.
 
 {: .tip }
-> :point_right: The ratings drive the distribution, so update the players' information from the latest rating lists first (see [Managing Players]({% link docs/running-an-event/managing-players.en.md %})). The distribution dialog reminds you to do so.
+> :point_right: The ratings drive the distribution, so check the players' ratings first with **Update** › **Player ratings** (see [Ratings]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists)). The distribution dialog reminds you to do so.

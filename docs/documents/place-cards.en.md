@@ -128,7 +128,7 @@ Text items can display player information as well as details about the board (fo
 | `player.first_name`      | The player’s first name                                                    | `player`           |
 | `player.last_name`       | The player’s last name                                                     | `player`           |
 | `player.rating`          | The player’s rating (used for pairings)                                    | `player`           |
-| `player.rating_type`     | The rating type (`F` = FIDE, `N` = National, `E` = Estimated)              | `player`           |
+| `player.rating_type`     | The rating type (`F` = FIDE, `N` = National, `E` = no list rates the player) | `player`           |
 | `player.year_of_birth`   | The player’s year of birth                                                 | `player`           |
 | `player.gender`          | The player’s gender (single letter)                                        | `player`           |
 | `player.title`           | The player’s _FIDE_ title, if any                                          | `player`           |

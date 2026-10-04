@@ -18,8 +18,9 @@ Quelques informations de base sont nécessaires pour configurer un événement, 
 | **Type d’événement** | Indique si l’événement est **individuel** ou **par équipes**. Ce choix se fait ici, à la création, et **ne peut plus être modifié ensuite** — il détermine les systèmes d’appariement, les documents et les écrans disponibles. Voir [Événements par équipes]({% link docs/team-tournaments/index.fr.md %}). |
 | **Nom** | Un nom lisible, utilisé à des fins d’affichage (par exemple sur les [Écrans]({% link docs/screens/index.fr.md %})). |
 | **Dates** | Les dates de début et de fin de l’événement. Utilisées pour trier les événements et incluses dans l’export TRF. |
-| **Lieu** | Le lieu de l’événement (par exemple : ville ou salle). |
-| **Classements à utiliser par défaut** | Indique si les tournois utilisent par défaut le classement FIDE ou national. |
+| **Lieu** | Le lieu de l’événement (par exemple : ville ou salle). |
+| **Classements essayés par défaut** | La sorte de classement que la séquence par défaut des tournois essaie d’abord, et celle à laquelle elle se rabat, sauf s’ils [choisissent une autre séquence]({% link docs/running-an-event/managing-tournaments.fr.md %}#classements) : _FIDE_ ; Nationale ; _FIDE_, puis nationale ; Nationale, puis _FIDE_ ; La plus haute de _FIDE_ et nationale ; La plus basse de _FIDE_ et nationale. |
+| **Vérifier les classements avec les listes** | Activé par défaut. Avertit dans la page Joueur·euses lorsque les listes de classement donnent un classement différent à certain·es joueur·euses (voir [Classements]({% link docs/running-an-event/ratings.fr.md %}#vérification-automatique)). |
 
 ## Partage des évènements
 
