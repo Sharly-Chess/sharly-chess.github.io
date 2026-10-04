@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 5.1.3 - 4 octobre 2026
+- Sur Linux, le serveur démarre à nouveau sans affichage, en mode console
+- Les départages de confrontation directe avec résultats manquants suivent désormais l'article 6.3 du HandBook de la _FIDE_, et le départage AOB est affiché avec trois décimales
+- Les compétitions scolaires françaises incluent une phase départementale par équipe et couvrent désormais les lycées : une catégorie (écoles, collèges, lycées) est choisie dans les propriétés du tournoi, les lycées jouent sur 4 échiquiers avec des équipes d'au plus 5 membres dont au moins 1 fille et 1 garçon
+- La mise à jour des classements des joueur·euses depuis le mémo avant d'apparier la première ronde ne court-circuite plus la fenêtre demandant quoi faire avec les joueur·euses absent·es (qui étaient automatiquement apparié·es)
+
 ## Version 5.1.2 - 1er octobre 2026
 - Les byes (demi-point et point entier) et les absences sont maintenant envoyées à _Sharly-Chess.com_, dont les grilles américaines montraient une cellule vide et un nombre incorrect de points
 - Le bouton « Toutes absentes » de la fenêtre de pointage des équipes « Toutes présentes »

@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 5.1.3 - October 4, 2026
+- On Linux, the server starts again without a display (on a headless server), in console mode
+- Direct encounter tie-breaks with games missing between the tied players now follow _FIDE_ Art. 6.3, and AOB is shown to three decimals
+- The French School Championship now covers high schools: a category (primary schools, middle schools, high schools) is chosen in the tournament properties, high schools playing on 4 boards with a roster of up to 5 pupils including at least 1 girl and 1 boy; departmental team finals can be chosen as a phase
+- Updating the ratings from the reminder shown before pairing the first round no longer skips the window asking what to do with absent players, who were then paired
+
 ## Version 5.1.2 - October 1, 2026
 - Requested byes (half-point, full-point and zero-point) are now sent to _Sharly-Chess.com_, whose crosstables showed an empty cell and a wrong total for those rounds
 - The "All absent" button of the team check-in window is no longer labelled "Toutes présentes" in French
