@@ -9,6 +9,14 @@ separator: true
 
 # Changelog
 
+## Version 5.1.4 - 7 octobre 2026
+- Importer un tournoi au format TRF ne marque plus les joueur·euses comme ayant abandonné
+- Les tournois Keizer peuvent être envoyés sur _Sharly-Chess.com_, avec le score Keiser des joueur·euses sur lmes appariements et les classements
+- Les classements envoyés à _Sharly-Chess.com_ montrent show the ranking criteria as in _Sharly Chess_: the points appear once, where they stand among the tie-breaks, the first criterion is in bold, and tied players share a rank
+- New soft constraint for prohibited pairings, avoided as much as the pairing rules allow, used by the _FFE_ team cups to keep teams of the same club apart
+- Un nouveau document « Appariements par équipe » présente les matchs par équipe en un seul tableau, avec les points de match des équipes et sans les joueur·euses
+- Les écrans d'affichage des appariements par échiquier des évènements par équipe peuvent cacher les joueur·euses, pour permettre aux capitaines de trouver leur équipe en un clin d'œil ; les entêtes des matchs affichent le nombre de points de match des équipes et le score des matchs
+
 ## Version 5.1.3 - 4 octobre 2026
 - Sur Linux, le serveur démarre à nouveau sans affichage, en mode console
 - Les départages de confrontation directe avec résultats manquants suivent désormais l'article 6.3 du HandBook de la _FIDE_, et le départage AOB est affiché avec trois décimales

@@ -9,6 +9,14 @@ separator: true
 
 # Changelog
 
+## Version 5.1.4 - October 7, 2026
+- Importing a TRF file of a tournament in progress no longer marks every player as withdrawn: the rounds not paired yet stay unpaired, with the byes already requested for them
+- Keizer tournaments can be sent to _Sharly-Chess.com_, with each player's Keizer score shown on the pairings and in the standings
+- The standings sent to _Sharly-Chess.com_ show the ranking criteria as in _Sharly Chess_: the points appear once, where they stand among the tie-breaks, the first criterion is in bold, and tied players share a rank
+- New soft constraint for prohibited pairings, avoided as much as the pairing rules allow, used by the _FFE_ team cups to keep teams of the same club apart~~~~
+- New "Team pairings" document listing the round's team matches on a single table, with each team's points and the match score, without the players
+- Pairings-by-board screens of team events can display the matches only, without the players, so team captains find their match at a glance; match headers now show each team's points and the match score
+
 ## Version 5.1.3 - October 4, 2026
 - On Linux, the server starts again without a display (on a headless server), in console mode
 - Direct encounter tie-breaks with games missing between the tied players now follow _FIDE_ Art. 6.3, and AOB is shown to three decimals
