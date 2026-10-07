@@ -32,7 +32,8 @@ choice when there are more teams than rounds.
 - With an **odd number of teams**, one team receives a **pairing-allocated bye**
   (PAB) each round.
 - It is the only team system that honours **affiliation protection**: teams that
-  share an affiliation (club, league, …) are kept apart where possible.
+  share an affiliation (club, league, …) are kept apart where possible. See
+  **[Prohibited pairings]({% link docs/running-an-event/prohibited-pairings.en.md %})**.
 
 _Variation:_ Standard.
 
