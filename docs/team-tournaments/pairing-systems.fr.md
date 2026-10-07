@@ -33,7 +33,8 @@ lorsqu'il y a plus d'équipes que de rondes.
   (PAB) à chaque ronde.
 - C'est le seul système par équipes qui applique la **protection par affiliation** :
   les équipes de même affiliation (club, ligue…) sont séparées dans la mesure du
-  possible.
+  possible. Voir
+  **[Protections d'appariement]({% link docs/running-an-event/prohibited-pairings.fr.md %})**.
 
 _Variation :_ Standard.
 
