@@ -113,3 +113,5 @@ Chaque atteinte à l'intégrité des appariements, et chaque modification des pa
 - Le document _FFE_ **procès-verbal (T2)** commence par elles.
 
 Le journal nomme les joueur·euses, quels que soient leurs numéros d'appariement par la suite.
+
+Une [sauvegarde]({% link docs/running-an-event/backups.fr.md %}) de l'évènement est effectuée avant chacune de ces modifications, afin que chacune puisse être annulée exactement.

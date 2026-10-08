@@ -113,3 +113,5 @@ Every event that breaches the integrity of the pairings, and every change to the
 - The _FFE_ **T2 minutes** document opens with them, in French.
 
 The log names the players, whatever becomes of their pairing numbers later.
+
+A [backup]({% link docs/running-an-event/backups.en.md %}) of the event is taken before each of these changes, so that any of them can be undone exactly.
