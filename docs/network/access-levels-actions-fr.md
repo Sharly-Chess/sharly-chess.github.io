@@ -52,7 +52,7 @@
 | Désapparier tous les échiquiers d'une ronde        |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Désapparier un échiquier                           |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Permuter les échiquiers                            |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
-| Changer la ronde courante                          |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
+| Publier et dépublier les appariements              |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Allouer des forfaits                               |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Allouer des byes                                   |     ✔     |     -     |     -     |     ✔     |     ✔     |     ✔     |     -     |     -     |     -     |     -     | - |
 | Allouer des byes point entier                      |     ✔     |     -     |     -     |     ✔     |     ✔     |     -     |     -     |     -     |     -     |     -     | - |
@@ -73,4 +73,4 @@
 
 (*) Connaître la liste des évènements en cours est nécessaire pour sélection les évènements avant de s'authentifier.
 
-<!-- Généré par le script generate_access_levels_doc.py (2026-07-03 22:41) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-10-09 10:30) -->

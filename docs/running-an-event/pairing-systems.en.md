@@ -62,11 +62,10 @@ _Variations:_
 - **Double-round Berger** — double round-robin: each pair meets twice, with the
   colours reversed.
 
-Because every round is known in advance, moving on to the next round is an
-explicit step: when you navigate past the current round, _Sharly Chess_ asks
-whether to **end the round** (making the next one the current round) or just
-take a look at the next round, and warns you if boards are still without a
-result.
+Every round is paired at once, and moving on to the next round is an explicit
+step: [publishing]({% link docs/running-an-event/managing-pairings.en.md %}#publishing-the-pairings)
+the next round makes it the current round and shows it on the screens and the
+online services.
 
 The tournament form offers the **_FIDE_ 6.6 participation rule** for
 round-robins: a player who withdrew or was expelled having completed **less
