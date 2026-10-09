@@ -29,7 +29,22 @@ The administration interface also adapts to **phone screens**, so results can be
 
 You can use the "Pair" button on the pairing interface to automatically pair players.
 
-In a **round-robin**, every round is known in advance, so instead of pairing you **end** the current round: when you navigate past it, _Sharly Chess_ asks whether to end the round (the next one becomes the current round) or just take a look at the next round, and warns you if boards are still without a result.
+In a **round-robin**, every round is paired at once with the "Pair tournament" button, and the round being played is the last one you have [published](#publishing-the-pairings).
+
+---
+
+## Publishing the Pairings
+
+A round you have just paired is not public yet: the screens keep showing the previous round, and the online services (_Sharly-Chess.com_, _Chess-Results_, the _FFE_ website, custom uploads) do not receive it. You can check the pairings, change them, and print them, before anyone sees them.
+
+When the pairings are ready, click the **Publish** button: the screens show the new round and the online services receive it at their next upload.
+
+- A round can be published once every round before it is finished (all its results entered; an adjourned game counts as entered).
+- Publishing a round also publishes the rounds before it that are not published yet, so in a round-robin you can go straight to the round about to start.
+- A published round can be **unpublished** as long as it has no results, to hide its pairings again while you correct them.
+- Unpairing a published round unpublishes it, so pairing it again does not show it before you publish it.
+
+In a **round-robin**, publishing the next round is what moves the tournament on: once the previous round is finished, that round becomes the round being played.
 
 ---
 

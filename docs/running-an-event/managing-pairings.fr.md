@@ -29,7 +29,22 @@ L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les
 
 Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
 
-Dans un **toutes-rondes**, toutes les rondes sont connues d'avance : au lieu d'apparier, vous **terminez** la ronde en cours. Lorsque vous naviguez au-delà de celle-ci, _Sharly Chess_ vous demande s'il faut terminer la ronde (la suivante devient la ronde en cours) ou simplement jeter un œil à la ronde suivante, et vous prévient si des échiquiers sont encore sans résultat.
+Dans un **toutes-rondes**, toutes les rondes sont appariées d'un coup avec le bouton « Apparier le tournoi », et la ronde en cours est la dernière que vous avez [publiée](#publier-les-appariements).
+
+---
+
+## Publier les appariements
+
+Une ronde que vous venez d'apparier n'est pas encore publique : les écrans continuent d'afficher la ronde précédente, et les services en ligne (_Sharly-Chess.com_, _Chess-Results_, le site de la _FFE_, les envois personnalisés) ne la reçoivent pas. Vous pouvez vérifier les appariements, les modifier et les imprimer avant que quiconque ne les voie.
+
+Quand les appariements sont prêts, cliquez sur le bouton **Publier** : les écrans affichent la nouvelle ronde, et les services en ligne la reçoivent lors de leur prochain envoi.
+
+- Une ronde peut être publiée une fois toutes les rondes précédentes terminées (tous leurs résultats saisis ; une partie ajournée compte comme saisie).
+- Publier une ronde publie aussi les rondes précédentes qui ne le sont pas encore : dans un toutes-rondes, vous pouvez passer directement à la ronde qui va commencer.
+- Une ronde publiée peut être **dépubliée** tant qu'elle n'a pas de résultat, pour masquer à nouveau ses appariements le temps de les corriger.
+- Désapparier une ronde publiée la dépublie : l'apparier à nouveau ne l'affiche pas avant que vous ne la publiiez.
+
+Dans un **toutes-rondes**, c'est la publication de la ronde suivante qui fait avancer le tournoi : une fois la ronde précédente terminée, elle devient la ronde en cours.
 
 ---
 
