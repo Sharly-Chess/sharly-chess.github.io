@@ -40,15 +40,33 @@ _Variation:_ Standard.
 
 ## Team Round-Robin
 
-Every team meets every other team. The full schedule is generated up front (the
-Berger tables), so there are no pairing decisions during the event. Because the
-schedule is fixed, teams cannot be added once pairings exist.
+Every team meets every other team. The whole schedule, which teams meet in every
+round, is set before the tournament starts, so there are no pairing decisions
+during the event. The players are still paired round by round, with **Pair**,
+so that each team can change its lineup between rounds. Teams cannot be added
+once a round is paired.
 
 _Variations:_
 
-- **Berger** — single round-robin: each pair of teams meets once.
-- **Double Berger** — double round-robin: each pair meets twice, with colours
-  reversed.
+- **Berger** — single round-robin from the Berger tables: each pair of teams
+  meets once.
+- **Double Berger** — double round-robin from the Berger tables: each pair meets
+  twice, with colours reversed.
+- **Custom schedule** — single round-robin on a schedule you build yourself.
+- **Double-round custom schedule** — double round-robin on a schedule you build
+  yourself.
+
+A Berger tournament follows the Berger tables; once a round is paired, **Edit
+schedule** on the pairings tab lets you change its schedule. A custom
+tournament's pairings tab opens directly on its schedule until it is saved;
+**Edit schedule** then lets you change it. The schedule is set round by round,
+with a list for each team of each match, and is edited and checked as for
+individual round-robins (see
+[The schedule]({% link docs/running-an-event/pairing-systems.en.md %}#the-schedule)),
+except that a round whose matches are paired is locked as a whole: unpair it to
+change it. **Pair** then pairs each round from the saved schedule.
+When a team joins or leaves a custom tournament before it is paired, its
+schedule goes back to its editing, keeping what still fits.
 
 The tournament form offers the **_FIDE_ 6.6 participation rule**: a team that
 withdrew or was expelled having completed **less than half** of its matches is
