@@ -9,6 +9,13 @@ separator: true
 
 # Changelog
 
+## Version 5.1.5 - October 12, 2026
+- On Linux, the language, federation and date format settings are kept when _Sharly Chess_ is updated, and the application no longer adds lines to `~/.bashrc` each time it starts
+- With the Baku acceleration, group A is now always computed from the players entered at the time of the first pairing, even if the pairing settings were saved before more players were entered
+- A pairing-allocated bye worth half a point or nothing now counts as a downfloat when pairing, and at its value in Sonneborn-Berger
+- Pairing place cards can show the round number, and the tournament start date printed on place cards is no longer the end date
+- The _FFE_ practical training certificates (_attestations de stage pratique_) follow the new arbiter titles: AFMatch, AFClub and AFOpen
+
 ## Version 5.1.4 - October 7, 2026
 - Importing a TRF file of a tournament in progress no longer marks every player as withdrawn: the rounds not paired yet stay unpaired, with the byes already requested for them
 - Keizer tournaments can be sent to _Sharly-Chess.com_, with each player's Keizer score shown on the pairings and in the standings
