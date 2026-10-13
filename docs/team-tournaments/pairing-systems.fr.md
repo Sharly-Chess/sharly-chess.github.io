@@ -41,16 +41,38 @@ _Variation :_ Standard.
 
 ## Toutes‑rondes par équipes
 
-Chaque équipe rencontre toutes les autres. Le calendrier complet est généré
-d'emblée (tables de Berger) : aucune décision d'appariement pendant l'épreuve.
-Le calendrier étant fixe, on ne peut plus ajouter d'équipe une fois les
-appariements établis.
+Chaque équipe rencontre toutes les autres. Le calendrier complet, quelles équipes
+se rencontrent à chaque ronde, est fixé avant le début du tournoi : aucune
+décision d'appariement pendant l'épreuve. Les joueur·euses restent apparié·es
+ronde par ronde, avec **Apparier**, pour que chaque équipe puisse changer sa
+composition entre les rondes. On ne peut plus ajouter d'équipe une fois une
+ronde appariée.
 
 _Variations :_
 
-- **Berger** — toutes‑rondes simple : chaque paire d'équipes se rencontre une fois.
-- **Double Berger** — toutes‑rondes double : chaque paire se rencontre deux fois,
-  couleurs inversées.
+- **Berger** — toutes‑rondes simple selon les tables de Berger : chaque paire
+  d'équipes se rencontre une fois.
+- **Double Berger** — toutes‑rondes double selon les tables de Berger : chaque
+  paire se rencontre deux fois, couleurs inversées.
+- **Calendrier personnalisé** — toutes‑rondes simple sur un calendrier que vous
+  établissez vous‑même.
+- **Calendrier personnalisé aller-retour** — toutes‑rondes double sur un
+  calendrier que vous établissez vous‑même.
+
+Un tournoi Berger suit les tables de Berger ; une fois une ronde appariée,
+**Modifier le calendrier** dans l'onglet des appariements permet de changer son
+calendrier. L'onglet des appariements d'un tournoi personnalisé s'ouvre
+directement sur son calendrier tant qu'il n'est pas enregistré ; **Modifier le
+calendrier** permet ensuite de le changer. Le calendrier s'établit ronde par
+ronde, avec une liste pour chaque équipe de chaque match, et se modifie et se
+vérifie comme pour les toutes‑rondes individuels (voir
+[Le calendrier]({% link docs/running-an-event/pairing-systems.fr.md %}#le-calendrier)),
+à ceci près qu'une ronde dont les matchs sont appariés est entièrement
+verrouillée : désappariez‑la pour la modifier. **Apparier** apparie ensuite
+chaque ronde d'après le calendrier enregistré.
+Quand une équipe rejoint ou quitte un tournoi personnalisé avant qu'il soit
+apparié, son calendrier revient à sa modification, en conservant ce qui reste
+valable.
 
 Le formulaire du tournoi propose la **règle de participation _FIDE_ 6.6** : une
 équipe qui a abandonné ou a été exclue après avoir disputé **moins de la
