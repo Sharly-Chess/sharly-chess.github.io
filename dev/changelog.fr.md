@@ -18,7 +18,7 @@ separator: true
 - Avec l'accélération de Bakou, le groupe A est maintenant calculé à partir des joueur·euses arrivé·es au moment du premier appariement, même si les paramètres d'appariement ont été sauvegardés avant l'arrivée de nouveaux·elles joueur·euses
 - Une exemption, valant un demi-point ou zéro point, compte désormais comme un flotteur descendant, tout en conservant sa valeur pour le calcul du Sonneborn-Berger
 - Les numéros de ronde peuvent être placés sur les chevalets, et la date de début du tournoi n'est plus celle de fin
-- Les attestations de stage pratique _FFE_ reflètent la réformes des titres d'arbitre : AFMatch, AFClub et AFOpen
+- Les attestations de stage pratique _FFE_ reflètent la réforme des titres d'arbitre : AFMatch, AFClub et AFOpen
 
 ## Version 5.1.4 - 7 octobre 2026
 - Importer un tournoi au format TRF ne marque plus les joueur·euses comme ayant abandonné
