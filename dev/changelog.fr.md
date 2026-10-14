@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 5.1.6 - 14 octobre 2026
+- La sauvegarde des propriétés des tournois ne Saving the tournament properties no longer switches off the protection of players of the same club (or any other prohibited-pairings setting) or resets the order of the teams
+- Individual round robins (single and double) can be paired with only two players, as team round robins already could with two teams
+
 ## Version 5.1.5 - 12 octobre 2026
 - Sur Linux, la langue, l fédération et le format de date sont conservés lorsque _Sharly Chess_ est mis à jour, et l'application n'ajoute plus de lignes dans `~/.bashrc` à chaque démarrage
 - Avec l'accélération de Bakou, le groupe A est maintenant calculé à partir des joueur·euses arrivé·es au moment du premier appariement, même si les paramètres d'appariement ont été sauvegardés avant l'arrivée de nouveaux·elles joueur·euses

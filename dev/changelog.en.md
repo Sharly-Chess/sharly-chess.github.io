@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 5.1.6 - October 14, 2026
+- Saving the tournament properties no longer switches off the protection of players of the same club (or any other prohibited-pairings setting) or resets the order of the teams
+- Individual round robins (single and double) can be paired with only two players, as team round robins already could with two teams
+
 ## Version 5.1.5 - October 12, 2026
 - On Linux, the language, federation and date format settings are kept when _Sharly Chess_ is updated, and the application no longer adds lines to `~/.bashrc` each time it starts
 - With the Baku acceleration, group A is now always computed from the players entered at the time of the first pairing, even if the pairing settings were saved before more players were entered
