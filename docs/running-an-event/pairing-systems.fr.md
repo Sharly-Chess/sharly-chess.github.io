@@ -35,14 +35,10 @@ joueur·euses que de rondes.
   d'appariement** (PAB) à chaque ronde. Des exempts à zéro, demi‑ ou un point
   peuvent aussi être attribués à la main.
 - Les **appariements interdits** (même club, fédération ou équipe) peuvent être
-  séparés, en règles strictes ou en règles souples qui se relâchent depuis le bas
-  du plateau.
-
-{: .warning }
-
-> :warning: Les **appariements interdits** ne doivent **pas** être utilisés pour
-> les événements officiels _FIDE_ — ils passent outre les règles d'appariement
-> néerlandaises _FIDE_. À réserver aux formats de club et de festival.
+  séparés, en règles strictes, en règles souples qui se relâchent depuis le bas
+  du plateau, ou en règles souples évitées autant que les règles d'appariement le
+  permettent. Voir
+  **[Protections d'appariement]({% link docs/running-an-event/prohibited-pairings.fr.md %})**.
 
 _Variations :_
 
