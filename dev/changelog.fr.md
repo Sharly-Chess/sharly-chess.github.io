@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 5.1.7 - 18 octobre 2026
+- Mise à jour des paramètres d'accélération des appariements lors des ajouts/suppression/edition des joueur·euses pour garder les groupes d'appariements inchangés
+- Conservation de la couleur aléatoire lors de l'édition des paramètres d'appariement sans apparier
+
 ## Version 5.1.6 - 14 octobre 2026
 - La sauvegarde des propriétés des tournois ne Saving the tournament properties no longer switches off the protection of players of the same club (or any other prohibited-pairings setting) or resets the order of the teams
 - Individual round robins (single and double) can be paired with only two players, as team round robins already could with two teams

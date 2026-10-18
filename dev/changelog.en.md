@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 5.1.7 - October 18, 2026
+- Update acceleration pairing settings when adding/deleting/updating players to keep existing pairing groups unchanged
+- Keep the seed colour undecided when editing the pairing settings without pairing
+
 ## Version 5.1.6 - October 14, 2026
 - Saving the tournament properties no longer switches off the protection of players of the same club (or any other prohibited-pairings setting) or resets the order of the teams
 - Individual round robins (single and double) can be paired with only two players, as team round robins already could with two teams
