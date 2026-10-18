@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 5.1.8 - 19 octobre 2026
+- Les tournois accélérés peuvent de nouveau être envoyés sur le site web de la _FFE_
+- When a penalty such as the forfeit penalty of the _FFE_ cups changes the winner of a team match, the next round is now paired on the corrected result, as the standings already showed
+- Lorsqu’une sanction telle que la pénalité pour forfait lors des coupes _FFE_ modifie le vainqueur d’une rencontre par équipes, les appariements du tour suivant sont établis sur la base du résultat rectifié, conformément au classement déjà conforme
+
 ## Version 5.1.7 - 18 octobre 2026
 - Mise à jour des paramètres d'accélération des appariements lors des ajouts/suppression/edition des joueur·euses pour garder les groupes d'appariements inchangés
 - Conservation de la couleur aléatoire lors de l'édition des paramètres d'appariement sans apparier

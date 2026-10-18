@@ -9,6 +9,10 @@ separator: true
 
 # Changelog
 
+## Version 5.1.8 - October 19, 2026
+- Tournaments with accelerated pairings can be sent to the _FFE_ website again
+- When a penalty such as the forfeit penalty of the _FFE_ cups changes the winner of a team match, the next round is now paired on the corrected result, as the standings already showed
+
 ## Version 5.1.7 - October 18, 2026
 - Update acceleration pairing settings when adding/deleting/updating players to keep existing pairing groups unchanged
 - Keep the seed colour undecided when editing the pairing settings without pairing
