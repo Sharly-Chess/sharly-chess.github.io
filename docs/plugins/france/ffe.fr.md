@@ -33,7 +33,7 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 
 ## Classements
 
-Avec le plug-in _FFE_, les tournois essaient les classements _FIDE_ d’abord, puis les nationaux, et les **Classements essayés** sont verrouillés sur la séquence _FFE_ de la cadence :
+Avec le plug-in _FFE_, les tournois recherchent les classements _FIDE_ d’abord, puis les nationaux, et la **Récupération du classement** est verrouillée sur la séquence _FFE_ de la cadence :
 
 | **Standard** | Liste _FIDE_ : standard → _FFE_ : _FIDE_ standard › national standard |
 | **Rapide** | Liste _FIDE_ : rapide › standard → _FFE_ : _FIDE_ rapide › _FIDE_ standard › national rapide |
@@ -44,7 +44,7 @@ Un·e joueur·euse qui ne possède aucun de ces classements reçoit l'estimation
 | **Standard** | 1399 (adultes), 1299 (jeunes) |
 | **Rapide et blitz** | 1199, 999 jusqu'à U14, 799 jusqu'à U10 |
 
-Ces estimations suivent la catégorie du·de la joueur·euse (elles changent avec elle) tant que l'arbitre n'a pas saisi de valeur. Les valeurs « E » de la liste _FFE_ ne sont pas importées comme classements. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage des classements.
+Les champs **Non classé·es** de l'événement et des tournois sont alors désactivés. Ces estimations suivent la catégorie du·de la joueur·euse (elles changent avec elle) tant que l'arbitre n'a pas saisi de valeur. Les valeurs « E » de la liste _FFE_ ne sont pas importées comme classements. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage des classements.
 
 ## Compétitions par équipes
 

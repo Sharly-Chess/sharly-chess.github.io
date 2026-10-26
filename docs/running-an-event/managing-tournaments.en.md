@@ -24,10 +24,11 @@ From the navigation menu, click **Tournaments** to open the Tournaments page, th
 
 ### Ratings
 
-| **Rating used** | The cadence of the tournament — Standard, Rapid, or Blitz: the time control whose ratings the tournament is played on. |
-| **Ratings tried** | The ratings the players are ranked on, tried in this order: a player is given the first one they hold. Each rating is named by its list, its kind and its cadence. The first option, **Default - …**, is the federation's sequence for the cadence (see below), following the event's [**Ratings tried by default**]({% link docs/running-an-event/creating-an-event.en.md %}). The **Highest of _FIDE_ and national** and **Lowest of _FIDE_ and national** options compare the first _FIDE_ rating and the first national rating a player holds. |
+| **Time control** | Standard, Rapid or Blitz: the time control whose ratings the tournament is played on. |
+| **Unrated players** | The rating of the players no list rates and for whom no value is typed. Left empty, the event's [**Unrated players**]({% link docs/running-an-event/creating-an-event.en.md %}) value applies. When a federation plugin prescribes this rating, the field is disabled (see for example the [_FFE_ plugin]({% link docs/plugins/france/ffe.en.md %}#ratings)). |
+| **Rating retrieval** | The ratings looked for, in order of priority: a player is ranked on the first one they hold. Each rating is named by its list, its kind and its cadence. The first option, **Default - …**, is the federation's sequence for the cadence (see below), following the event's [**Rating retrieval by default**]({% link docs/running-an-event/creating-an-event.en.md %}). The **Highest of _FIDE_ and national** and **Lowest of _FIDE_ and national** options compare the first _FIDE_ rating and the first national rating a player holds. |
 
-Within a list, › separates the ratings tried one after the other, and → leads to the next list. For example, _FIDE list: rapid › standard → FFE: FIDE rapid › FIDE standard › national rapid_ tries the rapid then the standard rating of the _FIDE_ list, then the _FIDE_ rapid and standard ratings that the _FFE_ list gives, then the national rapid rating of the _FFE_ list. A national list may give the _FIDE_ ratings of its players besides their national ratings; the options only name the ratings the lists publish: a national list that publishes only a standard rating offers no national rapid rating, and a list that gives no _FIDE_ ratings offers none.
+Within a list, › separates the ratings looked for one after the other, and → leads to the next list. For example, _FIDE list: rapid › standard → FFE: FIDE rapid › FIDE standard › national rapid_ looks for the rapid then the standard rating of the _FIDE_ list, then the _FIDE_ rapid and standard ratings that the _FFE_ list gives, then the national rapid rating of the _FFE_ list. A national list may give the _FIDE_ ratings of its players besides their national ratings; the options only name the ratings the lists publish: a national list that publishes only a standard rating offers no national rapid rating, and a list that gives no _FIDE_ ratings offers none.
 
 _FIDE_'s default sequences are:
 
@@ -35,9 +36,9 @@ _FIDE_'s default sequences are:
 | **Rapid** | _FIDE_ list: rapid › standard › blitz |
 | **Blitz** | _FIDE_ list: blitz › standard › rapid |
 
-A player who holds none of the ratings tried is given the value typed by the arbiter; failing that, the value prescribed by the federation. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown and checked.
+A player who holds none of the ratings looked for is ranked on the value typed by the arbiter; failing that, on the value prescribed by the federation, if any, then on the **Unrated players** value of the tournament or, failing that, of the event (1400 by default). See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown and checked.
 
-The tournament card shows the ratings tried (**Ratings tried → …**).
+The tournament card shows the sequence under **Rating retrieval**.
 
 {: .note }
 > :information_source: Federation plugins may impose their federation's sequences, which then cannot be changed (see for example the [_FFE_ plugin]({% link docs/plugins/france/ffe.en.md %})).

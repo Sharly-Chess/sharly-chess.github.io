@@ -33,7 +33,7 @@ Enabling the plugin adds a number of a features to _Sharly Chess_:
 
 ## Ratings
 
-With the _FFE_ plugin, the tournaments try the _FIDE_ ratings first, then the national ones, and the **Ratings tried** are locked to the _FFE_ sequence of the cadence:
+With the _FFE_ plugin, the tournaments look for the _FIDE_ ratings first, then the national ones, and the **Rating retrieval** is locked to the _FFE_ sequence of the cadence:
 
 | **Standard** | _FIDE_ list: standard → _FFE_: _FIDE_ standard › national standard |
 | **Rapid** | _FIDE_ list: rapid › standard → _FFE_: _FIDE_ rapid › _FIDE_ standard › national rapid |
@@ -44,7 +44,7 @@ A player who holds none of these ratings is given the estimate prescribed by the
 | **Standard** | 1399 (adults), 1299 (juniors) |
 | **Rapid and blitz** | 1199, 999 up to U14, 799 up to U10 |
 
-These estimates follow the player's category (they change when the category does) until the arbiter types a value. The "E" values of the _FFE_ list are not imported as ratings. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown.
+The **Unrated players** fields of the event and the tournaments are then disabled. These estimates follow the player's category (they change when the category does) until the arbiter types a value. The "E" values of the _FFE_ list are not imported as ratings. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown.
 
 ## Team competitions
 
