@@ -35,11 +35,11 @@ Dans un **toutes-rondes**, toutes les rondes sont appariées d'un coup avec le b
 
 ## Publier les appariements
 
-Une ronde que vous venez d'apparier n'est pas encore publique : les écrans continuent d'afficher la ronde précédente, et les services en ligne (_Sharly-Chess.com_, _Chess-Results_, le site de la _FFE_, les envois personnalisés) ne la reçoivent pas. Vous pouvez vérifier les appariements, les modifier et les imprimer avant que quiconque ne les voie.
+Une ronde que vous venez d'apparier n'est pas immédiatement publique : les écrans continuent d'afficher la ronde précédente, et les services en ligne (_Sharly-Chess.com_, _Chess-Results_, le site de la _FFE_, les envois personnalisés) ne la reçoivent pas. Vous pouvez vérifier les appariements, les modifier et les imprimer avant que quiconque ne les voie.
 
 Quand les appariements sont prêts, cliquez sur le bouton **Publier** : les écrans affichent la nouvelle ronde, et les services en ligne la reçoivent lors de leur prochain envoi.
 
-- Une ronde peut être publiée une fois toutes les rondes précédentes terminées (tous leurs résultats saisis ; une partie ajournée compte comme saisie).
+- Une ronde peut être publiée lorsque toutes les rondes précédentes sont terminées (tous leurs résultats saisis ; une partie ajournée est considérée saisie).
 - Publier une ronde publie aussi les rondes précédentes qui ne le sont pas encore : dans un toutes-rondes, vous pouvez passer directement à la ronde qui va commencer.
 - Une ronde publiée peut être **dépubliée** tant qu'elle n'a pas de résultat, pour masquer à nouveau ses appariements le temps de les corriger.
 - Désapparier une ronde publiée la dépublie : l'apparier à nouveau ne l'affiche pas avant que vous ne la publiiez.
