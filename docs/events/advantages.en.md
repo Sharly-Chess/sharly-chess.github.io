@@ -85,7 +85,7 @@ These details make a real difference on the day of the event.
 
 ## A model that sustains the project
 
-The small commission on payments allows us to:
+The registration credits bought by the users of the platform allows us to:
 
 - maintain the platform, which relies on a resilient professional infrastructure
 - develop new features expected by organisers and arbiters
