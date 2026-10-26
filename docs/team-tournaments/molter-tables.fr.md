@@ -81,7 +81,7 @@ numéro d'échiquier et aucun flotteur n'est nécessaire.
   coéquipier·ère.
 - Sur l'ensemble du calendrier, chaque joueur·euse rencontre une **équipe adverse
   distincte** à chaque ronde, et les **couleurs restent fortement équilibrées**.
-- Avec un **nombre impair d'équipes**, un·e joueur·euse « flotte » vers
+- Avec un **nombre impair d'équipes**, un·e joueur·euse « flotte » vers
   l'échiquier voisin pour que personne ne reste sans adversaire — le **flotteur**
   — et ce rôle est réparti équitablement entre les équipes.
 

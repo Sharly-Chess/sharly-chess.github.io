@@ -60,7 +60,7 @@ sudo apt install gnome-software-plugin-flatpak    # Ubuntu/Debian
 sudo dnf install gnome-software                   # Fedora (déjà inclus)
 ```
 
-> Sur Ubuntu, cela ajoute « Logiciels » (icône bleue/blanche), distinct de « Ubuntu Software » (Snap Store).
+> Sur Ubuntu, cela ajoute « Logiciels » (icône bleue/blanche), distinct de « Ubuntu Software » (Snap Store).
 
 ### KDE Plasma (Kubuntu, KDE Neon)
 
@@ -84,7 +84,7 @@ Vérifiez que Flathub a été ajouté :
 
 ```bash
 flatpak remotes --user
-# Devrait afficher « flathub » dans la liste
+# Devrait afficher « flathub » dans la liste
 ```
 
 > **Remarque :** Si Flathub est déjà configuré au niveau système (`flatpak remotes` sans `--user`), cela fonctionnera aussi. Mais l'ajout avec `--user` est préférable car il ne nécessite pas de droits administrateur.
@@ -144,7 +144,7 @@ flatpak update --user
 flatpak remote-info --user --log sharly-chess com.sharlychess.SharlyChess
 ```
 
-Trouvez le hash de commit correspondant à la version souhaitée (ex. : « Version 3.5.1 (x86_64) »).
+Trouvez le hash de commit correspondant à la version souhaitée (ex. : « Version 3.5.1 (x86_64) »).
 
 ### 2. Revenir à cette version
 

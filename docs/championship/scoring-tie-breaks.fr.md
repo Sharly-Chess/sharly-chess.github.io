@@ -29,7 +29,7 @@ les ordonner.
 
 La plupart des règles peuvent être limitées aux **N meilleures étapes** d'un
 compétiteur au lieu de toutes (laissez le champ vide pour toutes les compter).
-C'est ainsi que fonctionnent les circuits « meilleurs 5 résultats de la saison ».
+C'est ainsi que fonctionnent les circuits « meilleurs 5 résultats de la saison ».
 
 Les meilleures étapes sont choisies par la **chaîne de règles configurée
 elle-même** : les étapes d'un compétiteur sont ordonnées comme le classement

@@ -15,8 +15,8 @@ Cette méthode peut être fastidieuse et source d’erreurs.
 
 Les **écrans multiples** (_Multi-Screens_) permettent d’automatiser ce processus en générant automatiquement les écrans simples nécessaires.
 
-{% figure [caption: "Exemple de l’écran multiple « Appariements par joueur·euse » réparti sur 12 écrans."] %}
-![Exemple de l’écran multiple « Appariements par joueur·euse » réparti sur 12 écrans.](/assets/images/players-screen.jpg)
+{% figure [caption: "Exemple de l’écran multiple « Appariements par joueur·euse » réparti sur 12 écrans."] %}
+![Exemple de l’écran multiple « Appariements par joueur·euse » réparti sur 12 écrans.](/assets/images/players-screen.jpg)
 {% endfigure %}
 
 ---

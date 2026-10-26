@@ -45,12 +45,12 @@ Cliquez sur le bouton **Contenu** d’une carte de menu pour choisir ce qu’il 
 
 - **Écrans** — des écrans simples individuels.
 - **Écrans multiples** — un **écran multiple** entier ; il apparaît comme une entrée unique ouvrant un sous-menu de ses écrans générés.
-- **Types d’écran** — tous les écrans d’un type donné d’un coup (affichés sous la forme _« Tous les écrans … »_).
+- **Types d’écran** — tous les écrans d’un type donné d’un coup (affichés sous la forme _« Tous les écrans … »_).
 
 Faites glisser les éléments pour les réordonner ; cet ordre est utilisé pour la barre de navigation.
 
 {: .note }
-> :information_source: Un écran ou un écran multiple ne peut appartenir qu’à **un seul menu**. Les éléments déjà utilisés ailleurs apparaissent grisés dans le sélecteur de contenu, avec une infobulle telle que _« Cet écran appartient déjà à un menu. »_
+> :information_source: Un écran ou un écran multiple ne peut appartenir qu’à **un seul menu**. Les éléments déjà utilisés ailleurs apparaissent grisés dans le sélecteur de contenu, avec une infobulle telle que _« Cet écran appartient déjà à un menu. »_
 
 ---
 

@@ -159,7 +159,7 @@ forme son propre sous-tableau** : les membres d'un groupe se rencontrent
 d'abord entre eux, les groupes se rencontrent ensuite, et les deux groupes les
 plus forts ne peuvent se rencontrer qu'en finale. Au sein d'un groupe, les
 joueur·euses sont classé·es par Elo et les équipes par numéro d'appariement ;
-les participant·es sans valeur forment un unique groupe « sans affiliation ».
+les participant·es sans valeur forment un unique groupe « sans affiliation ».
 
 Chaque groupe est complété par des exempts jusqu'à une même taille (puissance
 de deux) : des groupes inégaux coûtent donc des exempts et des rondes. Le
