@@ -10,7 +10,7 @@ nav_order: 800
 
 ## L'application
 
-{% details Peut-on restreindre l'accès à l'interface d'arbitrage ? %}
+{% details Peut-on restreindre l'accès à l'interface d'arbitrage ? %}
   L'interface d'administration, qui permet toutes les opérations sur le serveur, est accessible depuis le serveur seulement, sur l'URL locale (`http://localhost` ou `http://127.0.0.1`).
 
   Pour accéder depuis le serveur aux pages publiques comme depuis un client (pour le pointage et la saisie des résultats), connectez-vous à l'interface publique (`http://192.168.x.x`) et les pages d'arbitrage ne seront par défaut pas accessibles.
@@ -74,7 +74,7 @@ L'heure des chronomètres affichée sur les clients est l'heure des clients (pas
   {: .text-center}
   ![Demande d'ouverture du pare-feu _Microsoft Defender_](/assets/faq/faq-system-defender-firewall-1.jpg)
 
-  Selon votre pare-feu, le message pourra être différent et la méthode d'ouverture des ports nécessaires pourra également différer ;
+  Selon votre pare-feu, le message pourra être différent et la méthode d'ouverture des ports nécessaires pourra également différer ;
   si nécessaire, contactez votre administrateur réseau pour ouvrir les flux entrants du serveur (par défaut le port `80` en `tcp/udp`, ci-dessous l'autorisation ).
 
   {: .text-center}

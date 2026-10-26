@@ -19,8 +19,8 @@ En activant ce plug-in, vous pouvez importer les inscriptions de tournois depuis
 
 Pour récupérer les inscriptions d’un tournoi depuis la plateforme _ChessEvent_, vous devez renseigner les informations suivantes dans la configuration de l’_Événement_ :
 
-- le nom d’utilisateur utilisé pour se connecter à la plateforme _ChessEvent_ ;
-- le mot de passe utilisé pour se connecter à la plateforme _ChessEvent_ ;
+- le nom d’utilisateur utilisé pour se connecter à la plateforme _ChessEvent_ ;
+- le mot de passe utilisé pour se connecter à la plateforme _ChessEvent_ ;
 - l’ID de l’événement _ChessEvent_ (sur la plateforme _ChessEvent_).
 
 ## Exemple

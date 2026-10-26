@@ -32,7 +32,7 @@ un gain sinon).
 
 Vous choisissez le **score principal** du classement — points de match ou points
 de partie. Par défaut, ce sont les **points de match** (sur les systèmes qui en
-ont). L'autre est le **score secondaire** ; il ne tranche pas les égalités à lui
+ont). L'autre est le **score secondaire** ; il ne tranche pas les égalités à lui
 seul — vous décidez de l'utiliser ou non comme départage (voir ci‑dessous).
 
 ---
@@ -42,7 +42,7 @@ seul — vous décidez de l'utiliser ou non comme départage (voir ci‑dessous)
 À égalité de score principal, _Sharly Chess_ applique les départages que vous avez
 configurés, dans l'ordre choisi. Deux familles sont disponibles.
 
-**Départages spécifiques aux équipes :**
+**Départages spécifiques aux équipes :**
 
 - **Points de match vs points de partie** — le score secondaire (celui qui n'est
   pas principal). Disponible uniquement sur les systèmes ayant des points de match.
@@ -54,11 +54,11 @@ configurés, dans l'ordre choisi. Deux familles sont disponibles.
 - **Confrontation directe étendue** — les résultats entre les équipes à égalité.
 
 **Départages standards** — beaucoup des départages individuels s'appliquent aussi
-aux équipes : Buchholz (et ses variantes), Sonneborn‑Berger, Koya, confrontation
+aux équipes : Buchholz (et ses variantes), Sonneborn‑Berger, Koya, confrontation
 directe, scores progressifs, et d'autres.
 
 {: .note }
 
-> :information_source: Les départages pertinents dépendent du système : ceux qui
+> :information_source: Les départages pertinents dépendent du système : ceux qui
 > font référence aux points de match (comme _Points de match vs points de partie_)
 > ne sont proposés que là où les points de match existent — donc pas pour le Molter.

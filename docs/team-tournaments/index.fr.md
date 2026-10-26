@@ -12,7 +12,7 @@ nav_order: 500
 Un **événement** est soit un **événement par équipes**, soit un événement
 individuel — jamais les deux. Dans un événement par équipes, les joueur·euses
 concourent en **équipes**, les équipes sont appariées entre elles, et le
-classement s'établit en scores d'équipe. Cette page est une vue d'ensemble ; voir
+classement s'établit en scores d'équipe. Cette page est une vue d'ensemble ; voir
 les pages filles pour le détail.
 
 ---
@@ -34,17 +34,17 @@ les pages filles pour le détail.
 
 ## Systèmes d'appariement
 
-Cinq systèmes apparient les équipes ; choisissez celui qui convient à votre
-format :
+Cinq systèmes apparient les équipes ; choisissez celui qui convient à votre
+format :
 
 - **Suisse par équipes** — apparie des équipes entières selon le classement à
-  chaque ronde ; idéal pour les grands plateaux. Gère les exempts et la protection
+  chaque ronde ; idéal pour les grands plateaux. Gère les exempts et la protection
   entre équipes apparentées.
 - **Toutes‑rondes par équipes** (Berger) — chaque équipe rencontre toutes les
-  autres ; calendrier fixe généré d'emblée.
+  autres ; calendrier fixe généré d'emblée.
 - **Match en deux parties** — un face‑à‑face entre deux équipes avec alternance
   des couleurs.
-- **[Coupe par équipes]({% link docs/running-an-event/knockout.fr.md %})** — une coupe : les équipes sont réparties dans
+- **[Coupe par équipes]({% link docs/running-an-event/knockout.fr.md %})** — une coupe : les équipes sont réparties dans
   un tableau, l'équipe perdante est éliminée et la gagnante continue. Élimination
   simple ou double, confrontations en un ou deux matchs.
 - **[Molter]({% link docs/team-tournaments/molter-tables.fr.md %})** — un système à tableau fixe pour les **petits
@@ -56,7 +56,7 @@ format :
 
 ## Décompte des points
 
-Les résultats d'équipe s'agrègent sur les échiquiers :
+Les résultats d'équipe s'agrègent sur les échiquiers :
 
 - **Points de partie (PP)** — la somme des résultats individuels des échiquiers.
   Toujours disponibles.

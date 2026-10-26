@@ -9,7 +9,7 @@ nav_order: 400
 
 # Terms and Conditions
 
-**Last update : 2025 Apr 24th**
+**Last update: 2025 Apr 24th**
 
 The _Sharly Chess_ association is governed by the French Associations Act of July 1, 1901: we are a French non-profit organization that manages the sharly-chess.com website and the development of the _Sharly Chess_ software suite.
 

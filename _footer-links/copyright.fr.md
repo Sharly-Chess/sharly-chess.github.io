@@ -19,9 +19,9 @@ Consultez la [Licence Publique Générale Affero (en anglais)](/license) pour pl
 
 ## Limites
 
-Dans tous les cas, si vous redistribuez ce produit vous devez :
+Dans tous les cas, si vous redistribuez ce produit vous devez :
 
-- le distribuer sous licence AGLP V3 (ou supérieure) et donc mettre à disposition tous les sources ;
+- le distribuer sous licence AGLP V3 (ou supérieure) et donc mettre à disposition tous les sources ;
 - faire référence au produit d'origine (_Sharly Chess_) ;
 - ne pas laisser d’ambiguïté sur l'origine du produit, qui pourrait laisser penser que vous en êtes l'auteur·ice.
 

@@ -11,7 +11,7 @@ nav_order: 400
 
 Une fois les équipes en place et un [système d'appariement]({% link docs/team-tournaments/pairing-systems.fr.md %})
 choisi, chaque ronde suit la même boucle. L'essentiel reprend le déroulé d'un
-événement individuel ; cette page couvre ce qui est propre aux équipes.
+événement individuel ; cette page couvre ce qui est propre aux équipes.
 
 ## Compositions
 
@@ -25,20 +25,20 @@ joueur·euses occupent les échiquiers — l'échiquier 1 est le premier échiqu
 
 ## Pointage
 
-Les équipes **pointent en tant qu'unité** avant de pouvoir être appariées : pointer
+Les équipes **pointent en tant qu'unité** avant de pouvoir être appariées : pointer
 une équipe la marque présente pour la ronde. Vous pouvez le faire depuis l'écran
 d'administration ou depuis un écran de pointage dédié sur un autre appareil.
 
 ## Appariements et match
 
 Générez les appariements de la ronde comme d'habitude. Un appariement d'équipes est
-un **match** : un ensemble d'échiquiers entre deux équipes (ou, en
+un **match** : un ensemble d'échiquiers entre deux équipes (ou, en
 [Molter]({% link docs/team-tournaments/molter-tables.fr.md %}), des échiquiers
 individuels entre équipes). Les couleurs suivent le système.
 
 ## Saisie des résultats
 
-Saisissez le résultat de chaque **échiquier** ; le résultat du match s'agrège
+Saisissez le résultat de chaque **échiquier** ; le résultat du match s'agrège
 automatiquement en points de partie — et en points de match sur les systèmes qui en
 ont. Comme pour un événement individuel, les joueur·euses peuvent saisir leurs
 résultats depuis un écran, l'arbitre confirmant.
