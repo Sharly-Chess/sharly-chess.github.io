@@ -35,7 +35,7 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 | **Numéro de la première table** | Le numéro de table à utiliser pour la première table de ce tournoi. |
 | **Nombre maximum de demi-points joker** | Nombre maximal de demi-points joker (byes) qu’un·e joueur·euse peut demander. |
 | **Dernières rondes sans demi-points joker** | Nombre de rondes finales pendant lesquelles les demi-points joker ne sont pas autorisées. |
-| **Mode FIDE** | _Suisse uniquement._ Maintient le tournoi dans le cadre du règlement _FIDE_ : voir [Mode FIDE]({% link docs/running-an-event/fide-mode.fr.md %}). Activé par défaut ; le désactiver une fois la première ronde appariée est définitif. |
+| **Mode FIDE** | _Suisse uniquement._ Maintient le tournoi dans le cadre du règlement _FIDE_ : voir [Mode FIDE]({% link docs/running-an-event/fide-mode.fr.md %}). Activé par défaut ; le désactiver une fois la première ronde appariée est définitif. |
 
 ### Cadence de jeu
 
@@ -75,7 +75,7 @@ Chaque tournoi dispose de plusieurs options accessibles, notamment :
 Le bouton **Répartir les joueur·euses dans les tournois** (sur la page Tournois, et dans le menu **Actions** de la page Joueur·euses) répartit **tou·tes les joueur·euses de l'évènement** entre ses tournois en une seule opération, quel que soit le tournoi dans lequel ils·elles se trouvent. La répartition n'est possible que dans les évènements individuels, avant le début de tout tournoi, et lorsque tous les tournois ont la même cadence (Classique, Rapide ou Blitz).
 
 {: .tip }
-> :point_right: Une façon pratique d'organiser les inscriptions consiste à créer un unique **tournoi d'attente** qui recueille toutes les inscriptions — manuellement, depuis un fichier ou depuis [_Sharly-Chess.com_]({% link docs/events/index.fr.md %}) — puis à répartir les joueur·euses dans les vrais tournois une fois les inscriptions closes. Attribuez 0 joueur·euse au tournoi d'attente (**Classement décroissant**) ou ne le sélectionnez pas (**Selon les critères de chaque tournoi**) ; une fois vidé, il peut être supprimé.
+> :point_right: Une façon pratique d'organiser les inscriptions consiste à créer un unique **tournoi d'attente** qui recueille toutes les inscriptions — manuellement, depuis un fichier ou depuis [_Sharly-Chess.com_]({% link docs/events/index.fr.md %}) — puis à répartir les joueur·euses dans les vrais tournois une fois les inscriptions closes. Attribuez 0 joueur·euse au tournoi d'attente (**Classement décroissant**) ou ne le sélectionnez pas (**Selon les critères de chaque tournoi**) ; une fois vidé, il peut être supprimé.
 
 Deux types de répartition sont proposés :
 

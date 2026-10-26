@@ -10,16 +10,16 @@ nav_order: 400
 
 Les sources de données servent à rechercher les joueur·euses lors de leur ajout à un tournoi, à les importer depuis un fichier par leur identifiant, et à mettre à jour leurs données (classements, titres, club…) depuis les dernières listes.
 
-Il en existe deux sortes :
+Il en existe deux sortes :
 
-- les **bases de données locales**, téléchargées sur votre machine et interrogées sans connexion internet pendant l'événement : la liste _FIDE_ et les listes de classement des fédérations nationales ;
-- les **sources en ligne**, interrogées en direct : par exemple le site de la _FFE_, fourni par son [plug-in]({% link docs/plugins/index.fr.md %}).
+- les **bases de données locales**, téléchargées sur votre machine et interrogées sans connexion internet pendant l'événement : la liste _FIDE_ et les listes de classement des fédérations nationales ;
+- les **sources en ligne**, interrogées en direct : par exemple le site de la _FFE_, fourni par son [plug-in]({% link docs/plugins/index.fr.md %}).
 
 ## Bases de données disponibles
 
-La **base de données _FIDE_** est construite à partir de la liste publiée chaque mois par la _FIDE_ : tou·tes les joueur·euses enregistré·es, avec leur identifiant, leur fédération, leurs titres, leurs classements standard, rapide et blitz et leurs coefficients K.
+La **base de données _FIDE_** est construite à partir de la liste publiée chaque mois par la _FIDE_ : tou·tes les joueur·euses enregistré·es, avec leur identifiant, leur fédération, leurs titres, leurs classements standard, rapide et blitz et leurs coefficients K.
 
-Les listes des fédérations suivantes sont également converties par _Sharly Chess_ depuis les fichiers publiés par les fédérations :
+Les listes des fédérations suivantes sont également converties par _Sharly Chess_ depuis les fichiers publiés par les fédérations :
 
 | Fédération | Base | Cadences | Contient aussi |
 |---|---|---|---|
@@ -46,20 +46,20 @@ Les noms sont recherchés sans tenir compte des accents ni de la casse, et une l
 
 ## Choisir ses sources de données
 
-Seules les sources que vous utilisez apparaissent dans l'application. La fenêtre **Sources de données**, ouverte depuis le menu de navigation, liste les sources actives ; le bouton **Ajouter une source de données** propose les autres, et le bouton corbeille d'une source la retire (et supprime sa base).
+Seules les sources que vous utilisez apparaissent dans l'application. La fenêtre **Sources de données**, ouverte depuis le menu de navigation, liste les sources actives ; le bouton **Ajouter une source de données** propose les autres, et le bouton corbeille d'une source la retire (et supprime sa base).
 
-Certaines sources sont activées pour vous :
+Certaines sources sont activées pour vous :
 
-- la base _FIDE_ est active d'emblée et installée au premier lancement de l'application ;
-- les sources d'une fédération sont activées à la création du premier événement de cette fédération (ou lorsque vous la choisissez comme fédération par défaut) ;
+- la base _FIDE_ est active d'emblée et installée au premier lancement de l'application ;
+- les sources d'une fédération sont activées à la création du premier événement de cette fédération (ou lorsque vous la choisissez comme fédération par défaut) ;
 - un plug-in active les sources dont il a besoin.
 
 ## Garder les bases à jour
 
-Pour chaque base locale, la fenêtre indique le nombre de joueur·euses qu'elle contient et vous permet de choisir :
+Pour chaque base locale, la fenêtre indique le nombre de joueur·euses qu'elle contient et vous permet de choisir :
 
-- de l'**actualiser automatiquement** lorsqu'elle est obsolète, après le délai que vous définissez (chaque jour, chaque semaine, le premier jour du mois…) ;
-- de **recevoir une alerte** à la place : l'option « Sources de données » du menu affiche alors un signe d'avertissement ;
+- de l'**actualiser automatiquement** lorsqu'elle est obsolète, après le délai que vous définissez (chaque jour, chaque semaine, le premier jour du mois…) ;
+- de **recevoir une alerte** à la place : l'option « Sources de données » du menu affiche alors un signe d'avertissement ;
 - de l'**actualiser manuellement** à tout moment — particulièrement utile le matin d'un tournoi.
 
 Pendant l'installation ou la mise à jour d'une base, son bouton indique l'avancement (téléchargement, joueur·euses enregistré·es, indexation).

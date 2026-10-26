@@ -31,7 +31,7 @@ La fenêtre qui s’ouvre au lancement de _Sharly Chess_ est le serveur lui-mêm
 | **Réseaux** | Les réseaux auxquels votre ordinateur est connecté, et l’adresse de _Sharly Chess_ sur chacun d’eux (voir [Réseau]({% link docs/network/index.fr.md %})). |
 | **Plug-ins** | Installer et désinstaller des [plug-ins]({% link docs/plugins/index.fr.md %}). |
 | **Logs** | Le journal de l’application, utile pour signaler un problème. |
-| **Paramètres** | La **langue**, la **fédération** par défaut et le **format de date** ; le lancement d’un navigateur au démarrage ; les fonctionnalités expérimentales ; le **dossier des données** (l’ouvrir, ou le déplacer) ; et les mises à jour (rechercher les mises à jour, inclure les versions bêta). |
+| **Paramètres** | La **langue**, la **fédération** par défaut et le **format de date** ; le lancement d’un navigateur au démarrage ; les fonctionnalités expérimentales ; le **dossier des données** (l’ouvrir, ou le déplacer) ; et les mises à jour (rechercher les mises à jour, inclure les versions bêta). |
 
 {: .note }
 > :information_source: Depuis la version 5.1, les paramètres de langue, de fédération et de format de date, ainsi que l’installation des plug-ins, se trouvent dans cette fenêtre et non plus dans l’interface du navigateur.

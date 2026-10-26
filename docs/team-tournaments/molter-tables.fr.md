@@ -30,7 +30,7 @@ que le bon tableau soit sélectionné pour vous automatiquement.
 Imaginez un petit tournoi par équipes — quelques clubs, quatre joueur·euses
 chacun, deux ou trois rondes dans l'après-midi. Vous voulez :
 
-- que **tout le monde joue à chaque ronde** (personne n'est exempt) ;
+- que **tout le monde joue à chaque ronde** (personne n'est exempt) ;
 - des **couleurs équilibrées** pour chaque joueur·euse ;
 - que chaque équipe rencontre une **répartition équitable d'adversaires** ;
 - et vous préférez éviter un appariement suisse complet ou un toutes‑rondes.
@@ -147,7 +147,7 @@ de conserver ce niveau de qualité.
 
 Prenons **3 équipes (A, B, C) de 4 joueur·euses** sur 2 rondes. Chaque ronde compte
 6 parties, notées _blancs – noirs_ (ainsi `A1` est le·la joueur·euse d'échiquier 1
-de l'équipe A) :
+de l'équipe A) :
 
 | Ronde 1 | Ronde 2 |
 |:---:|:---:|
@@ -167,7 +167,7 @@ de l'équipe A) :
 - **Les couleurs s'équilibrent** : A1 a les blancs à la ronde 1 et les noirs à la
   ronde 2.
 - Comme 3 est impair, une partie oppose parfois des joueur·euses d'échiquiers
-  voisins (`C2 – B1`) : c'est le **flotteur** en action, ce qui permet à chacun·e
+  voisins (`C2 – B1`) : c'est le **flotteur** en action, ce qui permet à chacun·e
   d'avoir une partie.
 
 _Sharly Chess_ produit ce tableau pour vous — vous ne recopiez rien.

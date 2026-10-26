@@ -41,7 +41,7 @@ où l'on choisit le système d'appariement.
 Les réglages dépendent de la méthode :
 
 - **Méthodes par groupes** (Bakou, Haley, Haley doux utilisent deux groupes ;
-  Progressif en utilise trois) : le plateau est divisé en **Groupe A**,
+  Progressif en utilise trois) : le plateau est divisé en **Groupe A**,
   **Groupe B** (et **Groupe C**), chacun défini par un rang de départ **minimum**
   et **maximum**. Le groupe du haut porte les points fictifs.
 - **Système accéléré personnalisé** — **Rondes accélérées** : une liste de règles,

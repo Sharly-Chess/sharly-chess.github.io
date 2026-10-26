@@ -11,7 +11,7 @@ nav_order: 52
 
 {: .warning }
 
-> :warning: **FONCTIONNALITÉ EXPÉRIMENTALE !**<br/>
+> :warning: **FONCTIONNALITÉ EXPÉRIMENTALE !**<br/>
 > La prise en charge Linux est encore expérimentale et peut ne pas fonctionner sur toutes les distributions Linux.<br/>
 > Par ailleurs, les développeurs de _Sharly Chess_ ne sont pas en mesure d'apporter du support sur cette partie et recherchent des experts Linux. Contactez-nous !
 

@@ -43,7 +43,7 @@ _Variation :_ Standard.
 ## Toutes‑rondes par équipes
 
 Chaque équipe rencontre toutes les autres. Le calendrier complet est généré
-d'emblée (tables de Berger) : aucune décision d'appariement pendant l'épreuve.
+d'emblée (tables de Berger) : aucune décision d'appariement pendant l'épreuve.
 Le calendrier étant fixe, on ne peut plus ajouter d'équipe une fois les
 appariements établis.
 

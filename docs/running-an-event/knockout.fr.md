@@ -62,7 +62,7 @@ match par équipes à égalité de points de parties), le match est décidé par
 
 Dans une coupe, les départages configurés pour le tournoi ne servent **pas** à
 classer les participant·es (une coupe se classe selon le tour atteint, voir
-plus bas) : ils décident **qui se qualifie à l'issue d'un match à égalité**,
+plus bas) : ils décident **qui se qualifie à l'issue d'un match à égalité**,
 dans l'ordre où vous les listez. Seuls les départages capables de séparer deux
 participant·es parvenu·es au même stade sont proposés — par exemple l'**Elo**,
 le **numéro d'appariement**, le nombre de **parties gagnées** (ou gagnées avec
@@ -162,7 +162,7 @@ joueur·euses sont classé·es par Elo et les équipes par numéro d'appariement
 les participant·es sans valeur forment un unique groupe « sans affiliation ».
 
 Chaque groupe est complété par des exempts jusqu'à une même taille (puissance
-de deux) : des groupes inégaux coûtent donc des exempts et des rondes. Le
+de deux) : des groupes inégaux coûtent donc des exempts et des rondes. Le
 formulaire du tournoi affiche un **aperçu en direct** des groupes, de la taille
 du tableau obtenu, de son nombre de rondes et d'exempts pour le critère choisi,
 et vous prévient lorsque les groupes sont si inégaux que la majeure partie du

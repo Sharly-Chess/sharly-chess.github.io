@@ -26,7 +26,7 @@ les pages filles pour le détail.
   utilisée par le **Suisse par équipes** pour éviter d'apparier entre elles les
   équipes d'un même club ou d'une même ligue.
 - La **composition** d'une équipe pour une ronde est, par défaut, les _N_
-  premier·ères joueur·euses de la liste (où _N_ est le nombre d'échiquiers) ; vous
+  premier·ères joueur·euses de la liste (où _N_ est le nombre d'échiquiers) ; vous
   pouvez la modifier ronde par ronde.
 - Les équipes **pointent** en tant qu'unité avant de pouvoir être appariées.
 

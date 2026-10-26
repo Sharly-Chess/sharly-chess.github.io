@@ -11,9 +11,9 @@ nav_order: 500
 
 ## L’interface d’appariement
 
-L’interface d’appariement est divisée en deux parties :
-- **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (demi-point joker).
-- **À droite** : les appariements confirmés pour la ronde.
+L’interface d’appariement est divisée en deux parties :
+- **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (demi-point joker).
+- **À droite** : les appariements confirmés pour la ronde.
 
 Des contrôles de navigation permettent de changer de tournoi ou de ronde.
 Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
@@ -21,7 +21,7 @@ Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
 {: .note }
 > :information_source: L'interface s'adapte au [système d'appariement]({% link docs/running-an-event/pairing-systems.fr.md %}) : un toutes-rondes n'a pas de liste de non-apparié·es, et un [système coupe]({% link docs/running-an-event/knockout.fr.md %}) affiche à la place qui est encore en lice dans le tableau.
 
-L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les résultats peuvent être saisis — et les appariements vérifiés — depuis un smartphone dans la salle de jeu.
+L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les résultats peuvent être saisis — et les appariements vérifiés — depuis un smartphone dans la salle de jeu.
 
 ---
 
@@ -29,22 +29,22 @@ L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les
 
 Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
 
-Dans un **toutes-rondes**, toutes les rondes sont appariées d'un coup avec le bouton « Apparier le tournoi », et la ronde en cours est la dernière que vous avez [publiée](#publier-les-appariements).
+Dans un **toutes-rondes**, toutes les rondes sont appariées d'un coup avec le bouton « Apparier le tournoi », et la ronde en cours est la dernière que vous avez [publiée](#publier-les-appariements).
 
 ---
 
 ## Publier les appariements
 
-Une ronde que vous venez d'apparier n'est pas immédiatement publique : les écrans continuent d'afficher la ronde précédente, et les services en ligne (_Sharly-Chess.com_, _Chess-Results_, le site de la _FFE_, les envois personnalisés) ne la reçoivent pas. Vous pouvez vérifier les appariements, les modifier et les imprimer avant que quiconque ne les voie.
+Une ronde que vous venez d'apparier n'est pas immédiatement publique : les écrans continuent d'afficher la ronde précédente, et les services en ligne (_Sharly-Chess.com_, _Chess-Results_, le site de la _FFE_, les envois personnalisés) ne la reçoivent pas. Vous pouvez vérifier les appariements, les modifier et les imprimer avant que quiconque ne les voie.
 
-Quand les appariements sont prêts, cliquez sur le bouton **Publier** : les écrans affichent la nouvelle ronde, et les services en ligne la reçoivent lors de leur prochain envoi.
+Quand les appariements sont prêts, cliquez sur le bouton **Publier** : les écrans affichent la nouvelle ronde, et les services en ligne la reçoivent lors de leur prochain envoi.
 
-- Une ronde peut être publiée lorsque toutes les rondes précédentes sont terminées (tous leurs résultats saisis ; une partie ajournée est considérée saisie).
-- Publier une ronde publie aussi les rondes précédentes qui ne le sont pas encore : dans un toutes-rondes, vous pouvez passer directement à la ronde qui va commencer.
+- Une ronde peut être publiée lorsque toutes les rondes précédentes sont terminées (tous leurs résultats saisis ; une partie ajournée est considérée saisie).
+- Publier une ronde publie aussi les rondes précédentes qui ne le sont pas encore : dans un toutes-rondes, vous pouvez passer directement à la ronde qui va commencer.
 - Une ronde publiée peut être **dépubliée** tant qu'elle n'a pas de résultat, pour masquer à nouveau ses appariements le temps de les corriger.
-- Désapparier une ronde publiée la dépublie : l'apparier à nouveau ne l'affiche pas avant que vous ne la publiiez.
+- Désapparier une ronde publiée la dépublie : l'apparier à nouveau ne l'affiche pas avant que vous ne la publiiez.
 
-Dans un **toutes-rondes**, c'est la publication de la ronde suivante qui fait avancer le tournoi : une fois la ronde précédente terminée, elle devient la ronde en cours.
+Dans un **toutes-rondes**, c'est la publication de la ronde suivante qui fait avancer le tournoi : une fois la ronde précédente terminée, elle devient la ronde en cours.
 
 ---
 
@@ -61,9 +61,9 @@ Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cl
 
 ## Gérer les absences et les demi-points joker
 
-Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·de la joueur·euse. Vous pouvez :
-- marquer le·la joueur·euse **absent·e** pour la ronde en cours (bye à 0 point) ;
-- donner un **demi-point joker** (bye à 0,5 point, si autorisé) ;
+Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·de la joueur·euse. Vous pouvez :
+- marquer le·la joueur·euse **absent·e** pour la ronde en cours (bye à 0 point) ;
+- donner un **demi-point joker** (bye à 0,5 point, si autorisé) ;
 - marquer le·la joueur·euse comme ayant **abandonné** le tournoi, ce qui le·la marque absent·e pour toutes les rondes restantes.
 
 {: .note }
@@ -77,9 +77,9 @@ Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·
 
 ## Entrer les résultats
 
-Chaque ligne d’appariement comprend un bouton permettant de :
-- saisir ou modifier un résultat ;
-- permuter les couleurs si les joueur·euses ont joué du mauvais côté ;
+Chaque ligne d’appariement comprend un bouton permettant de :
+- saisir ou modifier un résultat ;
+- permuter les couleurs si les joueur·euses ont joué du mauvais côté ;
 - supprimer un appariement en cas d’erreur d’adversaire.
 
 {: .tip }
@@ -89,15 +89,15 @@ Chaque ligne d’appariement comprend un bouton permettant de :
 
 ### Saisie rapide
 
-Parfaite pour saisir de nombreux résultats rapidement, notamment depuis une feuille imprimée. Pour l’utiliser :
+Parfaite pour saisir de nombreux résultats rapidement, notamment depuis une feuille imprimée. Pour l’utiliser :
 
 1. Activez le mode **Remplacement** dans les raccourcis clavier.
 2. Cliquez sur une ligne d’appariement (hors du bouton) pour la sélectionner.
-3. Utilisez les raccourcis suivants :
-   - **1** : victoire des Blancs
-   - **2** : victoire des Noirs
-   - **3** : partie nulle
-   - **0** : effacer le résultat
+3. Utilisez les raccourcis suivants :
+   - **1** : victoire des Blancs
+   - **2** : victoire des Noirs
+   - **3** : partie nulle
+   - **0** : effacer le résultat
 
 Le tableau passera automatiquement à la ligne suivante après chaque saisie.
 
@@ -105,7 +105,7 @@ Le tableau passera automatiquement à la ligne suivante après chaque saisie.
 
 ### Vérification rapide
 
-Pour valider les résultats après les avoir saisis :
+Pour valider les résultats après les avoir saisis :
 
 1. Activez le mode **Surbrillance**.
 2. Cliquez sur une ligne d’appariement pour la sélectionner.
@@ -133,4 +133,4 @@ Vous aurez la possibilité d’activer le **mode non sécurisé** afin de désac
 
 Ce mode sera automatiquement désactivé dès que vous changerez de ronde.
 
-En [mode FIDE]({% link docs/running-an-event/fide-mode.fr.md %}#corriger-la-ronde-précédente), il n'y a pas de mode non sécurisé : chaque modification de la ronde précédente est confirmée et consignée, et les rondes antérieures ne peuvent pas être modifiées sans quitter le mode FIDE.
+En [mode FIDE]({% link docs/running-an-event/fide-mode.fr.md %}#corriger-la-ronde-précédente), il n'y a pas de mode non sécurisé : chaque modification de la ronde précédente est confirmée et consignée, et les rondes antérieures ne peuvent pas être modifiées sans quitter le mode FIDE.
