@@ -9,6 +9,34 @@ separator: true
 
 # Changelog
 
+## Version 5.1.8 - 19 octobre 2026
+- Les tournois accélérés peuvent de nouveau être envoyés sur le site web de la _FFE_
+- When a penalty such as the forfeit penalty of the _FFE_ cups changes the winner of a team match, the next round is now paired on the corrected result, as the standings already showed
+- Lorsqu’une sanction telle que la pénalité pour forfait lors des coupes _FFE_ modifie le vainqueur d’une rencontre par équipes, les appariements du tour suivant sont établis sur la base du résultat rectifié, conformément au classement déjà conforme
+
+## Version 5.1.7 - 18 octobre 2026
+- Mise à jour des paramètres d'accélération des appariements lors des ajouts/suppression/edition des joueur·euses pour garder les groupes d'appariements inchangés
+- Conservation de la couleur aléatoire lors de l'édition des paramètres d'appariement sans apparier
+
+## Version 5.1.6 - 14 octobre 2026
+- La sauvegarde des propriétés des tournois ne Saving the tournament properties no longer switches off the protection of players of the same club (or any other prohibited-pairings setting) or resets the order of the teams
+- Individual round robins (single and double) can be paired with only two players, as team round robins already could with two teams
+
+## Version 5.1.5 - 12 octobre 2026
+- Sur Linux, la langue, l fédération et le format de date sont conservés lorsque _Sharly Chess_ est mis à jour, et l'application n'ajoute plus de lignes dans `~/.bashrc` à chaque démarrage
+- Avec l'accélération de Bakou, le groupe A est maintenant calculé à partir des joueur·euses arrivé·es au moment du premier appariement, même si les paramètres d'appariement ont été sauvegardés avant l'arrivée de nouveaux·elles joueur·euses
+- Une exemption, valant un demi-point ou zéro point, compte désormais comme un flotteur descendant, tout en conservant sa valeur pour le calcul du Sonneborn-Berger
+- Les numéros de ronde peuvent être placés sur les chevalets, et la date de début du tournoi n'est plus celle de fin
+- Les attestations de stage pratique _FFE_ reflètent la réforme des titres d'arbitre : AFMatch, AFClub et AFOpen
+
+## Version 5.1.4 - 7 octobre 2026
+- Importer un tournoi au format TRF ne marque plus les joueur·euses comme ayant abandonné
+- Les tournois Keizer peuvent être envoyés sur _Sharly-Chess.com_, avec le score Keiser des joueur·euses sur lmes appariements et les classements
+- Les classements envoyés à _Sharly-Chess.com_ montrent show the ranking criteria as in _Sharly Chess_: the points appear once, where they stand among the tie-breaks, the first criterion is in bold, and tied players share a rank
+- New soft constraint for prohibited pairings, avoided as much as the pairing rules allow, used by the _FFE_ team cups to keep teams of the same club apart
+- Un nouveau document « Appariements par équipe » présente les matchs par équipe en un seul tableau, avec les points de match des équipes et sans les joueur·euses
+- Les écrans d'affichage des appariements par échiquier des évènements par équipe peuvent cacher les joueur·euses, pour permettre aux capitaines de trouver leur équipe en un clin d'œil ; les entêtes des matchs affichent le nombre de points de match des équipes et le score des matchs
+
 ## Version 5.1.3 - 4 octobre 2026
 - Sur Linux, le serveur démarre à nouveau sans affichage, en mode console
 - Les départages de confrontation directe avec résultats manquants suivent désormais l'article 6.3 du HandBook de la _FIDE_, et le départage AOB est affiché avec trois décimales
@@ -125,7 +153,8 @@ separator: true
   - Tri par ordre d'appariement ou par numéro d'échiquier de la vue d'administration des appariements, du document d'appariements et des écrans d'appariement pour les utilisateurs
 - Fonctionnalités spécifiques à la _FFE_ pour les tables fixes (pour compatibilité avec les appariements affichés sur le site _FFE_)
 - Création d’étiquettes personnalisées pouvant être attribuées aux évènements pour faciliter le filtrage
-- Création d'évènement autorisée pour le niveau d'accès « Organisation »
+- Création d'évènement autorisée pour le niveau d'accès 
+- « Organisation »
 - Ajout de la fédération Curaçao (CUR)
 - Désignation des membres du staff comme arbitres, en plus des rôles d'arbitre en chef et arbitre adjoint·e, et prise en compte dans les documents des tournois et dans les exports _Chess-Results_
 - Amélioration de la gestion des prix
@@ -141,7 +170,7 @@ separator: true
 - Amélioration des rapports de normes
   - Les rapports de normes générés avant la fin du tournoi supposent désormais que les joueurs disputeront les rondes restantes pour l'application des règles 1.5.6a et 1.4.3d
   - Le calcul des normes de titre prend désormais en compte les titres féminins : les adversaires détenant un titre de GMF ou MIF sont correctement comptabilisées pour les exigences des règles 1.4.5 et 1.4.3d, même lorsqu'elles détiennent également un titre mixte
-- Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
+- Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
 - Téléversement personnalisé des documents HTML
 
 ## Version 4.2.8 - August 11, 2026

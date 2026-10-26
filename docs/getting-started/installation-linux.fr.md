@@ -13,15 +13,15 @@ nav_order: 52
 
 > :warning: **FONCTIONNALITÉ EXPÉRIMENTALE !**<br/>
 > La prise en charge Linux est encore expérimentale et peut ne pas fonctionner sur toutes les distributions Linux.<br/>
-> Par ailleurs, les développeurs de _Sharly Chess_ ne sont pas en mesure d'apporter du support sur cette partie et recherchent des experts Linux. Contactez-nous !
+> Par ailleurs, les développeurs de _Sharly Chess_ ne sont pas en mesure d'apporter du support sur cette partie et recherchent des experts Linux. Contactez-nous !
 
 ## Prérequis
 
 - Un ordinateur Intel/AMD ou ARM avec une distribution Linux (voir les distributions testées ci-dessous).
 
-## Étape 1 : Installer Flatpak
+## Étape 1 : Installer Flatpak
 
-La version Linux de _Sharly Chess_ est distribuée en tant qu'application [Flatpak](https://flatpak.org). Flatpak doit peut-être être installé au préalable :
+La version Linux de _Sharly Chess_ est distribuée en tant qu'application [Flatpak](https://flatpak.org). Flatpak doit peut-être être installé au préalable :
 
 ###  Fedora / Linux Mint / Pop!_OS
 
@@ -49,9 +49,9 @@ sudo zypper install flatpak
 
 Consultez [flathub.org/setup](https://flathub.org/setup) pour votre distribution.
 
-## Étape 2 : Intégration graphique (optionnel)
+## Étape 2 : Intégration graphique (optionnel)
 
-Pour installer des applications depuis le centre de logiciels et ouvrir les fichiers `.flatpakrepo` par double-clic :
+Pour installer des applications depuis le centre de logiciels et ouvrir les fichiers `.flatpakrepo` par double-clic :
 
 ### GNOME (Ubuntu, Fedora Workstation)
 
@@ -60,7 +60,7 @@ sudo apt install gnome-software-plugin-flatpak    # Ubuntu/Debian
 sudo dnf install gnome-software                   # Fedora (déjà inclus)
 ```
 
-> Sur Ubuntu, cela ajoute « Logiciels » (icône bleue/blanche), distinct de « Ubuntu Software » (Snap Store).
+> Sur Ubuntu, cela ajoute « Logiciels » (icône bleue/blanche), distinct de « Ubuntu Software » (Snap Store).
 
 ### KDE Plasma (Kubuntu, KDE Neon)
 
@@ -71,7 +71,7 @@ sudo dnf install discover                          # Fedora (déjà inclus)
 
 ---
 
-## Étape 3 : Activer Flathub
+## Étape 3 : Activer Flathub
 
 Flathub n'est **pas configuré par défaut** sur la plupart des distributions. Il doit être ajouté manuellement. Sharly Chess en a besoin pour télécharger ses dépendances (environnement GNOME).
 
@@ -80,20 +80,20 @@ Flathub n'est **pas configuré par défaut** sur la plupart des distributions. I
 flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
-Vérifiez que Flathub a été ajouté :
+Vérifiez que Flathub a été ajouté :
 
 ```bash
 flatpak remotes --user
-# Devrait afficher « flathub » dans la liste
+# Devrait afficher « flathub » dans la liste
 ```
 
-> **Remarque :** Si Flathub est déjà configuré au niveau système (`flatpak remotes` sans `--user`), cela fonctionnera aussi. Mais l'ajout avec `--user` est préférable car il ne nécessite pas de droits administrateur.
+> **Remarque :** Si Flathub est déjà configuré au niveau système (`flatpak remotes` sans `--user`), cela fonctionnera aussi. Mais l'ajout avec `--user` est préférable car il ne nécessite pas de droits administrateur.
 
 ---
 
-## Étape 4 : Redémarrer (obligatoire)
+## Étape 4 : Redémarrer (obligatoire)
 
-Si vous venez d'installer Flatpak pour la **première fois**, vous **devez redémarrer** votre ordinateur. Sans cela :
+Si vous venez d'installer Flatpak pour la **première fois**, vous **devez redémarrer** votre ordinateur. Sans cela :
 
 - Les icônes n'apparaîtront pas dans le menu
 - Les variables d'environnement ne seront pas correctes
@@ -101,7 +101,7 @@ Si vous venez d'installer Flatpak pour la **première fois**, vous **devez redé
 
 ---
 
-## Étape 5 : Installer Sharly Chess
+## Étape 5 : Installer Sharly Chess
 
 ```bash
 flatpak remote-add --user --if-not-exists sharly-chess \
@@ -114,7 +114,7 @@ flatpak install --user sharly-chess com.sharlychess.SharlyChess
 
 ## Lancer _Sharly Chess_
 
-Vous trouverez _Sharly Chess_ dans le menu de démarrage. Vous pouvez également le lancer depuis le terminal :
+Vous trouverez _Sharly Chess_ dans le menu de démarrage. Vous pouvez également le lancer depuis le terminal :
 
 ```bash
 flatpak run com.sharlychess.SharlyChess
@@ -128,7 +128,7 @@ Lors des exécutions suivantes, Sharly Chess ouvrira l'interface d'administratio
 
 ## Mises à jour
 
-Sharly Chess se met à jour automatiquement en même temps que vos autres applications Flatpak. Pour forcer une mise à jour :
+Sharly Chess se met à jour automatiquement en même temps que vos autres applications Flatpak. Pour forcer une mise à jour :
 
 ```bash
 flatpak update --user
@@ -144,7 +144,7 @@ flatpak update --user
 flatpak remote-info --user --log sharly-chess com.sharlychess.SharlyChess
 ```
 
-Trouvez le hash de commit correspondant à la version souhaitée (ex. : « Version 3.5.1 (x86_64) »).
+Trouvez le hash de commit correspondant à la version souhaitée (ex. : « Version 3.5.1 (x86_64) »).
 
 ### 2. Revenir à cette version
 
@@ -158,7 +158,7 @@ flatpak update --user --commit=HASH_COMPLET com.sharlychess.SharlyChess
 flatpak pin --user com.sharlychess.SharlyChess
 ```
 
-Pour retirer l'épinglette :
+Pour retirer l'épinglette :
 
 ```bash
 flatpak pin --user --remove com.sharlychess.SharlyChess
@@ -168,7 +168,7 @@ flatpak pin --user --remove com.sharlychess.SharlyChess
 
 ## Stockage des données
 
-Les données de l'application sont stockées dans un répertoire isolé, avec un sous-dossier par version :
+Les données de l'application sont stockées dans un répertoire isolé, avec un sous-dossier par version :
 
 ```
 ~/.var/app/com.sharlychess.SharlyChess/data/

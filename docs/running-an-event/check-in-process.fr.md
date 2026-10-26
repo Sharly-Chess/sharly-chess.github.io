@@ -11,7 +11,7 @@ nav_order: 400
 
 Utiliser _Sharly Chess_ pour gérer le pointage des joueur·euses permet de démarrer votre tournoi de façon fluide et organisée.
 
-Il existe plusieurs façons de gérer le pointage :
+Il existe plusieurs façons de gérer le pointage :
 
 - Vous pouvez pointer les joueur·euses directement depuis l’interface d’administration.
 - Si vous avez des tablettes ou ordinateurs accessibles aux joueur·euses, ils·elles peuvent se pointer eux·elles-mêmes via un écran dédié.
@@ -25,7 +25,7 @@ Il existe plusieurs façons de gérer le pointage :
 Pour lancer le pointage, rendez-vous sur l'onglet' **Joueur·euses** dans l’interface d’administration et cliquez sur le bouton **Pointage**.
 Vous pouvez choisir pour quels tournois ouvrir le pointage.
 
-Une fois le pointage ouvert, le statut de pointage de chaque joueur·euse est affiché dans le tableau :
+Une fois le pointage ouvert, le statut de pointage de chaque joueur·euse est affiché dans le tableau :
 > <i class="bi-circle-fill" style="color: #ffc107; padding-right: 0.3rem;"></i> joueur·euse non pointé·e<br />
 > <i class="bi-circle-fill" style="color: #198754; padding-right: 0.3rem;"></i> joueur·euse pointé·e<br />
 > <i class="bi-ban" style="color: #6c757d; padding-right: 0.3rem;"></i> joueur·euse absent·e
@@ -42,7 +42,7 @@ Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordi
 
 ## Clôturer le pointage
 
-Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointage en cliquant à nouveau sur le bouton **Pointage**. Si des joueur·euses ne sont pas pointé·es, il vous sera demandé comment les traiter :
+Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointage en cliquant à nouveau sur le bouton **Pointage**. Si des joueur·euses ne sont pas pointé·es, il vous sera demandé comment les traiter :
 
 - Les marquer comme absent·es (bye à 0 point) pour la prochaine ronde, ou
 - Les marquer comme absent·es (bye à 0 point) pour toutes les rondes restantes du tournoi.
@@ -54,4 +54,4 @@ Quand vous êtes prêt·e à commencer le tournoi, vous pouvez fermer le pointag
 ## Ré-ouvrir le pointage
 
 Pour les tournois sur plusieurs jours pour lesquels seul·es les joueur·euses pointé·e sotn apparié·es à chaque ronde, vous pouvez choisir de ré-ouverir le pointage au début de chaque ronde.
-Lorsque vous ré-ouvrez le pointage, les statuts de tous les joueur·euses sont réinitialisés : ils·elles devront se pointer à nouveau.
+Lorsque vous ré-ouvrez le pointage, les statuts de tous les joueur·euses sont réinitialisés : ils·elles devront se pointer à nouveau.

@@ -11,7 +11,7 @@ excerpt: "Ce samedi 6 septembre, une session de formation Sharly Chess s’est t
 
 Ce samedi 6 septembre, une session de formation _Sharly Chess_ s’est tenue à Romans-sur-Isère, animée par Timothy ARMES, l’un des développeurs du projet.
 
-Plusieurs personnalités reconnues de la sphère échiquéenne régionale étaient présentes :
+Plusieurs personnalités reconnues de la sphère échiquéenne régionale étaient présentes :
 * Claire PERNOUD, Arbitre Élite 2
 * Françoise RINGOT, Présidente de la Ligue ARA, Arbitre Fédéral Open 2
 * Thierry DELELIS-FANIEN, Vice-Président de la Ligue ARA, Arbitre Élite 1

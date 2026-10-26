@@ -12,13 +12,13 @@ nav_order: 360
 
 Un **Grand Prix** est un classement agrégé construit à partir de tournois
 appartenant à plusieurs **événements indépendants** — un circuit sur une saison,
-un grand prix, un championnat scolaire. Il ne possède aucun tournoi en propre : il
+un grand prix, un championnat scolaire. Il ne possède aucun tournoi en propre : il
 **référence** des tournois d'événements existants et lit leurs résultats **en
 direct**, si bien que le classement reflète toujours l'état actuel de chaque
 source.
 
 Chaque Grand Prix est soit **individuel**, soit **par équipes**. Le type est choisi
-à la création et ne peut plus être modifié ensuite ; chaque tournoi source doit lui
+à la création et ne peut plus être modifié ensuite ; chaque tournoi source doit lui
 correspondre (un Grand Prix individuel n'accepte que des tournois individuels, un
 Grand Prix par équipes que des tournois par équipes).
 
@@ -26,7 +26,7 @@ Grand Prix par équipes que des tournois par équipes).
 
 ## Les quatre onglets
 
-Un Grand Prix est organisé en quatre onglets :
+Un Grand Prix est organisé en quatre onglets :
 
 - **Configuration** — le nom, la date de référence des catégories d'âge
   (individuel) ou la base de score par équipe (par équipes), les
@@ -35,7 +35,7 @@ Un Grand Prix est organisé en quatre onglets :
 - **Sources** — les tournois à partir desquels le classement est construit, et
   leurs coefficients.
 - **Joueurs** / **Équipes** — les compétiteurs rapprochés entre les sources.
-- **Classements** — le classement : le classement général et les éventuels
+- **Classements** — le classement : le classement général et les éventuels
   classements par catégorie.
 
 ---
@@ -44,12 +44,12 @@ Un Grand Prix est organisé en quatre onglets :
 
 Une **source** est un tournoi, identifié par son événement et par le tournoi au
 sein de cet événement. Ajoutez des sources dans l'onglet **Sources** avec
-**Ajouter un tournoi** : choisissez un événement, puis l'un de ses tournois. Seuls
+**Ajouter un tournoi** : choisissez un événement, puis l'un de ses tournois. Seuls
 les tournois du type de compétiteur du Grand Prix sont proposés.
 
 Chaque source possède un **coefficient** (par défaut **1**) qui peut pondérer cette
 étape — ce qui permet par exemple de faire compter une finale double. Son
-application se décide **par règle de score** : une règle peut être réglée pour
+application se décide **par règle de score** : une règle peut être réglée pour
 multiplier sa valeur par le coefficient, et seules les règles de type valeur
 (points, valeurs de départage) peuvent être pondérées (voir
 [règles de score et de départage]({% link docs/championship/scoring-tie-breaks.fr.md %})).
@@ -70,13 +70,13 @@ d'un Grand Prix ne supprime jamais l'événement ni le tournoi source.
 ## Compétiteurs
 
 Dans l'onglet **Joueurs** ou **Équipes**, _Sharly Chess_ **rapproche** les
-compétiteurs de toutes les sources : un même joueur ou une même équipe apparaissant
+compétiteurs de toutes les sources : un même joueur ou une même équipe apparaissant
 dans plusieurs tournois est regroupé sur une seule ligne, par identité (identifiant
 FIDE, nom et date de naissance, ou une clé de fédération). Ce calcul est refait à
 chaque fois, puisque les sources sont lues en direct.
 
 Lorsque le rapprochement automatique manque quelqu'un — une faute de frappe, un
-identifiant FIDE absent —, vous pouvez le corriger à la main :
+identifiant FIDE absent —, vous pouvez le corriger à la main :
 
 - **Fusionner** deux compétiteurs ou plus qui sont en réalité la même personne ou
   la même équipe.
@@ -87,7 +87,7 @@ identifiant FIDE absent —, vous pouvez le corriger à la main :
 ## Classements et catégories
 
 Le **classement général** inclut tous les compétiteurs et est toujours disponible.
-Par-dessus, vous pouvez créer des **catégories** : des classements filtrés qui
+Par-dessus, vous pouvez créer des **catégories** : des classements filtrés qui
 n'affichent que les compétiteurs satisfaisant un ensemble de **critères** (âge,
 sexe, classement Élo, ainsi que tous les critères ajoutés par vos plugins de
 fédération — le même vocabulaire que les catégories de prix). Un compétiteur doit
@@ -104,7 +104,7 @@ départagées — est définie par les
 [règles de score et de départage]({% link docs/championship/scoring-tie-breaks.fr.md %}).
 
 Pour un Grand Prix par équipes, la **base de score par équipe** de l'onglet
-Configuration détermine quel score d'équipe le classement utilise : le score
+Configuration détermine quel score d'équipe le classement utilise : le score
 principal de chaque tournoi source, les points de match, ou les points de partie.
 
 ---

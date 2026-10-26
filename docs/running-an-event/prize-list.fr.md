@@ -15,7 +15,7 @@ Sharly Chess propose un système de gestion des prix puissant et flexible, capab
 
 ### Catégories de prix
 
-Les prix sont regroupés en _catégories de prix_ (par exemple : U12, meilleure féminine, classement Elo 1000–1200, etc.). Chaque catégorie peut :
+Les prix sont regroupés en _catégories de prix_ (par exemple : U12, meilleure féminine, classement Elo 1000–1200, etc.). Chaque catégorie peut :
 
 * comporter une ou plusieurs places (1er, 2e, etc.) ;
 * inclure des critères permettant de filtrer les joueur·euses éligibles.
@@ -36,11 +36,11 @@ Dans chaque groupe, le système attribue au joueur ou à la joueuse le **prix le
 
 ## Critères disponibles pour les catégories
 
-Vous pouvez ajouter un ou plusieurs filtres à chaque catégorie pour limiter les joueur·euses éligibles :
+Vous pouvez ajouter un ou plusieurs filtres à chaque catégorie pour limiter les joueur·euses éligibles :
 
 - **genre** : Homme ou Femme ;
 - **classement Elo** : minimum et/ou maximum ;
-- **catégorie d’âge** : spécifiez les catégories concernées (ex. : U12), avec possibilité d’inclure toutes les catégories inférieures ou supérieures ;
+- **catégorie d’âge** : spécifiez les catégories concernées (ex. : U12), avec possibilité d’inclure toutes les catégories inférieures ou supérieures ;
 - **type de classement** : _FIDE_, national ou estimé ;
 - **clubs** : restreindre la catégorie à un ou plusieurs clubs ;
 - **fédérations** : restreindre la catégorie à certaines fédérations nationales.
@@ -50,7 +50,7 @@ Vous pouvez ajouter un ou plusieurs filtres à chaque catégorie pour limiter le
 
 ## Types et valeurs des prix
 
-Chaque prix peut être :
+Chaque prix peut être :
 
 - **monétaire** : cochez cette option pour les prix en argent ;
 - **non monétaire** : pour les trophées, livres, bons, etc.

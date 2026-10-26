@@ -16,7 +16,7 @@ Cependant, _Sharly Chess_ ne se limite pas à l’ordinateur de l’arbitre. D�
 * Permettre aux joueur·euses de pointer ou saisir leurs propres résultats
 * Donner un accès aux arbitres adjoints ou aux membres du staff
 
-## Qu’est-ce qu’un réseau ?
+## Qu’est-ce qu’un réseau ?
 
 Un **réseau** est simplement un groupe d’appareils capables de communiquer entre eux.
 
@@ -52,7 +52,7 @@ Depuis la fenêtre principale de _Sharly Chess_, cliquez sur **Afficher les rés
 Tout autre appareil sur le **même** réseau peut taper cette adresse dans un navigateur pour se connecter à _Sharly Chess_.
 Le QR code est un raccourci : en le scannant, l’adresse s’ouvre directement sur l’appareil.
 
-## Que peuvent faire les appareils connectés ?
+## Que peuvent faire les appareils connectés ?
 
 Par défaut, les appareils connectés **ne voient rien**.
 
@@ -69,11 +69,11 @@ Un accès supplémentaire peut être donné aux membres du staff via des [Compte
 
 Si vous n’arrivez pas à vous connecter à _Sharly Chess_, voici quelques points à vérifier :
 
-* **L’adresse du serveur est-elle correcte ?**
+* **L’adresse du serveur est-elle correcte ?**
 
   Vérifiez bien l’adresse IP ou scannez le QR code affiché sur la page d’accueil du serveur.
 
-* **Êtes-vous sur le même réseau ?**
+* **Êtes-vous sur le même réseau ?**
   L’appareil utilisé doit être connecté au même réseau Wi-Fi ou filaire que le serveur.
 
 * **Paramètres du pare-feu ou de l’antivirus**
@@ -92,4 +92,4 @@ Si vous n’arrivez pas à vous connecter à _Sharly Chess_, voici quelques poin
   Assurez-vous que l’isolation des appareils est désactivée si vous souhaitez qu’ils puissent communiquer.
 
 Malheureusement, nous ne pouvons pas couvrir toutes les configurations possibles ici.
-Si vous avez encore des difficultés, il se peut que vous deviez demander de l’aide au technicien de votre club !
+Si vous avez encore des difficultés, il se peut que vous deviez demander de l’aide au technicien de votre club !

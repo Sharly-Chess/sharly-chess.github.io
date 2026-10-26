@@ -25,17 +25,17 @@ que le bon tableau soit sélectionné pour vous automatiquement.
 
 ---
 
-## Quel problème résout-il ?
+## Quel problème résout-il ?
 
 Imaginez un petit tournoi par équipes — quelques clubs, quatre joueur·euses
-chacun, deux ou trois rondes dans l'après-midi. Vous voulez :
+chacun, deux ou trois rondes dans l'après-midi. Vous voulez :
 
 - que **tout le monde joue à chaque ronde** (personne n'est exempt) ;
-- des **couleurs équilibrées** pour chaque joueur·euse ;
-- que chaque équipe rencontre une **répartition équitable d'adversaires** ;
+- des **couleurs équilibrées** pour chaque joueur·euse ;
+- que chaque équipe rencontre une **répartition équitable d'adversaires** ;
 - et vous préférez éviter un appariement suisse complet ou un toutes‑rondes.
 
-Le Molter répond à cela par un **tableau fixe** : un calendrier pré‑calculé qui
+Le Molter répond à cela par un **tableau fixe** : un calendrier pré‑calculé qui
 indique, pour chaque ronde, qui affronte qui — échiquier par échiquier, entre les
 équipes.
 
@@ -47,27 +47,27 @@ de ce tableau fixe. Chaque équipe aligne ses joueur·euses sur les échiquiers 
 
 ---
 
-## Quand l'utiliser ?
+## Quand l'utiliser ?
 
-Le Molter est pertinent lorsque :
+Le Molter est pertinent lorsque :
 
-- le **nombre d'équipes est restreint par rapport au nombre de rondes** ;
-- chaque équipe compte un **nombre pair de joueur·euses** ;
+- le **nombre d'équipes est restreint par rapport au nombre de rondes** ;
+- chaque équipe compte un **nombre pair de joueur·euses** ;
 - et vous souhaitez un calendrier fixe plutôt qu'un appariement guidé par le
   classement.
 
-Les nombres impairs d'équipes sont le cas difficile historique : avec un
+Les nombres impairs d'équipes sont le cas difficile historique : avec un
 calendrier naïf, quelqu'un serait exempt à chaque ronde, et **le Molter est
 conçu précisément pour éviter les exempts**. Les nombres pairs d'équipes sont
-aussi pris en charge ; dans ce cas, les joueur·euses restent sur leur propre
+aussi pris en charge ; dans ce cas, les joueur·euses restent sur leur propre
 numéro d'échiquier et aucun flotteur n'est nécessaire.
 
 {: .note }
 
-> :information_source: Exemple typique : une coupe de clubs à 3 équipes de 4
+> :information_source: Exemple typique : une coupe de clubs à 3 équipes de 4
 > joueur·euses sur 2–3 rondes, ou une phase à 5 équipes. Si vous avez au contraire
 > beaucoup d'équipes, ou si vous voulez un appariement guidé par le classement,
-> utilisez le **suisse par équipes** ; si chaque équipe doit rencontrer toutes les
+> utilisez le **suisse par équipes** ; si chaque équipe doit rencontrer toutes les
 > autres, utilisez le **toutes‑rondes**.
 
 ---
@@ -81,7 +81,7 @@ numéro d'échiquier et aucun flotteur n'est nécessaire.
   coéquipier·ère.
 - Sur l'ensemble du calendrier, chaque joueur·euse rencontre une **équipe adverse
   distincte** à chaque ronde, et les **couleurs restent fortement équilibrées**.
-- Avec un **nombre impair d'équipes**, un·e joueur·euse « flotte » vers
+- Avec un **nombre impair d'équipes**, un·e joueur·euse « flotte » vers
   l'échiquier voisin pour que personne ne reste sans adversaire — le **flotteur**
   — et ce rôle est réparti équitablement entre les équipes.
 
@@ -100,31 +100,31 @@ d'appariement** à prendre pendant l'épreuve — le tableau est fixé à l'avan
 ## Validité et qualité
 
 Chaque recette Molter embarquée est vérifiée avant d'être utilisée. Un tableau
-est rejeté s'il enfreint une règle dure :
+est rejeté s'il enfreint une règle dure :
 
-- chaque joueur·euse apparaît **exactement une fois par ronde** ;
-- personne ne joue contre un·e **coéquipier·ère** ;
-- personne ne rencontre **deux fois la même équipe adverse** ;
+- chaque joueur·euse apparaît **exactement une fois par ronde** ;
+- personne ne joue contre un·e **coéquipier·ère** ;
+- personne ne rencontre **deux fois la même équipe adverse** ;
 - les couleurs restent dans une dérive bornée et ne se répètent jamais trois
-  fois de suite ;
+  fois de suite ;
 - les flotteurs, lorsqu'ils sont nécessaires, ne relient que des échiquiers
   voisins et ne font pas répéter le même rôle au même joueur ou à la même
   joueuse.
 
 Parmi les tableaux valides, _Sharly Chess_ privilégie ensuite la meilleure
-qualité possible :
+qualité possible :
 
-- **répartition des adversaires** : les équipes doivent rencontrer autant
-  d'équipes différentes que possible dès le début de l'épreuve ;
-- **équilibre des flotteurs** : les flotteurs montants et descendants doivent
-  être équilibrés par équipe ;
-- **répartition des descendants** : le rôle descendant doit être partagé
-  équitablement ;
-- **équilibre par paire de rondes** : une équipe ne doit pas flotter trop souvent
-  dans une même paire de rondes ;
-- **répartition dans la ronde** : les échiquiers d'une équipe ne doivent pas être
-  concentrés inutilement contre le même adversaire ;
-- **couleurs par équipe** : l'équilibre exact des couleurs à chaque ronde est
+- **répartition des adversaires** : les équipes doivent rencontrer autant
+  d'équipes différentes que possible dès le début de l'épreuve ;
+- **équilibre des flotteurs** : les flotteurs montants et descendants doivent
+  être équilibrés par équipe ;
+- **répartition des descendants** : le rôle descendant doit être partagé
+  équitablement ;
+- **équilibre par paire de rondes** : une équipe ne doit pas flotter trop souvent
+  dans une même paire de rondes ;
+- **répartition dans la ronde** : les échiquiers d'une équipe ne doivent pas être
+  concentrés inutilement contre le même adversaire ;
+- **couleurs par équipe** : l'équilibre exact des couleurs à chaque ronde est
   conservé lorsqu'il ne dégrade pas les objectifs plus importants sur les
   adversaires et les flotteurs.
 
@@ -158,13 +158,13 @@ de l'équipe A) :
 | A4 – C3 | A3 – C4 |
 | C4 – B4 | B4 – A4 |
 
-À remarquer :
+À remarquer :
 
 - **Tout le monde joue lors des deux rondes** — même avec un nombre impair
   d'équipes, personne n'est exempt.
 - **Personne n'est apparié à un·e coéquipier·ère** — les deux équipes d'une partie
   sont toujours différentes.
-- **Les couleurs s'équilibrent** : A1 a les blancs à la ronde 1 et les noirs à la
+- **Les couleurs s'équilibrent** : A1 a les blancs à la ronde 1 et les noirs à la
   ronde 2.
 - Comme 3 est impair, une partie oppose parfois des joueur·euses d'échiquiers
   voisins (`C2 – B1`) : c'est le **flotteur** en action, ce qui permet à chacun·e
@@ -182,12 +182,12 @@ _Sharly Chess_ produit ce tableau pour vous — vous ne recopiez rien.
 3. _Sharly Chess_ **sélectionne le tableau automatiquement** pour la taille
    choisie (actuellement 3 à 20 équipes, avec un nombre pair de joueur·euses par
    équipe jusqu'à 12).
-4. Générez les appariements de chaque ronde comme d'habitude ; vous pouvez
+4. Générez les appariements de chaque ronde comme d'habitude ; vous pouvez
    toujours ajuster la composition d'une équipe entre les rondes.
 
 {: .note }
 
-> :information_source: Les tableaux sont **déterministes** : la même configuration
+> :information_source: Les tableaux sont **déterministes** : la même configuration
 > _(équipes, joueur·euses par équipe, rondes)_ produit toujours le même tableau,
 > reproductible partout. Une fédération peut aussi fournir son propre **tableau
 > officiel** pour une taille donnée via un jeu de règles — par exemple la _Coupe
