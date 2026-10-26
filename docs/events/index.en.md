@@ -36,3 +36,12 @@ The platform brings together organisers, players and arbiters in a single, moder
 - **Matching Pairings** — Downloaded pairings match the arbitration software exactly, with no discrepancies.
 - **Complete Results Upload** — Upload comprehensive results with all necessary details.
 - **Unlimited Tiebreaks** — No limits on tiebreak quantity or format; all variations are supported.
+
+## Learn _Sharly-Chess.com_
+
+A few tutorials are available to supplement this documentation:
+- [Create your account on the _Sharly-Chess.com_ platform and connect with a PassKey]({% link _posts/2026-04-07-tutorial-sharly-chess-com-connect.en.md %})
+- [Create your organisation on the _Sharly-Chess.com_ platform]({% link _posts/2026-04-11-tutorial-sharly-chess-com-organisation.en.md %})
+- [Create your first free event on the _Sharly-Chess.com_ platform]({% link _posts/2026-04-13-tutorial-sharly-chess-com-free-event.en.md %})
+- [Connect Sharly-Chess.com to _Stripe_]({% link _posts/2026-04-17-tutorial-sharly-chess-com-stripe.en.md %})
+- [Connect Sharly-Chess.com to _HelloAsso_]({% link _posts/2026-11-02-tutorial-sharly-chess-com-helloasso.en.md %})
