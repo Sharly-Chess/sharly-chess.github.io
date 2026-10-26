@@ -66,11 +66,10 @@ _Variations :_
 - **Berger double ronde** — toutes‑rondes double : chaque paire se rencontre deux
   fois, couleurs inversées.
 
-Toutes les rondes étant connues d'avance, le passage à la ronde suivante est une
-étape explicite : lorsque vous naviguez au-delà de la ronde en cours, _Sharly
-Chess_ vous demande s'il faut **terminer la ronde** (la suivante devient alors
-la ronde en cours) ou simplement jeter un œil à la ronde suivante, et vous
-prévient si des échiquiers sont encore sans résultat.
+Toutes les rondes sont appariées d'un coup, et le passage à la ronde suivante
+est une étape explicite : [publier]({% link docs/running-an-event/managing-pairings.fr.md %}#publier-les-appariements)
+la ronde suivante en fait la ronde en cours et l'affiche sur les écrans et les
+services en ligne.
 
 Le formulaire du tournoi propose la **règle de participation _FIDE_ 6.6** pour
 les toutes‑rondes : un·e joueur·euse qui a abandonné ou a été exclu·e après
