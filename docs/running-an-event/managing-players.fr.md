@@ -31,10 +31,10 @@ Dans un **événement par équipes**, ce même tableau propose à la place une c
 
 ## Mettre à jour les joueur·euses depuis les bases récentes
 
-Pour garder à jour les informations des joueur·euses, _Sharly Chess_ compare votre liste avec les versions les plus récentes de vos [sources de données]({% link docs/player-databases/index.fr.md %}). Le menu **Mettre à jour** de la page Joueur·euses (également dans le menu **Actions** › **Mettre à jour les joueur·euses** d’un tournoi) propose :
+Pour garder à jour les informations des joueur·euses, _Sharly Chess_ compare votre liste avec les versions les plus récentes de vos [sources de données]({% link docs/player-databases/index.fr.md %}). Le menu **Mettre à jour** de la page Joueur·euses (également dans le menu **Actions** › **Mettre à jour les joueur·euses** d’un tournoi) propose :
 
 | **Classements des joueur·euses** | Vérifie les classements de chaque joueur·euse avec la liste _FIDE_ et sa liste nationale. Voir [Vérifier les classements avec les listes]({% link docs/running-an-event/ratings.fr.md %}#vérifier-les-classements-avec-les-listes). |
-| **Données des joueur·euses depuis :** _source_ | Met à jour l’identité des joueur·euses depuis la source choisie : nom, identifiant _FIDE_, identifiant national, titre, titre féminin, catégorie, genre, fédération et club. Les classements ne sont jamais modifiés ici. |
+| **Données des joueur·euses depuis :** _source_ | Met à jour l’identité des joueur·euses depuis la source choisie : nom, identifiant _FIDE_, identifiant national, titre, titre féminin, catégorie, genre, fédération et club. Les classements ne sont jamais modifiés ici. |
 
 Dans les deux cas, les différences détectées vous sont présentées pour validation avant d’être appliquées.
 

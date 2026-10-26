@@ -23,7 +23,7 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 - Recherche de joueur·euses depuis la base de données en ligne fournie par la _FFE_.
 - Téléchargement et recherche locale dans la base de données joueur·euses de la _FFE_.
 - Informations supplémentaires sur les joueur·euses : numéro de licence _FFE_, statut de licence, ligue d’appartenance.
-- Règles de classement de la _FFE_ : classements _FIDE_ d’abord, séquences par défaut et estimations pour les joueur·euses non classé·es (voir [Classements](#classements)).
+- Règles de classement de la _FFE_ : classements _FIDE_ d’abord, séquences par défaut et estimations pour les joueur·euses non classé·es (voir [Classements](#classements)).
 - Les catégories d’âge sont mises à jour le 1er septembre (au lieu du 1er janvier). Le calcul reste basé sur l’âge du·de la joueur·euse au 1er janvier de l’année en cours.
 - Accès facile aux actions sur le site de la _FFE_ : dépôt du règlement, gestion de la visibilité du tournoi et téléchargement des droits.
 - Calculs de départages spécifiques à la _FFE_, pour assurer la compatibilité avec _Papi_ et les départages affichés sur le site fédéral.
@@ -33,18 +33,18 @@ L’activation de ce plugin ajoute plusieurs fonctionnalités à _Sharly Chess_�
 
 ## Classements
 
-Avec le plug-in _FFE_, les tournois recherchent les classements _FIDE_ d’abord, puis les nationaux, et la **Récupération du classement** est verrouillée sur la séquence _FFE_ de la cadence :
+Avec le plug-in _FFE_, les tournois recherchent les classements _FIDE_ d’abord, puis les nationaux, et la **Récupération du classement** est verrouillée sur la séquence _FFE_ de la cadence :
 
-| **Standard** | Liste _FIDE_ : standard → _FFE_ : _FIDE_ standard › national standard |
-| **Rapide** | Liste _FIDE_ : rapide › standard → _FFE_ : _FIDE_ rapide › _FIDE_ standard › national rapide |
-| **Blitz** | Liste _FIDE_ : blitz › standard → _FFE_ : _FIDE_ blitz › _FIDE_ standard › national blitz |
+| **Standard** | Liste _FIDE_ : standard → _FFE_ : _FIDE_ standard › national standard |
+| **Rapide** | Liste _FIDE_ : rapide › standard → _FFE_ : _FIDE_ rapide › _FIDE_ standard › national rapide |
+| **Blitz** | Liste _FIDE_ : blitz › standard → _FFE_ : _FIDE_ blitz › _FIDE_ standard › national blitz |
 
-Un·e joueur·euse qui ne possède aucun de ces classements reçoit l'estimation prescrite par la _FFE_ selon son âge :
+Un·e joueur·euse qui ne possède aucun de ces classements reçoit l'estimation prescrite par la _FFE_ selon son âge :
 
 | **Standard** | 1399 (adultes), 1299 (jeunes) |
 | **Rapide et blitz** | 1199, 999 jusqu'à U14, 799 jusqu'à U10 |
 
-Les champs **Non classé·es** de l'événement et des tournois sont alors désactivés. Ces estimations suivent la catégorie du·de la joueur·euse (elles changent avec elle) tant que l'arbitre n'a pas saisi de valeur. Les valeurs « E » de la liste _FFE_ ne sont pas importées comme classements. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage des classements.
+Les champs **Non classé·es** de l'événement et des tournois sont alors désactivés. Ces estimations suivent la catégorie du·de la joueur·euse (elles changent avec elle) tant que l'arbitre n'a pas saisi de valeur. Les valeurs « E » de la liste _FFE_ ne sont pas importées comme classements. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage des classements.
 
 ## Compétitions par équipes
 
