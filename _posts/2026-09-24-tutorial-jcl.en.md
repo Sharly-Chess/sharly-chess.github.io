@@ -15,7 +15,7 @@ Tutorial in French:
 
 - [00:00](https://www.youtube.com/watch?v=Ma1nOHQz4Bo&t=0s) Introduction
 - [01:01](https://www.youtube.com/watch?v=Ma1nOHQz4Bo&t=61s) 1. Create the event
-- [02:08](https://www.youtube.com/watch?v=Ma1nOHQz4Bo&t=128s) 2. Create the tournamentséer les tournois
+- [02:08](https://www.youtube.com/watch?v=Ma1nOHQz4Bo&t=128s) 2. Create the tournaments
 - [04:19](https://www.youtube.com/watch?v=Ma1nOHQz4Bo&t=259s) 3. Create the teams
 - [10:27](https://www.youtube.com/watch?v=Ma1nOHQz4Bo&t=627s) 4. Set the affiliations
 - [12:13](https://www.youtube.com/watch?v=Ma1nOHQz4Bo&t=733s) 5. Check-in the teams
