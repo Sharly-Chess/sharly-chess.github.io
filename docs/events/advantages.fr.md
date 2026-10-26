@@ -83,7 +83,7 @@ Cela évite toute réorganisation de dernière minute, cela fait gagner un temps
 
 ## Un modèle qui permet de faire vivre le projet
 
-La petite commission sur les paiements permet :
+Les crédits d'inscription achetés par les utilisateur·ices de la plateforme permettent :
 
 - de faire fonctionner la plateforme, qui s'appuie sur une infrastructure professionnelle résiliente ;
 - de développer de nouvelles fonctionnalités, attendues par les arbitres et les organisateur·ices ;
