@@ -36,7 +36,7 @@ Une période de plus de 30 jours est refusée à l'enregistrement, et le message
 
 ## Classements
 
-Chaque tranche est homologuée avec les classements en vigueur au moment où elle est jouée (manuel _FIDE_ `B.01` `1.1.4` : dans un tournoi de plus de 30 jours, les classements **et les titres** des adversaires sont ceux applicables lorsque les parties ont été jouées).
+Chaque tranche est homologuée avec les classements en vigueur au moment où elle est jouée (manuel _FIDE_ `B.01` `1.1.4` : dans un tournoi de plus de 30 jours, les classements **et les titres** des adversaires sont ceux applicables lorsque les parties ont été jouées).
 
 Un·e joueur·euse peut donc avoir un classement différent dans chaque tranche, et _Sharly Chess_ en conserve un jeu par tranche :
 
