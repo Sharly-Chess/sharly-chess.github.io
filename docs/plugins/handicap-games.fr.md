@@ -9,7 +9,7 @@ nav_order: 200
 
 Le module **Parties à handicap** est conçu pour les **tournois amicaux ou de club**, où les joueur·euses les moins fort·es bénéficient d’un **avantage de temps** face à leurs adversaires plus fort·es.
 
-Une fois activé, trois nouveaux champs apparaissent dans la page **Paramètres du tournoi** :
+Une fois activé, trois nouveaux champs apparaissent dans la page **Paramètres du tournoi** :
 
 - **Pénalité (secondes)** – Le nombre de secondes soustraites à la pendule du·de la joueur·euse le·la mieux classé·e.
   Cette valeur est multipliée par le nombre de *paliers Elo* séparant les deux joueur·euses.

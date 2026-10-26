@@ -10,7 +10,7 @@ nav_order: 500
 # Module _Écoles françaises_
 
 {: .note }
-> :information_source: **Dépendance :** _FFE_
+> :information_source: **Dépendance :** _FFE_
 
 Le module **Écoles françaises** est conçu pour aider les arbitres et organisateurs·rices à gérer les tournois des **Championnats scolaires**.
 

@@ -9,7 +9,7 @@ nav_order: 300
 
 # Politique de confidentialité
 
-**Dernière mise à jour : 24 avril 2025**
+**Dernière mise à jour : 24 avril 2025**
 
 Le projet _Sharly Chess_ est très attentif à la protection des données à caractère personnel de ses utilisateur·ices. L'objectif de cette page est de décrire nos pratiques et nos engagements vis-à-vis du traitement de vos données à caractère personnel.
 
@@ -19,7 +19,7 @@ En l'état, _Sharly Chess_ ne collecte aucune donnée à caractère personnel de
 
 La politique de confidentialité de _Sharly Chess_ est très fortement inspirée de celle du site lichess.org, acteur majeur du monde libre échiquéen.
 
-## Qui est le responsable du traitement de vos données personnelles ?
+## Qui est le responsable du traitement de vos données personnelles ?
 
 Le responsable du traitement est, au sens du RGPD, l'entité qui définit pour quels usages et comment vos données personnelles sont utilisées.
 
@@ -27,7 +27,7 @@ Le responsable du traitement est _Sharly Chess_, association régie par la loi d
 
 Dans le cadre de nos activités, nous sommes susceptibles de collecter et traiter des données à caractère personnel relatives à nos utilisateur·ices. Ces différents traitements de données sont détaillés au sein de la présente politique de confidentialité.
 
-## Quelles données sont collectées vous concernant et pour quelles raisons ?
+## Quelles données sont collectées vous concernant et pour quelles raisons ?
 
 ### 1\. Connexion au site sharly-chess.com
 
@@ -41,7 +41,7 @@ Ces données sont conservées pendant un an suivant leur collecte, puis pendant 
 
 ### 2\. Création d'un compte et gestion des utilisateur·ices inscrit·es
 
-Note : en l'état, la connexion des utilisateur·ices au site sharly-chess.com n'est pas implémentée.
+Note : en l'état, la connexion des utilisateur·ices au site sharly-chess.com n'est pas implémentée.
 
 #### Informations nécessaires à la création d'un compte et à la gestion des utilisateur·ices inscrit·ices
 
@@ -147,29 +147,29 @@ En tant qu'association, nous nous efforçons de mettre toutes les mesures techni
 
 En tout état de cause, vous restez maître de vos données par l'intermédiaire du droit à l'effacement évoqué ci-dessous. Nous vous informerons lorsqu'une demande d'effacement n'est pas conforme avec nos obligations légales.
 
-## Qui a accès à vos données ?
+## Qui a accès à vos données ?
 
 Vos données sont hébergées chez un prestataire professionnel sécurisé, sur des serveurs situés en France. Les équipes, modérateur·ices et salarié·es de _Sharly Chess_ sont susceptibles d'y accéder dans le cadre et les limites de leurs fonctions.
 
-Certaines de vos données peuvent également être consultées ou à tout le moins hébergées par les personnes et organisations suivantes :
+Certaines de vos données peuvent également être consultées ou à tout le moins hébergées par les personnes et organisations suivantes :
 
-*   Les prestataires techniques assistant _Sharly Chess_ pour la maintenance et l'évolution du site sharly-chess.com ;
-*   Les conseils juridiques, cabinets d'expertise comptable et avocats de _Sharly Chess_ ;
+*   Les prestataires techniques assistant _Sharly Chess_ pour la maintenance et l'évolution du site sharly-chess.com ;
+*   Les conseils juridiques, cabinets d'expertise comptable et avocats de _Sharly Chess_ ;
 *   Les prestataires de services de paiement et établissements bancaires utilisés par _Sharly Chess_ dans le cadre de sa collecte de dons.
 
-Note : en l'état, _Sharly Chess_ ne s'appuie sur aucun prestataire extérieur.
+Note : en l'état, _Sharly Chess_ ne s'appuie sur aucun prestataire extérieur.
 
-## De quels droits disposez-vous pour contrôler le traitement de vos données personnelles ?
+## De quels droits disposez-vous pour contrôler le traitement de vos données personnelles ?
 
 Vous disposez, au même titre que n'importe quelle autre personne dont nous collectons et traitons des données à caractère personnel, d'un certain nombre de droits prévus par la réglementation.
 
 Vous en trouverez le détail ci-après, suivi d'un tableau récapitulatif.
 
-Vous pouvez exercer ces droits simplement, en écrivant directement à l'adresse email suivante : [gdpr@sharly-chess.com](mailto:gdpr@sharly-chess.com).
+Vous pouvez exercer ces droits simplement, en écrivant directement à l'adresse email suivante : [gdpr@sharly-chess.com](mailto:gdpr@sharly-chess.com).
 
 Pensez à bien indiquer dans votre e-mail la nature du droit que vous souhaitez exercer et les raisons qui justifient, le cas échéant, votre demande d'exercice de ce droit.
 
-Note : en l'état, _Sharly Chess_ ne collecte aucune donnée à caractère personnel de ses utilisateur·ices.
+Note : en l'état, _Sharly Chess_ ne collecte aucune donnée à caractère personnel de ses utilisateur·ices.
 
 ### 1\. Droit d'accès
 
@@ -177,7 +177,7 @@ Vous pouvez nous demander la confirmation que des données à caractère personn
 
 A ce titre, vous avez le droit de nous demander une copie des données à caractère personnel dont nous disposons vous concernant, dans un format aisément compréhensible, ainsi qu'une copie de la présente Politique sur support durable.
 
-Note : lorsque _Sharly Chess_ détiendra des données personnelles de ses utilisateur·ices, une URL sera mise à disposition pour l'exercice de ce droit d'accès.
+Note : lorsque _Sharly Chess_ détiendra des données personnelles de ses utilisateur·ices, une URL sera mise à disposition pour l'exercice de ce droit d'accès.
 
 ### 2\. Droit de rectification
 
@@ -197,23 +197,23 @@ S'agissant des traitements de données listés ci-avant qui ont pour justificati
 
 Autrement dit, vous pouvez demander à _Sharly Chess_ la cessation de l'un et/ou l'autre de ces traitements à votre égard, en exposant les raisons particulières qui justifient cette demande.
 
-Il pourra toutefois arriver que _Sharly Chess_ refuse de donner suite à votre demande, si la poursuite de ce traitement est nécessaire pour des motifs légitimes et impérieux de notre point de vue (par exemple : si les données concernées sont nécessaires pour la protection et la défense des droits de _Sharly Chess_ en justice ou encore pour des raisons d'information du public).
+Il pourra toutefois arriver que _Sharly Chess_ refuse de donner suite à votre demande, si la poursuite de ce traitement est nécessaire pour des motifs légitimes et impérieux de notre point de vue (par exemple : si les données concernées sont nécessaires pour la protection et la défense des droits de _Sharly Chess_ en justice ou encore pour des raisons d'information du public).
 
 #### Données traitées à des fins statistiques
 
 S'agissant des traitements de données à des fins statistiques, vous disposez du droit de vous y opposer pour des raisons tenant à votre situation particulière, à moins que le traitement ne soit nécessaire à l'exécution d'une mission d'intérêt public.
 
-L'opposition (si elle est fondée sur des raisons valables et qu'aucun motif légitime et impérieux ne s'y oppose ou que le traitement n'est pas nécessaire à l'exécution d'une mission d'intérêt public) entraînera la cessation du traitement pour l'avenir, mais pas nécessairement la destruction des données concernées : pour obtenir cette destruction, vous devez exercer votre droit à l'effacement dans les conditions décrites ci-après, étant précisé que ce dernier connaît des limitations, exposées ci-après.
+L'opposition (si elle est fondée sur des raisons valables et qu'aucun motif légitime et impérieux ne s'y oppose ou que le traitement n'est pas nécessaire à l'exécution d'une mission d'intérêt public) entraînera la cessation du traitement pour l'avenir, mais pas nécessairement la destruction des données concernées : pour obtenir cette destruction, vous devez exercer votre droit à l'effacement dans les conditions décrites ci-après, étant précisé que ce dernier connaît des limitations, exposées ci-après.
 
 ### 5\. Droit à l'effacement
 
-Vous pouvez nous demander de procéder à la suppression de tout ou partie des données dont nous disposons vous concernant, dès lors que l'une au moins des conditions suivantes est remplie :
+Vous pouvez nous demander de procéder à la suppression de tout ou partie des données dont nous disposons vous concernant, dès lors que l'une au moins des conditions suivantes est remplie :
 
-*   Les données concernées n'apparaissent plus nécessaires à aucune des finalités précédemment exposées ;
-*   Vous avez retiré votre consentement conformément au point 3. ci-dessus ;
-*   Vous vous êtes opposé(e) à la poursuite de ce traitement conformément au point 4. ci-dessus, et souhaitez de surcroît que _Sharly Chess_ procède à la destruction des données concernées ;
-*   Vous considérez que vos données à caractère personnel ont fait l'objet d'un traitement illicite de la part de _Sharly Chess_ ;
-*   Les données concernées doivent être effacées au titre d'une obligation légale ;
+*   Les données concernées n'apparaissent plus nécessaires à aucune des finalités précédemment exposées ;
+*   Vous avez retiré votre consentement conformément au point 3. ci-dessus ;
+*   Vous vous êtes opposé(e) à la poursuite de ce traitement conformément au point 4. ci-dessus, et souhaitez de surcroît que _Sharly Chess_ procède à la destruction des données concernées ;
+*   Vous considérez que vos données à caractère personnel ont fait l'objet d'un traitement illicite de la part de _Sharly Chess_ ;
+*   Les données concernées doivent être effacées au titre d'une obligation légale ;
 *   Les données concernées sont relatives à une personne qui avait moins de quinze (15) ans lors de la collecte de ces données.
 
 Sachez toutefois que _Sharly Chess_ est en droit de s'opposer à la suppression de certaines données, lorsque leur conservation est nécessaire pour des raisons particulièrement importantes, telles que la protection et la défense de ses intérêts en justice.
@@ -224,11 +224,11 @@ Par ailleurs, nous pourrons choisir, en lieu et place de la suppression des donn
 
 À défaut par exemple d'exercer votre droit à l'effacement, vous pouvez aussi demander à _Sharly Chess_ de « mettre de côté » ou « geler » certaines données vous concernant, c'est-à-dire de conserver ces données de façon séparée, sans plus les utiliser (sauf obligations légales).
 
-Vous pouvez formuler une telle demande lorsque l'une au moins des conditions suivantes est remplie :
+Vous pouvez formuler une telle demande lorsque l'une au moins des conditions suivantes est remplie :
 
-*   Les données concernées vous paraissent inexactes, et vous préférez que _Sharly Chess_ cesse de les utiliser le temps de les vérifier et de les rectifier si nécessaire ;
-*   Vous considérez que vos données à caractère personnel ont fait l'objet d'un traitement illicite de la part de _Sharly Chess_, mais vous optez pour la limitation de leur utilisation plutôt que leur suppression ;
-*   Les données concernées ne sont plus nécessaires pour aucune des finalités exposées ci-dessus, mais vous souhaitez que _Sharly Chess_ les conserve malgré tout pour les besoins de la défense de vos intérêts en justice ;
+*   Les données concernées vous paraissent inexactes, et vous préférez que _Sharly Chess_ cesse de les utiliser le temps de les vérifier et de les rectifier si nécessaire ;
+*   Vous considérez que vos données à caractère personnel ont fait l'objet d'un traitement illicite de la part de _Sharly Chess_, mais vous optez pour la limitation de leur utilisation plutôt que leur suppression ;
+*   Les données concernées ne sont plus nécessaires pour aucune des finalités exposées ci-dessus, mais vous souhaitez que _Sharly Chess_ les conserve malgré tout pour les besoins de la défense de vos intérêts en justice ;
     Vous avez exercé votre droit d'opposition conformément au point 4. ci-dessus, et vous préférez que _Sharly Chess_ cesse d'utiliser les données concernées le temps de vérifier le bienfondé de votre opposition.
 
 Dans ces hypothèses, nous « gèlerons » les données pour la durée nécessaire, au moyen par exemple d'un marquage « Ne pas utiliser -- Droit à la limitation exercé ».
@@ -245,31 +245,31 @@ Enfin, vous disposez du droit de nous indiquer la manière dont vous souhaitez q
 
 Vous pouvez notamment nous demander de procéder à la destruction de l'ensemble de vos données (sous réserve des besoins impérieux de conservation que nous pourrions en avoir, par exemple à des fins de défense des droits de _Sharly Chess_ en justice), ou encore de transmettre une copie de toutes ces données à la personne de votre choix.
 
-Vous pouvez également désigner toute personne de votre choix comme responsable de l'exécution de ces « dernières volontés » ; cette personne n'a pas nécessairement à être l'un·e de vos héritier·es ni même l'exécuteur·ice testamentaire chargé·e de votre succession.
+Vous pouvez également désigner toute personne de votre choix comme responsable de l'exécution de ces « dernières volontés » ; cette personne n'a pas nécessairement à être l'un·e de vos héritier·es ni même l'exécuteur·ice testamentaire chargé·e de votre succession.
 
 ### Tableau récapitulatif
 
 | Vos droits | Ce qu'ils vous permettent d'obtenir | Traitements et données concernées | Conditions, exceptions ou limitations |
 |---|---|---|---|
-| Droit d'accès | Une copie lisible et compréhensible des données dont _Sharly Chess_ dispose vous concernant, ainsi qu'une copie sur support durable de la présente Politique | Toutes | Formuler clairement la demande de droit d'accès. Limites : demande infondée ou excessive ; droits et libertés d'autrui |
+| Droit d'accès | Une copie lisible et compréhensible des données dont _Sharly Chess_ dispose vous concernant, ainsi qu'une copie sur support durable de la présente Politique | Toutes | Formuler clairement la demande de droit d'accès. Limites : demande infondée ou excessive ; droits et libertés d'autrui |
 | Droit de rectification | La rectification, la mise à jour ou la complétion de données vous concernant | Toutes | Indiquer clairement les données à rectifier, compléter ou mettre à jour, ainsi que les nouvelles données le cas échéant |
 | Droit au retrait du consentement | La cessation du traitement pour l'avenir | Traitements fondés sur votre consentement | Aucune |
-| Droit d'opposition | La cessation du traitement de vos données pour l'avenir | Traitements fondés sur un intérêt légitime de _Sharly Chess_ | Exposer les raisons tenant à votre situation particulière qui justifient la cessation du traitement. Limites : motifs légitimes et impérieux (traitements fondés sur l'intérêt légitime) ; traitement nécessaire à l'exécution d'une mission d'intérêt public (statistiques) ; consentement |
-| Droit à l'effacement | La suppression de vos données, ou leur anonymisation complète et irréversible | Toutes | Limites : liberté d'expression et d'information ; obligation légale ; fins statistiques ; constatation, exercice ou défense de droits en justice |
-| Droit à la limitation du traitement | La conservation de vos données sans poursuite de leur utilisation | Toutes | Limites : utilisation des données seulement dans les cas suivants : accord ; constatation, exercice ou défense de droits en justice ; protection des droits d'une autre personne ; motifs importants d'intérêt public |
+| Droit d'opposition | La cessation du traitement de vos données pour l'avenir | Traitements fondés sur un intérêt légitime de _Sharly Chess_ | Exposer les raisons tenant à votre situation particulière qui justifient la cessation du traitement. Limites : motifs légitimes et impérieux (traitements fondés sur l'intérêt légitime) ; traitement nécessaire à l'exécution d'une mission d'intérêt public (statistiques) ; consentement |
+| Droit à l'effacement | La suppression de vos données, ou leur anonymisation complète et irréversible | Toutes | Limites : liberté d'expression et d'information ; obligation légale ; fins statistiques ; constatation, exercice ou défense de droits en justice |
+| Droit à la limitation du traitement | La conservation de vos données sans poursuite de leur utilisation | Toutes | Limites : utilisation des données seulement dans les cas suivants : accord ; constatation, exercice ou défense de droits en justice ; protection des droits d'une autre personne ; motifs importants d'intérêt public |
 | Droit à la portabilité des données | Une copie de vos données dans un format informatique réutilisable | Données collectées sur la base de votre consentement | Indiquer clairement, le cas échéant, l'identité de la personne ou de l'organisation à qui vous souhaitez que _Sharly Chess_ adresse la copie des données |
-| Droit de définir des directives relatives au sort de vos données après votre mort | Le respect de vos « dernières volontés » s'agissant de vos données à caractère personnel (par exemple : leur suppression ou leur transmission à toute personne de votre choix) | &nbsp;Toutes | Indiquer clairement les personnes responsables du suivi de la bonne exécution de vos directives, qui seront nos interlocuteurs après votre décès |
+| Droit de définir des directives relatives au sort de vos données après votre mort | Le respect de vos « dernières volontés » s'agissant de vos données à caractère personnel (par exemple : leur suppression ou leur transmission à toute personne de votre choix) | &nbsp;Toutes | Indiquer clairement les personnes responsables du suivi de la bonne exécution de vos directives, qui seront nos interlocuteurs après votre décès |
 
 Pour toute question relative à la protection de vos données à caractère personnel merci de nous écrire à l'adresse [gdpr@sharly-chess.com](mailto:gdpr@sharly-chess.com).
 
 ## Remarques concernant cette politique de confidentialité
 
-_Sharly Chess_ utilise les plateformes non maîtrisées suivantes :
+_Sharly Chess_ utilise les plateformes non maîtrisées suivantes :
 
-*   GitHub, pour le stockage de son code source, les échanges avec les développeur·euses, la documentation de ses logiciels et la distribution de ses livrables ;
+*   GitHub, pour le stockage de son code source, les échanges avec les développeur·euses, la documentation de ses logiciels et la distribution de ses livrables ;
 *   Discord, pour les échanges avec les développeur·euses.
 
-En utilisant ces plateformes, vous pouvez être amené·es à leur confier des données à caractère personnel ; nous vous invitons à consulter les politiques de confidentialité de ces plateformes :
+En utilisant ces plateformes, vous pouvez être amené·es à leur confier des données à caractère personnel ; nous vous invitons à consulter les politiques de confidentialité de ces plateformes :
 
 *   [Politique de confidentialité de GitHub](https://docs.github.com/fr/site-policy/privacy-policies)
 *   [Politique de confidentialité de Discord](https://discord.com/privacy)

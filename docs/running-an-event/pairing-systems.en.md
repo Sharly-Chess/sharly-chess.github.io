@@ -33,13 +33,9 @@ choice when there are more players than rounds.
   bye** (PAB) each round. Zero-, half- and full-point byes can also be assigned by
   hand.
 - **Prohibited pairings** (same club, federation or team) can be kept apart, as
-  hard rules or as soft rules that relax from the bottom of the field.
-
-{: .warning }
-
-> :warning: **Prohibited pairings** must **not** be used for official _FIDE_
-> events — they override the _FIDE_ Dutch pairing rules. Reserve them for club and
-> festival formats.
+  strict rules, as soft rules that relax from the bottom of the field, or as
+  soft rules avoided as much as the pairing rules allow. See
+  **[Prohibited pairings]({% link docs/running-an-event/prohibited-pairings.en.md %})**.
 
 _Variations:_
 

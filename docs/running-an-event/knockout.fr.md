@@ -10,10 +10,10 @@ nav_order: 480
 # Système coupe
 
 Le **système coupe** (élimination directe) apparie les participant·es dans un
-**tableau** : le·la perdant·e de chaque match est éliminé·e, le·la gagnant·e
+**tableau** : le·la perdant·e de chaque match est éliminé·e, le·la gagnant·e
 passe au tour suivant, et le·la dernier·e en lice remporte le tournoi. Il est
 disponible pour les événements **individuels** comme **par équipes** (sous le
-nom **Coupe par équipes**), en quatre variantes :
+nom **Coupe par équipes**), en quatre variantes :
 
 | Variante | Déroulement d'un match | Élimination après |
 |---|---|---|
@@ -37,17 +37,17 @@ et la variante comme **variante d'appariement**.
 - **Exempts** — lorsque le nombre de participant·es n'est pas une puissance de
   deux (8, 16, 32…), le tableau est complété jusqu'à la suivante et les
   **meilleures têtes de série sautent le premier tour**. Il n'existe aucun autre
-  type d'exempt : l'arbitre ne peut pas attribuer de bye ni de demi-point joker
+  type d'exempt : l'arbitre ne peut pas attribuer de bye ni de demi-point joker
   dans une coupe.
 - **Nombre de rondes** — déterminé automatiquement d'après la taille du plateau
-  (quatre rondes de 9 à 16 joueur·euses, cinq de 17 à 32, etc. ; le double en
+  (quatre rondes de 9 à 16 joueur·euses, cinq de 17 à 32, etc. ; le double en
   aller-retour). Le champ **Rondes** du formulaire du tournoi est rempli pour
   vous et ne peut pas être modifié.
 - Les rondes sont appariées **une à une** avec le bouton **Apparier**, une fois
   tous les matchs de la ronde précédente décidés.
 
 {: .warning }
-> :warning: Dès que la première ronde est appariée, le tableau est figé : **plus
+> :warning: Dès que la première ronde est appariée, le tableau est figé : **plus
 > aucun·e joueur·euse (ni équipe) ne peut être ajouté·e**, et les réglages
 > d'appariement ci-dessous ne peuvent plus être modifiés.
 
@@ -72,7 +72,7 @@ dernier échiquier**.
 
 Le départage spécial **Manuel** vous permet de décider le match vous-même,
 typiquement après un **match de barrage** (Armageddon, parties de blitz…) joué
-sur l'échiquier : la ligne d'appariement d'un match à égalité affiche alors un
+sur l'échiquier : la ligne d'appariement d'un match à égalité affiche alors un
 bouton **Désigner comme vainqueur·e** à côté de chaque camp.
 
 {: .note }
@@ -92,28 +92,28 @@ départage de qualification pour les deux camps, et lequel a décidé le match.
 
 ### Élimination simple
 
-La coupe classique : une partie par match, une défaite et c'est fini.
+La coupe classique : une partie par match, une défaite et c'est fini.
 
 ### Élimination simple — aller-retour
 
-Chaque match se joue en **deux parties**, couleurs inversées : la meilleure tête
+Chaque match se joue en **deux parties**, couleurs inversées : la meilleure tête
 de série a les Blancs à l'aller et les Noirs au retour. Le match est décidé au
-**cumul** des deux parties ; une égalité au cumul est tranchée par les
+**cumul** des deux parties ; une égalité au cumul est tranchée par les
 départages de qualification, comme ci-dessus. Le tournoi compte deux fois plus
 de rondes.
 
 ### Double élimination
 
-Deux tableaux se déroulent en parallèle :
+Deux tableaux se déroulent en parallèle :
 
-- Le **tableau supérieur** est une élimination simple. Y perdre n'élimine pas :
+- Le **tableau supérieur** est une élimination simple. Y perdre n'élimine pas :
   le·la perdant·e bascule dans le tableau inférieur.
 - Le **tableau inférieur** accueille les perdant·es du tableau supérieur. Y
   perdre constitue la **seconde défaite**, qui élimine.
 - La **Grande finale** oppose les vainqueur·es des deux tableaux.
 
 Avec l'option **Belle de grande finale**, le·la vainqueur·e du tableau
-supérieur — qui n'a pas encore perdu — doit être battu·e **deux fois** : si
+supérieur — qui n'a pas encore perdu — doit être battu·e **deux fois** : si
 le·la vainqueur·e du tableau inférieur remporte la Grande finale, une **belle**
 est jouée. Cette ronde supplémentaire est réservée dans le calendrier (pour
 pouvoir lui donner une date et une heure) mais est sautée, et le tournoi se
@@ -128,7 +128,7 @@ inversées.
 
 ## Réglages
 
-Les réglages d'appariement dépendent de la variante :
+Les réglages d'appariement dépendent de la variante :
 
 | Réglage | Variantes | Signification |
 |---|---|---|
@@ -140,7 +140,7 @@ Les réglages d'appariement dépendent de la variante :
 ### Attribution des couleurs
 
 - **Alterner les couleurs** (par défaut) — chaque participant·e prend la couleur
-  opposée à celle de son tour précédent ; lorsque deux participant·es qui
+  opposée à celle de son tour précédent ; lorsque deux participant·es qui
   devraient avoir la même couleur se rencontrent, la meilleure tête de série
   alterne et l'autre prend la couleur restante.
 - **La meilleure tête de série joue les Blancs** — la meilleure tête de série a
@@ -155,11 +155,11 @@ autres échiquiers alternent comme d'habitude).
 Le tirage par groupe — par **club** ou **fédération** pour les individuel·les,
 par **affiliation** ou **fédération** pour les équipes (les plug-ins peuvent
 ajouter d'autres critères) — dispose le tableau de sorte que **chaque groupe
-forme son propre sous-tableau** : les membres d'un groupe se rencontrent
+forme son propre sous-tableau** : les membres d'un groupe se rencontrent
 d'abord entre eux, les groupes se rencontrent ensuite, et les deux groupes les
 plus forts ne peuvent se rencontrer qu'en finale. Au sein d'un groupe, les
-joueur·euses sont classé·es par Elo et les équipes par numéro d'appariement ;
-les participant·es sans valeur forment un unique groupe « sans affiliation ».
+joueur·euses sont classé·es par Elo et les équipes par numéro d'appariement ;
+les participant·es sans valeur forment un unique groupe « sans affiliation ».
 
 Chaque groupe est complété par des exempts jusqu'à une même taille (puissance
 de deux) : des groupes inégaux coûtent donc des exempts et des rondes. Le
@@ -176,7 +176,7 @@ groupes de même taille — idéalement 2, 4, 8 ou 16 participant·es chacun.
 - La colonne de gauche de l'écran d'appariement liste qui est **en lice**, par
   tableau (supérieur et inférieur en double élimination), et replie les
   éliminé·es.
-- La navigation entre les rondes nomme chaque tour : **8es de finale**,
+- La navigation entre les rondes nomme chaque tour : **8es de finale**,
   **Quarts de finale**, **Demi-finales**, **Finale**, ainsi que les tours des
   tableaux supérieur et inférieur et la Grande finale en double élimination. Le
   match pour la troisième place se joue lors de la même ronde que la finale.
@@ -186,7 +186,7 @@ groupes de même taille — idéalement 2, 4, 8 ou 16 participant·es chacun.
   appariée d'après ses résultats. Pour corriger un résultat, désappariez d'abord
   la ronde suivante.
 - Le **classement** se fait selon le **tour atteint**, exprimé en clair plutôt
-  qu'en points : _Vainqueur·e_, _Finaliste_, _Troisième place_ et _Quatrième
+  qu'en points : _Vainqueur·e_, _Finaliste_, _Troisième place_ et _Quatrième
   place_ (avec un match pour la troisième place), _Éliminé·e — tour N_, ou _En
   lice_ tant que le tableau est en cours.
 
@@ -205,7 +205,7 @@ l'heure de chaque ronde lorsqu'elles ont été définies.
 ## Coupe par équipes
 
 Une coupe par équipes fonctionne de la même façon, avec des **équipes** à la
-place des joueur·euses : chaque match est un match par équipes, joué sur les
+place des joueur·euses : chaque match est un match par équipes, joué sur les
 échiquiers des deux équipes avec les compositions de la ronde (voir
 [Dérouler les rondes par équipes]({% link docs/team-tournaments/running-team-rounds.fr.md %})),
 et l'équipe qui marque le plus de **points de parties** se qualifie. Un match à

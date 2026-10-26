@@ -10,10 +10,10 @@ nav_order: 100
 # Score et départages du Grand Prix
 
 Le classement d'un Grand Prix est construit à partir d'une **liste ordonnée de
-règles**. Le classement se fait par **raffinements successifs** : tout le monde
+règles**. Le classement se fait par **raffinements successifs** : tout le monde
 part à égalité, la première règle trie les compétiteurs, et chaque règle suivante
 ne départage que les égalités laissées par les précédentes. La première règle est
-donc le **score principal** ; les suivantes sont des départages.
+donc le **score principal** ; les suivantes sont des départages.
 
 Comme les règles sont appliquées dans l'ordre, vous pouvez combiner un cumul, un
 décompte et une règle de confrontation dans l'ordre exigé par votre règlement — par
@@ -29,10 +29,10 @@ les ordonner.
 
 La plupart des règles peuvent être limitées aux **N meilleures étapes** d'un
 compétiteur au lieu de toutes (laissez le champ vide pour toutes les compter).
-C'est ainsi que fonctionnent les circuits « meilleurs 5 résultats de la saison ».
+C'est ainsi que fonctionnent les circuits « meilleurs 5 résultats de la saison ».
 
 Les meilleures étapes sont choisies par la **chaîne de règles configurée
-elle-même** : les étapes d'un compétiteur sont ordonnées comme le classement
+elle-même** : les étapes d'un compétiteur sont ordonnées comme le classement
 ordonne les compétiteurs, et les N premières sont retenues. Ainsi, une règle
 *points totaux, meilleures 5* retient les cinq étapes les mieux marquées, tandis
 qu'une règle *classement moyen, meilleures 5* retient les cinq mieux placées.
@@ -60,11 +60,11 @@ victoires) ne sont jamais pondérées — une place ou un décompte ne se multip
   différentes.
 - **Points selon la place** — des points fixes par place à l'arrivée (p. ex. 25
   pour le premier, 18 pour le deuxième…), sommés. Les places au-delà du barème ne
-  rapportent rien ; le barème est modifiable.
+  rapportent rien ; le barème est modifiable.
 
 **Place et décompte**
 
-- **Classement moyen** — la place moyenne à l'arrivée sur les étapes comptées ;
+- **Classement moyen** — la place moyenne à l'arrivée sur les étapes comptées ;
   plus la valeur est basse, mieux c'est.
 - **Nombre de places** — combien de fois le compétiteur a terminé à une place
   choisie (p. ex. nombre de premières places).
@@ -77,7 +77,7 @@ victoires) ne sont jamais pondérées — une place ou un décompte ne se multip
   comptées. La valeur est **calculée à partir des parties de chaque étape**, si bien
   que n'importe quel départage peut être agrégé — les événements sources n'ont pas
   besoin d'en avoir été dotés. Choisissez le départage et ses options exactement
-  comme sur un tournoi ; le sélecteur liste d'abord ceux déjà utilisés dans les
+  comme sur un tournoi ; le sélecteur liste d'abord ceux déjà utilisés dans les
   tournois sources, puis tous les autres départages compatibles. Les étapes qui ne
   peuvent pas fournir le départage sont ignorées.
 

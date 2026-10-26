@@ -11,9 +11,9 @@ nav_order: 500
 
 ## L’interface d’appariement
 
-L’interface d’appariement est divisée en deux parties :
-- **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (demi-point joker).
-- **À droite** : les appariements confirmés pour la ronde.
+L’interface d’appariement est divisée en deux parties :
+- **À gauche** : les joueur·euses non apparié·es et ceux·celles ayant reçu un bye (demi-point joker).
+- **À droite** : les appariements confirmés pour la ronde.
 
 Des contrôles de navigation permettent de changer de tournoi ou de ronde.
 Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
@@ -21,7 +21,7 @@ Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
 {: .note }
 > :information_source: L'interface s'adapte au [système d'appariement]({% link docs/running-an-event/pairing-systems.fr.md %}) : un toutes-rondes n'a pas de liste de non-apparié·es, et un [système coupe]({% link docs/running-an-event/knockout.fr.md %}) affiche à la place qui est encore en lice dans le tableau.
 
-L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les résultats peuvent être saisis — et les appariements vérifiés — depuis un smartphone dans la salle de jeu.
+L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les résultats peuvent être saisis — et les appariements vérifiés — depuis un smartphone dans la salle de jeu.
 
 ---
 
@@ -29,7 +29,7 @@ L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les
 
 Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
 
-Dans un **toutes-rondes**, toutes les rondes sont connues d'avance : au lieu d'apparier, vous **terminez** la ronde en cours. Lorsque vous naviguez au-delà de celle-ci, _Sharly Chess_ vous demande s'il faut terminer la ronde (la suivante devient la ronde en cours) ou simplement jeter un œil à la ronde suivante, et vous prévient si des échiquiers sont encore sans résultat.
+Dans un **toutes-rondes**, toutes les rondes sont connues d'avance : au lieu d'apparier, vous **terminez** la ronde en cours. Lorsque vous naviguez au-delà de celle-ci, _Sharly Chess_ vous demande s'il faut terminer la ronde (la suivante devient la ronde en cours) ou simplement jeter un œil à la ronde suivante, et vous prévient si des échiquiers sont encore sans résultat.
 
 ---
 
@@ -43,7 +43,7 @@ Pour apparier manuellement un·e joueur·euse (souvent une arrivée tardive), cl
 
 ## Gérer les absences et les demi-points joker
 
-Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·de la joueur·euse. Vous pouvez :
+Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·de la joueur·euse. Vous pouvez :
 - marquer le·la joueur·euse **absent·e** pour la ronde en cours (bye à 0 point) ;
 - donner un **demi-point joker** (bye à 0,5 point, si autorisé) ;
 - marquer le·la joueur·euse comme ayant **abandonné** le tournoi, ce qui le·la marque absent·e pour toutes les rondes restantes.
@@ -59,9 +59,9 @@ Pour attribuer un bye, cliquez sur le bouton correspondant à côté du nom du·
 
 ## Entrer les résultats
 
-Chaque ligne d’appariement comprend un bouton permettant de :
-- saisir ou modifier un résultat ;
-- permuter les couleurs si les joueur·euses ont joué du mauvais côté ;
+Chaque ligne d’appariement comprend un bouton permettant de :
+- saisir ou modifier un résultat ;
+- permuter les couleurs si les joueur·euses ont joué du mauvais côté ;
 - supprimer un appariement en cas d’erreur d’adversaire.
 
 {: .tip }
@@ -71,15 +71,15 @@ Chaque ligne d’appariement comprend un bouton permettant de :
 
 ### Saisie rapide
 
-Parfaite pour saisir de nombreux résultats rapidement, notamment depuis une feuille imprimée. Pour l’utiliser :
+Parfaite pour saisir de nombreux résultats rapidement, notamment depuis une feuille imprimée. Pour l’utiliser :
 
 1. Activez le mode **Remplacement** dans les raccourcis clavier.
 2. Cliquez sur une ligne d’appariement (hors du bouton) pour la sélectionner.
-3. Utilisez les raccourcis suivants :
-   - **1** : victoire des Blancs
-   - **2** : victoire des Noirs
-   - **3** : partie nulle
-   - **0** : effacer le résultat
+3. Utilisez les raccourcis suivants :
+   - **1** : victoire des Blancs
+   - **2** : victoire des Noirs
+   - **3** : partie nulle
+   - **0** : effacer le résultat
 
 Le tableau passera automatiquement à la ligne suivante après chaque saisie.
 
@@ -87,7 +87,7 @@ Le tableau passera automatiquement à la ligne suivante après chaque saisie.
 
 ### Vérification rapide
 
-Pour valider les résultats après les avoir saisis :
+Pour valider les résultats après les avoir saisis :
 
 1. Activez le mode **Surbrillance**.
 2. Cliquez sur une ligne d’appariement pour la sélectionner.

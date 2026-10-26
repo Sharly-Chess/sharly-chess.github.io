@@ -24,7 +24,7 @@ types habituels.
 
 ## Écrans
 
-Les affichages à l'écran pour les événements par équipes sont :
+Les affichages à l'écran pour les événements par équipes sont :
 
 - **Pointage des équipes** — les équipes se marquent présentes pour la ronde.
 - **Matchs par équipes** — les appariements de la ronde affichés en blocs d'échiquiers

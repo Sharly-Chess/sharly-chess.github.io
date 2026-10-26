@@ -16,7 +16,7 @@ fort·es ne se rencontrent, et le vainqueur peut ne se décider qu'à une seule
 partie tardive. L'accélération ajoute des **points fictifs** en haut du plateau
 dans les premières rondes, afin que les leaders soient apparié·es plus tôt et que
 le classement se stabilise plus vite. Ces points fictifs sont retirés au fil du
-tournoi : le classement final ne dépend donc que des résultats réels.
+tournoi : le classement final ne dépend donc que des résultats réels.
 
 On choisit un système accéléré comme **variation** du tournoi, sur le formulaire
 où l'on choisit le système d'appariement.
@@ -38,16 +38,16 @@ où l'on choisit le système d'appariement.
 
 ## Réglages
 
-Les réglages dépendent de la méthode :
+Les réglages dépendent de la méthode :
 
-- **Méthodes par groupes** (Bakou, Haley, Haley doux utilisent deux groupes ;
+- **Méthodes par groupes** (Bakou, Haley, Haley doux utilisent deux groupes ;
   Progressif en utilise trois) : le plateau est divisé en **Groupe A**,
   **Groupe B** (et **Groupe C**), chacun défini par un rang de départ **minimum**
   et **maximum**. Le groupe du haut porte les points fictifs.
-- **Système accéléré personnalisé** — **Rondes accélérées** : une liste de règles,
+- **Système accéléré personnalisé** — **Rondes accélérées** : une liste de règles,
   chacune indiquant les points fictifs à ajouter et la plage de rondes et de
   numéros d'appariement concernée.
-- **Système accéléré à score initial** — **Scores d'appariement initiaux** : les
+- **Système accéléré à score initial** — **Scores d'appariement initiaux** : les
   points de départ à donner (voir ci‑dessous).
 
 {: .note }
@@ -57,7 +57,7 @@ Les réglages dépendent de la méthode :
 
 ---
 
-## Score initial : enchaîner des tournois
+## Score initial : enchaîner des tournois
 
 Le système **à score initial** donne aux joueur·euses un nombre de points
 d'appariement de départ. Ils peuvent être **repris d'un autre tournoi** — en

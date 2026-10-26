@@ -153,7 +153,8 @@ separator: true
   - Tri par ordre d'appariement ou par numéro d'échiquier de la vue d'administration des appariements, du document d'appariements et des écrans d'appariement pour les utilisateurs
 - Fonctionnalités spécifiques à la _FFE_ pour les tables fixes (pour compatibilité avec les appariements affichés sur le site _FFE_)
 - Création d’étiquettes personnalisées pouvant être attribuées aux évènements pour faciliter le filtrage
-- Création d'évènement autorisée pour le niveau d'accès « Organisation »
+- Création d'évènement autorisée pour le niveau d'accès 
+- « Organisation »
 - Ajout de la fédération Curaçao (CUR)
 - Désignation des membres du staff comme arbitres, en plus des rôles d'arbitre en chef et arbitre adjoint·e, et prise en compte dans les documents des tournois et dans les exports _Chess-Results_
 - Amélioration de la gestion des prix
@@ -169,7 +170,7 @@ separator: true
 - Amélioration des rapports de normes
   - Les rapports de normes générés avant la fin du tournoi supposent désormais que les joueurs disputeront les rondes restantes pour l'application des règles 1.5.6a et 1.4.3d
   - Le calcul des normes de titre prend désormais en compte les titres féminins : les adversaires détenant un titre de GMF ou MIF sont correctement comptabilisées pour les exigences des règles 1.4.5 et 1.4.3d, même lorsqu'elles détiennent également un titre mixte
-- Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
+- Ajout d'une option dans le document d'appariements pour inclure une colonne « Fédération »
 - Téléversement personnalisé des documents HTML
 
 ## Version 4.2.8 - August 11, 2026

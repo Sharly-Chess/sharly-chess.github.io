@@ -18,9 +18,9 @@ Des [plug-ins]({% link docs/plugins/index.fr.md %}) peuvent également fournir d
 
 Vous pouvez gérer toutes les bases locales de joueur·euses depuis la page **Sources de données**, accessible via l’option « Sources données » dans le menu de navigation.
 
-Pour chaque base, vous pouvez choisir :
-- de l’**actualiser automatiquement** au démarrage de _Sharly Chess_ ;
-- de **recevoir une alerte** lorsque la base est obsolète (selon le nombre de jours que vous définissez). Dans ce cas, l’option dans la barre latérale affichera un signe d’avertissement ;
+Pour chaque base, vous pouvez choisir :
+- de l’**actualiser automatiquement** au démarrage de _Sharly Chess_ ;
+- de **recevoir une alerte** lorsque la base est obsolète (selon le nombre de jours que vous définissez). Dans ce cas, l’option dans la barre latérale affichera un signe d’avertissement ;
 - de l’**actualiser manuellement** à tout moment — particulièrement utile le matin d’un tournoi.
 
 Ce système vous garantit de toujours disposer des dernières informations sur les joueur·euses, sans avoir besoin d’une connexion internet pendant l’événement.

@@ -13,7 +13,7 @@ Dans un **événement individuel**, les joueur·euses concourent et sont classé
 individuellement. La mise en place commune — créer l'événement,
 ajouter les tournois et inscrire les joueur·euses — est la même pour tout événement
 et est couverte sous [Gérer un événement]({% link docs/running-an-event/index.fr.md %}).
-Les pages ci‑dessous couvrent le travail propre aux événements individuels :
+Les pages ci‑dessous couvrent le travail propre aux événements individuels :
 
 - **[Systèmes d'appariement]({% link docs/running-an-event/pairing-systems.fr.md %})** — Suisse, Toutes‑rondes et Keizer, et lequel choisir.
   - **[Accélérations]({% link docs/running-an-event/accelerations.fr.md %})** — les variations suisses accélérées.
