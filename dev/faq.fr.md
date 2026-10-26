@@ -36,7 +36,7 @@ Cette règle concerne **uniquement** le calcul des classements, et non pas les a
 
 Ainsi, l’arbitre est libre d’attribuer une estimation valable pour le classement des joueur·euses non classé·es.
 
-Il est donc judicieux d’utiliser le classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz, car cela permet d’éviter des surprises désagréables. C’est ce que fait la [récupération du classement]({% link docs/running-an-event/managing-tournaments.fr.md %}#classements) par défaut d’un tournoi rapide ou blitz : le classement _FIDE_ standard suit le classement _FIDE_ rapide (ou blitz), de sorte qu’un·e joueur·euse sans classement rapide (ou blitz) est rangé·e selon son classement standard. Choisissez une autre **Récupération du classement** dans les paramètres du tournoi pour les ranger autrement.
+Il est donc judicieux d’utiliser le classement standard pour les joueur·euses non classé·es dans les tournois rapides et blitz, car cela permet d’éviter des surprises désagréables. C’est ce que fait la [récupération du classement]({% link docs/running-an-event/managing-tournaments.fr.md %}#classements) par défaut d’un tournoi rapide ou blitz : le classement _FIDE_ standard suit le classement _FIDE_ rapide (ou blitz), de sorte qu’un·e joueur·euse sans classement rapide (ou blitz) est rangé·e selon son classement standard. Choisissez une autre **Récupération du classement** dans les paramètres du tournoi pour les ranger autrement.
 
 Nous recommandons d’ajouter cette précision dans vos règlements. Un exemple se trouve dans les [Règlements des Championnats du Monde _FIDE_ de parties rapides et blitz 2025](https://handbook.fide.com/files/handbook/wrbc_regulations_2025_open.pdf), qui le mentionnent explicitement à l’Article 4.2.4.1 :
 
