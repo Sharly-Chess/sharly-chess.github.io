@@ -23,7 +23,8 @@ indique le nombre de groupes appliqués à la ronde.
 - **Éviter d'apparier par** construit les groupes automatiquement : tous les
   joueur·euses (ou toutes les équipes) qui partagent l'attribut choisi, par
   exemple le même club, forment un groupe. La **Contrainte** à côté s'applique
-  à tous ces groupes ; **Aucune** les désactive sans oublier l'attribut.
+  à tous ces groupes ; **Aucune** les désactive (les groupes sont néanmoins 
+  conservés pour être éventuellement réactivés ultérieurement).
 - Les **groupes manuels** vous permettent d'ajouter vos propres groupes, par
   exemple les membres d'une même famille. Chaque groupe manuel a sa propre
   contrainte.
@@ -32,9 +33,9 @@ La contrainte est **Stricte**, **Souple : relâchée depuis le bas du
 classement** ou **Souple : évitée autant que les règles d'appariement le
 permettent** (voir ci-dessous).
 
-Une fois une ronde appariée, ses groupes sont figés : la fenêtre affiche les
-groupes utilisés pour cette ronde, et un changement de réglage ne concerne que
-les rondes restant à apparier.
+Une fois une ronde appariée, les groupes utilisés pour apparier la ronde sont 
+figés : la fenêtre affiche les groupes utilisés pour cette ronde, et un 
+changement de réglage ne concerne que les rondes restant à apparier.
 
 ## Contraintes
 
@@ -45,10 +46,10 @@ l'indique.
 Une contrainte **souple** est respectée _autant que possible_. Les deux
 contraintes souples diffèrent par ce qui cède lorsqu'elle ne peut pas l'être :
 
-| Contrainte | Ce qui cède |
-|---|---|
-| Souple : relâchée depuis le bas du classement | les premier·ères du classement restent toujours séparé·es ; lorsque ce n'est pas possible pour tout le monde, les moins bien classé·es sont les premier·ères à pouvoir rencontrer un membre de leur groupe. La séparation des premier·ères passe avant les groupes de points, les couleurs et les flotteurs |
-| Souple : évitée autant que les règles d'appariement le permettent | les membres d'un même groupe ne restent séparé·es que si aucun critère du système suisse (couleurs, flotteurs…) n'en pâtit ; sinon, ils·elles se rencontrent, quel que soit leur classement |
+| Contrainte                                                        | Ce qui cède                                                                                                                                                                                                                                                                                                  |
+|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Souple : relâchée depuis le bas du classement                     | les premier·ères du classement restent toujours séparé·es ; lorsque ce n'est pas possible pour tout le monde, les moins bien classé·es sont les premier·ères à pouvoir rencontrer un membre de leur groupe. La séparation des premier·ères passe avant les groupes de points, les couleurs et les flotteurs. |
+| Souple : évitée autant que les règles d'appariement le permettent | les membres d'un même groupe ne restent séparé·es que si aucun critère du système suisse (couleurs, flotteurs…) n'en pâtit ; sinon, ils·elles se rencontrent, quel que soit leur classement.                                                                                                                 |
 
 Les groupes d'une ronde peuvent mêler les trois contraintes.
 
@@ -68,11 +69,11 @@ ce classement est simplement l'ordre initial.
 Il choisit ensuite un seuil **N** et protège les joueur·euses (ou équipes)
 classé·es **de la 1re à la Ne place** :
 
-| Paire issue d'un même groupe | Autorisée ? |
-|---|---|
-| les deux membres classés dans les N premiers | non |
-| un membre dans les N premiers, l'autre en dessous | **non** |
-| les deux membres classés en dessous de N | oui |
+| Paire issue d'un même groupe                      | Autorisée ? |
+|---------------------------------------------------|:-----------:|
+| les deux membres classés dans les N premiers      |     non     |
+| un membre dans les N premiers, l'autre en dessous |   **non**   |
+| les deux membres classés en dessous de N          |     oui     |
 
 Un·e joueur·euse protégé·e conserve _toutes_ ses séparations, y compris face
 aux joueur·euses libéré·es. Être libéré·e ne permet pas de rencontrer n'importe
@@ -123,17 +124,17 @@ d'un autre club.
 **Ronde 2.** Le classement à l'entrée de la ronde est le suivant :
 
 | Place | Équipe | Points |
-|---|---|---|
-| 1 | A2 | 3 |
-| 2 | A1 | 3 |
-| 3 | A3 | 3 |
-| 4 | B1 | 3 |
-| 5 | A6 | 2 |
-| 6 | A5 | 2 |
-| 7 | D | 1 |
-| 8 | A4 | 1 |
-| 9 | C | 1 |
-| 10 | B2 | 1 |
+|------:|:-------|-------:|
+|     1 | A2     |      3 |
+|     2 | A1     |      3 |
+|     3 | A3     |      3 |
+|     4 | B1     |      3 |
+|     5 | A6     |      2 |
+|     6 | A5     |      2 |
+|     7 | D      |      1 |
+|     8 | A4     |      1 |
+|     9 | C      |      1 |
+|    10 | B2     |      1 |
 
 - Protéger les 6 premières laisserait cinq équipes du club A (A2, A1, A3, A6,
   A5) pour seulement quatre adversaires extérieurs : impossible.

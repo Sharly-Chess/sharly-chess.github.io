@@ -22,7 +22,7 @@ many groups apply to the round.
 - **Avoid pairing by** builds the groups automatically: every player (or team)
   sharing the chosen attribute, for instance the same club, ends up in the same
   group. The **Constraint** next to it applies to all these groups; **None**
-  turns them off without forgetting the attribute.
+  turns them off (groups are kept to be turned on later).
 - **Manual groups** let you add groups of your own, for instance members of the
   same family. Each manual group has its own constraint.
 
@@ -30,9 +30,9 @@ The constraint is **Strict**, **Soft: relaxed from the bottom of the
 standings** or **Soft: avoided as much as the pairing rules allow** (see
 below).
 
-Once a round is paired, its groups are frozen: the modal shows the groups that
-were used for that round, and changing the setting only affects the rounds still
-to be paired.
+Once a round is paired, the groups used to pair the round are frozen: the modal 
+shows the groups that were used for that round, and changing the setting only 
+affects the rounds still to be paired.
 
 ## Constraints
 
@@ -42,10 +42,10 @@ without breaking it, _Sharly Chess_ refuses to pair the round and tells you so.
 A **soft** constraint is kept _as far as possible_. The two soft constraints
 differ in what gives way when it cannot be kept:
 
-| Constraint | What gives way |
-|---|---|
-| Soft: relaxed from the bottom of the standings | the leaders always stay apart; when that is not possible for everyone, the lowest-ranked players are the first who may meet a member of their group. Keeping the leaders apart comes before score groups, colours and floaters |
-| Soft: avoided as much as the pairing rules allow | members of the same group stay apart only if no Swiss criterion (colours, floaters…) suffers; otherwise they meet, whatever their ranking |
+| Constraint                                       | What gives way                                                                                                                                                                                                                  |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Soft: relaxed from the bottom of the standings   | the leaders always stay apart; when that is not possible for everyone, the lowest-ranked players are the first who may meet a member of their group. Keeping the leaders apart comes before score groups, colours and floaters. |
+| Soft: avoided as much as the pairing rules allow | members of the same group stay apart only if no Swiss criterion (colours, floaters…) suffers; otherwise they meet, whatever their ranking.                                                                                      |
 
 The groups of a round can mix the three constraints.
 
@@ -65,11 +65,11 @@ standings are simply the initial ranking.
 It then picks a cut-off **N**, and protects the players (or teams) ranked
 **1st to Nth**:
 
-| Pair from the same group | Allowed? |
-|---|---|
-| both members ranked within the top N | no |
-| one member within the top N, the other below | **no** |
-| both members ranked below N | yes |
+| Pair from the same group                     | Allowed? |
+|----------------------------------------------|:--------:|
+| both members ranked within the top N         |    no    |
+| one member within the top N, the other below |  **no**  |
+| both members ranked below N                  |   yes    |
 
 A protected player keeps _all_ their separations, including against the players
 who have been released. Releasing a player does not let them meet anyone from
@@ -117,17 +117,17 @@ meets a team from another club.
 **Round 2.** The standings entering the round are:
 
 | Rank | Team | Points |
-|---|---|---|
-| 1 | A2 | 3 |
-| 2 | A1 | 3 |
-| 3 | A3 | 3 |
-| 4 | B1 | 3 |
-| 5 | A6 | 2 |
-| 6 | A5 | 2 |
-| 7 | D | 1 |
-| 8 | A4 | 1 |
-| 9 | C | 1 |
-| 10 | B2 | 1 |
+|-----:|------|-------:|
+|    1 | A2   |      3 |
+|    2 | A1   |      3 |
+|    3 | A3   |      3 |
+|    4 | B1   |      3 |
+|    5 | A6   |      2 |
+|    6 | A5   |      2 |
+|    7 | D    |      1 |
+|    8 | A4   |      1 |
+|    9 | C    |      1 |
+|   10 | B2   |      1 |
 
 - Protecting the top 6 would leave five club A teams (A2, A1, A3, A6, A5) for
   only four outside opponents: impossible.

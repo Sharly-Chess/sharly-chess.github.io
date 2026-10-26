@@ -38,8 +38,8 @@ Cinq systèmes apparient les équipes ; choisissez celui qui convient à votre
 format :
 
 - **Suisse par équipes** — apparie des équipes entières selon le classement à
-  chaque ronde ; idéal pour les grands plateaux. Gère les exempts et la séparation
-  des équipes apparentées.
+  chaque ronde ; idéal pour les grands plateaux. Gère les exempts et la protection
+  entre équipes apparentées.
 - **Toutes‑rondes par équipes** (Berger) — chaque équipe rencontre toutes les
   autres ; calendrier fixe généré d'emblée.
 - **Match en deux parties** — un face‑à‑face entre deux équipes avec alternance
