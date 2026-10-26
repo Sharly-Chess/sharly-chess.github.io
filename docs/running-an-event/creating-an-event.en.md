@@ -19,7 +19,8 @@ Some basic information is required to set up an event, but most fields can be le
 | **Name** | A user-friendly name, used for display purposes (e.g. on [Screens]({% link docs/screens/index.en.md %})).
 | **Dates** | The start and end dates of the event. Used for sorting events and included in the TRF export. |
 | **Location** | The location of the event (e.g. city or venue). |
-| **Ratings tried by default** | The kind of rating the default sequence of the tournaments tries first, and the one it falls back on, unless they [choose another sequence]({% link docs/running-an-event/managing-tournaments.en.md %}#ratings): _FIDE_; National; _FIDE_, then national; National, then _FIDE_; Highest of _FIDE_ and national; Lowest of _FIDE_ and national. |
+| **Rating retrieval by default** | The kind of rating the default sequence of the tournaments looks for first, and the one it falls back on, unless they [choose another sequence]({% link docs/running-an-event/managing-tournaments.en.md %}#ratings): _FIDE_; National; _FIDE_, then national; National, then _FIDE_; Highest of _FIDE_ and national; Lowest of _FIDE_ and national. |
+| **Unrated players** | The rating of the players no list rates and for whom no value is typed, 1400 by default. Each tournament may set its own (see [Ratings]({% link docs/running-an-event/managing-tournaments.en.md %}#ratings)). When a federation plugin prescribes this rating, the field is disabled. |
 | **Check the ratings against the lists** | On by default. Warns on the Players page when the rating lists give some players a different rating (see [Ratings]({% link docs/running-an-event/ratings.en.md %}#automatic-check)). |
 
 You can also activate any plugins that you'll need for this event.

@@ -24,10 +24,11 @@ Dans le menu de navigation, accédez à l'onglet **Tournois**, puis cliquez sur 
 
 ### Classements
 
-| **Classement utilisé** | La cadence du tournoi — Standard, Rapide ou Blitz : la cadence dont les classements sont utilisés pour le tournoi. |
-| **Classements essayés** | Les classements selon lesquels les joueur·euses sont rangé·es, essayés dans cet ordre : un·e joueur·euse reçoit le premier qu’il·elle possède. Chaque classement est désigné par sa liste, sa sorte et sa cadence. La première option, **Par défaut – …**, est la séquence de la fédération pour la cadence (voir ci-dessous), selon les [**Classements essayés par défaut**]({% link docs/running-an-event/creating-an-event.fr.md %}) de l’événement. Les options **Le plus élevé du FIDE et du national** et **Le plus bas du FIDE et du national** comparent le premier classement _FIDE_ et le premier classement national que possède un·e joueur·euse. |
+| **Cadence** | Standard, Rapide ou Blitz : la cadence dont les classements sont utilisés pour le tournoi. |
+| **Non classé·es** | Le classement des joueur·euses qu’aucune liste ne classe et pour qui aucune valeur n’est saisie. Laissé vide, la valeur [**Non classé·es**]({% link docs/running-an-event/creating-an-event.fr.md %}) de l’événement s’applique. Lorsqu’un plug-in fédéral prescrit ce classement, le champ est désactivé (voir par exemple le [plug-in _FFE_]({% link docs/plugins/france/ffe.fr.md %}#classements)). |
+| **Récupération du classement** | Les classements recherchés, par ordre de priorité : un·e joueur·euse est rangé·e selon le premier qu’il·elle possède. Chaque classement est désigné par sa liste, sa sorte et sa cadence. La première option, **Par défaut – …**, est la séquence de la fédération pour la cadence (voir ci-dessous), selon les [**Récupération du classement par défaut**]({% link docs/running-an-event/creating-an-event.fr.md %}) de l’événement. Les options **Le plus élevé du FIDE et du national** et **Le plus bas du FIDE et du national** comparent le premier classement _FIDE_ et le premier classement national que possède un·e joueur·euse. |
 
-Dans une liste, › sépare les classements essayés l’un après l’autre, et → mène à la liste suivante. Par exemple, _Liste FIDE : rapide › standard → FFE : FIDE rapide › FIDE standard › national rapide_ essaie le classement rapide puis standard de la liste _FIDE_, puis les classements _FIDE_ rapide et standard que donne la liste _FFE_, puis le classement national rapide de la liste _FFE_. Une liste nationale peut donner les classements _FIDE_ de ses joueur·euses en plus de leurs classements nationaux ; les options ne citent que les classements que publient les listes : une liste nationale qui ne publie qu’un classement standard ne propose pas de classement national rapide, et une liste qui ne donne pas de classements _FIDE_ n’en propose aucun.
+Dans une liste, › sépare les classements recherchés l’un après l’autre, et → mène à la liste suivante. Par exemple, _Liste FIDE : rapide › standard → FFE : FIDE rapide › FIDE standard › national rapide_ recherche le classement rapide puis standard de la liste _FIDE_, puis les classements _FIDE_ rapide et standard que donne la liste _FFE_, puis le classement national rapide de la liste _FFE_. Une liste nationale peut donner les classements _FIDE_ de ses joueur·euses en plus de leurs classements nationaux ; les options ne citent que les classements que publient les listes : une liste nationale qui ne publie qu’un classement standard ne propose pas de classement national rapide, et une liste qui ne donne pas de classements _FIDE_ n’en propose aucun.
 
 Les séquences par défaut de la _FIDE_ sont :
 
@@ -35,9 +36,9 @@ Les séquences par défaut de la _FIDE_ sont :
 | **Rapide** | Liste _FIDE_ : rapide › standard › blitz |
 | **Blitz** | Liste _FIDE_ : blitz › standard › rapide |
 
-Un·e joueur·euse qui ne possède aucun des classements essayés reçoit la valeur saisie par l’arbitre ; à défaut, la valeur prescrite par la fédération. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l’affichage et la vérification des classements.
+Un·e joueur·euse qui ne possède aucun des classements recherchés est rangé·e selon la valeur saisie par l’arbitre ; à défaut, selon la valeur prescrite par la fédération, s’il y en a une, puis selon la valeur **Non classé·es** du tournoi ou, à défaut, de l’événement (1400 par défaut). Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l’affichage et la vérification des classements.
 
-La carte du tournoi indique les classements essayés (**Classements essayés → …**).
+La carte du tournoi indique la séquence sous **Récupération du classement**.
 
 {: .note }
 > :information_source: Les plug-ins fédéraux peuvent imposer les séquences de leur fédération, qui ne peuvent alors pas être modifiées (voir par exemple le [plug-in _FFE_]({% link docs/plugins/france/ffe.fr.md %})).

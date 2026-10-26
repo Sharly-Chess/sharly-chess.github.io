@@ -37,7 +37,7 @@ nav_order: 800
 
   Thus, the arbiter has the freedom to assign a valid estimated rating for unrated players.
 
-  It is therefore a sensible choice to use the standard rating for unrated players in rapid and blitz tournaments, since this avoids unpleasant surprises. This is what the default [ratings tried]({% link docs/running-an-event/managing-tournaments.en.md %}#ratings) of a rapid or blitz tournament do: the _FIDE_ standard rating follows the _FIDE_ rapid (or blitz) one, so a player without a rapid (or blitz) rating is ranked on their standard rating. Choose other ratings tried in the tournament settings to rank them otherwise.
+  It is therefore a sensible choice to use the standard rating for unrated players in rapid and blitz tournaments, since this avoids unpleasant surprises. This is what the default [rating retrieval]({% link docs/running-an-event/managing-tournaments.en.md %}#ratings) of a rapid or blitz tournament does: the _FIDE_ standard rating follows the _FIDE_ rapid (or blitz) one, so a player without a rapid (or blitz) rating is ranked on their standard rating. Choose another **Rating retrieval** in the tournament settings to rank them otherwise.
 
   We recommend adding this clarification to your tournament regulations. An example is provided in the [Regulations for the Fide World Rapid & Blitz Championships 2025](https://handbook.fide.com/files/handbook/wrbc_regulations_2025_open.pdf) which specifically mentions this in article 4.2.4.1:
 
