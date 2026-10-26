@@ -16,7 +16,7 @@ La plateforme réunit organisateur·ices, joueur·euses et arbitres dans une int
 
 - **Gestion d'événements** — Créez et gérez des événements d'échecs avec plusieurs tournois et des limites de capacité flexibles.
 - **Inscription des joueurs** — Processus d'inscription simplifié avec gestion des tarifs et détection des doublons.
-- **Traitement des paiements** — Paiement sécurisé via Stripe, les fonds étant versés directement à l'organisation. Facturation automatique et gestion des remboursements incluses.
+- **Traitement des paiements** — Paiement sécurisé via Stripe (ou HelloAsso pour les associations françaises, ou votre plateforme de paiement préférée), les fonds étant versés directement à l'organisation. Facturation automatique et gestion des remboursements incluses.
 - **Recherche dans la base de joueur·euses** — Recherche intégrée pour retrouver les informations des joueur·euses de manière fiable.
 - **Produits et options** — Vendez des articles, des formules repas et d'autres prestations en complément des inscriptions aux tournois.
 - **Accès équipe** — Donnez à tous les membres de votre équipe un accès organisateur pour répartir la charge de travail.

@@ -16,7 +16,7 @@ The platform brings together organisers, players and arbiters in a single, moder
 
 - **Event Management** — Create and manage chess events with multiple tournaments and flexible capacity limits.
 - **Player Registration** — Simplified registration process with tariff support and duplicate player detection.
-- **Payment Processing** — Secure payment handling via Stripe, with funds going directly to the organiser. Automatic billing and refund management included.
+- **Payment Processing** — Secure payment handling via Stripe (or HelloAsso for French non-profit organizations, or your preferred payment platform), with funds going directly to the organiser. Automatic billing and refund management included.
 - **Player Database Search** — Integrated lookup for accurate player information retrieval.
 - **Products & Options** — Sell merchandise, meal packages and additional offerings alongside tournament entries.
 - **Team Access** — Grant all team members organisational access to distribute the workload.
