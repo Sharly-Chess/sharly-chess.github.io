@@ -2,6 +2,8 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy/
+# The registration platform publishes it for both sites
+external_url: https://sharly-chess.com/en/privacy
 page_id: privacy
 nav_exclude: true
 nav_order: 300
