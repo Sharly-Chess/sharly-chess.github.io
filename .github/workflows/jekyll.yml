@@ -30,6 +30,8 @@ jobs:
   # Build job
   build:
     runs-on: macos-latest
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     steps:
       - name: Setup Pages
         id: pages
@@ -99,7 +101,30 @@ jobs:
           bundle exec jekyll build --destination ../_site/beta/
         env:
           JEKYLL_ENV: production
-      
+
+      # Build the same site again for thp.sharly-chess.com and deploy it to Vercel.
+      # These steps can fail without blocking the GitHub Pages deploy.
+      - name: Build site for thp.sharly-chess.com
+        if: env.VERCEL_TOKEN != ''
+        continue-on-error: true
+        run: |
+          echo 'url: "https://thp.sharly-chess.com"' > "$RUNNER_TEMP/thp-url.yml"
+          (cd main-site && bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/thp-url.yml" --destination ../_site_thp/)
+          if [ -d beta-site ]; then
+            (cd beta-site && bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/thp-url.yml" --destination ../_site_thp/beta/)
+          fi
+          cp main-site/.github/vercel-thp.json _site_thp/vercel.json
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy thp.sharly-chess.com to Vercel
+        if: env.VERCEL_TOKEN != ''
+        continue-on-error: true
+        run: npx --yes vercel@65.2.0 deploy _site_thp --prod --yes --token "$VERCEL_TOKEN"
+        env:
+          VERCEL_ORG_ID: team_FTyOTBiO6bcYqLzBwWO4Ounb
+          VERCEL_PROJECT_ID: prj_UQo9rBJ49YnR0lxVtAHrZmhAxFmv
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
