@@ -11,7 +11,7 @@ nav_order: 260
 
 La _FIDE_ n'homologue un tournoi comme un seul événement que s'il dure **30 jours au plus**. Un tournoi plus long — un championnat de club sur une saison, un interclubs, un open hebdomadaire — est déclaré en **tranches** d'au plus 30 jours, chacune enregistrée, soumise et homologuée comme un tournoi à part entière.
 
-_Sharly Chess_ appelle ces tranches des **périodes**. Vous cochez la ronde qui commence chacune d'elles, et tout le reste en découle : les classements avec lesquels les parties sont homologuées, les fichiers exportés et les envois vers le site de la _FFE_.
+_Sharly Chess_ appelle ces tranches des **périodes**. Vous cochez la ronde qui commence chacune d'elles, et tout le reste en découle : les classements avec lesquels les parties sont homologuées et les fichiers exportés.
 
 ---
 
@@ -69,7 +69,7 @@ Si vous en utilisez un malgré tout, **Classement utilisé par les départages**
 
 ## Exporter une tranche
 
-Le menu d'export du tournoi propose un fichier par période sous l'entrée du tournoi entier, aussi bien pour le **TRF** que pour le **Papi**.
+Le menu d'export du tournoi propose un fichier **TRF** par période, sous l'entrée du tournoi entier.
 
 Le fichier d'une tranche est celui du tournoi avec les autres rondes laissées vides : les mêmes dates, le même nombre de rondes, les mêmes joueur·euses sous les mêmes numéros, et seules les parties de cette tranche renseignées. Ce qui appartient à la tranche, c'est ce que valent ces parties — ses points, son classement, et les classements et titres avec lesquels elle a été jouée. Le TRF porte le nom des rondes qu'il renseigne, afin de distinguer deux fichiers d'un même tournoi.
 
@@ -77,15 +77,5 @@ C'est la forme que produisent les logiciels des fédérations, et le serveur d'h
 
 ---
 
-## Le site de la _FFE_
-
-La _FFE_ attribue **un numéro d'homologation par tranche**, à demander à l'avance comme pour tout autre tournoi.
-
-- La **première** tranche utilise le numéro et le mot de passe du tournoi, saisis comme d'habitude dans le formulaire du tournoi. C'est aussi là que les résultats complets sont publiés pour les joueur·euses.
-- **Chaque période suivante** a son propre numéro et son mot de passe, sur sa carte dans la section Calendrier.
-
-L'envoi du tournoi transmet le tournoi entier sous la première homologation, puis la tranche en cours sous la sienne. Dans la fenêtre de transfert des données, chaque tranche indique son propre état — jamais envoyée, envoi en cours, envoyée et quand, ou son propre échec. Une tranche déjà soumise peut être renvoyée seule, par **Envoyer la période N** dans le menu _FFE_ du tournoi : c'est ce qu'il faut pour corriger une tranche déjà homologuée.
-
-Seul le tournoi est rendu visible sur le site de la _FFE_ ; les tranches sont des homologations pour le classement, pas des pages pour les joueur·euses.
-
-Un point à prévoir : la _FFE_ ferme une homologation une fois sa tranche envoyée à la _FIDE_. Demandez à la fédération de rouvrir la première, afin de pouvoir continuer à y publier les résultats complets du tournoi.
+{: .note }
+> :information_source: Pour les tournois français, l'envoi des périodes sur le site de la _FFE_ est décrit dans [Le plug-in _FFE_]({% link docs/plugins/france/ffe.fr.md %}#tournois-de-plus-de-30-jours).

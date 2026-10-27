@@ -11,6 +11,8 @@ nav_order: 250
 
 In **FIDE mode**, _Sharly Chess_ keeps a tournament within the _FIDE_ regulations: it refuses the actions they prohibit, warns before the ones they do not describe, and logs every event that breaches the integrity of the pairings, both in the application and in the TRF file of the tournament.
 
+The _FIDE_ requires this behaviour of any pairing software that is to be recognised as _FIDE_ compliant.
+
 FIDE mode is available for **Swiss** tournaments, and is on by default. Other pairing systems do not have it.
 
 **Team Swiss** tournaments have no FIDE mode, but keep the [log](#the-log): each change to a round the next ones were paired from asks for a confirmation and is logged, as are the changes to the number of rounds and the tie-breaks. Nothing is refused, the settings are not fixed, and the pairings edited by hand are not checked against the pairing engine.

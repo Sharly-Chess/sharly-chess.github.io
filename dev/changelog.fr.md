@@ -9,6 +9,90 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 5.2.0 - À venir
+*Avec la version 5.2, Sharly Chess est prêt à être soumis aux tests de conformité de la FIDE dès que celle-ci ouvrira de nouveau les candidatures. Il maintient les tournois suisses dans le cadre du règlement FIDE, consigne chaque modification sortant des règles ou des recommandations de la FIDE et produit les fichiers TRF attendus par la FIDE.*
+
+### Conformité _FIDE_
+
+- [Mode _FIDE_]({% link docs/running-an-event/fide-mode.fr.md %}) pour les tournois suisses, activé par défaut : les actions interdites par le règlement _FIDE_ sont refusées, sauf si le tournoi quitte le mode _FIDE_ ; une fois la première ronde appariée, un tournoi qui quitte le mode _FIDE_ ne peut plus y revenir
+- Un journal de chaque modification sortant des règles ou des recommandations de la _FIDE_, comme un résultat corrigé après l'appariement de la ronde suivante ou des appariements modifiés à la main, et des paramètres modifiés en cours de tournoi, affiché sur la page des appariements et écrit en commentaires dans le TRF
+- En mode _FIDE_, chaque correction de la ronde précédente est confirmée et consignée, et les rondes antérieures ne peuvent pas être modifiées ; un résultat erroné d'une ronde antérieure peut toutefois être corrigé dans le rapport de classement, sans modifier les appariements ni le classement
+- Les tournois suisses par équipes consignent les corrections des rondes d'après lesquelles les suivantes ont été appariées, et les modifications du nombre de rondes et des départages, chacune ne demandant qu'une confirmation
+- Après un import TRF, chaque ronde importée est comparée au moteur d'appariement, et les rondes qui diffèrent sont listées et consignées
+- Les appariements manuels avertissent des parties répétées, des appariements interdits, des règles de couleurs et des exemptions attribuées par l'appariement non autorisées
+- Les joueur·euses peuvent être marqué·es comme ne pouvant pas recevoir de bye (_FIDE_ C.05:6.7.4) : aucun demi-point joker ne peut alors leur être attribué
+- Les départages Buchholz ne peuvent plus être choisis pour les toutes-rondes par équipes, comme pour les toutes-rondes individuels
+
+### Classements et sources de données
+
+- [Listes de classement nationales]({% link docs/player-databases/index.fr.md %}) : en plus de la liste _FIDE_, les listes de quinze fédérations sont téléchargées et converties sur votre machine, pour être consultées sans connexion internet : Afrique du Sud (CHESSA), Allemagne (DSB), Angleterre (ECF), Canada (CFC), Danemark (DSU), Finlande (SELO), Indonésie (Percasi), Italie (FSI), Japon (JCF), Malaisie (MCF), Nouvelle-Zélande (NZCF), Pays-Bas (KNSB), République tchèque (LOK), Russie (CFR) et Ukraine (UCF)
+  - Un·e joueur·euse trouvé·e dans une liste nationale avec un identifiant _FIDE_ reçoit ses classements, titres et fédération de la liste _FIDE_
+  - Les noms sont recherchés sans tenir compte des accents ni de la casse, et les listes écrites en cyrillique peuvent être consultées depuis un clavier latin
+  - Les joueur·euses conservent l'identifiant de leur fédération (numéro de licence _FFE_, numéro KNSB…) à côté de leur identifiant _FIDE_ ; il est affiché sur le formulaire et la fiche du·de la joueur·euse, avec un lien vers le site de la fédération, peut être imprimé sur les chevalets, et est importé et exporté avec les joueur·euses
+  - Seules les sources de données que vous utilisez sont affichées : celles d'une fédération sont activées avec son premier évènement, et les autres peuvent être ajoutées depuis la fenêtre Sources de données
+  - Une base que l'application ne peut pas télécharger (une connexion est nécessaire) peut être installée depuis un fichier que vous avez téléchargé vous-même
+  - La liste _FIDE_ est vérifiée chaque jour, pour rester à un jour près de celle que publie la _FIDE_
+- Nouvelle sélection du classement : chaque tournoi classe ses joueur·euses sur le premier classement qu'ils ou elles possèdent dans une séquence de classements essayés, choisie parmi des options prêtes à l'emploi, celles de la _FIDE_ en premier
+  - Une séquence peut essayer la liste _FIDE_, le classement _FIDE_ donné par une liste nationale, ou le classement national, à la cadence du tournoi ou à une autre ; deux options retiennent plutôt le plus haut ou le plus bas des classements _FIDE_ et national
+  - Chaque classement enregistre la liste et la date dont il provient ; le tournoi indique son type (_FIDE_, national ou estimé), et s'il a été corrigé ou emprunté à une autre cadence
+  - L'arbitre peut classer un·e joueur·euse sur tout autre classement qu'il ou elle possède
+  - Les joueur·euses qu'aucune liste ne classe sont classé·es sur le classement prescrit par un plug-in (selon l'âge pour la _FFE_), sinon sur la valeur Joueur·euses non classé·es du tournoi ou de l'évènement, 1400 par défaut
+  - Mettre à jour › Classements des joueur·euses compare les classements des joueur·euses aux listes et montre ce qui changerait, à appliquer aux joueur·euses de votre choix ; un bandeau de l'onglet des joueur·euses signale les écarts
+  - Le TRF indique la source de chaque classement utilisé pour classer les joueur·euses
+- Les [tournois de plus de 30 jours]({% link docs/running-an-event/rating-periods.fr.md %}) peuvent être découpés en périodes de 30 jours au plus, chacune homologuée avec les classements en vigueur lorsqu'elle est jouée et déclarée comme un tournoi à part entière
+
+### Publication des rondes
+
+- Les nouveaux appariements peuvent être vérifiés, corrigés et imprimés avant que quiconque ne les voie : ils n'arrivent sur les écrans et les services en ligne que lorsque l'arbitre publie la ronde
+  - Jusque-là, les écrans et les services en ligne (_Sharly-Chess.com_, _Chess-Results_, _FFE_, envois personnalisés) restent sur la ronde précédente
+  - Une ronde peut être publiée une fois les rondes précédentes terminées, et dépubliée tant qu'elle n'a aucun résultat
+  - Dans les toutes-rondes et les tournois à tables fixes (Molter, Scheveningen), les services en ligne reçoivent les appariements de chaque ronde dès qu'ils sont faits ; publier une ronde y fait passer les écrans et rend ses résultats publics. La publication remplace le bouton Terminer la ronde des toutes-rondes
+  - Quand le tournoi est affiché sur des écrans ou envoyé à des services en ligne, la page des appariements signale qu'une ronde attend d'être publiée
+
+### Toutes-rondes
+
+- Les toutes-rondes, individuels et par équipes, peuvent être appariés selon un calendrier saisi à la main (les nouvelles variantes à calendrier personnalisé) ou modifié après l'appariement à partir des tables de Berger
+  - Le calendrier est vérifié selon les règles des toutes-rondes avant d'être enregistré (chaque paire se rencontrant une fois, ou deux, et pas trois parties de suite avec la même couleur)
+  - Une fois des résultats saisis, les parties jouées aux mauvais échiquiers peuvent être corrigées, et un calendrier enfreignant les règles enregistré malgré tout, le journal et le TRF indiquant les règles enfreintes tant qu'il les enfreint
+- Les doubles toutes-rondes permettent de choisir si les deux dernières rondes du premier cycle sont inversées, comme le recommande la _FIDE_ pour éviter trois parties de suite avec la même couleur
+
+### Résultats et exports
+
+- Les parties peuvent être enregistrées comme ajournées dans les tournois suisses et toutes-rondes : elles comptent comme nulles jusqu'à la saisie de leur résultat, possible à tout moment ; le classement est indiqué comme provisoire, et le TRF donne ces parties comme des résultats inconnus. En mode _FIDE_, et dans les tournois suisses par équipes, un résultat autre que nul saisi après l'appariement de la ronde suivante demande une confirmation et est consigné
+- L'export TRF est nommé selon son usage : _TRF26 (ITDX)_ pour un fichier partiel tant que le tournoi n'est pas terminé ou que des parties n'ont pas de résultat, ces parties étant des résultats inconnus ; _TRF26 (final)_ pour le rapport final, seul à contenir les corrections faites pour le rapport de classement
+- Un nouvel export _PGN (toutes les rondes)_ donne les parties de toutes les rondes appariées en un seul fichier, et les deux exports PGN contiennent désormais les résultats des parties, forfaits compris, avec les dates des rondes, les identifiants _FIDE_ et les équipes des joueur·euses, et la cadence
+
+### Joueur·euses
+
+- Un paramètre de format des noms (Nom Prénom / Nom, Prénom / Prénom Nom / Prénom, Nom), avec une option pour afficher les noms en capitales, définit l'affichage des noms des joueur·euses, quelle que soit la langue
+- Dans les tournois suisses individuels, les joueur·euses de même classement et de même titre peuvent être départagé·es dans l'ordre de départ par tirage au sort plutôt que par ordre alphabétique
+
+### Départages et documents
+
+- Les départages basés sur le classement (ARO, TPR, APRO, PTP, APPO et RTNG) peuvent donner aux joueur·euses sans classement _FIDE_ ni national un classement fixe, 1400 par défaut, au lieu de leur classement estimé
+- Les règles des systèmes accélérés peuvent être imprimées, depuis les documents ou depuis les paramètres d'appariement : les règles du système, les groupes, les points virtuels accordés ronde par ronde et les joueur·euses de chaque groupe
+- Les chevalets d'appariement ne sont plus générés pour les exemptions attribuées par l'appariement
+- Les documents ont des boutons en haut de la page pour les imprimer et les télécharger en PDF ; les documents à remplir, comme les formulaires _FFE_ et le rapport de norme, peuvent aussi être téléchargés au format Word, avec les valeurs saisies dans leurs champs
+- Correction des PDF enregistrés depuis Firefox, dont le texte ne pouvait pas être copié : le texte des formulaires _FFE_, de la feuille d'appariement _FFE_ et des positions Chess960 peut désormais être copié et collé
+
+### _Sharly-Chess.com_
+
+- Amélioration de la synchronisation avec _Sharly-Chess.com_ lorsque plusieurs ordinateurs gèrent le même évènement : chacun n'envoie que ses propres modifications, un·e joueur·euse supprimé·e sur le site après avoir joué est conservé·e jusqu'à ce que l'arbitre le·la retire ou le·la garde, un·e joueur·euse déplacé·e dans un tournoi géré sur un autre ordinateur n'est plus supprimé·e, les conflits n'arrêtent plus la synchronisation, les modifications refusées par le site sont signalées, et un évènement copié demande à être reconnecté au lieu de déconnecter l'original
+
+### Application
+
+- Les évènements sont sauvegardés automatiquement aux moments clés (avant d'apparier ou de désapparier une ronde, de modifier un résultat, de répartir les joueur·euses ou de mettre à jour l'application), pour que l'arbitre puisse revenir rapidement à un état antérieur si nécessaire ; une sauvegarde peut être restaurée à la place de l'évènement ou à côté, les sauvegardes sont conservées à côté du dossier de données et non à l'intérieur, pour que chaque dossier puisse être déplacé sans l'autre, et vous pouvez choisir votre propre dossier de sauvegarde
+- Un seul _Sharly Chess_ fonctionne sur un dossier de données : le relancer ouvre celui qui tourne dans le navigateur au lieu de démarrer un second serveur sur un autre port, qui écrirait dans les mêmes évènements
+- Sous Windows, les données sont enregistrées dans les données locales des applications (`%LOCALAPPDATA%\Sharly Chess\data`) au lieu des Documents, que des services cloud comme OneDrive peuvent synchroniser et ainsi bloquer les évènements pendant que _Sharly Chess_ y écrit
+  - Les données de l'ancien dossier par défaut sont déplacées au premier démarrage, l'ancien dossier étant supprimé une fois la copie vérifiée
+  - Un dossier choisi dans OneDrive, Google Drive, Dropbox ou iCloud Drive est déplacé si l'utilisateur·rice l'accepte
+- Les paramètres de mise à jour de la fenêtre principale de l'application sont déplacés dans un nouvel onglet À propos
+
+### _FFE_ (Fédération française des échecs)
+
+- Le procès-verbal (T2) _FFE_ commence par les évènements consignés pour les tournois choisis
+- Les titres d'arbitre _FFE_ suivent la réforme de 2026 (Arbitre Jeune, Match, Club et Open) ; le titre d'arbitre _FIDE_ (FA ou IA) est renseigné depuis la base _FFE_, et les comptes existants sont convertis selon les règles de transition de la DNA, les ancien·nes arbitres Élite devenant arbitres _FIDE_ ou internationaux·ales
+
 ## Version 5.1.8 - 19 octobre 2026
 - Les tournois accélérés peuvent de nouveau être envoyés sur le site web de la _FFE_
 - When a penalty such as the forfeit penalty of the _FFE_ cups changes the winner of a team match, the next round is now paired on the corrected result, as the standings already showed

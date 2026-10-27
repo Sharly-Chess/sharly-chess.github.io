@@ -9,6 +9,90 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 5.2.0 - TBD
+*With version 5.2, Sharly Chess is ready to be submitted to the FIDE for compliance testing as soon as the FIDE opens to new submissions. It keeps Swiss tournaments within the FIDE regulations, logs every change that falls outside the FIDE rules or recommendations, and produces the TRF files the FIDE expects.*
+
+### FIDE compliance
+
+- [_FIDE_ mode]({% link docs/running-an-event/fide-mode.en.md %}) for Swiss tournaments, on by default: actions prohibited by the _FIDE_ regulations are refused unless the tournament leaves _FIDE_ mode; once the first round is paired, a tournament that leaves _FIDE_ mode can never return to it
+- A log of every change that falls outside the _FIDE_ rules or recommendations, such as a result corrected after the next round was paired or pairings edited by hand, and of the settings changed during the tournament; it is shown on the pairings page and written as comments in the TRF
+- In _FIDE_ mode, each correction to the previous round is confirmed and logged, and older rounds cannot be changed; a wrong result in an older round can still be corrected in the rating report, without changing the pairings or the standings
+- Team Swiss tournaments log the corrections to rounds already paired from and the changes to the number of rounds and the tie-breaks, each change asking only for a confirmation
+- After a TRF import, each imported round is checked against the pairing engine, and the rounds that differ are listed and logged
+- Manual pairings warn about repeated games, prohibited pairings, colour rules and ineligible pairing-allocated byes
+- Players can be marked as not eligible for byes (_FIDE_ C.05:6.7.4): no half-point bye can then be assigned to them
+- Buchholz tie-breaks can no longer be selected for team round robins, as for individual round robins
+
+### Ratings and data sources
+
+- [National rating lists]({% link docs/player-databases/index.en.md %}): besides the _FIDE_ list, the lists of fifteen federations are downloaded and converted on your machine, to be searched without an internet connection: Canada (CFC), Czech Republic (LOK), Denmark (DSU), England (ECF), Finland (SELO), Germany (DSB), Indonesia (Percasi), Italy (FSI), Japan (JCF), Malaysia (MCF), Netherlands (KNSB), New Zealand (NZCF), Russia (CFR), South Africa (CHESSA) and Ukraine (UCF)
+  - A player found in a national list with a _FIDE_ ID gets their _FIDE_ ratings, titles and federation from the _FIDE_ list
+  - Names are searched regardless of accents and case, and lists written in Cyrillic can be searched from a Latin keyboard
+  - Players keep the identifier of their federation (_FFE_ licence number, KNSB relation number…) next to their _FIDE_ ID; it is shown on the player form and record, with a link to the federation's website, can be printed on place cards, and is imported and exported with the players
+  - Only the data sources you use are shown: those of a federation are activated with its first event, and the others can be added from the Data sources window
+  - A database the application cannot download (a login is needed) can be installed from a file you downloaded yourself
+  - The _FIDE_ list is checked daily, to stay within a day of the one the _FIDE_ publishes
+- New rating selection: each tournament ranks its players on the first rating they hold in a sequence of ratings tried, chosen among ready-made options, _FIDE_'s defaults first
+  - A sequence can try the _FIDE_ list, the _FIDE_ rating a national list gives, or the national rating, at the tournament's rate of play or another one; two options take the highest or the lowest of the _FIDE_ and national ratings instead
+  - Each rating records the list and the date it came from; the tournament shows its kind (_FIDE_, national or estimated), and whether it was corrected or borrowed from another rate of play
+  - The arbiter can rank a player on any other rating they hold
+  - Players with no rating in any list are ranked on the rating a plugin prescribes (by age for the _FFE_), else on the tournament's or the event's Unrated players value, 1400 by default
+  - Update › Player ratings checks the players' ratings against the lists and shows what would change, to apply for the players you choose; a banner on the players tab reports the differences
+  - The TRF gives the source of each rating used to rank the players
+- [Tournaments over 30 days]({% link docs/running-an-event/rating-periods.en.md %}) can be split into periods of at most 30 days, each rated on the ratings in force when it is played and reported as a tournament of its own
+
+### Publishing rounds
+
+- New pairings can be checked, corrected and printed before anyone sees them: they only reach the screens and the online services when the arbiter publishes the round
+  - Until then, the screens and the online services (_Sharly-Chess.com_, _Chess-Results_, _FFE_, custom uploads) stay on the previous round
+  - A round can be published once the rounds before it are finished, and unpublished as long as it has no results
+  - In round robins and fixed-table tournaments (Molter, Scheveningen), the online services receive the pairings of every round as soon as they are made; publishing a round moves the screens on to it and makes its results public. Publishing replaces the End round button of round robins
+  - When the tournament is shown on screens or sent to online services, the pairings page warns that a round is waiting to be published
+
+### Round robins
+
+- Round robins, individual and team, can be paired from a schedule set by hand (the new custom schedule variations) or edited after pairing from the Berger tables
+  - The schedule is checked against the round-robin rules before it is saved (each pair meeting once, or twice, and no three games in a row with the same colour)
+  - Once results are entered, games played at the wrong boards can be corrected, and a schedule breaking the rules saved anyway, the log and the TRF listing the rules it breaks for as long as it does
+- Double round robins can choose whether the last two rounds of the first cycle are reversed, as recommended by _FIDE_ to avoid three games in a row with the same colour
+
+### Results and exports
+
+- Games can be recorded as adjourned in Swiss and round-robin tournaments: they count as draws until their result is entered, which can be done at any time; the standings say they are provisional, and the TRF gives the games as unknown results. In _FIDE_ mode, and in team Swiss tournaments, a result other than a draw entered after the next round is paired asks for confirmation and is logged
+- The TRF export is named after its use: _TRF26 (ITDX)_ for a partial file while the tournament is not finished or games have no result, where those games are unknown results; _TRF26 (final)_ for the final report, which alone carries the corrections made for the rating report
+- A new _PGN (all rounds)_ export gives the games of every paired round in a single file, and both PGN exports now carry the results of the games, forfeits included, with the round dates, the players' _FIDE_ IDs and teams, and the time control
+
+### Players
+
+- A name format setting (Last First / Last, First / First Last / First, Last), with an option to display last names in capitals, sets how players' names are displayed, whatever the language
+- In individual Swiss tournaments, the players with the same rating and title can be ordered in the starting rank by drawing of lots instead of alphabetically
+
+### Tie-breaks and documents
+
+- The rating-based tie-breaks (ARO, TPR, APRO, PTP, APPO and RTNG) can give players without a _FIDE_ or national rating a fixed rating, 1400 by default, instead of their estimated rating
+- The rules of the accelerated systems can be printed, from the documents or from the pairing settings: the rules of the system, the groups, the virtual points granted round by round and the players of each group
+- Pairing place cards are no longer generated for pairing-allocated byes
+- Documents have buttons at the top of the page to print them and to download them as PDF files; the documents with fields to fill in, such as the _FFE_ forms and the norm report, can also be downloaded as Word files, with the values entered in the fields
+- Fixed PDFs saved from Firefox, whose text could not be copied: the text of the _FFE_ forms, the _FFE_ pairing sheet and the Chess960 positions can now be copied and pasted
+
+### _Sharly-Chess.com_
+
+- Improved synchronisation with _Sharly-Chess.com_ when several computers run the same event: each sends only the changes it made, a player removed on the site after playing is kept until the arbiter withdraws or keeps them, a player moved to a tournament held on another computer is no longer deleted, conflicts no longer stop the synchronisation, changes the site refuses are reported, and a copied event asks to be connected again instead of disconnecting the original
+
+### Application
+
+- Events are backed up automatically at key moments (before a round is paired or unpaired, a result is changed, players are distributed, or the application is updated), so that the arbiter can quickly return an event to an earlier state if needed; a backup can be restored over the event or beside it, the backups are kept beside the data folder rather than inside it, so either folder can be moved without the other, and you can choose your own backup folder
+- Only one _Sharly Chess_ runs on a data folder: starting it again opens the running one in the browser instead of starting a second server on another port, which would write to the same events
+- On Windows, the data is stored in the local application data (`%LOCALAPPDATA%\Sharly Chess\data`) instead of the Documents, which cloud services such as OneDrive can synchronise and so block the events while _Sharly Chess_ writes to them
+  - The data of the former default folder is moved on the first start, the previous folder being deleted once the copy has been checked
+  - A folder chosen in OneDrive, Google Drive, Dropbox or iCloud Drive is moved if the user agrees
+- The update settings of the main application window have moved to a new About tab
+
+### _FFE_ (French Chess Federation)
+
+- The _FFE_ T2 minutes open with the events logged for the chosen tournaments
+- _FFE_ arbiter titles follow the 2026 reform (Young, Match, Club and Open Arbiter); the _FIDE_ arbiter title (FA or IA) is filled in from the _FFE_ database, and existing accounts are converted following the transition rules of the DNA, the former Elite arbiters becoming _FIDE_ or International Arbiters
+
 ## Version 5.1.8 - October 19, 2026
 - Tournaments with accelerated pairings can be sent to the _FFE_ website again
 - When a penalty such as the forfeit penalty of the _FFE_ cups changes the winner of a team match, the next round is now paired on the corrected result, as the standings already showed

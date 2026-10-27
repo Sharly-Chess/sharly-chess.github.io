@@ -66,6 +66,23 @@ Chaque joueur·euse doit avoir un numéro de licence _FFE_ et chaque équipe doi
 
 Les tournois par équipes peuvent aussi être exportés dans un fichier _Papi_. Le format _Papi_ ne connaissant pas les compétitions par équipes, le fichier décrit un **tournoi individuel au système suisse**, où chaque échiquier est une partie à part entière et où les joueur·euses sont classé·es aux points de parties. Les équipes, les points de match et les bonus / pénalités ne sont pas exportés, et un·e joueur·euse de la liste qui n'a pas été aligné·e à une ronde reçoit un exempt à zéro point.
 
+## Tournois de plus de 30 jours
+
+Cette section décrit le côté _FFE_ des [tournois de plus de 30 jours]({% link docs/running-an-event/rating-periods.fr.md %}), découpés en périodes pour la _FIDE_.
+
+Le menu d'export du tournoi propose aussi un fichier **Papi** par période, sous l'entrée du tournoi entier. Comme pour le TRF, le fichier d'une période est celui du tournoi dont seules les parties de cette période sont remplies.
+
+La _FFE_ attribue **un numéro d'homologation par tranche**, à demander à l'avance comme pour tout autre tournoi.
+
+- La **première** tranche utilise le numéro et le mot de passe du tournoi, saisis comme d'habitude dans le formulaire du tournoi. C'est aussi là que les résultats complets sont publiés pour les joueur·euses.
+- **Chaque période suivante** a son propre numéro et son mot de passe, sur sa carte dans la section Calendrier.
+
+L'envoi du tournoi transmet le tournoi entier sous la première homologation, puis la tranche en cours sous la sienne. Dans la fenêtre de transfert des données, chaque tranche indique son propre état — jamais envoyée, envoi en cours, envoyée et quand, ou son propre échec. Une tranche déjà soumise peut être renvoyée seule, par **Envoyer la période N** dans le menu _FFE_ du tournoi : c'est ce qu'il faut pour corriger une tranche déjà homologuée.
+
+Seul le tournoi est rendu visible sur le site de la _FFE_ ; les tranches sont des homologations pour le classement, pas des pages pour les joueur·euses.
+
+Un point à prévoir : la _FFE_ ferme une homologation une fois sa tranche envoyée à la _FIDE_. Demandez à la fédération de rouvrir la première, afin de pouvoir continuer à y publier les résultats complets du tournoi.
+
 ## Affichage des tournois sur le site de la _FFE_
 
 Les affichages des tournois dans _Sharly Chess_ et sur le site de la _FFE_ peuvent différer :

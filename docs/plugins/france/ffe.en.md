@@ -66,6 +66,23 @@ Every player must have an _FFE_ licence number and every team must have players:
 
 Team tournaments can also be exported to a _Papi_ file. As the _Papi_ format has no team play, the file describes an **individual Swiss tournament**, where each board is a game of its own and the players are ranked on their game points. The teams, the match points and the bonus / penalty points are left out, and a roster player who was not fielded in a round gets a zero-point bye.
 
+## Tournaments over 30 days
+
+This section covers the _FFE_ side of [tournaments over 30 days]({% link docs/running-an-event/rating-periods.en.md %}), split into periods for _FIDE_.
+
+The export menu of the tournament also lists a **Papi** file per period, below the whole-tournament entry. As with the TRF, a period's file is the tournament's own file with only that period's games filled in.
+
+The _FFE_ gives **each tranche its own homologation number**, obtained in advance like any other tournament.
+
+- The **first** tranche uses the tournament's own certification number and password, entered as usual in the tournament form. This is also where the complete results are published for the players.
+- **Each following period** has its own certification number and password, on its card in the Schedule section.
+
+Uploading the tournament sends it entire under the first registration, then sends the tranche being played under its own. On the data transfer window each tranche reports its own state — never sent, uploading, sent and when, or its own failure. A tranche already submitted can be sent again on its own, from **Upload period N** in the tournament's _FFE_ menu, which is what a correction to a rated tranche needs.
+
+Only the tournament is made visible on the _FFE_ website; the tranches are registrations for rating, not pages for the players.
+
+One thing to plan for: the _FFE_ closes a registration once its tranche has been sent to _FIDE_. Ask the federation to reopen the first one, so that the complete results of the tournament can go on being published there.
+
 ## Tournament Display on the _FFE_ Website
 
 Tournament displays in Sharly Chess and on the _FFE_ website may differ:

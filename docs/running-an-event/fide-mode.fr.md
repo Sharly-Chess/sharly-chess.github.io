@@ -11,6 +11,8 @@ nav_order: 250
 
 En **mode FIDE**, _Sharly Chess_ maintient le tournoi dans le cadre du règlement _FIDE_ : il refuse les actions que le règlement interdit, avertit avant celles qu'il ne prévoit pas, et consigne chaque atteinte à l'intégrité des appariements, dans l'application comme dans le fichier TRF du tournoi.
 
+La _FIDE_ exige ce comportement de tout logiciel d'appariement qui veut être reconnu conforme à ses règles.
+
 Le mode FIDE concerne les tournois **suisses**, pour lesquels il est activé par défaut. Les autres systèmes d'appariement ne le proposent pas.
 
 Les tournois **suisses par équipes** n'ont pas de mode FIDE, mais conservent le [journal](#le-journal) : chaque modification d'une ronde d'après laquelle les suivantes ont été appariées demande une confirmation et est consignée, de même que les modifications du nombre de rondes et des départages. Rien n'est refusé, les paramètres ne sont pas figés, et les appariements modifiés à la main ne sont pas comparés à ceux du moteur.
