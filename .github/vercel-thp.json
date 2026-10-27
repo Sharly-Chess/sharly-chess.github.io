@@ -1,9 +1,9 @@
 {
   "cleanUrls": true,
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
-    }
+  "redirects": [
+    { "source": "/(legal-notice|fr/legal-notice)/?", "destination": "https://sharly-chess.com/en/legal-notice", "permanent": false },
+    { "source": "/(mentions-legales|fr/mentions-legales)/?", "destination": "https://sharly-chess.com/fr/legal-notice", "permanent": false },
+    { "source": "/(privacy|fr/privacy)/?", "destination": "https://sharly-chess.com/en/privacy", "permanent": false },
+    { "source": "/(politique-de-confidentialite|fr/politique-de-confidentialite)/?", "destination": "https://sharly-chess.com/fr/privacy", "permanent": false }
   ]
 }
