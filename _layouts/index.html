@@ -65,26 +65,6 @@ layout: table_wrappers
     </script>
   </section>
 
-  {% assign easy_life = index.easy_life %}
-  <section class="features-easy-life">
-    <div class="features-section">
-      <h1>{{ easy_life.title[lang] }}</h1>
-      <h2>{{ easy_life.text[lang] }}</h2>
-      <div class="features-inline">
-        {% for item in easy_life.items %}
-          <div
-            class="feature-box {{ item.box.class }}"
-          >
-            <div class="feature-content">
-              <strong>{{ item.title[lang] }}</strong><br/>
-              {{ item.text[lang] }}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
   {% assign made_by = index.made_by %}
   <section class="features-made-by">
     <div class="features-section">
