@@ -1,33 +1,8 @@
 description:
-  en: Find tournaments and register online, or manage your events with our free arbiting software. Sharly Chess covers the full tournament lifecycle – from registration to final standings.
-  fr: Trouvez vos tournois et inscrivez-vous en ligne, ou gérez vos évènements avec notre logiciel d'arbitrage gratuit. Sharly Chess couvre le cycle de vie complet des tournois – depuis l'inscription jusqu'aux résultats.
+  en: Free and open-source software for arbiters, to run your chess tournaments from check-in to final standings. To find tournaments and register online, visit <a href="https://sharly-chess.com/en">sharly-chess.com</a>.
+  fr: Le logiciel gratuit et libre des arbitres, pour gérer vos tournois d'échecs du pointage jusqu'aux résultats. Pour trouver des tournois et vous inscrire en ligne, rendez-vous sur <a href="https://sharly-chess.com/fr">sharly-chess.com</a>.
 services:
   items:
-    -
-      title:
-        en: Online registration platform
-        fr: Plateforme d'inscription en ligne
-      subtitle:
-        en: Allows players to register online, and organisers to manage their registrations. 
-        fr: Permet aux joueur·euses de s'inscrire en ligne, et aux organisateur·ices de de gérer leurs inscriptions.
-      image:
-        basename: services-sc-com
-        url:
-          en: https://events.sharly-chess.com/en
-          fr: https://events.sharly-chess.com/fr
-      buttons:
-        - text:
-            en: Search for tournaments
-            fr: Rechercher des tournois
-          url:
-            en: https://events.sharly-chess.com/en
-            fr: https://events.sharly-chess.com/fr
-        - text:
-            en: Organize my own tournaments
-            fr: Organiser mes propres tournois
-          url:
-            en: https://events.sharly-chess.com/en/features
-            fr: https://events.sharly-chess.com/fr/features
     -
       title:
         en: Free and open arbitration application
@@ -56,77 +31,6 @@ services:
           url:
             en: getting-started/
             fr: bien-demarrer/
-easy_life:
-  title:
-    en: Make your life easier with <em>Sharly-Chess.com</em>
-    fr: Facilitez-vous la vie avec <em>Sharly-Chess.com</em>
-  text:
-    en: Everything you need to organize successful chess tournaments
-    fr: Tout ce dont vous avez besoin pour organiser des tournois d'échecs réussis
-  items:
-    -
-      title:
-        en: Event Management
-        fr: Gestion d'événements
-      text:
-        en: Create and manage chess events with multiple tournaments and flexible capacity limits.
-        fr: Créez et gérez des événements d'échecs avec plusieurs tournois et limites de capacité flexibles.
-    -
-      title:
-        en: Player Registration
-        fr: Inscription des joueur·euses
-      text:
-        en: Streamlined registration process with support for multiple tariffs, and duplicate player detection.
-        fr: Processus d'inscription simplifié avec prise en charge des tarifs, et détection des joueurs en double.
-    -
-      title:
-        en: Player Database Search
-        fr: Recherche dans la base de données des joueur·euses
-      text:
-        en: Integrated player database search for accurate player information.
-        fr: Recherche intégrée dans la base de données des joueurs pour des informations précises.
-    -
-      title:
-        en: Payment Processing
-        fr: Traitement des paiements
-      text:
-        en: Secure payment processing via Stripe with funds going directly to you. Automatic invoicing and refund management included.
-        fr: Traitement sécurisé des paiements via Stripe avec les fonds allant directement vers vous. Facturation automatique et gestion des remboursements incluses.
-    -
-      title:
-        en: Products & Add-ons
-        fr: Produits et options
-      text:
-        en: Sell merchandise, meal vouchers, and other add-ons alongside tournament registrations.
-        fr: Vendez des articles, des bons repas et d'autres options en plus des inscriptions aux tournois.
-    -
-      title:
-        en: Team Access
-        fr: Accès équipe
-      text:
-        en: Give all team members access to your organisation so everyone can share the workload.
-        fr: Donnez accès à tous les membres de votre équipe à votre organisation pour partager la charge de travail.
-    -
-      title:
-        en: Built-in Messaging
-        fr: Messagerie intégrée
-      text:
-        en: Communicate directly with players through built-in messaging that the entire organising team can access and share.
-        fr: Communiquez directement avec les joueurs via la messagerie intégrée, accessible et partagée par toute l'équipe organisatrice.
-    -
-      title:
-        en: Live Pairings & Results
-        fr: Appariements et résultats en direct
-      text:
-        en: Display pairings and results in real time during tournaments for players and spectators.
-        fr: Affichez les appariements et résultats en temps réel pendant les tournois pour les joueurs et spectateurs.
-    -
-      title:
-        en: Easy Synchronisation
-        fr: Synchronisation facile
-      text:
-        en: Effortless synchronisation with our arbitration software to keep everything in sync.
-        fr: Synchronisation sans effort avec notre logiciel d'arbitrage pour tout garder à jour.
 made_by:
   title:
     en: An arbitration application made for <em>arbiters</em>, by <em>arbiters</em>
