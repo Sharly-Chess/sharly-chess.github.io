@@ -50,7 +50,7 @@ La section **Classements** de la fiche du·de la joueur·euse affiche :
 | **Classement FIDE officiel** | En lecture seule. Pour les joueur·euses ayant un classement _FIDE_, le champ **K** à sa droite contient leur coefficient _FIDE_ ; laissé vide, le coefficient affiché est estimé à partir du classement et de l'âge du·de la joueur·euse. |
 
 {: .note }
-> :information_source: Dans un tournoi déclaré à la _FIDE_ en plusieurs périodes, les classements affichés sont ceux de la période en cours.
+> :information_source: Dans un tournoi déclaré à la _FIDE_ en plusieurs périodes, les classements affichés sont ceux de la période en cours ; le formulaire du·de la joueur·euse liste en dessous les classements des périodes précédentes (voir [Tournois de plus de 30 jours]({% link docs/running-an-event/rating-periods.fr.md %}#classements)).
 
 ## Vérifier les classements avec les listes
 

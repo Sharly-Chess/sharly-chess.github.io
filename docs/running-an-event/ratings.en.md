@@ -50,7 +50,7 @@ The **Ratings** section of the player form shows:
 | **Official FIDE rating** | Read-only. For players with a _FIDE_ rating, the **K** field on its right holds their _FIDE_ coefficient; when left empty, the coefficient shown is estimated from the rating and the age of the player. |
 
 {: .note }
-> :information_source: In a tournament reported to _FIDE_ in several periods, the ratings shown are those of the period being played.
+> :information_source: In a tournament reported to _FIDE_ in several periods, the ratings shown are those of the period being played; the player form lists the ratings of the earlier periods below it (see [Tournaments over 30 days]({% link docs/running-an-event/rating-periods.en.md %}#ratings)).
 
 ## Checking the ratings against the lists
 
