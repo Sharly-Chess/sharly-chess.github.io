@@ -37,15 +37,17 @@ Les sauvegardes d'un évènement sont accessibles depuis l'icône d'horloge sur 
 
 Chaque sauvegarde est présentée avec le moment où elle a été effectuée, sa raison, l'état de l'évènement — chaque tournoi, la ronde en cours, les résultats saisis — et sa taille. C'est l'état qui distingue deux sauvegardes lorsque leurs raisons ne le font pas.
 
-Deux retours en arrière :
+Deux boutons sur chaque ligne permettent de revenir en arrière :
 
-| **Restaurer** | Remplace l'évènement par la sauvegarde, en conservant son nom et son identifiant : les écrans, les pages de saisie et les configurations des plug-ins continuent de fonctionner. L'état remplacé est d'abord sauvegardé, l'opération peut donc être annulée. |
-| **Restaurer comme nouvel évènement** | Crée un second évènement à partir de la sauvegarde et laisse le premier intact. Pour consulter un état passé plutôt que d'y revenir. |
+| <i class="bi-arrow-counterclockwise"></i> **Restaurer** | Remplace l'évènement par la sauvegarde, en conservant son nom et son identifiant : les écrans, les pages de saisie et les configurations des plug-ins continuent de fonctionner. L'état remplacé est d'abord sauvegardé, l'opération peut donc être annulée. Une fenêtre **Restaurer une sauvegarde** indique d'abord ce que contient la sauvegarde, et ce que la restauration fait à un évènement lié à un site. |
+| <i class="bi-copy"></i> **Restaurer comme nouvel évènement** | Crée un second évènement à partir de la sauvegarde et laisse le premier intact. Pour consulter un état passé plutôt que d'y revenir. Proposé aux utilisateur·ices autorisé·es à créer des évènements. |
 
 Le nouvel évènement n'est lié à rien de ce à quoi l'original l'était : rien n'en est envoyé ni synchronisé, et ses détails indiquent qu'il a été restauré depuis une sauvegarde, afin de distinguer les deux évènements.
 
+Une sauvegarde effectuée par une version plus récente de _Sharly Chess_ ne peut pas être restaurée par celle-ci, et est signalée comme telle. Une sauvegarde effectuée par une version plus ancienne se restaure comme les autres, même lorsque son état ne peut pas être lu (il est alors affiché —).
+
 {: .note }
-> :information_source: Un évènement dont le fichier ne peut plus être lu reste listé, et ses sauvegardes restent accessibles : en restaurer une remplace le fichier, ce qui ramène l'évènement.
+> :information_source: Un évènement dont le fichier ne peut plus être lu reste listé, avec un bouton **Restaurer** qui ouvre ses sauvegardes et un bouton **Archiver** qui le met de côté : restaurer une sauvegarde remplace le fichier, ce qui ramène l'évènement.
 
 ---
 
@@ -57,18 +59,26 @@ Pour un évènement lié à [_Sharly-Chess.com_]({% link docs/events/index.fr.md
 
 La restauration conserve le lien lui-même, les identifiants donnés par le site à l'évènement et à ses tournois, ainsi que les suppressions que le site n'a pas encore confirmées : rien n'est envoyé deux fois et rien n'est oublié.
 
+Les tournois envoyés sur [_Chess-Results_]({% link docs/plugins/chess-results.fr.md %}) conservent leur tournoi _Chess-Results_, même lorsque la sauvegarde a été effectuée avant le premier envoi : le prochain envoi met à jour le tournoi dont l'adresse a été publiée plutôt que d'en ouvrir un second.
+
 ---
 
 ## Où sont conservées les sauvegardes, et combien de temps
 
-Par défaut, _Sharly Chess_ les conserve dans un dossier qui lui est propre, en dehors de votre dossier de données. C'est volontaire : le dossier de données est souvent synchronisé (OneDrive, Google Drive, Dropbox), et un client de synchronisation est libre de laisser un ancien fichier dans le nuage plutôt que sur le disque — ce qui est précisément là où une sauvegarde ne sert à rien, sur un lieu de compétition sans réseau.
+Par défaut, _Sharly Chess_ les conserve dans un dossier qui lui est propre, en dehors de votre dossier de données. C'est volontaire : le dossier de données est souvent synchronisé (OneDrive, Google Drive, Dropbox), et un client de synchronisation est libre de laisser un ancien fichier dans le nuage plutôt que sur le disque — ce qui est précisément là où une sauvegarde ne sert à rien, sur un lieu de compétition sans réseau. Dans la version Flatpak, les sauvegardes sont conservées dans le dossier de données, dans un dossier `snapshots`.
 
-Dans la section **Sauvegardes** des paramètres de _Sharly Chess_, vous pouvez :
+Dans la section **Sauvegardes** des paramètres de _Sharly Chess_, où **Ouvrir** affiche le dossier, vous pouvez :
 
-- désactiver les sauvegardes automatiques — celles déjà effectuées sont conservées et restent restaurables ;
-- choisir votre propre dossier, par exemple sur une clé USB. Les sauvegardes déjà effectuées y sont déplacées.
+- désactiver **Activer les sauvegardes automatiques** — celles déjà effectuées sont conservées et restent restaurables ; la fenêtre des sauvegardes indique alors qu'aucune nouvelle n'est effectuée ;
+- activer **Utiliser mon propre dossier** et choisir un dossier avec **Modifier**, par exemple sur une clé USB. Les sauvegardes déjà effectuées y sont déplacées, et ramenées dans le dossier par défaut lorsque vous le désactivez.
 
-Les sauvegardes sont abandonnées en vieillissant, les plus anciennes d'abord, celles effectuées avant une étape de l'évènement étant conservées plus longtemps que les automatiques, et la plus récente de chaque évènement l'étant toujours. Un évènement supprimé conserve ses sauvegardes avec son archive, et les retrouve si l'archive est restaurée.
+Les sauvegardes sont abandonnées en vieillissant, les plus anciennes d'abord, et la plus récente de chaque évènement est toujours conservée :
+
+- chaque évènement conserve ses 10 dernières sauvegardes effectuées avant une étape, et ses 10 dernières sauvegardes automatiques ; celles effectuées avant une restauration ou avant une migration vers une nouvelle version ne sont pas comptées ;
+- au démarrage de _Sharly Chess_, les sauvegardes de plus de 90 jours sont abandonnées, sauf les 2 dernières effectuées avant une étape de chaque évènement ;
+- lorsque l'ensemble des sauvegardes dépasse 500 Mo, les sauvegardes automatiques des évènements laissés de côté depuis le plus longtemps partent en premier.
+
+Un évènement supprimé conserve ses sauvegardes avec son archive, et les retrouve si l'archive est restaurée.
 
 ---
 
