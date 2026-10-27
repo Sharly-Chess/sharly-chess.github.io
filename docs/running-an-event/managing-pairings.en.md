@@ -37,12 +37,17 @@ In a **round-robin**, every round is paired at once with the "Pair tournament" b
 
 A round you have just paired is not public yet: the screens keep showing the previous round, and the online services (_Sharly-Chess.com_, _Chess-Results_, the _FFE_ website, custom uploads) do not receive it. You can check the pairings, change them, and print them, before anyone sees them.
 
+In the systems whose pairings are known in advance — Round-Robin, Team Round-Robin, Molter and Scheveningen — every paired round is sent to the online services at once, published or not, and can be printed. Publishing a round then moves the screens on to it and sends its results.
+
 When the pairings are ready, click the **Publish** button: the screens show the new round and the online services receive it at their next upload.
 
-- A round can be published once every round before it is finished (all its results entered; an adjourned game counts as entered).
+- A round can be published once every round before it is finished (all its results entered; an adjourned game counts as entered), and not while it is being paired by hand.
 - Publishing a round also publishes the rounds before it that are not published yet, so in a round-robin you can go straight to the round about to start.
-- A published round can be **unpublished** as long as it has no results, to hide its pairings again while you correct them.
+- The last published round can be **unpublished** as long as none of its games has a result, to hide its pairings again while you correct them.
 - Unpairing a published round unpublishes it, so pairing it again does not show it before you publish it.
+- The results of the rounds after the last published one are not public: the screens and the online services show them as not played yet. The byes, which are part of the pairings, are shown.
+
+When the round shown on the pairings tab is paired but not published, and the tournament is shown on a screen or set up for an online service, a banner says so. When an earlier round is not finished, the banner names the round that holds the publication back.
 
 In a **round-robin**, publishing the next round is what moves the tournament on: once the previous round is finished, that round becomes the round being played.
 
