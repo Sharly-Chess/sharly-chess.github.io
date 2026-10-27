@@ -19,7 +19,7 @@ Des contrôles de navigation permettent de changer de tournoi ou de ronde.
 Vous pouvez aussi filtrer pour n’afficher que les parties en cours.
 
 {: .note }
-> :information_source: L'interface s'adapte au [système d'appariement]({% link docs/running-an-event/pairing-systems.fr.md %}) : un toutes-rondes n'a pas de liste de non-apparié·es, et un [système coupe]({% link docs/running-an-event/knockout.fr.md %}) affiche à la place qui est encore en lice dans le tableau.
+> :information_source: L'interface s'adapte au [système d'appariement]({% link docs/running-an-event/pairing-systems.fr.md %}) : un toutes-rondes n'a pas de liste de non-apparié·es, et un [système coupe]({% link docs/running-an-event/knockout.fr.md %}) affiche à la place qui est encore en lice dans le tableau.
 
 L'interface d'administration s'adapte aussi aux **écrans de téléphone** : les résultats peuvent être saisis — et les appariements vérifiés — depuis un smartphone dans la salle de jeu.
 

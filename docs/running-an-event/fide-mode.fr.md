@@ -15,7 +15,7 @@ La _FIDE_ exige ce comportement de tout logiciel d'appariement qui veut être re
 
 Le mode FIDE concerne les tournois **suisses**, pour lesquels il est activé par défaut. Les autres systèmes d'appariement ne le proposent pas.
 
-Les tournois **suisses par équipes** n'ont pas de mode FIDE, mais conservent le [journal](#le-journal) : chaque modification d'une ronde d'après laquelle les suivantes ont été appariées demande une confirmation et est consignée, de même que les modifications du nombre de rondes et des départages. Rien n'est refusé, les paramètres ne sont pas figés, et les appariements modifiés à la main ne sont pas comparés à ceux du moteur.
+Les tournois **suisses par équipes** n'ont pas de mode FIDE, mais conservent le [journal](#le-journal) : chaque modification d'une ronde d'après laquelle les suivantes ont été appariées demande une confirmation et est consignée, de même que les modifications du nombre de rondes et des départages. Rien n'est refusé, les paramètres ne sont pas figés, et les appariements modifiés à la main ne sont pas comparés à ceux du moteur.
 
 ---
 
