@@ -2,6 +2,8 @@
 layout: page
 title: Mentions légales
 permalink: /mentions-legales/
+# The registration platform publishes it for both sites
+external_url: https://sharly-chess.com/fr/legal-notice
 page_id: legal-notice
 nav_exclude: true
 nav_order: 200

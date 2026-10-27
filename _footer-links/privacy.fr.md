@@ -2,6 +2,8 @@
 layout: page
 title: Politique de confidentialité
 permalink: /politique-de-confidentialite/
+# The registration platform publishes it for both sites
+external_url: https://sharly-chess.com/fr/privacy
 page_id: privacy
 nav_exclude: true
 nav_order: 300

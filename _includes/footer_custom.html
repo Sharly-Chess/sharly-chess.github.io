@@ -2,7 +2,7 @@
   <i>
     {% assign sorted = site.footer-links | sort: 'nav_order' %}
     {% for link in sorted %}
-      <div><a class="nav-list-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></div>
+      <div><a class="nav-list-link" href="{% if link.external_url %}{{ link.external_url }}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}">{{ link.title }}</a></div>
     {% endfor %}
   </i>
 </div>

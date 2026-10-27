@@ -30,7 +30,7 @@ keywords:
   fr: logiciel tournoi échecs, gestion tournoi échecs, appariement suisse, logiciel appariements échecs, logiciel open source échecs, tournoi homologué FIDE, résultats tournoi échecs, outil arbitre échecs, grille américaine échecs, tournois d’échecs en ligne
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: :categories/:year/:month/:day/:slug:output_ext
-url: "https://sharly-chess.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thp.sharly-chess.com" # the base hostname & protocol for your site, e.g. http://example.com
 favicon_ico: "/assets/images/sharly-chess.ico"
 
 doc_version: 5.1
