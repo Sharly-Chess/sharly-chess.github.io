@@ -4,9 +4,6 @@ description:
 services:
   items:
     -
-      title:
-        en: Free and open arbitration application
-        fr: Logiciel d'arbitrage gratuit et libre
       subtitle:
         en: Manage tournaments from A to Z using our free application.<br/>Available for Windows, macOS and Linux.
         fr: Gérez vos tournois de A à Z avec notre logiciel gratuit.<br/>Disponible pour Windows, macOS et Linux.
@@ -31,6 +28,9 @@ services:
           url:
             en: getting-started/
             fr: bien-demarrer/
+      other_platforms:
+        en: "Also available for:"
+        fr: "Également disponible pour :"
 made_by:
   title:
     en: An arbitration application made for <em>arbiters</em>, by <em>arbiters</em>
@@ -126,9 +126,6 @@ players:
     -
       name: players-2.jpg
 support:
-  block_prefix:
-    en: Support
-    fr: Soutenir
   donate_url:
     en: https://donations.sharly-chess.com/en
     fr: https://donations.sharly-chess.com/fr
