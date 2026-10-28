@@ -17,20 +17,11 @@ layout: table_wrappers
       <div class="logo">
         {% include logo.svg %}
       </div>
-      <p>{{ index.description[lang] }}</p>
-    </div>
-  </header>
-
-  {% assign services = index.services %}
-  <section class="services">
-    <div class="carousel">
-      {% for service in services.items %}
-        <span class="service-container">
-          {% if service.title %}<h2>{{ service.title[lang] }}</h2>{% endif %}
-          <p>{{ service.subtitle[lang] }}</p>
-          <p><a href="{{ service.image.url[lang] }}">
-            <img src="assets/images/index/{{ service.image.basename }}.{{ lang }}.jpg">
-          </a></p>
+      {% for paragraph in index.description[lang] %}
+        <p>{{ paragraph }}</p>
+      {% endfor %}
+      {% for service in index.services.items %}
+        <div class="services">
           <span class="buttons-container">
             {% for button in service.buttons %}
               {% if button.thp_download_platform %}
@@ -48,53 +39,10 @@ layout: table_wrappers
               {% endif %}
             {% endfor %}
           </span>
-          {% if service.other_platforms %}
-            <p id="thp-other-platforms" class="other-platforms">
-              {{ service.other_platforms[lang] }}
-              <a data-platform="windows">Windows</a>
-              <a data-platform="macos">macOS</a>
-              <a data-platform="linux">Linux</a>
-            </p>
-          {% endif %}
-        </span>
+        </div>
       {% endfor %}
     </div>
-    <script>
-      /* The visitor's platform gets the big button and the others a link below it. Phones and
-         tablets (no platform to install on) get all three buttons. The page is minified onto
-         one line, so no // comments here. */
-      (() => {
-        const { userAgent, platform } = navigator;
-        const current = /Android|iPhone|iPad/.test(userAgent) ? null
-          : platform.includes('Win') ? 'windows'
-          : platform.includes('Mac') ? 'macos'
-          : platform.includes('Linux') ? 'linux'
-          : null;
-        const buttons = {
-          windows: document.getElementById('thp-download-windows-button'),
-          macos: document.getElementById('thp-download-macos-button'),
-          linux: document.getElementById('thp-install-linux-button'),
-        };
-        const others = document.getElementById('thp-other-platforms');
-        if (!current) {
-          others.remove();
-          return;
-        }
-        for (const link of others.querySelectorAll('a[data-platform]')) {
-          const name = link.dataset.platform;
-          const button = buttons[name];
-          if (name === current) {
-            link.remove();
-            continue;
-          }
-          link.href = button.href;
-          const modal = button.getAttribute('data-micromodal-trigger');
-          if (modal) link.addEventListener('click', () => MicroModal.show(modal));
-          button.remove();
-        }
-      })();
-    </script>
-  </section>
+  </header>
 
   {% assign made_by = index.made_by %}
   <section class="features-made-by">

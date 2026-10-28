@@ -225,7 +225,7 @@ body.index {
       font-size: 4rem;
     }
 
-    p {
+    .container > p {
       font-size: 1.1rem;
       margin-top: 2rem;
     }
@@ -249,48 +249,18 @@ body.index {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 2rem 2rem;
-    max-width: 1036px;
-    margin: 0 auto;
-
-    @media (min-width: 31.25rem) {
-      .service-container {
-        max-width: 450px !important;
-      }
-      .buttons-container {
-        margin: 0 20% !important;
-      }
-    }
-
-    img {
-      width: auto !important;
-      max-width: 90%;
-      height: auto;
-      margin: 1.5rem 0;
-      border-radius: 10px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s;
-    }
+    margin-top: 2.5rem;
 
     .buttons-container {
+      width: 100%;
+      max-width: 450px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 0 10%;
     }
 
     .buttons-container .btn, .thp-download-container {
       width: 100%;
-    }
-
-    .other-platforms {
-      margin-top: 0.75rem;
-      font-size: 0.9rem;
-
-      a + a::before {
-        content: "· ";
-      }
     }
 
     .modal .btn {
@@ -299,10 +269,6 @@ body.index {
 
     .modal div, .modal {
       width: auto;
-    }
-
-    p:first-of-type {
-      margin-top: 0;
     }
   }
 

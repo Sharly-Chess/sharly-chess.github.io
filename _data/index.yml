@@ -1,17 +1,13 @@
 description:
-  en: Free and open-source software for arbiters, to run your chess tournaments from check-in to final standings. To find tournaments and register online, visit <a href="https://sharly-chess.com/en">sharly-chess.com</a>.
-  fr: Le logiciel gratuit et libre des arbitres, pour gérer vos tournois d'échecs du pointage jusqu'aux résultats. Pour trouver des tournois et vous inscrire en ligne, rendez-vous sur <a href="https://sharly-chess.com/fr">sharly-chess.com</a>.
+  en:
+    - Free and open-source software for arbiters, to run your chess tournaments from check-in to final standings.
+    - To find tournaments and register online, visit <a href="https://sharly-chess.com/en">sharly-chess.com</a>.
+  fr:
+    - Le logiciel gratuit et libre des arbitres, pour gérer vos tournois d'échecs du pointage jusqu'aux résultats.
+    - Pour trouver des tournois et vous inscrire en ligne, rendez-vous sur <a href="https://sharly-chess.com/fr">sharly-chess.com</a>.
 services:
   items:
     -
-      subtitle:
-        en: Manage tournaments from A to Z using our free application.<br/>Available for Windows, macOS and Linux.
-        fr: Gérez vos tournois de A à Z avec notre logiciel gratuit.<br/>Disponible pour Windows, macOS et Linux.
-      image:
-        basename: services-thp
-        url:
-          en: getting-started/
-          fr: bien-demarrer/
       buttons:
         - thp_download_platform: windows
         - thp_download_platform: macos
@@ -28,9 +24,6 @@ services:
           url:
             en: getting-started/
             fr: bien-demarrer/
-      other_platforms:
-        en: "Also available for:"
-        fr: "Également disponible pour :"
 made_by:
   title:
     en: An arbitration application made for <em>arbiters</em>, by <em>arbiters</em>
