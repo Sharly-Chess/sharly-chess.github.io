@@ -89,7 +89,7 @@ _Sharly Chess_ includes a built-in web server offering a full set of screens for
 
 A large library of printable documents: player and check-in lists, pairings, round robin schedules, knock-out brackets, Molter and Scheveningen tables, match sheets, results, individual and team rankings, cross-tables, Berger grids, prize lists and receipts, statistics, norm reports, QR codes and place cards. See [Documents]({% link docs/documents/index.en.md %}) for the full list.
 
-[Place cards]({% link docs/documents/place-cards.en.md %}), available for players, boards, pairings and teams, are built from customisable templates — designed in the built-in visual editor, or by hand — with optional crop marks.
+[Place cards]({% link docs/documents/place-cards.en.md %}), available for players, boards, pairings and teams, are built from customisable templates, designed in the built-in visual editor, with optional crop marks.
 
 ## Import, export & data sources
 

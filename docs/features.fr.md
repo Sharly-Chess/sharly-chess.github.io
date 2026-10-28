@@ -89,7 +89,7 @@ _Sharly Chess_ intègre un serveur web offrant un ensemble complet d'écrans pou
 
 Une vaste bibliothèque de documents imprimables : listes de joueur·euses et de pointage, appariements, calendriers de Toutes-Rondes, tableaux de coupe, tables Molter et Scheveningen, feuilles de partie, résultats, classements individuels et par équipes, grilles américaines, grilles Berger, listes de prix et reçus, statistiques, rapports de normes, QR codes et cartons de table. Voir [Documents]({% link docs/documents/index.fr.md %}) pour la liste complète.
 
-Les [chevalets de table]({% link docs/documents/place-cards.fr.md %}) — chevalets des joueur·euses, des échiquiers, des appariements et des équipes — sont construits à partir de modèles personnalisables — conçus dans l'éditeur visuel intégré, ou à la main — avec repères de coupe optionnels.
+Les [chevalets de table]({% link docs/documents/place-cards.fr.md %}) — chevalets des joueur·euses, des échiquiers, des appariements et des équipes — sont construits à partir de modèles personnalisables, conçus dans l'éditeur visuel intégré, avec repères de coupe optionnels.
 
 ## Import, export et sources de données
 
