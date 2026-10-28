@@ -136,3 +136,11 @@ supporters:
     en: Support Sharly Chess
     fr: Soutenir Sharly Chess
   feed_url: https://donations.sharly-chess.com/api/supporters
+  organizers:
+    text:
+      en: Every club and organiser taking paid registrations on <a href="https://sharly-chess.com/en">sharly-chess.com</a> supports the project too.
+      fr: Chaque club et organisateur·ice qui prend des inscriptions payantes sur <a href="https://sharly-chess.com/fr">sharly-chess.com</a> soutient aussi le projet.
+    feed_url: https://sharly-chess.com/api/organizers
+    page_url:
+      en: https://sharly-chess.com/en/o/
+      fr: https://sharly-chess.com/fr/o/

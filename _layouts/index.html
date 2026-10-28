@@ -128,50 +128,90 @@ layout: table_wrappers
         hidden
       ></ul>
       <p><a class="btn" href="{{ index.support.donate_url[lang] }}" target="_blank">{{ supporters.button_text[lang] }}</a></p>
+      <!-- Organizers listed in the sharly-chess.com directory, fetched the same
+           way; the whole block stays hidden if the feed is unreachable. -->
+      <div class="organizers" id="organizers" hidden>
+        <h2>{{ supporters.organizers.text[lang] }}</h2>
+        <ul
+          class="supporters-grid"
+          id="organizers-grid"
+          data-feed="{{ supporters.organizers.feed_url }}"
+          data-page="{{ supporters.organizers.page_url[lang] }}"
+        ></ul>
+      </div>
     </div>
     <div class="separator" />
   </section>
 
   <script>
     (function () {
-      const grid = document.getElementById('supporters-grid');
-      if (!grid) return;
       const esc = s =>
         String(s).replace(/[&<>"']/g, c =>
           ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
         );
-      fetch(grid.dataset.feed)
-        .then(r => (r.ok ? r.json() : Promise.reject()))
-        .then(({ supporters }) => {
-          if (!supporters || !supporters.length) return;
-          grid.innerHTML = supporters
-            .map(s => {
-              const badge = s.elite ? grid.dataset.elite : grid.dataset.supporter;
-              const initials = (s.name || '?')
-                .trim()
-                .split(/\s+/)
-                .slice(0, 2)
-                .map(w => w.charAt(0))
-                .join('')
-                .toUpperCase();
-              const avatar = s.imageUrl
-                ? '<img src="' + esc(s.imageUrl) + '" alt="" loading="lazy">'
-                : '<span class="supporter-initial">' + esc(initials) + '</span>';
-              const inner =
-                '<span class="supporter-avatar">' + avatar + '</span>' +
-                '<span class="supporter-name">' + esc(s.name) + '</span>' +
-                '<span class="supporter-badge">' + esc(badge) + '</span>';
-              const body = s.link
-                ? '<a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + inner + '</a>'
-                : inner;
-              return '<li class="supporter' + (s.elite ? ' elite' : '') + '">' + body + '</li>';
-            })
-            .join('');
-          grid.hidden = false;
-        })
-        .catch(() => {
-          /* feed unavailable — leave the heading + button, hide the grid */
-        });
+      const initialsOf = name =>
+        (name || '?')
+          .trim()
+          .split(/\s+/)
+          .slice(0, 2)
+          .map(w => w.charAt(0))
+          .join('')
+          .toUpperCase();
+      const card = (cls, name, imageUrl, badge, link) => {
+        const avatar = imageUrl
+          ? '<img src="' + esc(imageUrl) + '" alt="" loading="lazy">'
+          : '<span class="supporter-initial">' + esc(initialsOf(name)) + '</span>';
+        const inner =
+          '<span class="supporter-avatar">' + avatar + '</span>' +
+          '<span class="supporter-name">' + esc(name) + '</span>' +
+          (badge ? '<span class="supporter-badge">' + esc(badge) + '</span>' : '');
+        const body = link
+          ? '<a href="' + esc(link) + '" target="_blank" rel="noopener">' + inner + '</a>'
+          : inner;
+        return '<li class="' + cls + '">' + body + '</li>';
+      };
+
+      const grid = document.getElementById('supporters-grid');
+      if (grid) {
+        fetch(grid.dataset.feed)
+          .then(r => (r.ok ? r.json() : Promise.reject()))
+          .then(({ supporters }) => {
+            if (!supporters || !supporters.length) return;
+            grid.innerHTML = supporters
+              .map(s =>
+                card(
+                  'supporter' + (s.elite ? ' elite' : ''),
+                  s.name,
+                  s.imageUrl,
+                  s.elite ? grid.dataset.elite : grid.dataset.supporter,
+                  s.link,
+                ),
+              )
+              .join('');
+            grid.hidden = false;
+          })
+          .catch(() => {
+            /* feed unavailable — leave the heading + button, hide the grid */
+          });
+      }
+
+      const organizers = document.getElementById('organizers-grid');
+      if (organizers) {
+        fetch(organizers.dataset.feed)
+          .then(r => (r.ok ? r.json() : Promise.reject()))
+          .then(({ organizers: list }) => {
+            if (!list || !list.length) return;
+            organizers.innerHTML = list
+              .map(o =>
+                card('supporter organizer', o.name, o.logo, null, organizers.dataset.page + o.slug),
+              )
+              .join('');
+            document.getElementById('organizers').hidden = false;
+          })
+          .catch(() => {
+            /* feed unavailable — leave the block hidden */
+          });
+      }
     })();
   </script>
 
