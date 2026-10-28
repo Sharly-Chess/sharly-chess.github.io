@@ -12,13 +12,17 @@ services:
         - thp_download_platform: windows
         - thp_download_platform: macos
         - id: thp-install-linux-button
+          class: btn-outline
+          icon: bi-terminal
           text:
             en: Install (Linux)
             fr: Installer (Linux)
           url:
             en: installation-linux/
             fr: installation-linux/
-        - text:
+        - class: docs-button
+          icon: bi-book
+          text:
             en: Access the documentation
             fr: Accéder à la documentation
           url:

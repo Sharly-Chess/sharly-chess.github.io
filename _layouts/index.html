@@ -25,15 +25,16 @@ layout: table_wrappers
           <span class="buttons-container">
             {% for button in service.buttons %}
               {% if button.thp_download_platform %}
-                {% include thp_download_button.html platform=button.thp_download_platform %}
+                {% include thp_download_button.html platform=button.thp_download_platform class="btn-outline" %}
               {% else %}
                 <a
                   {% if button.id %}
                     id="{{ button.id }}"
                   {% endif %}
-                  class="btn"
+                  class="btn{% if button.class %} {{ button.class }}{% endif %}"
                   href="{{ button.url[lang] }}"
                 >
+                  {% if button.icon %}<i class="bi {{ button.icon }}"></i>{% endif %}
                   {{ button.text[lang] }}
                 </a>
               {% endif %}

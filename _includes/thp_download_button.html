@@ -11,7 +11,7 @@
 <div class="thp-download-container">
   <a
     id="thp-download-{{ platform }}-button"
-    class="btn"
+    class="btn{% if include.class %} {{ include.class }}{% endif %}"
     {% if env_url %}
       href="{{ env_url }}"
     {% else %}
@@ -19,7 +19,7 @@
     {% endif %}
     data-micromodal-trigger="thank-you-modal-{{ platform }}"
   >
-    {{ thp_download.button_text[platform][lang] }}
+    <i class="bi bi-download"></i> {{ thp_download.button_text[platform][lang] }}
   </a>
   <div class="modal" id="thank-you-modal-{{ platform }}" aria-hidden="true">
     <div class="modal__overlay" tabindex="-1" data-micromodal-close>
