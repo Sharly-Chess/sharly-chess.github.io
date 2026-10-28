@@ -205,8 +205,9 @@ body.index {
   background-color: #1e1e1e;
   color: #f4f0e6;
 
+  // Darker than the sections below, so that the header doesn't run into them.
   header {
-    background-color: $sidebar-color;
+    background-color: #242424;
     color: white;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 
