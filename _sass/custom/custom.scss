@@ -595,8 +595,8 @@ img.no-border, img.emoji {
   will-change: transform;
 }
 
-// Supporter wall (data from _data/supporters.json, refreshed by the
-// supporters GitHub Action).
+// Supporter wall (data from the donations app's public feed, fetched by the
+// home page).
 .features-supporters {
   .supporters-grid {
     list-style: none;
@@ -657,26 +657,11 @@ img.no-border, img.emoji {
     opacity: 0.7;
   }
 
-  .organizers {
-    margin-top: 4rem;
-  }
-
-  // The theme sets the h2 size with !important.
-  .features-section .organizers h2 {
-    font-size: 1.2rem !important;
-    font-weight: 500;
-    margin-bottom: 0;
-  }
-
-  // Organizer logos are fitted whole on white rather than cropped.
-  .supporter.organizer .supporter-avatar {
-    background: #fff;
-
-    img {
-      object-fit: contain;
-      padding: 8px;
-      box-sizing: border-box;
-    }
+  .support-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 1rem;
   }
 
   .supporter.elite {

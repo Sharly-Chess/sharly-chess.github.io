@@ -111,15 +111,16 @@ layout: table_wrappers
   <section class="features-supporters">
     <div class="features-section">
       <h1>{{ supporters.title[lang] }}</h1>
-      <p>
-        {{ supporters.text_1[lang] }}
-        <br/>
-        {{ supporters.text_2[lang] }}
+      <p>{{ supporters.text[lang] }}</p>
+      <p class="support-buttons">
+        <a class="btn" href="{{ index.support.donate_url[lang] }}" target="_blank">{{ supporters.donate_text[lang] }}</a>
+        <a class="btn" href="{{ supporters.credits_url[lang] }}" target="_blank">{{ supporters.credits_text[lang] }}</a>
       </p>
       <!-- Supporter grid is fetched live from the donations app (public,
-           edge-cached feed) and rendered client-side. Progressive enhancement:
-           if JS is off or the feed is unreachable, the section still shows the
-           heading, text and the Support-us button. -->
+           edge-cached feed: donors, manual contributions and sharly-chess.com
+           clients, ranked, without amounts) and rendered client-side.
+           Progressive enhancement: if JS is off or the feed is unreachable,
+           the section still shows the heading, text and buttons. -->
       <ul
         class="supporters-grid"
         id="supporters-grid"
@@ -128,18 +129,6 @@ layout: table_wrappers
         data-elite="{{ strings.elite_badge }}"
         hidden
       ></ul>
-      <p><a class="btn" href="{{ index.support.donate_url[lang] }}" target="_blank">{{ supporters.button_text[lang] }}</a></p>
-      <!-- Organizers listed in the sharly-chess.com directory, fetched the same
-           way; the whole block stays hidden if the feed is unreachable. -->
-      <div class="organizers" id="organizers" hidden>
-        <h2>{{ supporters.organizers.text[lang] }}</h2>
-        <ul
-          class="supporters-grid"
-          id="organizers-grid"
-          data-feed="{{ supporters.organizers.feed_url }}"
-          data-page="{{ supporters.organizers.page_url[lang] }}"
-        ></ul>
-      </div>
     </div>
     <div class="separator" />
   </section>
@@ -192,25 +181,7 @@ layout: table_wrappers
             grid.hidden = false;
           })
           .catch(() => {
-            /* feed unavailable — leave the heading + button, hide the grid */
-          });
-      }
-
-      const organizers = document.getElementById('organizers-grid');
-      if (organizers) {
-        fetch(organizers.dataset.feed)
-          .then(r => (r.ok ? r.json() : Promise.reject()))
-          .then(({ organizers: list }) => {
-            if (!list || !list.length) return;
-            organizers.innerHTML = list
-              .map(o =>
-                card('supporter organizer', o.name, o.logo, null, organizers.dataset.page + o.slug),
-              )
-              .join('');
-            document.getElementById('organizers').hidden = false;
-          })
-          .catch(() => {
-            /* feed unavailable — leave the block hidden */
+            /* feed unavailable — leave the heading + buttons, hide the grid */
           });
       }
     })();

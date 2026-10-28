@@ -130,21 +130,16 @@ supporters:
   title:
     en: Sharly Chess needs your support!
     fr: Sharly Chess a besoin de votre soutien !
-  text_1:
-    en: The Sharly Chess arbiting application is free and open source, kept alive by donations.
-    fr: L'application d'arbitrage Sharly Chess est gratuite et open source, maintenue grâce aux dons.
-  text_2:
-    en: Thank you to everyone supporting the project.
-    fr: Merci à toutes les personnes qui soutiennent le projet.
-  button_text:
-    en: Support Sharly Chess
-    fr: Soutenir Sharly Chess
+  text:
+    en: The Sharly Chess arbiting application is free and open source, thank you to everyone supporting the project.
+    fr: L'application d'arbitrage Sharly Chess est gratuite et open source, merci à toutes les personnes qui soutiennent le projet.
+  donate_text:
+    en: Make a donation
+    fr: Faire un don
+  credits_text:
+    en: Buy registration credits
+    fr: Acheter des crédits d'inscription
+  credits_url:
+    en: https://sharly-chess.com/en/pricing
+    fr: https://sharly-chess.com/fr/pricing
   feed_url: https://donations.sharly-chess.com/api/supporters
-  organizers:
-    text:
-      en: Every club and organiser taking paid registrations on <a href="https://sharly-chess.com/en">sharly-chess.com</a> supports the project too.
-      fr: Chaque club et organisateur·ice qui prend des inscriptions payantes sur <a href="https://sharly-chess.com/fr">sharly-chess.com</a> soutient aussi le projet.
-    feed_url: https://sharly-chess.com/api/organizers
-    page_url:
-      en: https://sharly-chess.com/en/o/
-      fr: https://sharly-chess.com/fr/o/
