@@ -62,6 +62,13 @@ separator: true
 - L'export TRF est nommé selon son usage : _TRF26 (ITDX)_ pour un fichier partiel tant que le tournoi n'est pas terminé ou que des parties n'ont pas de résultat, ces parties étant des résultats inconnus ; _TRF26 (final)_ pour le rapport final, seul à contenir les corrections faites pour le rapport de classement
 - Un nouvel export _PGN (toutes les rondes)_ donne les parties de toutes les rondes appariées en un seul fichier, et les deux exports PGN contiennent désormais les résultats des parties, forfaits compris, avec les dates des rondes, les identifiants _FIDE_ et les équipes des joueur·euses, et la cadence
 
+### Tournois et prix
+
+- La cadence exacte est résumée sous la cadence du tournoi, dans la notation compacte des rapports _FFE_ (90'+30", 100'x40+30" → 15'+30")
+- Les groupes non cumulables peuvent être copiés dans les autres tournois de l'évènement, et les catégories de prix dans n'importe quel groupe non cumulable de l'évènement, la copie d'une catégorie générale devenant une catégorie ordinaire quand le groupe cible en a déjà une ; les critères qui sélectionnent des joueur·euses précis·es restent dans leur tournoi
+- Dupliquer un tournoi conserve la base de classement des catégories de prix et la valeur complémentaire des prix
+- Les boutons tournoi précédent et tournoi suivant sont de retour à côté du sélecteur de tournoi de l'onglet des appariements
+
 ### Joueur·euses
 
 - Un paramètre de format des noms (Nom Prénom / Nom, Prénom / Prénom Nom / Prénom, Nom), avec une option pour afficher les noms en capitales, définit l'affichage des noms des joueur·euses, quelle que soit la langue
@@ -78,6 +85,8 @@ separator: true
 ### _Sharly-Chess.com_
 
 - Amélioration de la synchronisation avec _Sharly-Chess.com_ lorsque plusieurs ordinateurs gèrent le même évènement : chacun n'envoie que ses propres modifications, un·e joueur·euse supprimé·e sur le site après avoir joué est conservé·e jusqu'à ce que l'arbitre le·la retire ou le·la garde, un·e joueur·euse déplacé·e dans un tournoi géré sur un autre ordinateur n'est plus supprimé·e, les conflits n'arrêtent plus la synchronisation, les modifications refusées par le site sont signalées, et un évènement copié demande à être reconnecté au lieu de déconnecter l'original
+- Les droits d'inscription et les montants payés sur _Sharly-Chess.com_ sont importés avec les joueur·euses, et mis à jour quand ils changent sur le site ; les paiements enregistrés à l'accueil sont conservés jusque-là
+- La colonne des paiements de l'onglet des joueur·euses peut être affichée avant même qu'un·e joueur·euse ait des droits d'inscription
 
 ### Application
 
@@ -87,11 +96,13 @@ separator: true
   - Les données de l'ancien dossier par défaut sont déplacées au premier démarrage, l'ancien dossier étant supprimé une fois la copie vérifiée
   - Un dossier choisi dans OneDrive, Google Drive, Dropbox ou iCloud Drive est déplacé si l'utilisateur·rice l'accepte
 - Les paramètres de mise à jour de la fenêtre principale de l'application sont déplacés dans un nouvel onglet À propos
+- Fermer la fenêtre principale de l'application pendant que le serveur fonctionne demande une confirmation, puisque les navigateurs, les écrans et les autres ordinateurs ne peuvent alors plus joindre l'application
 
 ### _FFE_ (Fédération française des échecs)
 
 - Le procès-verbal (T2) _FFE_ commence par les évènements consignés pour les tournois choisis
 - Les titres d'arbitre _FFE_ suivent la réforme de 2026 (Arbitre Jeune, Match, Club et Open) ; le titre d'arbitre _FIDE_ (FA ou IA) est renseigné depuis la base _FFE_, et les comptes existants sont convertis selon les règles de transition de la DNA, les ancien·nes arbitres Élite devenant arbitres _FIDE_ ou internationaux·ales
+- Recherches plus rapides dans la base _FFE_ en ligne, surtout avec le filtre de fédération, et rapprochement des joueur·euses importé·es beaucoup plus rapide ; les joueur·euses dont la base _FFE_ a tronqué ou abrégé le nom (comme `MERCIER-PIQUEM.` pour Mercier-Piquemal) sont trouvé·es à partir de leur nom complet, par les recherches en ligne et dans la base installée et lors du rapprochement des joueur·euses importé·es
 
 ## Version 5.1.8 - 19 octobre 2026
 - Les tournois accélérés peuvent de nouveau être envoyés sur le site web de la _FFE_

@@ -62,6 +62,13 @@ separator: true
 - The TRF export is named after its use: _TRF26 (ITDX)_ for a partial file while the tournament is not finished or games have no result, where those games are unknown results; _TRF26 (final)_ for the final report, which alone carries the corrections made for the rating report
 - A new _PGN (all rounds)_ export gives the games of every paired round in a single file, and both PGN exports now carry the results of the games, forfeits included, with the round dates, the players' _FIDE_ IDs and teams, and the time control
 
+### Tournaments and prizes
+
+- The exact time control is summarised under the time control of the tournament, in the compact notation of the _FFE_ reports (90'+30", 100'x40+30" → 15'+30")
+- Prize brackets can be copied to the other tournaments of the event, and prize categories to any prize bracket of the event, the copy of a main category becoming a regular category when the target bracket already has one; the criteria selecting individual players stay with their own tournament
+- Cloning a tournament keeps the ranking basis of the prize categories and the complementary value of the prizes
+- The previous and next tournament buttons are back beside the tournament selector of the pairings tab
+
 ### Players
 
 - A name format setting (Last First / Last, First / First Last / First, Last), with an option to display last names in capitals, sets how players' names are displayed, whatever the language
@@ -78,6 +85,8 @@ separator: true
 ### _Sharly-Chess.com_
 
 - Improved synchronisation with _Sharly-Chess.com_ when several computers run the same event: each sends only the changes it made, a player removed on the site after playing is kept until the arbiter withdraws or keeps them, a player moved to a tournament held on another computer is no longer deleted, conflicts no longer stop the synchronisation, changes the site refuses are reported, and a copied event asks to be connected again instead of disconnecting the original
+- The registration fees and the amounts paid on _Sharly-Chess.com_ are imported with the players, and kept up to date when they change on the site; payments recorded at the desk are kept until then
+- The payment column of the players tab can be shown even before any player has fees
 
 ### Application
 
@@ -87,11 +96,13 @@ separator: true
   - The data of the former default folder is moved on the first start, the previous folder being deleted once the copy has been checked
   - A folder chosen in OneDrive, Google Drive, Dropbox or iCloud Drive is moved if the user agrees
 - The update settings of the main application window have moved to a new About tab
+- Closing the main application window while the server is running asks for a confirmation, since the browsers, the screens and the other computers can no longer reach the application
 
 ### _FFE_ (French Chess Federation)
 
 - The _FFE_ T2 minutes open with the events logged for the chosen tournaments
 - _FFE_ arbiter titles follow the 2026 reform (Young, Match, Club and Open Arbiter); the _FIDE_ arbiter title (FA or IA) is filled in from the _FFE_ database, and existing accounts are converted following the transition rules of the DNA, the former Elite arbiters becoming _FIDE_ or International Arbiters
+- Faster searches in the online _FFE_ database, especially with the federation filter, and much faster matching of imported players; players whose names the _FFE_ database cut or abbreviated (such as `MERCIER-PIQUEM.` for Mercier-Piquemal) are found from their full names, by the online and installed searches and when matching imported players
 
 ## Version 5.1.8 - October 19, 2026
 - Tournaments with accelerated pairings can be sent to the _FFE_ website again
