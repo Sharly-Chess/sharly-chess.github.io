@@ -44,7 +44,7 @@ Alternatively, you can opt for a more traditional approach with a printed check-
 
 ## Pairings
 
-Once the tournament is running, you’ll likely want to display the pairings for each round. This listing includes all pairings for the selected round, showing board numbers and current points.
+Once the tournament is running, you’ll likely want to display the pairings for each round. This listing includes all pairings for the selected round, showing board numbers and current points. The **Pairing style** option lists them board by board (**Boards**), or player by player (**Players**), which helps the players find their board.
 
 ---
 
@@ -54,9 +54,21 @@ Used in round-robin tournaments, this grid displays all pairings for every round
 
 ---
 
+## Round-robin Schedule
+
+Available for round-robin tournaments, individual or team. Built from the Berger tables, it is available before the rounds are paired: one row per match, one column per round, with a legend mapping each Berger number or team letter to its name.
+
+---
+
 ## Knock-out Bracket
 
 Available for [knock-out]({% link docs/running-an-event/knockout.en.md %}) tournaments, this document draws the bracket with the results so far. Its **schedule** option lists the same matches chronologically, round by round, with the date and time of each round when they have been set.
+
+---
+
+## Acceleration Rules
+
+Available for Swiss tournaments paired with an [accelerated system]({% link docs/running-an-event/accelerations.en.md %}). It describes the rules of the system, then how they apply to the tournament: the groups, the virtual points granted to each group, round by round, and the players with their group.
 
 ---
 
@@ -69,6 +81,12 @@ This listing is identical to the pairings list but includes the results of each 
 ## Ranking
 
 Displays the current tournament standings, including player scores and tie-break values.
+
+---
+
+## Individual Team Ranking
+
+_Individual events only._ Ranks teams formed from the players of the tournament, by **Clubs** or by **Federations** (**Type of teams**). The options set the **Number of players per team**, the **Number of W/M per team** (women and men), the maximum number of teams per club or federation, and whether to **Include incomplete teams**.
 
 ---
 
@@ -106,6 +124,39 @@ Once the tournament is complete, you can generate the list of prize winners base
 
 ---
 
+## Prize Receipts
+
+_Individual events only._ One receipt per prize won, with the payment method (cash, cheque or transfer) and a signature box for the winner or their proxy. Only the monetary prizes are included, unless **Include non-monetary prizes** is ticked.
+
+---
+
+## Statistics
+
+The participation statistics of the selected tournaments: the number of players per tournament, the titled players, the rating types, the age categories, the genders, the federations and the clubs, and the rating ranges with the average rating. The **Club threshold** option hides the clubs with fewer players.
+
+---
+
+## Title Norms
+
+Available for standard time control tournaments with norm-eligible titled players (see [_FIDE_ title norms]({% link docs/features.en.md %}#fide-title-norms)):
+
+- **Tournament Norms Summary** — once the tournament is finished, every title norm achieved, with its performance figures. Once the last round is paired, it shows instead a forecast: what each player in contention needs in the last round to achieve each norm.
+- **Norm Report** — the _FIDE_ IT1 form (_Certificate of Title Results_) of a player, also opened from the summary. The **1.4.3 exemption** option applies to national championship finals (1.4.3a) and national team championships (1.4.3b).
+
+---
+
+## QR Code
+
+A QR code to print and display: once connected to the chosen **Network**, the devices scan it to open the _Sharly Chess_ server. [Plugins]({% link docs/plugins/index.en.md %}) add other targets, such as the tournament on [_Chess-Results_]({% link docs/plugins/chess-results.en.md %}) or the event on [_Sharly-Chess.com_]({% link docs/events/index.en.md %}).
+
+---
+
+## Team Documents
+
+Team events have their own documents: match sheets, team pairings, team rankings, team Berger grids, and the Molter and Scheveningen tables. See [Team documents & screens]({% link docs/team-tournaments/documents-and-screens.en.md %}).
+
+---
+
 ## Place cards
 
 _Sharly Chess_ offers three document options for creating place cards:
@@ -118,3 +169,12 @@ Place cards are built from **templates**, which you can create and edit with the
 
 {: .tip }
 > :point_right: Place cards show the players' names, ratings, clubs… as they stand in the event, so bring the players' ratings up to date first with **Update** › **Player ratings** (see [Ratings]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists)). The place cards dialog reminds you to do so.
+
+---
+
+## Plugin Documents
+
+[Plugins]({% link docs/plugins/index.en.md %}) add their own documents, for example:
+
+- the **FFE forms** of the [_FFE_ plugin]({% link docs/plugins/france/ffe.en.md %}): T1 Cover page, T2 Minutes, T3 and T4 licence certificates, T5 Unjustified forfeit investigation, T6 Player exclusion, T7 Player reporting, Arbitration compensation and Cheating complaint;
+- the **Chess960 positions** of the _Chess960_ plugin.

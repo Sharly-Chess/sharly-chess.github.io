@@ -17,10 +17,18 @@ types habituels.
 - **Feuilles de match** — un tableau par match pour que l'arbitre note les résultats
   des échiquiers et recueille les signatures. (En Molter, où les échiquiers sont
   appariés entre équipes, la feuille utilise une disposition à échiquiers à plat.)
+- **Appariements des équipes** — les matchs d’équipes d’une ronde sur une seule liste,
+  sans les joueur·euses de leurs échiquiers, pour les capitaines. Disponible pour les
+  systèmes qui apparient des équipes entières.
 - **Classement par équipes** — le classement des équipes, avec les départages que
   vous avez configurés.
 - **Grille Berger par équipes** — la grille des rencontres en toutes‑rondes avec les
   scores des matchs. Disponible pour le système **Toutes‑rondes par équipes**.
+- **Calendrier toutes-rondes** — les rencontres de chaque ronde, construites à partir
+  des tables de Berger, donc disponibles avant que les rondes ne soient appariées.
+- **Table Molter** et **Table Scheveningen** — le calendrier d’appariement fixe de ces
+  systèmes, une ligne par échiquier et une colonne par ronde, disponible dès que les
+  équipes sont saisies (voir [Tableaux Molter]({% link docs/team-tournaments/molter-tables.fr.md %})).
 
 ## Écrans
 

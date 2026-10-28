@@ -16,9 +16,17 @@ Team events add a few document and screen types on top of the usual ones.
 - **Match sheets** — one table per match for the arbiter to record board results
   and collect signatures. (For Molter, where boards are paired across teams, the
   sheet uses a flat-board layout.)
+- **Team pairings** — the team matches of a round on a single list, without the
+  players of their boards, for the team captains. Available for the systems that
+  pair whole teams.
 - **Team ranking** — the team standings, with the tie-breaks you have configured.
 - **Team Berger grid** — the round-robin encounter grid with match scores.
   Available for the **Team Round-Robin** system.
+- **Round-robin schedule** — the encounters of every round, built from the Berger
+  tables, so available before the rounds are paired.
+- **Molter table** and **Scheveningen table** — the fixed pairing schedule of these
+  systems, one row per board and one column per round, available as soon as the
+  teams are entered (see [Molter tables]({% link docs/team-tournaments/molter-tables.en.md %})).
 
 ## Screens
 

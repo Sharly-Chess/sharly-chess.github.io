@@ -46,7 +46,7 @@ Vous pouvez également utiliser une méthode plus traditionnelle avec une liste 
 ## Appariements
 
 Une fois le tournoi lancé, vous voudrez probablement afficher les appariements de chaque ronde.
-Cette liste affiche tous les appariements de la ronde sélectionnée, avec les numéros de table et les points des joueur·euses.
+Cette liste affiche tous les appariements de la ronde sélectionnée, avec les numéros de table et les points des joueur·euses. L’option **Format d’appariement** les présente échiquier par échiquier (**Échiquiers**), ou joueur·euse par joueur·euse (**Joueur·euses**), ce qui aide chacun·e à trouver son échiquier.
 
 ---
 
@@ -56,9 +56,21 @@ Utilisée pour les tournois toutes rondes, cette grille affiche les appariements
 
 ---
 
+## Calendrier toutes-rondes
+
+Disponible pour les tournois toutes-rondes, individuels ou par équipes. Construit à partir des tables de Berger, il est disponible avant que les rondes ne soient appariées : une ligne par rencontre, une colonne par ronde, avec une légende qui associe chaque numéro Berger ou lettre d’équipe à son nom.
+
+---
+
 ## Tableau de la coupe
 
 Proposé pour les tournois en [système coupe]({% link docs/running-an-event/knockout.fr.md %}), ce document dessine le tableau avec les résultats obtenus jusque-là. Son option **programme** liste les mêmes matchs chronologiquement, ronde par ronde, avec la date et l'heure de chaque ronde lorsqu'elles ont été définies.
+
+---
+
+## Règles d'accélération
+
+Disponible pour les tournois suisses appariés avec un [système accéléré]({% link docs/running-an-event/accelerations.fr.md %}). Il décrit les règles du système, puis la façon dont elles s’appliquent au tournoi : les groupes, les points fictifs accordés à chaque groupe, ronde par ronde, et les joueur·euses avec leur groupe.
 
 ---
 
@@ -71,6 +83,12 @@ Cette liste est identique à celle des appariements, mais inclut les résultats 
 ## Classement
 
 Affiche le classement actuel du tournoi, avec les points et les départages des joueur·euses.
+
+---
+
+## Classement individuel par équipe
+
+_Évènements individuels uniquement._ Classe des équipes formées à partir des joueur·euses du tournoi, par **Clubs** ou par **Fédérations** (**Type d'équipes**). Les options fixent le **Nombre de joueur·euses par équipe**, le **Nombre de F/H par équipe** (femmes et hommes), le nombre maximum d’équipes par club ou par fédération, et s’il faut **Inclure les équipes incomplètes**.
 
 ---
 
@@ -108,6 +126,39 @@ Une fois le tournoi terminé, vous pouvez générer la liste des gagnant·es pou
 
 ---
 
+## Reçus financiers des prix
+
+_Évènements individuels uniquement._ Un reçu par prix gagné, avec le mode de paiement (espèces, chèque ou virement) et un cadre de signature pour le ou la gagnant·e ou son mandataire. Seuls les prix monétaires sont inclus, sauf si **Inclure les prix non monétaires** est coché.
+
+---
+
+## Statistiques
+
+Les statistiques de participation des tournois sélectionnés : le nombre de joueur·euses par tournoi, les titré·es, les types de classement, les catégories d’âge, les genres, les fédérations et les clubs, et les tranches de classement avec le classement moyen. L’option **Seuil pour les clubs** masque les clubs ayant moins de joueur·euses.
+
+---
+
+## Normes de titre
+
+Disponibles pour les tournois en cadence standard comptant des titré·es permettant des normes (voir [Normes de titre _FIDE_]({% link docs/features.fr.md %}#normes-de-titre-fide)) :
+
+- **Résumé des normes du tournoi** — une fois le tournoi terminé, toutes les normes de titre obtenues, avec leurs chiffres de performance. Dès que la dernière ronde est appariée, il présente à la place une prévision : ce dont chaque joueur·euse en course a besoin à la dernière ronde pour obtenir chaque norme.
+- **Rapport de norme** — le formulaire IT1 de la _FIDE_ (_Certificate of Title Results_) d’un·e joueur·euse, également accessible depuis le résumé. L’option **Exemption 1.4.3** s’applique aux finales de championnat national (1.4.3a) et aux championnats nationaux par équipes (1.4.3b).
+
+---
+
+## QR Code
+
+Un QR code à imprimer et à afficher : une fois connectés au **Réseau** choisi, les appareils le scannent pour ouvrir le serveur _Sharly Chess_. Les [plug-ins]({% link docs/plugins/index.fr.md %}) ajoutent d’autres cibles, comme le tournoi sur [_Chess-Results_]({% link docs/plugins/chess-results.fr.md %}) ou l’évènement sur [_Sharly-Chess.com_]({% link docs/events/index.fr.md %}).
+
+---
+
+## Documents par équipes
+
+Les évènements par équipes ont leurs propres documents : feuilles de match, appariements des équipes, classements par équipes, grilles Berger par équipes, et tables Molter et Scheveningen. Voir [Documents & écrans par équipes]({% link docs/team-tournaments/documents-and-screens.fr.md %}).
+
+---
+
 ## Chevalets
 
 _Sharly Chess_ offre trois documents spécifiques pour réaliser des chevalets de table :
@@ -120,3 +171,12 @@ Les chevalets sont construits à partir de **modèles**, que vous pouvez créer 
 
 {: .tip }
 > :point_right: Les chevalets affichent les noms, Elo, clubs… des joueur·euses tels qu'ils figurent dans l'évènement : mettez d'abord à jour les classements des joueur·euses avec **Mettre à jour** › **Classements des joueur·euses** (voir [Classements]({% link docs/running-an-event/ratings.fr.md %}#vérifier-les-classements-avec-les-listes)). La fenêtre des chevalets vous le rappelle.
+
+---
+
+## Documents des plug-ins
+
+Les [plug-ins]({% link docs/plugins/index.fr.md %}) ajoutent leurs propres documents, par exemple :
+
+- les **Formulaires FFE** du [plug-in _FFE_]({% link docs/plugins/france/ffe.fr.md %}) : T1 Page de garde, T2 Procès-verbal, T3 et T4 attestations de licence, T5 Enquête pour forfait injustifié, T6 Exclusion d'un·e joueur·euse, T7 Signalement d'un·e joueur·euse, Indemnités d'arbitrage et Dépôt de plainte pour suspicion de triche ;
+- les **Positions Chess960** du plug-in _Chess960_.
