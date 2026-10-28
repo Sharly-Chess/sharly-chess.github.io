@@ -30,7 +30,5 @@ The window that opens when you launch _Sharly Chess_ is the server itself: closi
 | **Networks** | The networks your computer is connected to, and the address of _Sharly Chess_ on each of them (see [Network]({% link docs/network/index.en.md %})). |
 | **Plugins** | Install and uninstall [plugins]({% link docs/plugins/index.en.md %}). |
 | **Logs** | The application log, useful when reporting a problem. |
-| **Settings** | The **language**, the default **federation** and the **date format**; whether to launch a browser on startup; the experimental features; the **data folder** (open it, or move it elsewhere); and the updates (search for updates, include beta versions). |
-
-{: .note }
-> :information_source: Since version 5.1, the language, federation and date format settings, as well as the installation of plugins, are found in this window rather than in the browser interface.
+| **Settings** | The **language**, the default **federation**, the **date format** and the **name format**; whether to launch a browser on startup; the experimental features; the **data folder** (open it, or move it elsewhere); and the [backups]({% link docs/running-an-event/backups.en.md %}). |
+| **About** | The current version of _Sharly Chess_, and the updates: search for updates and install them, read the changelog, and include beta versions. |
