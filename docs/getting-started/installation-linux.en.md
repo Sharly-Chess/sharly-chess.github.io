@@ -7,13 +7,7 @@ parent: Getting Started
 nav_order: 52
 ---
 
-# Installing _Sharly Chess_ on Linux (experimental)
-
-{: .warning }
-
-> :warning: **EXPERIMENTAL FEATURE!**<br/>
-> Linux support is still experimental and may not work on all Linux distributions.<br/>
-> Furthermore, the _Sharly Chess_ developers are unable to provide support for this aspect and are looking for Linux experts. Get in touch!
+# Installing _Sharly Chess_ on Linux
 
 ## Requirements
 
