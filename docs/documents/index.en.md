@@ -145,6 +145,14 @@ Available for standard time control tournaments with norm-eligible titled player
 
 ---
 
+## Rating Achievement Certificate
+
+Available for tournaments with _FIDE_-rated players. The certificate states the highest intermediate _FIDE_ rating the chosen **Player** reached during the tournament, as titles such as FM, CM, WFM and WCM are gained by a rating achieved at any time (_FIDE_ Title Regulations 1.3). It stops at the earliest finished round after which the intermediate rating is at its highest, and lists the games played until then with the opponent's rating, the result, the expected score and the difference, followed by the calculation of the rating change.
+
+When the rating reaches the requirement of a title the player does not hold, in a standard time control tournament, the certificate names the title. The certificate is in English, to be sent to _FIDE_, and its text can be edited before it is printed or downloaded as a Word file.
+
+---
+
 ## QR Code
 
 A QR code to print and display: once connected to the chosen **Network**, the devices scan it to open the _Sharly Chess_ server. [Plugins]({% link docs/plugins/index.en.md %}) add other targets, such as the tournament on [_Chess-Results_]({% link docs/plugins/chess-results.en.md %}) or the event on [_Sharly-Chess.com_]({% link docs/events/index.en.md %}).

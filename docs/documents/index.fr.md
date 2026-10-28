@@ -147,6 +147,14 @@ Disponibles pour les tournois en cadence standard comptant des titré·es permet
 
 ---
 
+## Attestation de performance Elo
+
+Disponible pour les tournois comptant des joueur·euses classé·es _FIDE_. L’attestation indique le classement _FIDE_ intermédiaire le plus élevé atteint pendant le tournoi par le·la **Joueur·euse** choisi·e, des titres comme MF, CM, MFF et CMF s’obtenant par un classement atteint à un moment quelconque (règlement des titres _FIDE_ 1.3). Elle s’arrête à la première ronde terminée après laquelle le classement intermédiaire est au plus haut, et liste les parties jouées jusque-là avec le classement de l’adversaire, le résultat, le score attendu et la différence, suivis du calcul de la variation de classement.
+
+Quand le classement atteint celui requis pour un titre que le·la joueur·euse n’a pas, dans un tournoi en cadence standard, l’attestation nomme le titre. L’attestation est en anglais, pour être envoyée à la _FIDE_, et son texte peut être modifié avant de l’imprimer ou de la télécharger au format Word.
+
+---
+
 ## QR Code
 
 Un QR code à imprimer et à afficher : une fois connectés au **Réseau** choisi, les appareils le scannent pour ouvrir le serveur _Sharly Chess_. Les [plug-ins]({% link docs/plugins/index.fr.md %}) ajoutent d’autres cibles, comme le tournoi sur [_Chess-Results_]({% link docs/plugins/chess-results.fr.md %}) ou l’évènement sur [_Sharly-Chess.com_]({% link docs/events/index.fr.md %}).

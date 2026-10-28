@@ -80,6 +80,7 @@ separator: true
 - Les règles des systèmes accélérés peuvent être imprimées, depuis les documents ou depuis les paramètres d'appariement : les règles du système, les groupes, les points virtuels accordés ronde par ronde et les joueur·euses de chaque groupe
 - Les chevalets d'appariement ne sont plus générés pour les exemptions attribuées par l'appariement
 - Les documents ont des boutons en haut de la page pour les imprimer et les télécharger en PDF ; les documents à remplir, comme les formulaires _FFE_ et le rapport de norme, peuvent aussi être téléchargés au format Word, avec les valeurs saisies dans leurs champs
+- Une nouvelle attestation de performance Elo indique le classement _FIDE_ intermédiaire le plus élevé atteint par un·e joueur·euse pendant le tournoi, partie par partie, pour les demandes de titre ; elle nomme le titre (MF, CM, MFF ou CMF) dont le classement requis est atteint, et l'arbitre peut en modifier le texte avant de l'imprimer ou de la télécharger au format Word
 - Correction des PDF enregistrés depuis Firefox, dont le texte ne pouvait pas être copié : le texte des formulaires _FFE_, de la feuille d'appariement _FFE_ et des positions Chess960 peut désormais être copié et collé
 
 ### _Sharly-Chess.com_
