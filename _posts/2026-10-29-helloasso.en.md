@@ -1,9 +1,9 @@
 ---
 title: New pricing for Sharly-Chess.com and partnership with HelloAsso
-date: 2026-10-30 08:00:00 +0200
+date: 2026-10-29 23:00:00 +0200
 categories: news
 layout: post
-page_id: post-2026-10-30
+page_id: post-2026-10-29
 slug: helloasso
 lang: en
 excerpt: "Sharly-Chess.com is now a partner of HelloAsso and offers new terms of use."
