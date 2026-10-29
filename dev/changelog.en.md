@@ -80,7 +80,7 @@ separator: true
 - The rules of the accelerated systems can be printed, from the documents or from the pairing settings: the rules of the system, the groups, the virtual points granted round by round and the players of each group
 - Pairing place cards are no longer generated for pairing-allocated byes
 - Documents have buttons at the top of the page to print them and to download them as PDF files; the documents with fields to fill in, such as the _FFE_ forms and the norm report, can also be downloaded as Word files, with the values entered in the fields
-- A new rating achievement certificate states the highest intermediate _FIDE_ rating a player reached during the tournament, game by game, for title applications; it names the title (FM, CM, WFM or WCM) whose required rating is reached, and the arbiter can edit its text before printing it or downloading it as a Word file
+- A new rating achievement certificate states the highest intermediate _FIDE_ rating a player reached during the tournament, game by game; it is certified by the chief arbiter of the tournament or by the arbiter chosen, and the arbiter can edit its text before printing it or downloading it as a Word file
 - Fixed PDFs saved from Firefox, whose text could not be copied: the text of the _FFE_ forms, the _FFE_ pairing sheet and the Chess960 positions can now be copied and pasted
 
 ### _Sharly-Chess.com_
