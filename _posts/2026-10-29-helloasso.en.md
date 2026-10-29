@@ -29,7 +29,7 @@ You also shared that the commission charged on each registration placed a signif
 - Sales of products (meals, refreshments, etc.) do not consume any credits.
 - If an registration is cancelled and a refund is issued, the credit used are returned to you;
 - You can purchase credits via your organizer dashboard (on the **Credits** page) using a credit card or bank transfer. An invoice is provided for every purchase.
-- The cost of registration credits is fixed, [starting at €0.25](https://sharly-chess.com/en/pricing).
+- The cost of registration credits is fixed, starting at €0.25 ([price details](https://sharly-chess.com/en/pricing)).
 
 **Existing Events**
 

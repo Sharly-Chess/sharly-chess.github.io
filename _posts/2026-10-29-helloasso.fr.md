@@ -29,7 +29,7 @@ Vous nous avez aussi dit que la commission prélevée sur chaque inscription pes
 - Les ventes de produits (repas, buvette…) n'utilisent pas de crédit ;
 - Les crédits utilisés en cas d'annulation et de remboursement vous sont rendus ;
 - Vous achetez vos crédits depuis votre espace organisateur (page **Crédits**), par carte ou par virement. Une facture est disponible pour chaque achat ;
-- Les prix des crédits d'inscriptions sont fixes, [à partir de 0,25€](https://sharly-chess.com/fr/pricing).
+- Les prix des crédits d'inscriptions sont fixes, à partir de 0,25€ ([prix détaillés](https://sharly-chess.com/fr/pricing)).
 
 **Vos évènements déjà créés**
 
