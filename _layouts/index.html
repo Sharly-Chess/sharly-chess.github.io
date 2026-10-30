@@ -32,7 +32,7 @@ layout: table_wrappers
                     id="{{ button.id }}"
                   {% endif %}
                   class="btn{% if button.class %} {{ button.class }}{% endif %}"
-                  href="{{ button.url[lang] }}"
+                  href="{{ button.url[lang] | prepend: '/' | relative_url }}"
                 >
                   {% if button.icon %}<i class="bi {{ button.icon }}"></i>{% endif %}
                   {{ button.text[lang] }}
