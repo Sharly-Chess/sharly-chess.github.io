@@ -55,6 +55,7 @@ separator: true
   - The schedule is checked against the round-robin rules before it is saved (each pair meeting once, or twice, and no three games in a row with the same colour)
   - Once results are entered, games played at the wrong boards can be corrected, and a schedule breaking the rules saved anyway, the log and the TRF listing the rules it breaks for as long as it does
 - Double round robins can choose whether the last two rounds of the first cycle are reversed, as recommended by _FIDE_ to avoid three games in a row with the same colour
+- A player or team that withdrew is dropped from the standings, and their games annulled, as soon as they can no longer complete half of their games, instead of only once the last round has a result
 
 ### Results and exports
 

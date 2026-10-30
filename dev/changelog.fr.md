@@ -55,6 +55,7 @@ separator: true
   - Le calendrier est vérifié selon les règles des toutes-rondes avant d'être enregistré (chaque paire se rencontrant une fois, ou deux, et pas trois parties de suite avec la même couleur)
   - Une fois des résultats saisis, les parties jouées aux mauvais échiquiers peuvent être corrigées, et un calendrier enfreignant les règles enregistré malgré tout, le journal et le TRF indiquant les règles enfreintes tant qu'il les enfreint
 - Les doubles toutes-rondes permettent de choisir si les deux dernières rondes du premier cycle sont inversées, comme le recommande la _FIDE_ pour éviter trois parties de suite avec la même couleur
+- Les joueur·euses et les équipes qui abandonnent sont supprimées du classement et leurs parties annulées, dès qu'il est impossible de disputer la moitié des rondes (précédemment seulement à la fin du tournoi)
 
 ### Résultats et exports
 
