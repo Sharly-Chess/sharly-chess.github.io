@@ -1,5 +1,100 @@
+@font-face {
+  font-family: "InterVariable";
+  src: url("../fonts/Inter/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterVariable";
+  src: url("../fonts/Inter/InterVariable-Italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
 a:hover {
   color: #e9e1cf;
+}
+
+// The navigation follows the sidebar of the admin view: rounded entries, the
+// current page tinted with the sand of the links. The entries run to the
+// sidebar's edge, so only their left corners are rounded.
+.side-bar {
+  border-right: 1px solid $border-color;
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  border-radius: 0.5rem 0 0 0.5rem;
+
+  &:hover {
+    background-color: #2b2f36;
+    background-image: none;
+  }
+
+  &.active {
+    background-color: #2e2a22;
+    background-image: none;
+    color: #efe3c6;
+    font-weight: 500;
+  }
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover {
+  background-color: #2b2f36;
+  background-image: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.search-input {
+  border-radius: 0.5rem;
+}
+
+// Tables read as one surface, as in the admin view, with a lighter header.
+.main-content .table-wrapper {
+  border: 1px solid $border-color;
+  border-radius: 0.75rem;
+  box-shadow: none;
+
+  table {
+    border-spacing: 0;
+  }
+
+  th, td {
+    border-left: 0;
+    border-bottom: 1px solid $border-color;
+  }
+
+  tr:last-child > td {
+    border-bottom: 0;
+  }
+
+  th {
+    background-color: #353a43;
+    color: #fff;
+    text-align: left;
+  }
+}
+
+// Callouts are quiet tinted panels rather than bright boxes.
+@each $name, $color in (note: #6ab0f3, tip: #d7c9aa, warning: #f08a94) {
+  p.#{$name}, blockquote.#{$name} {
+    background: rgba($color, 0.08);
+    border: 1px solid rgba($color, 0.3);
+    border-radius: 0.75rem;
+    box-shadow: none;
+    padding: 0.85rem 1rem;
+  }
+}
+
+code {
+  border-radius: 0.375rem;
 }
 
 .site-title {
@@ -140,8 +235,9 @@ details {
   }
 
   & > div {
-    background-color: $sidebar-color;
+    background-color: #1e2126;
     border: 1px solid $border-color;
+    border-radius: 0.75rem;
     padding: 1.5rem;
     margin-bottom: 1rem;
 
@@ -162,6 +258,7 @@ details {
 
   img {
     border: 1px solid $border-color;
+    border-radius: 0.5rem;
   }
 
   figure {
@@ -180,9 +277,28 @@ details {
   }
 }
 
+// The tonal main button of the admin view: sand text on a faint sand fill.
 .btn {
-  @include btn-color($body-background-color, #d7c9aa);
   margin-top: 1rem;
+  font-weight: 500;
+  color: #efe3c6;
+  background-color: rgba(215, 201, 170, 0.16);
+  background-image: none;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 0 1px rgba(215, 201, 170, 0.5);
+
+  &:hover, &:focus, &.zeroclipboard-is-hover {
+    color: #f6ecd4;
+    background-color: rgba(215, 201, 170, 0.26);
+    background-image: none;
+    box-shadow: inset 0 0 0 1px rgba(215, 201, 170, 0.7);
+  }
+
+  &:active, &.selected, &.zeroclipboard-is-active {
+    background-color: rgba(215, 201, 170, 0.32);
+    background-image: none;
+    box-shadow: inset 0 0 0 1px rgba(215, 201, 170, 0.75);
+  }
 }
 
 .btn .bi {
@@ -201,15 +317,14 @@ details {
 
 body.index {
   margin: 0;
-  font-family: 'Helvetica Neue', system-ui, sans-serif;
-  background-color: #1e1e1e;
+  background-color: #111215;
   color: #f4f0e6;
 
   // Darker than the sections below, so that the header doesn't run into them.
   header {
-    background-color: #242424;
+    background-color: #1a1c20;
     color: white;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border-bottom: 1px solid $border-color;
 
     .language-switcher {
       text-align: right;
@@ -271,12 +386,12 @@ body.index {
     // The downloads are secondary: the documentation is the main way in.
     .btn-outline {
       background: transparent;
-      color: #d7c9aa;
-      box-shadow: inset 0 0 0 1px #d7c9aa;
+      color: #ebe9e4;
+      box-shadow: inset 0 0 0 1px #42464f;
 
       &:hover, &:focus {
-        background: rgba(215, 201, 170, 0.12);
-        color: #f4f0e6;
+        background: #2b2f36;
+        color: #fff;
       }
     }
 
@@ -324,10 +439,10 @@ body.index {
     }
 
     .feature-box {
-      background-color: rgba(255, 255, 255, 0.05);
-      border-left: 5px solid $link-color;
+      background-color: #1e2126;
+      border: 1px solid $border-color;
       padding: 1rem;
-      border-radius: 8px;
+      border-radius: 0.75rem;
       max-width: 300px;
       text-align: left;
     }
@@ -360,12 +475,12 @@ body.index {
   }
 
   .features-easy-life {
-    background-color: #2a2a2a;
+    background-color: #16181c;
     color: #f4f0e6;
   }
 
   .features-made-by, .features-arbiters, .features-players {
-    background-color: #333333;
+    background-color: #1a1c20;
     color: #f4f0e6;
   }
 
@@ -396,7 +511,7 @@ body.index {
 
   .support {
     padding: 4rem 2rem;
-    background-color: #1e1e1e;
+    background-color: #111215;
     color: #f4f0e6;
     text-align: center;
 
@@ -409,7 +524,7 @@ body.index {
 
   .news {
     padding: 4rem 2rem;
-    background-color: #2a2a2a;
+    background-color: #16181c;
     color: #f4f0e6;
     text-align: center;
 
@@ -430,7 +545,7 @@ body.index {
   }
 
   footer {
-    background-color: #282828;
+    background-color: #1a1c20;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -442,7 +557,7 @@ body.index {
   width: 60vw;
   height: 1px;
   margin: auto;
-  background-color: #d7c9aa;
+  background-color: #42464f;
 }
 
 .thp-download-container {
@@ -473,7 +588,7 @@ img.no-border, img.emoji {
       font-weight: bold;
     }
     th, td {
-      background-color: #212529;
+      background-color: #111215;
       padding: 0rem .2rem;
     }
     th:nth-child(n+2), td:nth-child(n+2) {
@@ -490,18 +605,21 @@ img.no-border, img.emoji {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .modal__container {
-  background-color: $sidebar-color;
+  background-color: #22252b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
   padding: 30px;
   max-width: min(90vw, 500px);
   max-height: 100vh;
-  border-radius: 10px;
+  border-radius: 0.75rem;
   overflow-y: auto;
   box-sizing: border-box;
 }
