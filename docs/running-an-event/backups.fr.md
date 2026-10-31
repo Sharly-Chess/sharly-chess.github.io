@@ -23,6 +23,7 @@ Rien n'est à configurer : les sauvegardes sont actives, et chacune est une cop
 
 - avant qu'une ronde soit appariée, désappariée, ou qu'on passe à la suivante ;
 - avant un import de joueur·euses, ou leur répartition entre les tournois ;
+- avant la suppression d'un tournoi ou d'une équipe ;
 - avant toute modification d'une ronde depuis laquelle les suivantes ont été appariées — un résultat, un bye, les couleurs d'un échiquier, un appariement manuel, une renumérotation, le nombre de rondes, les départages ;
 - avant la mise à jour de l'évènement vers une nouvelle version de _Sharly Chess_ ;
 - avant la restauration d'une sauvegarde, pour que la restauration elle-même puisse être annulée.

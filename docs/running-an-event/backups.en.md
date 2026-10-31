@@ -23,6 +23,7 @@ Nothing has to be set up: backups are on, and each backup is a complete copy of 
 
 - before a round is paired, unpaired, or moved on from;
 - before players are imported, or distributed between tournaments;
+- before a tournament or a team is deleted;
 - before anything is changed in a round the following ones were paired from — a result, a bye, the colours of a board, a manual pairing, a renumbering, the number of rounds, the tie-breaks;
 - before the event is migrated to a new version of _Sharly Chess_;
 - before a backup is restored, so that restoring is itself undoable.
