@@ -59,7 +59,7 @@ You can also use special values to include categories of Screens:
 Note: You don’t need to add a menu to every screen. For example, if a screen is displayed via a projector (rather than on an interactive device), including a menu may not be appropriate.
 
 {% figure [caption: "Example of the 'Pairings by Board' screen with 4 menu items"] %}
-![Example of the 'Pairings by Board' screen with 4 menu items](/assets/images/menus-3.jpg)
+![Example of the 'Pairings by Board' screen with 4 menu items](/assets/images/menus-3.en.jpg)
 {% endfigure %}
 
 ---
@@ -83,5 +83,5 @@ You might choose to set up a **single pairings Screen** that shows **all the boa
 This flexibility makes it easy to tailor your setup to the needs of your space, equipment, and number of tournaments.
 
 {% figure [caption: "Example of the 'Pairings by Player' screen with 2 tournaments and 2 columns"] %}
-![Example of the 'Pairings by Player' screen with 2 tournaments and 2 columns](/assets/images/players-screen-multi.jpg)
+![Example of the 'Pairings by Player' screen with 2 tournaments and 2 columns](/assets/images/players-screen-multi.en.jpg)
 {% endfigure %}

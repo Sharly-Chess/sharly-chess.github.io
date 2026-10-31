@@ -15,7 +15,7 @@ However, that approach can be tedious and error-prone.
 _Multi-Screens_ allow you to automate this process by automatically generating single Screens for you.
 
 {% figure [caption: "Example of the 'Pairings by Player' multi-screen split across 12 screens"] %}
-![Example of the 'Pairings by Player' multi-screen split across 12 screens](/assets/images/players-screen.jpg)
+![Example of the 'Pairings by Player' multi-screen split across 12 screens](/assets/images/players-screen.en.jpg)
 {% endfigure %}
 
 ---

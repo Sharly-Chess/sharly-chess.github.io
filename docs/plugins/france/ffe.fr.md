@@ -123,26 +123,20 @@ Dans tous les cas, le classement affiché par _Sharly Chess_ et celui du site we
 
 {% details Comment met-on en ligne les résultats sur le site _FFE_ ? %}
 
-  Une fois le plug-in activé, la mise en ligne des résultats se fait dans l'onglet Mettre en ligne (cartouche de gauche) :
+  Une fois le plug-in activé, la mise en ligne des résultats se fait depuis le menu **Transfert de données** (cartouche de gauche), sous **FFE** :
 
   {: .text-center}
-  ![Onglet Mettre en ligne](/assets/faq/faq-ffe-upload-1.fr.jpg)
+  ![L'entrée FFE du menu Transfert de données](/assets/faq/faq-ffe-upload-1.fr.jpg)
 
   {: .text-center}
   ![Mise en ligne des tournois sur le site _FFE_](/assets/faq/faq-ffe-upload-2.fr.jpg)
 
-  La mise en ligne automatique peut-être activée pour chaque tournoi dont on a renseigné les identifiants _FFE_ :
+  La mise en ligne automatique s'active ou se désactive pour chaque tournoi dont on a renseigné les identifiants _FFE_, avec l'interrupteur en début de ligne ; l'interrupteur de l'en-tête du tableau la règle pour tous les tournois à la fois. Les résultats de ces tournois sont alors mis en ligne à intervalles réguliers, sans qu'il soit nécessaire d'ouvrir cette fenêtre.
+
+  La carte du tournoi indique si la mise en ligne automatique est activée :
 
   {: .text-center}
-  ![Activation de la mise en ligne automatique pour un tournoi](/assets/faq/faq-ffe-upload-3.fr.jpg)
-
-  {: .text-center}
-  ![Mise en ligne automatiques activée](/assets/faq/faq-ffe-upload-4.fr.jpg)
-
-  La configuration par défaut des tournois se fait au niveau de l'évènement :
-
-  {: .text-center}
-  ![Configuration de la mise en ligne automatique par défaut](/assets/faq/faq-ffe-upload-5.fr.jpg)
+  ![Mise en ligne automatique activée](/assets/faq/faq-ffe-upload-4.fr.jpg)
 
 {% enddetails %}
 

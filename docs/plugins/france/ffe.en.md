@@ -123,26 +123,20 @@ In all cases, the ranking displayed by _Sharly Chess_ and on the _FFE_ website a
 
 {% details How do we upload results to the _FFE_ website? %}
 
-  Once the plugin is activated, results can be uploaded thanks to the Upload tab (left panel):
+  Once the plugin is activated, results are uploaded from the **Data transfer** menu (left panel), under **FFE**:
 
   {: .text-center}
-  ![Upload tab](/assets/faq/faq-ffe-upload-1.en.jpg)
+  ![The FFE entry of the Data transfer menu](/assets/faq/faq-ffe-upload-1.en.jpg)
 
   {: .text-center}
   ![Uploading tournaments to the _FFE_ website](/assets/faq/faq-ffe-upload-2.en.jpg)
 
-  Automatic upload can be enabled for each tournament for which _FFE_ credentials have been entered:
+  Automatic upload is switched on or off for each tournament whose _FFE_ credentials have been entered, with the switch at the start of its row; the switch in the header of the table sets it for all of them at once. The results of these tournaments are then uploaded at regular intervals, without this window having to be opened.
 
-  {: .text-center}
-  ![Enabling automatic upload for a tournament](/assets/faq/faq-ffe-upload-3.en.jpg)
+  The card of the tournament shows whether automatic upload is on:
 
   {: .text-center}
   ![Automatic upload enabled](/assets/faq/faq-ffe-upload-4.en.jpg)
-
-  The default tournament configuration is done at the event level:
-
-  {: .text-center}
-  ![Configuring the default automatic upload](/assets/faq/faq-ffe-upload-5.en.jpg)
 
 {% enddetails %}
 

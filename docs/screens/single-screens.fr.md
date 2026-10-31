@@ -60,7 +60,7 @@ Vous pouvez également utiliser des valeurs spéciales pour inclure automatiquem
 Note : Vous n’êtes pas obligé·e d’ajouter un menu sur tous les écrans. Par exemple, cela n’a généralement pas de sens sur un écran projeté destiné uniquement à l’affichage.
 
 {% figure [caption: "Exemple de l’écran « Appariements par échiquier » avec 4 éléments de menu"] %}
-![Exemple de l’écran « Appariements par échiquier » avec 4 éléments de menu](/assets/images/menus-3.jpg)
+![Exemple de l’écran « Appariements par échiquier » avec 4 éléments de menu](/assets/images/menus-3.fr.jpg)
 {% endfigure %}
 
 ---
@@ -85,5 +85,5 @@ Dans ce cas, vous pouvez configurer un **écran unique d’appariement** afficha
 Cette flexibilité vous permet d’adapter votre configuration à votre espace, à votre matériel et à la structure de votre événement.
 
 {% figure [caption: "Exemple de l’écran « Appariements par joueur·euse » avec 2 tournois et 2 colonnes"] %}
-![Exemple de l’écran « Appariements par joueur·euse » avec 2 tournois et 2 colonnes](/assets/images/players-screen-multi.jpg)
+![Exemple de l’écran « Appariements par joueur·euse » avec 2 tournois et 2 colonnes](/assets/images/players-screen-multi.fr.jpg)
 {% endfigure %}
