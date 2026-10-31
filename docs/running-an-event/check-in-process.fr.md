@@ -39,7 +39,7 @@ Cliquez sur l’icône pour modifier le statut.
 Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordinateurs secondaires), voir la section [Écrans]({% link docs/screens/index.fr.md %}).
 
 {: .tip }
-> :point_right: Vous devrez actualiser votre navigateur de temps en temps pour voir les changements effectués depuis d’autres appareils.
+> :point_right: Les pointages effectués depuis d’autres appareils apparaissent d’eux-mêmes dans la liste un instant plus tard, et les lignes qui changent s’éclairent brièvement.
 
 ## Clôturer le pointage
 

@@ -38,7 +38,7 @@ Click the icon to toggle a player's status.
 To manage check-ins from other devices (like tablets or secondary computers), see the [Screens]({% link docs/screens/index.en.md %}) section.
 
 {: .tip }
-> :point_right: You'll need to refresh your browser from time to time to see the changes from other devices.
+> :point_right: Check-ins made from other devices appear in the list on their own a moment later, and the rows that change light up briefly.
 
 ## Closing the Check-in
 
