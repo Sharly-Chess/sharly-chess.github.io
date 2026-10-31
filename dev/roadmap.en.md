@@ -31,5 +31,5 @@ nav_order: 700
 | _Sharly Chess_ 4.1 |  May 7th, 2026 | New check-in system                                                                                        |          ✅           | Aug 24th, 2026 |
 | _Sharly Chess_ 4.2 |  Jun 3rd, 2026 | Norm documents improvements<br/>TRF26 compliance<br/>Team ranking in individual competitions               |          ✅           | Sep 26th, 2026 |
 | _Sharly Chess_ 5.0 | Aug 26th, 2026 | Team competitions<br/>_FIDE_ norm reports compliance<br/>Chess 960<br/>Windows installer                   |          ✅           |      Oct, 2026 |
-| _Sharly Chess_ 5.1 | Sep 24th, 2026 | Système coupe<br/>Éditeur de chevalets<br/>Téléversement _FFE_ des compétitions par équipe                 |          ✅           |              - |
-| _Sharly Chess_ 5.2 |      Oct, 2026 | Federation databases<br/>Multi-period events<br/>Automatic backups                                         |          ✅           |              - |
+| _Sharly Chess_ 5.1 | Sep 24th, 2026 | Knock-out system<br/>Place card editor<br/>_FFE_ upload of team competitions                               |          ✅           |              - |
+| _Sharly Chess_ 5.2 |      Oct, 2026 | _FIDE_ compliance (_FIDE_ mode, change log)<br/>National rating lists<br/>Round publication<br/>Multi-period events<br/>Automatic backups |          ✅           |              - |

@@ -32,4 +32,4 @@ nav_order: 700
 | _Sharly Chess_ 4.1 |  3 jun 2026 | Amélioration des documents de norme<br/>Compatibilité TRF26<br/>Classements par équipe dans les compétitions individuelles        |         ✅         |    24 sep 2026 |
 | _Sharly Chess_ 5.0 | 26 aou 2026 | Compétitions par équipe<br/>Conformité normes _FIDE_<br/>Chess 960<br/>installeur Windows                                         |         ✅         |       oct 2026 |
 | _Sharly Chess_ 5.1 | 24 sep 2026 | Système coupe<br/>Éditeur de chevalets<br/>Téléversement _FFE_ des compétitions par équipe                                        |         ✅         |              - |
-| _Sharly Chess_ 5.2 |    oct 2026 | Bases de données des fédérations<br/>Évènements multi-périodes<br/>Sauvegardes automatiques                                       |         ✅         |              - |
+| _Sharly Chess_ 5.2 |    oct 2026 | Conformité _FIDE_ (mode _FIDE_, journal des modifications)<br/>Listes de classement nationales<br/>Publication des rondes<br/>Évènements multi-périodes<br/>Sauvegardes automatiques |         ✅         |              - |
