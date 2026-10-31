@@ -38,6 +38,17 @@ Overall, the time saved is significant. It often represents several hours.
 
 A constantly up-to-date list makes organisation much easier.
 
+## Online check-in
+
+*“No more queue at the desk.”*
+
+- players check in from their phone, from the link they are emailed or the QR code displayed at the venue
+- an optional presence code makes sure they check in on site, not from home
+- the check-ins arrive in _Sharly Chess_ by themselves, every minute
+- check-in can open and close on a schedule, with an email reminder to the players
+
+The arbiter only deals with the players who did not check in. An internet connection is needed at the venue: see [Online check-in]({% link docs/events/check-in.en.md %}).
+
 ## Improved player experience
 
 Players benefit from a simple and modern interface:

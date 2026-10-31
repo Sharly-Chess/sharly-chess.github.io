@@ -16,6 +16,7 @@ Il existe plusieurs façons de gérer le pointage :
 - Vous pouvez pointer les joueur·euses directement depuis l’interface d’administration.
 - Si vous avez des tablettes ou ordinateurs accessibles aux joueur·euses, ils·elles peuvent se pointer eux·elles-mêmes via un écran dédié.
 - Alternativement, si vous avez plusieurs machines mais préférez limiter l’accès direct des joueur·euses, le staff ou des bénévoles peuvent utiliser ces écrans pour pointer les participant·e·s, ce qui permet de répartir la charge de travail.
+- Pour un événement lié à _Sharly-Chess.com_, les joueur·euses peuvent se pointer en ligne depuis leur téléphone : voir [Pointage en ligne]({% link docs/events/check-in.fr.md %}).
 
 {: .tip }
 > :point_right: Si vous disposez d’un vidéoprojecteur dans la salle, vous pouvez afficher la liste en direct des joueur·euses et leur statut de pointage. Cela leur permet de vérifier immédiatement s’ils·elles sont bien pointé·es.

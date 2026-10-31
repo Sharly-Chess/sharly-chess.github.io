@@ -38,6 +38,17 @@ Au final, le temps gagné est considérable. C’est souvent plusieurs heures é
 
 Une liste fiable en permanence facilite toute l’organisation.
 
+## Pointage en ligne
+
+*« Fini la queue à l’accueil. »*
+
+- les joueur·euses se pointent depuis leur téléphone, avec le lien reçu par e-mail ou le QR code affiché sur place ;
+- un code de présence, facultatif, garantit qu’ils et elles se pointent sur place, et non depuis chez eux ;
+- les pointages arrivent d’eux-mêmes dans _Sharly Chess_, toutes les minutes ;
+- le pointage peut s’ouvrir et se fermer selon un planning, avec un rappel par e-mail aux joueur·euses.
+
+L’arbitre ne s’occupe plus que des joueur·euses qui ne se sont pas pointé·es. Une connexion Internet est nécessaire sur place : voir [Pointage en ligne]({% link docs/events/check-in.fr.md %}).
+
 ## Expérience améliorée pour les joueur·euses
 
 Les joueur·euses bénéficient d’un accès simple et moderne :

@@ -16,6 +16,7 @@ You have several ways to handle check-ins:
 - You can check-in players directly from the admin interface.
 - If you have tablets or computers available for player use, players can check themselves in via a dedicated input screen.
 - Alternatively, if you have multiple machines but prefer to restrict player access, staff or volunteers can use input screens on those devices to assist with check-ins and help distribute the workload.
+- For an event linked to _Sharly-Chess.com_, players can check in online from their own phone: see [Online check-in]({% link docs/events/check-in.en.md %}).
 
 {: .tip }
 > :point_right: If you have a projector at the venue, consider displaying a live list of players and their check-in status. This gives participants immediate visual feedback.
