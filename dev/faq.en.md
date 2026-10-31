@@ -53,11 +53,6 @@ nav_order: 800
 
 {% enddetails %}
 
-{% details Why are clients displaying different times? %}
-  The timer displayed on clients uses each client’s local system time (not the server’s).
-  You must synchronize all clients to the same time server.
-{% enddetails %}
-
 ## Windows issues
 
 {% details What to do if _Microsoft Defender SmartScreen_ blocked the launch of an unrecognized application? %}

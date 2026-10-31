@@ -52,10 +52,6 @@ Ceci est encore plus important si vous utilisez un départage basé sur les clas
 
 {% enddetails %}
 
-{% details Les clients affichent des horaires différents %}
-L'heure des chronomètres affichée sur les clients est l'heure des clients (pas celle du serveur), il faut donc synchroniser tous les clients sur un même serveur de temps.
-{% enddetails %}
-
 ## Problèmes sous Windows
 
 
