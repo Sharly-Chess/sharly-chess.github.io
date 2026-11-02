@@ -90,6 +90,16 @@ separator: true
 - The registration fees and the amounts paid on _Sharly-Chess.com_ are imported with the players, and kept up to date when they change on the site; payments recorded at the desk are kept until then
 - The payment column of the players tab can be shown even before any player has fees
 
+### Interface
+
+- A refreshed administration: a calmer and denser look, cards and lists that show the status of each item as a coloured dot, the counts of the sidebar beside its entries, the folding sections of the forms summarising their content, and fields that cannot be changed shown with a lock
+- The administration can be light as well as dark: by default it follows the appearance of the system, and the settings of the application window can force it dark or light
+- The screens shown to players and spectators have a cleaner look that keeps their density: each set opens with its name and what it shows on one line ("Round 3 · 5 games in progress"), the timer is a pill on that line, the alert message runs in a band along the bottom and scrolls only when it is too long to fit, and the menu between screens is a row of tabs
+- On the result entry screens, the games still to enter show an Enter button and the games entered step back, the last entry staying highlighted in green; on a phone, each game is a card
+  - The result and check-in windows have large buttons, with the arbiter's forfeits set apart, and the buttons respond reliably on tablets
+- The timers and the alert message have fixed colours: a timer turns from green to orange then red, and the message shows in a yellow band
+- Each browser tab is named after its page and event, so that several open tabs can be told apart
+
 ### Application
 
 - Events are backed up automatically at key moments (before a round is paired or unpaired, a result is changed, players are distributed, or the application is updated), so that the arbiter can quickly return an event to an earlier state if needed; a backup can be restored over the event or beside it, the backups are kept beside the data folder rather than inside it, so either folder can be moved without the other, and you can choose your own backup folder

@@ -90,6 +90,16 @@ separator: true
 - Les droits d'inscription et les montants payés sur _Sharly-Chess.com_ sont importés avec les joueur·euses, et mis à jour quand ils changent sur le site ; les paiements enregistrés à l'accueil sont conservés jusque-là
 - La colonne des paiements de l'onglet des joueur·euses peut être affichée avant même qu'un·e joueur·euse ait des droits d'inscription
 
+### Interface
+
+- Une administration rafraîchie : un aspect plus calme et plus dense, des cartes et des listes qui montrent l'état de chaque élément par une pastille de couleur, les nombres de la barre latérale à côté de ses entrées, les sections repliables des formulaires résumant leur contenu, et les champs non modifiables signalés par un cadenas
+- L'administration peut être claire aussi bien que sombre : par défaut, elle suit l'apparence du système, et les réglages de la fenêtre de l'application peuvent la forcer en sombre ou en clair
+- Les écrans affichés aux joueur·euses et au public ont un aspect plus net qui garde leur densité : chaque ensemble s'ouvre sur son nom et ce qu'il montre sur une ligne (« Ronde 3 · 5 parties en cours »), le chronomètre est une pastille sur cette ligne, le message d'alerte s'affiche dans un bandeau en bas de l'écran et ne défile que s'il est trop long, et le menu entre les écrans est une rangée d'onglets
+- Sur les écrans de saisie des résultats, les parties à saisir affichent un bouton Saisir et les parties saisies passent au second plan, la dernière saisie restant surlignée en vert ; sur un téléphone, chaque partie est une carte
+  - Les fenêtres de saisie des résultats et de pointage ont de grands boutons, les forfaits réservés à l'arbitre étant mis à part, et les boutons répondent de manière fiable sur les tablettes
+- Les chronomètres et le message d'alerte ont des couleurs fixes : un chronomètre passe du vert à l'orange puis au rouge, et le message s'affiche dans un bandeau jaune
+- Chaque onglet du navigateur porte le nom de sa page et de son évènement, pour distinguer plusieurs onglets ouverts
+
 ### Application
 
 - Les évènements sont sauvegardés automatiquement aux moments clés (avant d'apparier ou de désapparier une ronde, de modifier un résultat, de répartir les joueur·euses ou de mettre à jour l'application), pour que l'arbitre puisse revenir rapidement à un état antérieur si nécessaire ; une sauvegarde peut être restaurée à la place de l'évènement ou à côté, les sauvegardes sont conservées à côté du dossier de données et non à l'intérieur, pour que chaque dossier puisse être déplacé sans l'autre, et vous pouvez choisir votre propre dossier de sauvegarde
