@@ -37,7 +37,7 @@ This is particularly helpful when you have just slightly too many players to fit
 
 ### Alert Message
 
-A scrolling alert message can be a powerful tool, especially when projecting on a large screen.
+An alert message, shown in a yellow band along the bottom of the screen, can be a powerful tool, especially when projecting on a large screen. A message too long to fit scrolls across the band.
 For example: *“Would players X and Y please enter their results!”*
 
 This message can be set at the **event level**, which means it appears across all screens for that event, but you can also override it on a **per-screen** basis here.

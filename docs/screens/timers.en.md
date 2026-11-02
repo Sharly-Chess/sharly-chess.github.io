@@ -17,12 +17,14 @@ Single Screens and Multi-Screens support displaying a countdown timer — useful
 
 To create a new timer, go to the **Timers** page and click the **Create a Timer** button.
 
-Each timer includes **three phases**, each with its own delay and color:
+Each timer goes through **three phases**, set by three delays:
 
-- **Color #1** (green by default) is displayed until the first delay threshold is reached — _15 minutes_ by default before the scheduled time. From that point, the timer transitions gradually toward **Color #2**.
-- **Color #2** (orange by default) is then used during the second phase — starting _5 minutes_ by default before the target time — and transitions toward **Color #3**.
-- **Color #3** (red by default) is shown once the target time is reached and remains active for _10 minutes_ by default.
-  After this period, the timer automatically rolls forward to the next scheduled time in the set and reverts to **Color #1**.
+- The timer is **green** until the first delay before the scheduled time — _15 minutes_ by default. From that point, it turns gradually **orange**.
+- It is **orange** from the second delay before the scheduled time — _5 minutes_ by default — and turns gradually **red**.
+- It is **red** once the scheduled time is reached, and stays red for the third delay — _10 minutes_ by default.
+  After this period, the timer automatically rolls forward to the next scheduled time in the set and turns green again.
+
+The colours are the same on every screen and cannot be changed. The default delays of the event can be changed with the settings button of the **Timers** page.
 
 After confirming the timer's parameters, you’ll be able to define a schedule of specific date/time entries to associate with the timer.
 
