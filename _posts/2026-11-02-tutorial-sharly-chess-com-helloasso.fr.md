@@ -1,9 +1,10 @@
 ---
-title: Connecter Sharly-Chess.com to helloAsso
+title: Connecter Sharly-Chess.com à HelloAsso
+date: 2026-11-02 17:00:00 +0200
 categories: news
 layout: post
 page_id: post-2026-11-02
-slug: tutorial-sharly-chess-com-helloasso
+slug: tutorial-helloasso
 lang: fr
 excerpt: "Apprenez comment connecter Sharly-Chess.com à HelloAsso pour récupérer les paiements de vos évènements."
 ---
