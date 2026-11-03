@@ -23,7 +23,7 @@ layout: table_wrappers
       {% for service in index.services.items %}
         <div class="services">
           {% if service.downloads %}
-            <p class="downloads-title">{{ index.services.downloads_title[lang] }}</p>
+            <p class="downloads-title">{{ index.services.downloads_title[lang] }} <i class="bi bi-download" aria-hidden="true"></i></p>
             <div class="downloads">
               {% for download in service.downloads %}
                 {% if download.thp_download_platform %}

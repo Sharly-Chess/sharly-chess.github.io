@@ -390,6 +390,10 @@ body.index {
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: $btn-primary-color;
+
+      .bi {
+        margin-left: 0.3rem;
+      }
     }
 
     // One logo button per platform, side by side, with the platform's name under its logo.
