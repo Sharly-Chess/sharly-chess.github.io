@@ -51,50 +51,350 @@ arbiters:
     fr: <em>Sharly Chess</em> est conçu autour des besoins des arbitres de tournois, pour vous aider à rester organisé·e et efficace, même sous pression.
   items:
     -
+      icon: bi-wifi-off
       title:
-        en: Player management
-        fr: Gestion des joueur·euses
+        en: Works offline
+        fr: Fonctionne hors ligne
       text:
-        en: All your players in one place, with easy search and filtering.
-        fr: Tous vos joueur·euses au même endroit, avec recherche et filtres faciles.
+        en: Your computer is the server, so no internet connection is needed. Screens, tablets and phones connect over the venue's local network.
+        fr: Votre ordinateur est le serveur, aucune connexion Internet n’est nécessaire. Écrans, tablettes et téléphones se connectent au réseau local de la salle.
     -
+      icon: bi-patch-check
       title:
-        en: Check-ins
-        fr: Pointage
+        en: FIDE compliant
+        fr: Conforme FIDE
       text:
-        en: Check players in yourself, or have players check themselves in.
-        fr: Faites le pointage vous-même ou laissez les joueur·euses s’auto-enregistrer.
+        en: FIDE Dutch and Team Swiss pairings, every FIDE tie-break, title norms and TRF26 reports. FIDE mode refuses what the rules forbid and logs every exception.
+        fr: Appariements suisses FIDE, individuels et par équipes, tous les départages FIDE, normes de titres et rapports TRF26. Le mode FIDE refuse ce que les règles interdisent et consigne chaque exception.
     -
+      icon: bi-diagram-3
       title:
-        en: Pairings
-        fr: Appariements
+        en: Every format
+        fr: Tous les systèmes
       text:
-        en:  Automated, FIDE compliant, and easy to adjust on the fly.
-        fr: Automatisés, respectant les règles de la FIDE, et faciles à ajuster à la volée.
+        en: Swiss, round robin, knock-out and Keizer, for players and for teams, plus Scheveningen, Molter tables and accelerated pairings.
+        fr: Suisse, toutes-rondes, coupe et Keizer, en individuel comme par équipes, ainsi que Scheveningen, tables Molter et appariements accélérés.
     -
+      icon: bi-phone
       title:
-        en: Live standings
-        fr: Classements en direct
+        en: Players lend a hand
+        fr: Les joueur·euses s’en chargent
       text:
-        en: Results are available instantly after each round.
-        fr: Les résultats sont disponibles immédiatement après chaque ronde.
+        en: Players check in and enter their results from tablets or their own phone, and follow pairings and standings on live screens.
+        fr: Les joueur·euses se pointent et saisissent leurs résultats sur tablette ou sur leur téléphone, et suivent appariements et classements sur des écrans en direct.
     -
+      icon: bi-trophy
       title:
-        en: Offline solution
-        fr: Fonctionnement hors ligne
+        en: Prizes, norms and championships
+        fr: Prix, normes et championnats
       text:
-        en: Run tournaments without an internet connection.
-        fr: Organisez un tournoi même sans connexion Internet.
+        en: Prize lists calculated and shared automatically, FIDE title norms detected with their reports, and championships ranked across tournaments.
+        fr: Palmarès calculés et partagés automatiquement, normes de titres FIDE détectées avec leurs rapports, et championnats classés sur plusieurs tournois.
     -
+      icon: bi-globe2
       title:
-        en: Focus on arbitration
-        fr: Plus de temps pour arbitrer
+        en: Online when you want it
+        fr: En ligne quand vous le voulez
       text:
-        en: Players can enter their own results while you manage the tournament.
-        fr: Les joueur·euses peuvent entrer leurs résultats en autonomie, vous pouvez vous concentrer sur les parties.
+        en: With <a href="https://sharly-chess.com/en">sharly-chess.com</a>, players register, pay and check in online, and follow pairings and results live. Results can also be published on Chess-Results.com.
+        fr: Avec <a href="https://sharly-chess.com/fr">sharly-chess.com</a>, les joueur·euses s’inscrivent, paient et se pointent en ligne, et suivent appariements et résultats en direct. Les résultats peuvent aussi être publiés sur Chess-Results.com.
   image:
     name: arbiters.jpg
     class: screenshot sepia
+capabilities:
+  title:
+    en: Everything included
+    fr: Tout est inclus
+  text:
+    en: No premium tier, no paid modules, no limit on players or rounds.
+    fr: Pas de version premium, pas de module payant, pas de limite de joueur·euses ni de rondes.
+  button:
+    en: See all the features
+    fr: Voir toutes les fonctionnalités
+  url:
+    en: features/
+    fr: fonctionnalites/
+  groups:
+    -
+      icon: bi-shuffle
+      title:
+        en: Pairings
+        fr: Appariements
+      items:
+        - en: "FIDE Dutch Swiss system"
+          fr: "Système suisse néerlandais FIDE"
+        - en: "Single and double round robin"
+          fr: "Toutes-rondes simple et aller-retour"
+        - en: "Custom round-robin schedules"
+          fr: "Calendriers toutes-rondes personnalisés"
+        - en: "Knock-out, single or double elimination, third-place match"
+          fr: "Coupe, à élimination simple ou double, petite finale"
+        - en: "Keizer for club competitions"
+          fr: "Keizer pour les compétitions de club"
+        - en: "Baku, Haley and other accelerations"
+          fr: "Accélérés Baku, Haley et autres"
+        - en: "Prohibited pairings by club or federation"
+          fr: "Appariements interdits par club ou fédération"
+        - en: "Manual pairings, checked against the rules"
+          fr: "Appariements manuels, vérifiés selon les règles"
+        - en: "Complementary pairings for late arrivals"
+          fr: "Appariements complémentaires pour les retardataires"
+        - en: "Fixed boards for players who need them"
+          fr: "Tables fixes pour les joueur·euses qui en ont besoin"
+    -
+      icon: bi-people
+      title:
+        en: Teams
+        fr: Équipes
+      items:
+        - en: "FIDE Team Swiss (C.04.6), round robin and knock-out"
+          fr: "Suisse par équipes FIDE (C.04.6), toutes-rondes et coupe"
+        - en: "Scheveningen and Molter tables"
+          fr: "Scheveningen et tables Molter"
+        - en: "Rosters, captains and lineups"
+          fr: "Effectifs, capitaines et compositions"
+        - en: "Match or game points, Olympiad scoring"
+          fr: "Points de match ou de partie, barème Olympiade"
+        - en: "Match sheets for every board"
+          fr: "Feuilles de match par échiquier"
+        - en: "Team rankings in individual events"
+          fr: "Classements par équipe dans les tournois individuels"
+        - en: "FIDE team tie-breaks: SSSC, extended Sonneborn-Berger, board count…"
+          fr: "Départages par équipes FIDE : SSSC, Sonneborn-Berger étendu…"
+    -
+      icon: bi-list-ol
+      title:
+        en: Championships
+        fr: Championnats
+      items:
+        - en: "Individual and team championships"
+          fr: "Championnats individuels et par équipes"
+        - en: "Circuits, grand prix and leagues across events"
+          fr: "Circuits, grands prix et ligues sur plusieurs événements"
+        - en: "Standings updated live from every stage"
+          fr: "Classements mis à jour en direct à chaque étape"
+        - en: "Total, average or position-based points"
+          fr: "Points cumulés, moyens ou selon la place"
+        - en: "Best N results of the season"
+          fr: "Meilleurs N résultats de la saison"
+        - en: "A coefficient per stage"
+          fr: "Un coefficient par étape"
+        - en: "Players matched across stages"
+          fr: "Joueur·euses rapproché·es d’une étape à l’autre"
+        - en: "Category rankings by age, gender or rating"
+          fr: "Classements par catégorie d’âge, de genre ou d’Elo"
+        - en: "Rankings printed or exported"
+          fr: "Classements imprimés ou exportés"
+    -
+      icon: bi-patch-check
+      title:
+        en: Rules and tie-breaks
+        fr: Règles et départages
+      items:
+        - en: "FIDE mode with a log of every exception"
+          fr: "Mode FIDE avec journal de chaque exception"
+        - en: "Every FIDE tie-break, with cutters"
+          fr: "Tous les départages FIDE, avec coupes"
+        - en: "FIDE and custom tie-break sets"
+          fr: "Jeux de départages FIDE ou personnalisés"
+        - en: "GM, IM, WGM and WIM norm detection"
+          fr: "Détection des normes GMI, MI, GMF et MIF"
+        - en: "Norm forecast: the results still needed"
+          fr: "Prévision de normes : les résultats encore nécessaires"
+        - en: "Byes, adjourned games, illegal moves"
+          fr: "Exempts, parties ajournées, coups illégaux"
+        - en: "Withdrawals handled under FIDE 6.6"
+          fr: "Abandons traités selon la règle FIDE 6.6"
+        - en: "Bonus and penalty points"
+          fr: "Points de bonus et de pénalité"
+    -
+      icon: bi-person-lines-fill
+      title:
+        en: Players and ratings
+        fr: Joueur·euses et classements
+      items:
+        - en: "Offline FIDE and fifteen national rating lists"
+          fr: "Listes FIDE et de quinze fédérations, hors ligne"
+        - en: "Ratings checked against the latest lists"
+          fr: "Classements vérifiés avec les dernières listes"
+        - en: "Rating periods for events over 30 days"
+          fr: "Périodes de classement au-delà de 30 jours"
+        - en: "Performance and rating change per player"
+          fr: "Performance et variation Elo par joueur·euse"
+        - en: "Configurable age categories"
+          fr: "Catégories d’âge configurables"
+        - en: "Player distribution among sections"
+          fr: "Répartition des joueur·euses entre tournois"
+        - en: "Entry fees owed and paid"
+          fr: "Droits d’inscription dus et payés"
+        - en: "Duplicate players merged"
+          fr: "Fusion des doublons"
+        - en: "Event statistics"
+          fr: "Statistiques de l’événement"
+    -
+      icon: bi-display
+      title:
+        en: In the playing hall
+        fr: Dans la salle
+      items:
+        - en: "Check-in at the desk or by the players"
+          fr: "Pointage à l’accueil ou par les joueur·euses"
+        - en: "Result entry from tablets and phones"
+          fr: "Saisie des résultats sur tablette et téléphone"
+        - en: "Fast keyboard entry with a double-check"
+          fr: "Saisie rapide au clavier avec double vérification"
+        - en: "Live pairings, results and standings screens"
+          fr: "Écrans d’appariements, résultats et classements en direct"
+        - en: "Rotators and remotely controlled displays"
+          fr: "Rotations et écrans pilotés à distance"
+        - en: "Long lists split across several screens"
+          fr: "Longues listes réparties sur plusieurs écrans"
+        - en: "Image screens for sponsors and maps"
+          fr: "Écrans d’images pour partenaires et plans"
+        - en: "Scrolling announcements on screens"
+          fr: "Messages défilants sur les écrans"
+        - en: "Countdown timers"
+          fr: "Minuteurs"
+        - en: "Chess960 starting positions"
+          fr: "Positions de départ Chess960"
+        - en: "Round publication once checked"
+          fr: "Publication des rondes une fois vérifiées"
+    -
+      icon: bi-printer
+      title:
+        en: Documents
+        fr: Documents
+      items:
+        - en: "Pairings, standings and cross-tables"
+          fr: "Appariements, classements et grilles américaines"
+        - en: "Check-in lists and pairings by player"
+          fr: "Listes de pointage et appariements par joueur·euse"
+        - en: "Lists split by category, club or federation"
+          fr: "Listes séparées par catégorie, club ou fédération"
+        - en: "Berger grids and knock-out brackets"
+          fr: "Grilles Berger et tableaux de coupe"
+        - en: "Place cards from a visual editor"
+          fr: "Chevalets conçus dans un éditeur visuel"
+        - en: "Prize lists and receipts"
+          fr: "Palmarès et reçus de prix"
+        - en: "Norm reports and rating certificates"
+          fr: "Rapports de norme et certificats de classement"
+        - en: "Print or download as PDF"
+          fr: "Impression ou téléchargement en PDF"
+        - en: "QR codes to the local server, sharly-chess.com and Chess-Results.com"
+          fr: "QR codes vers le serveur local, sharly-chess.com et Chess-Results.com"
+    -
+      icon: bi-award
+      title:
+        en: Prizes
+        fr: Prix
+      items:
+        - en: "Cash, non-cash and hybrid prizes"
+          fr: "Prix en espèces, en nature ou mixtes"
+        - en: "Tied prizes shared by Hort or average"
+          fr: "Prix ex aequo partagés (Hort ou moyenne)"
+        - en: "Prize categories by age, rating, gender, club"
+          fr: "Catégories de prix par âge, Elo, genre, club"
+        - en: "Age and rating categories generated for you"
+          fr: "Catégories d’âge et d’Elo générées pour vous"
+        - en: "Prizes by performance"
+          fr: "Prix à la performance"
+        - en: "Prizes copied between tournaments"
+          fr: "Prix copiés d’un tournoi à l’autre"
+        - en: "Random draw for spot prizes"
+          fr: "Tirage au sort pour les lots"
+    -
+      icon: bi-cloud-arrow-up
+      title:
+        en: Online
+        fr: En ligne
+      items:
+        - en: "Two-way sync with sharly-chess.com"
+          fr: "Synchronisation avec sharly-chess.com"
+        - en: "Online registration and payment"
+          fr: "Inscription et paiement en ligne"
+        - en: "Online check-in from the players’ phones"
+          fr: "Pointage en ligne depuis le téléphone des joueur·euses"
+        - en: "Live pairings and results online"
+          fr: "Appariements et résultats en ligne en direct"
+        - en: "Results upload to Chess-Results.com"
+          fr: "Envoi des résultats sur Chess-Results.com"
+        - en: "Upload to your own site by FTP, SFTP or FTPS"
+          fr: "Envoi sur votre site en FTP, SFTP ou FTPS"
+        - en: "Automatic uploads as the rounds go on"
+          fr: "Envois automatiques au fil des rondes"
+    -
+      icon: bi-arrow-left-right
+      title:
+        en: Import and export
+        fr: Import et export
+      items:
+        - en: "TRF26 import and export"
+          fr: "Import et export TRF26"
+        - en: "TRF06 and TRF16 import"
+          fr: "Import TRF06 et TRF16"
+        - en: "CSV player import with duplicate detection"
+          fr: "Import CSV des joueur·euses avec détection des doublons"
+        - en: "Full event export and import"
+          fr: "Export et import complets d’un événement"
+        - en: "PGN, CSV and spreadsheet exports"
+          fr: "Exports PGN, CSV et tableur"
+        - en: "Player contacts as vCards"
+          fr: "Contacts des joueur·euses en vCard"
+        - en: "Events cloned with new dates"
+          fr: "Événements clonés avec de nouvelles dates"
+    -
+      icon: bi-puzzle
+      title:
+        en: Federation plugins
+        fr: Plugins de fédération
+      items:
+        - en: "Player search in the federation database"
+          fr: "Recherche des joueur·euses dans la base fédérale"
+        - en: "Licence checks"
+          fr: "Vérification des licences"
+        - en: "Results sent to the federation"
+          fr: "Envoi des résultats à la fédération"
+        - en: "Import and export in federation formats"
+          fr: "Import et export aux formats de la fédération"
+        - en: "Official federation forms and reports"
+          fr: "Formulaires et rapports officiels de la fédération"
+        - en: "Federation rule sets and tie-breaks"
+          fr: "Règlements et départages fédéraux"
+        - en: "Team competitions with lineup checks"
+          fr: "Compétitions par équipes avec contrôle des compositions"
+        - en: "Leagues, clubs and arbiter titles"
+          fr: "Ligues, clubs et titres d’arbitre"
+        - en: "Scholastic competitions"
+          fr: "Compétitions scolaires"
+        - en: "Open to plugins for every federation"
+          fr: "Ouvert aux plugins de toutes les fédérations"
+    -
+      icon: bi-shield-check
+      title:
+        en: Peace of mind
+        fr: Tranquillité
+      items:
+        - en: "Works without internet"
+          fr: "Fonctionne sans Internet"
+        - en: "Restore points before every risky action"
+          fr: "Points de restauration avant chaque action risquée"
+        - en: "Event archives"
+          fr: "Archives des événements"
+        - en: "Random tournaments for training"
+          fr: "Tournois aléatoires pour s’entraîner"
+        - en: "Several arbiters over the network"
+          fr: "Plusieurs arbitres en réseau"
+        - en: "Ten access levels for staff"
+          fr: "Dix niveaux d’accès pour l’équipe"
+        - en: "Windows, macOS and Linux"
+          fr: "Windows, macOS et Linux"
+        - en: "Automatic updates"
+          fr: "Mises à jour automatiques"
+        - en: "English and French"
+          fr: "Anglais et français"
+        - en: "Free and open source"
+          fr: "Gratuit et open source"
 players:
   title:
     en: <em>Players</em> love it

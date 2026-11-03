@@ -66,9 +66,8 @@ layout: table_wrappers
       <p>{{ arbiters.text[lang] }}</p>
       <div class="features-inline">
         {% for item in arbiters.items %}
-          <div
-            class="feature-box"
-          >
+          <div class="feature-box highlight">
+            {% if item.icon %}<i class="bi {{ item.icon }}"></i>{% endif %}
             <div class="feature-content">
               <strong>{{ item.title[lang] }}</strong><br/>
               {{ item.text[lang] }}
@@ -103,6 +102,28 @@ layout: table_wrappers
           <img src="assets/images/index/{{ image.name }}">
         {% endfor %}
       </div>
+    </div>
+    <div class="separator" />
+  </section>
+
+  {% assign capabilities = index.capabilities %}
+  <section class="features-capabilities">
+    <div class="features-section">
+      <h1>{{ capabilities.title[lang] }}</h1>
+      <p>{{ capabilities.text[lang] }}</p>
+      <div class="capabilities">
+        {% for group in capabilities.groups %}
+          <div class="capability-group">
+            <h3><i class="bi {{ group.icon }}"></i>{{ group.title[lang] }}</h3>
+            <ul>
+              {% for item in group.items %}
+                <li>{{ item[lang] }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+      <p><a class="btn" href="{{ capabilities.url[lang] | prepend: '/' | relative_url }}">{{ capabilities.button[lang] }}</a></p>
     </div>
     <div class="separator" />
   </section>
