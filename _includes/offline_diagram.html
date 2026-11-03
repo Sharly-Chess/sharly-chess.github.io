@@ -5,7 +5,7 @@
   The labels come from index.yml (include.labels).
 {%- endcomment -%}
 {%- assign l = include.labels -%}
-<svg class="offline-diagram" viewBox="0 0 820 440" role="img" aria-labelledby="offline-diagram-title">
+<svg class="offline-diagram" viewBox="0 0 820 456" role="img" aria-labelledby="offline-diagram-title">
   <title id="offline-diagram-title">{{ l.title[include.lang] }}</title>
 
   <!-- Online, where the results go live -->
@@ -74,7 +74,11 @@
     <rect x="685" y="295" width="30" height="16" rx="2" class="line dim" />
     <path d="M626 328 h112 l-6 9 h-100 z" />
   </g>
-  <text x="682" y="370" class="dg-label" text-anchor="middle">{{ l.tablets[include.lang] }}</text>
+  <text x="682" y="364" class="dg-label" text-anchor="middle">
+    {%- for line in l.tablets[include.lang] -%}
+      <tspan x="682"{% unless forloop.first %} dy="20"{% endunless %}>{{ line }}</tspan>
+    {%- endfor -%}
+  </text>
 
   <!-- Other arbiters: a phone or their own computer -->
   <g class="device">
@@ -87,5 +91,9 @@
     <rect x="404" y="369" width="52" height="3" rx="1.5" class="line dim" />
     <path d="M384 391 h92 l-5 7 h-82 z" />
   </g>
-  <text x="410" y="428" class="dg-label" text-anchor="middle">{{ l.arbiters[include.lang] }}</text>
+  <text x="410" y="424" class="dg-label" text-anchor="middle">
+    {%- for line in l.arbiters[include.lang] -%}
+      <tspan x="410"{% unless forloop.first %} dy="20"{% endunless %}>{{ line }}</tspan>
+    {%- endfor -%}
+  </text>
 </svg>

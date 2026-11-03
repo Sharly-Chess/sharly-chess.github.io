@@ -111,11 +111,11 @@ arbiters:
       en: Live screens
       fr: Écrans en direct
     tablets:
-      en: Tablets or computers for results
-      fr: Tablettes ou ordinateurs de saisie
+      en: [Result entry, on tablets or computers]
+      fr: [Saisie des résultats, sur tablettes ou ordinateurs]
     arbiters:
-      en: Other arbiters, on a computer or phone
-      fr: Autres arbitres, sur ordinateur ou téléphone
+      en: [Privileged access for the arbiting team, from a computer or phone]
+      fr: [Accès privilégié pour l’équipe d’arbitrage, depuis un ordinateur ou un téléphone]
     network:
       en: Local network, wired or Wi-Fi
       fr: Réseau local, filaire ou Wi-Fi
