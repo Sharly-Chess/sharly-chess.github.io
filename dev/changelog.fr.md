@@ -47,7 +47,7 @@ separator: true
   - Jusque-là, les écrans et les services en ligne (_Sharly-Chess.com_, _Chess-Results_, _FFE_, envois personnalisés) restent sur la ronde précédente
   - Une ronde peut être publiée une fois les rondes précédentes terminées, et dépubliée tant qu'elle n'a aucun résultat
   - Dans les toutes-rondes et les tournois à tables fixes (Molter, Scheveningen), les services en ligne reçoivent les appariements de chaque ronde dès qu'ils sont faits ; publier une ronde y fait passer les écrans et rend ses résultats publics. La publication remplace le bouton Terminer la ronde des toutes-rondes
-  - Quand le tournoi est affiché sur des écrans ou envoyé à des services en ligne, la page des appariements signale qu'une ronde attend d'être publiée
+  - Quand le tournoi est affiché sur des écrans ou envoyé à des services en ligne, la page des appariements signale qu'une ronde attend d'être publiée, et les résultats d'une ronde ne peuvent être saisis qu'une fois celle-ci publiée
 
 ### Toutes-rondes
 

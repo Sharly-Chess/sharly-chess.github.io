@@ -47,7 +47,7 @@ separator: true
   - Until then, the screens and the online services (_Sharly-Chess.com_, _Chess-Results_, _FFE_, custom uploads) stay on the previous round
   - A round can be published once the rounds before it are finished, and unpublished as long as it has no results
   - In round robins and fixed-table tournaments (Molter, Scheveningen), the online services receive the pairings of every round as soon as they are made; publishing a round moves the screens on to it and makes its results public. Publishing replaces the End round button of round robins
-  - When the tournament is shown on screens or sent to online services, the pairings page warns that a round is waiting to be published
+  - When the tournament is shown on screens or sent to online services, the pairings page warns that a round is waiting to be published, and the results of a round can only be entered once it is published
 
 ### Round robins
 
