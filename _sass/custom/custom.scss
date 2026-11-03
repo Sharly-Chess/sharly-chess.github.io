@@ -396,9 +396,18 @@ body.index {
       }
     }
 
+    // The main way in: filled with the primary colour.
     .docs-button {
       margin-top: 2rem;
       font-size: 1.1rem;
+      background: $btn-primary-color;
+      color: #111215;
+      box-shadow: none;
+
+      &:hover, &:focus {
+        background: lighten($btn-primary-color, 6%);
+        color: #111215;
+      }
     }
 
     .modal .btn {
@@ -671,8 +680,13 @@ body.index {
       align-items: start;
     }
 
+    // An explicit width: auto margins would let a grid item shrink to its
+    // content, and the screenshot, sized to the figure, to nothing.
     figure {
       align-self: end;
+      justify-self: stretch;
+      width: 100%;
+      margin: 0;
     }
 
     @media (max-width: 760px) {

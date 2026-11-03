@@ -52,7 +52,7 @@ layout: table_wrappers
       <h2>{{ made_by.text[lang] }}</h2>
       <figure class="device laptop">
         <div class="device-screen">
-          <img src="assets/images/index/{{ made_by.screenshot.basename }}.{{ lang }}.jpg" alt="{{ made_by.screenshot.alt[lang] }}">
+          <img src="{{ '/assets/images/index/' | append: made_by.screenshot.basename | append: '.' | append: lang | append: '.jpg' | relative_url }}" alt="{{ made_by.screenshot.alt[lang] }}">
         </div>
         <div class="device-base"></div>
       </figure>
@@ -91,7 +91,7 @@ layout: table_wrappers
           <div class="showcase-item">
             <figure class="device {{ item.device }}">
               <div class="device-screen">
-                <img src="assets/images/index/{{ item.basename }}.{{ lang }}.jpg" alt="{{ item.title[lang] }}" loading="lazy">
+                <img src="{{ '/assets/images/index/' | append: item.basename | append: '.' | append: lang | append: '.jpg' | relative_url }}" alt="{{ item.title[lang] }}" loading="lazy">
               </div>
               {% if item.device == 'screen' %}<div class="device-stand"></div>{% endif %}
             </figure>
