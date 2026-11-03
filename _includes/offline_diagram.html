@@ -1,0 +1,84 @@
+{%- comment -%}
+  The venue network of the home page: the arbiter's computer is the server,
+  the screens, tablets and phones connect to it, and the internet is optional.
+  The labels come from index.yml (include.labels).
+{%- endcomment -%}
+{%- assign l = include.labels -%}
+<svg class="offline-diagram" viewBox="0 0 820 440" role="img" aria-labelledby="offline-diagram-title">
+  <title id="offline-diagram-title">{{ l.title[include.lang] }}</title>
+
+  <!-- Internet, optional -->
+  <g class="optional">
+    <path d="M365 62 a26 26 0 0 1 48 -16 a32 32 0 0 1 58 14 a22 22 0 0 1 -4 44 h-98 a22 22 0 0 1 -4 -42 z" />
+    <line x1="410" y1="106" x2="410" y2="150" />
+    <text x="482" y="70" class="dg-label muted" text-anchor="start">{{ l.internet[include.lang] }}</text>
+  </g>
+
+  <!-- Local network links -->
+  <g class="links">
+    <path d="M330 215 C 260 215, 250 120, 190 120" />
+    <path d="M330 235 C 260 235, 250 300, 190 300" />
+    <path d="M490 215 C 560 215, 570 120, 630 120" />
+    <path d="M490 235 C 560 235, 570 300, 630 300" />
+    <path d="M410 290 L 410 330" />
+  </g>
+  <text x="410" y="318" class="dg-label muted" text-anchor="start" dx="12">{{ l.network[include.lang] }}</text>
+
+  <!-- The server: the arbiter's computer -->
+  <g class="device server">
+    <rect x="330" y="160" width="160" height="104" rx="8" />
+    <rect x="340" y="170" width="140" height="84" rx="3" class="screen" />
+    <rect x="350" y="182" width="60" height="6" rx="2" class="line" />
+    <rect x="350" y="196" width="120" height="5" rx="2" class="line dim" />
+    <rect x="350" y="208" width="120" height="5" rx="2" class="line dim" />
+    <rect x="350" y="220" width="120" height="5" rx="2" class="line dim" />
+    <rect x="350" y="232" width="90" height="5" rx="2" class="line dim" />
+    <path d="M314 270 h192 l-10 14 h-172 z" />
+  </g>
+  <text x="410" y="152" class="dg-label strong" text-anchor="middle">{{ l.server[include.lang] }}</text>
+
+  <!-- Screens -->
+  <g class="device">
+    <rect x="70" y="78" width="120" height="72" rx="6" />
+    <rect x="78" y="86" width="104" height="56" rx="2" class="screen" />
+    <rect x="86" y="94" width="88" height="5" rx="2" class="line" />
+    <rect x="86" y="106" width="88" height="4" rx="2" class="line dim" />
+    <rect x="86" y="116" width="88" height="4" rx="2" class="line dim" />
+    <rect x="86" y="126" width="88" height="4" rx="2" class="line dim" />
+    <rect x="124" y="150" width="12" height="10" />
+    <rect x="70" y="258" width="120" height="72" rx="6" />
+    <rect x="78" y="266" width="104" height="56" rx="2" class="screen" />
+    <rect x="86" y="274" width="88" height="5" rx="2" class="line" />
+    <rect x="86" y="286" width="88" height="4" rx="2" class="line dim" />
+    <rect x="86" y="296" width="88" height="4" rx="2" class="line dim" />
+    <rect x="86" y="306" width="88" height="4" rx="2" class="line dim" />
+    <rect x="124" y="330" width="12" height="10" />
+  </g>
+  <text x="130" y="370" class="dg-label" text-anchor="middle">{{ l.screens[include.lang] }}</text>
+
+  <!-- Tablets -->
+  <g class="device">
+    <rect x="630" y="84" width="104" height="72" rx="9" />
+    <rect x="639" y="92" width="86" height="56" rx="3" class="screen" />
+    <rect x="647" y="100" width="32" height="18" rx="2" class="line" />
+    <rect x="685" y="100" width="32" height="18" rx="2" class="line dim" />
+    <rect x="647" y="124" width="32" height="18" rx="2" class="line dim" />
+    <rect x="685" y="124" width="32" height="18" rx="2" class="line dim" />
+    <rect x="630" y="264" width="104" height="72" rx="9" />
+    <rect x="639" y="272" width="86" height="56" rx="3" class="screen" />
+    <rect x="647" y="280" width="32" height="18" rx="2" class="line dim" />
+    <rect x="685" y="280" width="32" height="18" rx="2" class="line" />
+    <rect x="647" y="304" width="32" height="18" rx="2" class="line dim" />
+    <rect x="685" y="304" width="32" height="18" rx="2" class="line dim" />
+  </g>
+  <text x="682" y="370" class="dg-label" text-anchor="middle">{{ l.tablets[include.lang] }}</text>
+
+  <!-- Phones -->
+  <g class="device">
+    <rect x="368" y="336" width="34" height="62" rx="7" />
+    <rect x="373" y="344" width="24" height="44" rx="2" class="screen" />
+    <rect x="418" y="336" width="34" height="62" rx="7" />
+    <rect x="423" y="344" width="24" height="44" rx="2" class="screen" />
+  </g>
+  <text x="410" y="428" class="dg-label" text-anchor="middle">{{ l.phones[include.lang] }}</text>
+</svg>

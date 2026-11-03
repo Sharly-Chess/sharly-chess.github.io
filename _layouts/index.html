@@ -50,11 +50,12 @@ layout: table_wrappers
     <div class="features-section">
       <h1>{{ made_by.title[lang] }}</h1>
       <h2>{{ made_by.text[lang] }}</h2>
-      <div class="carousel">
-        {% for image in made_by.images %}
-          <img src="assets/images/index/{{ image.basename }}.{{ lang }}.jpg">
-        {% endfor %}
-      </div>
+      <figure class="device laptop">
+        <div class="device-screen">
+          <img src="assets/images/index/{{ made_by.screenshot.basename }}.{{ lang }}.jpg" alt="{{ made_by.screenshot.alt[lang] }}">
+        </div>
+        <div class="device-base"></div>
+      </figure>
     </div>
     <div class="separator" />
   </section>
@@ -75,7 +76,7 @@ layout: table_wrappers
           </div>
         {% endfor %}
       </div>
-      <p><img class="{{ arbiters.image.class }}" src="assets/images/index/{{ arbiters.image.name }}"></p>
+      {% include offline_diagram.html labels=arbiters.diagram lang=lang %}
     </div>
     <div class="separator" />
   </section>
@@ -85,21 +86,18 @@ layout: table_wrappers
     <div class="features-section">
       <h1>{{ players.title[lang] }}</h1>
       <p>{{ players.text[lang] }}</p>
-      <div class="features-inline">
+      <div class="showcase">
         {% for item in players.items %}
-          <div
-            class="feature-box"
-          >
-            <div class="feature-content">
-              <strong>{{ item.title[lang] }}</strong><br/>
-              {{ item.text[lang] }}
-            </div>
+          <div class="showcase-item">
+            <figure class="device {{ item.device }}">
+              <div class="device-screen">
+                <img src="assets/images/index/{{ item.basename }}.{{ lang }}.jpg" alt="{{ item.title[lang] }}" loading="lazy">
+              </div>
+              {% if item.device == 'screen' %}<div class="device-stand"></div>{% endif %}
+            </figure>
+            <h3>{{ item.title[lang] }}</h3>
+            <p>{{ item.text[lang] }}</p>
           </div>
-        {% endfor %}
-      </div>
-      <div class="carousel">
-        {% for image in players.images %}
-          <img src="assets/images/index/{{ image.name }}">
         {% endfor %}
       </div>
     </div>

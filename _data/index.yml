@@ -35,13 +35,11 @@ made_by:
   text:
     en: Free, open-source, intuitive and designed for real-world tournaments.
     fr: Gratuit, open-source, intuitif et pensé pour les tournois du monde réel.
-  images:
-    -
-      basename: made-by-1
-    -
-      basename: made-by-2
-    -
-      basename: made-by-3
+  screenshot:
+    basename: app-pairings
+    alt:
+      en: The pairings of a round of a 581-player tournament in Sharly Chess
+      fr: Les appariements d’une ronde d’un tournoi de 581 joueur·euses dans Sharly Chess
 arbiters:
   title:
     en: <em>Arbiters</em> love it
@@ -98,9 +96,28 @@ arbiters:
       text:
         en: With <a href="https://sharly-chess.com/en">sharly-chess.com</a>, players register, pay and check in online, and follow pairings and results live. Results can also be published on Chess-Results.com.
         fr: Avec <a href="https://sharly-chess.com/fr">sharly-chess.com</a>, les joueur·euses s’inscrivent, paient et se pointent en ligne, et suivent appariements et résultats en direct. Les résultats peuvent aussi être publiés sur Chess-Results.com.
-  image:
-    name: arbiters.jpg
-    class: screenshot sepia
+  diagram:
+    title:
+      en: The arbiter's computer runs the server; screens, tablets and phones connect to it over the local network
+      fr: L’ordinateur de l’arbitre fait office de serveur ; écrans, tablettes et téléphones s’y connectent par le réseau local
+    server:
+      en: The arbiter's computer
+      fr: L’ordinateur de l’arbitre
+    screens:
+      en: Live screens
+      fr: Écrans en direct
+    tablets:
+      en: Tablets for results
+      fr: Tablettes de saisie
+    phones:
+      en: Arbiters' and players' phones
+      fr: Téléphones des arbitres et joueur·euses
+    network:
+      en: Local network
+      fr: Réseau local
+    internet:
+      en: Internet, optional
+      fr: Internet, facultatif
 capabilities:
   title:
     en: Everything included
@@ -404,24 +421,23 @@ players:
     fr: <em>Sharly Chess</em> améliore l’expérience des tournois pour tout le monde. Les joueur·euses trouvent facilement leurs appariements et peuvent saisir leurs résultats en un clin d’œil.
   items:
     -
+      device: tablet
+      basename: app-result-entry
       title:
-        en: Digital result input
-        fr: Saisie des résultats en ligne
+        en: Results entered by the players
+        fr: Résultats saisis par les joueur·euses
       text:
-        en: Less waiting between rounds since the arbiter doesn’t have to enter every result.
-        fr: Moins d’attente entre les rondes puisque l’arbitre n’a pas à entrer chaque résultat.
+        en: At the end of their game, players enter the result on a tablet. Less waiting between rounds, and the arbiter only checks.
+        fr: À la fin de leur partie, les joueur·euses saisissent le résultat sur une tablette. Moins d’attente entre les rondes, et l’arbitre n’a plus qu’à vérifier.
     -
+      device: screen
+      basename: app-screen
       title:
-        en: On-screen pairings
-        fr: Appariements projetés
+        en: Pairings on screen
+        fr: Appariements à l’écran
       text:
-        en: Players instantly see their board and opponent.
-        fr: Les joueur·euses voient immédiatement leur table et leur adversaire.
-  images:
-    -
-      name: players-1.jpg
-    -
-      name: players-2.jpg
+        en: Players find their board and opponent at a glance, and follow the results and standings live.
+        fr: Les joueur·euses trouvent leur table et leur adversaire d’un coup d’œil, et suivent résultats et classements en direct.
 support:
   donate_url:
     en: https://donations.sharly-chess.com/en
