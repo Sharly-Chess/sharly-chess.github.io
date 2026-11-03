@@ -383,15 +383,16 @@ body.index {
       width: 100%;
     }
 
-    // The downloads are secondary: the documentation is the main way in.
+    // The downloads are secondary, outlined in the primary colour: the
+    // documentation is the main way in.
     .btn-outline {
       background: transparent;
-      color: #ebe9e4;
-      box-shadow: inset 0 0 0 1px #42464f;
+      color: $btn-primary-color;
+      box-shadow: inset 0 0 0 1px $btn-primary-color;
 
       &:hover, &:focus {
-        background: #2b2f36;
-        color: #fff;
+        background: rgba($btn-primary-color, 0.12);
+        color: $btn-primary-color;
       }
     }
 
@@ -581,9 +582,12 @@ body.index {
     }
   }
 
+  // The base is wider than the screen: the side padding leaves it room, so
+  // that it never sticks out of the page.
   .device.laptop {
-    max-width: 900px;
+    max-width: 980px;
     margin-top: 1rem;
+    padding: 0 40px;
 
     .device-screen {
       padding: 2.2% 2.2% 2.6%;
@@ -596,7 +600,7 @@ body.index {
 
     .device-base {
       height: 14px;
-      margin: 0 -6%;
+      margin: 0 -36px;
       background: linear-gradient(#3a3e46, #22252b);
       border-radius: 0 0 1.25rem 1.25rem;
       box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
@@ -615,10 +619,22 @@ body.index {
     }
   }
 
-  .device.tablet .device-screen {
-    padding: 4.5%;
-    border-radius: 1.6rem;
-    background: #17191d;
+  // The tablet and the screen share the same size and bezel, the tablet
+  // keeping the height of the screen's stand below it, so that the captions
+  // under them line up.
+  .device.tablet, .device.screen {
+    .device-screen {
+      padding: 4.5%;
+      background: #17191d;
+    }
+  }
+
+  .device.tablet {
+    padding-bottom: 22px;
+
+    .device-screen {
+      border-radius: 1.6rem;
+    }
 
     img {
       border-radius: 0.5rem;
@@ -627,8 +643,7 @@ body.index {
 
   .device.screen {
     .device-screen {
-      padding: 1.5%;
-      border-radius: 0.4rem;
+      border-radius: 0.5rem;
     }
 
     .device-stand {
@@ -640,15 +655,33 @@ body.index {
     }
   }
 
+  // Each item spans the three rows of the grid (device, title, text), so
+  // that the titles line up whatever the heights of the devices.
   .showcase {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    grid-template-rows: auto auto auto;
+    gap: 0 3rem;
     margin-top: 3rem;
-    align-items: start;
+
+    .showcase-item {
+      display: grid;
+      grid-row: span 3;
+      grid-template-rows: subgrid;
+      align-items: start;
+    }
+
+    figure {
+      align-self: end;
+    }
 
     @media (max-width: 760px) {
       grid-template-columns: 1fr;
+      row-gap: 0;
+
+      .showcase-item + .showcase-item {
+        margin-top: 3rem;
+      }
     }
 
     h3 {
@@ -688,6 +721,11 @@ body.index {
 
     .device .line.dim {
       fill: #3a3e46;
+    }
+
+    .device .lens {
+      fill: $link-color;
+      stroke: none;
     }
 
     .server rect, .server path {

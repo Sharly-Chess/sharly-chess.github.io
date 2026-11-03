@@ -98,26 +98,26 @@ arbiters:
         fr: Avec <a href="https://sharly-chess.com/fr">sharly-chess.com</a>, les joueur·euses s’inscrivent, paient et se pointent en ligne, et suivent appariements et résultats en direct. Les résultats peuvent aussi être publiés sur Chess-Results.com.
   diagram:
     title:
-      en: The arbiter's computer runs the server; screens, tablets and phones connect to it over the local network
-      fr: L’ordinateur de l’arbitre fait office de serveur ; écrans, tablettes et téléphones s’y connectent par le réseau local
+      en: The chief arbiter's computer runs the server; screens, tablets and the other arbiters' computers and phones connect to it over the local network, and the results go live online
+      fr: L’ordinateur de l’arbitre principal fait office de serveur ; écrans, tablettes, ordinateurs et téléphones des autres arbitres s’y connectent par le réseau local, et les résultats sont publiés en direct en ligne
     server:
-      en: The arbiter's computer
-      fr: L’ordinateur de l’arbitre
+      en: The chief arbiter's computer
+      fr: L’ordinateur de l’arbitre principal
     screens:
       en: Live screens
       fr: Écrans en direct
     tablets:
-      en: Tablets for results
-      fr: Tablettes de saisie
-    phones:
-      en: Arbiters' and players' phones
-      fr: Téléphones des arbitres et joueur·euses
+      en: Tablets or computers for results
+      fr: Tablettes ou ordinateurs de saisie
+    arbiters:
+      en: Other arbiters, on a computer or phone
+      fr: Autres arbitres, sur ordinateur ou téléphone
     network:
-      en: Local network
-      fr: Réseau local
-    internet:
-      en: Internet, optional
-      fr: Internet, facultatif
+      en: Local network, wired or Wi-Fi
+      fr: Réseau local, filaire ou Wi-Fi
+    cloud:
+      en: Live results
+      fr: Résultats en direct
 capabilities:
   title:
     en: Everything included
