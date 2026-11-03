@@ -379,8 +379,54 @@ body.index {
       align-items: center;
     }
 
-    .buttons-container .btn, .thp-download-container {
+    .buttons-container .btn {
       width: 100%;
+    }
+
+    .downloads-title {
+      margin: 0 0 0.75rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: $btn-primary-color;
+    }
+
+    // One logo button per platform, side by side, with the platform's name under its logo.
+    .downloads {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+
+      .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 6rem;
+        height: 4.5rem;
+        margin: 0;
+        padding: 0;
+        font-size: 1.75rem;
+        line-height: 1;
+      }
+
+      .bi, svg {
+        display: block;
+        height: 1.75rem;
+        line-height: 1.75rem;
+      }
+
+      svg {
+        width: 1.75rem;
+      }
+
+      // The platform name, small, under its logo.
+      .platform {
+        margin-top: 0.4rem;
+        font-size: 0.75rem;
+        font-weight: 500;
+      }
     }
 
     // The downloads are secondary, outlined in the primary colour: the

@@ -22,22 +22,39 @@ layout: table_wrappers
       {% endfor %}
       {% for service in index.services.items %}
         <div class="services">
+          {% if service.downloads %}
+            <p class="downloads-title">{{ index.services.downloads_title[lang] }}</p>
+            <div class="downloads">
+              {% for download in service.downloads %}
+                {% if download.thp_download_platform %}
+                  {% include thp_download_button.html platform=download.thp_download_platform class="btn-outline" icon_only=true %}
+                {% else %}
+                  <a
+                    {% if download.id %}id="{{ download.id }}"{% endif %}
+                    class="btn btn-outline"
+                    href="{{ download.url[lang] | prepend: '/' | relative_url }}"
+                    title="{{ download.text[lang] }}"
+                    aria-label="{{ download.text[lang] }}"
+                  >
+                    {% include {{ download.logo }} %}
+                    <span class="platform" aria-hidden="true">{{ download.platform }}</span>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
           <span class="buttons-container">
             {% for button in service.buttons %}
-              {% if button.thp_download_platform %}
-                {% include thp_download_button.html platform=button.thp_download_platform class="btn-outline" %}
-              {% else %}
-                <a
-                  {% if button.id %}
-                    id="{{ button.id }}"
-                  {% endif %}
-                  class="btn{% if button.class %} {{ button.class }}{% endif %}"
-                  href="{{ button.url[lang] | prepend: '/' | relative_url }}"
-                >
-                  {% if button.icon %}<i class="bi {{ button.icon }}"></i>{% endif %}
-                  {{ button.text[lang] }}
-                </a>
-              {% endif %}
+              <a
+                {% if button.id %}
+                  id="{{ button.id }}"
+                {% endif %}
+                class="btn{% if button.class %} {{ button.class }}{% endif %}"
+                href="{{ button.url[lang] | prepend: '/' | relative_url }}"
+              >
+                {% if button.icon %}<i class="bi {{ button.icon }}"></i>{% endif %}
+                {{ button.text[lang] }}
+              </a>
             {% endfor %}
           </span>
         </div>

@@ -6,20 +6,24 @@ description:
     - Le logiciel gratuit et libre des arbitres, pour gérer vos tournois d'échecs du pointage jusqu'aux résultats.
     - Pour trouver des tournois et vous inscrire en ligne, rendez-vous sur <a href="https://sharly-chess.com/fr">sharly-chess.com</a>.
 services:
+  downloads_title:
+    en: Download
+    fr: Télécharger
   items:
     -
-      buttons:
+      downloads:
         - thp_download_platform: windows
         - thp_download_platform: macos
         - id: thp-install-linux-button
-          class: btn-outline
-          icon: bi-terminal
+          logo: linux_logo.svg
+          platform: Linux
           text:
             en: Install (Linux)
             fr: Installer (Linux)
           url:
             en: installation-linux/
             fr: installation-linux/
+      buttons:
         - class: docs-button
           icon: bi-book
           text:
