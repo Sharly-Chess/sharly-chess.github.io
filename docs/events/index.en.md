@@ -44,4 +44,4 @@ A few tutorials are available to supplement this documentation:
 - [Create your organisation on the _Sharly-Chess.com_ platform]({% link _posts/2026-04-11-tutorial-sharly-chess-com-organisation.en.md %})
 - [Create your first free event on the _Sharly-Chess.com_ platform]({% link _posts/2026-04-13-tutorial-sharly-chess-com-free-event.en.md %})
 - [Connect Sharly-Chess.com to _Stripe_]({% link _posts/2026-04-17-tutorial-sharly-chess-com-stripe.en.md %})
-- [Connect Sharly-Chess.com to _HelloAsso_]({% link _posts/2026-11-02-tutorial-sharly-chess-com-helloasso.en.md %})
+- [Connect Sharly-Chess.com to _HelloAsso_]({% link _posts/2026-11-05-tutorial-sharly-chess-com-helloasso.en.md %})
