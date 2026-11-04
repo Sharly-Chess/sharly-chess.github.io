@@ -8,28 +8,28 @@ nav_order: 700
 
 # Version history and roadmap
 
-|      Version       |           Date | Features                                                                                                   | backward<br/>compat. | End of support |
-|:------------------:|---------------:|------------------------------------------------------------------------------------------------------------|:--------------------:|---------------:|
-|   _Papi-web_ 1.x   |      2013–2023 | Initial version                                                                                            |          -           | Nov 10th, 2023 |
-|   _Papi-web_ 2.0   | Nov 10th, 2023 | Improved display screens                                                                                   |          ❌           | Mar 27th, 2024 |
-|   _Papi-web_ 2.1   |  Dec 9th, 2023 | Connection to _ChessEvent_                                                                                 |          ✅           |  Avr 8th, 2024 |
-|   _Papi-web_ 2.2   | Mar 27th, 2024 | Performance improvements<br/>Illegal moves                                                                 |          ✅           | Oct 30th, 2024 |
-|   _Papi-web_ 2.3   |  Avr 8th, 2024 | Check-in feature                                                                                           |          ✅           |  Avr 7th, 2025 |
-|   _Papi-web_ 2.4   | Oct 30th, 2024 | Open-source<br/>Multilingual support<br/>Web configuration<br/>SQLite storage                              |          ❌           | Mai 13th, 2025 |
-|   _Papi-web_ 2.5   |  Avr 7th, 2025 | Interface improvements<br/>Player management<br/>Ranking calculation, display, and printing                |          ✅           | Mai 28th, 2025 |
-| _Sharly Chess_ 2.6 | May 13th, 2025 | Round-robin and manual pairing                                                                             |          ✅           |  Jul 7th, 2025 |
-| _Sharly Chess_ 2.7 | May 28th, 2025 | Integration of _FFE_ operations _FFE_ into the web UI                                                      |          ✅           |  Sep 1st, 2025 |
-| _Sharly Chess_ 2.8 |  Jul 7th, 2025 | Swiss pairings<br/>Prize calculation<br/>Check-in lists                                                    |          ✅           |  Oct 1st, 2025 |
-| _Sharly Chess_ 3.0 |  Sep 1st, 2025 | Dropping of Papi format<br/>macOS support                                                                  |          ✅           | Oct 27th, 2025 |
-| _Sharly Chess_ 3.1 |  Oct 1st, 2025 | Délégation par niveau d'accès<br/>TRF import/export                                                        |          ✅           | Nov 21th, 2025 |
-| _Sharly Chess_ 3.2 | Oct 27th, 2025 | Baku acceleration<br/>Player norms<br/>Support for all _FIDE_ tie-breaks<br/>Upload to _Chess-Results.com_ |          ✅           | Dec 15th, 2025 |
-| _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances     |          ✅           | Jan 26th, 2025 |
-| _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                 |          ✅           | Feb 18th, 2026 |
-| _Sharly Chess_ 3.5 | Jan 26th, 2026 | _FFE_ forms<br/>Hybrid prizes                                                                              |          ✅           |  Apr 2nd, 2026 |
-| _Sharly Chess_ 3.6 | Feb 18th, 2026 | SCE event import<br/>CSV player import                                                                     |          ✅           |  May 7th, 2026 |
-| _Sharly Chess_ 4.0 |  Apr 2nd, 2026 | _Sharly-Chess.com_ integration                                                                             |          ✅           |  Jun 3rd, 2026 |
-| _Sharly Chess_ 4.1 |  May 7th, 2026 | New check-in system                                                                                        |          ✅           | Aug 24th, 2026 |
-| _Sharly Chess_ 4.2 |  Jun 3rd, 2026 | Norm documents improvements<br/>TRF26 compliance<br/>Team ranking in individual competitions               |          ✅           | Sep 26th, 2026 |
-| _Sharly Chess_ 5.0 | Aug 26th, 2026 | Team competitions<br/>_FIDE_ norm reports compliance<br/>Chess 960<br/>Windows installer                   |          ✅           |      Oct, 2026 |
-| _Sharly Chess_ 5.1 | Sep 24th, 2026 | Knock-out system<br/>Place card editor<br/>_FFE_ upload of team competitions                               |          ✅           |              - |
-| _Sharly Chess_ 5.2 |      Oct, 2026 | _FIDE_ compliance (_FIDE_ mode, change log)<br/>National rating lists<br/>Round publication<br/>Multi-period events<br/>Automatic backups |          ✅           |              - |
+|      Version       |           Date | Features                                                                                                                                  | backward<br/>compat. | End of support |
+|:------------------:|---------------:|-------------------------------------------------------------------------------------------------------------------------------------------|:--------------------:|---------------:|
+|   _Papi-web_ 1.x   |      2013–2023 | Initial version                                                                                                                           |          -           | Nov 10th, 2023 |
+|   _Papi-web_ 2.0   | Nov 10th, 2023 | Improved display screens                                                                                                                  |          ❌           | Mar 27th, 2024 |
+|   _Papi-web_ 2.1   |  Dec 9th, 2023 | Connection to _ChessEvent_                                                                                                                |          ✅           |  Avr 8th, 2024 |
+|   _Papi-web_ 2.2   | Mar 27th, 2024 | Performance improvements<br/>Illegal moves                                                                                                |          ✅           | Oct 30th, 2024 |
+|   _Papi-web_ 2.3   |  Avr 8th, 2024 | Check-in feature                                                                                                                          |          ✅           |  Avr 7th, 2025 |
+|   _Papi-web_ 2.4   | Oct 30th, 2024 | Open-source<br/>Multilingual support<br/>Web configuration<br/>SQLite storage                                                             |          ❌           | Mai 13th, 2025 |
+|   _Papi-web_ 2.5   |  Avr 7th, 2025 | Interface improvements<br/>Player management<br/>Ranking calculation, display, and printing                                               |          ✅           | Mai 28th, 2025 |
+| _Sharly Chess_ 2.6 | May 13th, 2025 | Round-robin and manual pairing                                                                                                            |          ✅           |  Jul 7th, 2025 |
+| _Sharly Chess_ 2.7 | May 28th, 2025 | Integration of _FFE_ operations _FFE_ into the web UI                                                                                     |          ✅           |  Sep 1st, 2025 |
+| _Sharly Chess_ 2.8 |  Jul 7th, 2025 | Swiss pairings<br/>Prize calculation<br/>Check-in lists                                                                                   |          ✅           |  Oct 1st, 2025 |
+| _Sharly Chess_ 3.0 |  Sep 1st, 2025 | Dropping of Papi format<br/>macOS support                                                                                                 |          ✅           | Oct 27th, 2025 |
+| _Sharly Chess_ 3.1 |  Oct 1st, 2025 | Délégation par niveau d'accès<br/>TRF import/export                                                                                       |          ✅           | Nov 21th, 2025 |
+| _Sharly Chess_ 3.2 | Oct 27th, 2025 | Baku acceleration<br/>Player norms<br/>Support for all _FIDE_ tie-breaks<br/>Upload to _Chess-Results.com_                                |          ✅           | Dec 15th, 2025 |
+| _Sharly Chess_ 3.3 | Nov 21th, 2025 | UI improvements<br/>Management of _FFE_ scholastic tournaments<br/>Place Cards<br/>_FIDE_ performances                                    |          ✅           | Jan 26th, 2025 |
+| _Sharly Chess_ 3.4 | Dec 15th, 2025 | Configurable age categories, event sharing, Prize Receipts                                                                                |          ✅           | Feb 18th, 2026 |
+| _Sharly Chess_ 3.5 | Jan 26th, 2026 | _FFE_ forms<br/>Hybrid prizes                                                                                                             |          ✅           |  Apr 2nd, 2026 |
+| _Sharly Chess_ 3.6 | Feb 18th, 2026 | SCE event import<br/>CSV player import                                                                                                    |          ✅           |  May 7th, 2026 |
+| _Sharly Chess_ 4.0 |  Apr 2nd, 2026 | _Sharly-Chess.com_ integration                                                                                                            |          ✅           |  Jun 3rd, 2026 |
+| _Sharly Chess_ 4.1 |  May 7th, 2026 | New check-in system                                                                                                                       |          ✅           | Aug 24th, 2026 |
+| _Sharly Chess_ 4.2 |  Jun 3rd, 2026 | Norm documents improvements<br/>TRF26 compliance<br/>Team ranking in individual competitions                                              |          ✅           | Sep 26th, 2026 |
+| _Sharly Chess_ 5.0 | Aug 26th, 2026 | Team competitions<br/>_FIDE_ norm reports compliance<br/>Chess 960<br/>Windows installer                                                  |          ✅           |  Nov 4th, 2026 |
+| _Sharly Chess_ 5.1 | Sep 24th, 2026 | Knock-out system<br/>Place card editor<br/>_FFE_ upload of team competitions                                                              |          ✅           |              - |
+| _Sharly Chess_ 5.2 |  Nov 4th, 2026 | _FIDE_ compliance (_FIDE_ mode, change log)<br/>National rating lists<br/>Round publication<br/>Multi-period events<br/>Automatic backups |          ✅           |              - |
