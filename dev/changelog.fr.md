@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.2.0 - À venir
+## :point_right: Version 5.2.0 - 4 novembre 2026
 *Avec la version 5.2, Sharly Chess est prêt à être soumis aux tests de conformité de la FIDE dès que celle-ci ouvrira de nouveau les candidatures. Il maintient les tournois suisses dans le cadre du règlement FIDE, consigne chaque modification sortant des règles ou des recommandations de la FIDE et produit les fichiers TRF attendus par la FIDE.*
 
 ### Conformité _FIDE_

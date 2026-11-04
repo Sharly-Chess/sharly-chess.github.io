@@ -9,7 +9,7 @@ separator: true
 
 # Changelog
 
-## :point_right: Version 5.2.0 - TBD
+## :point_right: Version 5.2.0 - November 4, 2026
 *With version 5.2, Sharly Chess is ready to be submitted to the FIDE for compliance testing as soon as the FIDE opens to new submissions. It keeps Swiss tournaments within the FIDE regulations, logs every change that falls outside the FIDE rules or recommendations, and produces the TRF files the FIDE expects.*
 
 ### FIDE compliance
