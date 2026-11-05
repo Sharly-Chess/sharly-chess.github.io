@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 5.2.1 - 4 novembre 2026
+
+- Dans l'interface d'administration avec le thème clair, le compteur de joueurs filtrés ainsi que l'option mise en surbrillance dans les listes déroulantes sont bien lisibles
+- Correction de l'absence de certaines bibliothèques dans la distribution Flatpak pour Linux
+- Les joueurs sans club ne remportent plus les récompenses liées à des critères de club : la liste des clubs associée à un critère ne propose plus d'entrée « sans nom » pour ces joueurs, et toute entrée de ce type qui aurait été préalablement sélectionnée est désormais ignorée.
+
 ## :point_right: Version 5.2.0 - 4 novembre 2026
 *Avec la version 5.2, Sharly Chess est prêt à être soumis aux tests de conformité de la FIDE dès que celle-ci ouvrira de nouveau les candidatures. Il maintient les tournois suisses dans le cadre du règlement FIDE, consigne chaque modification sortant des règles ou des recommandations de la FIDE et produit les fichiers TRF attendus par la FIDE.*
 

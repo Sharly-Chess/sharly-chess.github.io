@@ -9,10 +9,16 @@ separator: true
 
 # Changelog
 
+
+## Version 5.2.1 - November 4, 2026
+- In the admin view with the light theme, the filtered players counter and the highlighted option of the drop-down lists are readable
+- Fix libraries missing in Linux Flatpak build
+- Players without a club no longer win the prizes of club criteria: the club list of a criterion no longer offers an unnamed entry for them, and such an entry already selected is ignored
+
 ## :point_right: Version 5.2.0 - November 4, 2026
 *With version 5.2, Sharly Chess is ready to be submitted to the FIDE for compliance testing as soon as the FIDE opens to new submissions. It keeps Swiss tournaments within the FIDE regulations, logs every change that falls outside the FIDE rules or recommendations, and produces the TRF files the FIDE expects.*
 
-### FIDE compliance
+### _FIDE_ compliance
 
 - [_FIDE_ mode]({% link docs/running-an-event/fide-mode.en.md %}) for Swiss tournaments, on by default: actions prohibited by the _FIDE_ regulations are refused unless the tournament leaves _FIDE_ mode; once the first round is paired, a tournament that leaves _FIDE_ mode can never return to it
 - A log of every change that falls outside the _FIDE_ rules or recommendations, such as a result corrected after the next round was paired or pairings edited by hand, and of the settings changed during the tournament; it is shown on the pairings page and written as comments in the TRF
