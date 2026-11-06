@@ -9,8 +9,17 @@ separator: true
 
 # Changelog
 
-## Version 5.2.1 - 4 novembre 2026
+## Version 5.2.2 - 6 novembre 2026
+- Dans le formulaire de staff, chaque résultat issu d'une recherche de joueur·euse permet de renseigner le compte — y compris les résultats chargés après les premiers (ceux qui avaient initialement ouvert la fiche du joueur) — et le bouton de filtrage, qui était inopérant, a été supprimé. Lors du remplacement d'un·e joueur·euse, les résultats chargés ultérieurement remplacent également le·la joueur·euse en question, au lieu d'en recréer un·e
+- Sur la console, tous les champs ont désormais la même largeur, et les libellés des cases à cocher sont alignés avec ceux des autres champs
+- L'onglet Plugg-ins de la console reflète désormais leur état (activé ou désactivé) dès qu'il est modifié ailleurs — par exemple, lors de l'importation d'un événement nécessitant une extension spécifique. De même, les fenêtres du navigateur sur l'ordinateur exécutant _Sharly Chess_ adoptent automatiquement le thème d'administration choisi dans la console, sans qu'il soit nécessaire d'actualiser le navigateur
+- La base de données en ligne de la _FFE_ est désormais utilisée par défaut, en priorité sur la copie locale ; cette dernière prend le relais uniquement lorsque la base en ligne est inaccessible. Une option, disponible dans la fenêtre de gestion des bases de données, permet de désactiver ce comportement
+- Les joueur·euses ne disposant pas de classement rapide ou blitz ne se voient plus attribuer leur estimation fondée sur l'âge en tant que classement national issu de la base de données locale de la _FFE_ (la base locale _FFE_ identifie à tort ces classements comme nationaux).
+- L'en-tête de l'onglet Joueur·euses utilise la même source que la fenêtre de mise à jour des classements ; il ne signale donc plus de modifications qui ne seraient pas visibles dans ladite fenêtre. La base de données en ligne de la _FFE_ n'est interrogée qu'au maximum toutes les six heures, sauf en cas de modification d'une liste ou d'une intervention manuelle de l'arbitre ; par ailleurs, la modification des informations d'un·e joueur·euse ne déclenche pas de nouvelle interrogation
+- La base de données des écoles françaises peut désormais être installée dans la version Flatpak pour Linux
+- L'installation de la base de données des écoles françaises à partir d'un fichier n'est plus proposée ; en revanche, les autres bases de données peuvent être installées depuis un fichier, quelle que soit sa taille
 
+## Version 5.2.1 - 4 novembre 2026
 - Dans l'interface d'administration avec le thème clair, le compteur de joueurs filtrés ainsi que l'option mise en surbrillance dans les listes déroulantes sont bien lisibles
 - Correction de l'absence de certaines bibliothèques dans la distribution Flatpak pour Linux
 - Les joueurs sans club ne remportent plus les récompenses liées à des critères de club : la liste des clubs associée à un critère ne propose plus d'entrée « sans nom » pour ces joueurs, et toute entrée de ce type qui aurait été préalablement sélectionnée est désormais ignorée.

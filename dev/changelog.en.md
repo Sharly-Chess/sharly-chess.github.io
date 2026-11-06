@@ -10,6 +10,16 @@ separator: true
 # Changelog
 
 
+## Version 5.2.2 - November 6, 2026
+- In the staff account form, every result of the player search fills in the account, including the results loaded after the first ones, which opened the player form, and the filter button that did nothing is gone. When replacing a player, the results loaded after the first ones also replace that player instead of creating a new one
+- In the settings of the application window, the fields all have the same width, and the labels of the checkboxes line up with the labels of the other fields
+- The plugins section follows the plugins enabled or disabled elsewhere, such as by importing an event that needs one, and the browser windows on the computer running _Sharly Chess_ follow the administration theme chosen in the application window, neither needing to be refreshed
+- The online _FFE_ database is now used in priority over the local copy by default, with the local copy standing in when it cannot be reached; a switch in the databases window turns this off
+- Players without a rapid or blitz rating no longer receive their estimate by age as a national rating from the local _FFE_ database, whose file marks these estimates as national ratings
+- The banner of the players tab reads the rating lists from the same source as its Review window, so that it no longer announces changes the window does not show. It asks the online _FFE_ database at most every six hours for an event, unless a list changes or the arbiter acts on the check, and editing a player does not ask it again
+- The French schools database can be installed in the Linux Flatpak version
+- The French schools database is no longer offered for installation from a file, and the other databases can be installed from a file of any size
+
 ## Version 5.2.1 - November 4, 2026
 - In the admin view with the light theme, the filtered players counter and the highlighted option of the drop-down lists are readable
 - Fix libraries missing in Linux Flatpak build
