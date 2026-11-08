@@ -9,6 +9,8 @@ separator: true
 
 # Changelog
 
+## Version 5.2.3 - November 7, 2026
+- The player search of the player form works again when a tournament is restricted to a club whose name contains an apostrophe
 
 ## Version 5.2.2 - November 6, 2026
 - In the staff account form, every result of the player search fills in the account, including the results loaded after the first ones, which opened the player form, and the filter button that did nothing is gone. When replacing a player, the results loaded after the first ones also replace that player instead of creating a new one

@@ -9,6 +9,9 @@ separator: true
 
 # Changelog
 
+## Version 5.2.3 - 7 novembre 2026
+- La recherche de joueur·euses fonctionne à nouveau lorsque le tournoi est réservé à un club dont le nom contient une apostrphone
+
 ## Version 5.2.2 - 6 novembre 2026
 - Dans le formulaire de staff, chaque résultat issu d'une recherche de joueur·euse permet de renseigner le compte — y compris les résultats chargés après les premiers (ceux qui avaient initialement ouvert la fiche du joueur) — et le bouton de filtrage, qui était inopérant, a été supprimé. Lors du remplacement d'un·e joueur·euse, les résultats chargés ultérieurement remplacent également le·la joueur·euse en question, au lieu d'en recréer un·e
 - Sur la console, tous les champs ont désormais la même largeur, et les libellés des cases à cocher sont alignés avec ceux des autres champs
