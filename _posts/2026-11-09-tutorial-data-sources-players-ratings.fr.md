@@ -1,5 +1,5 @@
 ---
-title: Data sources and players' ratings
+title: Sources de données et classement des joueur·euses
 date: 2026-11-09 22:00:00 +0200
 categories: news
 layout: post
