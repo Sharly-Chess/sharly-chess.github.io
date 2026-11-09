@@ -69,7 +69,7 @@ encounter, …).
 
 ## Documents and screens
 
-Team events add **team rankings**, **match sheets**, the **Berger grid**
+Team events add **team rankings**, **match sheets**, the **round-robin grid**
 (round-robin), and on-screen **team check-in**, **team matches** and **team
 ranking** displays.
 

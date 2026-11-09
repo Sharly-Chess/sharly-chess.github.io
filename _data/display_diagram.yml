@@ -1,0 +1,76 @@
+# Labels of the Display diagram, as worded in the application.
+title:
+  en: What can be shown, and how it reaches a device
+  fr: Ce qui peut être affiché, et comment cela arrive sur un appareil
+screens:
+  en: Screens
+  fr: Écrans
+navigation:
+  en: Navigation
+  fr: Navigation
+channels:
+  en: Channels
+  fr: Canaux
+screen:
+  en: Screen
+  fr: Écran
+one_page:
+  en: <b>Multiple</b> tournaments on one page
+  fr: <b>Plusieurs</b> tournois sur une page
+several_pages:
+  en: Or <b>one</b> tournament split over several pages
+  fr: Ou <b>un</b> tournoi réparti sur plusieurs pages
+rotator:
+  en: Rotator
+  fr: Écran rotatif
+rotator_description:
+  en: Different screens in turn
+  fr: Différents écrans à tour de rôle
+menu:
+  en: Menu
+  fr: Menu
+menu_description:
+  en: Screens people tap between
+  fr: Des écrans entre lesquels on navigue en touchant
+channel:
+  en: Channel
+  fr: Canal
+channel_description:
+  en: Change what devices show <b>from the arbiter computer</b>
+  fr: Changez ce qu'affichent les appareils <b>depuis l'ordinateur de l'arbitre</b>
+channel_places:
+  en: Create one for each place, and let any number of devices follow it
+  fr: Créez-en un par lieu, suivi par autant d'appareils que vous le souhaitez
+playing_hall:
+  en: Playing hall
+  fr: Salle de jeu
+entrance:
+  en: Entrance
+  fr: Entrée
+devices:
+  en: Devices
+  fr: Appareils
+plugged_in:
+  en: Plugged into this computer
+  fr: Branchés sur cet ordinateur
+on_the_network:
+  en: On the network
+  fr: Sur le réseau
+projector:
+  en: Projector
+  fr: Vidéoprojecteur
+monitor:
+  en: Monitor
+  fr: Moniteur
+big_screen:
+  en: Big screen
+  fr: Grand écran
+tablets:
+  en: Tablets
+  fr: Tablettes
+computer:
+  en: Computer
+  fr: Ordinateur
+timers:
+  en: A timer can be added to screens and rotators.
+  fr: Un chronomètre peut être ajouté aux écrans et aux écrans rotatifs.

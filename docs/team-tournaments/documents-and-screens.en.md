@@ -20,7 +20,7 @@ Team events add a few document and screen types on top of the usual ones.
   players of their boards, for the team captains. Available for the systems that
   pair whole teams.
 - **Team ranking** — the team standings, with the tie-breaks you have configured.
-- **Team Berger grid** — the round-robin encounter grid with match scores.
+- **Team round-robin grid** — the round-robin encounter grid with match scores.
   Available for the **Team Round-Robin** system.
 - **Round-robin schedule** — the encounters of every round, built from the Berger
   tables, so available before the rounds are paired.
@@ -33,8 +33,7 @@ Team events add a few document and screen types on top of the usual ones.
 The on-screen displays for team events are:
 
 - **Team check-in** — teams mark themselves present for the round.
-- **Team matches** — the round's pairings shown as team-vs-team blocks of boards.
-- **Results entry** — per-board result input.
+- **Team matches** — the round's pairings shown as team-vs-team blocks of boards. Like any pairings screen, it can [accept results]({% link docs/screens/single-screens.en.md %}#accepting-input), board by board.
 - **Team ranking** — the live team standings.
 
 {: .note }

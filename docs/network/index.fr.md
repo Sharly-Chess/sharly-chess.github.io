@@ -52,7 +52,7 @@ Depuis la fenêtre principale de _Sharly Chess_, cliquez sur **Afficher les rés
 Tout autre appareil sur le **même** réseau peut taper cette adresse dans un navigateur pour se connecter à _Sharly Chess_.
 Le QR code est un raccourci : en le scannant, l’adresse s’ouvre directement sur l’appareil.
 
-## Que peuvent faire les appareils connectés ?
+## Que peuvent faire les appareils connectés ? {#what-can-connected-devices-do}
 
 Par défaut, les appareils connectés **ne voient rien**.
 
@@ -61,7 +61,7 @@ Même dans ce cas, les appareils ne verront du contenu que si vous créez un **�
 
 {: .tip }
 > :point_right: Les Écrans publics sont visibles par tous les appareils du réseau.
-> Si un Écran est un **Écran de saisie**, les joueur·euses pourront l’utiliser pour **enregistrer leurs résultats ou confirmer leur présence**.
+> Si un Écran [accepte la saisie]({% link docs/screens/single-screens.fr.md %}#accepting-input), les joueur·euses pourront l’utiliser pour **enregistrer leurs résultats ou confirmer leur présence**.
 
 Un accès supplémentaire peut être donné aux membres du staff via des [Comptes]({% link docs/network/staff.fr.md %}).
 

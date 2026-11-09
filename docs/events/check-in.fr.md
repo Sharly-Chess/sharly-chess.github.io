@@ -12,7 +12,7 @@ nav_order: 150
 Les joueur·euses d’un événement lié à _Sharly-Chess.com_ peuvent se pointer depuis leur téléphone, au lieu de faire la queue à la table d’accueil. Leurs pointages arrivent d’eux-mêmes dans _Sharly Chess_, avec ceux que vous faites à l’accueil.
 
 {: .warning }
-> :warning: Le pointage en ligne nécessite une connexion Internet, sur les téléphones des joueur·euses **et** sur l’ordinateur où tourne _Sharly Chess_, qui récupère les pointages sur le site. Sans connexion sur le lieu du tournoi, pointez les joueur·euses à l’accueil ou sur des [écrans de saisie]({% link docs/running-an-event/check-in-process.fr.md %}) comme d’habitude.
+> :warning: Le pointage en ligne nécessite une connexion Internet, sur les téléphones des joueur·euses **et** sur l’ordinateur où tourne _Sharly Chess_, qui récupère les pointages sur le site. Sans connexion sur le lieu du tournoi, pointez les joueur·euses à l’accueil ou sur des [écrans de pointage]({% link docs/running-an-event/check-in-process.fr.md %}) comme d’habitude.
 
 ---
 

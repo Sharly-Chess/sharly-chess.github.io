@@ -12,7 +12,7 @@ nav_order: 150
 The players of an event linked to _Sharly-Chess.com_ can check in from their own phone, instead of queuing at the desk. Their check-ins reach _Sharly Chess_ by themselves, alongside those you make at the desk.
 
 {: .warning }
-> :warning: Online check-in needs an internet connection, on the players' phones **and** on the computer running _Sharly Chess_, which fetches the check-ins from the site. Without a connection at the venue, check players in at the desk or on [input screens]({% link docs/running-an-event/check-in-process.en.md %}) as usual.
+> :warning: Online check-in needs an internet connection, on the players' phones **and** on the computer running _Sharly Chess_, which fetches the check-ins from the site. Without a connection at the venue, check players in at the desk or on [check-in screens]({% link docs/running-an-event/check-in-process.en.md %}) as usual.
 
 ---
 
