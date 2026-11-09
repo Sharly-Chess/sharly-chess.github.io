@@ -39,12 +39,19 @@ With the _FFE_ plugin, the tournaments look for the _FIDE_ ratings first, then t
 | **Rapid** | _FIDE_ list: rapid › standard → _FFE_: _FIDE_ rapid › _FIDE_ standard › national rapid |
 | **Blitz** | _FIDE_ list: blitz › standard → _FFE_: _FIDE_ blitz › _FIDE_ standard › national blitz |
 
-A player who holds none of these ratings is given the estimate prescribed by the _FFE_, according to their age:
+A player who holds none of these ratings is given the estimate the _FFE_ list gives them, shown with an "E" as on the federal site. The _FFE_ can give a player another estimate than the one of their category:
+
+- the estimate their club asked for when taking out the licence, if the _FFE_ accepted it, which goes by steps of 50 (1449, 1499, 1549…);
+- 1399 at a cadence where they lost a _FIDE_ rating, whatever their age.
+
+Otherwise, and for a player the list does not hold yet, such as a player whose licence is not yet published, the estimate is the one prescribed by the _FFE_ for the player's age category:
 
 | **Standard** | 1399 (adults), 1299 (juniors) |
 | **Rapid and blitz** | 1199, 999 up to U14, 799 up to U10 |
 
-The **Unrated players** fields of the event and the tournaments are then disabled. These estimates follow the player's category (they change when the category does) until the arbiter types a value. The "E" values of the _FFE_ list are not imported as ratings. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown.
+These estimates follow the player's category: they change when the category does. The list may still give a player the estimate of a younger category after they have moved up, such as 799 in rapid to a U12: _Sharly Chess_ then uses the estimate of their current category instead. A value typed by the arbiter takes precedence over all of them.
+
+The **Unrated players** fields of the event and the tournaments are disabled; their tooltip recalls these rules. The [rating check]({% link docs/running-an-event/ratings.en.md %}#checking-the-ratings-against-the-lists) proposes the estimate of the list to the players who do not have it yet. See [Ratings]({% link docs/running-an-event/ratings.en.md %}) for how the ratings are shown.
 
 ## Team competitions
 

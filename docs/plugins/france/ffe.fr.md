@@ -39,12 +39,19 @@ Avec le plug-in _FFE_, les tournois recherchent les classements _FIDE_ d’abord
 | **Rapide** | Liste _FIDE_ : rapide › standard → _FFE_ : _FIDE_ rapide › _FIDE_ standard › national rapide |
 | **Blitz** | Liste _FIDE_ : blitz › standard → _FFE_ : _FIDE_ blitz › _FIDE_ standard › national blitz |
 
-Un·e joueur·euse qui ne possède aucun de ces classements reçoit l'estimation prescrite par la _FFE_ selon son âge :
+Un·e joueur·euse qui ne possède aucun de ces classements reçoit l'estimation que lui donne la liste _FFE_, affichée avec un « E » comme sur le site fédéral. La _FFE_ peut donner à un·e joueur·euse une autre estimation que celle de sa catégorie :
+
+- l'estimation demandée par son club lors de la prise de licence, si la _FFE_ l'a acceptée, qui va de 50 en 50 points (1449, 1499, 1549…) ;
+- 1399 dans une cadence où il·elle a perdu un classement _FIDE_, quel que soit son âge.
+
+Sinon, et pour un·e joueur·euse que la liste ne connaît pas encore, par exemple dont la licence n'est pas encore parue, l'estimation est celle que prescrit la _FFE_ pour sa catégorie d'âge :
 
 | **Standard** | 1399 (adultes), 1299 (jeunes) |
 | **Rapide et blitz** | 1199, 999 jusqu'à U14, 799 jusqu'à U10 |
 
-Les champs **Non classé·es** de l'événement et des tournois sont alors désactivés. Ces estimations suivent la catégorie du·de la joueur·euse (elles changent avec elle) tant que l'arbitre n'a pas saisi de valeur. Les valeurs « E » de la liste _FFE_ ne sont pas importées comme classements. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage des classements.
+Ces estimations suivent la catégorie du·de la joueur·euse : elles changent avec elle. La liste peut encore donner l'estimation d'une catégorie plus jeune à un·e joueur·euse qui a changé de catégorie, par exemple 799 en rapide à un·e U12 : _Sharly Chess_ utilise alors l'estimation de sa catégorie actuelle. Une valeur saisie par l'arbitre l'emporte sur toutes ces estimations.
+
+Les champs **Non classé·es** de l'événement et des tournois sont désactivés ; leur info-bulle rappelle ces règles. La [vérification des classements]({% link docs/running-an-event/ratings.fr.md %}#vérifier-les-classements-avec-les-listes) propose l'estimation de la liste aux joueur·euses qui ne l'ont pas encore. Voir [Classements]({% link docs/running-an-event/ratings.fr.md %}) pour l'affichage des classements.
 
 ## Compétitions par équipes
 
