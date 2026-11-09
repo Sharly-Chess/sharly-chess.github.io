@@ -9,8 +9,21 @@ separator: true
 
 # Changelog
 
+## Version 5.2.4 - 9 novembre 2026
+- Les listes d'événements sont mises à jour en fonction de l'installation ou de la désinstallation des plugins ; ainsi, un événement nécessitant un module peut être ouvert dès que celui-ci est installé, sans qu'il soit nécessaire d'actualiser la page
+- Dans toutes les listes pouvant être réorganisées par glisser-déposer, l'emplacement où l'élément déplacé sera déposé est matérialisé par un espace vide, plutôt que par une seconde copie de l'élément
+- Sur les écrans larges, l'onglet Tournois affiche trois cartes par ligne au lieu de deux
+- Le bouton « Mettre à jour » de la base de données _FIDE_ locale déclenche désormais une reconstruction de celle-ci ; auparavant, il ne se passait rien si aucune nouvelle liste n'avait été publiée par la _FIDE_ depuis l'installation de la version actuelle
+- L'onglet Équipes dispose d'un champ de recherche permettant de trouver des équipes par leur nom, affiliation, fédération, capitaine ou membres de leur effectif ; la recherche est conservée même lorsque l'onglet est réaffiché (par exemple, après le déplacement d'une équipe)
+- Lorsqu'une équipe n'a pas de capitaine, un avertissement s'affiche ; tous les avertissements concernant une équipe sont regroupés derrière un symbole unique, dont l'infobulle liste chaque avertissement sur une ligne distincte
+- Lors d'un glisser-déposer, l'équipe déplacée apparaît sous la forme d'une carte ou d'une ligne pleine, sans apparition d'infobulles sous le curseur, tandis que l'emplacement de destination est indiqué par un espace vide
+- Dans les listes d'équipes présentes sur la fiche joueur ou dans les appariements, le tri par nom ne tient compte ni de la casse (majuscules/minuscules) ni des accents
+- Pour les tournois dont les appariements ne sont pas connus à l'avance, le bouton « Apparier » permet d'effectuer l'appariement et la publication d'une ronde en une seule opération ; le navigateur mémorise le choix effectué pour chaque événement
+- Dans le document Statistiques exporté au format PDF, le nombre correspondant est affiché à l'extrémité de chaque barre
+- Dans le sélecteur d'équipes des documents, les équipes sont classées par nom plutôt que selon l'ordre des appariements
+
 ## Version 5.2.3 - 7 novembre 2026
-- La recherche de joueur·euses fonctionne à nouveau lorsque le tournoi est réservé à un club dont le nom contient une apostrphone
+- La recherche de joueur·euses fonctionne à nouveau lorsque le tournoi est réservé à un club dont le nom contient une apostrophe
 
 ## Version 5.2.2 - 6 novembre 2026
 - Dans le formulaire de staff, chaque résultat issu d'une recherche de joueur·euse permet de renseigner le compte — y compris les résultats chargés après les premiers (ceux qui avaient initialement ouvert la fiche du joueur) — et le bouton de filtrage, qui était inopérant, a été supprimé. Lors du remplacement d'un·e joueur·euse, les résultats chargés ultérieurement remplacent également le·la joueur·euse en question, au lieu d'en recréer un·e
@@ -28,7 +41,7 @@ separator: true
 - Les joueurs sans club ne remportent plus les récompenses liées à des critères de club : la liste des clubs associée à un critère ne propose plus d'entrée « sans nom » pour ces joueurs, et toute entrée de ce type qui aurait été préalablement sélectionnée est désormais ignorée.
 
 ## :point_right: Version 5.2.0 - 4 novembre 2026
-*Avec la version 5.2, Sharly Chess est prêt à être soumis aux tests de conformité de la FIDE dès que celle-ci ouvrira de nouveau les candidatures. Il maintient les tournois suisses dans le cadre du règlement FIDE, consigne chaque modification sortant des règles ou des recommandations de la FIDE et produit les fichiers TRF attendus par la FIDE.*
+*Avec la version 5.2, Sharly Chess est prêt à être soumis aux tests de conformité de la *FIDE* dès que celle-ci ouvrira de nouveau les candidatures. Il maintient les tournois suisses dans le cadre du règlement FIDE, consigne chaque modification sortant des règles ou des recommandations de la *FIDE* et produit les fichiers TRF attendus par la *FIDE*.*
 
 ### Conformité _FIDE_
 
@@ -579,7 +592,7 @@ separator: true
 - L’année de naissance ou la date de naissance complète d’un·e joueur·euse sont désormais acceptées
 - Demande aux navigateurs de ne pas traduire automatiquement l’interface
 - Correction des forfaits des entrées tardives
-- Correction de l'affichage des identifiants FIDE sur la mise à jour des joueur·euses
+- Correction de l'affichage des identifiants _FIDE_ sur la mise à jour des joueur·euses
 - Support expérimental de Linux
 - Récupération des évènements archivés lors des mises à jour
 - Amélioration du processus de mise à jour de l'application

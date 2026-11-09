@@ -9,6 +9,19 @@ separator: true
 
 # Changelog
 
+## Version 5.2.4 - November 9, 2026
+- The lists of events follow the plugins installed or uninstalled, so that an event that needs a plugin can be opened as soon as the plugin is installed, without refreshing the page
+- In every list that can be reordered by dragging, the place a dragged item will land is shown as an empty slot, instead of a second copy of the item
+- On wide screens, the tournaments tab shows three cards per row instead of two
+- The Update button of the local _FIDE_ database rebuilds it, instead of doing nothing when _FIDE_ had not published a newer list since the copy was installed
+- The teams tab has a search field that finds the teams by their name, affiliation, federation, captain or roster players; the search is kept while the tab is redrawn, after a team is dragged for instance
+- A team with no captain shows a warning, and all of a team's warnings are gathered behind a single warning sign, whose tooltip lists them one per line
+- A team being dragged is shown as a solid card or row, with no tooltips opening under the mouse, and the place it will land is shown as an empty slot
+- The team lists of the player form and the pairings ignore case and accents when sorting the teams by name
+- In tournaments whose pairings are not known in advance, the Pair button offers to pair and publish a round in one go; the browser remembers the choice made for each event
+- The statistics document downloaded as a PDF file shows the count at the end of each bar
+- The team selector of the documents lists the teams by name instead of in pairing order
+
 ## Version 5.2.3 - November 7, 2026
 - The player search of the player form works again when a tournament is restricted to a club whose name contains an apostrophe
 
@@ -28,7 +41,7 @@ separator: true
 - Players without a club no longer win the prizes of club criteria: the club list of a criterion no longer offers an unnamed entry for them, and such an entry already selected is ignored
 
 ## :point_right: Version 5.2.0 - November 4, 2026
-*With version 5.2, Sharly Chess is ready to be submitted to the FIDE for compliance testing as soon as the FIDE opens to new submissions. It keeps Swiss tournaments within the FIDE regulations, logs every change that falls outside the FIDE rules or recommendations, and produces the TRF files the FIDE expects.*
+*With version 5.2, Sharly Chess is ready to be submitted to the *FIDE* for compliance testing as soon as the *FIDE* opens to new submissions. It keeps Swiss tournaments within the *FIDE* regulations, logs every change that falls outside the *FIDE* rules or recommendations, and produces the TRF files the *FIDE* expects.*
 
 ### _FIDE_ compliance
 
@@ -178,7 +191,7 @@ separator: true
 - Team names with characters the _FFE_ website does not store, such as the "œ" of "Sacré Cœur", no longer make the upload of team competitions fail
 - The French School Championship is sent to the school competitions of the _FFE_ website, with the national finals division pre-selected for the national final
 - Players removed by the deletion of unpaired players, or by an import replacing the existing players, are now also deleted on _Sharly-Chess.com_, instead of being brought back by the next synchronisation; re-imported players stay linked to their _Sharly-Chess.com_ registration
-- The _FFE_ player update now finds players whose licence number is wrong or unknown, by their _FIDE_ ID or else by their name and date (or year) of birth, and proposes the correct licence number; names are compared regardless of case and accents; players still not found despite their licence number (or FIDE ID for the FIDE database) are highlighted in the update window
+- The _FFE_ player update now finds players whose licence number is wrong or unknown, by their _FIDE_ ID or else by their name and date (or year) of birth, and proposes the correct licence number; names are compared regardless of case and accents; players still not found despite their licence number (or _FIDE_ ID for the _FIDE_ database) are highlighted in the update window
 - Players without a _FIDE_ ID in the _FFE_ database, or with a _FIDE_ ID of 0 in an imported file, no longer prevent the synchronisation with _Sharly-Chess.com_
 - Long club names on ranking screens are cut short with an ellipsis instead of wrapping
 - The championship rankings show the players' club, on screen and printed, and their year of birth on screen
@@ -420,7 +433,7 @@ separator: true
 - Added _rating_ and _rating_type_ CSV columns
 - Clarify gender naming
 - Display absent players on top of unpaired players on the Pairings tab
-- Added a reminder to update the players' ratings before pairings on round #1 and for tournaments lasting on multiple FIDE periods
+- Added a reminder to update the players' ratings before pairings on round #1 and for tournaments lasting on multiple _FIDE_ periods
 - Added owed/paid totals to the check-in list
 - Added a sort option to the players list document
 - Moved the auto-upload options to the upload modal
@@ -576,7 +589,7 @@ separator: true
 - Both a player's year of birth or the full date of birth and now accepted
 - Try to avoid browsers automatically translating the UI
 - Fixed late entries ZPBs
-- Fixed FIDE ID display on player update
+- Fixed _FIDE_ ID display on player update
 - Linux experimental support
 - Recover archived events on upgrade
 - Improved upgrade experience
