@@ -1,0 +1,105 @@
+{%- comment -%}
+  What can be shown, and how it reaches a device: the diagram of the Display
+  section of the application, each box leading to its page. The arrows are
+  drawn by display-diagram.js, across or down depending on the width.
+  The labels come from display_diagram.yml (include.lang).
+{%- endcomment -%}
+{%- assign l = site.data.display_diagram -%}
+{%- assign lang = include.lang -%}
+<div class="display-diagram">
+<div class="screens-map" role="group" aria-label="{{ l.title[lang] }}">
+  <svg class="screens-map-links" aria-hidden="true"></svg>
+  <div class="screens-map-heading screens-map-heading-screens">{{ l.screens[lang] }}</div>
+  <div class="screens-map-heading screens-map-heading-navigation">{{ l.navigation[lang] }}</div>
+  <div class="screens-map-heading screens-map-heading-channels">{{ l.channels[lang] }}</div>
+
+  <a class="screens-map-node screens-map-screens" href="{% link docs/screens/single-screens.{{ lang }}.md %}">
+    <i class="bi-stopwatch screens-map-timer" aria-hidden="true"></i>
+    <div class="screens-map-title">{{ l.screen[lang] }}</div>
+    <div class="screens-map-body">
+      <div class="screens-map-part">
+        <div class="screens-map-description">{{ l.one_page[lang] }}</div>
+        <div class="screens-map-sheets" aria-hidden="true">
+          <div class="screens-map-sheet current"><span>Open A</span><span>Open B</span></div>
+        </div>
+      </div>
+      <div class="screens-map-part">
+        <div class="screens-map-description">{{ l.several_pages[lang] }}</div>
+        <div class="screens-map-sheets" aria-hidden="true">
+          <div class="screens-map-sheet current"><span>A–F</span></div>
+          <div class="screens-map-sheet"><span>G–M</span></div>
+          <div class="screens-map-sheet"><span>N–Z</span></div>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="screens-map-navigation">
+    <a class="screens-map-node screens-map-rotator" href="{% link docs/screens/rotators.{{ lang }}.md %}">
+      <i class="bi-stopwatch screens-map-timer" aria-hidden="true"></i>
+      <div class="screens-map-title">{{ l.rotator[lang] }}</div>
+      <div class="screens-map-description">{{ l.rotator_description[lang] }}</div>
+      <div class="screens-map-sheets turning" aria-hidden="true">
+        <div class="screens-map-sheet current"><i class="bi-card-list"></i></div>
+        <i class="screens-map-track"></i>
+        <div class="screens-map-sheet"><i class="bi-trophy"></i></div>
+        <i class="screens-map-track"></i>
+        <div class="screens-map-sheet"><i class="bi-1-square"></i></div>
+      </div>
+    </a>
+    <a class="screens-map-node screens-map-menu" href="{% link docs/screens/menus.{{ lang }}.md %}">
+      <div class="screens-map-title">{{ l.menu[lang] }}</div>
+      <div class="screens-map-description">{{ l.menu_description[lang] }}</div>
+      <div class="screens-map-menu-page" aria-hidden="true">
+        <div class="screens-map-sheet screens-map-menu-sheet">
+          <div class="screens-map-menu-bar">
+            <i class="bi-card-list current"></i><i class="bi-trophy"></i><i class="bi-1-square"></i>
+          </div>
+          <span class="screens-map-menu-line"></span>
+          <span class="screens-map-menu-line short"></span>
+        </div>
+        <i class="bi-hand-index-fill screens-map-tap"></i>
+      </div>
+    </a>
+  </div>
+
+  <a class="screens-map-node screens-map-channel" href="{% link docs/screens/display-controllers.{{ lang }}.md %}">
+    <div class="screens-map-title">{{ l.channel[lang] }}</div>
+    <div class="screens-map-body">
+      <div class="screens-map-part">
+        <div class="screens-map-description">{{ l.channel_description[lang] }}</div>
+      </div>
+      <div class="screens-map-part">
+        <div class="screens-map-description">{{ l.channel_places[lang] }}</div>
+        <div class="screens-map-examples" aria-hidden="true">
+          <div><span>{{ l.playing_hall[lang] }}</span><i class="bi-tv"></i></div>
+          <div><span>{{ l.entrance[lang] }}</span><span class="screens-map-tablets"><i class="bi-tablet"></i><i class="bi-tablet"></i><i class="bi-tablet"></i></span></div>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="screens-map-devices">
+    <div class="screens-map-heading">{{ l.devices[lang] }}</div>
+    <div class="screens-map-device-groups" aria-hidden="true">
+      <div class="screens-map-device-group">
+        <div class="screens-map-device-group-title">{{ l.plugged_in[lang] }}</div>
+        <div class="screens-map-device-list">
+          <div><i class="bi-projector"></i>{{ l.projector[lang] }}</div>
+          <div><i class="bi-display"></i>{{ l.monitor[lang] }}</div>
+        </div>
+      </div>
+      <div class="screens-map-device-group">
+        <div class="screens-map-device-group-title">{{ l.on_the_network[lang] }}</div>
+        <div class="screens-map-device-list">
+          <div><i class="bi-tv"></i>{{ l.big_screen[lang] }}</div>
+          <div><span class="screens-map-tablets"><i class="bi-tablet"></i><i class="bi-tablet"></i><i class="bi-tablet"></i></span>{{ l.tablets[lang] }}</div>
+          <div><i class="bi-laptop"></i>{{ l.computer[lang] }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<a class="screens-map-note" href="{% link docs/screens/timers.{{ lang }}.md %}"><i class="bi-stopwatch" aria-hidden="true"></i> {{ l.timers[lang] }}</a>
+</div>
+<script src="{{ '/assets/js/display-diagram.js' | relative_url }}"></script>

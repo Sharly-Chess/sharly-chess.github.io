@@ -9,6 +9,48 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 5.3.0 - November 25, 2026
+*Version 5.3 rethinks how the screens are set up. Read [The screens rethought in Sharly Chess 5.3]({% link _posts/2026-11-25-display.en.md %}) for an overview.*
+
+### Display
+
+- A single [Display]({% link docs/screens/index.en.md %}) section, with a Guide explaining how it all fits together
+- A [setup assistant]({% link docs/screens/setup-assistant.en.md %}) that creates the screens, menus and channels in one go
+- Display controllers are renamed [channels]({% link docs/screens/display-controllers.en.md %}), and can show any screen, page, rotator or menu, driven from the arbiter's computer
+- Screens and multiple screens are [merged]({% link docs/screens/single-screens.en.md %}#one-page-or-several-pages): one page with several tournaments, or one tournament over several pages
+- [Result entry]({% link docs/screens/single-screens.en.md %}#accepting-input) is an option of the pairings screens, including the alphabetical pairings, replacing the results entry screens
+- [Fake data]({% link docs/screens/index.en.md %}#fake-data) to set up the screens before the first round
+- A [round-robin grid]({% link docs/screens/single-screens.en.md %}#round-robin-grids) screen
+- A single [Display page]({% link docs/screens/index.en.md %}#visitors) for visitors
+- Ranking screens can [hide columns]({% link docs/screens/single-screens.en.md %}#columns-displayed)
+- Simpler [timers]({% link docs/screens/timers.en.md %}), which can copy a tournament's schedule
+- The screens update as changes happen, and always keep their light colours
+
+### Event management
+
+- A Journal page records what is done to an event, by whom and from where
+- The players and pairings tabs follow the results and check-ins entered elsewhere, without reloading
+- All the tournaments of an event can be paired or published at once
+- Results can be entered on an unpublished round, after unlocking it
+- A backup taken by hand can be given a comment
+
+### Round robins
+
+- A player who leaves an individual round robin can be replaced by a newcomer
+- A round robin played to the end without publishing its rounds is ranked
+
+### Documents
+
+- Appreciation certificates for the players of a prize category
+- The players and check-in lists let you choose the columns to print
+
+### Other improvements
+
+- A team can be pinned to a table
+- Each tournament takes its own location from _Sharly-Chess.com_
+- _FFE_ team competitions are only uploaded when asked, with a confirmation before a group is emptied
+- Keyboard shortcuts in the players tab and for split buttons
+
 ## Version 5.2.8 - November 15, 2026
 - A page shown again with the browser's Back button draws each of its drop-down lists once, instead of drawing a second, lifeless copy beside the round selector of the pairings tab and leaving the tournament selector unusable
 - _Sharly Chess_ no longer freezes while it waits for the internet: requests to _Sharly-Chess.com_ and the other online services, the pairing engines and the update check run in the background, so the screens, tablets and other pages keep answering. On a network that cannot resolve names yet, such as a phone hotspot still connecting, _Sharly-Chess.com_ is reported as unreachable after 3 seconds instead of blocking the whole application for about 30 seconds each time

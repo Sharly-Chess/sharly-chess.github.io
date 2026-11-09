@@ -121,7 +121,7 @@ Dans tous les cas, le classement affiché par _Sharly Chess_ et celui du site we
   Il y a effectivement un différentiel entre les classements (_FIDE_ et nationaux) enregistrés dans les deux bases fédérales, comme on le voit sur les images ci-dessous.
 
   {: .text-center}
-  ![Différences de classements entre la base _FFE_ en ligne et la base _FFE_ locale](/assets/faq/faq-ffe-rankings.fr.jpg)
+  ![Différences de classements entre la base _FFE_ en ligne et la base _FFE_ locale](/assets/faq/faq-ffe-rankings.fr.jpg)
 
   Ce problème existe depuis plusieurs années (il a été signalé plusieurs fois à la _FFE_ mais n'a jamais été corrigé). Contrairement à _Papi_, _Sharly Chess_ affiche les différences constatées avant de les appliquer et c'est pour cela que les arbitres ne découvrent ce problème qu'aujourd'hui.
 
@@ -133,17 +133,17 @@ Dans tous les cas, le classement affiché par _Sharly Chess_ et celui du site we
   Une fois le plug-in activé, la mise en ligne des résultats se fait depuis le menu **Transfert de données** (cartouche de gauche), sous **FFE** :
 
   {: .text-center}
-  ![L'entrée FFE du menu Transfert de données](/assets/faq/faq-ffe-upload-1.fr.jpg)
+  ![L'entrée FFE du menu Transfert de données](/assets/faq/faq-ffe-upload-1.fr.jpg)
 
   {: .text-center}
-  ![Mise en ligne des tournois sur le site _FFE_](/assets/faq/faq-ffe-upload-2.fr.jpg)
+  ![Mise en ligne des tournois sur le site _FFE_](/assets/faq/faq-ffe-upload-2.fr.jpg)
 
   La mise en ligne automatique s'active ou se désactive pour chaque tournoi dont on a renseigné les identifiants _FFE_, avec l'interrupteur en début de ligne ; l'interrupteur de l'en-tête du tableau la règle pour tous les tournois à la fois. Les résultats de ces tournois sont alors mis en ligne à intervalles réguliers, sans qu'il soit nécessaire d'ouvrir cette fenêtre.
 
   La carte du tournoi indique si la mise en ligne automatique est activée :
 
   {: .text-center}
-  ![Mise en ligne automatique activée](/assets/faq/faq-ffe-upload-4.fr.jpg)
+  ![Mise en ligne automatique activée](/assets/faq/faq-ffe-upload-4.fr.jpg)
 
 {% enddetails %}
 

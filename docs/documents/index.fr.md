@@ -50,9 +50,9 @@ Cette liste affiche tous les appariements de la ronde sélectionnée, avec les n
 
 ---
 
-## Grille Berger
+## Grille toutes-rondes
 
-Utilisée pour les tournois toutes rondes, cette grille affiche les appariements pour l’ensemble des rondes.
+Utilisée pour les tournois toutes-rondes, cette grille montre chaque joueur·euse face à tou·tes les autres, avec le résultat de chacune de leurs parties. Les tournois par équipes ont une grille des rencontres entre équipes, qui peut être détaillée par joueur·euse.
 
 ---
 
@@ -163,7 +163,7 @@ Un QR code à imprimer et à afficher : une fois connectés au **Réseau** choi
 
 ## Documents par équipes
 
-Les évènements par équipes ont leurs propres documents : feuilles de match, appariements des équipes, classements par équipes, grilles Berger par équipes, et tables Molter et Scheveningen. Voir [Documents & écrans par équipes]({% link docs/team-tournaments/documents-and-screens.fr.md %}).
+Les évènements par équipes ont leurs propres documents : feuilles de match, appariements des équipes, classements par équipes, grilles toutes-rondes par équipes, et tables Molter et Scheveningen. Voir [Documents & écrans par équipes]({% link docs/team-tournaments/documents-and-screens.fr.md %}).
 
 ---
 
@@ -186,5 +186,5 @@ Les chevalets sont construits à partir de **modèles**, que vous pouvez créer 
 
 Les [plug-ins]({% link docs/plugins/index.fr.md %}) ajoutent leurs propres documents, par exemple :
 
-- les **Formulaires FFE** du [plug-in _FFE_]({% link docs/plugins/france/ffe.fr.md %}) : T1 Page de garde, T2 Procès-verbal, T3 et T4 attestations de licence, T5 Enquête pour forfait injustifié, T6 Exclusion d'un·e joueur·euse, T7 Signalement d'un·e joueur·euse, Indemnités d'arbitrage et Dépôt de plainte pour suspicion de triche ;
+- les **Formulaires FFE** du [plug-in _FFE_]({% link docs/plugins/france/ffe.fr.md %}) : T1 Page de garde, T2 Procès-verbal, T3 et T4 attestations de licence, T5 Enquête pour forfait injustifié, T6 Exclusion d'un·e joueur·euse, T7 Signalement d'un·e joueur·euse, Indemnités d'arbitrage et Dépôt de plainte pour suspicion de triche ;
 - les **Positions Chess960** du plug-in _Chess960_.

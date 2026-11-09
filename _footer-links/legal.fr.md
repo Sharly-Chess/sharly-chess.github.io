@@ -26,7 +26,7 @@ France
 
 ## Contact
 
-Mél: contact@sharly-chess.com
+Mél : contact@sharly-chess.com
 
 ## Représentée par
 

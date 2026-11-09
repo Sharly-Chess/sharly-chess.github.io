@@ -75,7 +75,7 @@ standards (Buchholz, Sonneborn‑Berger, confrontation directe…).
 ## Documents et écrans
 
 Les tournois par équipes ajoutent les **classements par équipes**, les **feuilles
-de match**, la **grille Berger** (toutes‑rondes), et à l'écran l'affichage du
+de match**, la **grille toutes-rondes** (toutes‑rondes), et à l'écran l'affichage du
 **pointage des équipes**, des **matchs** et du **classement par équipes**.
 
 {: .note }

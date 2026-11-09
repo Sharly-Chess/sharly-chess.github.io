@@ -153,6 +153,40 @@ avoir disputé **moins de la moitié** de ses parties est retiré·e du classeme
 final et ses parties sont annulées — elles ne comptent plus dans les scores et
 départages de ses adversaires (les résultats restent dans la grille américaine).
 
+### Remplacer un·e joueur·euse
+
+Une fois un toutes‑rondes fermé aux nouvelles entrées, un·e joueur·euse qui s'en
+va peut encore être remplacé·e. Ajoutez le·la remplaçant·e depuis l'onglet des
+joueur·euses comme d'habitude : quand le tournoi choisi a commencé, le
+formulaire demande le·la joueur·euse à remplacer et la ronde à partir de
+laquelle le·la remplaçant·e prend le relais. Le·la remplaçant·e reprend la place
+du·de la joueur·euse parti·e : son numéro de Berger, ses adversaires restant·es
+et ses couleurs. Les parties des rondes précédentes restent telles quelles, et
+le tournoi garde son nombre de rondes et son calendrier. Plusieurs joueur·euses
+peuvent être remplacé·es à la fois, et un·e remplaçant·e peut à son tour être
+remplacé·e.
+
+Le·la joueur·euse parti·e et son·sa remplaçant·e sont tous deux classé·es,
+chacun·e avec les points des parties qu'il·elle a jouées. Leurs
+parties ne sont pas annulées : chacun·e des autres joueur·euses rencontre
+toujours cette place une fois, et tous et toutes gardent le même nombre de
+parties. Dans les départages, la place compte comme un·e seul·e adversaire,
+valant les points marqués par tous ceux et celles qui l'ont occupée : battre
+le·la joueur·euse parti·e ou son·sa remplaçant·e vaut donc la même chose.
+
+La grille Berger donne une seule ligne à la place, en nommant chaque joueur·euse
+avec les rondes jouées, ses points et ses départages. Le classement et la grille
+américaine les listent séparément, avec les mêmes rondes.
+
+Un·e remplaçant·e saisi·e par erreur peut être supprimé·e tant qu'il·elle n'a
+pas joué sa première partie à cette place : le·la joueur·euse parti·e retrouve
+alors sa place.
+
+Ni la _FIDE_ ni Papi ne prévoient le remplacement d'un·e joueur·euse dans un
+toutes‑rondes individuel. Le TRF présente le tournoi comme un toutes‑rondes
+personnalisé et mentionne chaque remplacement dans un commentaire, et les exports TRF et Papi le signalent : vérifiez auprès du·de la
+responsable du classement avant d'envoyer le tournoi.
+
 ---
 
 ## Système coupe

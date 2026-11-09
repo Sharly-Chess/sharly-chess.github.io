@@ -9,6 +9,48 @@ separator: true
 
 # Changelog
 
+## :point_right: Version 5.3.0 - 25 novembre 2026
+*La version 5.3 repense la configuration des écrans. Lisez [Les écrans repensés dans Sharly Chess 5.3]({% link _posts/2026-11-25-display.fr.md %}) pour une vue d'ensemble.*
+
+### Affichage
+
+- Une seule section [Affichage]({% link docs/screens/index.fr.md %}), avec un Guide qui explique comment tout s'articule
+- Un [assistant de création]({% link docs/screens/setup-assistant.fr.md %}) qui crée les écrans, les menus et les canaux en une seule fois
+- Les pilotes d'afficheur sont renommés [canaux]({% link docs/screens/display-controllers.fr.md %}), et peuvent afficher tout écran, page, écran rotatif ou menu, pilotés depuis l'ordinateur de l'arbitre
+- Les écrans et les écrans multiples sont [réunis]({% link docs/screens/single-screens.fr.md %}#one-page-or-several-pages) : une page avec plusieurs tournois, ou un tournoi sur plusieurs pages
+- La [saisie des résultats]({% link docs/screens/single-screens.fr.md %}#accepting-input) devient une option des écrans d'appariements, y compris par ordre alphabétique, à la place des écrans de saisie
+- Des [données fictives]({% link docs/screens/index.fr.md %}#fake-data) pour préparer les écrans avant la première ronde
+- Un écran de [grille toutes-rondes]({% link docs/screens/single-screens.fr.md %}#round-robin-grids)
+- Une seule [page Affichage]({% link docs/screens/index.fr.md %}#visitors) pour les visiteur·euses
+- Les écrans de classement peuvent [masquer des colonnes]({% link docs/screens/single-screens.fr.md %}#columns-displayed)
+- Des [chronomètres]({% link docs/screens/timers.fr.md %}) plus simples, qui peuvent reprendre le calendrier d'un tournoi
+- Les écrans se mettent à jour au fil des changements, et gardent toujours leurs couleurs claires
+
+### Gestion de l'évènement
+
+- Une page Journal consigne ce qui est fait à un évènement, par qui et d'où
+- Les onglets des joueur·euses et des appariements suivent les résultats et pointages saisis ailleurs, sans rechargement
+- Tous les tournois d'un évènement peuvent être appariés ou publiés en une fois
+- Les résultats peuvent être saisis sur une ronde non publiée, après l'avoir déverrouillée
+- Une sauvegarde faite à la main peut recevoir un commentaire
+
+### Toutes-rondes
+
+- Un·e joueur·euse qui quitte un toutes-rondes individuel peut être remplacé·e par un·e nouvel·le venu·e
+- Un toutes-rondes joué jusqu'au bout sans publier ses rondes est classé
+
+### Documents
+
+- Des diplômes pour les joueur·euses d'une catégorie de prix
+- La liste des joueur·euses et la liste de pointage permettent de choisir les colonnes à imprimer
+
+### Autres améliorations
+
+- Une équipe peut être fixée à une table
+- Chaque tournoi reprend son propre lieu depuis _Sharly-Chess.com_
+- Les compétitions par équipes _FFE_ ne sont téléversées qu'à la demande, avec une confirmation avant de vider un groupe
+- Des raccourcis clavier dans l'onglet des joueur·euses et pour les boutons doubles
+
 ## Version 5.2.8 - 15 novembre 2026
 - Lorsqu'une page est ré-affichée via le bouton Précédent du navigateur, chaque liste déroulante n'est générée qu'une seule fois ; on évite ainsi l'apparition d'une seconde copie inerte à côté du sélecteur de l'onglet des appariements, ce qui rendait auparavant le sélecteur de tournoi inutilisable
 - _Sharly Chess_ ne se fige plus en attendant une réponse d'Internet : les requêtes vers _Sharly-Chess.com_ et d'autres services en ligne — comme les moteurs d'appariement ou la vérification des mises à jour — s'exécutent désormais en arrière-plan. L'interface (écrans, tablettes, etc.) reste donc parfaitement réactive. Sur un réseau dont la résolution de noms n'est pas encore opérationnelle (par exemple, lors de l'établissement d'une connexion via un point d'accès mobile), _Sharly-Chess.com_ est désormais signalé comme inaccessible après 3 secondes, évitant ainsi le blocage complet de l'application pendant environ 30 secondes à chaque tentative
@@ -21,7 +63,7 @@ separator: true
 
 ## Version 5.2.7 - 13 novembre 2026
 - Sous macOS, la fenêtre de l'application est redimensionnée une seule fois pour s'adapter à l'onglet affiché, en conservant sa position supérieure fixe ; elle ne se déplace plus inutilement lors de son agrandissement vers l'onglet des paramètres
-- Lorsque l'intitulé d'un champ passe au-dessus de sa zone de saisie, les boutons situés à côté du champ (comme ceux relatifs à l'établissement scolaire, à l'affiliation à une équipe, aux étiquettes ou au modèle de fiche de table) s'alignent désormais sur la zone de saisie plutôt que sur l'intitulé ; ce dernier est ainsi clairement dissocié du champ situé au-dessus
+- Lorsque l'intitulé d'un champ passe au-dessus de sa zone de saisie, les boutons situés à côté du champ (comme ceux relatifs à l'établissement scolaire, à l'affiliation à une équipe, aux étiquettes ou au modèle de fiche de table) s'alignent désormais sur la zone de saisie plutôt que sur l'intitulé ; ce dernier est ainsi clairement dissocié du champ situé au-dessus
 - Le bouton Modèles des chevalets permet à nouveau d'accéder à l'éditeur, au lieu de se contenter de fermer la fenêtre des documents
 - Lors de l'impression de chevalets pour des appariements, il est désormais possible d'inclure la date et l'heure programmées de la ronde
 - L'ajout, le remplacement ou la suppression d'une image dans un écran dédié permet de récupérer l'espace disque précédemment occupé dans le fichier de l'événement ; auparavant, ce fichier conservait une taille importante, correspondant à celle qu'il avait lorsque ses images les plus volumineuses y étaient stockées
@@ -38,8 +80,8 @@ separator: true
 - Lorsqu'un·e joueur·euse en remplace un autre, ce sont ses propres classements qui sont pris en compte, et non ceux du·de la joueur·euse remplacé
 - Lors de la mise à jour des classements, si un classement _FIDE_ ne figure plus dans la liste officielle de la FIDE, le système propose de le remplacer par celui issu de la liste nationale (par exemple, l'estimation de 1399 fournie par la _FFE_ pour un·e joueur·euse n'ayant plus de classement _FIDE_)
 - Si la mise à jour des classements ne concerne que certaines sources, la fenêtre l'indique explicitement, au lieu d'afficher un message général affirmant que tout est à jour tout en laissant le bouton « Mettre à jour » actif
-- L'importation de joueur·euses ne provoque plus d'erreur lorsqu'un·e joueur·euse présent dans le fichier ne possède un classement que pour une cadence différente de celle des tournois de l'événement : le système effectue alors la comparaison en se basant sur son estimation
-- Les colonnes « Commentaire », « Mél », « Téléphone », « Échiquier fixe », « Identifiant _FIDE_ » et « Identifiant national » dans l'onglet Joueur·euses peuvent être affichées même si aucune donnée n'y est renseignée ; par défaut, elles restent masquées
+- L'importation de joueur·euses ne provoque plus d'erreur lorsqu'un·e joueur·euse présent dans le fichier ne possède un classement que pour une cadence différente de celle des tournois de l'événement : le système effectue alors la comparaison en se basant sur son estimation
+- Les colonnes « Commentaire », « Mél », « Téléphone », « Échiquier fixe », « Identifiant _FIDE_ » et « Identifiant national » dans l'onglet Joueur·euses peuvent être affichées même si aucune donnée n'y est renseignée ; par défaut, elles restent masquées
 - Lorsqu'un·e joueur·euse quitte une équipe, il n'est plus maintenu dans la composition des équipes pour les rondes suivantes. Auparavant, le système continuait de l'inclure dans l'appariement pour son ancienne équipe, ce qui entraînait l'affichage de l'adversaire à sa place sur la feuille de match ; désormais, l'échiquier correspondant est laissé vide
 - Un· joueur·euse ayant déjà disputé une partie pour une équipe — y compris dans le cas d'un bye attribué lors des appariements — ne peut plus quitter cette équipe, que ce soit par un retrait de l'effectif ou par un transfert vers une autre équipe
 - Une équipe ayant déjà fait l'objet d'appariements ne peut plus être supprimée (ce qui entraînerait la suppression de ses parties) ; l'option de suppression n'est donc plus proposée
@@ -62,7 +104,7 @@ separator: true
 - Les listes d'événements sont mises à jour en fonction de l'installation ou de la désinstallation des plugins ; ainsi, un événement nécessitant un module peut être ouvert dès que celui-ci est installé, sans qu'il soit nécessaire d'actualiser la page
 - Dans toutes les listes pouvant être réorganisées par glisser-déposer, l'emplacement où l'élément déplacé sera déposé est matérialisé par un espace vide, plutôt que par une seconde copie de l'élément
 - Sur les écrans larges, l'onglet Tournois affiche trois cartes par ligne au lieu de deux
-- Le bouton « Mettre à jour » de la base de données _FIDE_ locale déclenche désormais une reconstruction de celle-ci ; auparavant, il ne se passait rien si aucune nouvelle liste n'avait été publiée par la _FIDE_ depuis l'installation de la version actuelle
+- Le bouton « Mettre à jour » de la base de données _FIDE_ locale déclenche désormais une reconstruction de celle-ci ; auparavant, il ne se passait rien si aucune nouvelle liste n'avait été publiée par la _FIDE_ depuis l'installation de la version actuelle
 - L'onglet Équipes dispose d'un champ de recherche permettant de trouver des équipes par leur nom, affiliation, fédération, capitaine ou membres de leur effectif ; la recherche est conservée même lorsque l'onglet est réaffiché (par exemple, après le déplacement d'une équipe)
 - Lorsqu'une équipe n'a pas de capitaine, un avertissement s'affiche ; tous les avertissements concernant une équipe sont regroupés derrière un symbole unique, dont l'infobulle liste chaque avertissement sur une ligne distincte
 - Lors d'un glisser-déposer, l'équipe déplacée apparaît sous la forme d'une carte ou d'une ligne pleine, sans apparition d'infobulles sous le curseur, tandis que l'emplacement de destination est indiqué par un espace vide
@@ -161,7 +203,7 @@ separator: true
 - Les règles des systèmes accélérés peuvent être imprimées, depuis les documents ou depuis les paramètres d'appariement : les règles du système, les groupes, les points virtuels accordés ronde par ronde et les joueur·euses de chaque groupe
 - Les chevalets d'appariement ne sont plus générés pour les exemptions attribuées par l'appariement
 - Les documents ont des boutons en haut de la page pour les imprimer et les télécharger en PDF ; les documents à remplir, comme les formulaires _FFE_ et le rapport de norme, peuvent aussi être téléchargés au format Word, avec les valeurs saisies dans leurs champs
-- Une nouvelle attestation de performance Elo indique le classement _FIDE_ intermédiaire le plus élevé atteint par un·e joueur·euse pendant le tournoi, partie par partie ; elle est certifiée par l'arbitre principal·e du tournoi ou par l'arbitre choisi·e, et l'arbitre peut en modifier le texte avant de l'imprimer ou de la télécharger au format Word
+- Une nouvelle attestation de performance Elo indique le classement _FIDE_ intermédiaire le plus élevé atteint par un·e joueur·euse pendant le tournoi, partie par partie ; elle est certifiée par l'arbitre principal·e du tournoi ou par l'arbitre choisi·e, et l'arbitre peut en modifier le texte avant de l'imprimer ou de la télécharger au format Word
 - Correction des PDF enregistrés depuis Firefox, dont le texte ne pouvait pas être copié : le texte des formulaires _FFE_, de la feuille d'appariement _FFE_ et des positions Chess960 peut désormais être copié et collé
 
 ### _Sharly-Chess.com_
@@ -172,12 +214,12 @@ separator: true
 
 ### Interface
 
-- Une administration rafraîchie : un aspect plus calme et plus dense, des cartes et des listes qui montrent l'état de chaque élément par une pastille de couleur, les nombres de la barre latérale à côté de ses entrées, les sections repliables des formulaires résumant leur contenu, et les champs non modifiables signalés par un cadenas
-- L'administration peut être claire aussi bien que sombre : par défaut, elle suit l'apparence du système, et les réglages de la fenêtre de l'application peuvent la forcer en sombre ou en clair
-- Les écrans affichés aux joueur·euses et au public ont un aspect plus net qui garde leur densité : chaque ensemble s'ouvre sur son nom et ce qu'il montre sur une ligne (« Ronde 3 · 5 parties en cours »), le chronomètre est une pastille sur cette ligne, le message d'alerte s'affiche dans un bandeau en bas de l'écran et ne défile que s'il est trop long, et le menu entre les écrans est une rangée d'onglets
-- Sur les écrans de saisie des résultats, les parties à saisir affichent un bouton Saisir et les parties saisies passent au second plan, la dernière saisie restant surlignée en vert ; sur un téléphone, chaque partie est une carte
+- Une administration rafraîchie : un aspect plus calme et plus dense, des cartes et des listes qui montrent l'état de chaque élément par une pastille de couleur, les nombres de la barre latérale à côté de ses entrées, les sections repliables des formulaires résumant leur contenu, et les champs non modifiables signalés par un cadenas
+- L'administration peut être claire aussi bien que sombre : par défaut, elle suit l'apparence du système, et les réglages de la fenêtre de l'application peuvent la forcer en sombre ou en clair
+- Les écrans affichés aux joueur·euses et au public ont un aspect plus net qui garde leur densité : chaque ensemble s'ouvre sur son nom et ce qu'il montre sur une ligne (« Ronde 3 · 5 parties en cours »), le chronomètre est une pastille sur cette ligne, le message d'alerte s'affiche dans un bandeau en bas de l'écran et ne défile que s'il est trop long, et le menu entre les écrans est une rangée d'onglets
+- Sur les écrans de saisie des résultats, les parties à saisir affichent un bouton Saisir et les parties saisies passent au second plan, la dernière saisie restant surlignée en vert ; sur un téléphone, chaque partie est une carte
   - Les fenêtres de saisie des résultats et de pointage ont de grands boutons, les forfaits réservés à l'arbitre étant mis à part, et les boutons répondent de manière fiable sur les tablettes
-- Les chronomètres et le message d'alerte ont des couleurs fixes : un chronomètre passe du vert à l'orange puis au rouge, et le message s'affiche dans un bandeau jaune
+- Les chronomètres et le message d'alerte ont des couleurs fixes : un chronomètre passe du vert à l'orange puis au rouge, et le message s'affiche dans un bandeau jaune
 - Chaque onglet du navigateur porte le nom de sa page et de son évènement, pour distinguer plusieurs onglets ouverts
 
 ### Application

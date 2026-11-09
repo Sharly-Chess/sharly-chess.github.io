@@ -28,7 +28,7 @@ Rien n'est à configurer : les sauvegardes sont actives, et chacune est une cop
 - avant la mise à jour de l'évènement vers une nouvelle version de _Sharly Chess_ ;
 - avant la restauration d'une sauvegarde, pour que la restauration elle-même puisse être annulée.
 
-**Quand vous le demandez**, avec le bouton **Sauvegarder maintenant**.
+**Quand vous le demandez**, avec le bouton **Sauvegarder maintenant**. Une fenêtre demande alors un commentaire facultatif — « avant le deuxième essai », « état envoyé à l'organisateur·ice » — qui est alors affiché à côté de la raison de la sauvegarde, sous la forme « Manuelle (avant le deuxième essai) » : sans lui, toutes les sauvegardes manuelles s'affichent de la même manière.
 
 ---
 

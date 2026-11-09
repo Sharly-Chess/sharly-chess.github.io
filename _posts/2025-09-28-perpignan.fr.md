@@ -1,5 +1,5 @@
 ---
-title: Une première norme d'Arbitre FIDE sur Sharly Chess !
+title: Une première norme d'Arbitre FIDE sur Sharly Chess !
 date: 2025-09-30 10:15:00 +0200
 categories: news
 layout: post

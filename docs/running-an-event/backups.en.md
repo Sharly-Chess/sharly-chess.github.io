@@ -28,7 +28,7 @@ Nothing has to be set up: backups are on, and each backup is a complete copy of 
 - before the event is migrated to a new version of _Sharly Chess_;
 - before a backup is restored, so that restoring is itself undoable.
 
-**When you ask for one**, with the **Back up now** button.
+**When you ask for one**, with the **Back up now** button. A window then asks for an optional comment — "before the second test", "state sent to the organiser" — which is then listed beside the reason of the backup, as "Manual (before the second test)": every backup taken by hand would otherwise read "Manual" alone, which tells none of them apart.
 
 ---
 

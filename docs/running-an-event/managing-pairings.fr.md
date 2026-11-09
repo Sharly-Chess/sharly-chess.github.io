@@ -29,7 +29,7 @@ L'interface d'administration s'adapte aussi aux **écrans de téléphone** : le
 
 Vous pouvez utiliser le bouton « Appariement » dans l’interface d’appariement pour appairer automatiquement les joueur·euses.
 
-Dans un **toutes-rondes**, toutes les rondes sont appariées d'un coup avec le bouton « Apparier le tournoi », et la ronde en cours est la dernière que vous avez [publiée](#publier-les-appariements).
+Dans un **toutes-rondes**, toutes les rondes sont appariées d'un coup avec le bouton « Apparier le tournoi », et la ronde en cours est la dernière que vous avez [publiée](#publier-les-appariements).
 
 ---
 
@@ -123,9 +123,9 @@ Si la saisie correspond, le tableau passe à la ligne suivante. En cas d’erreu
 ## Saisie par les joueur·euses
 
 Plutôt que d’entrer vous-même les résultats, vous pouvez fournir une tablette ou un ordinateur aux joueur·euses pour qu’ils·elles les saisissent directement.
-Cela réduit la charge de travail et les erreurs. Voir la section [Écrans]({% link docs/screens/index.fr.md %}) pour les détails de configuration.
+Cela réduit la charge de travail et les erreurs. Tout écran d'appariements peut accepter la saisie des résultats : voir [Saisie sur l'écran]({% link docs/screens/single-screens.fr.md %}#accepting-input).
 
-Les résultats saisis sur un écran de saisie, ou sur l'écran d'appariement d'un·e autre arbitre, apparaissent immédiatement sur votre propre écran.
+Les résultats saisis sur un écran, ou sur l'écran d'appariement d'un·e autre arbitre, apparaissent immédiatement sur votre propre écran.
 
 ---
 

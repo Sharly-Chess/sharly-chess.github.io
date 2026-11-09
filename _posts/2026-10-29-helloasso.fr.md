@@ -44,7 +44,7 @@ Nous sommes ravis de nous associer à _HelloAsso_, la solution de paiement des a
 - **inscriptions confirmées automatiquement**, paiements et remboursements suivis sur _Sharly-Chess.com_ ;
 - **une connexion en quelques clics** : ouvrez la page **Paiements** de votre espace organisateur, cliquez sur **Connecter _HelloAsso_** puis autorisez l'accès depuis votre compte _HelloAsso_.
 
-_HelloAsso_ est réservé aux associations françaises. Votre association n'a pas encore de compte ? La création est gratuite : https://auth.helloasso.com/inscription/association/1?from=SharlyChess
+_HelloAsso_ est réservé aux associations françaises. Votre association n'a pas encore de compte ? La création est gratuite : https://auth.helloasso.com/inscription/association/1?from=SharlyChess
 
 ## 3. Les autres moyens de paiement restent disponibles
 
