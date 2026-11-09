@@ -48,9 +48,9 @@ Once the tournament is running, you’ll likely want to display the pairings for
 
 ---
 
-## Berger Grid
+## Round-robin Grid
 
-Used in round-robin tournaments, this grid displays all pairings for every round.
+Used in round-robin tournaments, this grid shows every player against every other, with the result of each of their games. Team tournaments have a grid of the matches between teams, which can be detailed by player.
 
 ---
 
@@ -161,7 +161,7 @@ A QR code to print and display: once connected to the chosen **Network**, the de
 
 ## Team Documents
 
-Team events have their own documents: match sheets, team pairings, team rankings, team Berger grids, and the Molter and Scheveningen tables. See [Team documents & screens]({% link docs/team-tournaments/documents-and-screens.en.md %}).
+Team events have their own documents: match sheets, team pairings, team rankings, team round-robin grids, and the Molter and Scheveningen tables. See [Team documents & screens]({% link docs/team-tournaments/documents-and-screens.en.md %}).
 
 ---
 

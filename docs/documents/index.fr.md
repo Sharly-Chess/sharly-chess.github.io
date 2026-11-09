@@ -50,9 +50,9 @@ Cette liste affiche tous les appariements de la ronde sélectionnée, avec les n
 
 ---
 
-## Grille Berger
+## Grille toutes-rondes
 
-Utilisée pour les tournois toutes rondes, cette grille affiche les appariements pour l’ensemble des rondes.
+Utilisée pour les tournois toutes-rondes, cette grille montre chaque joueur·euse face à tou·tes les autres, avec le résultat de chacune de leurs parties. Les tournois par équipes ont une grille des rencontres entre équipes, qui peut être détaillée par joueur·euse.
 
 ---
 
@@ -163,7 +163,7 @@ Un QR code à imprimer et à afficher : une fois connectés au **Réseau** choi
 
 ## Documents par équipes
 
-Les évènements par équipes ont leurs propres documents : feuilles de match, appariements des équipes, classements par équipes, grilles Berger par équipes, et tables Molter et Scheveningen. Voir [Documents & écrans par équipes]({% link docs/team-tournaments/documents-and-screens.fr.md %}).
+Les évènements par équipes ont leurs propres documents : feuilles de match, appariements des équipes, classements par équipes, grilles toutes-rondes par équipes, et tables Molter et Scheveningen. Voir [Documents & écrans par équipes]({% link docs/team-tournaments/documents-and-screens.fr.md %}).
 
 ---
 

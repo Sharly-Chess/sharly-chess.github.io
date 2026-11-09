@@ -123,9 +123,9 @@ Si la saisie correspond, le tableau passe à la ligne suivante. En cas d’erreu
 ## Saisie par les joueur·euses
 
 Plutôt que d’entrer vous-même les résultats, vous pouvez fournir une tablette ou un ordinateur aux joueur·euses pour qu’ils·elles les saisissent directement.
-Cela réduit la charge de travail et les erreurs. Voir la section [Écrans]({% link docs/screens/index.fr.md %}) pour les détails de configuration.
+Cela réduit la charge de travail et les erreurs. Tout écran d'appariements peut accepter la saisie des résultats : voir [Saisie sur l'écran]({% link docs/screens/single-screens.fr.md %}#accepting-input).
 
-Les résultats saisis sur un écran de saisie, ou sur l'écran d'appariement d'un·e autre arbitre, apparaissent immédiatement sur votre propre écran.
+Les résultats saisis sur un écran, ou sur l'écran d'appariement d'un·e autre arbitre, apparaissent immédiatement sur votre propre écran.
 
 ---
 

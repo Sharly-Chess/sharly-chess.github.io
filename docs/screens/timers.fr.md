@@ -1,40 +1,46 @@
 ---
 layout: page
 title: Chronomètres
-parent: Écrans
+parent: Affichage
 permalink: /chronometres/
 page_id: timers
-nav_order: 500
+nav_order: 600
 ---
 
 # Chronomètres
 
-Les **Écrans simples** et les **Écrans multiples** prennent en charge l’affichage d’un chronomètre décomptant le temps — pratique pour indiquer, par exemple, combien de temps il reste avant la fin du pointage, ou quand la prochaine ronde commencera.
+Les écrans, écrans paginés et écrans rotatifs peuvent afficher un compte à rebours — utile pour indiquer le temps restant avant la fin du pointage, avant le début de la prochaine ronde, etc.
 
 ---
 
 ## Créer un chronomètre
 
-Pour créer un nouveau chronomètre, rendez-vous sur la page **Chronomètres** et cliquez sur le bouton **Créer un chronomètre**.
+Dans l'onglet **Affichage → Chronomètres**, cliquez sur **Créer un chronomètre**.
 
-Chaque chronomètre passe par **trois phases**, réglées par trois délais :
+Chaque chronomètre passe par **trois phases**, fixées par trois délais :
 
-- Le chronomètre est **vert** jusqu’au premier délai avant l’heure prévue — par défaut _15 minutes_. À partir de ce moment, il passe progressivement à l’**orange**.
-- Il est **orange** à partir du second délai avant l’heure prévue — par défaut _5 minutes_ — et passe progressivement au **rouge**.
-- Il est **rouge** une fois l’heure prévue atteinte, et le reste pendant le troisième délai — par défaut _10 minutes_.
-  Après ce délai, le chronomètre passe automatiquement à la prochaine heure programmée dans la liste, et redevient vert.
+- Le chronomètre est **vert** jusqu'au premier délai avant l'heure prévue — _15 minutes_ par défaut. À partir de là, il devient progressivement **orange**.
+- Il est **orange** à partir du deuxième délai avant l'heure prévue — _5 minutes_ par défaut — et devient progressivement **rouge**.
+- Il est **rouge** une fois l'heure prévue atteinte, et le reste pendant le troisième délai — _10 minutes_ par défaut.
+  Après cette période, le chronomètre passe automatiquement à l'heure suivante et redevient vert.
 
-Les couleurs sont les mêmes sur tous les écrans et ne peuvent pas être modifiées. Les délais par défaut de l’évènement se modifient avec le bouton de paramètres de la page **Chronomètres**.
+Les couleurs sont les mêmes sur tous les écrans et ne peuvent pas être modifiées. Les délais par défaut de l'évènement se modifient avec le bouton de paramètres de l'onglet **Chronomètres**.
 
-Une fois les paramètres du chronomètre validés, vous pourrez définir un planning avec des dates et heures spécifiques pour déclencher chaque phase.
+---
+
+## Programmer les horaires
+
+Cliquez sur le bouton **Horaires** du chronomètre pour définir son programme. Chaque horaire a une date et une heure, et un texte affiché avant et après — par exemple _Début de la ronde 3 dans %s_, où `%s` est remplacé par le temps restant.
+
+**Créer les horaires depuis un tournoi** remplit le programme à partir des horaires des rondes d'un tournoi, pour que le chronomètre fasse le compte à rebours avant chaque ronde.
 
 ---
 
 ## Afficher un chronomètre
 
-Pour afficher un chronomètre sur un écran ou un écran multiple :
+Il y a deux façons de choisir où un chronomètre apparaît :
 
-1. Éditez l’écran (ou la famille) sur lequel vous souhaitez afficher le chronomètre.
-2. Sélectionnez le chronomètre souhaité dans le menu déroulant **Chronomètre**.
+- depuis le chronomètre, avec son bouton **Écrans**, qui permet de choisir d'un coup tous les écrans, écrans paginés et écrans rotatifs qui l'affichent ;
+- depuis un écran, un écran paginé ou un écran rotatif, en choisissant le chronomètre dans son champ **Chronomètre**.
 
-Le chronomètre sera alors visible sur l’écran choisi et se mettra à jour automatiquement en fonction du planning que vous avez défini.
+Le chronomètre s'affiche alors sur ces écrans et se met à jour automatiquement selon son programme.

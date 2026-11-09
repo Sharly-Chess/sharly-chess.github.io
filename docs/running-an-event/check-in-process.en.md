@@ -14,8 +14,8 @@ Using _Sharly Chess_ to manage player check-ins helps ensure your tournament get
 You have several ways to handle check-ins:
 
 - You can check-in players directly from the admin interface.
-- If you have tablets or computers available for player use, players can check themselves in via a dedicated input screen.
-- Alternatively, if you have multiple machines but prefer to restrict player access, staff or volunteers can use input screens on those devices to assist with check-ins and help distribute the workload.
+- If you have tablets or computers available for player use, players can check themselves in on a [check-in screen]({% link docs/screens/single-screens.en.md %}#accepting-input) that accepts input.
+- Alternatively, if you have multiple machines but prefer to restrict player access, staff or volunteers can use check-in screens on those devices to assist with check-ins and help distribute the workload.
 - For an event linked to _Sharly-Chess.com_, players can check in online from their own phone: see [Online check-in]({% link docs/events/check-in.en.md %}).
 
 {: .tip }
@@ -26,16 +26,18 @@ You have several ways to handle check-ins:
 To begin check-in, go to the **Players** page in the admin interface and click the **Check-in** button. You can choose which tournament(s) to open check-in for.
 
 Once active, each player's check-in status will be shown in the table:
-> <i class="bi-circle-fill" style="color: #ffc107; padding-right: 0.3rem;"></i> Not yet checked in<br />
-> <i class="bi-circle-fill" style="color: #198754; padding-right: 0.3rem;"></i> Checked in<br />
-> <i class="bi-ban" style="color: #6c757d; padding-right: 0.3rem;"></i> Absent
+
+{: .icon-list }
+> - <i class="bi-circle-fill" style="color: #ffc107;"></i> Not yet checked in
+> - <i class="bi-circle-fill" style="color: #198754;"></i> Checked in
+> - <i class="bi-ban" style="color: #6c757d;"></i> Absent
 
 Click the icon to toggle a player's status.
 
 {: .tip }
 > :point_right: Use the filter option to display only players who haven't checked in yet. This helps quickly identify who’s missing.
 
-To manage check-ins from other devices (like tablets or secondary computers), see the [Screens]({% link docs/screens/index.en.md %}) section.
+To manage check-ins from other devices (like tablets or secondary computers), see the [Display]({% link docs/screens/index.en.md %}) section.
 
 {: .tip }
 > :point_right: You'll need to refresh your browser from time to time to see the changes from other devices.

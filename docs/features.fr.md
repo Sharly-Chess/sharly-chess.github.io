@@ -78,16 +78,17 @@ Détection et calcul automatiques des normes de GM, MI, GMF et MIF selon l'ensem
 
 _Sharly Chess_ intègre un serveur web offrant un ensemble complet d'écrans pour l'affichage public et la saisie des résultats.
 
-- **Types d'écran** — pointage, saisie des résultats, appariements par échiquier ou par joueur·euse, derniers résultats, classement et grille américaine, et images.
-- **Rotateurs** — séquences d'écrans à défilement automatique pour les affichages sans surveillance. Voir [Rotateurs]({% link docs/screens/rotators.fr.md %}).
+- **Types d'écran** — pointage, appariements par échiquier ou par ordre alphabétique, derniers résultats, classement et grille américaine, et images, sur une page ou réparties automatiquement sur plusieurs pages. Les écrans de pointage et d'appariements peuvent accepter les pointages et les résultats des joueur·euses.
+- **Écrans rotatifs** — séquences d'écrans à défilement automatique pour les affichages sans surveillance. Voir [Écrans rotatifs]({% link docs/screens/rotators.fr.md %}).
 - **Menus** — voir [Menus]({% link docs/screens/menus.fr.md %}).
-- **Contrôleurs d'affichage** — écrans physiques que vous pouvez affecter à distance à n'importe quel écran ou rotateur. Voir [Contrôleurs d'affichage]({% link docs/screens/display-controllers.fr.md %}).
-- **Comptes à rebours** — minuteurs publics avec couleurs et délais configurables. Voir [Minuteurs]({% link docs/screens/timers.fr.md %}).
+- **Flux** — des appareils pilotés depuis l'ordinateur de l'arbitre : envoyez-leur un écran, un écran paginé, un écran rotatif ou un menu. Voir [Flux]({% link docs/screens/display-controllers.fr.md %}).
+- **Données fictives** — préparez les écrans avant le début du tournoi, sur une première ronde inventée. Voir [Données fictives]({% link docs/screens/index.fr.md %}#fake-data).
+- **Comptes à rebours** — minuteurs publics avec couleurs et délais configurables. Voir [Chronomètres]({% link docs/screens/timers.fr.md %}).
 - **Chess 960** — affichage des positions de départ aux joueur·euses.
 
 ## Documents et impression
 
-Une vaste bibliothèque de documents imprimables : listes de joueur·euses et de pointage, appariements, calendriers de Toutes-Rondes, tableaux de coupe, tables Molter et Scheveningen, feuilles de partie, résultats, classements individuels et par équipes, grilles américaines, grilles Berger, listes de prix et reçus, statistiques, rapports de normes, QR codes et cartons de table. Voir [Documents]({% link docs/documents/index.fr.md %}) pour la liste complète.
+Une vaste bibliothèque de documents imprimables : listes de joueur·euses et de pointage, appariements, calendriers de Toutes-Rondes, tableaux de coupe, tables Molter et Scheveningen, feuilles de partie, résultats, classements individuels et par équipes, grilles américaines, grilles toutes-rondes, listes de prix et reçus, statistiques, rapports de normes, QR codes et cartons de table. Voir [Documents]({% link docs/documents/index.fr.md %}) pour la liste complète.
 
 Les [chevalets de table]({% link docs/documents/place-cards.fr.md %}) — chevalets des joueur·euses, des échiquiers, des appariements et des équipes — sont construits à partir de modèles personnalisables, conçus dans l'éditeur visuel intégré, avec repères de coupe optionnels.
 
@@ -109,7 +110,7 @@ _Sharly Chess_ peut être accessible par d'autres arbitres sur le réseau local,
 
 Un seul serveur s'adresse à trois publics à la fois :
 
-- **Public / spectateur·ices** — vues d'écrans simples, d'écrans rotatifs et de contrôleur d'affichage en direct, mises à jour en temps réel.
+- **Public / spectateur·ices** — écrans, écrans rotatifs, menus et flux en direct, mis à jour en temps réel, accessibles depuis la page Affichage de l'évènement.
 - **Saisie sur site** — saisie et modification des résultats, auto-pointage des joueur·euses et des équipes, et enregistrement des coups illégaux.
 - **Console organisateur** — administration complète des événements, tournois, joueur·euses, pointage, appariements et résultats, équipes, prix, championnats, écrans, minuteurs, comptes et documents. Elle s'adapte aux écrans de téléphone, pour saisir les résultats depuis un smartphone dans la salle de jeu.
 

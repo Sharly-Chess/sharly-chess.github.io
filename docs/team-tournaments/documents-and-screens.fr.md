@@ -22,7 +22,7 @@ types habituels.
   systèmes qui apparient des équipes entières.
 - **Classement par équipes** — le classement des équipes, avec les départages que
   vous avez configurés.
-- **Grille Berger par équipes** — la grille des rencontres en toutes‑rondes avec les
+- **Grille toutes-rondes par équipes** — la grille des rencontres en toutes‑rondes avec les
   scores des matchs. Disponible pour le système **Toutes‑rondes par équipes**.
 - **Calendrier toutes-rondes** — les rencontres de chaque ronde, construites à partir
   des tables de Berger, donc disponibles avant que les rondes ne soient appariées.
@@ -36,8 +36,8 @@ Les affichages à l'écran pour les événements par équipes sont :
 
 - **Pointage des équipes** — les équipes se marquent présentes pour la ronde.
 - **Matchs par équipes** — les appariements de la ronde affichés en blocs d'échiquiers
-  équipe contre équipe.
-- **Saisie des résultats** — saisie des résultats échiquier par échiquier.
+  équipe contre équipe. Comme tout écran d'appariements, il peut [accepter la saisie des
+  résultats]({% link docs/screens/single-screens.fr.md %}#accepting-input), échiquier par échiquier.
 - **Classement par équipes** — le classement des équipes en direct.
 
 {: .note }

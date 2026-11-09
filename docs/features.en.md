@@ -78,16 +78,17 @@ Automatic detection and calculation of GM, IM, WGM and WIM norms following the f
 
 _Sharly Chess_ includes a built-in web server offering a full set of screens for public display and result entry.
 
-- **Screen types** — check-in, results entry, pairings by board or by player, last results, ranking and cross-table, and images.
+- **Screen types** — check-in, pairings by board or by player, last results, ranking and cross-table, and images, on one page or split automatically over several pages. Check-in and pairings screens can accept check-ins and results from players.
 - **Rotators** — auto-cycling sequences for unattended displays. See [Rotators]({% link docs/screens/rotators.en.md %}).
 - **Menus** — see [Menus]({% link docs/screens/menus.en.md %}).
-- **Display controllers** — physical screens you can remotely assign to any screen or rotator. See [Display Controllers]({% link docs/screens/display-controllers.en.md %}).
+- **Feeds** — devices you drive from the arbiter's computer: send them a screen, a paged screen, a rotator or a menu. See [Feeds]({% link docs/screens/display-controllers.en.md %}).
+- **Fake data** — set the screens up before the tournament starts, on a made-up first round. See [Fake data]({% link docs/screens/index.en.md %}#fake-data).
 - **Timers** — public countdown timers with configurable colours and delays. See [Timers]({% link docs/screens/timers.en.md %}).
 - **Chess 960** — display start positions to the players.
 
 ## Documents & printing
 
-A large library of printable documents: player and check-in lists, pairings, round robin schedules, knock-out brackets, Molter and Scheveningen tables, match sheets, results, individual and team rankings, cross-tables, Berger grids, prize lists and receipts, statistics, norm reports, QR codes and place cards. See [Documents]({% link docs/documents/index.en.md %}) for the full list.
+A large library of printable documents: player and check-in lists, pairings, round robin schedules, knock-out brackets, Molter and Scheveningen tables, match sheets, results, individual and team rankings, cross-tables, round-robin grids, prize lists and receipts, statistics, norm reports, QR codes and place cards. See [Documents]({% link docs/documents/index.en.md %}) for the full list.
 
 [Place cards]({% link docs/documents/place-cards.en.md %}), available for players, boards, pairings and teams, are built from customisable templates, designed in the built-in visual editor, with optional crop marks.
 
@@ -109,7 +110,7 @@ _Sharly Chess_ can be accessed by other arbiters over the local network, with fi
 
 One server serves three audiences at once:
 
-- **Public / spectator** — live screen, rotator and display-controller views that update in real time.
+- **Public / spectator** — live screens, rotators, menus and feeds that update in real time, found from the event's Display page.
 - **On-site input** — result entry and editing, player and team self check-in, and illegal-move recording.
 - **Organiser console** — full administration of events, tournaments, players, check-in, pairings and results, teams, prizes, championships, screens, timers, accounts and documents. It adapts to phone screens, so results can be entered from a smartphone in the playing hall.
 

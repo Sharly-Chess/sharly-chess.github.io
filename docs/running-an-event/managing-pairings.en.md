@@ -123,9 +123,9 @@ If it doesn’t match, the row is highlighted in red and input is paused until y
 ## Self-entry by Players
 
 Instead of entering results yourself, you can provide a device (tablet or laptop) for players to enter the results themselves.
-This reduces workload and helps avoid errors. See the [Screens]({% link docs/screens/index.en.md %}) section for setup details.
+This reduces workload and helps avoid errors. Any pairings screen can be set to accept results: see [Accepting input]({% link docs/screens/single-screens.en.md %}#accepting-input).
 
-Results entered on an input screen, or on the pairings screen of another arbiter, appear on your own screen immediately.
+Results entered on a screen, or on the pairings screen of another arbiter, appear on your own screen immediately.
 
 ---
 

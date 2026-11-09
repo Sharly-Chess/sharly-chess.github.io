@@ -1,0 +1,62 @@
+{%- comment -%}
+  What can be shown, and how it reaches a device: the diagram of the Display
+  tabs in the application, each box leading to its page.
+  The labels come from display_diagram.yml (include.lang).
+{%- endcomment -%}
+{%- assign l = site.data.display_diagram -%}
+{%- assign lang = include.lang -%}
+<div class="display-diagram" role="group" aria-label="{{ l.title[lang] }}">
+  <div class="dd-shows">
+    <div class="dd-heading">{{ l.what[lang] }}</div>
+    <div class="dd-choices">
+      <a class="dd-node dd-screen" href="{% link docs/screens/single-screens.{{ lang }}.md %}">
+        <div class="dd-title">{{ l.screen[lang] }}</div>
+        <div class="dd-kinds">
+          <div>
+            <div class="dd-description">{{ l.one_page[lang] }}</div>
+            <div class="dd-pages" aria-hidden="true"><span class="current"></span></div>
+          </div>
+          <div>
+            <div class="dd-description">{{ l.several_pages[lang] }}</div>
+            <div class="dd-pages" aria-hidden="true"><span class="current"></span><span></span><span></span></div>
+          </div>
+        </div>
+      </a>
+      <a class="dd-node" href="{% link docs/screens/rotators.{{ lang }}.md %}">
+        <div class="dd-title">{{ l.rotator[lang] }}</div>
+        <div class="dd-description">{{ l.rotator_description[lang] }}</div>
+        <div class="dd-pages dd-pages-rotator" aria-hidden="true"><span class="current"></span><i class="bi-chevron-right"></i><span></span><i class="bi-chevron-right"></i><span></span><i class="bi-arrow-repeat"></i></div>
+      </a>
+      <a class="dd-node" href="{% link docs/screens/menus.{{ lang }}.md %}">
+        <div class="dd-title">{{ l.menu[lang] }}</div>
+        <div class="dd-description">{{ l.menu_description[lang] }}</div>
+        <div class="dd-pages dd-pages-menu" aria-hidden="true"><span class="current"></span><span></span><span></span></div>
+      </a>
+    </div>
+    <a class="dd-note" href="{% link docs/screens/timers.{{ lang }}.md %}">{{ l.timers[lang] }}</a>
+  </div>
+  <div class="dd-routes">
+    <div class="dd-heading">{{ l.how[lang] }}</div>
+    <div class="dd-route">
+      <i class="bi-arrow-right dd-arrow" aria-hidden="true"></i>
+      <div class="dd-direct">
+        <div class="dd-title">{{ l.directly[lang] }}</div>
+        <div class="dd-description">{{ l.directly_description[lang] }}</div>
+      </div>
+      <i class="bi-arrow-right dd-arrow" aria-hidden="true"></i>
+    </div>
+    <div class="dd-route">
+      <i class="bi-arrow-right dd-arrow" aria-hidden="true"></i>
+      <a class="dd-node" href="{% link docs/screens/display-controllers.{{ lang }}.md %}">
+        <div class="dd-title"><i class="bi-laptop" aria-hidden="true"></i> {{ l.feed[lang] }}</div>
+        <div class="dd-description">{{ l.feed_description[lang] }}</div>
+        <div class="dd-description">{{ l.feed_pages[lang] }}</div>
+      </a>
+      <i class="bi-arrow-right dd-arrow" aria-hidden="true"></i>
+    </div>
+  </div>
+  <div class="dd-devices" aria-hidden="true">
+    <div><div class="dd-device"></div>{{ l.projector[lang] }}</div>
+    <div><div class="dd-device-stack"><i></i><i></i><i></i></div>{{ l.tablets[lang] }}</div>
+  </div>
+</div>

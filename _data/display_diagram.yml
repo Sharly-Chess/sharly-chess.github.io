@@ -1,0 +1,79 @@
+# Labels of the Display diagrams, as worded in the application.
+title:
+  en: What can be shown, and how it reaches a device
+  fr: Ce qui peut être affiché, et comment cela arrive sur un appareil
+what:
+  en: What to show
+  fr: Quoi afficher
+how:
+  en: How it reaches a device
+  fr: Comment cela arrive sur un appareil
+screen:
+  en: Screen
+  fr: Écran
+one_page:
+  en: One or more tournaments, on one page
+  fr: Un ou plusieurs tournois, sur une page
+several_pages:
+  en: One tournament, over several pages
+  fr: Un seul tournoi, sur plusieurs pages
+rotator:
+  en: Rotator
+  fr: Écran rotatif
+rotator_description:
+  en: Different screens in turn, automatically
+  fr: Différents écrans à tour de rôle, automatiquement
+menu:
+  en: Menu
+  fr: Menu
+menu_description:
+  en: Screens people tap between
+  fr: Des écrans entre lesquels on navigue en touchant
+timers:
+  en: Timers can be added to screens, paged screens and rotators.
+  fr: Les chronomètres peuvent être ajoutés aux écrans, aux écrans paginés et aux écrans rotatifs.
+directly:
+  en: Directly
+  fr: Directement
+directly_description:
+  en: Open its link on the device. To change what it shows, go to the device.
+  fr: Ouvrez son lien sur l'appareil. Pour changer ce qu'il affiche, allez sur l'appareil.
+feed:
+  en: Through a feed
+  fr: Par un flux
+feed_description:
+  en: Open the feed once on the device, then change what it shows from the arbiter computer.
+  fr: Ouvrez le flux une fois sur l'appareil, puis changez ce qu'il affiche depuis l'ordinateur de l'arbitre.
+feed_pages:
+  en: A screen over several pages goes through them in turn; send one page from its details to keep a feed on it.
+  fr: Un écran sur plusieurs pages les fait défiler à tour de rôle ; envoyez une page depuis ses détails pour y fixer un flux.
+projector:
+  en: Projector
+  fr: Vidéoprojecteur
+tablets:
+  en: Tablets
+  fr: Tablettes
+one_page_description:
+  en: You choose what goes on the page. It can mix tournaments.
+  fr: Vous choisissez ce qui figure sur la page. Elle peut mélanger plusieurs tournois.
+several_pages_description:
+  en: One tournament, split automatically into as many pages as you ask for.
+  fr: Un seul tournoi, réparti automatiquement sur autant de pages que vous le demandez.
+use_it_when:
+  en: Use it when
+  fr: À utiliser quand
+one_page_use:
+  en: everything fits on one page.
+  fr: tout tient sur une page.
+several_pages_use:
+  en: one tournament is too long for one page.
+  fr: un tournoi est trop long pour une seule page.
+boards:
+  en: boards
+  fr: échiquiers
+page:
+  en: Page
+  fr: Page
+one_page_count:
+  en: 1 page
+  fr: 1 page

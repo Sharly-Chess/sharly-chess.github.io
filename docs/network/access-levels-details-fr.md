@@ -22,12 +22,12 @@ Autorise l'appariement des joueur·euses, en utilisant un moteur d'appariement o
 Autorise l'accès à l'interface des joueur·euses et des appariements, la modification des coups illégaux et des résultats (héritage : Pointage sur écrans publics, Saisie des résultats sur écrans publics).
 
 ### 🟢 POI Pointage sur écrans publics
-Autorise le pointage des joueur·euses sur des écrans de saisie publics (héritage : Visualisation).
+Permet le pointage sur tout écran public acceptant la saisie (héritage : Visualisation).
 
 ### 🟢 RÉS Saisie des résultats sur écrans publics
-Autorise la saisie des résultats sur des écrans de saisie publics (héritage : Visualisation).
+Permet la saisie des résultats sur tout écran public acceptant la saisie (héritage : Visualisation).
 
 ### 🟢 SPE Visualisation
 Autorise l'accès aux écrans publics.
 
-<!-- Généré par le script generate_access_levels_doc.py (2026-10-09 10:30) -->
+<!-- Généré par le script generate_access_levels_doc.py (2026-11-09 13:26) -->

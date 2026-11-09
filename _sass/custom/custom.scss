@@ -1111,3 +1111,320 @@ img.no-border, img.emoji {
     }
   }
 }
+
+// The Display diagrams, drawn as in the application's dark theme.
+$dd-surface: #1e2126;
+$dd-border: #42464f;
+$dd-text: #ebe9e4;
+$dd-muted: #aaaeb6;
+$dd-sand: rgba(215, 201, 170, .4);
+
+.display-diagram {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) auto;
+  gap: .5rem;
+  align-items: center;
+  margin: 1.5rem 0;
+  color: $dd-text;
+
+  a, a:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .dd-heading {
+    margin-bottom: .35rem;
+    font-size: .75rem;
+    color: $dd-muted;
+  }
+
+  .dd-choices {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .5rem;
+    margin-bottom: .5rem;
+  }
+
+  .dd-node {
+    display: block;
+    padding: .5rem .75rem;
+    border: 1.5px solid $dd-border;
+    border-radius: 6px;
+    background: $dd-surface;
+  }
+
+  .dd-node:hover, .dd-node:focus-visible {
+    border-color: $dd-text;
+  }
+
+  .dd-screen {
+    grid-column: 1 / -1;
+  }
+
+  .dd-kinds {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .75rem;
+  }
+
+  .dd-kinds > div + div {
+    padding-left: .75rem;
+    border-left: 1px solid $dd-border;
+  }
+
+  .dd-title {
+    font-weight: 600;
+  }
+
+  .dd-description {
+    font-size: .8rem;
+    line-height: 1.3;
+    color: $dd-muted;
+  }
+
+  .dd-description + .dd-description {
+    margin-top: .3rem;
+  }
+
+  .dd-pages {
+    display: flex;
+    gap: .2rem;
+    margin-top: .35rem;
+  }
+
+  .dd-pages span {
+    width: 1.5rem;
+    height: 1rem;
+    border: 1.5px solid $dd-muted;
+    border-radius: 2px;
+  }
+
+  .dd-pages span.current {
+    background-color: $dd-sand;
+  }
+
+  .dd-pages-rotator {
+    align-items: center;
+    gap: .1rem;
+  }
+
+  .dd-pages-rotator i {
+    font-size: .6rem;
+    line-height: 1;
+    color: $dd-muted;
+  }
+
+  .dd-pages-rotator .bi-arrow-repeat {
+    margin-left: .15rem;
+    font-size: .8rem;
+  }
+
+  .dd-pages-menu span {
+    background-image: linear-gradient($dd-muted, $dd-muted);
+    background-size: 100% 1.5px;
+    background-position: 0 2.5px;
+    background-repeat: no-repeat;
+  }
+
+  .dd-note {
+    display: block;
+    padding: 0 .1rem;
+    font-size: .8rem;
+    color: $dd-muted !important;
+  }
+
+  .dd-note:hover {
+    text-decoration: underline;
+  }
+
+  .dd-routes {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    min-width: 0;
+  }
+
+  .dd-routes .dd-heading {
+    margin-bottom: 0;
+    padding-inline: 1.75rem;
+  }
+
+  .dd-route {
+    display: grid;
+    grid-template-columns: 1.25rem minmax(0, 1fr) 1.25rem;
+    gap: .25rem;
+    align-items: center;
+  }
+
+  .dd-direct {
+    padding: .5rem .75rem;
+    border: 1.5px dashed $dd-border;
+    border-radius: 6px;
+  }
+
+  .dd-arrow {
+    font-size: 1.25rem;
+    text-align: center;
+    color: $dd-muted;
+  }
+
+  .dd-devices {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    font-size: .75rem;
+    white-space: nowrap;
+    color: $dd-muted;
+  }
+
+  .dd-device {
+    width: 4rem;
+    height: 2.5rem;
+    margin: 0 auto .2rem;
+    border: 1.5px solid $dd-muted;
+    border-radius: 4px;
+  }
+
+  .dd-device-stack {
+    position: relative;
+    width: 4.5rem;
+    height: 3.1rem;
+    margin: 0 auto .2rem;
+  }
+
+  .dd-device-stack i {
+    position: absolute;
+    width: 3.75rem;
+    height: 2.5rem;
+    border: 1.5px solid $dd-muted;
+    border-radius: 6px;
+    background: $dd-surface;
+  }
+
+  .dd-device-stack i:nth-child(1) { top: 0; left: .75rem; }
+  .dd-device-stack i:nth-child(2) { top: .3rem; left: .375rem; }
+  .dd-device-stack i:nth-child(3) { top: .6rem; left: 0; }
+
+  @media (max-width: 767.98px) {
+    grid-template-columns: minmax(0, 1fr);
+
+    .dd-devices {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .dd-route {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .dd-routes .dd-heading {
+      padding-inline: 0;
+    }
+
+    .dd-arrow {
+      display: none;
+    }
+  }
+}
+
+.display-compare {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: .75rem;
+  margin: 1.5rem 0;
+  color: $dd-text;
+
+  .dc-panel {
+    display: flex;
+    flex-direction: column;
+    padding: .75rem;
+    border: 1px solid $dd-border;
+    border-radius: 6px;
+    background: $dd-surface;
+  }
+
+  .dc-title {
+    margin-bottom: .5rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0 0 .5rem;
+  }
+
+  .dc-pages {
+    display: flex;
+    flex: 1;
+    gap: .4rem;
+    margin-bottom: .5rem;
+  }
+
+  .dc-pages-one {
+    justify-content: center;
+  }
+
+  .dc-pages-one .dc-page {
+    flex: 0 1 11rem;
+  }
+
+  .dc-page {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: .3rem;
+    min-width: 0;
+    padding: .35rem;
+    border: 1.5px solid $dd-muted;
+    border-radius: 4px;
+    text-align: center;
+    color: $dd-muted;
+  }
+
+  .dc-set {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    padding: .25rem;
+    border-radius: 4px;
+    background: rgba(215, 201, 170, .22);
+    color: $dd-text;
+    font-size: .75rem;
+    font-weight: 600;
+  }
+
+  .dc-set.other {
+    background: rgba(170, 174, 182, .22);
+  }
+
+  .dc-use {
+    margin-bottom: 0 !important;
+    font-size: .875rem;
+  }
+}
+
+// Lines led by an icon: the icon hangs in the margin, so that wrapped text
+// lines up with the text that follows it rather than running under it.
+.icon-list ul,
+ul.icon-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  > li {
+    position: relative;
+    margin: 0;
+    padding-left: 1.6em;
+
+    &::before {
+      content: none !important;
+    }
+
+    > i:first-child {
+      position: absolute;
+      left: 0;
+    }
+  }
+}

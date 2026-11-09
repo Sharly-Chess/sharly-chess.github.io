@@ -14,7 +14,7 @@ Utiliser _Sharly Chess_ pour gérer le pointage des joueur·euses permet de dém
 Il existe plusieurs façons de gérer le pointage :
 
 - Vous pouvez pointer les joueur·euses directement depuis l’interface d’administration.
-- Si vous avez des tablettes ou ordinateurs accessibles aux joueur·euses, ils·elles peuvent se pointer eux·elles-mêmes via un écran dédié.
+- Si vous avez des tablettes ou ordinateurs accessibles aux joueur·euses, ils·elles peuvent se pointer eux·elles-mêmes sur un [écran de pointage]({% link docs/screens/single-screens.fr.md %}#accepting-input) qui accepte la saisie.
 - Alternativement, si vous avez plusieurs machines mais préférez limiter l’accès direct des joueur·euses, le staff ou des bénévoles peuvent utiliser ces écrans pour pointer les participant·e·s, ce qui permet de répartir la charge de travail.
 - Pour un événement lié à _Sharly-Chess.com_, les joueur·euses peuvent se pointer en ligne depuis leur téléphone : voir [Pointage en ligne]({% link docs/events/check-in.fr.md %}).
 
@@ -27,16 +27,18 @@ Pour lancer le pointage, rendez-vous sur l'onglet' **Joueur·euses** dans l’in
 Vous pouvez choisir pour quels tournois ouvrir le pointage.
 
 Une fois le pointage ouvert, le statut de pointage de chaque joueur·euse est affiché dans le tableau :
-> <i class="bi-circle-fill" style="color: #ffc107; padding-right: 0.3rem;"></i> joueur·euse non pointé·e<br />
-> <i class="bi-circle-fill" style="color: #198754; padding-right: 0.3rem;"></i> joueur·euse pointé·e<br />
-> <i class="bi-ban" style="color: #6c757d; padding-right: 0.3rem;"></i> joueur·euse absent·e
+
+{: .icon-list }
+> - <i class="bi-circle-fill" style="color: #ffc107;"></i> joueur·euse non pointé·e
+> - <i class="bi-circle-fill" style="color: #198754;"></i> joueur·euse pointé·e
+> - <i class="bi-ban" style="color: #6c757d;"></i> joueur·euse absent·e
 
 Cliquez sur l’icône pour modifier le statut.
 
 {: .tip }
 > :point_right: Utilisez le filtre pour n’afficher que les joueur·euses non pointé·es. Cela permet d’identifier rapidement les absences.
 
-Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordinateurs secondaires), voir la section [Écrans]({% link docs/screens/index.fr.md %}).
+Pour gérer le pointage depuis d’autres appareils (comme des tablettes ou ordinateurs secondaires), voir la section [Affichage]({% link docs/screens/index.fr.md %}).
 
 {: .tip }
 > :point_right: Vous devrez actualiser votre navigateur de temps en temps pour voir les changements effectués depuis d’autres appareils.

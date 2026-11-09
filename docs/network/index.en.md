@@ -60,7 +60,7 @@ To make an event accessible, you must first mark the event as **public**.
 Even then, devices will only see content if you also create a _Screen_ that is marked as **public**.
 
 {: .tip }
-> :point_right: Public Screens are visible to everyone on the network. If a Screen is an _Input Screen_, players will be able to use it to **enter their results or to check-in**.
+> :point_right: Public Screens are visible to everyone on the network. If a Screen [accepts input]({% link docs/screens/single-screens.en.md %}#accepting-input), players will be able to use it to **enter their results or to check in**.
 
 Extra access can be given to staff members through [Staff Accounts]({% link docs/network/staff.en.md %}).
 
