@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 5.2.5 - November 10, 2026
+- On the standard team place card, the captain is printed under the team name instead of over the event name, and in the light admin view the previews of the place card templates are outlined so that the edges of the cards can be seen (with the light theme)
+- A new arbiter norm report fills in the _FIDE_ Arbiter (FA1) or International Arbiter (IA1) norm form for the candidate chosen, with the figures of the tournaments chosen and, when one is chosen, the signee; every field can be edited before printing or downloading the form as a Word file
+- Unrated players are ranked on the estimate the _FFE_ list gives them, as on the federal site, when it differs from the estimate of their category: an estimate their club asked for, or 1399 at a cadence where they lost a _FIDE_ rating, instead of the estimate by age, such as 799 for a U10 in rapid. The estimate of a younger category, which the list may still give a player who has since moved up, is still replaced by the estimate of their category. The rating check proposes these estimates to the players of existing events and no longer sets them apart as values typed by the arbiter
+
 ## Version 5.2.4 - November 9, 2026
 - The lists of events follow the plugins installed or uninstalled, so that an event that needs a plugin can be opened as soon as the plugin is installed, without refreshing the page
 - In every list that can be reordered by dragging, the place a dragged item will land is shown as an empty slot, instead of a second copy of the item

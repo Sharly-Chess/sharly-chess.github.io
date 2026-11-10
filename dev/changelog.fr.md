@@ -9,6 +9,11 @@ separator: true
 
 # Changelog
 
+## Version 5.2.5 - 10 novembre 2026
+- Sur les chevalets d'équipe standard, le nom du capitaine est désormais imprimé sous le nom de l'équipe plutôt qu'au-dessus du nom de l'événement ; Par ailleurs, dans l'interface d'administration, les aperçus des modèles de fiches d'identification sont présentés avec un contour visible, permettant ainsi de distinguer les bords de chaque fiche (pour le thème clair)
+- Un nouveau rapport de norme d'arbitre permet de préremplir le formulaire de norme d'Arbitre _FIDE_ (FA1) ou d'Arbitre International (IA1) pour le·la candidat·e sélectionné·e, en y intégrant les données des tournois choisis ainsi que le nom du·de la signataire (lorsqu'il est renseigné). Chaque champ reste modifiable avant l'impression ou le téléchargement du formulaire au format Word.
+- Pour les joueur·euses non classé·es, le système utilise désormais l'estimation fournie par la liste de la _FFE_ (conformément au site fédéral) lorsque celle-ci diffère de l'estimation théorique liée à leur catégorie d'âge. Il peut s'agir, par exemple, d'une estimation spécifique demandée par le club, ou d'un classement de 1399 pour un·e joueur·euse ayant perdu son classement _FIDE_ dans une cadence donnée — remplaçant ainsi l'estimation par défaut basée sur l'âge (comme 799 pour un·e joueur·euse U10 en cadence rapide). De même, si la liste attribue encore à unŸe joueur·euse l'estimation d'une catégorie d'âge inférieure (alors qu'il·elle a depuis changé de catégorie), celle-ci est automatiquement remplacée par l'estimation correspondant à sa catégorie actuelle. Lors de la vérification des classements, ces estimations sont proposées pour les joueur·euses participant aux événements existants ; elles ne sont plus distinguées comme étant des valeurs saisies manuellement par l'arbitre
+
 ## Version 5.2.4 - 9 novembre 2026
 - Les listes d'événements sont mises à jour en fonction de l'installation ou de la désinstallation des plugins ; ainsi, un événement nécessitant un module peut être ouvert dès que celui-ci est installé, sans qu'il soit nécessaire d'actualiser la page
 - Dans toutes les listes pouvant être réorganisées par glisser-déposer, l'emplacement où l'élément déplacé sera déposé est matérialisé par un espace vide, plutôt que par une seconde copie de l'élément
