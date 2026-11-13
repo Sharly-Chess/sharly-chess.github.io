@@ -9,6 +9,33 @@ separator: true
 
 # Changelog
 
+## Version 5.2.6 - November 13, 2026
+- On Windows, an event imported while _Sharly Chess_ was run as administrator can be opened when it is run normally, instead of being refused by Windows. Events that are already refused can be opened again by running `icacls "%LOCALAPPDATA%\Sharly Chess\data" /reset /t` from a command prompt run as administrator, before updating so that they are carried over to the new version
+- The browser opens as soon as _Sharly Chess_ has started, instead of waiting, possibly forever, for the home page to load, and events that cannot be opened no longer slow down every page
+- On Windows, _Sharly Chess_ is started again as the user after an update, instead of as administrator
+- An event or championship file that Windows refuses no longer stops _Sharly Chess_ from starting after an update: it is left in the folder of the previous version and the others are carried over
+- On Windows, the addresses of Hyper-V virtual switches, such as an external switch bridging the network card, are offered among the network interfaces instead of being ignored; the switches Windows creates for its own internal networks (Default Switch, WSL) are still left out
+- The TRF export of a team tournament lists each team's players in their registration order, as the format requires, instead of in the lineup of the round being paired; the lineups of the rounds played are given by their own records
+- A player who replaces another is given their own ratings, instead of the ratings of the player replaced
+- The ratings update proposes to drop a _FIDE_ rating the _FIDE_ list no longer gives, in favour of the rating the national list gives, such as the 1399 estimate of the _FFE_ for a player who lost their _FIDE_ rating
+- When the ratings update only has the sources of some ratings to bring up to date, the window says so, instead of saying that all the ratings are up to date beside an enabled Update button
+- Importing players no longer fails with an error when a player of the file is rated only at another cadence than the tournaments of the event: the comparison shows them on their estimate
+- The comment, email, phone, fixed board, _FIDE_ ID and national ID columns of the players tab can be shown even when no player has a value for them; they are then hidden by default
+- A player who leaves a team no longer keeps their place in the lineups set for its next rounds, where the pairing still seated them for the team they had left and the match sheet then printed the opposing player in their place; the board they held is left empty
+- A player who has played for a team, a pairing-allocated bye included, can no longer leave it, whether removed from its roster or moved to another team
+- A team that has been paired can no longer be deleted, which deleted its matches with it; its delete button is no longer offered
+- A pairing engine that does not answer within 30 seconds is stopped and reported, instead of leaving the application unresponsive; its input file is kept for the arbiter to send to the _Sharly Chess_ team
+- In team Swiss tournaments, changing a lineup no longer changes the colours, and sometimes the opponents, given by the following pairings, and avoiding teams of the same club no longer rejects legal pairings or reports that no pairing exists
+- In team Swiss tournaments, a round where many teams at the top of the standings may not meet one another, such as the third round of the _FFE_ cups when many teams have won both of their first two matches, is paired at once instead of never finishing
+- Opened from the pairings tab, the documents window proposes the round displayed, including after the next round has just been paired, instead of the round displayed when the tab was first opened
+- Match sheets of up to eight boards are printed larger, across the width of a landscape page, which the PDF files downloaded from the documents follow; the PDF and Word files of the other documents laid out in landscape, such as the knock-out bracket, are now in landscape too
+- Without an arbiter chosen in the documents window, the match sheets leave the arbiter's name blank, to be written by hand, instead of printing the chief arbiter of the tournament
+- The printed documents have a new, more legible look: a common font, header and table style, and a footer on every page giving the event, when the document was printed and the page number. The pairings and results are laid out around the result, with the players' points at the edges, and the pairings can leave a boxed space to write the results in by hand; the prize list, the prize assignment and the ranking by club are set out as tables
+- On a slow network, the result window of an input screen no longer shows the previous game's buttons while the next game is loading, which recorded the result tapped for the previous game instead of the one chosen
+- A result entered on an input screen is refused, with a warning, when another device has changed the game's result since the window opened, and an illegal move tapped twice or sent twice on a slow network is counted once
+- The team ranking screens show the tie-breaks where the lowest value wins, such as the lowest own average rating of the Loubatière cup, as positive values, as the admin view and the printed documents do
+- A school can be added to an event while the French schools database is not installed or is still downloading, by entering its name, city and postal code, instead of the add button staying disabled
+
 ## Version 5.2.5 - November 10, 2026
 - On the standard team place card, the captain is printed under the team name instead of over the event name, and in the light admin view the previews of the place card templates are outlined so that the edges of the cards can be seen (with the light theme)
 - A new arbiter norm report fills in the _FIDE_ Arbiter (FA1) or International Arbiter (IA1) norm form for the candidate chosen, with the figures of the tournaments chosen and, when one is chosen, the signee; every field can be edited before printing or downloading the form as a Word file
