@@ -9,6 +9,15 @@ separator: true
 
 # Changelog
 
+## Version 5.2.7 - 13 novembre 2026
+- Sous macOS, la fenêtre de l'application est redimensionnée une seule fois pour s'adapter à l'onglet affiché, en conservant sa position supérieure fixe ; elle ne se déplace plus inutilement lors de son agrandissement vers l'onglet des paramètres
+- Lorsque l'intitulé d'un champ passe au-dessus de sa zone de saisie, les boutons situés à côté du champ (comme ceux relatifs à l'établissement scolaire, à l'affiliation à une équipe, aux étiquettes ou au modèle de fiche de table) s'alignent désormais sur la zone de saisie plutôt que sur l'intitulé ; ce dernier est ainsi clairement dissocié du champ situé au-dessus
+- Le bouton Modèles des chevalets permet à nouveau d'accéder à l'éditeur, au lieu de se contenter de fermer la fenêtre des documents
+- Lors de l'impression de chevalets pour des appariements, il est désormais possible d'inclure la date et l'heure programmées de la ronde
+- L'ajout, le remplacement ou la suppression d'une image dans un écran dédié permet de récupérer l'espace disque précédemment occupé dans le fichier de l'événement ; auparavant, ce fichier conservait une taille importante, correspondant à celle qu'il avait lorsque ses images les plus volumineuses y étaient stockées
+- L'ouverture du formulaire d'un tournoi par équipes — pour modification ou duplication — ne génère plus d'exception non interceptée : les listes du plug-in _FFE_ ne sont désormais interrogées qu'une seule fois au lieu de deux, et les requêtes annulées par le navigateur ne sont plus consignées comme des erreurs
+- Le bouton Ajouter associé au champ Établissement scolaire est désormais disponible dès l'ouverture du formulaire joueur, que la base de données des établissements scolaires français soit installée ou non ; par ailleurs, ce champ bénéficie désormais du même espacement que les autres éléments du formulaire
+
 ## Version 5.2.6 - 13 novembre 2026
 - Sous Windows, un événement importé alors que _Sharly Chess_ était exécuté en tant qu'administrateur peut désormais être ouvert même lorsque le logiciel est lancé en mode utilisateur normal, sans être bloqué par Windows. Les événements déjà bloqués peuvent être rendus accessibles en exécutant la commande `icacls "%LOCALAPPDATA%\Sharly Chess\data" /reset /t` depuis une invite de commande ouverte en mode administrateur ; cette opération doit être effectuée avant la mise à jour pour permettre le transfert de ces événements vers la nouvelle version
 - Le navigateur s'ouvre dès le démarrage de _Sharly Chess_, sans attendre indéfiniment le chargement de la page d'accueil ; par ailleurs, les événements qui ne peuvent pas être ouverts ne ralentissent plus l'affichage des autres pages

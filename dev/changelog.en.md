@@ -9,6 +9,15 @@ separator: true
 
 # Changelog
 
+## Version 5.2.7 - November 13, 2026
+- On macOS, the application window is resized once to the tab being displayed, keeping its top in place, instead of moving about while it grows to the settings tab
+- When the label of a field wraps above its input, the buttons beside the field, such as those of the school, the team affiliation, the tags and the place card template, line up with its input instead of its label, and the label stands apart from the field above
+- The Templates button of the place cards opens the place card templates again, instead of only closing the documents window
+- Pairing place cards can print the scheduled date and time of their round
+- Adding, replacing or removing the image of an image screen gives back the space the previous images took in the event file, which kept it as large as when its biggest images were stored
+- Opening the form of a tournament of a team event, to edit or duplicate it, no longer reports an uncaught exception: the lists of the _FFE_ plugin are asked for once instead of twice, and a request the browser cancels is no longer logged as an error
+- The add button of the school field can be used as soon as the player form opens, whether or not the French schools database is installed, instead of staying disabled, and the school field is spaced like the other fields of the form
+
 ## Version 5.2.6 - November 13, 2026
 - On Windows, an event imported while _Sharly Chess_ was run as administrator can be opened when it is run normally, instead of being refused by Windows. Events that are already refused can be opened again by running `icacls "%LOCALAPPDATA%\Sharly Chess\data" /reset /t` from a command prompt run as administrator, before updating so that they are carried over to the new version
 - The browser opens as soon as _Sharly Chess_ has started, instead of waiting, possibly forever, for the home page to load, and events that cannot be opened no longer slow down every page
