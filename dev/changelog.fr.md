@@ -9,6 +9,16 @@ separator: true
 
 # Changelog
 
+## Version 5.2.8 - 15 novembre 2026
+- Lorsqu'une page est ré-affichée via le bouton Précédent du navigateur, chaque liste déroulante n'est générée qu'une seule fois ; on évite ainsi l'apparition d'une seconde copie inerte à côté du sélecteur de l'onglet des appariements, ce qui rendait auparavant le sélecteur de tournoi inutilisable
+- _Sharly Chess_ ne se fige plus en attendant une réponse d'Internet : les requêtes vers _Sharly-Chess.com_ et d'autres services en ligne — comme les moteurs d'appariement ou la vérification des mises à jour — s'exécutent désormais en arrière-plan. L'interface (écrans, tablettes, etc.) reste donc parfaitement réactive. Sur un réseau dont la résolution de noms n'est pas encore opérationnelle (par exemple, lors de l'établissement d'une connexion via un point d'accès mobile), _Sharly-Chess.com_ est désormais signalé comme inaccessible après 3 secondes, évitant ainsi le blocage complet de l'application pendant environ 30 secondes à chaque tentative
+- Lorsqu'un)e joueur·euse trouvé via la fonction de recherche en remplace un·e autre, il·elle conserve les informations associées au·à la joueur·euse remplacé·e (commentaires, mél, téléphone, montants dus ou réglés, numéro d'échiquier fixe et byes), au lieu que ces champs soient effacés
+- Un·e joueur·euse retiré·e du tournoi après l'appariement de sa partie (par exemple suite à la saisie d'un forfait) peut être réintégré·e via le bouton Retourner dans le tournoi présent dans son historique, au lieu que l'application ne propose systématiquement que l'option de retrait
+- Il est désormais possible de saisir un résultat sur un échiquier où l'équipe adverse n'a aligné aucun· joueur·euse : le·la joueur·euse présent·e remporte la partie par forfait, ou le résultat est enregistré comme F-F (double forfait) si le·la joueur·euse présent·e est également absent·z ; auparavant, le bouton de saisie du résultat restait désactivé
+- Sur l'onglet Appariements, les boutons  Journal et Interdit conservent désormais la même hauteur que les autres boutons d'appariement lorsqu'ils affichent un compteur, évitant ainsi tout décalage visuel
+- Sur un écran de saisie géré par un contrôleur d'affichage, sélectionner une partie ouvre bien la fenêtre de résultat correspondante, évitant ainsi une erreur qui pouvait parfois ouvrir la fenêtre d'un autre échiquier (par exemple, afficher l'échiquier 1 alors que l'on a sélectionné l'échiquier 25)
+- Les coups illégaux enregistrés sur un écran de saisie ne sont désormais visibles que par le personnel autorisé à les consigner, et non plus par tous les joueurs consultant l'écran
+
 ## Version 5.2.7 - 13 novembre 2026
 - Sous macOS, la fenêtre de l'application est redimensionnée une seule fois pour s'adapter à l'onglet affiché, en conservant sa position supérieure fixe ; elle ne se déplace plus inutilement lors de son agrandissement vers l'onglet des paramètres
 - Lorsque l'intitulé d'un champ passe au-dessus de sa zone de saisie, les boutons situés à côté du champ (comme ceux relatifs à l'établissement scolaire, à l'affiliation à une équipe, aux étiquettes ou au modèle de fiche de table) s'alignent désormais sur la zone de saisie plutôt que sur l'intitulé ; ce dernier est ainsi clairement dissocié du champ situé au-dessus

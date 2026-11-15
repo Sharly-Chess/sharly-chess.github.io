@@ -9,6 +9,16 @@ separator: true
 
 # Changelog
 
+## Version 5.2.8 - November 15, 2026
+- A page shown again with the browser's Back button draws each of its drop-down lists once, instead of drawing a second, lifeless copy beside the round selector of the pairings tab and leaving the tournament selector unusable
+- _Sharly Chess_ no longer freezes while it waits for the internet: requests to _Sharly-Chess.com_ and the other online services, the pairing engines and the update check run in the background, so the screens, tablets and other pages keep answering. On a network that cannot resolve names yet, such as a phone hotspot still connecting, _Sharly-Chess.com_ is reported as unreachable after 3 seconds instead of blocking the whole application for about 30 seconds each time
+- A player found by the search who replaces another keeps the comment, email, phone, owed and paid amounts, fixed board and byes setting of the player replaced, instead of these being emptied
+- A player withdrawn from the tournament after their game of the current round was paired, for instance once a forfeit has been entered, can be brought back with the Return to tournament button of their history, instead of being offered a withdrawal again
+- A board where the opposing team fielded no player can take a result again: the player present wins by forfeit, or the board is recorded as F-F when that player did not show up either, instead of the result button staying disabled
+- The Log and Prohibited buttons keep the height of the other pairing buttons when they show a count, instead of growing out of line with them
+- On an input screen shown through a display controller, tapping a game opens the result window of that game, instead of sometimes opening the window of another board of the round, such as board 1 for board 25
+- The illegal moves recorded on an input screen are shown only to the staff allowed to record them, instead of to every player reading the screen
+
 ## Version 5.2.7 - November 13, 2026
 - On macOS, the application window is resized once to the tab being displayed, keeping its top in place, instead of moving about while it grows to the settings tab
 - When the label of a field wraps above its input, the buttons beside the field, such as those of the school, the team affiliation, the tags and the place card template, line up with its input instead of its label, and the label stands apart from the field above
