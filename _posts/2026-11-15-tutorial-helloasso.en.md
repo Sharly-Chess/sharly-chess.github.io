@@ -1,6 +1,6 @@
 ---
 title: Sharly-Chess.com and HelloAsso
-date: 2026-11-15 20:00:00 +0200
+date: 2026-11-15 09:00:00 +0200
 categories: news
 layout: post
 page_id: post-2026-11-15
