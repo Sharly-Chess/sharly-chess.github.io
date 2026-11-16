@@ -67,7 +67,7 @@ sudo dnf install discover                          # Fedora (déjà inclus)
 
 ## Étape 3 : Activer Flathub
 
-Flathub n'est **pas configuré par défaut** sur la plupart des distributions. Il doit être ajouté manuellement. Sharly Chess en a besoin pour télécharger ses dépendances (environnement GNOME).
+Flathub n'est **pas configuré par défaut** sur la plupart des distributions. Il doit être ajouté manuellement. _Sharly Chess_ en a besoin pour télécharger ses dépendances (environnement GNOME).
 
 ```bash
 # Ajouter Flathub en mode utilisateur (sans sudo)
@@ -95,7 +95,7 @@ Si vous venez d'installer Flatpak pour la **première fois**, vous **devez redé
 
 ---
 
-## Étape 5 : Installer Sharly Chess
+## Étape 5 : Installer _Sharly Chess_
 
 ```bash
 flatpak remote-add --user --if-not-exists sharly-chess \
@@ -116,13 +116,19 @@ flatpak run com.sharlychess.SharlyChess
 
 Lors du premier lancement, votre navigateur web par défaut s'ouvrira pour afficher l'interface de _Sharly Chess_ et vous permettre de configurer vos préférences.
 
-Lors des exécutions suivantes, Sharly Chess ouvrira l'interface d'administration dans votre navigateur web par défaut.
+Lors des exécutions suivantes, _Sharly Chess_ ouvrira l'interface d'administration dans votre navigateur web par défaut.
+
+Si vous rencontrez l'erreur `Error 71 (Protocol error) dispatching to Wayland display`, utilisez cette commande pour lancer _Sharly Chess_ : 
+
+```bash
+flatpak run --env=__NV_DISABLE_EXPLICIT_SYNC=1 com.sharlychess.SharlyChess
+```
 
 ---
 
 ## Mises à jour
 
-Sharly Chess se met à jour automatiquement en même temps que vos autres applications Flatpak. Pour forcer une mise à jour :
+_Sharly Chess_ se met à jour automatiquement en même temps que vos autres applications Flatpak. Pour forcer une mise à jour :
 
 ```bash
 flatpak update --user
