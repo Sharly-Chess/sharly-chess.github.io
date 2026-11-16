@@ -118,12 +118,6 @@ Lors du premier lancement, votre navigateur web par défaut s'ouvrira pour affic
 
 Lors des exécutions suivantes, _Sharly Chess_ ouvrira l'interface d'administration dans votre navigateur web par défaut.
 
-Si vous rencontrez l'erreur `Error 71 (Protocol error) dispatching to Wayland display`, utilisez cette commande pour lancer _Sharly Chess_ : 
-
-```bash
-flatpak run --env=__NV_DISABLE_EXPLICIT_SYNC=1 com.sharlychess.SharlyChess
-```
-
 ---
 
 ## Mises à jour

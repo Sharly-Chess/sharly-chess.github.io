@@ -118,12 +118,6 @@ When run for the first time it will open your default web browser to display the
 
 On subsequent runs, _Sharly Chess_ will open the admin interface in your default web browser.
 
-If you get error `Error 71 (Protocol error) dispatching to Wayland display`, use this command to launch _Sharly Chess_: 
-
-```bash
-flatpak run --env=__NV_DISABLE_EXPLICIT_SYNC=1 com.sharlychess.SharlyChess
-```
-
 ---
 
 ## Updates
