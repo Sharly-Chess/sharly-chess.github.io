@@ -134,6 +134,37 @@ than half** of their games is dropped from the final standings and their games
 are annulled — they no longer count in the opponents' scores and tie-breaks
 (the results stay in the crosstable).
 
+### Replacing a player
+
+Once a round-robin is closed to newcomers, a player who leaves can still be
+replaced. Add the replacement from the players tab as usual: when the
+tournament chosen has started, the form asks for the player to replace and the
+round from which the replacement takes over. The replacement takes the seat of
+the player who left: their Berger number, their remaining opponents and their
+colours. The games of the rounds before are left as they were, and the
+tournament keeps its number of rounds and its schedule. Several players can be
+replaced at once, and a replacement can be replaced in turn.
+
+The player who left and their replacement are both ranked, each with the
+points of the games they played. Their games are not annulled:
+every other player still meets that seat once, so all of them keep the same
+number of games. In the tie-breaks, the seat counts as a single opponent, worth
+the points scored by everyone who held it, so beating the player who left and
+beating their replacement are worth the same.
+
+The Berger grid gives the seat a single line, naming each player with the
+rounds they played and their own score and tie-breaks. The standings and the
+crosstable list them separately, with the same rounds.
+
+A replacement entered by mistake can be deleted until they play their first game
+in the seat: the player who left then gets the seat back.
+
+Neither _FIDE_ nor Papi has a rule for a player replacing another in an
+individual round-robin. The TRF gives the tournament as a custom round-robin
+and states each replacement in a comment, and the
+TRF and Papi exports warn about it: check with the rating officer before
+submitting the tournament.
+
 ---
 
 ## Knock-out
