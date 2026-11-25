@@ -15,8 +15,8 @@ separator: true
 ### Display
 
 - A single [Display]({% link docs/screens/index.en.md %}) section, with a Guide explaining how it all fits together
-- A [setup assistant]({% link docs/screens/setup-assistant.en.md %}) that creates the screens, menus and channels in one go
 - Display controllers are renamed [channels]({% link docs/screens/display-controllers.en.md %}), and can show any screen, page, rotator or menu, driven from the arbiter's computer
+- A [setup assistant]({% link docs/screens/setup-assistant.en.md %}) that creates the screens, menus and channels in one go
 - Screens and multiple screens are [merged]({% link docs/screens/single-screens.en.md %}#one-page-or-several-pages): one page with several tournaments, or one tournament over several pages
 - [Result entry]({% link docs/screens/single-screens.en.md %}#accepting-input) is an option of the pairings screens, including the alphabetical pairings, replacing the results entry screens
 - [Fake data]({% link docs/screens/index.en.md %}#fake-data) to set up the screens before the first round

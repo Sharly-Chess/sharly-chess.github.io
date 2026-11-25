@@ -14,21 +14,21 @@ separator: true
 
 ### Affichage
 
-- Une seule section [Affichage]({% link docs/screens/index.fr.md %}), avec un Guide qui explique comment tout s'articule
-- Un [assistant de création]({% link docs/screens/setup-assistant.fr.md %}) qui crée les écrans, les menus et les canaux en une seule fois
+- Un seul onglet [Affichage]({% link docs/screens/index.fr.md %}), avec un guide qui explique comment tout s'articule
 - Les pilotes d'afficheur sont renommés [canaux]({% link docs/screens/display-controllers.fr.md %}), et peuvent afficher tout écran, page, écran rotatif ou menu, pilotés depuis l'ordinateur de l'arbitre
-- Les écrans et les écrans multiples sont [réunis]({% link docs/screens/single-screens.fr.md %}#one-page-or-several-pages) : une page avec plusieurs tournois, ou un tournoi sur plusieurs pages
+- Un [assistant de création]({% link docs/screens/setup-assistant.fr.md %}) qui crée les écrans, les menus et les canaux en une seule fois
+- Les écrans et les écrans multiples sont [réunis]({% link docs/screens/single-screens.fr.md %}#one-page-or-several-pages) : une page avec plusieurs tournois, ou un tournoi sur plusieurs pages
 - La [saisie des résultats]({% link docs/screens/single-screens.fr.md %}#accepting-input) devient une option des écrans d'appariements, y compris par ordre alphabétique, à la place des écrans de saisie
 - Des [données fictives]({% link docs/screens/index.fr.md %}#fake-data) pour préparer les écrans avant la première ronde
 - Un écran de [grille toutes-rondes]({% link docs/screens/single-screens.fr.md %}#round-robin-grids)
 - Une seule [page Affichage]({% link docs/screens/index.fr.md %}#visitors) pour les visiteur·euses
 - Les écrans de classement peuvent [masquer des colonnes]({% link docs/screens/single-screens.fr.md %}#columns-displayed)
 - Des [chronomètres]({% link docs/screens/timers.fr.md %}) plus simples, qui peuvent reprendre le calendrier d'un tournoi
-- Les écrans se mettent à jour au fil des changements, et gardent toujours leurs couleurs claires
+- Les écrans se mettent à jour en temps-réel sans délai, et gardent toujours leurs couleurs claires
 
 ### Gestion de l'évènement
 
-- Une page Journal consigne ce qui est fait à un évènement, par qui et d'où
+- Une page Journal consigne ce qui est fait sur un évènement, par qui et d'où
 - Les onglets des joueur·euses et des appariements suivent les résultats et pointages saisis ailleurs, sans rechargement
 - Tous les tournois d'un évènement peuvent être appariés ou publiés en une fois
 - Les résultats peuvent être saisis sur une ronde non publiée, après l'avoir déverrouillée
@@ -37,17 +37,17 @@ separator: true
 ### Toutes-rondes
 
 - Un·e joueur·euse qui quitte un toutes-rondes individuel peut être remplacé·e par un·e nouvel·le venu·e
-- Un toutes-rondes joué jusqu'au bout sans publier ses rondes est classé
+- La classement d'un toutes-rondes joué jusqu'au bout sans publier ses rondes peut être généré
 
 ### Documents
 
 - Des diplômes pour les joueur·euses d'une catégorie de prix
-- La liste des joueur·euses et la liste de pointage permettent de choisir les colonnes à imprimer
+- On peut choisir les colonnes à imprimer pour la liste des joueur·euses et la liste de pointage 
 
 ### Autres améliorations
 
-- Une équipe peut être fixée à une table
-- Chaque tournoi reprend son propre lieu depuis _Sharly-Chess.com_
+- Une équipe peut avoir une table fixe
+- Chaque tournoi peut recevoir sa propre localisation depuis _Sharly-Chess.com_
 - Les compétitions par équipes _FFE_ ne sont téléversées qu'à la demande, avec une confirmation avant de vider un groupe
 - Des raccourcis clavier dans l'onglet des joueur·euses et pour les boutons doubles
 
