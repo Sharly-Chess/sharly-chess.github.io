@@ -51,6 +51,14 @@ separator: true
 - _FFE_ team competitions are only uploaded when asked, with a confirmation before a group is emptied
 - Keyboard shortcuts in the players tab and for split buttons
 
+## Version 5.2.9 - November 18, 2026
+- On Linux, _Sharly Chess_ no longer crashes when clicking on the Plugins and Logs buttons on the console
+- A team round is paired on the match points of the standings when a game-point penalty or bonus changes the result of a match, such as the penalty for a game lost by forfeit in the Jean-Claude Loubatière Cup turning a drawn match into a defeat, instead of on the points of the result over the board
+- In a Molter tournament, a team with fewer players than boards no longer stops the pairings of the next rounds from opening, and the boards it leaves empty are penalised only in the rounds that have been paired
+- In a Molter tournament, a board where the other team fielded no player can be recorded as F-F when the player present did not show up either, as in a team match, instead of only being unpaired
+- Place card templates can print the players' points, and player cards their rank in the standings, so that a template can be used to print certificates at the end of a tournament; pairing cards print each player's points before the round. The templates can also print the number of rounds, the number of players and the maximum points of the tournament, to print a score as "6½ / 9" or a rank as "3rd of 42"
+- Sending a team competition to the _FFE_ team module only saves the match reports that changed, so that an upload takes seconds instead of minutes once several rounds have been played. The uploads of a tournament no longer run side by side, which could register a team twice or delete the match reports of the other upload, and the results entered during an upload are sent by the next one instead of being taken as sent. An FFE website that stops answering no longer holds the uploads, and a failed upload is tried again after 1, 5 and 15 minutes
+
 ## Version 5.2.8 - November 15, 2026
 - A page shown again with the browser's Back button draws each of its drop-down lists once, instead of drawing a second, lifeless copy beside the round selector of the pairings tab and leaving the tournament selector unusable
 - _Sharly Chess_ no longer freezes while it waits for the internet: requests to _Sharly-Chess.com_ and the other online services, the pairing engines and the update check run in the background, so the screens, tablets and other pages keep answering. On a network that cannot resolve names yet, such as a phone hotspot still connecting, _Sharly-Chess.com_ is reported as unreachable after 3 seconds instead of blocking the whole application for about 30 seconds each time
