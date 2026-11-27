@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 5.3.1 - 27 novembre 2026
+- L'assistant de création d'écrans affiche ce qu'il crée sur le canal choisi
+- L'assistant de création d'écrans demande la présentation avant les tournois, avec une page par tournoi aussi pour les écrans de pointage, d'appariements et de classement
+- Plusieurs écrans du même type peuvent être modifiés ou supprimés en une fois
+- Les départages du championnat de France scolaire commencent par les points
+
 ## :point_right: Version 5.3.0 - 25 novembre 2026
 *La version 5.3 repense la configuration des écrans. Lisez [Les écrans repensés dans Sharly Chess 5.3]({% link _posts/2026-11-25-display.fr.md %}) pour une vue d'ensemble.*
 

@@ -9,6 +9,12 @@ separator: true
 
 # Changelog
 
+## Version 5.3.1 - November 27, 2026
+- The screen setup assistant shows what it creates on the chosen channel
+- The screen setup assistant asks for the layout before the tournaments, with a page per tournament also for the check-in, pairings and standings screens
+- Several screens of the same type can be edited or deleted at once
+- The French school championship tie-breaks start with the points
+
 ## :point_right: Version 5.3.0 - November 25, 2026
 *Version 5.3 rethinks how the screens are set up. Read [The screens rethought in Sharly Chess 5.3]({% link _posts/2026-11-25-display.en.md %}) for an overview.*
 
